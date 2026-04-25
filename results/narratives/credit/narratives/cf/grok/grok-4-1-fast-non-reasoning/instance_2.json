@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-25T21:46:14.948371",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model predicts an 84% chance that you represent a bad credit risk, based on details like your 60-month loan duration, the 6,836 DM amount you're requesting for a business purpose, and your history of past payment delays. This high risk score means the model sees your profile as significantly riskier than typical approved applicants, who on average request just 2,887 DM over 19 months, often for safer purposes like radios, TVs, or new cars, and have cleaner credit histories in 50-85% of cases. To help you understand the decision, we've analyzed \"what if\" scenarios—counterfactuals—that show the minimal changes needed to flip the prediction to a good credit risk and get approved.\n\nWe generated three such scenarios, and in every single one, three key factors had to change together: shortening your loan duration from 60 months to 24 months, switching the purpose from business (which is uncommon among approvals at only 9%) to a used car purchase, and reducing the credit amount from 6,836 DM to around 2,957 DM—a drop of about 3,879 DM on average. No other aspects of your situation shifted in these scenarios, including your checking account status under 0 DM, savings below 100 DM, long employment over 7 years, low 3% installment rate matching approved averages, two existing credits, skilled job, home ownership, or having one dependent and a registered telephone. These unchanged elements are solid in the model's eyes, aligning well with approved profiles where, for instance, 75% own their housing and 65% hold skilled jobs.\n\nYour current request stands out sharply: the business purpose is riskier than the 32% of approvals for everyday items like radios or TVs, your duration doubles the typical approved length, and your amount more than doubles the average—pushing the model toward denial despite strengths like no other debtors or installment plans. To realistically flip this to approval, focus on these core levers you can control: cut your timeline to about two years, aim for a used car need instead if feasible (or something similarly low-risk), and scale back to roughly 3,000 DM, which fits comfortably within 1970s German salary norms of 10,000-20,000 DM annually. Making even this combination of adjustments would likely satisfy the model, as shown across all three scenarios, without needing to alter your stable employment, residence of 4 years, or property situation. By targeting these, you could align much closer to the approved applicant profile and improve your odds significantly.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

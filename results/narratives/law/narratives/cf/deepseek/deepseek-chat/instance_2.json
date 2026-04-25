@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "cf",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-25T21:47:57.015768",
+  "status": "success",
+  "narrative": "Your application was rejected because the model predicts a 51.8% chance you will fail the bar exam on your first attempt, which is just above the threshold for approval. This prediction is based on your academic record and background, not on your gender or race, which were not used in the decision.\n\nThe model considered \"what if\" scenarios to understand what changes could flip this outcome. It generated three alternative versions of your profile where the prediction would change to \"pass.\" In every single one of these scenarios, the only factor that changed was your undergraduate GPA (ugpa), which dropped from your current 3.40 to 3.20. This means the model sees your GPA as the single most important lever for improving your chances.\n\nYour other features—your Year 1 and Year 3 school deciles (2.00 and 1.00), your LSAT score (36.00), your family income (lower-middle), and your full-time study status—remained unchanged in all counterfactuals. This suggests these factors are not the primary barriers. For context, students who passed the bar typically had higher decile averages (around 6.04 and 5.91) and a slightly higher average LSAT (37.27), but your GPA is already above the passing average of 3.24.\n\nThe key insight is that the model considers your GPA to be the most realistic and impactful area for change. To flip the prediction, you would need to lower your GPA by 0.2 points, which is counterintuitive—it suggests the model may view a slightly lower GPA as more aligned with a typical passing profile, perhaps because it balances other factors. However, since this is a small adjustment, focusing on strengthening your academic record in other ways, like improving your school deciles or LSAT score, could also help, even though they didn't change in these scenarios. Your current situation shows that even a minor shift in your GPA could make the difference, so consider how to present your academic strengths more effectively in future applications.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

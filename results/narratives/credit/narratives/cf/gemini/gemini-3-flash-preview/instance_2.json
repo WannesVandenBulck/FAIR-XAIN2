@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "cf",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-25T21:43:10.889081",
+  "status": "success",
+  "narrative": "Based on our analysis, your application for a 6,836 DM business loan was declined because the model identified an 84% probability of credit risk. While you have strong stability as a homeowner and a long-term skilled employee, several factors regarding the loan's structure significantly exceeded the typical profile of approved applicants. For instance, your requested duration of 60 months is more than triple the 19-month average seen in successful applications, and the loan amount is more than double what is usually approved. To help you understand how to improve your chances, we looked at \"what if\" scenarios—alternative versions of your application that the model would have accepted. We generated three specific scenarios where your credit would be classified as \"good,\" and in every single case, the same three adjustments were required. The most critical change involved the length of the loan, which consistently needed to drop from 60 months down to just 24 months. Simultaneously, the total amount requested had to be reduced by an average of 3,879 DM, bringing the total loan down to approximately 2,957 DM. Interestingly, the model also suggested that changing the loan's purpose from a business venture to purchasing a used car would significantly lower your risk profile. It is worth noting that 14 other factors, including your employment history, housing status, and even your current savings level, did not need to change for the model to flip its decision. This suggests that your personal background is not the primary hurdle; rather, it is the specific combination of a high-value, long-term business loan that is causing the rejection. To move forward, you might consider applying for a much smaller amount that can be repaid over a shorter two-year window. If your financial needs allow, reframing the loan for a different purpose, such as a vehicle, would align your application with the 11.8% of approved applicants who successfully borrowed for used cars. While your current checking account status is below 0 DM and you have had past credit delays, the model indicates these are manageable if the loan terms themselves are more conservative. Essentially, the model is looking for a more modest request that matches the typical repayment patterns of other successful borrowers in your profession. By reducing the loan amount by about 57% and shortening the term significantly, you could transform this \"bad credit risk\" prediction into an approved \"good credit\" status.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

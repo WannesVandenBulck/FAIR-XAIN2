@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-25T21:41:21.671114",
+  "status": "success",
+  "narrative": "Your application for admission was carefully reviewed using a model that evaluates the likelihood of success on the bar exam, and based on your specific profile, the model predicted a 51% probability that you would not pass the exam on your first attempt. This prediction, which leans slightly toward a negative outcome, resulted in the decision to deny your application at this time. When looking at your background, you present as a dedicated student with a high undergraduate GPA of 3.70, which is notably higher than the 3.24 average seen in students who successfully pass the bar. This strong academic foundation, along with your LSAT score of 34.00, actually served as the primary factors suggesting you have the potential to succeed. While your LSAT is a bit lower than the typical passing average of 37.27, the model viewed both your undergraduate performance and your test scores as positive indicators that pushed your prediction toward a passing result. However, the most significant factor that led to the predicted failure was your academic standing during your third year of law school studies. Your placement in the bottom decile during that final year represents a sharp contrast to the average student who passes the bar, who typically ranks in the sixth decile. This specific downward trend in your law school grades was the most influential piece of information, heavily outweighing the strengths found in your earlier undergraduate work. The model also considered your status as a part-time student from a lower-middle-income background, though these factors were less influential than your academic trajectory. Because the model prioritizes recent academic performance as a predictor of bar exam readiness, your third-year ranking created a high level of concern regarding your first-time pass rate. To improve your chances for future applications, it would be beneficial to demonstrate a more consistent upward trend in your academic rankings or to consider retaking the LSAT to further bolster your academic profile. Focusing on the specific areas of law that challenged you during your third year could help bridge the gap between your high undergraduate potential and your recent law school performance. Ultimately, while your undergraduate record is exemplary, the model requires more reassurance that your recent academic standing will translate into a successful bar exam result.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

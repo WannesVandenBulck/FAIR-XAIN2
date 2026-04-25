@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-25T21:49:36.106088",
+  "status": "success",
+  "narrative": "As you consider your recent law school application decision, it's important to understand the factors that influenced the outcome. The model predicted a 51% probability that you might not pass the bar exam on your first attempt, which led to the rejection of your application. This prediction was primarily influenced by a few key aspects of your academic profile.\n\nYour performance in Year 3 of your studies was a significant factor. You were placed in the first decile, which is lower compared to the average decile of 5.91 for students who typically pass the bar exam. This suggests that your grades in that year were not as strong as those of many successful candidates, which contributed to the model's prediction that you might struggle with the bar exam.\n\nOn a more positive note, your undergraduate GPA was actually higher than the average for students who passed, which worked in your favor. This indicates that your overall academic ability is strong, and it was a factor that pushed the prediction towards a more favorable outcome. Additionally, your LSAT score, while slightly below the average of 37.27 for those who passed, still contributed positively, albeit to a lesser extent, suggesting that your test-taking skills are solid.\n\nGiven these insights, it might be beneficial to focus on strengthening areas where your performance was below average, such as improving your academic standing in future studies or retaking the LSAT to achieve a higher score. This could enhance your profile for future applications. Remember, this decision is not a reflection of your potential but rather an opportunity to address specific areas that could improve your chances of success in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

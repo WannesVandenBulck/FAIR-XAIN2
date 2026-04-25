@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-25T21:45:52.347747",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 51.8% chance that you would fail it—crossing the threshold we use to flag higher-risk applicants. This prediction draws from your academic record, LSAT score, undergraduate performance, family background, and enrollment plans, while setting aside factors like gender and race. The most influential factor pushing toward this failure prediction was your Year 3 class decile ranking of 1st decile, meaning you placed in the bottom tenth of your peers that year; among students who passed the bar, the average was a much stronger 5.91st decile. This low ranking stood out as the top driver, signaling to the model a potential struggle with sustaining performance in later law school years. Counterbalancing this somewhat was your LSAT score of 36, which is close to the 37.27 average among bar passers and pulled the prediction toward success as the second-most important positive factor. Similarly, your undergraduate GPA of 3.40 exceeded the 3.24 average for those who passed, providing another meaningful boost toward a passing prediction. Other elements, like your lower-middle family income bracket—rarer at 9.4% among bar passers compared to upper-middle or middle incomes for most—along with your full-time enrollment plans, played supporting roles but weren't the main influencers here. Overall, your Year 3 decile outweighed the strengths in your LSAT and undergrad GPA, tipping the model toward rejection when compared to typical accepted students who maintain consistently higher decile rankings throughout. As a Hispanic male from a lower-middle income background, your profile shows real potential in those standout test and GPA areas, but the model prioritizes proven consistency in school rankings for bar success. To move forward, consider retaking the LSAT to push closer to or above the 37.27 average, strengthening your Year 3 performance through targeted study habits or additional coursework if possible, and gathering letters highlighting your resilience from a full-time rigorous path. Reapplying after addressing these gaps could shift your predicted odds favorably, as even small improvements in top factors like deciles have flipped decisions for similar applicants.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

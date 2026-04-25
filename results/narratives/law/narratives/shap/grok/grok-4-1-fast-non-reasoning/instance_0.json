@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-25T21:45:41.552488",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 51% chance that you would fail it—slightly above the threshold we use for admission decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.70, LSAT score of 34, Year 1 grade decile of 3, and Year 3 decile of 1, along with your lower-middle family income bracket, part-time enrollment plans, and background as a white female student. The model weighed these factors against patterns from thousands of past students, focusing on the strongest influences for your specific profile. The most decisive factor pushing toward a failure prediction was your Year 3 grade decile of 1, which is notably lower than the average of about 6 for those who passed the bar, signaling to the model a potential drop in performance that often correlates with bar struggles. Counterbalancing this, your undergraduate GPA of 3.70 stood out positively—higher than the 3.24 average among bar passers—helping pull the prediction toward success and softening the overall risk assessment. Your LSAT score of 34 also contributed favorably in the same way, though it fell short of the 37.27 average for successful students, providing some reassurance but not enough to offset the top concern. Compared to typical admitted students, who are overwhelmingly full-time enrollees from middle or upper-middle income families with stronger later-year deciles, your part-time status and lower-middle income aligned less with proven bar-passing profiles, though they weren't the primary drivers here. While your strong undergrad performance is a bright spot that exceeded norms, the model prioritized your recent academic decile as the biggest red flag. This isn't a judgment on your potential or effort—it's a data-driven forecast based on historical outcomes. To strengthen future applications, consider strategies to boost your later-year performance, such as targeted tutoring or full-time study if feasible, and retake the LSAT to approach that 37+ range seen in passers. Gathering letters highlighting your resilience or any upward trends could also help contextualize your story for admissions teams. With focused improvements, you can shift these odds in your favor for the next cycle.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

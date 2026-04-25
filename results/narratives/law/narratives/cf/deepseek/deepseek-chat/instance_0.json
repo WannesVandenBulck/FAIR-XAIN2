@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-25T21:47:45.701999",
+  "status": "success",
+  "narrative": "Your application was rejected because the model predicts a 51% chance you would fail the bar exam on your first attempt, making it more likely than not that you would not pass. This decision is based on several factors about your academic background and personal circumstances, not on your gender or race, which were not used in the prediction.\n\nThink of counterfactuals as \"what if\" scenarios that show exactly what would need to change for the model to predict you would pass the bar exam. We explored three such scenarios, and they all point to the same key factor: your LSAT score. In every single counterfactual, the only change needed was to raise your LSAT score from 34 to 36—a modest increase of just 2 points. No other features, such as your undergraduate GPA, family income, or whether you study full-time, were altered in any scenario.\n\nThis tells us that your LSAT score is the single most important factor holding back your prediction. While your undergraduate GPA of 3.70 is actually higher than the average of 3.24 among students who passed, and your family income is lower-middle (a group that makes up only 9.4% of passers), these factors did not need to change in the counterfactuals. Your Year 1 and Year 3 school deciles (3.00 and 1.00) are also far below the averages of 6.04 and 5.91 for passers, yet the model focused solely on the LSAT.\n\nThe clear, actionable insight is that improving your LSAT score by just 2 points—from 34 to 36—would flip the prediction from \"fail\" to \"pass.\" This is a realistic and achievable goal, especially since the average LSAT among passers is 37.27. Focusing your preparation on raising your score by this small margin could make a decisive difference in your application outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

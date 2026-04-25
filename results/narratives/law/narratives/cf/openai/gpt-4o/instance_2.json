@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-25T21:50:17.206397",
+  "status": "success",
+  "narrative": "As you review your application for university admission, it's important to understand why the machine learning model predicted that you might not pass the bar exam on your first attempt, leading to the rejection of your application. The model estimated a 51.8% probability of failure, which is slightly above the threshold for concern. This prediction was primarily influenced by your academic performance in the first and third years of your studies, where your grades placed you in the lower deciles compared to peers who typically pass the bar exam. Additionally, your LSAT score, while close to the average of successful students, was slightly lower, and your family's income bracket was less common among those who passed.\n\nCounterfactuals are essentially \"what if\" scenarios that help us explore how small changes in certain factors could alter the model's prediction from failing to passing. In your case, three counterfactual scenarios were generated, each suggesting that a slight decrease in your undergraduate GPA would have been enough to change the prediction to a pass. Interestingly, none of the other factors, such as your LSAT score, family income, or full-time study status, needed to change in these scenarios.\n\nThe analysis showed that your undergraduate GPA was the only feature that consistently needed adjustment across all counterfactuals. Specifically, a reduction of just 0.2 points in your GPA was sufficient to flip the prediction. This suggests that your academic performance, particularly in your undergraduate studies, plays a crucial role in the model's assessment of your potential to pass the bar exam.\n\nGiven this insight, focusing on maintaining or slightly improving your academic performance could be a realistic and impactful strategy. While your GPA is already above the average of those who passed, ensuring it remains strong or even slightly improving it could enhance your chances. Additionally, while your LSAT score is close to the average, any opportunity to retake the test and improve your score could further strengthen your application. By concentrating on these areas, you can increase the likelihood of a favorable prediction in future applications.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

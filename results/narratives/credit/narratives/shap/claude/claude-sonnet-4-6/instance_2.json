@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-25T21:50:55.440898",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed, and the assessment found an 84% likelihood that you represent a credit risk — a high level of concern that ultimately led to the denial of your application. This decision was shaped by several aspects of your current financial profile, and understanding them may help you take steps toward a more favorable outcome in the future.\n\nThe single most influential factor in this decision was the current status of your checking account, which shows a negative balance. Among applicants who were approved, only about 1 in 5 had a negative checking account balance, while the majority either maintained a positive balance or had no checking account at all. A negative balance signals to the assessment that your day-to-day finances may already be under strain, which raises concerns about your ability to take on additional debt responsibly.\n\nThe second major concern was the length of the loan you requested — 60 months, or five full years. To put this in perspective, the average approved applicant requested a loan lasting just over 19 months. A longer loan duration means a longer period of financial commitment and exposure to risk, and combined with the loan amount of 6,836 DM — more than double the average of roughly 2,887 DM among approved applicants — the overall financial burden being requested is substantially higher than what is typical for someone who receives approval.\n\nAdding to these concerns, your property situation was noted as having no identifiable assets or collateral. While this alone would not necessarily disqualify an application, it means there is no financial safety net backing the loan. Among approved applicants, nearly 9 in 10 had some form of property — whether a car, real estate, or a savings-linked insurance policy — providing reassurance that the loan could be recovered in a worst-case scenario.\n\nOn a more positive note, your long employment history of seven or more years and the fact that you own your home are genuinely strong signals that work in your favor, and they did contribute positively to the assessment. To improve your chances in a future application, it would be worth working to bring your checking account into a positive balance, considering a shorter loan duration or a smaller loan amount, and if possible, documenting any assets you may hold as collateral. Speaking with a financial advisor could also help you structure a future application in a way that better reflects your overall stability.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

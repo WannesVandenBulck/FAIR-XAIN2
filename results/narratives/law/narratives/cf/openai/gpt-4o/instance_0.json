@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-25T21:50:07.292366",
+  "status": "success",
+  "narrative": "As you review your application for university admission, it's important to understand why the machine learning model predicted that you might not pass the bar exam on your first attempt, leading to the rejection of your application. The model assessed various aspects of your academic and personal background, ultimately estimating a 51% probability of failure. This prediction was primarily influenced by certain key factors in your profile.\n\nCounterfactual scenarios, or \"what if\" situations, help us explore how slight changes in your profile could alter the model's prediction to a more favorable outcome. In your case, three such scenarios were generated, each suggesting that a small increase in your LSAT score could significantly improve your chances of passing the bar exam. Specifically, raising your LSAT score from 34 to 36 was a consistent factor across all scenarios that flipped the prediction to a pass.\n\nInterestingly, other aspects of your profile, such as your undergraduate GPA, which is already above average at 3.70, and your family income bracket, did not change in these scenarios. This indicates that these factors are not the primary drivers of the model's prediction in your case. Similarly, your part-time work status and academic deciles from years one and three remained constant, suggesting that these elements are less critical to the model's decision.\n\nGiven this analysis, focusing on improving your LSAT score appears to be the most actionable step. A modest increase of just two points could make a significant difference in the model's prediction. This change is realistic and could be achieved through targeted study and preparation. By concentrating your efforts on this area, you could enhance your application and increase your likelihood of passing the bar exam, thereby improving your chances of admission.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

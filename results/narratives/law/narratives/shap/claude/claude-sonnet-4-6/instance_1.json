@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-25T21:51:24.609257",
+  "status": "success",
+  "narrative": "Your application to law school has been reviewed, and unfortunately, the assessment indicates a very high likelihood — approximately 99% — that you would not pass the bar exam on your first attempt, which is why your application has been rejected at this time. This decision was based on an analysis of your academic record and background, and understanding the specific factors behind it may help you chart a clearer path forward.\n\nThe single most influential factor in this outcome was your academic performance in your third year of law school, as reflected in your class ranking during that period. Your grades placed you in the 2nd decile of your school — meaning roughly 80% of your classmates performed above you — whereas students who successfully passed the bar exam averaged around the 6th decile. This gap is substantial and strongly signals to the model that your academic trajectory, particularly in the later and more advanced stages of legal study, would make passing the bar on the first try very difficult. The third-year curriculum tends to cover the most complex legal concepts, and performance at that stage is a strong predictor of bar exam readiness.\n\nYour first-year academic standing was the second most important factor, and it tells a similar story. Again, you ranked in the 2nd decile during your first year, compared to an average of around the 6th decile among students who passed the bar. This suggests that the academic challenges were not isolated to one period but were consistent throughout your legal studies, which compounds the concern about bar exam preparedness.\n\nThe third factor the model considered was your family income background. You come from an upper-middle income household, which is actually the most common bracket among students who passed the bar — about 45% of successful students share this background. While this factor did contribute slightly toward the prediction of failure, its influence was much smaller than your academic performance, and it should not be interpreted as a significant barrier in isolation.\n\nIt is worth noting that your LSAT score of 34 and undergraduate GPA of 2.90 also fall below the averages of students who passed (37.27 and 3.24, respectively), which paints a broader picture of academic preparation that the model took into account. Given all of this, the most constructive next step would be to focus on strengthening your academic foundation before reapplying. Consider retaking the LSAT to improve your score, seeking targeted tutoring in areas where your law school performance was weakest, or exploring preparatory bar exam courses that can help build the skills and knowledge needed to succeed. Reapplying after demonstrating measurable academic improvement would give your application a significantly stronger foundation.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

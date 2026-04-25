@@ -39,12 +39,14 @@ DATASETS = {
 }
 
 # LLM provider configuration
-LLM_PROVIDERS = ["openai", "anthropic", "grok", "ollama"]
+LLM_PROVIDERS = ["openai", "claude", "gemini", "grok", "deepseek", "mistral"]
 LLM_MODELS = {
-    "openai": ["gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"],
-    "anthropic": ["claude-3-opus-20240229", "claude-3-sonnet-20240229", "claude-3-haiku-20240307"],
-    "grok": ["grok-3-mini", "grok-4-1-fast-reasoning", "grok-4-1-fast-non-reasoning"],
-    "ollama": ["llama2", "mistral"],
+    "openai": ["gpt-4o"],
+    "claude": ["claude-sonnet-4-6"],
+    "gemini": ["gemini-3-flash-preview"],
+    "grok": ["grok-4-1-fast-non-reasoning"],
+    "deepseek": ["deepseek-chat"],
+    "mistral": ["mistral-large-latest"],
 }
 
 
@@ -90,9 +92,12 @@ def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai
         "provider": provider,
         "model": model or (
             "gpt-4o" if provider == "openai" 
-            else "claude-3-opus-20240229" if provider == "anthropic"
-            else "grok-3-mini" if provider == "grok"
-            else "llama2"
+            else "claude-sonnet-4-6" if provider == "claude"
+            else "gemini-3-flash-preview" if provider == "gemini"
+            else "grok-4-1-fast-non-reasoning" if provider == "grok"
+            else "deepseek-chat" if provider == "deepseek"
+            else "mistral-large-latest" if provider == "mistral"
+            else "gpt-4o"
         ),
         "timestamp": datetime.now().isoformat(),
         "status": "pending",
@@ -189,9 +194,12 @@ def save_experiment_pickle(results, args):
     """Save generated narratives in one aggregated experiment.pkl (SHAPnarrative-metrics style)."""
     model_name = args.model or (
         "gpt-4o" if args.provider == "openai"
-        else "claude-3-opus-20240229" if args.provider == "anthropic"
-        else "grok-3-mini" if args.provider == "grok"
-        else "llama2"
+        else "claude-sonnet-4-6" if args.provider == "claude"
+        else "gemini-3-flash-preview" if args.provider == "gemini"
+        else "grok-4-1-fast-non-reasoning" if args.provider == "grok"
+        else "deepseek-chat" if args.provider == "deepseek"
+        else "mistral-large-latest" if args.provider == "mistral"
+        else "gpt-4o"
     )
 
     # Match reference style: one binary file with all generated narratives for a run.
@@ -264,9 +272,12 @@ def main():
     print(f"Provider: {args.provider}")
     print(f"Model: {args.model or (
         'gpt-4o' if args.provider == 'openai' 
-        else 'claude-3-opus-20240229' if args.provider == 'anthropic'
-        else 'grok-3-mini' if args.provider == 'grok'
-        else 'default'
+        else 'claude-sonnet-4-6' if args.provider == 'claude'
+        else 'gemini-3-flash-preview' if args.provider == 'gemini'
+        else 'grok-4-1-fast-non-reasoning' if args.provider == 'grok'
+        else 'deepseek-chat' if args.provider == 'deepseek'
+        else 'mistral-large-latest' if args.provider == 'mistral'
+        else 'gpt-4o'
     )}")
     print(f"Instances to process: {len(instances)} instances")
     print(f"Output directory: {args.output_dir}")

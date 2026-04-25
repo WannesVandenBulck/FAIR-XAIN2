@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "cf",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-25T21:48:57.076314",
+  "status": "error",
+  "narrative": null,
+  "error": "Error calling mistral API: Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}",
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

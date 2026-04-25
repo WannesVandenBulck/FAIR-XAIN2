@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-25T21:46:54.778889",
+  "status": "success",
+  "narrative": "Based on your application, our system has determined that you represent a higher-than-acceptable credit risk, leading to the denial of your loan. The model calculated a 51% probability that you would be a bad credit risk, meaning it was slightly more confident you would have trouble repaying than not. This decision was not based on personal attributes like your age or gender, but on specific financial factors from your application.\n\nThe most significant factor was the status of your checking account, which showed a negative balance. This is a strong indicator of financial strain, as most approved applicants have a positive or at least a neutral balance. This single factor pushed the decision most heavily toward a denial.\n\nYour credit history also played a major role. While you have no existing credits and have paid all past ones, this is actually a very uncommon profile among approved applicants. Most approved borrowers have a history of managing existing credit, which builds a track record of reliability. Your lack of such a history made the model less confident in your ability to handle a new loan.\n\nOn a positive note, your ownership of real estate property worked in your favor, pushing the decision slightly toward approval. This asset provides some security, but it was not enough to outweigh the concerns from your checking account and credit history.\n\nTo improve your chances in the future, focus on building a positive credit history by taking on and successfully repaying a smaller credit. Additionally, work on maintaining a positive balance in your checking account to demonstrate better financial stability. These steps will help show lenders a more reliable financial profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "cf",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-25T21:49:04.948682",
+  "status": "success",
+  "narrative": "Here’s your personalized narrative explanation:\n\nYour application was reviewed alongside many others, and based on the information provided, the model estimates a 51.8% chance you would not pass the bar exam on your first attempt. This prediction led to the decision to reject your application. While this isn’t a definitive judgment of your abilities, it reflects how your profile compares to students who have historically passed the exam.\n\nTo understand what might change this outcome, we looked at \"what if\" scenarios—small adjustments to your profile that could shift the prediction from \"fail\" to \"pass.\" For example, what if your grades or test scores were slightly higher? Would that make a difference? In your case, we generated three alternative scenarios to explore this. Interestingly, the only change that consistently flipped the prediction was a small adjustment to your undergraduate GPA—specifically, lowering it by about 0.2 points. While this might seem counterintuitive, it suggests the model is highly sensitive to this factor in your specific situation, possibly because your current GPA is already slightly above the average for students who passed the bar exam.\n\nYour performance in your first and third years of law school, as reflected in your decile rankings, is significantly lower than the average for students who passed the exam. Most successful students ranked in the 6th decile or higher, while your rankings were in the 1st or 2nd decile. Your LSAT score is also just below the average for students who passed, though the difference is smaller. Your family’s income level places you in a bracket where fewer students typically pass the bar exam compared to those from higher-income backgrounds. However, the model didn’t suggest changing these factors in the alternative scenarios, likely because adjusting them would require much larger improvements to make a meaningful difference.\n\nGiven this, the most actionable insight is to focus on maintaining or even slightly improving your undergraduate GPA, as the model appears to weigh this heavily in your case. While your law school grades are a bigger challenge, they’re not impossible to address—consider seeking additional academic support, adjusting your study habits, or exploring part-time work to reduce stress. Small, consistent improvements in these areas could help shift the prediction in your favor. The goal isn’t to overhaul your entire profile but to make targeted, realistic changes that align with what the model prioritizes.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

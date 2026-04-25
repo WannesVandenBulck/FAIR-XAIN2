@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-25T21:41:32.578093",
+  "status": "success",
+  "narrative": "As a full-time student coming from an upper-middle-class background, your application reflects a dedicated commitment to your legal education. However, when reviewing your academic history, including your undergraduate GPA of 2.90 and your LSAT score of 34.00, the model identified patterns that suggest a high risk regarding the bar exam. Specifically, the analysis indicates a 99.2% probability that you would not pass the bar exam on your first attempt, which is the primary reason your application for admission was not accepted. The most significant factor in this decision was your class ranking during your third year of law school, where you placed in the 2nd decile. This is notably lower than the average for students who successfully pass the bar, who typically rank in the 6th decile by their final year. Similarly, your performance during your first year, where you also ranked in the 2nd decile, played a major role in the model's assessment. This consistency in the lower deciles suggests that the foundational legal concepts and test-taking skills required for the bar exam have been a persistent challenge throughout your studies. For comparison, students who go on to pass the exam usually start much higher, averaging around the 6th decile in their first year. Additionally, your family’s upper-middle-class income bracket was factored into the prediction, though its influence was less substantial than your academic rankings. While many successful applicants share this background, in your specific case, the model found that this demographic factor, when combined with your grades, further increased the statistical likelihood of a negative exam outcome. Your undergraduate GPA and LSAT scores also sit below the averages of 3.24 and 37.27 seen in passing students, reinforcing the model's conclusion. To improve your chances for future applications, you might consider focusing on intensive bar preparation courses or academic coaching to bridge the gap in your class ranking. Retaking the LSAT to achieve a score closer to the average of successful candidates could also significantly alter the model's outlook on your potential. Strengthening these core academic indicators will be essential in demonstrating your readiness for the rigors of the bar exam and the legal profession.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

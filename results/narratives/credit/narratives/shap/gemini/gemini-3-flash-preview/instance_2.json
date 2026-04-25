@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-25T21:40:56.000162",
+  "status": "success",
+  "narrative": "As a skilled professional with over seven years of steady employment, your background shows significant stability; however, your current application for a 6,836 DM business loan presents several high-risk indicators. Our assessment indicates an 84% probability that this loan would represent a significant credit risk, which has unfortunately resulted in a denial. The most influential factor in this decision is the current negative balance in your checking account, a situation shared by fewer than 20% of our successful borrowers. Having an account status below 0 DM suggests that your current cash flow may be stretched too thin to take on additional debt at this time. Another major concern is the 60-month duration you requested, which is more than triple the 19-month average for approved applications. Such a long repayment term increases the likelihood of unforeseen financial changes over the next five years, making the loan much riskier for the bank. Additionally, the absence of recorded property or assets to serve as collateral played a significant role in this outcome. While many successful applicants offer real estate or vehicles as security, your profile currently lists no such assets to back the 6,836 DM request. Your history of past payment delays also contributed to this negative prediction, as it suggests a pattern that the model views as a risk. Even though your long-term residency and housing situation are stable, they do not fully offset the immediate concerns regarding your account balance and the length of the loan. To move forward, we suggest focusing on bringing your checking account into a positive standing and maintaining it there for a period of time. You might also consider applying for a significantly smaller loan amount or a much shorter repayment period to better align with typical approved profiles. Finally, identifying a guarantor or providing proof of savings could help mitigate the risks associated with your lack of collateral.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

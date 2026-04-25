@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-25T21:49:28.421256",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and unfortunately, the application was denied. Let's explore why this decision was made and what factors were most influential. The model predicted an 84% probability that you might be a bad credit risk, which means there is a high likelihood that you could face challenges in repaying the loan based on your current financial profile.\n\nOne of the most significant factors influencing this decision was the status of your checking account. It appears that your account balance is below zero, which is less common among approved applicants, where the majority have a balance of at least zero or more. This suggests potential financial instability, which the model interpreted as a risk. Additionally, the duration of the credit request you made was notably longer than average. While most approved applicants request loans for about 19 months, your request was for 60 months. Longer loan durations can increase the risk of default, as they extend the period over which financial circumstances might change.\n\nAnother important factor was the lack of property ownership. Many approved applicants have some form of property, such as real estate or a car, which can serve as collateral and provide financial security. In your case, the absence of such assets was seen as a potential risk factor. \n\nWhile these factors pushed the prediction towards a bad credit risk, it's important to note that your long employment duration and skilled job status are positive aspects of your profile. These elements suggest stability and reliability, which are favorable traits in credit assessments.\n\nMoving forward, you might consider improving your financial standing by increasing your account balance and possibly reducing the loan amount or duration in future applications. Additionally, acquiring assets or property could strengthen your financial profile. Understanding these factors can help you make adjustments that might improve your chances of approval in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

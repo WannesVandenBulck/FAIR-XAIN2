@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-25T21:40:35.900591",
+  "status": "success",
+  "narrative": "You applied for a loan of 3,394 DM to cover property repairs, but after reviewing your financial profile, we are unable to approve the request at this time. Our assessment indicates a 58% probability that this loan would represent a high credit risk, a figure that exceeds our safety threshold for approval. The primary reason for this decision is the current status of your checking account, which shows a negative balance. While the majority of our approved applicants maintain a stable or positive account status, an overdrawn account suggests that your current liquid assets are under significant pressure. Another major factor in this decision was the requested repayment period of 42 months. This duration is significantly longer than the 19-month average seen in successful applications, and a nearly four-year commitment is viewed as a higher risk given your current transition out of the workforce. Your status as an unemployed individual, combined with an installment rate that would consume 4% of your disposable income, further suggests that the monthly payments might be difficult to maintain. We did note that your credit history, though categorized as critical due to having other existing credits, actually served as a point in your favor. This suggests that your past experience managing multiple accounts shows a level of financial responsibility that the model recognized as a positive trait. However, even with this experience and the fact that you own your own home, the combination of an overdrawn account and a very long loan term created too much uncertainty. At age 65, securing a long-term loan while unemployed presents a unique set of challenges that our current criteria must account for. To improve your chances for a future application, we recommend focusing on bringing your checking account into a positive balance and maintaining it there for several months. Additionally, requesting a smaller loan amount over a much shorter duration—closer to the 19-month average—would likely result in a more favorable risk assessment. Strengthening your savings, which are currently below 100 DM, would also provide a necessary safety net that lenders look for when approving new credit.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

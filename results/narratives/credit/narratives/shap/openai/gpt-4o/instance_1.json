@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-25T21:49:24.735988",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and unfortunately, the application was denied. Let's explore why this decision was made and what it means for you. The model used to assess your application predicted a 51% probability that you might be a bad credit risk. This prediction was influenced by several factors specific to your financial profile.\n\nOne of the most significant factors was the status of your checking account, which showed a negative balance. This is less common among approved applicants, where the majority have either no balance or a small positive balance. This aspect of your financial situation suggested a higher risk to the model. Additionally, your credit history, which indicates no previous credits or all paid, was another key factor. While this might seem positive, most approved applicants have a history of existing paid credits, which provides more evidence of reliable credit behavior.\n\nOn a more positive note, your ownership of real estate was a factor that worked in your favor. This is a strong indicator of financial stability and is common among those who are approved. However, the influence of this positive factor was not enough to outweigh the concerns raised by your checking account status and credit history.\n\nGiven these insights, it might be beneficial to focus on improving the aspects that contributed to the denial. Ensuring a positive balance in your checking account and building a more robust credit history could strengthen your future applications. Consider speaking with a financial advisor to explore ways to enhance your credit profile. This proactive approach could improve your chances of approval in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

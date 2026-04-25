@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-25T21:46:59.460334",
+  "status": "success",
+  "narrative": "After reviewing your application, we found several key factors that led to the decision to deny your loan request. Your application shows a predicted probability of 84% that you would be a bad credit risk, meaning the model sees significant financial concerns.\n\nThe most important factor was the status of your checking account, which is currently negative (below 0 DM). This is a strong warning sign, as only about 20% of approved applicants had a negative account status, while half had no issues. This pushed the decision strongly toward denial.\n\nYour requested loan duration of 60 months is also a major concern. Approved applicants typically request loans for about 19 months on average, so your request is more than three times longer. This extended period increases the bank's risk, and it contributed significantly to the negative decision.\n\nAdditionally, your property status was listed as unknown or none. Among approved applicants, only about 12% had no property, while most had a car, real estate, or other assets. This lack of collateral further pushed the decision against approval.\n\nOther details in your profile also raised concerns. You requested 6,836 DM, which is more than double the average approved amount of 2,887 DM. Your credit history shows past delays, which is uncommon among approved applicants—only about 9% had similar issues. While your long employment of over 7 years and owning your home are positive points, they were not enough to outweigh the risks.\n\nTo improve your chances in the future, consider starting with a smaller loan amount and a shorter repayment period. Working to resolve your negative checking account status and building up savings or property would also help demonstrate financial stability. Addressing these areas could make a significant difference in a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

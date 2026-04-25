@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-25T21:46:08.626056",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model predicts a 51% chance that you represent a bad credit risk, meaning it's slightly more likely than not that you might struggle to repay based on patterns from past borrowers in 1970s Germany. This decision hinges heavily on your current checking account status, which shows an overdraft of less than 0 DM—something that stands out as riskier, since only about 20% of approved applicants had this, compared to over 50% with no checking account at all. We generated three \"what if\" scenarios, called counterfactuals, each showing the smallest realistic changes to your profile that would flip the model's prediction to a good credit risk and get your loan approved.\n\nIn every single one of these scenarios, the only change needed was improving your checking account status to \"none,\" meaning no account or a balanced one with no overdraft. Nothing else about you needed to shift—not your 12-month loan duration, which is shorter than the 19-month average for approved applicants; not your requested amount of 1,108 DM, well below the typical 2,887 DM for those approved; not your credit history of no credits or all paid, your repair-purpose loan, your low savings under 100 DM, your 4-7 years of employment, or your 4% installment rate on disposable income. Your other strong points, like owning your housing, having real estate as property, a skilled job, and no other installment plans or debtors, stayed the same across all scenarios, just like they are for many approved applicants.\n\nThis tells us your checking account overdraft is by far the most critical factor dragging down your approval odds—it's the one feature that changed 100% of the time, always to \"none,\" while 16 other features never budged. Compared to approved applicants, where no checking account is the most common (over 50%) and overdrafts are rarer, fixing this puts you squarely in their territory. To realistically flip the prediction, focus on clearing that overdraft and bringing your account to zero or no balance, which could be as simple as paying down the negative amount or closing it if feasible—something many past borrowers did to qualify.\n\nOnce that's addressed, your shorter loan term, modest amount, solid job stability, and home ownership would likely shine through, aligning you much closer to typical approved profiles without needing bigger life overhauls like changing jobs or adding dependents. This single step appears actionable and sufficient based on the scenarios, potentially boosting your approval chances right away.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

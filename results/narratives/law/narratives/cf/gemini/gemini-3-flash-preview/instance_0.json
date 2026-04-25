@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-25T21:43:29.145573",
+  "status": "success",
+  "narrative": "Your application for admission was unfortunately rejected because our predictive model suggests a 51% probability that you might not pass the bar exam on your first attempt. While your undergraduate GPA of 3.70 is significantly higher than the 3.24 average of students who typically pass, other factors in your profile are creating a narrow margin of risk. Specifically, your performance during law school—placing in the bottom 10% to 30% of your class—and your status as a part-time student suggest you may face more hurdles than the average applicant. To help you understand this decision, we looked at \"what if\" scenarios, which are alternative versions of your profile that would have resulted in an admission. We generated three of these scenarios to see the minimum changes required to flip your prediction from a failure to a passing result. In every single one of these scenarios, the model identified your LSAT score as the most critical lever for changing the outcome. Currently, your LSAT score of 34.00 is below the 37.27 average seen in successful candidates, but the model indicates you are actually very close to the passing threshold. Across all three alternative scenarios, increasing your LSAT score by just two points—from 34.00 to 36.00—was enough to move your prediction into the passing category. Interestingly, the model did not require any changes to your law school grades, your family's lower-middle income status, or your choice to study part-time to reach this new conclusion. This means that despite the challenges of balancing part-time study with other commitments, a relatively small improvement in standardized testing could outweigh your current class rankings. Because your undergraduate GPA is already so strong, focusing your energy specifically on LSAT preparation appears to be your most effective path forward. While most successful students are in the top 60% of their class, your specific profile shows that you do not necessarily need to reach those academic heights if your test scores improve slightly. The analysis shows that 100% of the successful paths for your application involved this single adjustment to your entrance exam score. Since your predicted probability of failure was only 51%, you are right on the edge of an approval, making this two-point LSAT increase a very realistic goal. By focusing on this one specific area, you can significantly shift the model's confidence in your ability to succeed on the bar exam.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

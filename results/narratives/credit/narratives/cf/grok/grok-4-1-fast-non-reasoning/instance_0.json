@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-25T21:46:00.845094",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model predicts a 58% chance that you represent a bad credit risk, based on details like your checking account being overdrawn, a 42-month loan duration that's more than twice the average for approved applicants, critical credit history, a relatively high request of 3,394 DM, unemployed status, and other factors such as having a co-applicant and no telephone. This prediction means the model sees your overall profile as riskier than typical approved applicants, who often have no overdrafts, shorter loan terms around 19 months, cleaner credit records like fully paid existing credits, stable employment of at least a year, and purposes like buying a radio or TV rather than repairs. To understand why, we looked at \"what if\" scenarios called counterfactuals—these are minimal changes to your situation that would flip the model's decision to approve your loan as good credit. We generated three such scenarios, and in every single one, the only change needed was improving your checking account status from its current overdrawn state to no account or a clean slate. No other aspects of your profile—like the loan duration, credit history, amount requested, unemployment, or even your property like a car, own housing, or two existing credits—needed to shift at all; they stayed exactly as they are now. This highlights that your checking account is by far the most critical factor driving the rejection, appearing in 100% of the counterfactuals while the other 16 features never changed. Compared to approved applicants, where half have no checking account issues and only about 20% are overdrawn like yours, fixing this one element aligns you closely with their profiles. Realistically, you could address this by paying off the overdraft or closing unnecessary accounts to reach a neutral status, which is a common and achievable step since financial characteristics like account status can change relatively quickly. Making that single adjustment would be enough to tip the prediction in your favor, without needing to alter your 65 years of age, job situation, or any other details. This targeted change stands out as the simplest path forward, directly tackling the model's top concern.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-25T21:46:24.232640",
+  "status": "success",
+  "narrative": "Your application for law school admission was rejected because the model predicts a 51% chance you'll fail the bar exam on your first try, just tipping over the edge into the \"fail\" category based on your profile. This prediction hinges heavily on key academic indicators like your Year 1 decile rank of 3, which lags well behind the average of 6 for students who passed, and your Year 3 decile of 1, compared to their typical 5.9. While your undergraduate GPA of 3.7 actually exceeds the 3.24 average for bar passers and your LSAT score of 34 is close to their 37.3 norm, other factors like your lower-middle family income bracket—rarer among successful students, where upper-middle and middle incomes dominate—and part-time enrollment status, which only 6.8% of passers had versus 93% full-time, didn't help offset those weaker deciles.\n\nCounterfactuals are \"what if\" scenarios that reveal the minimal tweaks to your profile that would flip the model's prediction to a pass, essentially showing paths to approval. For you, we generated three such scenarios, and they all point to one clear lever: boosting your LSAT score. In every single counterfactual, your LSAT rose from 34 to 36—a consistent 2-point increase—while your deciles, family income, undergrad GPA, and part-time status stayed exactly the same, unchanged in 100% of cases.\n\nThis uniformity underscores that LSAT is the model's top priority for you; it's the feature that changed most often (in all three scenarios) and by the largest average margin of 2 points, with no other features budging even once. Compared to typical accepted students, your LSAT is already in a solid range but needs that extra push to align fully with passers' averages, especially since your stronger GPA isn't enough to compensate alone.\n\nThe good news is this change is realistic and actionable—many students retake the LSAT and gain 2 points through focused prep like targeted practice tests or tutoring, without altering your family background, enrollment plans, or past grades. Improving your LSAT to 36 would directly shift the prediction to a pass, likely securing approval, as it addresses the model's core concern in your specific case. Your part-time choice and income level, though less favorable statistically, aren't flagged for change here, so prioritizing LSAT prep gives you the most efficient path forward. With your solid GPA as a foundation, a modest LSAT bump could position you right alongside those who succeed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

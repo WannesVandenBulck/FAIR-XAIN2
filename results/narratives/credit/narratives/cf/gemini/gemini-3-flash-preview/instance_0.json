@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-25T21:42:07.453906",
+  "status": "success",
+  "narrative": "Your application for a 3,394 DM loan for home repairs was unfortunately denied because the model calculated a 58% probability that this represents a high credit risk. This decision is largely influenced by your current financial profile, particularly your checking account status and employment situation. To help you understand this outcome, we looked at \"what if\" scenarios, which are alternative versions of your application that would have resulted in an approval. We generated three specific scenarios where your application would have been accepted as a good credit risk. In every single one of these scenarios, the most critical factor that needed to change was the status of your checking account. Currently, your account shows a balance below zero, a situation shared by only about 20% of our approved applicants. The analysis shows that if you simply had no checking account balance or a neutral status, the model's prediction would have flipped in your favor. Interestingly, while other factors like your 42-month loan duration—which is more than double the average of 19 months for approved loans—remained the same in these scenarios, the account status alone was enough to change the result. Your current employment status as unemployed and your job classification are also statistically rare among approved applicants, appearing in less than 5% and 2% of successful cases respectively. Despite these challenges and your high installment rate of 4% of your income, the model suggests that resolving the negative balance in your checking account is the most direct path to approval. It is notable that 16 other features, including your credit history and the fact that you have a co-applicant, did not need to change at all to reach a positive decision. This means that your age of 65 and your status as a homeowner are already viewed as stable elements of your profile. To improve your chances for a future application, the most actionable step you can take is to ensure your checking account is no longer in the negative. While your savings are currently under 100 DM, the model prioritized the checking account status over increasing your total savings. By moving your account status from a negative balance to a neutral or positive one, you address the single most important barrier identified in all three successful scenarios. Focusing on this one specific financial adjustment would likely shift your status from a \"bad credit risk\" to a \"good credit\" applicant.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

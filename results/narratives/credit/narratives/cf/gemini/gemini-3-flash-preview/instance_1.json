@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "prompt_type": "cf",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-25T21:42:47.344254",
+  "status": "success",
+  "narrative": "Your loan application for 1108 DM to cover home repairs was unfortunately denied because the model calculated a 51% probability that you represent a high credit risk. While you have a stable job as a skilled worker and have been with your employer for four to seven years, certain aspects of your financial profile currently fall outside the typical range for approved applicants. For instance, your checking account currently shows a balance of less than zero Deutsche Marks, a situation shared by only about 20% of people who successfully receive loans. Additionally, your monthly installment rate of 4% of your disposable income is notably higher than the 2.94% average seen among approved borrowers. To help you understand how to improve your chances, we analyzed three \"what if\" scenarios, which identify the smallest changes needed to flip this decision to an approval. These scenarios provide a roadmap by showing exactly which factors the model considers most critical for your specific situation. Interestingly, across all three scenarios generated, only one specific feature needed to change to move your application into the \"good credit\" category. While sixteen other factors—including your employment length, your ownership of real estate, and the loan amount—remained exactly the same, your checking account status was the deciding factor every single time. In every successful scenario, the model required your checking account status to move from a negative balance to having no debt or a neutral status. This suggests that the primary barrier to your approval isn't your lack of credit history or the fact that you already have two existing credits at this bank. Instead, the model is highly sensitive to the immediate liquidity reflected in your checking account. Even though you own your home and are only 28 years old, the negative balance on your account creates a risk profile that outweighs these positive attributes. Because your risk probability is only 1% over the threshold for a \"good\" rating, even a single adjustment to your account standing would result in an approval. To move forward, the most actionable step you can take is to resolve the negative balance in your checking account before reapplying. Bringing that account into a positive or even a neutral status would align you with the majority of approved applicants who do not carry a deficit. Once your checking account no longer shows a balance below zero, the model's prediction would flip, making you a candidate for the \"good credit\" classification.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

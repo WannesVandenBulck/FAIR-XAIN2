@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-25T21:48:28.146969",
+  "status": "success",
+  "narrative": "Your loan application was reviewed carefully, and unfortunately, we were unable to approve it at this time. The decision was based on several key factors in your financial profile that suggest a higher risk of difficulty repaying the loan. Here’s why this happened and what stood out in your situation.\n\nThe amount you requested—6,836 Deutsche Marks—is significantly higher than the average loan we approve, which is around 2,887 DM. This larger sum, combined with the fact that you’re seeking the loan for business purposes (a category that tends to carry more risk than loans for items like cars or furniture), raised concerns. Additionally, the repayment period you requested—60 months—is much longer than the typical 19-month term for approved loans. Longer repayment periods can increase the chances of unexpected financial challenges over time.\n\nAnother important factor was your checking account status. Your account currently shows a negative balance, which is uncommon among approved applicants—most have at least some savings or a positive balance. While you have a strong employment history, having worked for over seven years in a skilled position, and you own your home, the lack of savings or property in your name (such as real estate or life insurance) made it harder for the system to assess your financial stability. These factors together pushed the prediction toward a higher risk of default.\n\nThat said, there were some positive aspects to your application. Your installment rate is reasonable, and you don’t have other outstanding loans or dependents that would stretch your finances further. However, the combination of the loan’s size, its purpose, and the lack of financial cushion in your account weighed more heavily in the decision.\n\nIf you’d like to improve your chances in the future, consider applying for a smaller loan amount or a shorter repayment period. Building up your savings or checking account balance could also help demonstrate greater financial stability. We understand this decision may be disappointing, and we encourage you to review these factors before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

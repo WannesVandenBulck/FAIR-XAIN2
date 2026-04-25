@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-25T21:48:39.218352",
+  "status": "success",
+  "narrative": "Your application was reviewed carefully, and while we recognize your strong efforts and achievements, the decision was made to deny admission based on the likelihood of passing the bar exam on your first attempt. The model assessing your profile estimated a 51% chance of failing the bar exam, which is just above the threshold where we can confidently offer admission. This prediction is based on several key factors from your academic record and circumstances, which we’ll explain in detail so you understand how the decision was reached.\n\nOne of the most significant concerns in your profile is your academic performance during law school, particularly in your third year. Your grades placed you in the lowest decile of your class by the end of your studies, which is well below the average for students who successfully pass the bar exam. This was the strongest factor pushing the prediction toward a higher risk of failure. On the other hand, your undergraduate GPA was actually above the average for students who pass the bar, which worked in your favor. Similarly, your LSAT score, while slightly below the average for admitted students, still provided some positive support for your application. However, these strengths were not enough to outweigh the concerns raised by your later law school performance.\n\nYour personal circumstances also played a role in the decision. For example, you indicated that you would be studying part-time while working, which is less common among students who pass the bar exam on their first try. Additionally, your family’s lower-middle income background may have contributed to the challenges you faced, though we recognize that financial circumstances can impact academic performance in complex ways. While these factors were not the primary drivers of the decision, they added to the overall assessment of your likelihood of success.\n\nGiven this feedback, you might consider focusing on improving your academic standing if you choose to reapply in the future. Strengthening your performance in law school coursework, particularly in your final year, could significantly shift the prediction in your favor. Additionally, if possible, transitioning to full-time study might help align your circumstances more closely with those of students who typically pass the bar exam. We encourage you to reflect on these insights as you plan your next steps.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}
