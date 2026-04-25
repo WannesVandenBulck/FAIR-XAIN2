@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import os
 import shap
-from sklearn.neighbors import NearestNeighbors
+from nice import NICE
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -119,59 +119,88 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     # Get features for counterfactual generation (excluding frozen features)
     cf_feature_cols = [col for col in feature_cols if col not in frozen_features]
     
-    print(f"  Generating counterfactuals using {len(cf_feature_cols)} mutable features (excluding {len(frozen_features)} frozen)")
+    print(f"  Generating counterfactuals using NICE (mutable features: {len(cf_feature_cols)}, frozen: {len(frozen_features)})")
     
-    # Get predictions for test set to identify good class instances
-    test_pred = rf_model.predict(test_features)
+    # Load training data for NICE
+    train_path = os.path.join(dataset_path, 'train_cleaned.parquet')
+    train_df = pd.read_parquet(train_path)
+    train_features = train_df.drop(columns=[target_col])
+    train_features = train_features.drop(columns=protected_attributes, errors='ignore')
+    train_target = train_df[target_col]
     
-    # Find instances with opposite class (good class, 0)
-    good_class_indices = np.where(test_pred == 0)[0]
-    good_class_instances = test_features.iloc[good_class_indices]
+    # Define categorical and numerical features for NICE
+    if dataset_name == 'law':
+        # Numerical features for law dataset
+        num_feat_indices = [train_features.columns.get_loc(col) for col in ['lsat', 'ugpa', 'fam_inc'] if col in train_features.columns]
+        # Categorical features for law dataset
+        cat_feat_indices = [train_features.columns.get_loc(col) for col in train_features.columns if col not in ['lsat', 'ugpa', 'fam_inc']]
+    elif dataset_name == 'credit':
+        # Numerical features for credit dataset
+        num_feat_indices = [train_features.columns.get_loc(col) for col in ['duration', 'amount', 'installment_rate', 'present_residence', 'number_credits', 'people_liable'] if col in train_features.columns]
+        # Categorical features for credit dataset
+        cat_feat_indices = [train_features.columns.get_loc(col) for col in train_features.columns if col not in ['duration', 'amount', 'installment_rate', 'present_residence', 'number_credits', 'people_liable']]
     
-    # For NICE algorithm, use only mutable features for KNN fitting and distance calculation
-    good_class_instances_mutable = good_class_instances[cf_feature_cols]
+    # Initialize NICE explainer
+    nice_explainer = NICE(
+        X_train=train_features.values,
+        predict_fn=lambda x: rf_model.predict(pd.DataFrame(x, columns=train_features.columns)),
+        y_train=train_target.values,
+        cat_feat=cat_feat_indices,
+        num_feat=num_feat_indices
+    )
     
-    # Fit KNN on good class instances for NICE algorithm (using only mutable features)
+    # Generate counterfactuals for each adverse instance
     all_counterfactuals = []
     
-    if len(good_class_instances) > 0:
-        nbrs = NearestNeighbors(n_neighbors=min(num_cf, len(good_class_instances)), 
-                                algorithm='ball_tree').fit(good_class_instances_mutable.values)
+    for adverse_idx, (_, adverse_row) in enumerate(adverse_df.iterrows()):
+        if (adverse_idx + 1) % max(1, len(adverse_df) // 10) == 0:
+            print(f"    Processing instance {adverse_idx + 1}/{len(adverse_df)}")
         
-        # Generate counterfactuals for each adverse instance
-        for adverse_idx, (_, adverse_row) in enumerate(adverse_df.iterrows()):
-            if (adverse_idx + 1) % max(1, len(adverse_df) // 10) == 0:
-                print(f"    Processing instance {adverse_idx + 1}/{len(adverse_df)}")
+        try:
+            instance_idx_val = int(adverse_row['instance_index'])
+            original_idx_val = int(adverse_row['original_test_index'])
             
-            try:
-                # Get ONLY mutable feature values for this adverse instance (for KNN query)
-                instance_mutable = adverse_row[cf_feature_cols].values.reshape(1, -1)
-                instance_idx_val = adverse_row['instance_index']
-                original_idx_val = adverse_row['original_test_index']
-                
-                # Find nearest neighbors in good class using NICE (based on mutable features only)
-                distances, indices = nbrs.kneighbors(instance_mutable)
-                
-                # Extract the nearest instances as counterfactuals
-                for cf_idx, neighbor_idx in enumerate(indices[0]):
-                    cf_instance = good_class_instances.iloc[neighbor_idx].copy()
+            # Extract instance features (only mutable features for NICE to find counterfactuals)
+            instance_features = adverse_row[feature_cols].values.reshape(1, -1)
+            instance_df = pd.DataFrame(instance_features, columns=feature_cols)
+            
+            # Generate counterfactuals using NICE
+            for cf_num in range(num_cf):
+                try:
+                    cf = nice_explainer.explain(instance_df.iloc[0].values)
                     
-                    # Replace frozen features with values from the original adverse instance
-                    for frozen_feat in frozen_features:
-                        if frozen_feat in cf_instance.index:
-                            cf_instance[frozen_feat] = adverse_row[frozen_feat]
+                    if cf is not None:
+                        # Create counterfactual instance with all features
+                        cf_instance = pd.Series(index=all_feature_cols)
+                        
+                        # Fill in counterfactual values for mutable features
+                        for feat_idx, feat_name in enumerate(feature_cols):
+                            cf_instance[feat_name] = cf[feat_idx]
+                        
+                        # Keep frozen features from original adverse instance
+                        for frozen_feat in frozen_features:
+                            if frozen_feat in adverse_row.index:
+                                cf_instance[frozen_feat] = adverse_row[frozen_feat]
+                        
+                        # Add metadata
+                        cf_instance['instance_index'] = instance_idx_val
+                        cf_instance['original_test_index'] = original_idx_val
+                        cf_instance['CF_number'] = cf_num + 1
+                        
+                        # Calculate distance to original
+                        distance = np.sqrt(np.sum((cf - instance_features[0][np.isin(feature_cols, cf_feature_cols)]) ** 2))
+                        cf_instance['distance_to_original'] = distance
+                        
+                        all_counterfactuals.append(cf_instance)
+                except Exception as e:
+                    print(f"      Warning: Could not generate counterfactual {cf_num + 1} for instance {adverse_idx}: {str(e)}")
                     
-                    cf_instance['instance_index'] = instance_idx_val
-                    cf_instance['original_test_index'] = original_idx_val
-                    cf_instance['CF_number'] = cf_idx + 1
-                    cf_instance['distance_to_original'] = distances[0][cf_idx]
-                    all_counterfactuals.append(cf_instance)
-                    
-            except Exception as e:
-                print(f"    Warning: Could not generate counterfactuals for instance {adverse_idx}: {str(e)}")
-        
-        print(f"  Generated {len(all_counterfactuals)} total counterfactuals using NICE")
-        
+        except Exception as e:
+            print(f"    Warning: Could not process instance {adverse_idx}: {str(e)}")
+    
+    print(f"  Generated {len(all_counterfactuals)} total counterfactuals using NICE")
+    
+    if len(all_counterfactuals) > 0:
         # Create counterfactual dataframe
         cf_df = pd.DataFrame(all_counterfactuals)
         
@@ -193,7 +222,7 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
         cf_df.to_csv(cf_output_path, index=False)
         print(f"  Saved counterfactuals to {cf_output_path}")
     else:
-        print(f"  Warning: No instances with good class (0) found for NICE algorithm")
+        print(f"  Warning: No counterfactuals generated for {dataset_name}")
 
 def main():
     """Main function to generate all explanations and save to individual files."""
