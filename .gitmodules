@@ -1,0 +1,3 @@
+[submodule "llm_tools/counterfactual/NICE"]
+	path = llm_tools/counterfactual/NICE
+	url = https://github.com/DBrughmans/NICE.git
