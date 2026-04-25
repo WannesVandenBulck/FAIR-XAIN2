@@ -142,9 +142,9 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     
     # Initialize NICE explainer
     nice_explainer = NICE(
-        X_train=train_features.values,
+        X_train=train_features.values.copy(),
         predict_fn=lambda x: rf_model.predict(pd.DataFrame(x, columns=train_features.columns)),
-        y_train=train_target.values,
+        y_train=train_target.values.copy(),
         cat_feat=cat_feat_indices,
         num_feat=num_feat_indices
     )
