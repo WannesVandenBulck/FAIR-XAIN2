@@ -14,3 +14,7 @@ nltk>=3.8.0
 ucimlrepo>=0.0.7
 pyarrow>=24.0.0
 
+# Counterfactual explanation
+# Note: NICE is also added as a git submodule at llm_tools/counterfactual/NICE
+git+https://github.com/DBrughmans/NICE.git@master#egg=NICE
+
