@@ -1,0 +1,579 @@
+instance_index,feature_name,feature_type,percentage_changed,num_changed,num_total,original_value,distribution,unique_values,average_change,min_change,max_change,std_change
+0,amount,numerical,100.0,3,3,3394.0,,,3.3333,-16.0,22.0,15.5206
+0,credit_history,categorical,66.67,2,3,5.0,"{""existing paid"": 2}",3,,,,
+0,duration,numerical,100.0,3,3,42.0,,,-24.3333,-34.0,-15.0,7.7603
+0,employment_duration,categorical,100.0,3,3,1.0,"{""1-4 years"": 2, ""4-7 years"": 1}","3,4",,,,
+0,housing,categorical,0.0,0,3,2.0,{},,,,,
+0,installment_rate,numerical,100.0,3,3,4.0,,,-2.0,-3.0,-1.0,0.8165
+0,job,categorical,100.0,3,3,1.0,"{""management/self-employed/highly skilled"": 1, ""skilled/official"": 1, ""unskilled-resident"": 1}","4,3,2",,,,
+0,number_credits,numerical,66.67,2,3,2.0,,,-1.0,-1.0,-1.0,0.0
+0,other_debtors,categorical,100.0,3,3,2.0,"{""none"": 3}",1,,,,
+0,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+0,people_liable,numerical,0.0,0,3,1.0,,,,,,
+0,present_residence,numerical,66.67,2,3,4.0,,,-2.5,-3.0,-2.0,0.5
+0,property,categorical,66.67,2,3,3.0,"{""building society/life insurance"": 1, ""real estate"": 1}","2,1",,,,
+0,purpose,categorical,100.0,3,3,6.0,"{""radio/TV"": 1, ""used car"": 1, ""new car"": 1}","4,2,1",,,,
+0,savings,categorical,33.33,1,3,1.0,"{""unknown/none"": 1}",5,,,,
+0,status,categorical,33.33,1,3,1.0,"{""none"": 1}",4,,,,
+0,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+1,amount,numerical,100.0,3,3,1108.0,,,-2.3333,-7.0,5.0,5.2493
+1,credit_history,categorical,100.0,3,3,1.0,"{""existing paid"": 3}",3,,,,
+1,duration,numerical,33.33,1,3,12.0,,,6.0,6.0,6.0,0.0
+1,employment_duration,categorical,66.67,2,3,4.0,"{""1-4 years"": 2}",3,,,,
+1,housing,categorical,0.0,0,3,2.0,{},,,,,
+1,installment_rate,numerical,33.33,1,3,4.0,,,-1.0,-1.0,-1.0,0.0
+1,job,categorical,33.33,1,3,3.0,"{""unskilled-resident"": 1}",2,,,,
+1,number_credits,numerical,33.33,1,3,2.0,,,-1.0,-1.0,-1.0,0.0
+1,other_debtors,categorical,66.67,2,3,1.0,"{""guarantor"": 2}",3,,,,
+1,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+1,people_liable,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+1,present_residence,numerical,66.67,2,3,3.0,,,0.0,-1.0,1.0,1.0
+1,property,categorical,0.0,0,3,1.0,{},,,,,
+1,purpose,categorical,100.0,3,3,6.0,"{""radio/TV"": 2, ""new car"": 1}","4,1",,,,
+1,savings,categorical,0.0,0,3,1.0,{},,,,,
+1,status,categorical,100.0,3,3,1.0,"{""0-200 DM"": 2, ""none"": 1}","2,4",,,,
+1,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+2,amount,numerical,100.0,3,3,6836.0,,,-54.3333,-94.0,6.0,43.3615
+2,credit_history,categorical,100.0,3,3,4.0,"{""critical/other credits"": 3}",5,,,,
+2,duration,numerical,100.0,3,3,60.0,,,-40.0,-54.0,-30.0,10.198
+2,employment_duration,categorical,100.0,3,3,5.0,"{""1-4 years"": 1, ""4-7 years"": 2}","3,4",,,,
+2,housing,categorical,0.0,0,3,2.0,{},,,,,
+2,installment_rate,numerical,100.0,3,3,3.0,,,-1.3333,-2.0,-1.0,0.4714
+2,job,categorical,66.67,2,3,3.0,"{""management/self-employed/highly skilled"": 2}",4,,,,
+2,number_credits,numerical,0.0,0,3,2.0,,,,,,
+2,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+2,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+2,people_liable,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+2,present_residence,numerical,66.67,2,3,4.0,,,-1.0,-1.0,-1.0,0.0
+2,property,categorical,66.67,2,3,4.0,"{""building society/life insurance"": 2}",2,,,,
+2,purpose,categorical,100.0,3,3,9.0,"{""used car"": 1, ""new car"": 1, ""radio/TV"": 1}","2,1,4",,,,
+2,savings,categorical,66.67,2,3,1.0,"{""unknown/none"": 2}",5,,,,
+2,status,categorical,100.0,3,3,1.0,"{""none"": 3}",4,,,,
+2,telephone,categorical,33.33,1,3,2.0,"{""none"": 1}",1,,,,
+3,amount,numerical,100.0,3,3,1659.0,,,-12.3333,-56.0,21.0,32.2731
+3,credit_history,categorical,100.0,3,3,4.0,"{""existing paid"": 3}",3,,,,
+3,duration,numerical,66.67,2,3,24.0,,,-12.0,-12.0,-12.0,0.0
+3,employment_duration,categorical,100.0,3,3,2.0,"{""1-4 years"": 1, ""\u22657 years"": 2}","3,5",,,,
+3,housing,categorical,100.0,3,3,1.0,"{""own"": 3}",2,,,,
+3,installment_rate,numerical,66.67,2,3,4.0,,,-1.5,-2.0,-1.0,0.5
+3,job,categorical,100.0,3,3,2.0,"{""skilled/official"": 3}",3,,,,
+3,number_credits,numerical,0.0,0,3,1.0,,,,,,
+3,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+3,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+3,people_liable,numerical,0.0,0,3,1.0,,,,,,
+3,present_residence,numerical,66.67,2,3,2.0,,,0.5,-1.0,2.0,1.5
+3,property,categorical,66.67,2,3,3.0,"{""real estate"": 2}",1,,,,
+3,purpose,categorical,33.33,1,3,4.0,"{""furniture/equipment"": 1}",3,,,,
+3,savings,categorical,33.33,1,3,1.0,"{""500-1000 DM"": 1}",3,,,,
+3,status,categorical,0.0,0,3,1.0,{},,,,,
+3,telephone,categorical,100.0,3,3,2.0,"{""none"": 3}",1,,,,
+4,amount,numerical,100.0,3,3,1344.0,,,1.3333,-1.0,3.0,1.6997
+4,credit_history,categorical,100.0,3,3,4.0,"{""critical/other credits"": 2, ""existing paid"": 1}","5,3",,,,
+4,duration,numerical,100.0,3,3,12.0,,,-4.6667,-6.0,-2.0,1.8856
+4,employment_duration,categorical,100.0,3,3,3.0,"{""4-7 years"": 1, ""\u22657 years"": 2}","4,5",,,,
+4,housing,categorical,33.33,1,3,2.0,"{""for free"": 1}",3,,,,
+4,installment_rate,numerical,66.67,2,3,4.0,,,-2.5,-3.0,-2.0,0.5
+4,job,categorical,100.0,3,3,2.0,"{""skilled/official"": 3}",3,,,,
+4,number_credits,numerical,33.33,1,3,2.0,,,-1.0,-1.0,-1.0,0.0
+4,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+4,other_installment_plans,categorical,33.33,1,3,3.0,"{""bank"": 1}",1,,,,
+4,people_liable,numerical,33.33,1,3,2.0,,,-1.0,-1.0,-1.0,0.0
+4,present_residence,numerical,66.67,2,3,2.0,,,2.0,2.0,2.0,0.0
+4,property,categorical,66.67,2,3,1.0,"{""building society/life insurance"": 1, ""unknown/none"": 1}","2,4",,,,
+4,purpose,categorical,66.67,2,3,1.0,"{""radio/TV"": 2}",4,,,,
+4,savings,categorical,66.67,2,3,1.0,"{""unknown/none"": 1, ""100-500 DM"": 1}","5,2",,,,
+4,status,categorical,100.0,3,3,1.0,"{""\u2265200 DM/salary"": 2, ""none"": 1}","3,4",,,,
+4,telephone,categorical,66.67,2,3,1.0,"{""yes registered"": 2}",2,,,,
+5,amount,numerical,100.0,3,3,4006.0,,,-10.6667,-30.0,14.0,18.3545
+5,credit_history,categorical,33.33,1,3,3.0,"{""all paid at bank"": 1}",2,,,,
+5,duration,numerical,100.0,3,3,28.0,,,-1.0,-7.0,8.0,6.4807
+5,employment_duration,categorical,66.67,2,3,3.0,"{""<1 year"": 1, ""4-7 years"": 1}","2,4",,,,
+5,housing,categorical,0.0,0,3,2.0,{},,,,,
+5,installment_rate,numerical,66.67,2,3,3.0,,,-1.0,-1.0,-1.0,0.0
+5,job,categorical,100.0,3,3,2.0,"{""skilled/official"": 2, ""unemployed/unskilled-non-resident"": 1}","3,1",,,,
+5,number_credits,numerical,0.0,0,3,1.0,,,,,,
+5,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+5,other_installment_plans,categorical,66.67,2,3,3.0,"{""stores"": 1, ""bank"": 1}","2,1",,,,
+5,people_liable,numerical,0.0,0,3,1.0,,,,,,
+5,present_residence,numerical,33.33,1,3,2.0,,,1.0,1.0,1.0,0.0
+5,property,categorical,33.33,1,3,3.0,"{""unknown/none"": 1}",4,,,,
+5,purpose,categorical,100.0,3,3,1.0,"{""furniture/equipment"": 2, ""domestic appliances"": 1}","3,5",,,,
+5,savings,categorical,66.67,2,3,1.0,"{""unknown/none"": 2}",5,,,,
+5,status,categorical,66.67,2,3,1.0,"{""0-200 DM"": 2}",2,,,,
+5,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+6,amount,numerical,100.0,3,3,2600.0,,,6.6667,3.0,11.0,3.2998
+6,credit_history,categorical,33.33,1,3,3.0,"{""critical/other credits"": 1}",5,,,,
+6,duration,numerical,100.0,3,3,18.0,,,5.0,3.0,6.0,1.4142
+6,employment_duration,categorical,66.67,2,3,3.0,"{""<1 year"": 1, ""\u22657 years"": 1}","2,5",,,,
+6,housing,categorical,100.0,3,3,3.0,"{""rent"": 2, ""own"": 1}","1,2",,,,
+6,installment_rate,numerical,33.33,1,3,4.0,,,-2.0,-2.0,-2.0,0.0
+6,job,categorical,33.33,1,3,3.0,"{""management/self-employed/highly skilled"": 1}",4,,,,
+6,number_credits,numerical,66.67,2,3,2.0,,,-1.0,-1.0,-1.0,0.0
+6,other_debtors,categorical,33.33,1,3,1.0,"{""co-applicant"": 1}",2,,,,
+6,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+6,people_liable,numerical,0.0,0,3,1.0,,,,,,
+6,present_residence,numerical,33.33,1,3,4.0,,,-1.0,-1.0,-1.0,0.0
+6,property,categorical,100.0,3,3,4.0,"{""building society/life insurance"": 1, ""car/other"": 1, ""real estate"": 1}","2,3,1",,,,
+6,purpose,categorical,33.33,1,3,4.0,"{""used car"": 1}",2,,,,
+6,savings,categorical,33.33,1,3,1.0,"{""\u22651000 DM"": 1}",4,,,,
+6,status,categorical,66.67,2,3,1.0,"{""none"": 2}",4,,,,
+6,telephone,categorical,66.67,2,3,1.0,"{""yes registered"": 2}",2,,,,
+7,amount,numerical,100.0,3,3,6288.0,,,17.3333,1.0,26.0,11.5566
+7,credit_history,categorical,66.67,2,3,3.0,"{""no credits/all paid"": 1, ""critical/other credits"": 1}","1,5",,,,
+7,duration,numerical,100.0,3,3,60.0,,,-30.0,-36.0,-18.0,8.4853
+7,employment_duration,categorical,100.0,3,3,3.0,"{""<1 year"": 1, ""\u22657 years"": 1, ""unemployed"": 1}","2,5,1",,,,
+7,housing,categorical,100.0,3,3,3.0,"{""own"": 3}",2,,,,
+7,installment_rate,numerical,66.67,2,3,4.0,,,-1.5,-2.0,-1.0,0.5
+7,job,categorical,66.67,2,3,3.0,"{""management/self-employed/highly skilled"": 2}",4,,,,
+7,number_credits,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+7,other_debtors,categorical,33.33,1,3,1.0,"{""co-applicant"": 1}",2,,,,
+7,other_installment_plans,categorical,33.33,1,3,3.0,"{""bank"": 1}",1,,,,
+7,people_liable,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+7,present_residence,numerical,66.67,2,3,4.0,,,-2.5,-3.0,-2.0,0.5
+7,property,categorical,66.67,2,3,4.0,"{""building society/life insurance"": 1, ""car/other"": 1}","2,3",,,,
+7,purpose,categorical,100.0,3,3,7.0,"{""business"": 1, ""used car"": 1, ""others"": 1}","9,2,10",,,,
+7,savings,categorical,33.33,1,3,1.0,"{""unknown/none"": 1}",5,,,,
+7,status,categorical,100.0,3,3,2.0,"{""\u2265200 DM/salary"": 1, ""none"": 2}","3,4",,,,
+7,telephone,categorical,66.67,2,3,1.0,"{""yes registered"": 2}",2,,,,
+8,amount,numerical,100.0,3,3,6560.0,,,-2.0,-33.0,19.0,22.3756
+8,credit_history,categorical,0.0,0,3,3.0,{},,,,,
+8,duration,numerical,100.0,3,3,48.0,,,-12.0,-24.0,12.0,16.9706
+8,employment_duration,categorical,100.0,3,3,4.0,"{""1-4 years"": 2, ""unemployed"": 1}","3,1",,,,
+8,housing,categorical,66.67,2,3,2.0,"{""for free"": 2}",3,,,,
+8,installment_rate,numerical,100.0,3,3,3.0,,,0.3333,-1.0,1.0,0.9428
+8,job,categorical,66.67,2,3,3.0,"{""unskilled-resident"": 1, ""management/self-employed/highly skilled"": 1}","2,4",,,,
+8,number_credits,numerical,0.0,0,3,1.0,,,,,,
+8,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+8,other_installment_plans,categorical,33.33,1,3,3.0,"{""stores"": 1}",2,,,,
+8,people_liable,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+8,present_residence,numerical,33.33,1,3,2.0,,,2.0,2.0,2.0,0.0
+8,property,categorical,100.0,3,3,2.0,"{""car/other"": 1, ""unknown/none"": 2}","3,4",,,,
+8,purpose,categorical,66.67,2,3,1.0,"{""business"": 1, ""used car"": 1}","9,2",,,,
+8,savings,categorical,100.0,3,3,2.0,"{""<100 DM"": 2, ""unknown/none"": 1}","1,5",,,,
+8,status,categorical,100.0,3,3,2.0,"{""<0 DM"": 2, ""none"": 1}","1,4",,,,
+8,telephone,categorical,66.67,2,3,1.0,"{""yes registered"": 2}",2,,,,
+9,amount,numerical,100.0,3,3,6758.0,,,-30.0,-77.0,3.0,34.1272
+9,credit_history,categorical,100.0,3,3,3.0,"{""critical/other credits"": 2, ""past delays"": 1}","5,4",,,,
+9,duration,numerical,66.67,2,3,48.0,,,-30.0,-42.0,-18.0,12.0
+9,employment_duration,categorical,66.67,2,3,3.0,"{""4-7 years"": 2}",4,,,,
+9,housing,categorical,33.33,1,3,2.0,"{""for free"": 1}",3,,,,
+9,installment_rate,numerical,100.0,3,3,3.0,,,-0.6667,-2.0,1.0,1.2472
+9,job,categorical,33.33,1,3,3.0,"{""management/self-employed/highly skilled"": 1}",4,,,,
+9,number_credits,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+9,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+9,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+9,people_liable,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+9,present_residence,numerical,100.0,3,3,2.0,,,1.3333,1.0,2.0,0.4714
+9,property,categorical,100.0,3,3,3.0,"{""building society/life insurance"": 1, ""unknown/none"": 2}","2,4",,,,
+9,purpose,categorical,66.67,2,3,4.0,"{""new car"": 1, ""business"": 1}","1,9",,,,
+9,savings,categorical,66.67,2,3,1.0,"{""unknown/none"": 2}",5,,,,
+9,status,categorical,100.0,3,3,1.0,"{""none"": 2, ""0-200 DM"": 1}","4,2",,,,
+9,telephone,categorical,33.33,1,3,2.0,"{""none"": 1}",1,,,,
+10,amount,numerical,100.0,3,3,1131.0,,,2.3333,-18.0,18.0,15.0628
+10,credit_history,categorical,66.67,2,3,3.0,"{""critical/other credits"": 2}",5,,,,
+10,duration,numerical,33.33,1,3,18.0,,,-9.0,-9.0,-9.0,0.0
+10,employment_duration,categorical,100.0,3,3,1.0,"{""1-4 years"": 3}",3,,,,
+10,housing,categorical,0.0,0,3,2.0,{},,,,,
+10,installment_rate,numerical,0.0,0,3,4.0,,,,,,
+10,job,categorical,66.67,2,3,3.0,"{""unskilled-resident"": 2}",2,,,,
+10,number_credits,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+10,other_debtors,categorical,33.33,1,3,1.0,"{""guarantor"": 1}",3,,,,
+10,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+10,people_liable,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+10,present_residence,numerical,100.0,3,3,2.0,,,1.6667,1.0,2.0,0.4714
+10,property,categorical,100.0,3,3,3.0,"{""real estate"": 3}",1,,,,
+10,purpose,categorical,100.0,3,3,3.0,"{""radio/TV"": 3}",4,,,,
+10,savings,categorical,33.33,1,3,1.0,"{""\u22651000 DM"": 1}",4,,,,
+10,status,categorical,66.67,2,3,1.0,"{""0-200 DM"": 1, ""none"": 1}","2,4",,,,
+10,telephone,categorical,0.0,0,3,1.0,{},,,,,
+11,amount,numerical,100.0,3,3,15672.0,,,-442.3333,-1493.0,185.0,747.5869
+11,credit_history,categorical,66.67,2,3,3.0,"{""past delays"": 1, ""critical/other credits"": 1}","4,5",,,,
+11,duration,numerical,100.0,3,3,48.0,,,-3.0,-12.0,12.0,10.6771
+11,employment_duration,categorical,100.0,3,3,3.0,"{""4-7 years"": 2, ""unemployed"": 1}","4,1",,,,
+11,housing,categorical,0.0,0,3,2.0,{},,,,,
+11,installment_rate,numerical,33.33,1,3,2.0,,,2.0,2.0,2.0,0.0
+11,job,categorical,66.67,2,3,3.0,"{""management/self-employed/highly skilled"": 2}",4,,,,
+11,number_credits,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+11,other_debtors,categorical,33.33,1,3,1.0,"{""co-applicant"": 1}",2,,,,
+11,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+11,people_liable,numerical,0.0,0,3,1.0,,,,,,
+11,present_residence,numerical,100.0,3,3,2.0,,,1.6667,1.0,2.0,0.4714
+11,property,categorical,33.33,1,3,3.0,"{""building society/life insurance"": 1}",2,,,,
+11,purpose,categorical,100.0,3,3,9.0,"{""radio/TV"": 1, ""others"": 1, ""furniture/equipment"": 1}","4,10,3",,,,
+11,savings,categorical,33.33,1,3,1.0,"{""unknown/none"": 1}",5,,,,
+11,status,categorical,100.0,3,3,2.0,"{""none"": 1, ""<0 DM"": 2}","4,1",,,,
+11,telephone,categorical,33.33,1,3,2.0,"{""none"": 1}",1,,,,
+12,amount,numerical,100.0,3,3,5493.0,,,-9.3333,-60.0,18.0,35.8639
+12,credit_history,categorical,33.33,1,3,3.0,"{""critical/other credits"": 1}",5,,,,
+12,duration,numerical,100.0,3,3,36.0,,,-12.0,-12.0,-12.0,0.0
+12,employment_duration,categorical,66.67,2,3,5.0,"{""1-4 years"": 1, ""unemployed"": 1}","3,1",,,,
+12,housing,categorical,66.67,2,3,3.0,"{""own"": 1, ""rent"": 1}","2,1",,,,
+12,installment_rate,numerical,66.67,2,3,2.0,,,1.5,1.0,2.0,0.5
+12,job,categorical,33.33,1,3,3.0,"{""management/self-employed/highly skilled"": 1}",4,,,,
+12,number_credits,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+12,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+12,other_installment_plans,categorical,33.33,1,3,3.0,"{""stores"": 1}",2,,,,
+12,people_liable,numerical,100.0,3,3,2.0,,,-1.0,-1.0,-1.0,0.0
+12,present_residence,numerical,33.33,1,3,4.0,,,-3.0,-3.0,-3.0,0.0
+12,property,categorical,66.67,2,3,4.0,"{""car/other"": 1, ""building society/life insurance"": 1}","3,2",,,,
+12,purpose,categorical,66.67,2,3,2.0,"{""repairs"": 1, ""furniture/equipment"": 1}","6,3",,,,
+12,savings,categorical,66.67,2,3,1.0,"{""100-500 DM"": 1, ""unknown/none"": 1}","2,5",,,,
+12,status,categorical,100.0,3,3,1.0,"{""none"": 3}",4,,,,
+12,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+13,amount,numerical,66.67,2,3,1082.0,,,-10.0,-14.0,-6.0,4.0
+13,credit_history,categorical,100.0,3,3,1.0,"{""existing paid"": 3}",3,,,,
+13,duration,numerical,66.67,2,3,12.0,,,-4.5,-6.0,-3.0,1.5
+13,employment_duration,categorical,66.67,2,3,3.0,"{""\u22657 years"": 2}",5,,,,
+13,housing,categorical,0.0,0,3,2.0,{},,,,,
+13,installment_rate,numerical,33.33,1,3,4.0,,,-2.0,-2.0,-2.0,0.0
+13,job,categorical,33.33,1,3,3.0,"{""unskilled-resident"": 1}",2,,,,
+13,number_credits,numerical,66.67,2,3,2.0,,,-1.0,-1.0,-1.0,0.0
+13,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+13,other_installment_plans,categorical,100.0,3,3,1.0,"{""none"": 3}",3,,,,
+13,people_liable,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+13,present_residence,numerical,33.33,1,3,4.0,,,-2.0,-2.0,-2.0,0.0
+13,property,categorical,33.33,1,3,3.0,"{""real estate"": 1}",1,,,,
+13,purpose,categorical,100.0,3,3,1.0,"{""radio/TV"": 2, ""business"": 1}","4,9",,,,
+13,savings,categorical,0.0,0,3,1.0,{},,,,,
+13,status,categorical,100.0,3,3,1.0,"{""0-200 DM"": 2, ""none"": 1}","2,4",,,,
+13,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+14,amount,numerical,100.0,3,3,4795.0,,,3.3333,-7.0,16.0,9.5336
+14,credit_history,categorical,33.33,1,3,3.0,"{""critical/other credits"": 1}",5,,,,
+14,duration,numerical,100.0,3,3,36.0,,,4.0,-6.0,12.0,7.4833
+14,employment_duration,categorical,100.0,3,3,2.0,"{""\u22657 years"": 1, ""4-7 years"": 2}","5,4",,,,
+14,housing,categorical,66.67,2,3,2.0,"{""for free"": 1, ""rent"": 1}","3,1",,,,
+14,installment_rate,numerical,33.33,1,3,4.0,,,-2.0,-2.0,-2.0,0.0
+14,job,categorical,100.0,3,3,4.0,"{""skilled/official"": 2, ""unskilled-resident"": 1}","3,2",,,,
+14,number_credits,numerical,0.0,0,3,1.0,,,,,,
+14,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+14,other_installment_plans,categorical,33.33,1,3,3.0,"{""stores"": 1}",2,,,,
+14,people_liable,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+14,present_residence,numerical,100.0,3,3,1.0,,,2.6667,2.0,3.0,0.4714
+14,property,categorical,66.67,2,3,4.0,"{""building society/life insurance"": 2}",2,,,,
+14,purpose,categorical,100.0,3,3,4.0,"{""used car"": 3}",2,,,,
+14,savings,categorical,33.33,1,3,1.0,"{""unknown/none"": 1}",5,,,,
+14,status,categorical,100.0,3,3,2.0,"{""\u2265200 DM/salary"": 1, ""<0 DM"": 1, ""none"": 1}","3,1,4",,,,
+14,telephone,categorical,100.0,3,3,2.0,"{""none"": 3}",1,,,,
+15,amount,numerical,100.0,3,3,10623.0,,,68.3333,-146.0,252.0,163.9234
+15,credit_history,categorical,66.67,2,3,5.0,"{""existing paid"": 1, ""past delays"": 1}","3,4",,,,
+15,duration,numerical,100.0,3,3,30.0,,,9.6667,6.0,17.0,5.1854
+15,employment_duration,categorical,33.33,1,3,5.0,"{""<1 year"": 1}",2,,,,
+15,housing,categorical,66.67,2,3,3.0,"{""own"": 2}",2,,,,
+15,installment_rate,numerical,100.0,3,3,3.0,,,-1.3333,-2.0,-1.0,0.4714
+15,job,categorical,100.0,3,3,4.0,"{""unskilled-resident"": 1, ""skilled/official"": 2}","2,3",,,,
+15,number_credits,numerical,100.0,3,3,3.0,,,-1.3333,-2.0,-1.0,0.4714
+15,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+15,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+15,people_liable,numerical,66.67,2,3,2.0,,,-1.0,-1.0,-1.0,0.0
+15,present_residence,numerical,66.67,2,3,4.0,,,-2.5,-3.0,-2.0,0.5
+15,property,categorical,66.67,2,3,4.0,"{""real estate"": 1, ""car/other"": 1}","1,3",,,,
+15,purpose,categorical,66.67,2,3,2.0,"{""new car"": 2}",1,,,,
+15,savings,categorical,33.33,1,3,1.0,"{""unknown/none"": 1}",5,,,,
+15,status,categorical,66.67,2,3,1.0,"{""none"": 2}",4,,,,
+15,telephone,categorical,33.33,1,3,2.0,"{""none"": 1}",1,,,,
+16,amount,numerical,100.0,3,3,10297.0,,,-16.0,-153.0,180.0,142.2041
+16,credit_history,categorical,33.33,1,3,3.0,"{""critical/other credits"": 1}",5,,,,
+16,duration,numerical,66.67,2,3,48.0,,,0.0,-12.0,12.0,12.0
+16,employment_duration,categorical,33.33,1,3,4.0,"{""\u22657 years"": 1}",5,,,,
+16,housing,categorical,66.67,2,3,3.0,"{""own"": 2}",2,,,,
+16,installment_rate,numerical,66.67,2,3,4.0,,,-2.0,-2.0,-2.0,0.0
+16,job,categorical,0.0,0,3,3.0,{},,,,,
+16,number_credits,numerical,100.0,3,3,3.0,,,-1.6667,-2.0,-1.0,0.4714
+16,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+16,other_installment_plans,categorical,66.67,2,3,2.0,"{""none"": 2}",3,,,,
+16,people_liable,numerical,100.0,3,3,2.0,,,-1.0,-1.0,-1.0,0.0
+16,present_residence,numerical,33.33,1,3,4.0,,,-1.0,-1.0,-1.0,0.0
+16,property,categorical,66.67,2,3,4.0,"{""car/other"": 1, ""real estate"": 1}","3,1",,,,
+16,purpose,categorical,66.67,2,3,2.0,"{""radio/TV"": 2}",4,,,,
+16,savings,categorical,100.0,3,3,1.0,"{""unknown/none"": 2, ""100-500 DM"": 1}","5,2",,,,
+16,status,categorical,100.0,3,3,1.0,"{""none"": 3}",4,,,,
+16,telephone,categorical,33.33,1,3,2.0,"{""none"": 1}",1,,,,
+17,amount,numerical,100.0,3,3,1193.0,,,2.3333,-8.0,8.0,7.3182
+17,credit_history,categorical,100.0,3,3,2.0,"{""existing paid"": 2, ""critical/other credits"": 1}","3,5",,,,
+17,duration,numerical,66.67,2,3,24.0,,,-12.0,-12.0,-12.0,0.0
+17,employment_duration,categorical,100.0,3,3,1.0,"{""<1 year"": 1, ""1-4 years"": 2}","2,3",,,,
+17,housing,categorical,66.67,2,3,1.0,"{""own"": 2}",2,,,,
+17,installment_rate,numerical,100.0,3,3,1.0,,,2.6667,2.0,3.0,0.4714
+17,job,categorical,100.0,3,3,1.0,"{""skilled/official"": 3}",3,,,,
+17,number_credits,numerical,66.67,2,3,2.0,,,-1.0,-1.0,-1.0,0.0
+17,other_debtors,categorical,100.0,3,3,2.0,"{""none"": 3}",1,,,,
+17,other_installment_plans,categorical,33.33,1,3,3.0,"{""bank"": 1}",1,,,,
+17,people_liable,numerical,0.0,0,3,1.0,,,,,,
+17,present_residence,numerical,66.67,2,3,4.0,,,-2.5,-3.0,-2.0,0.5
+17,property,categorical,100.0,3,3,4.0,"{""building society/life insurance"": 2, ""real estate"": 1}","2,1",,,,
+17,purpose,categorical,66.67,2,3,1.0,"{""education"": 1, ""business"": 1}","7,9",,,,
+17,savings,categorical,33.33,1,3,1.0,"{""unknown/none"": 1}",5,,,,
+17,status,categorical,66.67,2,3,1.0,"{""0-200 DM"": 1, ""none"": 1}","2,4",,,,
+17,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+18,amount,numerical,100.0,3,3,13756.0,,,-712.0,-1552.0,423.0,832.8365
+18,credit_history,categorical,66.67,2,3,5.0,"{""past delays"": 1, ""no credits/all paid"": 1}","4,1",,,,
+18,duration,numerical,100.0,3,3,60.0,,,-15.0,-21.0,-12.0,4.2426
+18,employment_duration,categorical,100.0,3,3,5.0,"{""4-7 years"": 2, ""1-4 years"": 1}","4,3",,,,
+18,housing,categorical,100.0,3,3,3.0,"{""own"": 3}",2,,,,
+18,installment_rate,numerical,66.67,2,3,2.0,,,2.0,2.0,2.0,0.0
+18,job,categorical,0.0,0,3,4.0,{},,,,,
+18,number_credits,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+18,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+18,other_installment_plans,categorical,66.67,2,3,1.0,"{""none"": 2}",3,,,,
+18,people_liable,numerical,0.0,0,3,1.0,,,,,,
+18,present_residence,numerical,66.67,2,3,4.0,,,-2.5,-3.0,-2.0,0.5
+18,property,categorical,100.0,3,3,4.0,"{""building society/life insurance"": 1, ""car/other"": 2}","2,3",,,,
+18,purpose,categorical,100.0,3,3,1.0,"{""furniture/equipment"": 1, ""radio/TV"": 1, ""business"": 1}","3,4,9",,,,
+18,savings,categorical,33.33,1,3,5.0,"{""500-1000 DM"": 1}",3,,,,
+18,status,categorical,66.67,2,3,4.0,"{""<0 DM"": 1, ""0-200 DM"": 1}","1,2",,,,
+18,telephone,categorical,0.0,0,3,2.0,{},,,,,
+19,amount,numerical,100.0,3,3,741.0,,,-3.0,-11.0,12.0,10.6145
+19,credit_history,categorical,66.67,2,3,3.0,"{""critical/other credits"": 2}",5,,,,
+19,duration,numerical,100.0,3,3,12.0,,,-5.0,-6.0,-4.0,0.8165
+19,employment_duration,categorical,100.0,3,3,1.0,"{""\u22657 years"": 2, ""1-4 years"": 1}","5,3",,,,
+19,housing,categorical,33.33,1,3,2.0,"{""rent"": 1}",1,,,,
+19,installment_rate,numerical,33.33,1,3,4.0,,,-2.0,-2.0,-2.0,0.0
+19,job,categorical,66.67,2,3,3.0,"{""unskilled-resident"": 2}",2,,,,
+19,number_credits,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+19,other_debtors,categorical,33.33,1,3,1.0,"{""guarantor"": 1}",3,,,,
+19,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+19,people_liable,numerical,0.0,0,3,1.0,,,,,,
+19,present_residence,numerical,66.67,2,3,3.0,,,0.0,-1.0,1.0,1.0
+19,property,categorical,66.67,2,3,2.0,"{""real estate"": 2}",1,,,,
+19,purpose,categorical,100.0,3,3,5.0,"{""new car"": 1, ""radio/TV"": 2}","1,4",,,,
+19,savings,categorical,100.0,3,3,2.0,"{""<100 DM"": 2, ""unknown/none"": 1}","1,5",,,,
+19,status,categorical,66.67,2,3,1.0,"{""none"": 1, ""0-200 DM"": 1}","4,2",,,,
+19,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+20,amount,numerical,100.0,3,3,1216.0,,,-1.0,-15.0,15.0,12.3288
+20,credit_history,categorical,66.67,2,3,5.0,"{""existing paid"": 2}",3,,,,
+20,duration,numerical,33.33,1,3,24.0,,,-9.0,-9.0,-9.0,0.0
+20,employment_duration,categorical,66.67,2,3,2.0,"{""\u22657 years"": 2}",5,,,,
+20,housing,categorical,33.33,1,3,2.0,"{""rent"": 1}",1,,,,
+20,installment_rate,numerical,0.0,0,3,4.0,,,,,,
+20,job,categorical,33.33,1,3,3.0,"{""management/self-employed/highly skilled"": 1}",4,,,,
+20,number_credits,numerical,66.67,2,3,2.0,,,-1.0,-1.0,-1.0,0.0
+20,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+20,other_installment_plans,categorical,100.0,3,3,1.0,"{""stores"": 1, ""none"": 2}","2,3",,,,
+20,people_liable,numerical,100.0,3,3,2.0,,,-1.0,-1.0,-1.0,0.0
+20,present_residence,numerical,66.67,2,3,4.0,,,-2.0,-3.0,-1.0,1.0
+20,property,categorical,100.0,3,3,4.0,"{""building society/life insurance"": 3}",2,,,,
+20,purpose,categorical,33.33,1,3,4.0,"{""new car"": 1}",1,,,,
+20,savings,categorical,100.0,3,3,2.0,"{""500-1000 DM"": 1, ""\u22651000 DM"": 1, ""<100 DM"": 1}","3,4,1",,,,
+20,status,categorical,66.67,2,3,2.0,"{""none"": 1, ""<0 DM"": 1}","4,1",,,,
+20,telephone,categorical,66.67,2,3,1.0,"{""yes registered"": 2}",2,,,,
+21,amount,numerical,100.0,3,3,1778.0,,,19.3333,17.0,22.0,2.0548
+21,credit_history,categorical,100.0,3,3,1.0,"{""critical/other credits"": 3}",5,,,,
+21,duration,numerical,100.0,3,3,15.0,,,1.3333,-2.0,3.0,2.357
+21,employment_duration,categorical,66.67,2,3,2.0,"{""\u22657 years"": 1, ""1-4 years"": 1}","5,3",,,,
+21,housing,categorical,66.67,2,3,1.0,"{""own"": 2}",2,,,,
+21,installment_rate,numerical,100.0,3,3,2.0,,,1.3333,1.0,2.0,0.4714
+21,job,categorical,100.0,3,3,1.0,"{""unskilled-resident"": 2, ""skilled/official"": 1}","2,3",,,,
+21,number_credits,numerical,0.0,0,3,2.0,,,,,,
+21,other_debtors,categorical,33.33,1,3,1.0,"{""guarantor"": 1}",3,,,,
+21,other_installment_plans,categorical,66.67,2,3,3.0,"{""bank"": 2}",1,,,,
+21,people_liable,numerical,0.0,0,3,1.0,,,,,,
+21,present_residence,numerical,66.67,2,3,1.0,,,2.0,1.0,3.0,1.0
+21,property,categorical,66.67,2,3,1.0,"{""building society/life insurance"": 1, ""car/other"": 1}","2,3",,,,
+21,purpose,categorical,100.0,3,3,1.0,"{""radio/TV"": 2, ""business"": 1}","4,9",,,,
+21,savings,categorical,0.0,0,3,1.0,{},,,,,
+21,status,categorical,66.67,2,3,2.0,"{""<0 DM"": 1, ""none"": 1}","1,4",,,,
+21,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+22,amount,numerical,100.0,3,3,1371.0,,,7.3333,5.0,11.0,2.6247
+22,credit_history,categorical,33.33,1,3,3.0,"{""critical/other credits"": 1}",5,,,,
+22,duration,numerical,0.0,0,3,24.0,,,,,,
+22,employment_duration,categorical,100.0,3,3,3.0,"{""4-7 years"": 2, ""\u22657 years"": 1}","4,5",,,,
+22,housing,categorical,100.0,3,3,1.0,"{""own"": 2, ""for free"": 1}","2,3",,,,
+22,installment_rate,numerical,0.0,0,3,4.0,,,,,,
+22,job,categorical,0.0,0,3,3.0,{},,,,,
+22,number_credits,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+22,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+22,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+22,people_liable,numerical,0.0,0,3,1.0,,,,,,
+22,present_residence,numerical,100.0,3,3,4.0,,,-2.6667,-3.0,-2.0,0.4714
+22,property,categorical,66.67,2,3,1.0,"{""car/other"": 1, ""unknown/none"": 1}","3,4",,,,
+22,purpose,categorical,100.0,3,3,1.0,"{""radio/TV"": 2, ""business"": 1}","4,9",,,,
+22,savings,categorical,100.0,3,3,5.0,"{""500-1000 DM"": 1, ""100-500 DM"": 2}","3,2",,,,
+22,status,categorical,66.67,2,3,1.0,"{""none"": 1, ""\u2265200 DM/salary"": 1}","4,3",,,,
+22,telephone,categorical,66.67,2,3,1.0,"{""yes registered"": 2}",2,,,,
+23,amount,numerical,100.0,3,3,1442.0,,,1.3333,-9.0,11.0,8.1786
+23,credit_history,categorical,100.0,3,3,2.0,"{""existing paid"": 2, ""critical/other credits"": 1}","3,5",,,,
+23,duration,numerical,66.67,2,3,18.0,,,-3.0,-3.0,-3.0,0.0
+23,employment_duration,categorical,100.0,3,3,4.0,"{""<1 year"": 2, ""1-4 years"": 1}","2,3",,,,
+23,housing,categorical,100.0,3,3,3.0,"{""own"": 2, ""rent"": 1}","2,1",,,,
+23,installment_rate,numerical,33.33,1,3,4.0,,,-1.0,-1.0,-1.0,0.0
+23,job,categorical,100.0,3,3,2.0,"{""skilled/official"": 3}",3,,,,
+23,number_credits,numerical,66.67,2,3,2.0,,,-1.0,-1.0,-1.0,0.0
+23,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+23,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+23,people_liable,numerical,100.0,3,3,2.0,,,-1.0,-1.0,-1.0,0.0
+23,present_residence,numerical,100.0,3,3,4.0,,,-2.3333,-3.0,-1.0,0.9428
+23,property,categorical,100.0,3,3,4.0,"{""building society/life insurance"": 2, ""real estate"": 1}","2,1",,,,
+23,purpose,categorical,100.0,3,3,1.0,"{""radio/TV"": 2, ""furniture/equipment"": 1}","4,3",,,,
+23,savings,categorical,33.33,1,3,1.0,"{""unknown/none"": 1}",5,,,,
+23,status,categorical,66.67,2,3,1.0,"{""0-200 DM"": 1, ""none"": 1}","2,4",,,,
+23,telephone,categorical,0.0,0,3,1.0,{},,,,,
+24,amount,numerical,100.0,3,3,1264.0,,,-3.3333,-6.0,-2.0,1.8856
+24,credit_history,categorical,100.0,3,3,2.0,"{""existing paid"": 2, ""critical/other credits"": 1}","3,5",,,,
+24,duration,numerical,66.67,2,3,15.0,,,-3.0,-3.0,-3.0,0.0
+24,employment_duration,categorical,66.67,2,3,3.0,"{""4-7 years"": 1, ""<1 year"": 1}","4,2",,,,
+24,housing,categorical,66.67,2,3,1.0,"{""own"": 2}",2,,,,
+24,installment_rate,numerical,66.67,2,3,2.0,,,1.5,1.0,2.0,0.5
+24,job,categorical,33.33,1,3,3.0,"{""unskilled-resident"": 1}",2,,,,
+24,number_credits,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+24,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+24,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+24,people_liable,numerical,0.0,0,3,1.0,,,,,,
+24,present_residence,numerical,66.67,2,3,2.0,,,1.5,1.0,2.0,0.5
+24,property,categorical,33.33,1,3,2.0,"{""car/other"": 1}",3,,,,
+24,purpose,categorical,100.0,3,3,1.0,"{""radio/TV"": 1, ""domestic appliances"": 1, ""furniture/equipment"": 1}","4,5,3",,,,
+24,savings,categorical,100.0,3,3,2.0,"{""<100 DM"": 2, ""500-1000 DM"": 1}","1,3",,,,
+24,status,categorical,100.0,3,3,2.0,"{""none"": 3}",4,,,,
+24,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+25,amount,numerical,100.0,3,3,1007.0,,,0.6667,-11.0,21.0,14.4299
+25,credit_history,categorical,66.67,2,3,3.0,"{""critical/other credits"": 2}",5,,,,
+25,duration,numerical,66.67,2,3,12.0,,,9.0,6.0,12.0,3.0
+25,employment_duration,categorical,66.67,2,3,3.0,"{""4-7 years"": 1, ""\u22657 years"": 1}","4,5",,,,
+25,housing,categorical,0.0,0,3,2.0,{},,,,,
+25,installment_rate,numerical,0.0,0,3,4.0,,,,,,
+25,job,categorical,0.0,0,3,3.0,{},,,,,
+25,number_credits,numerical,100.0,3,3,1.0,,,1.0,1.0,1.0,0.0
+25,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+25,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+25,people_liable,numerical,0.0,0,3,1.0,,,,,,
+25,present_residence,numerical,100.0,3,3,1.0,,,2.0,1.0,3.0,0.8165
+25,property,categorical,33.33,1,3,1.0,"{""car/other"": 1}",3,,,,
+25,purpose,categorical,66.67,2,3,1.0,"{""repairs"": 1, ""radio/TV"": 1}","6,4",,,,
+25,savings,categorical,100.0,3,3,4.0,"{""unknown/none"": 2, ""<100 DM"": 1}","5,1",,,,
+25,status,categorical,100.0,3,3,2.0,"{""none"": 3}",4,,,,
+25,telephone,categorical,0.0,0,3,1.0,{},,,,,
+26,amount,numerical,100.0,3,3,7685.0,,,3.3333,-56.0,73.0,53.1685
+26,credit_history,categorical,100.0,3,3,2.0,"{""past delays"": 1, ""critical/other credits"": 2}","4,5",,,,
+26,duration,numerical,66.67,2,3,48.0,,,-18.0,-24.0,-12.0,6.0
+26,employment_duration,categorical,66.67,2,3,4.0,"{""\u22657 years"": 2}",5,,,,
+26,housing,categorical,66.67,2,3,1.0,"{""own"": 2}",2,,,,
+26,installment_rate,numerical,33.33,1,3,2.0,,,2.0,2.0,2.0,0.0
+26,job,categorical,33.33,1,3,3.0,"{""management/self-employed/highly skilled"": 1}",4,,,,
+26,number_credits,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+26,other_debtors,categorical,100.0,3,3,3.0,"{""none"": 3}",1,,,,
+26,other_installment_plans,categorical,33.33,1,3,3.0,"{""bank"": 1}",1,,,,
+26,people_liable,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+26,present_residence,numerical,33.33,1,3,4.0,,,-2.0,-2.0,-2.0,0.0
+26,property,categorical,33.33,1,3,3.0,"{""unknown/none"": 1}",4,,,,
+26,purpose,categorical,66.67,2,3,9.0,"{""furniture/equipment"": 1, ""used car"": 1}","3,2",,,,
+26,savings,categorical,100.0,3,3,1.0,"{""500-1000 DM"": 1, ""unknown/none"": 1, ""\u22651000 DM"": 1}","3,5,4",,,,
+26,status,categorical,100.0,3,3,1.0,"{""none"": 2, ""0-200 DM"": 1}","4,2",,,,
+26,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+27,amount,numerical,100.0,3,3,5371.0,,,25.0,-123.0,136.0,108.9251
+27,credit_history,categorical,66.67,2,3,5.0,"{""existing paid"": 2}",3,,,,
+27,duration,numerical,100.0,3,3,36.0,,,-13.0,-15.0,-12.0,1.4142
+27,employment_duration,categorical,66.67,2,3,3.0,"{""unemployed"": 1, ""\u22657 years"": 1}","1,5",,,,
+27,housing,categorical,66.67,2,3,2.0,"{""rent"": 1, ""for free"": 1}","1,3",,,,
+27,installment_rate,numerical,66.67,2,3,3.0,,,-1.5,-2.0,-1.0,0.5
+27,job,categorical,33.33,1,3,3.0,"{""management/self-employed/highly skilled"": 1}",4,,,,
+27,number_credits,numerical,66.67,2,3,2.0,,,-1.0,-1.0,-1.0,0.0
+27,other_debtors,categorical,100.0,3,3,3.0,"{""none"": 3}",1,,,,
+27,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+27,people_liable,numerical,0.0,0,3,1.0,,,,,,
+27,present_residence,numerical,100.0,3,3,2.0,,,1.6667,1.0,2.0,0.4714
+27,property,categorical,66.67,2,3,2.0,"{""car/other"": 1, ""unknown/none"": 1}","3,4",,,,
+27,purpose,categorical,100.0,3,3,3.0,"{""used car"": 2, ""repairs"": 1}","2,6",,,,
+27,savings,categorical,66.67,2,3,1.0,"{""unknown/none"": 2}",5,,,,
+27,status,categorical,100.0,3,3,1.0,"{""none"": 3}",4,,,,
+27,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+28,amount,numerical,100.0,3,3,795.0,,,3.6667,-5.0,9.0,6.1824
+28,credit_history,categorical,33.33,1,3,3.0,"{""past delays"": 1}",4,,,,
+28,duration,numerical,66.67,2,3,12.0,,,-0.5,-3.0,2.0,2.5
+28,employment_duration,categorical,100.0,3,3,2.0,"{""1-4 years"": 2, ""\u22657 years"": 1}","3,5",,,,
+28,housing,categorical,0.0,0,3,2.0,{},,,,,
+28,installment_rate,numerical,0.0,0,3,4.0,,,,,,
+28,job,categorical,66.67,2,3,3.0,"{""unskilled-resident"": 2}",2,,,,
+28,number_credits,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+28,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+28,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+28,people_liable,numerical,0.0,0,3,1.0,,,,,,
+28,present_residence,numerical,66.67,2,3,4.0,,,-1.5,-2.0,-1.0,0.5
+28,property,categorical,100.0,3,3,2.0,"{""real estate"": 1, ""car/other"": 2}","1,3",,,,
+28,purpose,categorical,100.0,3,3,7.0,"{""radio/TV"": 2, ""new car"": 1}","4,1",,,,
+28,savings,categorical,33.33,1,3,1.0,"{""500-1000 DM"": 1}",3,,,,
+28,status,categorical,100.0,3,3,1.0,"{""0-200 DM"": 1, ""none"": 2}","2,4",,,,
+28,telephone,categorical,0.0,0,3,1.0,{},,,,,
+29,amount,numerical,100.0,3,3,4280.0,,,-25.0,-59.0,-8.0,24.0416
+29,credit_history,categorical,66.67,2,3,1.0,"{""past delays"": 1, ""critical/other credits"": 1}","4,5",,,,
+29,duration,numerical,33.33,1,3,30.0,,,-10.0,-10.0,-10.0,0.0
+29,employment_duration,categorical,33.33,1,3,3.0,"{""\u22657 years"": 1}",5,,,,
+29,housing,categorical,100.0,3,3,1.0,"{""own"": 3}",2,,,,
+29,installment_rate,numerical,100.0,3,3,4.0,,,-2.3333,-3.0,-2.0,0.4714
+29,job,categorical,66.67,2,3,2.0,"{""skilled/official"": 2}",3,,,,
+29,number_credits,numerical,0.0,0,3,2.0,,,,,,
+29,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+29,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+29,people_liable,numerical,0.0,0,3,1.0,,,,,,
+29,present_residence,numerical,66.67,2,3,4.0,,,-2.5,-3.0,-2.0,0.5
+29,property,categorical,66.67,2,3,3.0,"{""building society/life insurance"": 2}",2,,,,
+29,purpose,categorical,33.33,1,3,9.0,"{""furniture/equipment"": 1}",3,,,,
+29,savings,categorical,66.67,2,3,2.0,"{""<100 DM"": 2}",1,,,,
+29,status,categorical,66.67,2,3,2.0,"{""none"": 1, ""<0 DM"": 1}","4,1",,,,
+29,telephone,categorical,0.0,0,3,1.0,{},,,,,
+30,amount,numerical,100.0,3,3,4308.0,,,-9.6667,-36.0,43.0,37.241
+30,credit_history,categorical,66.67,2,3,3.0,"{""past delays"": 1, ""critical/other credits"": 1}","4,5",,,,
+30,duration,numerical,100.0,3,3,48.0,,,-23.3333,-28.0,-18.0,4.1096
+30,employment_duration,categorical,100.0,3,3,2.0,"{""1-4 years"": 2, ""\u22657 years"": 1}","3,5",,,,
+30,housing,categorical,100.0,3,3,1.0,"{""own"": 3}",2,,,,
+30,installment_rate,numerical,100.0,3,3,3.0,,,-1.6667,-2.0,-1.0,0.4714
+30,job,categorical,66.67,2,3,3.0,"{""unskilled-resident"": 2}",2,,,,
+30,number_credits,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+30,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+30,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+30,people_liable,numerical,0.0,0,3,1.0,,,,,,
+30,present_residence,numerical,33.33,1,3,4.0,,,-2.0,-2.0,-2.0,0.0
+30,property,categorical,0.0,0,3,2.0,{},,,,,
+30,purpose,categorical,66.67,2,3,9.0,"{""furniture/equipment"": 2}",3,,,,
+30,savings,categorical,66.67,2,3,1.0,"{""100-500 DM"": 1, ""unknown/none"": 1}","2,5",,,,
+30,status,categorical,66.67,2,3,1.0,"{""none"": 1, ""0-200 DM"": 1}","4,2",,,,
+30,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,
+31,amount,numerical,66.67,2,3,727.0,,,3.5,3.0,4.0,0.5
+31,credit_history,categorical,66.67,2,3,3.0,"{""critical/other credits"": 2}",5,,,,
+31,duration,numerical,100.0,3,3,12.0,,,-3.6667,-5.0,-2.0,1.2472
+31,employment_duration,categorical,100.0,3,3,2.0,"{""\u22657 years"": 3}",5,,,,
+31,housing,categorical,66.67,2,3,2.0,"{""for free"": 1, ""rent"": 1}","3,1",,,,
+31,installment_rate,numerical,0.0,0,3,4.0,,,,,,
+31,job,categorical,33.33,1,3,2.0,"{""skilled/official"": 1}",3,,,,
+31,number_credits,numerical,66.67,2,3,1.0,,,1.0,1.0,1.0,0.0
+31,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+31,other_installment_plans,categorical,0.0,0,3,3.0,{},,,,,
+31,people_liable,numerical,0.0,0,3,1.0,,,,,,
+31,present_residence,numerical,100.0,3,3,3.0,,,0.3333,-1.0,1.0,0.9428
+31,property,categorical,66.67,2,3,4.0,"{""real estate"": 1, ""building society/life insurance"": 1}","1,2",,,,
+31,purpose,categorical,66.67,2,3,4.0,"{""education"": 1, ""new car"": 1}","7,1",,,,
+31,savings,categorical,100.0,3,3,2.0,"{""500-1000 DM"": 1, ""<100 DM"": 1, ""unknown/none"": 1}","3,1,5",,,,
+31,status,categorical,66.67,2,3,1.0,"{""none"": 2}",4,,,,
+31,telephone,categorical,33.33,1,3,2.0,"{""none"": 1}",1,,,,
+32,amount,numerical,100.0,3,3,2746.0,,,0.3333,-3.0,5.0,3.3993
+32,credit_history,categorical,100.0,3,3,2.0,"{""critical/other credits"": 3}",5,,,,
+32,duration,numerical,100.0,3,3,36.0,,,-3.6667,-15.0,12.0,11.4407
+32,employment_duration,categorical,33.33,1,3,5.0,"{""4-7 years"": 1}",4,,,,
+32,housing,categorical,0.0,0,3,2.0,{},,,,,
+32,installment_rate,numerical,33.33,1,3,4.0,,,-1.0,-1.0,-1.0,0.0
+32,job,categorical,0.0,0,3,3.0,{},,,,,
+32,number_credits,numerical,100.0,3,3,1.0,,,1.0,1.0,1.0,0.0
+32,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+32,other_installment_plans,categorical,100.0,3,3,1.0,"{""none"": 3}",3,,,,
+32,people_liable,numerical,33.33,1,3,1.0,,,1.0,1.0,1.0,0.0
+32,present_residence,numerical,100.0,3,3,4.0,,,-1.6667,-2.0,-1.0,0.4714
+32,property,categorical,0.0,0,3,3.0,{},,,,,
+32,purpose,categorical,66.67,2,3,3.0,"{""radio/TV"": 1, ""used car"": 1}","4,2",,,,
+32,savings,categorical,66.67,2,3,1.0,"{""unknown/none"": 1, ""\u22651000 DM"": 1}","5,4",,,,
+32,status,categorical,100.0,3,3,1.0,"{""none"": 2, ""0-200 DM"": 1}","4,2",,,,
+32,telephone,categorical,66.67,2,3,1.0,"{""yes registered"": 2}",2,,,,
+33,amount,numerical,100.0,3,3,1207.0,,,-0.3333,-6.0,6.0,4.9216
+33,credit_history,categorical,0.0,0,3,3.0,{},,,,,
+33,duration,numerical,66.67,2,3,24.0,,,-12.0,-15.0,-9.0,3.0
+33,employment_duration,categorical,66.67,2,3,2.0,"{""\u22657 years"": 2}",5,,,,
+33,housing,categorical,100.0,3,3,1.0,"{""own"": 3}",2,,,,
+33,installment_rate,numerical,0.0,0,3,4.0,,,,,,
+33,job,categorical,0.0,0,3,3.0,{},,,,,
+33,number_credits,numerical,0.0,0,3,1.0,,,,,,
+33,other_debtors,categorical,0.0,0,3,1.0,{},,,,,
+33,other_installment_plans,categorical,33.33,1,3,3.0,"{""stores"": 1}",2,,,,
+33,people_liable,numerical,0.0,0,3,1.0,,,,,,
+33,present_residence,numerical,66.67,2,3,4.0,,,-2.0,-3.0,-1.0,1.0
+33,property,categorical,33.33,1,3,2.0,"{""real estate"": 1}",1,,,,
+33,purpose,categorical,66.67,2,3,1.0,"{""radio/TV"": 2}",4,,,,
+33,savings,categorical,33.33,1,3,1.0,"{""500-1000 DM"": 1}",3,,,,
+33,status,categorical,100.0,3,3,1.0,"{""0-200 DM"": 2, ""none"": 1}","2,4",,,,
+33,telephone,categorical,33.33,1,3,1.0,"{""yes registered"": 1}",2,,,,

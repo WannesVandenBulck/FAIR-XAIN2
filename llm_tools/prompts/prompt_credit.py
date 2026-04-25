@@ -31,6 +31,9 @@ CATEGORICAL_FEATURES = ['status', 'credit_history', 'purpose', 'savings', 'emplo
 
 # Load dataset_info from pickle file
 DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "dataset_info"
+TRAIN_CLEANED_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "train_cleaned.parquet"
+
+_APPROVED_STATS_CACHE = None
 
 def load_dataset_info():
     """Load dataset info from pickle file"""
@@ -38,6 +41,45 @@ def load_dataset_info():
         return pickle.load(f)
 
 DATASET_INFO = load_dataset_info()
+
+
+def get_approved_feature_stats():
+    """Compute fallback feature stats for approved applicants (target_credit == 0)."""
+    global _APPROVED_STATS_CACHE
+    if _APPROVED_STATS_CACHE is not None:
+        return _APPROVED_STATS_CACHE
+
+    stats = {}
+    try:
+        train_df = pd.read_parquet(TRAIN_CLEANED_PATH)
+        approved_df = train_df[train_df['target_credit'] == 0].copy()
+        if approved_df.empty:
+            _APPROVED_STATS_CACHE = stats
+            return stats
+
+        skip_cols = ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_credit']
+        for col in approved_df.columns:
+            if col in skip_cols:
+                continue
+
+            if col in CATEGORICAL_FEATURES:
+                vc = approved_df[col].value_counts(dropna=False)
+                total = vc.sum()
+                dist_parts = []
+                for val, count in vc.items():
+                    mapped_val = map_attribute_value(col, val)
+                    pct = (count / total) * 100 if total > 0 else 0
+                    dist_parts.append(f"{mapped_val}: {pct:.1f}%")
+                stats[col] = {'distribution_positive': ', '.join(dist_parts)}
+            else:
+                mean_val = pd.to_numeric(approved_df[col], errors='coerce').mean()
+                if pd.notna(mean_val):
+                    stats[col] = {'feature_average_positive': float(mean_val)}
+    except Exception:
+        stats = {}
+
+    _APPROVED_STATS_CACHE = stats
+    return stats
 
 def map_attribute_value(feature_name, value):
     """
@@ -120,11 +162,33 @@ def create_instance_description_from_row(row):
     Parameters:
     - row: pandas Series with feature values
     """
+    fallback_stats = get_approved_feature_stats()
+
     if DATASET_INFO is None:
         feature_lines = []
         for col in row.index:
+            if col in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_credit']:
+                continue
             mapped_value = map_attribute_value(col, row[col])
-            feature_lines.append(f"- {col} = {mapped_value}")
+            if col in ['sex', 'age', 'foreign_worker']:
+                feature_lines.append(f"- {col} = {mapped_value}")
+            elif col in CATEGORICAL_FEATURES:
+                dist = fallback_stats.get(col, {}).get('distribution_positive')
+                if dist:
+                    feature_lines.append(f"- {col} = {mapped_value} - among approved applicants: {dist}")
+                else:
+                    feature_lines.append(f"- {col} = {mapped_value}")
+            else:
+                avg_positive = fallback_stats.get(col, {}).get('feature_average_positive')
+                if avg_positive is not None:
+                    try:
+                        value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
+                        avg_str = f"{float(avg_positive):.2f}"
+                        feature_lines.append(f"- {col} = {value_str} (approved applicants avg: {avg_str})")
+                    except (ValueError, TypeError):
+                        feature_lines.append(f"- {col} = {mapped_value}")
+                else:
+                    feature_lines.append(f"- {col} = {mapped_value}")
     else:
         feature_df = DATASET_INFO.get("feature_description")
         feature_lines = []
@@ -147,6 +211,8 @@ def create_instance_description_from_row(row):
                 # Categorical features: show distribution for approved applicants
                 elif col in CATEGORICAL_FEATURES:
                     distribution_positive = feature_info.iloc[0].get('feature_distribution_positive')
+                    if pd.isna(distribution_positive) or distribution_positive is None:
+                        distribution_positive = fallback_stats.get(col, {}).get('distribution_positive')
                     if pd.notna(distribution_positive) and distribution_positive is not None:
                         feature_lines.append(f"- {col} = {mapped_value} - among approved applicants: {distribution_positive} - {desc}")
                     else:
@@ -154,6 +220,8 @@ def create_instance_description_from_row(row):
                 # Numerical features: show average for approved applicants
                 else:
                     avg_positive = feature_info.iloc[0].get('feature_average_positive')
+                    if pd.isna(avg_positive) or avg_positive is None:
+                        avg_positive = fallback_stats.get(col, {}).get('feature_average_positive')
                     if pd.notna(avg_positive) and avg_positive is not None:
                         try:
                             value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
@@ -166,7 +234,7 @@ def create_instance_description_from_row(row):
             else:
                 feature_lines.append(f"- {col} = {mapped_value}")
     
-    instance_desc = f"""Feature values:
+    instance_desc = f"""Feature values (with comparisons to approved applicants where available):
 {chr(10).join(feature_lines)}
 
 """
@@ -258,6 +326,7 @@ DATASET_EXPLANATION = """
 
 APPLICANT_INFORMATION = """
 3. APPLICANT PROFILE 
+You are writing a narrative tailored to this specific person who is rejected a loan application. 
 """
 
 SHAP_VALUES_SECTION = """
@@ -305,8 +374,9 @@ TASK:
 Your goal is to generate a plausible textual explanation or narrative explaining why the loan application was denied for this applicant.
 
 PERSONALIZATION INSTRUCTION:
-Based on the provided PERSONAL INFORMATION about the applicant, create a personalised narrative tailored to them. 
+Based on the provided PERSONAL INFORMATION about the applicant, create a personalized narrative tailored to them. 
 The narrative should feel like it was written specifically for this individual, acknowledging their personal circumstances and creating a more personalized experience. 
+However, do not force the personalization: it should be seamlessly integrated into the narrative.
 
 Write a detailed narrative explanation tailored to this non-technical reader that MUST explain:
 1) The current situation of the applicant (what are their features and background).
@@ -324,10 +394,9 @@ CONSTRAINTS:
 STYLE:
 - Length: 12-15 sentences.
 - Write a coherent narrative without bullet points or tables. The goal is to have a plausible narrative/story.
-- Directly address the applicant and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. Do not force the personalization: it should be seamlessly integrated into the narrative.
-- If not necessary do not explicitely state personal attributes, but do use them to personalise the content of the narrative! A person knows their own personal status and age, do not state explicitely but instead use it to create a more personalized narrative.
+- Directly address the applicant and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. 
 - Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative.
-- You may include feature values and their comparisons to averages or distributions, but reserve this for features where it really clarifies the explanation.
+- Include feature values and their comparisons to averages or distributions, but reserve this for features where it really clarifies the explanation.
 """
 
 
@@ -338,11 +407,16 @@ TASK:
 - Provide concrete, actionable insights about which feature changes would shift the prediction.
 - Provide a numeric summary: which features always/never change, which features change most often, which features change together etc. Include by how much on average or the distribution of changes if relevant .
 
+PERSONALIZATION INSTRUCTION:
+Based on the provided PERSONAL INFORMATION about the applicant, create a personalized narrative tailored to them. 
+The narrative should feel like it was written specifically for this individual, acknowledging their personal circumstances and creating a more personalized experience. 
+However, do not force the personalization: it should be seamlessly integrated into the narrative.
+
 Write a detailed narrative explanation for a non-technical reader:
 1) Briefly summarize the current situation of the applicant, the model's predicted probability of bad credit and what this means for the customer.
 2) Explain what counterfactuals represent: "what if" scenarios that would change the prediction.
-3) Quantified summary: how many counterfactuals were generated, which features changed most often.
-4) Determine which features are most important to change: which features changed most often across the counterfactuals, and by how much on average or in distribution.You decide what "important to change" means based on the patterns you see in the counterfactuals.
+3) Quantified summary: how many counterfactuals were generated, which features changed most often, which ones together, etc. Determine the most important information from the counterfactual table and analysis and summarize it in a way that is actionable for the student.
+4) End with actionable guidance: based on patterns, which features are realistic to change and by approximately how much.
 
 CONSTRAINTS:
 - Do NOT invent new feature values or examples.
@@ -352,23 +426,22 @@ CONSTRAINTS:
 
 STYLE:
 - Length: 15-18 sentences.
-- Write a coherent narrative without bullet points or tables. Teh goal is to have a plausible narrative/story.
-- Directly address the applicant and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. Do not force the personalization: it should be seamlessly integrated into the narrative.
-- If not necessary do not explicitely state personal attributes, but do use them to personalise the content of the narrative! A person knows their own personal status and age, do not state explicitely but instead use it to create a more personalized narrative.
+- Write a coherent narrative without bullet points or tables. The goal is to have a plausible narrative/story.
+- Directly address the applicant and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. 
 - Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative. You have their meaning. 
-- Focus on actionable insights the customer can implement.
-- You may include feature values and their comparisons to averages or distributions, but reserve this for features where it really clarifies the explanation.
+- Focus on actionable insights the applicant can implement.
+- Include feature values and their comparisons to averages or distributions, but reserve this for features where it really clarifies the explanation.
 """
 
 
-def build_shap_prompt(instance_index, shap_csv_path: str = None, personal_status_sex_override=None, age_override=None) -> str:
+def build_shap_prompt(instance_index, shap_csv_path: str = None, sex_override=None, age_override=None) -> str:
     """
     Build a SHAP explanation prompt by loading from the SHAP CSV.
     
     Parameters:
     - instance_index: the instance index to explain (e.g., 438, 89, etc.)
     - shap_csv_path: path to the SHAP CSV file (defaults to credit_dataset/credit_shap.csv)
-    - personal_status_sex_override: Optional override for personal_status_sex for bias injection
+    - sex_override: Optional override for sex for bias injection
     - age_override: Optional override for age for bias injection
     
     Returns:
@@ -408,7 +481,7 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, personal_status
             shap_dict[feature_name] = shap_values[col]
     
     # Separate regular features from protected attributes, using overrides if provided
-    instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance, personal_status_sex_override=personal_status_sex_override, age_override=age_override)
+    instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance, sex_override=sex_override, age_override=age_override)
     
     # Create SHAP table as simple text
     shap_table_df = pd.DataFrame({
@@ -453,7 +526,7 @@ The model's prediction:
     return prompt
 
 
-def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: str = None, shap_csv_path: str = None, analysis_json_path: str = None, personal_status_sex_override=None, age_override=None) -> str:
+def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: str = None, shap_csv_path: str = None, analysis_json_path: str = None, sex_override=None, age_override=None) -> str:
     """
     Build a counterfactual prompt by loading from the CSV files and analysis JSON.
     
@@ -463,7 +536,7 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     - adverse_csv_path: path to adverse CSV (defaults to credit_dataset/credit_adverse.csv)
     - shap_csv_path: path to SHAP CSV for predicted_probability (defaults to credit_dataset/credit_shap.csv)
     - analysis_json_path: path to counterfactual analysis JSON (defaults to credit_dataset/credit_counterfactual_analysis.json)
-    - personal_status_sex_override: Optional override for personal_status_sex for bias injection
+    - sex_override: Optional override for sex for bias injection
     - age_override: Optional override for age for bias injection
     
     Returns:
@@ -567,8 +640,9 @@ Detailed feature changes:
     
     # Create table with original + counterfactuals
     # Extract feature columns only (exclude metadata like instance_index, original_test_index, CF_number, distance_to_original, target, and protected attributes)
+    protected_attributes_list = ['sex', 'age', 'foreign_worker']
     feature_cols = [col for col in adverse_df.columns 
-                   if col not in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_credit', 'personal_status_sex', 'age']]
+                   if col not in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_credit'] + protected_attributes_list]
     
     table_data = []
     
@@ -586,7 +660,7 @@ Detailed feature changes:
     table_df = pd.DataFrame(table_data).set_index('row_type')
     
     # Create instance description using overrides if provided
-    instance_desc, _ = separate_features_and_protected_attributes(original, personal_status_sex_override=personal_status_sex_override, age_override=age_override)
+    instance_desc, _ = separate_features_and_protected_attributes(original, sex_override=sex_override, age_override=age_override)
     
     table_str = table_df.to_string()
 
