@@ -1,4 +1,6 @@
-﻿import pandas as pd
+import sys
+sys.path.append(r'C:\Users\wavandenbulck\Desktop\ECAF\NICE')
+import pandas as pd
 import numpy as np
 import pickle
 import os
@@ -8,7 +10,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Configuration
-NUM_COUNTERFACTUALS = 3
+NUM_COUNTERFACTUALS = 10
 
 datasets = {
     'credit': {
@@ -104,8 +106,14 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
         # Instance must also be float64
         instance = row[feature_cols].values.reshape(1, -1).astype(np.float64, copy=True)
         
+        # Track generated counterfactuals for this instance to ensure uniqueness
+        generated_cf_tuples = set()
         cfs_generated = 0
-        for cf_num in range(1, num_cf + 1):
+        attempts = 0
+        max_attempts = num_cf * 3  # Allow extra attempts to find unique CFs
+        
+        while cfs_generated < num_cf and attempts < max_attempts:
+            attempts += 1
             try:
                 # We reuse the same NICE object but NICE explain is somewhat deterministic.
                 # In a more complex setup we might re-init with different 'optimization' param.
@@ -114,12 +122,21 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
                 if isinstance(cf_instance, np.ndarray):
                     cf_instance = cf_instance.flatten()
                 
+                # Convert to tuple for hashability to check uniqueness
+                cf_tuple = tuple(np.round(cf_instance, decimals=6))
+                
+                # Skip if this exact CF was already generated for this instance
+                if cf_tuple in generated_cf_tuples:
+                    continue
+                
+                generated_cf_tuples.add(cf_tuple)
+                
                 distance = np.linalg.norm(cf_instance - instance.flatten())
                 
                 cf_dict = dict(zip(feature_cols, cf_instance))
                 cf_dict['instance_index'] = int(row['instance_index'])
                 cf_dict['original_test_index'] = int(row['original_test_index'])
-                cf_dict['CF_number'] = cf_num
+                cf_dict['CF_number'] = cfs_generated + 1
                 cf_dict['distance'] = distance
                 all_cfs.append(cf_dict)
                 success_count += 1
@@ -131,10 +148,9 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
                 # print(f'      [Instance {idx+1}] Error: {str(e)}')
                 break
         
-        if cfs_generated < num_cf:
-            failed_count += 1
-    
-    print(f'  Generated {success_count} counterfactuals')
+        if cfs_generated == 0:
+            print(f"      [Instance {idx+1}] Error: {str(e)}")
+    print(f"  {success_count} counterfactuals generated successfully")
     if all_cfs:
         cf_df = pd.DataFrame(all_cfs)
         cf_df.to_csv(os.path.join(dataset_path, f'{dataset_name}_counterfactual.csv'), index=False)

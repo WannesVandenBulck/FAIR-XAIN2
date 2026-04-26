@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-26T16:54:24.614282",
+  "status": "success",
+  "narrative": "Based on your application, our model has determined that you represent an 81% probability of being a bad credit risk, which is why your loan was denied. This decision was not made lightly, and we want to explain the specific factors that led to this outcome.\n\nYou requested a loan of 1,082 Deutsche Marks for a new car, which is a lower amount than what many approved applicants typically seek. However, the most significant factor in our decision was the status of your checking account, which currently has a negative balance (below 0 DM). This is a strong indicator of financial strain, as most approved applicants have a positive balance or at least some funds available.\n\nYour credit history also played a major role. You have no existing credits and have paid all previous ones, which sounds positive, but this actually works against you because it means you lack a proven track record of managing credit responsibly. Approved applicants usually have a history of existing paid credits, which demonstrates reliability.\n\nThe purpose of your loan—a new car—also contributed to the decision. While new car loans are common, they are not as frequent as loans for radio/TV or furniture, and this purpose is associated with slightly higher risk in our model.\n\nOn a positive note, your employment duration of 1-4 years is stable, and you own your home, which are favorable traits. However, these were not enough to outweigh the concerns from your checking account and credit history.\n\nTo improve your chances in the future, we recommend focusing on building a positive credit history by taking on smaller, manageable credits and paying them off consistently. Additionally, working to maintain a positive checking account balance will demonstrate better financial health. These steps will help you build the track record lenders look for.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

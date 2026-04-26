@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-26T17:01:24.651674",
+  "status": "success",
+  "narrative": "Your application for law school admission was rejected because the model predicts a 57% chance you'll fail the bar exam on your first try, based on your current profile including your undergraduate GPA of 2.4, LSAT score of 25, first-year decile of 1, third-year decile of 4, upper-middle family income, and part-time enrollment status. This prediction edges over the threshold that flags students as high-risk for failing, leading directly to the denial. Counterfactuals are \"what if\" scenarios that reveal the smallest tweaks to your profile which would flip the model's outlook to predicting you'll pass, helping pinpoint why it landed where it did. We generated 10 such scenarios tailored to your situation, and they all tell a clear story: your LSAT score is the standout factor driving the failure prediction. In every single one, the only change needed was boosting your LSAT from 25 to around 37— an average increase of 12 points—while leaving your GPA, deciles, family income, and part-time status untouched. No other features budged in any scenario, underscoring that the model sees your LSAT as the critical shortfall compared to the average 37.27 among students who passed. Your other metrics, like your GPA of 2.4 versus the 3.24 passer average or part-time status against the 93% full-time passers, played supporting roles but weren't decisive enough to shift alone. Accepted students typically cluster in higher deciles—around 6 for first-year and nearly 6 for third-year—and your upper-middle income aligns decently with 45% of passers. This pattern shows the model weighs LSAT heavily because it's a strong signal of bar readiness, far outpacing tweaks elsewhere. To flip the prediction and get approved, focus on retaking the LSAT and aiming for at least 37, which realistically stays within achievable top-percentile ranges without overhauling your academic history. Since your deciles, GPA, income, and enrollment didn't need changing, those are solid foundations you can build on. With that LSAT lift, the model would see you matching the profile of typical accepted students who pass the bar. This targeted change could transform your application's fate, giving you a clear path forward.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

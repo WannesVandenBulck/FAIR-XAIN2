@@ -1,14 +1,14 @@
 {
   "instance_0": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "none": 3
+          "none": 1
         },
         "unique_values": [
           4.0
@@ -17,111 +17,111 @@
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 42.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 6.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3394.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_1": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "none": 3
+          "none": 1
         },
         "unique_values": [
           4.0
@@ -130,138 +130,136 @@
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 12.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 6.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1108.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_2": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 60.0,
         "average_change": -36.0,
         "min_change": -36.0,
         "max_change": -36.0,
         "std_change": 0.0,
         "changes": [
-          -36.0,
-          -36.0,
           -36.0
         ]
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "purpose": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 9.0,
         "distribution": {
-          "used car": 3
+          "used car": 1
         },
         "unique_values": [
           2.0
@@ -269,231 +267,227 @@
       },
       "amount": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 6836.0,
         "average_change": -3879.0,
         "min_change": -3879.0,
         "max_change": -3879.0,
         "std_change": 0.0,
         "changes": [
-          -3879.0,
-          -3879.0,
           -3879.0
         ]
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       }
     }
   },
   "instance_3": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 24.0,
         "average_change": -18.0,
         "min_change": -18.0,
         "max_change": -18.0,
         "std_change": 0.0,
         "changes": [
-          -18.0,
-          -18.0,
           -18.0
         ]
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1659.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       }
     }
   },
   "instance_4": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 12.0
       },
       "credit_history": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 4.0,
         "distribution": {
-          "existing paid": 3
+          "existing paid": 1
         },
         "unique_values": [
           3.0
@@ -502,183 +496,183 @@
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1344.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_5": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 28.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4006.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 2.0,
         "distribution": {
-          "management/self-employed/highly skilled": 3
+          "management/self-employed/highly skilled": 1
         },
         "unique_values": [
           4.0
@@ -687,27 +681,27 @@
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_6": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "none": 3
+          "none": 1
         },
         "unique_values": [
           4.0
@@ -716,141 +710,141 @@
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 18.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2600.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_7": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 60.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 7.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 6288.0
       },
       "savings": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "unknown/none": 3
+          "unknown/none": 1
         },
         "unique_values": [
           5.0
@@ -859,111 +853,111 @@
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_8": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 48.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 6560.0
       },
       "savings": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 2.0,
         "distribution": {
-          "unknown/none": 3
+          "unknown/none": 1
         },
         "unique_values": [
           5.0
@@ -972,174 +966,172 @@
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_9": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 48.0,
         "average_change": -21.0,
         "min_change": -21.0,
         "max_change": -21.0,
         "std_change": 0.0,
         "changes": [
-          -21.0,
-          -21.0,
           -21.0
         ]
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 6758.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 3.0,
         "distribution": {
-          "management/self-employed/highly skilled": 3
+          "management/self-employed/highly skilled": 1
         },
         "unique_values": [
           4.0
@@ -1148,57 +1140,57 @@
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       }
     }
   },
   "instance_10": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 18.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1131.0
       },
       "savings": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "\u22651000 DM": 3
+          "\u22651000 DM": 1
         },
         "unique_values": [
           4.0
@@ -1207,218 +1199,214 @@
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_11": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "duration": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 48.0,
         "average_change": -36.0,
         "min_change": -36.0,
         "max_change": -36.0,
         "std_change": 0.0,
         "changes": [
-          -36.0,
-          -36.0,
           -36.0
         ]
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 9.0
       },
       "amount": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 15672.0,
         "average_change": -14105.0,
         "min_change": -14105.0,
         "max_change": -14105.0,
         "std_change": 0.0,
         "changes": [
-          -14105.0,
-          -14105.0,
           -14105.0
         ]
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       }
     }
   },
   "instance_12": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 36.0
       },
       "credit_history": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 3.0,
         "distribution": {
-          "critical/other credits": 3
+          "critical/other credits": 1
         },
         "unique_values": [
           5.0
@@ -1427,111 +1415,111 @@
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5493.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_13": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 12.0
       },
       "credit_history": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "critical/other credits": 3
+          "critical/other credits": 1
         },
         "unique_values": [
           5.0
@@ -1540,99 +1528,99 @@
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1082.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_14": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 2.0,
         "distribution": {
-          "none": 3
+          "none": 1
         },
         "unique_values": [
           4.0
@@ -1641,257 +1629,255 @@
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 36.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4795.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       }
     }
   },
   "instance_15": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 30.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 10623.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "installment_rate": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 3.0,
         "average_change": -1.0,
         "min_change": -1.0,
         "max_change": -1.0,
         "std_change": 0.0,
         "changes": [
-          -1.0,
-          -1.0,
           -1.0
         ]
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       }
     }
   },
   "instance_16": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 48.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 10297.0
       },
       "savings": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "unknown/none": 3
+          "unknown/none": 1
         },
         "unique_values": [
           5.0
@@ -1900,429 +1886,423 @@
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       }
     }
   },
   "instance_17": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 24.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1193.0,
         "average_change": 1318.0,
         "min_change": 1318.0,
         "max_change": 1318.0,
         "std_change": 0.0,
         "changes": [
-          1318.0,
-          1318.0,
           1318.0
         ]
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_18": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 60.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 13756.0,
         "average_change": -11623.0,
         "min_change": -11623.0,
         "max_change": -11623.0,
         "std_change": 0.0,
         "changes": [
-          -11623.0,
-          -11623.0,
           -11623.0
         ]
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       }
     }
   },
   "instance_19": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 12.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "amount": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 741.0,
         "average_change": 3428.0,
         "min_change": 3428.0,
         "max_change": 3428.0,
         "std_change": 0.0,
         "changes": [
-          3428.0,
-          3428.0,
           3428.0
         ]
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_20": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 2.0,
         "distribution": {
-          "none": 3
+          "none": 1
         },
         "unique_values": [
           4.0
@@ -2331,123 +2311,123 @@
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 24.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1216.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_21": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 15.0
       },
       "credit_history": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "existing paid": 3
+          "existing paid": 1
         },
         "unique_values": [
           3.0
@@ -2456,99 +2436,99 @@
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1778.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_22": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "none": 3
+          "none": 1
         },
         "unique_values": [
           4.0
@@ -2557,132 +2537,130 @@
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 24.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1371.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_23": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 18.0,
         "average_change": -6.0,
         "min_change": -6.0,
         "max_change": -6.0,
         "std_change": 0.0,
         "changes": [
-          -6.0,
-          -6.0,
           -6.0
         ]
       },
       "credit_history": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 2.0,
         "distribution": {
-          "critical/other credits": 3
+          "critical/other credits": 1
         },
         "unique_values": [
           5.0
@@ -2691,111 +2669,111 @@
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1442.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_24": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 15.0
       },
       "credit_history": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 2.0,
         "distribution": {
-          "past delays": 3
+          "past delays": 1
         },
         "unique_values": [
           4.0
@@ -2804,117 +2782,117 @@
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1264.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_25": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 12.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "furniture/equipment": 3
+          "furniture/equipment": 1
         },
         "unique_values": [
           3.0
@@ -2923,453 +2901,447 @@
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1007.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_26": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 48.0,
         "average_change": -24.0,
         "min_change": -24.0,
         "max_change": -24.0,
         "std_change": 0.0,
         "changes": [
-          -24.0,
-          -24.0,
           -24.0
         ]
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 9.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 7685.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_27": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 36.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "amount": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 5371.0,
         "average_change": -3023.0,
         "min_change": -3023.0,
         "max_change": -3023.0,
         "std_change": 0.0,
         "changes": [
-          -3023.0,
-          -3023.0,
           -3023.0
         ]
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_28": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 12.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 7.0
       },
       "amount": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 795.0,
         "average_change": 3374.0,
         "min_change": 3374.0,
         "max_change": 3374.0,
         "std_change": 0.0,
         "changes": [
-          3374.0,
-          3374.0,
           3374.0
         ]
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_29": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 30.0
       },
       "credit_history": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 1.0,
         "distribution": {
-          "existing paid": 3
+          "existing paid": 1
         },
         "unique_values": [
           3.0
@@ -3378,275 +3350,273 @@
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 9.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4280.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_30": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 48.0,
         "average_change": -30.0,
         "min_change": -30.0,
         "max_change": -30.0,
         "std_change": 0.0,
         "changes": [
-          -30.0,
-          -30.0,
           -30.0
         ]
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 9.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4308.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_31": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 12.0
       },
       "credit_history": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 727.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "property": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 4.0,
         "distribution": {
-          "building society/life insurance": 3
+          "building society/life insurance": 1
         },
         "unique_values": [
           2.0
@@ -3655,72 +3625,70 @@
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       }
     }
   },
   "instance_32": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 36.0,
         "average_change": -12.0,
         "min_change": -12.0,
         "max_change": -12.0,
         "std_change": 0.0,
         "changes": [
-          -12.0,
-          -12.0,
           -12.0
         ]
       },
       "credit_history": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 2.0,
         "distribution": {
-          "existing paid": 3
+          "existing paid": 1
         },
         "unique_values": [
           3.0
@@ -3729,111 +3697,111 @@
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2746.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 5.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }
   },
   "instance_33": {
-    "num_counterfactuals": 3,
+    "num_counterfactuals": 1,
     "features": {
       "status": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 24.0
       },
       "credit_history": {
         "percentage_changed": 100.0,
-        "num_changed": 3,
-        "num_total": 3,
+        "num_changed": 1,
+        "num_total": 1,
         "original_value": 3.0,
         "distribution": {
-          "critical/other credits": 3
+          "critical/other credits": 1
         },
         "unique_values": [
           5.0
@@ -3842,85 +3810,85 @@
       "purpose": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "amount": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1207.0
       },
       "savings": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "employment_duration": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "installment_rate": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "other_debtors": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "present_residence": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 4.0
       },
       "property": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 2.0
       },
       "other_installment_plans": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "housing": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "number_credits": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "job": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 3.0
       },
       "people_liable": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       },
       "telephone": {
         "percentage_changed": 0.0,
         "num_changed": 0,
-        "num_total": 3,
+        "num_total": 1,
         "original_value": 1.0
       }
     }

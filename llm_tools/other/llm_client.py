@@ -29,7 +29,7 @@ mistral_client = OpenAI(
 )
 
 
-def generate_text(messages, provider="openai", model=None, temperature=0.5, max_tokens=4096):
+def generate_text(messages, provider="openai", model=None, temperature=0, max_tokens=4096):
     """
     Generate text using different LLM providers.
     
@@ -84,7 +84,7 @@ def generate_text(messages, provider="openai", model=None, temperature=0.5, max_
         elif provider == "gemini":
             import google.generativeai as genai
             genai.configure(api_key=KEYS.get("gemini_key"))
-            model_name = model or "gemini-3-flash-preview"  # Using Gemini 3 Flash Preview
+            model_name = model or "gemini-1.5-flash"  # Using Gemini 3 Flash Preview
             
             # Convert messages to Gemini format
             system_prompt = None

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-26T16:53:48.833549",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and the decision was based on a model that evaluates various aspects of your financial profile. Unfortunately, the model predicted an 81% probability that you might be a bad credit risk, leading to the denial of your application. Let's explore the reasons behind this decision and how your situation compares to others who were approved.\n\nOne of the most significant factors influencing the decision was the status of your checking account. The model noted that your account balance was below zero, which is less common among approved applicants, where the majority have a balance of at least zero or more. This aspect of your financial profile suggested a higher risk to the model. Additionally, your credit history, which shows no previous credits or all paid, was another critical factor. While this might seem positive, most approved applicants had a history of existing paid credits, which the model interprets as a sign of reliable credit behavior.\n\nThe purpose of your loan request also played a role. You applied for a loan to purchase a new car, which is less common among approved applicants compared to purposes like buying a radio or TV. This choice, while not inherently negative, contributed to the model's assessment of risk.\n\nDespite these factors, there are areas where your profile aligns well with approved applicants. For instance, your employment duration of 1-4 years is quite typical, and your housing situation, owning your home, is also common among those who are approved. However, these positive aspects were outweighed by the factors mentioned earlier.\n\nTo improve your chances in the future, consider focusing on building a more robust credit history by maintaining a positive balance in your checking account and perhaps diversifying the purposes for which you seek credit. These steps could help present a more favorable profile to the model in subsequent applications.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

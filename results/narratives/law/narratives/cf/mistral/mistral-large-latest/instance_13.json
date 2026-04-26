@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "cf",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-26T17:00:50.503489",
+  "status": "success",
+  "narrative": "Here’s your personalized narrative explanation:\n\nYour application was reviewed alongside many others, and based on the information provided, the model estimates a 57% chance you would not pass the bar exam on your first attempt. This prediction led to the decision to reject your application for admission. While this isn’t a definitive judgment of your abilities, the model relies on patterns from past students to assess likelihood of success, and in this case, it identified areas where your profile differs from those who typically pass.\n\nTo help you understand what might change this outcome, we looked at \"what if\" scenarios—small adjustments to your profile that could shift the prediction from \"fail\" to \"pass.\" For example, what if your LSAT score were higher, or your grades improved? These scenarios don’t guarantee success, but they show which factors the model weighs most heavily in its decision.\n\nIn your case, the model generated several alternative scenarios, and one factor stood out above all others: your LSAT score. In every possible scenario where the prediction flipped to \"pass,\" your LSAT score needed to increase—on average, by about 12 points. None of the other factors, like your first- or third-year law school grades, undergraduate GPA, or work status, changed in these scenarios. This suggests that, according to the model, improving your LSAT score would have the most direct impact on your chances.\n\nRight now, your LSAT score of 25 is below the average of 37 for students who passed the bar exam. While your law school grades (placing you in the 1st and 4th deciles) and undergraduate GPA (2.4) are also lower than the averages for students who passed, the model didn’t require changes to these areas to flip its prediction. This doesn’t mean your grades don’t matter, but rather that the model sees your LSAT score as the most immediate lever for improvement.\n\nIf you’re considering reapplying, focusing on raising your LSAT score would be the most actionable step. For context, a score in the mid-30s would align you with the average of students who passed the bar. While this may feel like a significant jump, it’s not uncommon for students to improve their scores with targeted preparation. Other factors, like your part-time work status or family income, weren’t flagged as critical in these scenarios, so while they’re part of your overall profile, they don’t appear to be the primary drivers of the model’s decision. The key takeaway is that the model sees your LSAT score as the most influential factor in determining your likelihood of passing the bar exam.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

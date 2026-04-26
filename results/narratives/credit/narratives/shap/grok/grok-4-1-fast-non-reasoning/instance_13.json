@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-26T16:54:16.441375",
+  "status": "success",
+  "narrative": "Your loan application for 1,082 Deutsche Marks to buy a new car was carefully reviewed by our credit model, which predicted an 81% chance that you represent a bad credit risk, leading to the denial of your request. This decision was primarily driven by three key factors in your financial profile: the status of your checking account, your credit history, and the purpose of the loan. First, your checking account showing less than 0 DM stood out as the strongest concern, as it signals limited available funds—something rarer among approved applicants, where over half have no account issues and only about 20% share your situation. Second, your credit history of no credits taken or all paid, while sounding positive, actually raised a flag here, since it's uncommon among those approved (just 2.3% vs. over 50% with existing paid credits), suggesting to the model a potential lack of established repayment track record. Third, requesting the loan for a new car contributed to the risk assessment, as this purpose is less frequently approved compared to everyday needs like radio/TV purchases, which dominate successful applications. Other aspects of your situation, like your 12-month loan duration (shorter than the 19-month average for approvals), low installment rate of 4% (close to the typical 2.94%), skilled job, and owning your home, helped somewhat but weren't enough to offset these top issues. For context, approved applicants typically seek larger amounts around 2,887 DM and have stronger checking and credit histories. To improve your chances next time, consider building a clearer credit history with smaller, successfully repaid loans, improving your checking account balance, or adjusting the loan purpose to something more routine like household items. You might also provide additional documentation on your 1-4 years of employment, car property, or single dependent to strengthen your profile. We recommend waiting a few months, addressing these areas, and reapplying with our team for a fresh review.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

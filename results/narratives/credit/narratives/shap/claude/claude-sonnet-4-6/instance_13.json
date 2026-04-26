@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-26T16:53:56.943128",
+  "status": "success",
+  "narrative": "Your loan application has been reviewed, and unfortunately, the assessment determined an 81% likelihood that you represent a credit risk, which means the application has been denied. This is a high probability, and understanding the specific reasons behind this decision can help you take meaningful steps to improve your situation.\n\nThe single most influential factor in this decision was the current status of your checking account, which shows a negative balance. Among applicants who were approved, only about 20% had a negative checking account balance, while the majority either had no checking account or maintained a positive balance. A negative balance signals financial strain to the model, and this weighed heavily against your application.\n\nThe second most important factor was your credit history. Your record shows no prior credits or that all previous credits were fully paid — which might sound positive, but it actually works against you here. The model interprets this as a lack of demonstrated borrowing experience, since the vast majority of approved applicants (about 85%) had a history of existing paid credits or even some past difficulties that were resolved. Having no credit track record makes it harder to assess your reliability as a borrower, and this contributed meaningfully to the denial.\n\nThe third factor was the purpose of your loan request — financing a new car. While this is a common reason for borrowing, it is considered a higher-risk purpose compared to, say, purchasing household electronics or furniture, and this nudged the prediction further in an unfavorable direction.\n\nIt is worth noting that several aspects of your profile are actually quite reasonable: you are requesting a relatively modest amount of 1,082 DM compared to the average approved loan of around 2,887 DM, and your requested repayment period of 12 months is shorter than the typical 19 months, which would normally suggest lower risk. Your stable employment of 1 to 4 years and your skilled occupation are also in line with many approved applicants. Unfortunately, these positive signals were not enough to outweigh the concerns raised by your account status and credit history.\n\nAs a next step, we strongly encourage you to work on bringing your checking account into a positive balance and maintaining it there over time. Additionally, if possible, consider building a credit history through smaller, manageable credit arrangements that you can repay reliably. Once your financial situation stabilizes, reapplying with a healthier account balance and a demonstrated repayment record could significantly improve your chances of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

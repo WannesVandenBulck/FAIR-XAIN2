@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-26T17:04:38.038731",
+  "status": "success",
+  "narrative": "Your application was evaluated using a predictive model that assesses academic history and background to estimate the likelihood of a student passing the bar exam on their first attempt. Based on your specific profile, the model calculated a 57% probability that you would fail the bar exam, which resulted in the decision to decline your admission. As a Hispanic male student planning to pursue your studies part-time while coming from an upper-middle-income family, several key factors in your academic history drove this assessment. The most influential factor in the model's decision was your LSAT score of 25.00, which is significantly lower than the 37.27 average typically achieved by students who successfully pass the bar. This score was the primary reason the model predicted a higher risk of failure, as it serves as a major indicator of readiness for high-stakes legal examinations. Conversely, your academic standing in your third year, where you ranked in the 4th decile, was the strongest factor working in your favor. Because this ranking is notably better than the 5.91 average of successful students, the model viewed your later academic performance as a significant point of strength. However, your 1st decile ranking during your first year was also flagged as a top factor that pushed the prediction back toward a failure. Although being in the top decile is generally an achievement, the model identified this early ranking as a risk factor when weighed against your undergraduate GPA of 2.40, which is nearly a full point below the 3.24 average of those who pass. Ultimately, the model determined that the weight of your LSAT score and the specific trajectory of your grades outweighed the progress you showed by your third year. To strengthen a future application, you should focus on retaking the LSAT to bring your score closer to the benchmarks of successful candidates. Additionally, providing evidence of how you will maintain consistent academic excellence while balancing a part-time schedule would help mitigate the concerns raised by the model. Demonstrating a more stable and upward academic trend across all metrics will be vital in proving your readiness for the bar exam and the demands of a legal career.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 13,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-26T17:01:04.016658",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model predicts an 81% chance that you represent a bad credit risk, based on details like your checking account being overdrawn, a short 12-month loan duration compared to the 19-month average for approved applicants, a credit history showing no credits taken or all paid, a modest 1,082 DM request versus the typical 2,887 DM for those approved, and other factors such as your 4% installment rate on disposable income exceeding the 2.94% average, four years at your current residence above the 2.81-year norm, two existing credits at this bank higher than the 1.42 average, and having a bank installment plan alongside owning your home. These elements combined tipped the scales against approval, even though aspects like your skilled job, one dependent, and car property align reasonably with successful applicants. Counterfactuals are \"what if\" scenarios that reveal the minimal changes needed to flip the model's decision to approve your loan as a good credit risk. In your case, we generated just one such scenario, making the insights clear and focused. The standout factor was your credit history: in 100% of these scenarios, it needed to shift from \"no credits/all paid\"—a rare profile seen in only 2.3% of approved applicants—to \"critical/other credits,\" which appears in 34.9% of approvals and signals more established borrowing experience to the model. No other details, from your new car purpose and under-100 DM savings to employment duration, residence length, or lack of telephone, required any adjustment across all counterfactuals. This highlights credit history as the single most pivotal element driving the rejection, far outweighing your low loan amount or overdrawn status, which stayed unchanged. Compared to approved applicants, where over half have \"existing paid\" histories, yours lacks that reassuring track record the model prioritizes. To realistically flip the prediction, focus on building a more typical credit profile—perhaps by taking and responsibly managing other credits elsewhere before reapplying, as this one change alone suffices in the scenario. Your other strong points, like owning your home (matching 75.8% of approvals) and skilled employment (64.6% of approvals), already position you well, so enhancing credit history could make approval straightforward without altering your finances drastically. Reapplying after demonstrating varied credit use might lower that 81% risk score enough for success.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

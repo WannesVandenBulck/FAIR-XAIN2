@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-26T17:05:12.757477",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicted a 57% chance that you would fail the bar exam on your first attempt, which is a significant risk for the law school. This prediction was driven primarily by three key factors in your academic profile, each playing a distinct role in the decision.\n\nThe most influential factor was your LSAT score of 25, which is notably lower than the average score of 37 among students who typically pass the bar. This low score strongly pushed the model toward predicting failure, as it is a critical indicator of your readiness for law school-level work. Your undergraduate GPA of 2.40, compared to the 3.24 average for successful students, further reinforced this concern, though it was not among the top three most important features.\n\nInterestingly, your Year 3 academic decile ranking of 4.00 actually worked in your favor, pushing the model toward a prediction of passing. This suggests that your performance improved significantly by your third year, placing you above the average decile of 5.91 for students who passed the bar. However, this positive influence was outweighed by your Year 1 decile ranking of 1.00, which is far below the average of 6.04 for successful students. This early academic struggle contributed strongly to the failure prediction, indicating that your initial performance raised red flags.\n\nYour family income being upper-middle class and your part-time enrollment status also played roles, but they were less influential than your academic metrics. The model focused heavily on your LSAT score and early grades, which together painted a picture of a student who may not have the foundational skills needed to succeed in law school and on the bar exam.\n\nTo improve your chances in the future, consider retaking the LSAT after dedicated preparation to raise your score closer to the average of successful applicants. Additionally, addressing your early academic performance through additional coursework or a post-baccalaureate program could demonstrate your ability to handle rigorous academic work. Your strong third-year performance shows you have the potential to improve, so building on that momentum will be key.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-26T17:00:08.255730",
+  "status": "success",
+  "narrative": "As you review your recent application rejection, it's important to understand why the machine learning model predicted you might not pass the bar exam on your first attempt. The model estimated a 57% probability of failure, which led to the rejection of your application. This prediction was based on several factors, including your academic performance and study habits, compared to those of students who typically pass the exam.\n\nTo help you understand what could change this prediction, let's explore the concept of counterfactuals. These are \"what if\" scenarios that show how altering certain aspects of your profile could lead to a different outcome, specifically a prediction that you would pass the bar exam. In your case, we generated ten such scenarios to identify the most impactful changes.\n\nThe analysis revealed that your LSAT score was the most significant factor. In every counterfactual scenario, an increase in your LSAT score was necessary to flip the prediction from failing to passing. Currently, your score is 25, while students who passed averaged around 37. This suggests that improving your LSAT score by about 12 points could significantly enhance your chances of passing.\n\nInterestingly, other factors such as your academic deciles, family income, undergraduate GPA, and whether you work full-time or part-time did not change in any of the scenarios. This indicates that these aspects of your profile are less critical in altering the model's prediction.\n\nGiven this information, focusing on improving your LSAT score appears to be the most actionable step. Consider dedicating more time to LSAT preparation, perhaps through additional study resources or tutoring, to achieve a score closer to the average of those who passed. By concentrating your efforts here, you could substantially increase your likelihood of passing the bar exam and, consequently, improve your chances of admission.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

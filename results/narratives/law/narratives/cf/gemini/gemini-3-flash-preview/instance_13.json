@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "cf",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-26T17:02:40.551458",
+  "status": "success",
+  "narrative": "Based on your current academic profile, the model predicts a 57% probability that you would not pass the bar exam on your first attempt, which unfortunately led to the rejection of your university application. This prediction is largely influenced by how your previous academic performance and standardized test scores compare to students who have successfully passed the exam in the past. For instance, your undergraduate GPA of 2.4 and your first-year law school ranking in the bottom decile are notably lower than the averages of 3.24 and 6.04 seen among successful graduates. To help you understand how to change this outcome, we looked at ten different \"what if\" scenarios, known as counterfactuals, which identify the minimum changes needed to flip your prediction to a passing grade. These scenarios represent alternative versions of your application where the model would have approved your admission. In our analysis, we found a very consistent pattern regarding what would need to change for you to be successful. Remarkably, your LSAT score was the only factor that changed across every single one of these successful scenarios, while every other factor remained exactly as it is now. While your current LSAT score is 25, the model indicates that increasing this score to 37—which aligns with the average score of students who pass—would be enough to change your prediction to a \"pass.\" Interestingly, other aspects of your profile, such as your upper-middle-class family background or your decision to study part-time, did not need to change to achieve a positive result. Even your undergraduate GPA and your class rankings remained the same in these successful scenarios, suggesting that a higher LSAT score can compensate for those earlier academic challenges. This means the most direct path to improving your application is to focus intensely on retaking the LSAT to reach that 37-point threshold. A 12-point increase is a significant jump, but it is the specific lever the model identifies as the most critical for your individual situation. As a Hispanic student balancing part-time commitments, the model suggests that your demographic and enrollment status are not the barriers here; rather, it is the standardized test performance. By dedicating time to LSAT preparation, you can demonstrate the analytical readiness the model currently finds lacking in your profile. Since your third-year law school ranking of 4.0 shows you are already performing better than you did in your first year, you have already demonstrated an upward trajectory. If you can pair that academic improvement with a stronger LSAT score, the model's prediction would shift in your favor, making your application much more competitive for admission.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

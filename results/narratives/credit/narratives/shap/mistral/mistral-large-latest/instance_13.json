@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-26T16:54:33.488798",
+  "status": "success",
+  "narrative": "Your loan application was reviewed carefully, and unfortunately, we were unable to approve it at this time. Based on the information provided, the system predicted an 81% likelihood that this loan could pose a higher risk of repayment difficulties. This decision wasn’t based on any single factor but rather a combination of details from your financial profile.\n\nOne of the most significant concerns was the status of your checking account. Unlike most approved applicants—who typically have at least some funds available—your account currently shows a negative balance. This raised a red flag, as it suggests limited financial flexibility to handle additional debt. While this was the strongest factor in the decision, your credit history also played a key role. Though you’ve never taken out a loan before or have always paid on time, the model views this lack of credit experience as a potential risk, since there’s no track record of managing debt.\n\nThe purpose of your loan—a new car—also contributed to the decision. While many approved loans are for smaller purchases like electronics or furniture, car loans tend to be larger and longer-term commitments, which the system views as slightly riskier. On a positive note, your loan request was for a relatively modest amount (1,082 DM) compared to the average approved loan (2,887 DM), and your repayment period of 12 months was shorter than usual. These factors worked in your favor, but they weren’t enough to offset the other concerns.\n\nTo improve your chances in the future, focus on stabilizing your checking account balance and building a stronger credit history, even if it’s just through small, manageable credit accounts. Since you’ve been at your current job for 1–4 years and own your home, you already have some stability—highlighting these strengths in a future application could help. If you’d like, we can provide guidance on steps to take before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

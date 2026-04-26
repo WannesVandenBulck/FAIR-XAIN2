@@ -1,0 +1,15 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "cf",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-26T17:00:40.080317",
+  "status": "success",
+  "narrative": "Based on your profile, the model predicts a 57% chance you will fail the bar exam, which led to your application being rejected. This prediction is not a judgment of your potential, but an analysis of how your current academic record compares to past students who passed the exam on their first try.\n\nTo understand what could change this outcome, we explored ten \"what if\" scenarios. These counterfactuals show the minimum changes needed for the model to predict you would pass. The most critical finding is that your LSAT score is the single factor holding back your application. In every single one of the ten scenarios, improving your LSAT score was the only change required to flip the prediction from \"fail\" to \"pass.\"\n\nYour current LSAT score of 25 is significantly below the average of 37.27 for students who passed the bar. On average, the counterfactuals suggest you would need to raise your score by about 12 points, to around 37, to change the model's decision. Notably, your undergraduate GPA of 2.40, your Year 1 and Year 3 school deciles, your family's upper-middle income, and your part-time work status did not need to change in any of the scenarios. This means the model sees your LSAT score as the primary barrier, while your other attributes are already comparable to accepted students.\n\nFor example, your family income and part-time work status are not unusual among successful students, and your Year 3 decile of 4 is actually better than the average of 5.91 for those who passed. The model is essentially saying that if you can bring your LSAT score up to the typical range of successful test-takers, your other qualifications would likely be sufficient for approval.\n\nThe most actionable step you can take is to focus intensively on LSAT preparation. A targeted study plan, practice exams, and possibly a prep course could help you achieve the roughly 12-point increase needed. This single change appears to be the most efficient path to turning a rejection into an acceptance.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -4,7 +4,7 @@
   "prompt_type": "cf",
   "provider": "mistral",
   "model": "mistral-large-latest",
-  "timestamp": "2026-04-25T22:02:24.371410",
+  "timestamp": "2026-04-26T21:27:30.073024",
   "status": "error",
   "narrative": null,
   "error": "Error calling mistral API: Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}",

@@ -1,0 +1,1 @@
+Error: Narrative not found for credit instance 0 with provider openai

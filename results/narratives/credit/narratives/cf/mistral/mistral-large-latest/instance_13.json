@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 13,
+  "prompt_type": "cf",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-26T17:02:37.178392",
+  "status": "success",
+  "narrative": "Your loan application was reviewed carefully, and based on the information provided, the system predicted an 81% chance of being a higher credit risk. This means the decision was to deny the loan at this time. To help you understand why and what could change this outcome, let’s look at your situation in more detail.\n\nRight now, the system sees a few key factors that stand out. You’re requesting a loan of 1,082 Deutsche Marks for a new car, with a repayment period of 12 months. While your requested loan amount is lower than the average approved loan (around 2,887 DM), and your repayment period is shorter than usual (19 months on average), other aspects of your financial profile raised concerns. For example, your checking account currently has no balance, and your savings are under 100 DM—both of which are common among applicants who were approved, but your combination of other factors made the system more cautious.\n\nThe most important factor in this decision was your credit history. The system noted that you have no prior credit history or that all past credits have been fully paid, which is actually a positive sign. However, the counterfactual analysis—essentially \"what if\" scenarios—shows that if your credit history were slightly different, the prediction could flip to an approval. Specifically, if your credit history were categorized as \"critical or other existing credits\" (meaning you’ve had some credit experience, even if not perfect), the system would likely view your application more favorably. This was the *only* change needed in the scenarios we tested to shift the decision.\n\nOther aspects of your profile, like your employment duration (1-4 years in your current job), your installment rate (4% of your disposable income), and the fact that you own your home, are all in line with or even stronger than many approved applicants. However, these factors alone weren’t enough to outweigh the concerns about your credit history. The system also didn’t suggest changes to things like your loan amount, repayment duration, or savings, which means adjusting those likely wouldn’t make a difference in this case.\n\nTo improve your chances of approval, the most straightforward step would be to build or adjust your credit history. If you’ve had any past credit—even if it wasn’t with this bank—it might help to ensure it’s reflected in your records. Alternatively, if you have no credit history at all, starting with a smaller credit line (like a credit card or a small loan) and managing it responsibly could help establish a track record. Since the system’s concern hinges almost entirely on this one factor, addressing it could make the biggest difference in future applications.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}
