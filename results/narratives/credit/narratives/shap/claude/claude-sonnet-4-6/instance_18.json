@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:27:06.185859",
+  "status": "success",
+  "narrative": "After carefully reviewing your loan application, the model assessed a 58% probability that you represent a bad credit risk, which led to the denial of your request. While this is not an overwhelming majority, it was sufficient to tip the decision against approval. Your application was evaluated across many financial and personal factors, and understanding which ones carried the most weight can help you take meaningful steps forward.\n\nThe single most influential factor working against your application was the size of the loan you requested. You applied for 13,756 Deutsche Marks, which is nearly five times the average amount requested by applicants who were approved, which stood at around 2,887 DM. Given that average yearly salaries in Germany at the time ranged from 10,000 to 20,000 DM, this is a very substantial sum, and the model flagged it as a significant risk signal. Compounding this concern is the repayment duration of 60 months — more than three times the average of roughly 19 months seen among approved applicants — meaning you would be carrying this large financial obligation for an extended period.\n\nInterestingly, two factors actually worked in your favor and pushed the model toward a more positive assessment. First, your checking account status showing no active account, while it might seem neutral, was interpreted similarly to how many approved applicants appear, since about half of approved applicants also had no checking account. Second, your savings situation — listed as unknown or none — also slightly supported a more favorable view, perhaps because the model has seen many approved applicants in a similar savings position. However, these positive signals were not strong enough to outweigh the concern raised by the sheer size and duration of your loan request.\n\nOther aspects of your profile, such as your long employment history of seven or more years and your manageable installment rate, are genuinely positive attributes that did not raise red flags. To improve your chances of approval, you should consider applying for a significantly smaller loan amount, or if the full amount is necessary, explore whether it can be split into phases or secured with collateral such as property. Shortening the repayment period would also make the application look considerably less risky. Speaking directly with a loan officer about restructuring your request could open a path toward approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

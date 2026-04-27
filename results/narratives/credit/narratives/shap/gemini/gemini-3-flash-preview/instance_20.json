@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 20,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:54:23.569206",
+  "status": "success",
+  "narrative": "As a 38-year-old skilled professional who has lived in your own home for four years and supports two dependents, your application for a 1,216 DM loan for a radio or television was carefully reviewed. Based on your financial profile, the model calculated a 59% probability that this loan would represent a high credit risk, a figure that unfortunately exceeds the threshold for approval. The primary reason for this decision is the current status of your checking account, which holds between 0 and 200 DM. This was the most influential factor in the denial, as over half of our approved applicants maintain significantly higher balances or have no debt in their primary accounts. Furthermore, the model was concerned by your existing installment plans with another bank, a situation shared by only about 11% of our successful borrowers. These existing obligations, combined with a requested installment rate of 4% of your disposable income—which is higher than the 2.94% average for approved loans—suggested a potential strain on your monthly budget. Interestingly, your specific credit history actually served as a point in your favor, as the model recognized your past credit behavior as a sign of reliability despite other risks. However, this positive influence was not enough to outweigh the concerns regarding your current account balance and your relatively short employment tenure of less than one year. To improve your standing for a future application, we suggest focusing on building a more substantial cushion in your checking account to move beyond the 200 DM range. Additionally, completing your current installment plans with other banks would significantly lower your risk profile in our assessment. As you continue in your current job, the increased stability of a longer employment history will also naturally strengthen your creditworthiness over time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 24,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:07:22.865393",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at various aspects of your financial profile to assess risk, drawing from historical data on borrowers in 1970s Germany. With your checking account status showing a balance of 0-200 DM, a 15-month credit duration request for 1264 DM to buy a new car, and your background including 1-4 years of employment, rental housing, and a skilled job at age 25, the model predicted a 68% probability that you represent a bad credit risk—meaning it saw a high enough chance of repayment issues to deny the application. The decision hinged most strongly on three key factors from your profile. First, your credit history of having all credits paid at the bank stood out as the biggest concern; while that's a positive note in isolation, it's quite rare among approved applicants—only about 3% share this exact history—prompting the model to flag it as a potential risk indicator based on past patterns. Second, your checking account status of 0-200 DM raised a red flag, as it's less common among those approved (just 23% had this) compared to empty or overdrawn accounts, suggesting limited liquid funds for stability. Third, your purpose of financing a new car contributed to the caution, since only 20% of approved applicants sought loans for this, versus more common needs like appliances or furniture. These factors collectively pushed the prediction toward denial, outweighing positives like your low 2% installment rate on disposable income and lack of other installment plans. In contrast, typical approved applicants had longer average credit durations around 19 months, much higher loan amounts near 2900 DM, and steadier residence histories averaging nearly 3 years. To improve your chances next time, consider building more savings (yours at 100-500 DM is modest compared to the under-100 DM majority of approvals), lengthening your time at your current residence, or opting for a smaller loan amount with a more routine purpose. Gathering additional documentation, like proof of stable income or references, could also help demonstrate reliability. We encourage you to reapply after addressing these areas or explore our financial counseling resources for personalized advice.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

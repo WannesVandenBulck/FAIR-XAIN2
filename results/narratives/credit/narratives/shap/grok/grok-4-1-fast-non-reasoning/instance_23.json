@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 23,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:07:18.966056",
+  "status": "success",
+  "narrative": "Your loan application for 1,442 Deutsche Marks to buy a new car was carefully reviewed by our bank's machine learning model, which predicts credit risk based on past borrower data from 1970s Germany. The model assessed your situation— including your checking account with no funds, a credit history of all payments made at this bank, unknown property assets, 18-month loan duration, four to seven years at your current job as an unskilled resident worker, living rent-free for four years, two dependents, two existing credits here, no other installment plans or guarantors, no telephone, and being a foreign worker—and calculated an 86% probability that you represent a bad credit risk. This high probability means the model sees a strong chance you might struggle to repay, leading to the denial of your application. The three biggest factors pushing toward this risky prediction were, first, your checking account status showing less than 0 DM, which stands out as a major concern since only about 20% of approved applicants had this, compared to over half with positive balances. Second, your credit history of all paid credits at the bank was surprisingly unhelpful here—it’s rare among those approved (just 3%), as the model favors more common patterns like existing paid or critical histories that proved reliable in the data. Third, having no known property assets further tipped the scales toward risk, since only 12% of approved applicants were in that category versus over 30% with real estate or similar. While your requested amount is below the average of about 2,887 DM for approvals and your installment rate of 4% is only slightly above their 2.9% average, these top issues overshadowed positives like having no other debtors or plans. Compared to typical approved applicants, who often have steadier account balances, varied credit histories, and assets like cars or homes, your profile aligns more with past risky cases. To improve your chances next time, consider building up your checking account balance, accumulating verifiable assets like property or a car, and diversifying your credit history with other positive experiences—perhaps starting with a smaller loan or adding a guarantor. We recommend discussing these steps with a bank advisor to strengthen your financial profile before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

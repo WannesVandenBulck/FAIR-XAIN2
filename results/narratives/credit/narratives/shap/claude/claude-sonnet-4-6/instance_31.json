@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:30:11.651800",
+  "status": "success",
+  "narrative": "Your loan application was reviewed by our credit assessment system, which evaluated your financial profile and determined a 58% likelihood of credit risk — a figure just above the threshold that led to the denial of your application. While this is not an overwhelming probability, it reflects a combination of factors in your current situation that raised enough concern to result in a negative decision. Understanding which aspects of your profile drove this outcome can help you take meaningful steps toward a successful application in the future.\n\nThe single most important factor working against your application was the current status of your checking account, which shows a negative balance. Among applicants who were approved, only about 1 in 5 had a negative checking account balance, while the majority — over half — had no such deficit. A negative balance signals to the assessment system that you may already be under financial strain, making it harder to take on additional credit obligations reliably. This factor carried the strongest weight in the decision and was the primary reason your application was flagged as a higher risk.\n\nThe second most influential factor was actually one that worked in your favor: the short duration of the loan you requested — just 12 months, compared to an average of about 19 months among approved applicants. A shorter loan term generally suggests a lower overall exposure for the lender, and this aspect of your application pushed the assessment in a more positive direction. Unfortunately, this positive signal was not strong enough to outweigh the concerns raised by other parts of your profile.\n\nThe third key factor was your property situation. You currently have no registered property or significant assets on record, which places you in a group that represents only about 12% of approved applicants. Most approved applicants own real estate, a vehicle, or have life insurance savings — assets that provide a form of security. The absence of such assets contributed to the concern that there would be limited financial backing if repayment difficulties arose.\n\nIt is worth noting that several other aspects of your profile are reasonable — you are requesting a relatively modest amount of 727 DM compared to the average approved loan of nearly 2,900 DM, and your credit history shows existing credits being paid as agreed. To improve your chances in a future application, we would encourage you to work on bringing your checking account into a positive balance, and if possible, to begin building tangible assets or savings over time. Revisiting your application once your financial account standing has improved could make a meaningful difference in the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

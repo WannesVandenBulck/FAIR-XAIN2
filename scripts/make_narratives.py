@@ -46,7 +46,7 @@ LLM_MODELS = {
     "gemini": ["gemini-3-flash-preview"],
     "grok": ["grok-4-1-fast-non-reasoning"],
     "deepseek": ["deepseek-chat"],
-    "mistral": ["mistral-large-latest"],
+    "mistral": ["mistral-large-2512"],
 }
 
 

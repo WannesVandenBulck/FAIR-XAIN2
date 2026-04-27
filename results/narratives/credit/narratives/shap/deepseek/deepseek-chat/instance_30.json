@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 30,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:10:52.098438",
+  "status": "success",
+  "narrative": "Based on your application, our model has determined there is a 59% chance you would be a bad credit risk, which unfortunately led to the denial of your loan. This decision was not made lightly, and we want to explain the specific factors that influenced it.\n\nThe most significant factor was the length of time you requested for the loan. You asked for a repayment period of 48 months, which is much longer than the average of about 19 months for approved applicants. This extended duration increases the uncertainty for the bank, as more time means a higher chance of financial changes that could affect your ability to repay.\n\nAnother key factor was the status of your checking account, which showed a negative balance (below 0 DM). This is a strong indicator of financial strain, as most approved applicants either have a positive balance or no account at all. Only about 20% of approved applicants had a negative balance, making this a significant red flag.\n\nOn a positive note, the amount you requested—4,308 DM—actually worked in your favor. While it is higher than the average approved loan amount of about 2,887 DM, the model saw this as a slight positive influence, likely because it aligns with a clear business purpose. Your credit history, with existing paid debts, also shows responsible past behavior, which is typical of approved applicants.\n\nHowever, the combination of a long loan term and a negative checking account outweighed these positives. Your short employment duration of less than one year and renting your home also added to the risk profile, as these are less common among approved applicants.\n\nTo improve your chances in the future, consider applying for a shorter loan term and working to build a positive checking account balance. Demonstrating stable employment and saving for a down payment could also strengthen your application. We encourage you to reapply once these areas have improved.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

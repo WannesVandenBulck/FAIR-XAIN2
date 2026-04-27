@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-27T23:51:40.564689",
+  "status": "success",
+  "narrative": "Your loan application was reviewed carefully, and unfortunately, we were unable to approve it at this time. The decision was based on several key factors in your financial profile that suggested a higher risk of difficulty repaying the loan. While your request for 727 DM to purchase a radio or TV is relatively small compared to the average loan amount of nearly 2,900 DM, other aspects of your situation raised concerns.\n\nThe most significant factor in this decision was the current balance in your checking account. Unlike most approved applicants, who typically have at least some funds available, your account shows a negative balance. This was the strongest signal that influenced the prediction, as it suggests limited financial flexibility to handle additional debt. Another important consideration was your property status—since you don’t own real estate, a car, or other significant assets, there’s less financial security to fall back on if unexpected challenges arise.\n\nOn a more positive note, your credit history worked in your favor. The fact that you’ve successfully managed and repaid previous loans helped reduce the risk assessment. Additionally, the shorter repayment period you requested (12 months instead of the average 19 months) also slightly improved your case, as it means less time for potential financial changes to affect your ability to pay.\n\nHowever, these positive factors weren’t enough to offset the concerns. Your employment situation also played a role—having been in your current job for less than a year, combined with working in an unskilled position, may make it harder to demonstrate stable income over time. While you own your home, which is a strength, the lack of savings (with only 100-500 DM set aside) and the fact that you’re supporting one dependent could make it more difficult to manage unexpected expenses.\n\nTo improve your chances in the future, focusing on building a positive balance in your checking account and increasing your savings would be the most impactful steps. Gaining more time in your current job could also help demonstrate greater financial stability. If you’d like, we can provide guidance on how to strengthen your financial profile for future applications.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

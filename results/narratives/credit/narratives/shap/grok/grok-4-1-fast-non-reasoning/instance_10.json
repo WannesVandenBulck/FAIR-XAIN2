@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 10,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:06:19.904567",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our bank's machine learning model, which assesses credit risk based on patterns from thousands of past borrowers in 1970s Germany. With your checking account showing a negative balance under 0 DM, a request for 1131 DM to purchase furniture or equipment over 18 months, and savings below 100 DM, the model saw your overall financial profile as presenting a higher risk. It calculated a 65% probability that you might struggle to repay, which is above our threshold for approval, leading to the denial of your application.\n\nThe most influential factor pushing toward this bad credit risk prediction was your checking account status—having less than 0 DM stood out strongly as a red flag, since only about 20% of approved applicants shared this situation, and it often signals limited immediate liquidity for handling debts.\n\nYour savings level below 100 DM also contributed notably toward the risk assessment, as while over half of approved applicants have similarly low savings, it still amplified concerns when combined with your other details, unlike those with more cushion.\n\nOn a more positive note, your purpose of borrowing for furniture or equipment worked in your favor, nudging the prediction slightly toward good credit, since this is a common reason among approved applicants, second only to things like radios or TVs.\n\nCompared to typical approved applicants—who often request around 2887 DM on average, have slightly longer loan durations of about 19 months, and more stable employment like 1-4 years or longer—your smaller amount, shorter term, unemployed status, and low installment rate of 4% didn't fully offset the key concerns.\n\nYour solid credit history of existing paid credits and no other installment plans or debtors were helpful but not enough to sway the top factors.\n\nAt 33 years old, owning your housing, and working as a skilled official without a telephone or as a foreign worker, these details fit within ranges seen in approvals but couldn't overcome the dominant influences.\n\nTo improve your chances next time, consider building up your checking account and savings above these low thresholds, perhaps by reducing short-term debts or demonstrating more stable employment duration beyond unemployed—many successful applicants show at least 1-4 years.\n\nYou might also explore smaller loan amounts or purposes aligned with even higher approval rates, like a new car.\n\nReapplying after addressing these could shift the model's view in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

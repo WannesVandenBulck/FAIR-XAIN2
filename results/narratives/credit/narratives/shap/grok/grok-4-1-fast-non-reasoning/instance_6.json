@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:06:03.574671",
+  "status": "success",
+  "narrative": "Your loan application for 2600 Deutsche Marks over 18 months to purchase a radio or TV was carefully reviewed by our bank's prediction system, which assesses credit risk based on past borrower data from 1970s Germany. The system estimated a 56% probability that you might face challenges repaying, which crossed our threshold for denial to protect both you and the bank from potential difficulties. At 65 years old, with a skilled official job, 4 years at your current residence, living in housing for free, and steady employment of 1-4 years, you presented a profile with many stable elements, including no other installment plans, no additional debtors, and just one person financially dependent on you. However, the strongest factor pushing toward a bad credit prediction was your checking account status showing less than 0 DM, which stands out as a major concern since only about 20% of approved applicants had this, compared to over 50% with no account or positive balances. This suggested to the model a higher risk of repayment issues right from the start. On a more positive note, your requested amount of 2600 DM was below the average of around 2887 DM for those approved, which helped pull the prediction toward good credit. Similarly, your 18-month loan duration was slightly shorter than the 19-month average for approved applicants, providing another favorable influence that tempered the overall risk assessment. Your credit history of existing paid credits and purpose for radio/TV aligned well with common approved cases—over 50% had similar histories and 32% sought radio/TV loans—yet these couldn't outweigh the checking account red flag. Other details like low savings under 100 DM, a 4% installment rate above the 2.9% average for approvals, no telephone, unknown property, and two existing credits at our bank added context but were less decisive here. To improve your chances next time, consider building a positive balance in your checking account, reducing any existing credits, or providing more details on savings and property to better match profiles of successfully approved applicants. We encourage you to reapply after addressing these areas or exploring smaller loan amounts.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

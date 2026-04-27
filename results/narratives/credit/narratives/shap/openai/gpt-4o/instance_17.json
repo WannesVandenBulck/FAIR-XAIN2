@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 17,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-27T23:41:57.147014",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and unfortunately, the application was denied. Let's explore the reasons behind this decision and how your situation compares to others who were approved. The model predicted a 56% probability that you might face challenges in repaying the loan, which is why it was considered a bad credit risk.\n\nOne of the most significant factors influencing this decision was your credit history. Although you have paid all your debts at the bank, this specific credit history pattern is less common among approved applicants, who typically have existing paid credits or no critical credit issues. This difference played a crucial role in the model's assessment. Additionally, the status of your checking account, which is currently below zero, is another factor that contributed to the decision. Most approved applicants have a more favorable account status, which suggests a stronger financial footing.\n\nOn a positive note, your installment rate, which is a smaller percentage of your disposable income compared to the average approved applicant, actually worked in your favor. This indicates that you are managing your current financial obligations well, which is a positive aspect of your profile.\n\nGiven these insights, it might be beneficial to focus on improving the status of your checking account and maintaining a consistent credit history. These changes could enhance your financial profile and increase your chances of approval in future applications. Additionally, consider seeking advice from a financial advisor to explore ways to strengthen your financial standing.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

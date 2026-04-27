@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:45:41.801546",
+  "status": "success",
+  "narrative": "As a 65-year-old skilled professional seeking a loan of 2600 DM for a new radio or television, your application underwent a comprehensive risk assessment. The analysis determined there is a 56% probability that this loan would represent a high credit risk, which unfortunately exceeds our threshold for approval. The most significant factor in this decision was the current status of your checking account, which currently shows a negative balance. While only about 20% of our approved applicants have a balance below zero, the majority of successful borrowers maintain a much more stable or positive account status. Interestingly, the specific amount you requested actually helped your case, as 2600 DM is more modest than the 2887 DM average we see for approved loans. Your proposed repayment duration of 18 months also acted as a point in your favor, being slightly shorter than the typical 19-month term for successful applicants. Despite these positive indicators regarding the loan's size and length, the immediate concern regarding your available funds outweighed those benefits. Other factors, such as your current housing being provided for free and the fact that you already have two existing credits with us, contributed to the overall complexity of your profile. This 56% risk rating suggests that your current financial situation mirrors past cases where repayment became difficult. To move forward, we recommend focusing on stabilizing your checking account balance to ensure it remains consistently above zero. Once you have established a period of positive account history, the risk associated with your profile will likely decrease, making a future application for your home electronics more likely to succeed. Establishing a longer history of positive balances will demonstrate the financial cushion necessary to manage new installments alongside your existing obligations.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

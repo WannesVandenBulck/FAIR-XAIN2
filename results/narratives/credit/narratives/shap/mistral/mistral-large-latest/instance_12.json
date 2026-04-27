@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 12,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-27T23:36:45.410758",
+  "status": "success",
+  "narrative": "Your loan application was recently reviewed, and unfortunately, we were unable to approve it at this time. Based on the information provided, the decision was influenced by several key factors in your financial profile.\n\nOne of the most significant concerns was the status of your checking account, which appears to be negative or overdrawn. Most applicants who are approved for loans have a positive balance in their checking account, and this was a strong factor in the decision. Additionally, you don’t currently hold any significant assets, such as real estate, a car, or savings tied to life insurance, which many approved applicants use as financial security. This lack of assets also weighed against your application.\n\nOn the other hand, there were a few positive aspects to your profile. For example, your installment rate—the percentage of your income that would go toward loan payments—is lower than average, which suggests you may have some flexibility in your budget. However, this wasn’t enough to offset the other concerns.\n\nThe loan amount you requested, around 5,493 DM, is nearly double the average approved loan, and the repayment period of 36 months is also longer than usual. Combined with your savings of less than 100 DM and the fact that you have two dependents relying on your income, these factors raised questions about whether the loan would be manageable for you in the long term.\n\nTo improve your chances in the future, you might consider building up your savings or checking account balance, reducing the loan amount you request, or exploring options to secure the loan with an asset. If your financial situation changes, you’re welcome to reapply later. We understand this isn’t the outcome you hoped for, and we encourage you to take steps to strengthen your profile for next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

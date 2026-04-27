@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 7,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:46:57.210609",
+  "status": "success",
+  "narrative": "You are a 42-year-old skilled professional seeking a loan of 6,288 DM to fund an educational pursuit. After reviewing your application, our assessment indicates an 81% probability that this credit arrangement would pose a significant financial risk, which has unfortunately led to the denial of your request. The primary factor influencing this decision is the requested repayment period of 60 months. This five-year timeline is significantly longer than the 19-month average seen in successfully approved applications, which increases the long-term uncertainty of the loan. Additionally, the current status of your checking account, which sits between 0 and 200 DM, played a major role in the evaluation. While you have some funds available, most approved applicants maintain higher balances or have established financial profiles that suggest greater immediate liquidity. The third most critical factor was the lack of recorded property or collateral, such as real estate or a vehicle, associated with your profile. Only about 12% of our approved borrowers lack these types of assets, which usually serve as a safety net for the bank. These three elements—the exceptionally long duration, the modest account balance, and the absence of property—all pushed your risk profile toward a \"bad credit\" classification. Furthermore, the loan amount you requested is more than double the average amount we typically approve, which compounds the risk when paired with your current housing situation. While your history of having an existing credit paid off and your status as a skilled worker are positive traits, they were not enough to outweigh the concerns regarding the loan's length and lack of security. To improve your chances for a future application, you might consider requesting a smaller loan amount over a much shorter timeframe. Building up your checking account balance or increasing your documented savings beyond the current level would also demonstrate greater financial stability. Finally, securing a guarantor or providing some form of collateral could help mitigate the risks identified in this assessment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

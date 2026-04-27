@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 5,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-27T23:34:33.131394",
+  "status": "success",
+  "narrative": "Your loan application was recently reviewed, and unfortunately, we were unable to approve it at this time. Based on the information provided, the system assessed a **55% likelihood** that the loan could pose a higher risk of repayment difficulties—just above the threshold where we can comfortably move forward. Let’s walk through what influenced this decision and how your situation compares to others who were approved.\n\nOne of the biggest factors was the **current balance in your checking account**. The model noted that your account is overdrawn (below 0 DM), which is uncommon among approved applicants—only about 20% of them had a similar status, while most had at least some savings in their account. This raised concerns about immediate financial stability. On the other hand, the **amount you requested (4,006 DM)** actually worked slightly in your favor, as it’s not far above the average loan size (2,887 DM) for approved applicants, suggesting the request itself wasn’t unusually large.\n\nAnother key consideration was the **purpose of the loan**. While many approved applicants seek loans for smaller purchases like radios or TVs, your request for a new car was flagged as a slightly higher risk. This doesn’t mean car loans are off the table—nearly 20% of approved applicants also borrowed for cars—but combined with the other factors, it contributed to the decision.\n\nOther aspects of your profile were more in line with typical approvals. For example, your **credit history shows you’ve paid off previous loans responsibly**, which is a strong positive. You’ve also been employed for **1–4 years**, a common range among approved applicants, and you own your home, which is a stable factor. However, these strengths weren’t enough to offset the concerns raised by your checking account status and the loan’s purpose.\n\nTo improve your chances in the future, focusing on **building a positive balance in your checking account**—even a small one—could make a meaningful difference. Additionally, if you have savings or other assets, highlighting those in a future application might help. We understand this isn’t the outcome you hoped for, but we encourage you to revisit your application after addressing these areas. If you’d like, we can provide guidance on steps to strengthen your financial profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

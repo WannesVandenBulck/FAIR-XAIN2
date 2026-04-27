@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 12,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:06:28.035871",
+  "status": "success",
+  "narrative": "Your loan application for 5,493 Deutsche Marks to buy a used car over 36 months was carefully reviewed by our credit model, which predicts the likelihood of repayment challenges based on patterns from past borrowers in 1970s Germany. The model estimates a 58% probability that you represent a bad credit risk, meaning it sees a higher-than-safe chance of difficulties repaying, so your application has been denied to protect both you and the bank. At 42 years old, with a skilled job you've held for over seven years, living rent-free at your current residence for four years, and supporting two dependents without other installment plans or co-signers, many aspects of your profile align well with successfully approved applicants. However, three key factors stood out as the strongest influences tipping the prediction toward denial. The biggest concern was your checking account status showing less than 0 DM, which is uncommon among approved applicants—only about 20% of them had this, compared to over 50% with no account or positive balances—and it strongly pushed the model toward seeing higher risk. Your property situation, listed as unknown or none, further reinforced this worry, as just 12% of approved applicants shared that, while most owned real estate, cars, or had savings plans. On a more positive note, your low installment rate of 2% of disposable income—below the 2.94% average for those approved—worked in your favor, pulling the prediction toward good credit and showing you could likely handle payments relative to your income. Compared to typical approved applicants, who requested smaller amounts around 2,887 DM on average and had shorter loan durations near 19 months, your larger request and longer term amplified these concerns when combined with the account and property red flags. Your solid credit history of existing paid credits and no telephone landline were neutral or less influential here. To improve your chances next time, consider building up your checking account balance, clarifying or acquiring verifiable assets like property or savings, and starting with a smaller loan amount or shorter duration—these steps often align better with profiles our model approves. We encourage you to reapply after addressing these areas, perhaps with additional documentation on your finances.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

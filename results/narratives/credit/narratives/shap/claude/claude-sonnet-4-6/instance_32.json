@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 32,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:30:26.179049",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed, and the assessment found a 59% likelihood that you represent a credit risk — a figure that, while not overwhelmingly high, was sufficient to result in a denial. This means the decision was not clear-cut, and your profile contains both concerning and reassuring elements that together tipped the outcome in an unfavorable direction.\n\nThe single most influential factor working against your application was the current status of your checking account, which shows a negative balance. Among applicants who were approved, only about 20% had a negative checking account balance, while roughly half of approved applicants had no checking account at all or maintained a positive balance. A negative balance signals to the assessment that your day-to-day finances may already be under strain, which raises concerns about your ability to take on additional debt responsibly.\n\nYour credit history also played a meaningful role in the denial. Having all credits paid at the bank sounds positive on the surface, but in the context of this assessment, it is actually a relatively rare profile among approved applicants — only about 3% of those who were approved shared this credit history category. The most common credit histories among approved applicants involved existing credits being paid on time or even some critical past credits, which paradoxically reflect more experience managing ongoing debt. Your history, while clean, suggests limited exposure to credit management in the eyes of the model.\n\nOn a more positive note, the amount you requested — 2,746 DM — actually worked in your favor, as it is slightly below the average loan amount of around 2,887 DM among approved applicants. This was the one factor among the top three that pushed the assessment toward a more favorable view of your application.\n\nBeyond these top factors, your profile does have genuine strengths: you have been employed for seven or more years, you own your home, and you have only one person financially dependent on you. However, the combination of a negative checking account balance, a 36-month loan duration that is nearly double the approved applicant average of 19 months, and an installment rate at the highest level — meaning repayments would consume a significant share of your disposable income — collectively painted a picture of financial pressure.\n\nAs a next step, we strongly encourage you to work on bringing your checking account into a positive balance and, if possible, reducing the loan duration or the requested installment burden before reapplying. Speaking with a financial advisor about restructuring your current financial commitments could also strengthen a future application considerably.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

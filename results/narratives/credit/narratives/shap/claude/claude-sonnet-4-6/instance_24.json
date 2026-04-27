@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 24,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:28:35.959579",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed, and the assessment found a 68% likelihood that you represent a credit risk — a level of concern high enough to result in a denial. This decision was not made lightly, and understanding the specific factors behind it may help you take meaningful steps toward a successful application in the future.\n\nThe single most influential factor working against your application was your credit history. You have a record of all debts being paid at your current bank, which might sound positive at first glance, but in the context of this assessment, it actually signals concern. Among applicants who were approved, only about 3% shared this same credit history profile — the vast majority of approved applicants either had a strong record of consistently paying existing credits or had managed through some past difficulties and recovered. This particular category suggests a limited or overly narrow credit track record, which the model interpreted as a meaningful risk signal.\n\nThe second most important factor was the status of your checking account, which currently holds between 0 and 200 Deutsche Marks. This is a relatively low balance, and it places you in a group that approved applicants are less commonly found in — over half of approved applicants had no checking account at all or maintained healthier balances. A checking account in this range can suggest limited financial cushion, which raises questions about your ability to absorb unexpected expenses while keeping up with loan repayments.\n\nThe third contributing factor was the purpose of your loan — purchasing a new car. While new car purchases are a common reason for borrowing (nearly 20% of approved applicants also sought loans for this purpose), it is a category that carries somewhat more risk in the model's assessment compared to purposes like home electronics or furniture, which tend to be lower-cost and lower-risk.\n\nOn a more encouraging note, several aspects of your profile are actually in your favor: your requested loan amount of 1,264 DM is well below the average of nearly 2,887 DM among approved applicants, your installment rate is lower than average, and your employment of 1 to 4 years is consistent with the most common employment profile among approved applicants. These are genuine strengths. To improve your chances, consider working on building a broader and more diverse credit history, and if possible, strengthening your checking account balance before reapplying. Speaking with a financial advisor or credit counselor could also help you identify concrete steps to present a stronger application in the near future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

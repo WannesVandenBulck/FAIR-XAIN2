@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:06:56.366816",
+  "status": "success",
+  "narrative": "Your loan application for 13,756 Deutsche Marks to buy a new car over a 60-month period was carefully reviewed by our machine learning model, which predicts credit risk based on details from past borrowers in 1970s Germany. The model assessed your situation—including your critical credit history with other credits, unknown savings, existing bank installment plan, and long-term residence of four years—and estimated a 58% probability that you represent a bad credit risk, meaning it's more likely than not that repayment could be challenging. This tipped the decision to deny the application, as the model prioritizes caution to protect both you and the bank from potential difficulties.\n\nThe most influential factor pushing toward denial was the high amount you requested—13,756 DM—which is about five times the average of around 2,900 DM seen in approved applicants. This stood out strongly because larger loans carry higher risk, especially when combined with your longer-than-average credit duration of 60 months compared to the typical 19 months for those approved. On a more positive note, your checking account status of \"none\" actually worked in your favor, as it's the most common among approved applicants at over 50%, suggesting stability there.\n\nYour savings listed as unknown or none had a helpful influence too, since while it's not ideal, approved applicants often have minimal savings like under 100 DM. These top three elements—the loan size being the biggest concern—together outweighed other details like your steady ≥7 years of employment in management or your property status. Compared to typical approved applicants, who tend to seek smaller amounts for everyday purposes like radios or TVs and have cleaner credit histories, your profile appeared riskier in scale and history.\n\nTo improve your chances next time, consider requesting a smaller amount, shortening the duration, building visible savings, and strengthening your credit history through on-time payments on existing plans. You might also explore providing more details on assets or guarantors, as many approved cases feature real estate or co-applicants. We recommend reapplying after addressing these areas, perhaps starting with a financial advisor to review your full picture.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

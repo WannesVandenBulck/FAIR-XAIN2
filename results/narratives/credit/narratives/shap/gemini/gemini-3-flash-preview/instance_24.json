@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 24,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:55:08.774898",
+  "status": "success",
+  "narrative": "You are a 25-year-old skilled professional currently renting your home and seeking a loan of 1,264 DM to purchase a new car. While your steady employment over the last few years and your relatively modest loan request show some financial stability, our assessment indicates a 68% probability that this specific credit arrangement would represent a high risk. This percentage means that, based on historical patterns, individuals with a financial profile similar to yours are significantly more likely to encounter repayment difficulties than those we typically approve. The most influential factor in this decision involves your credit history, specifically that your previous loans were all paid at this bank. While this may seem like a positive trait, only about 3% of our successfully approved applicants share this specific history profile, as the model identifies more reliability in applicants with a more active or diverse credit background. Additionally, the current balance in your checking account, which sits between 0 and 200 DM, played a major role in the denial. This relatively low level of immediate liquidity is a concern, especially when compared to the majority of approved applicants who maintain much higher balances or have more substantial financial cushions. The purpose of your loan—purchasing a new car—also contributed to the risk rating, as new vehicle financing historically carries higher default risks than other requests like home electronics or furniture. To improve your chances for a future application, we recommend focusing on increasing the average balance in your checking account to demonstrate greater financial flexibility. Building a more varied credit history over time and perhaps considering a smaller loan amount for a used vehicle could also help align your profile with those who are typically approved. Taking these steps will help reduce the perceived risk and show a stronger ability to manage new debt.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

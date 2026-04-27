@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 16,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:52:55.205254",
+  "status": "success",
+  "narrative": "You are a 39-year-old skilled professional with a stable employment history of four to seven years, currently seeking a loan of 10,297 DM to purchase a used car. While your career stability is a positive factor, our assessment indicates an 85% likelihood that this specific loan arrangement represents a high credit risk. This percentage means that based on historical data from similar financial profiles, the vast majority of applicants in your current position would likely face significant challenges in meeting these repayment terms. The primary reason for this denial is the current status of your checking account, which shows a negative balance. While nearly 75% of our approved applicants maintain a positive balance or have no checking account with us at all, an overdrawn status is the strongest indicator of potential repayment difficulties. Additionally, the loan amount you requested is significantly higher than the average approved amount of approximately 2,887 DM. This large sum, combined with your existing financial obligations for two dependents and three other credits, creates a heavy burden on your disposable income. The requested repayment period of 48 months also played a major role in this decision, as it is more than double the 19-month average seen in successful applications. Longer terms naturally increase the risk of unforeseen financial changes over four years, making the loan less secure for the bank. Your current installment rate of 4% of your income further suggests that your current debt capacity is reached. To improve your chances for a future application, we recommend focusing on bringing your checking account into a positive standing and reducing the number of active credits you currently hold. Requesting a smaller loan amount over a shorter duration would also significantly align your profile with our standard approval criteria.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 21,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:54:36.090671",
+  "status": "success",
+  "narrative": "You recently applied for a loan of 1,778 DM to purchase a new car, a request that our system has carefully evaluated against historical lending patterns from across the region. Based on your current financial profile, the model calculated a 54% probability that this credit arrangement might result in repayment difficulties, which unfortunately led to the denial of your application. The most significant factor influencing this decision was your credit history, specifically the fact that you currently have no active credits or have already paid everything off. While having no debt might seem positive, only about 2% of our successfully approved applicants share this profile, as the bank lacks a demonstrated track record of your long-term repayment behavior. Additionally, the status of your checking account, which sits between 0 and 200 DM, was a primary driver in the risk assessment. Compared to many approved borrowers who maintain higher balances or have established salary accounts, your current balance suggests a tighter financial margin for taking on new debt. Your employment situation also played a role, as you have been in your current position for less than a year and are currently classified in an unskilled job category. This is notable because the vast majority of approved applicants—nearly 65%—are in skilled or official positions with more established tenures. On a more positive note, your ownership of real estate acted as a stabilizing factor in your application, signaling a level of personal investment and collateral. This property ownership actually worked in your favor by lowering your risk score, though it was unfortunately not enough to outweigh the concerns regarding your lack of credit history and current account status. To improve your chances for future applications, we recommend establishing a more consistent credit track record through smaller, manageable financial products. Increasing your time in your current employment and building up your savings account beyond the current 100 DM threshold would also significantly strengthen your profile. Once you have a longer history of stable employment and a more robust checking account balance, we would be happy to review a new application for your vehicle financing needs.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T23:32:56.265515",
+  "status": "success",
+  "narrative": "You are a 33-year-old resident currently working in an unskilled position and seeking a loan of 727 DM to purchase a radio or television. While you have a stable housing situation as a homeowner and a solid history of paying off previous credits, our assessment indicates a 58% probability that this loan represents a high credit risk. This percentage suggests that your current financial profile aligns more closely with individuals who have historically struggled to meet their repayment obligations. The most significant factor in this decision is the current status of your checking account, which shows a balance of less than 0 DM. Among applicants who are typically approved, only about 20% have an overdrawn account, whereas over half of successful applicants maintain a balance that is either positive or significantly higher. An overdrawn account at the time of application is often viewed as a sign of immediate financial strain, which heavily influenced the model toward a denial. Additionally, the fact that you do not have any recorded property or significant assets, such as a car or real estate, played a major role in this outcome. While you own your home, the lack of other transferable assets makes it harder to secure the loan, especially since nearly 90% of approved applicants have some form of documented property. On a more positive note, the relatively short 12-month duration of your request actually worked in your favor during the evaluation. At just one year, your requested timeline is much shorter than the 19-month average for approved loans, which slightly reduced the overall risk level. However, even with this shorter timeframe and your modest savings of 100 to 500 DM, the combination of an overdrawn account and a lack of collateral created a profile that the bank cannot currently support. To improve your chances for a future application, focusing on maintaining a positive balance in your checking account for several consecutive months would be the most effective step. Demonstrating a period of financial stability where your account remains consistently above 0 DM would significantly shift the assessment in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

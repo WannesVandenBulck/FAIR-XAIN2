@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 14,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-27T23:39:04.699518",
+  "status": "success",
+  "narrative": "Your loan application was reviewed carefully, and unfortunately, we were unable to approve it at this time. The decision was based on several key factors in your financial profile that, when considered together, suggest a higher risk of difficulty repaying the loan. Here’s why this happened and what stood out in your situation.\n\nThe amount you requested—4,795 DM—is significantly higher than the average loan we approve, which is around 2,887 DM. Additionally, you asked for this loan to be repaid over 36 months, which is nearly twice as long as the typical 19-month repayment period for approved applicants. Longer repayment terms can increase risk, especially when combined with a larger loan amount. Your current financial cushion also played a role: while you have some savings, they fall below 100 DM, which is lower than what we typically see among approved borrowers. Many of those applicants have more substantial savings to act as a safety net in case of unexpected expenses.\n\nAnother important factor was the status of your checking account. At the time of your application, your account held between 0 and 200 DM, which is a range where we see a higher proportion of applicants who struggle with repayment. Most approved borrowers either have no checking account (which can sometimes indicate other financial stability) or maintain a balance of at least 200 DM. Your lack of significant assets—such as real estate, a car, or life insurance—also contributed to the decision, as these can provide additional security for the loan.\n\nOn a positive note, your credit history shows that you’ve successfully managed and repaid previous loans, which is a strong point in your favor. However, the combination of a larger loan amount, longer repayment term, limited savings, and a modest checking account balance outweighed these strengths in this case. Your employment in a skilled or management role and the fact that you own your home are also positive factors, but they weren’t enough to offset the other concerns.\n\nTo improve your chances in the future, consider applying for a smaller loan amount or a shorter repayment period. Building up your savings or maintaining a higher balance in your checking account could also help demonstrate greater financial stability. If possible, securing an asset—like a car or life insurance—might provide additional reassurance. We encourage you to review these areas and reapply when your circumstances better align with the profiles of applicants we typically approve.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

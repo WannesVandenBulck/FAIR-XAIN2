@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 3,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:05:47.336440",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed using a model trained on historical data from 1970s German bank records to assess credit risk, and it predicted a 63% probability that you represent a bad credit risk, leading to the denial of your request. This means the model saw a higher-than-average chance that you might struggle to repay, based on patterns from past borrowers. The strongest factor pushing toward this decision was the status of your checking account, which shows a balance below 0 DM; this is a red flag because it's less common among approved applicants, where half had no account and only about one in five had a negative balance like yours. Next, the model noted your requested loan amount of 1,659 DM, which is notably lower than the average of around 2,887 DM for those who were approved—this actually worked in your favor, suggesting the smaller sum made repayment seem more feasible and pulling the prediction toward good credit. However, the planned 24-month duration for the credit stood out as longer than the typical 19 months for approved applicants, contributing to the risk assessment by implying a stretched repayment period. Other aspects of your profile, like your history of past payment delays (rarer among approvals), short employment under one year, and renting your housing, added to the overall caution, even though factors like having no other installment plans and no additional debtors helped balance things somewhat. Compared to successfully approved applicants, who often had steadier checking balances, shorter loan terms, and higher amounts, your combination raised concerns about financial stability in the model's eyes. This prediction doesn't reflect your full story or potential, as it draws from general patterns without considering age, gender, or foreign worker status. To improve your chances next time, consider building a positive checking account balance, shortening the loan duration if possible, documenting stronger payment history, and providing more details on stable employment or assets. You might also explore smaller credit-building options first, like secured cards, or consult a financial advisor to strengthen your profile against these historical benchmarks. Reapplying after addressing these key areas could shift the model's view in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

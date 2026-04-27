@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:28:49.680984",
+  "status": "success",
+  "narrative": "Your loan application was reviewed by our credit assessment system, which evaluated your financial profile and determined a 52% likelihood of credit risk — a figure just above the threshold that separates approved from denied applications, meaning this was not a clear-cut decision, but ultimately one that did not fall in your favor.\n\nThe most influential factors in this decision were your savings situation, the purpose of your loan, and the status of your checking account. Interestingly, your savings actually worked in your favor: with over 1,000 DM in savings, you fall into the top savings bracket, which is something only about 6% of approved applicants can claim, and the model recognized this as a genuine financial strength. However, this positive signal was outweighed by other concerns.\n\nThe purpose of your loan — purchasing a new car — was the single strongest factor pushing the decision toward denial. While new car purchases are not uncommon among approved applicants (roughly one in five approved loans are for this purpose), the model associates this type of spending with higher repayment risk compared to, say, household goods or used vehicles, particularly when combined with other aspects of your profile.\n\nYour checking account balance, sitting in the 0–200 DM range, also raised a flag. Among approved applicants, over half have no checking account at all or maintain healthier balances, and a balance this low signals limited financial buffer in the eyes of the assessment. Combined with an installment rate of 4% of your disposable income — notably higher than the approved applicant average of around 2.94% — the picture that emerges is of a financial situation where monthly obligations may stretch your budget more than is comfortable.\n\nOn the positive side, your requested loan amount of 1,007 DM is well below the average of nearly 2,887 DM among approved applicants, your credit history shows existing credits being paid responsibly, and your employment of 1–4 years is solid. These are real strengths in your profile.\n\nGiven how close this decision was, we would encourage you to consider reapplying after strengthening your checking account balance, or exploring whether a different loan purpose or a slightly lower installment rate arrangement might improve your standing. Speaking with a financial advisor about restructuring the terms of your request could make a meaningful difference in a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

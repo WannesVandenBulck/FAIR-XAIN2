@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 28,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:56:23.689055",
+  "status": "success",
+  "narrative": "You are a 53-year-old skilled professional who has established a stable life in your own home over the last four years, yet your recent application for a 795 DM educational loan was unfortunately declined. Our assessment indicates a 59% probability that this credit arrangement might lead to repayment difficulties, a figure that exceeds our threshold for approval. The primary factor influencing this decision is the current status of your checking account, which shows a balance below zero. While nearly half of our approved applicants maintain a healthy or substantial balance, only about 20% of successful loans are granted to those with a negative balance, as it suggests immediate liquidity challenges. Additionally, your savings account currently holds less than 100 DM, which limits the financial cushion available to you in case of unexpected expenses. Although many applicants start with modest savings, having a limited reserve combined with a negative checking balance creates a higher risk profile in our evaluation. Your relatively short tenure of less than a year in your current job also played a role, as we typically look for longer employment stability to ensure consistent income. Furthermore, the requested monthly installment represents 4% of your disposable income, which is notably higher than the 2.94% average seen among our approved borrowers. On a more positive note, the 12-month duration of your request actually worked in your favor, as shorter loan terms are generally viewed as less risky than the typical 19-month average. The modest amount of 795 DM you requested for your education was also a point of strength, showing a conservative approach to borrowing compared to the much higher average requests we receive. However, the immediate pressure on your daily finances outweighed these positive aspects of your application. To improve your chances for a future application, we recommend focusing on maintaining a positive balance in your checking account for several consecutive months. Building your savings beyond the 100 DM mark would also significantly strengthen your financial profile and demonstrate a greater capacity for managing new debt. As you gain more seniority in your current skilled position, the stability of your employment history will naturally become a stronger asset in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

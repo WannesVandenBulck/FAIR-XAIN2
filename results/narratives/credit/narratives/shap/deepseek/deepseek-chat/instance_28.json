@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 28,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:10:40.990409",
+  "status": "success",
+  "narrative": "Based on your application, the model has determined there is a 59% probability that you would be a bad credit risk, which is why your loan was denied. This decision was not made lightly, and it is based on a careful analysis of your financial profile.\n\nThe most significant factor in this decision was the status of your checking account, which is currently negative (below zero Deutsche Marks). This is a strong indicator of financial strain, as most approved applicants have a positive balance or at least a small buffer. This negative status pushed the model's prediction strongly toward seeing you as a higher risk.\n\nOn a more positive note, the duration of your requested loan, at 12 months, actually worked in your favor. This is shorter than the average of about 19 months for approved applicants, suggesting you planned to repay the debt relatively quickly. This factor pushed the model slightly toward a \"good credit\" prediction.\n\nAnother area of concern was your savings account, which has less than 100 Deutsche Marks. While many approved applicants also have low savings, this lack of a financial cushion, combined with your negative checking account, signals limited financial flexibility. This contributed further to the model's assessment of risk.\n\nYour employment history also played a role, as you have been at your current job for less than a year. This is less stable than the typical approved applicant, who often has several years of tenure. While not among the top three most influential factors, it adds to the overall picture of financial uncertainty.\n\nTo improve your chances in the future, focus on building a positive balance in your checking account and increasing your savings, even by a small amount. Demonstrating a longer period of stable employment will also be very helpful. Addressing these key areas will show lenders a more secure financial foundation.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

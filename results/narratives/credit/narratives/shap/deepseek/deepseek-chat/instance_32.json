@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 32,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:11:03.655078",
+  "status": "success",
+  "narrative": "Based on your application, the model has determined there is a 59% probability that you would be a bad credit risk, leading to the denial of your loan. This decision was not made lightly, and it is based on a careful analysis of your financial profile.\n\nThe most significant factor in this decision was the status of your checking account, which is currently negative (below zero Deutsche Marks). This is a strong indicator of financial strain, as most approved applicants have a positive or at least a neutral balance. This single factor pushed the model's prediction strongly toward a \"bad credit risk\" classification.\n\nAnother important factor was the amount of credit you requested, which is 2,746 DM. Interestingly, this actually worked in your favor, as it is slightly below the average amount requested by approved applicants. This suggests you are not asking for an unusually large sum, which is a positive sign.\n\nYour credit history, however, was a negative influence. While you have paid off all your previous credits at the bank, this specific history is actually quite rare among approved applicants. Most approved borrowers have a history of \"existing paid\" credits or have managed other types of credit, making your profile less typical and more risky in the model's view.\n\nYour application also shows you are requesting a loan for furniture or equipment, which is a common purpose among approved applicants. You have been employed for over seven years, which is a strong point, and you own your home. However, your installment rate of 4% of your disposable income is higher than the average for approved applicants, and your savings are under 100 DM, which is typical for many but still a concern when combined with your negative checking account.\n\nTo improve your chances in the future, focus on stabilizing your checking account by bringing it to a positive balance. Building up your savings, even a small amount, would also help. Consider reducing your requested loan amount or extending the loan duration to lower your monthly installment rate. Finally, maintaining your current employment and housing stability will continue to be beneficial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

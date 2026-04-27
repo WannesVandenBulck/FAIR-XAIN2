@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:10:58.055158",
+  "status": "success",
+  "narrative": "Based on your application, our system has determined that you currently represent a higher-than-acceptable credit risk, leading to the denial of your loan. The model calculated a 58% probability that you would be a bad credit risk, meaning you are more likely than not to have difficulty repaying a loan based on patterns from similar past applicants.\n\nThe most significant factor in this decision was the status of your checking account, which is currently overdrawn or has a negative balance. This is a strong indicator of financial strain, as most approved applicants either have a positive balance or no checking account at all. This single factor heavily pushed the prediction toward a \"bad credit\" outcome.\n\nOn a positive note, the duration of your requested loan, at 12 months, actually worked in your favor. Approved applicants typically request longer loan terms, averaging around 19 months, so your shorter request suggests you are not seeking long-term debt. This factor pushed the prediction slightly toward a \"good credit\" outcome, but it was not strong enough to overcome the negative impact of your account status.\n\nAnother important factor was your property status. You reported having no known property or assets, which is uncommon among approved applicants, most of whom own a car, real estate, or have a savings plan. This lack of collateral or financial buffer further contributed to the model's assessment of higher risk.\n\nTo improve your chances in the future, the most impactful step would be to stabilize your checking account by bringing it to a positive balance and maintaining it for several months. Additionally, building some form of savings or acquiring an asset, even a car, could demonstrate greater financial security. Addressing these two areas would significantly strengthen your application next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

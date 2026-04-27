@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 33,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:08:01.488452",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our machine learning model, which analyzes patterns from past credit decisions in 1970s Germany to predict risks, and it determined there's a 71% probability that you represent a bad credit risk, leading to the denial of your request. At 24 years old, you're seeking a relatively modest 1207 Deutsche Marks for a new car over 24 months, with an existing paid credit history, low savings under 100 DM, employment for less than a year, and renting your residence without a telephone or other installment plans. The model's decision hinged primarily on three key factors from your profile, ranked by their influence. Most significantly, your checking account status showing a balance below zero stood out as a major red flag, as it strongly pushed the prediction toward higher risk—unlike many approved applicants, where over half had no account or positive balances, and only about 20% shared your negative status. Next, your purpose of financing a new car contributed toward the risk assessment, being less common among those approved compared to everyday needs like radio/TV or furniture, which made up over half of successful cases. Finally, the 24-month duration of your requested loan exceeded the average of about 19 months for approved applicants, nudging the model further toward caution since longer terms often signal higher uncertainty. While positives like your skilled job, lack of other debtors, and single existing credit at the bank helped somewhat, they weren't enough to offset these top concerns. Compared to typical approved applicants—who often had steadier employment over 1-4 years, owned their homes, and requested larger amounts around 2887 DM with lower installment rates—your situation appeared riskier in these core areas. To improve your chances next time, consider building up your checking account to at least a neutral or positive balance, shortening the loan term if possible, and opting for a purpose aligned with common approvals like household items. You might also strengthen your profile by extending your time at your current residence or job, saving more visibly, or adding a guarantor. We recommend reapplying after addressing these, perhaps with a smaller amount or additional documentation of stability, and consulting a financial advisor for personalized steps.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

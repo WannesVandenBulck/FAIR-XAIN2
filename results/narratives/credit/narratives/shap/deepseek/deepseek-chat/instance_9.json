@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 9,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:08:56.629915",
+  "status": "success",
+  "narrative": "Based on your application, we have carefully reviewed your financial situation. You requested a loan of 6,758 Deutsche Marks to be paid back over 48 months, which is a significantly longer period and a larger amount than what is typical for approved applicants. Your application was denied because our assessment indicates an 82% probability that you would be a bad credit risk, meaning we believe there is a high chance you would not be able to repay the loan as agreed.\n\nThe most important factor in this decision was the status of your checking account, which is currently overdrawn (below zero). This is a strong warning sign, as most approved applicants have a positive balance or at least a non-negative account. This single factor pushed the decision strongly toward denial.\n\nThe second most influential factor was the length of the loan you requested. At 48 months, your requested duration is more than double the average of 19 months for approved applicants. A longer repayment period increases the uncertainty and risk for the lender, which also contributed significantly to the negative decision.\n\nYour savings account, with a balance of less than 100 DM, was the third most important factor. While many approved applicants also have low savings, this lack of a financial cushion, combined with your overdrawn checking account, further reinforced the assessment that you do not have enough financial stability to handle this large loan.\n\nTo improve your chances in the future, we recommend first bringing your checking account to a positive balance and building up some savings. You might also consider applying for a smaller loan with a shorter repayment period, which would align more closely with the profiles of applicants who are typically approved.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

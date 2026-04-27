@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:45:16.680030",
+  "status": "success",
+  "narrative": "You are a 43-year-old homeowner with a steady job as an unskilled resident, currently supporting two dependents while managing two existing credit lines. You recently applied for a loan of 1,344 DM to purchase a new car, a request that is significantly lower than the average amount of 2,887 DM typically seen in approved applications. Based on an analysis of your financial profile, the probability of this loan being a high credit risk was calculated at 50%, which led to the denial of your application. The most significant factor in this decision was the current state of your checking account, which shows a negative balance. While over half of our approved applicants maintain no debt in their checking accounts, your current deficit suggests a level of immediate financial strain that the model flagged as a primary concern. Additionally, the specific purpose of your loan—purchasing a new car—was viewed as a higher risk factor compared to other common requests like home appliances or electronics. In our historical data, loans for new vehicles often carry a higher risk of default than those for smaller, more essential household goods. On a more positive note, the relatively short 12-month duration you requested for repayment worked in your favor. This timeframe is much shorter than the 19-month average for approved loans, suggesting a commitment to a quick repayment schedule that helped lower your overall risk score. However, these positive aspects were weighed against your credit history, which includes some past delays in payments. When the model combined your negative account balance and the risk associated with car loans, these factors outweighed the benefits of your short repayment term and your status as a homeowner. To improve your chances for future applications, focusing on bringing your checking account into a positive balance would be the most impactful step. Demonstrating a period of consistent, on-time payments for your two existing credits will also help rebuild your credit standing. You might also consider a smaller loan amount or providing a guarantor, as most of our successful applicants currently manage their debts without additional co-signers. Taking these steps will help align your profile more closely with the typical characteristics of our approved borrowers.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

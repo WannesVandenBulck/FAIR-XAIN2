@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:55:31.588358",
+  "status": "success",
+  "narrative": "You are a 22-year-old skilled professional seeking a loan of 1,007 DM to purchase a new car, a request that would be repaid over a 12-month period. Based on an analysis of your financial profile, there is a 52% calculated probability that this credit could represent a risk, which unfortunately led to the denial of your application. This percentage indicates that your profile sits just on the edge of our risk threshold, meaning small adjustments could lead to a different result in the future. The most significant factor working in your favor is your impressive savings balance of over 1,000 DM. This level of financial security is quite rare, as it is achieved by only about 6% of our most successful applicants, and it strongly suggests you are a responsible saver. However, this strong safety net was unfortunately offset by the specific purpose of your loan. Requesting funds for a new car is statistically viewed as a higher-risk category in our records compared to other types of financing like home repairs or education. Furthermore, the current status of your checking account, which remains between 0 and 200 DM, suggests a limited monthly buffer. This balance is lower than the majority of approved borrowers, half of whom maintain much more substantial or debt-free account statuses. Your requested installment rate also represents 4% of your disposable income, which is notably higher than the 2.94% average seen in approved applications. While you already own your home and have a stable job, these specific factors combined to push your risk profile just past the acceptable limit. To improve your standing for a future request, you might consider applying for a smaller loan amount to lower that monthly installment rate. Waiting until your checking account balance shows a more consistent upward trend would also significantly strengthen your profile. Continuing to build your tenure in your current skilled position while maintaining your excellent savings habits will likely lead to a more favorable outcome in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

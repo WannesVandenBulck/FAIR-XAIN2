@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:24:11.850114",
+  "status": "success",
+  "narrative": "Your loan application was reviewed and, unfortunately, the assessment concluded that you represent a higher credit risk, with the model estimating a 56% probability that you would struggle to repay the loan. While this is not an overwhelming margin, it was sufficient to result in a denial. Understanding the specific reasons behind this decision may help you take steps to strengthen a future application.\n\nThe single most important factor working against your application was the current status of your checking account, which shows a negative balance. This was the strongest signal the model used in reaching its decision. Among applicants who were approved, only about one in five had a negative checking account balance, while the majority either had no checking account or maintained a positive balance. A negative balance suggests financial strain and raises concerns about your ability to manage ongoing financial obligations, which is a significant red flag for lenders.\n\nInterestingly, two other factors actually worked in your favor and pushed the assessment toward a more positive outcome. The amount you requested — 2,600 DM — is modestly below the average of roughly 2,887 DM that approved applicants typically requested, suggesting you are not overreaching financially. Similarly, your requested loan duration of 18 months is close to the approved applicant average of about 19 months, which is a reasonable and manageable timeframe. These two factors helped offset some of the concern raised by your checking account, but were not enough to overcome it.\n\nLooking at the broader picture of your profile, there are some additional areas that, while not among the top three drivers, may have contributed to the overall assessment. You have no property listed as an asset, which is less common among approved applicants — nearly 88% of those approved had some form of property or savings backing. Your installment rate of 4% of disposable income is also higher than the approved applicant average of about 2.94%, meaning a larger share of your income would be committed to repayments. You also have two existing credits at this bank, compared to an average of 1.42 among approved applicants, which adds to the perception of existing financial burden.\n\nAs a next step, the most impactful thing you could do before reapplying is to work toward bringing your checking account into a positive balance and maintaining it there over time. Reducing any existing debt obligations and lowering your installment burden would also strengthen your profile considerably. If possible, building up documented savings — even a modest amount — would further demonstrate financial stability to lenders.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

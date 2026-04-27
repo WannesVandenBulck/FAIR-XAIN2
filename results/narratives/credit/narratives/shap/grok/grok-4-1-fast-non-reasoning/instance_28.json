@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 28,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:07:42.438581",
+  "status": "success",
+  "narrative": "Your loan application for 795 Deutsche Marks to cover education expenses over a 12-month period has been reviewed by our credit risk model, which predicted a 59% probability that you represent a bad credit risk—meaning it's more likely than not that repayment could be challenging based on patterns from past borrowers. This tipped the decision toward denial, even though some aspects of your profile, like your history of existing paid credits, pointed in a more favorable direction. The strongest factor pushing the model toward concern was the status of your checking account, currently showing less than 0 DM; this stands out because only about 20% of approved applicants were in a similar position, while half had no account issues at all. Next, your relatively short requested loan duration of 12 months actually worked in your favor, as it's notably below the 19-month average for those approved, suggesting lower overall risk in that regard. Your savings account status, with less than 100 DM, also contributed to the caution, aligning with over half of approved applicants but still signaling limited financial buffer in the model's eyes. Other details, like your less than one year at your current employment, four years at your present residence (longer than the typical approved applicant's 2.8 years), and lack of a telephone, added to the picture but weren't the top drivers. Compared to successfully approved applicants—who often requested around 2,887 DM on average, had steadier employment histories, and more commonly owned their housing like you do—your combination raised more flags, especially given the 1970s context of average salaries around 10,000 to 20,000 DM. While positives like no other installment plans, just one existing credit at our bank, and your skilled official job helped pull toward approval, they couldn't outweigh the key concerns. To improve your chances next time, consider building up your checking and savings balances, extending your employment stability, or providing additional documentation on your financial support network, such as the one person financially dependent on you. We recommend reapplying after addressing these areas, perhaps with a smaller amount or clearer purpose tied to more common approvals like household goods. Your age of 53 and home ownership are strengths that could shine brighter with those adjustments.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

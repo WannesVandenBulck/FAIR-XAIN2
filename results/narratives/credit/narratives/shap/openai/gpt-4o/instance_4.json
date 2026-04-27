@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-27T23:40:46.644794",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and the decision was based on a model that evaluates various aspects of your financial profile. Unfortunately, the model predicted a 50% probability that you might be a bad credit risk, leading to the denial of your application. Let's explore the reasons behind this decision and how your situation compares to others who were approved.\n\nOne of the most significant factors influencing the decision was the status of your checking account, which showed a negative balance. This is less common among approved applicants, where a majority have either no balance or a small positive balance. This aspect of your financial profile suggested a higher risk to the model. Additionally, the purpose of your loan request, which was for purchasing a new car, also played a role. While this is a common reason for loans, it was less influential in pushing the decision towards approval compared to other purposes like radio/TV purchases, which are more frequent among approved applicants.\n\nOn a positive note, the duration of your credit request was shorter than average, which typically indicates a lower risk. This aspect worked in your favor, suggesting to the model that you might be a more reliable borrower. However, the combined influence of your checking account status and the purpose of the loan outweighed this positive aspect.\n\nGiven this outcome, you might consider improving your financial standing by addressing the negative balance in your checking account. Additionally, exploring other loan purposes or demonstrating a stable financial history could enhance your profile for future applications. By focusing on these areas, you can potentially improve your chances of approval in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

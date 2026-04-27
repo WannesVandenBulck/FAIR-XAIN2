@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 33,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-27T23:43:23.619155",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and unfortunately, the application was denied. The decision was based on a prediction model that assessed your financial profile and estimated a 71% probability of being a bad credit risk. This means that, according to the model, there is a high likelihood that you might face challenges in repaying the loan.\n\nOne of the most significant factors influencing this decision was the status of your checking account, which showed a negative balance. This is less common among approved applicants, where a majority have either no balance or a small positive balance. This aspect of your financial profile suggested to the model that you might struggle with managing your finances, pushing the prediction towards a bad credit risk.\n\nAdditionally, the purpose of your loan request, which was for purchasing a new car, also played a role. While this is a common reason for loans, it was less influential compared to other purposes like buying a radio or TV, which are more frequently associated with approved applications. This factor slightly nudged the prediction towards a higher risk.\n\nThe duration of your credit request, set at 24 months, was longer than the average duration of 19 months seen in approved applications. Longer loan durations can sometimes indicate a higher risk, as they extend the period over which financial circumstances might change, thus contributing to the model's decision.\n\nGiven these insights, it might be beneficial to focus on improving the balance of your checking account and considering a shorter loan duration if possible. Additionally, exploring other purposes for the loan that align more closely with typical approved applications might also help. By addressing these areas, you could potentially improve your credit profile and increase your chances of approval in future applications.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:08:30.169686",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model assessed you as having a 50% chance of being a bad credit risk, meaning you are equally likely to default as you are to repay. This decision was primarily driven by three key factors in your financial profile.\n\nThe most important factor was the status of your checking account, which showed a negative balance (below 0 Deutsche Marks). This is a strong warning sign, as only about 20% of approved applicants had a negative balance, while half had no checking account at all. This pushed the model strongly toward denying your application.\n\nThe second factor was the duration of your loan request. You asked for a 12-month term, which is shorter than the average of about 19 months for approved applicants. While a shorter term might seem responsible, it actually contributed slightly in your favor, nudging the prediction toward good credit. However, this positive effect was not strong enough to overcome the other concerns.\n\nThe third factor was the purpose of your loan: a new car. While this is a common reason for borrowing—about 20% of approved applicants used loans for new cars—it still pushed the model slightly toward denying your application. This may be because new cars depreciate quickly, making them less secure collateral compared to other purposes like home improvements.\n\nYour overall profile shows some strengths, such as having real estate property and stable housing, but these were outweighed by the negative checking account and the loan purpose. To improve your chances in the future, consider addressing your checking account balance by building a positive history, perhaps by maintaining a small buffer. You might also explore a longer loan term or a different purpose, such as a used car or home repairs, which are viewed more favorably. Finally, reducing your installment rate—currently 4% of your income, higher than the average of about 3%—could demonstrate greater financial flexibility.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

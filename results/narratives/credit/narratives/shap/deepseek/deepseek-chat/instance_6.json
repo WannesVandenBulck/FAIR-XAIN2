@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:08:40.707665",
+  "status": "success",
+  "narrative": "Based on your application, our model has determined that you have a 56% chance of being a bad credit risk, which unfortunately led to the denial of your loan. This decision was not made lightly, and we want to explain the key factors that influenced it.\n\nThe most significant factor was the status of your checking account, which is currently overdrawn (below zero Deutsche Marks). This is a strong indicator of financial strain, as only about 20% of approved applicants had a negative balance, while half had no issues. This pushed the model strongly toward a \"bad credit risk\" prediction.\n\nOn a positive note, the amount you requested—2,600 DM—is actually slightly below the average of 2,887 DM for approved applicants. This worked in your favor, nudging the prediction toward \"good credit.\" Similarly, your requested loan duration of 18 months is slightly shorter than the typical 19 months for approved applicants, which also helped your case.\n\nHowever, the negative impact of your overdrawn account outweighed these positives. Your situation is further complicated by having only 100 DM in savings, which is common among approved applicants but still adds to the overall risk profile. Additionally, your installment rate of 4% of disposable income is higher than the average of 2.94% for approved applicants, suggesting tighter monthly finances.\n\nTo improve your chances in the future, focus on resolving the overdraft in your checking account and building a stronger savings buffer. Even small improvements in these areas can significantly shift the model's assessment. Consider applying for a smaller loan amount or a longer repayment period to reduce monthly strain, and ensure all existing credits are managed diligently.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

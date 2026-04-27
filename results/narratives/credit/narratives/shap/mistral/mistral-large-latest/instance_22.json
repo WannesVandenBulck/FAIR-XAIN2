@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 22,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-27T23:46:14.545936",
+  "status": "success",
+  "narrative": "Your loan application was reviewed carefully, but unfortunately, it was not approved. The system predicted a 59% chance that this loan could pose a higher risk of repayment difficulties, which is above the threshold we use to ensure responsible lending. This decision wasn’t based on any single factor alone, but rather a combination of your financial situation and how it compares to others who have successfully repaid loans in the past.\n\nOne of the biggest concerns was the status of your checking account. Currently, it appears to be overdrawn, which is uncommon among approved applicants—most have either a positive balance or at least 200 DM available. This raised a red flag, as it suggests limited financial flexibility to handle additional debt. On the other hand, your savings were a positive factor; while you don’t have a savings account or it’s not disclosed, this actually worked slightly in your favor compared to others, as many approved applicants have only small savings under 100 DM.\n\nThe purpose of your loan also played a role. You mentioned this loan is for a new car, which is a common reason for borrowing. However, the model tends to view loans for new cars as slightly riskier than those for smaller purchases like a radio or TV, which made up a larger share of approved applications. That said, your credit history was a strong point—you’ve successfully managed existing credit in the past, which is one of the best indicators of future repayment. Most approved applicants also have a clean history like yours, so this helped your case.\n\nOther aspects of your application were fairly typical. For example, your loan amount of 1,371 DM is actually lower than the average approved request, and you’ve been in your current job for 1 to 4 years, which is the most common employment duration among approved borrowers. However, the combination of an overdrawn account, the loan’s purpose, and a few other smaller factors tipped the balance toward a denial.\n\nIf you’d like to improve your chances in the future, focusing on stabilizing your checking account balance would likely have the biggest impact. Even a small positive balance could make a difference. Additionally, if you have any savings you haven’t disclosed, including that information might help. You’re already in a strong position with your employment history and credit track record, so small adjustments could put you in a better position for approval next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 20,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:09:55.960723",
+  "status": "success",
+  "narrative": "Based on your application, the model has determined there is a 59% probability that you would be a bad credit risk, leading to the denial of your loan. This decision was not made lightly, and it is based on a careful analysis of your financial profile.\n\nThe most significant factor in this decision was the status of your checking account, which currently holds between 0 and 200 Deutsche Marks. This is a key indicator of your immediate financial liquidity, and having a low balance in this account strongly pushed the model's prediction toward a bad credit risk. While many approved applicants also have low balances, a significant portion have no checking account at all, which is often seen as a more stable situation.\n\nInterestingly, your credit history actually worked in your favor, pushing the prediction toward good credit. Even though your history is marked as \"critical/other credits,\" the model interpreted this as a less negative factor compared to other applicants, likely because you have managed some form of credit before. This shows that your past financial behavior is not entirely negative.\n\nHowever, a third critical factor worked against you: your other installment plans. You have an installment plan with a bank, which indicates you already have existing financial commitments. This additional debt burden, combined with your low checking account balance, suggests that taking on another loan could stretch your finances too thin.\n\nTo improve your chances in the future, focus on building a stronger savings buffer in your checking account. Even a modest increase to over 200 DM would significantly improve your financial profile. Additionally, consider paying down your existing installment plan with the bank before applying for new credit. Demonstrating that you can manage your current debts responsibly will show lenders that you are a lower risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

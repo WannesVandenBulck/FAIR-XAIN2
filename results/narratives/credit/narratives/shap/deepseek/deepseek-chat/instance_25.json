@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:10:24.844907",
+  "status": "success",
+  "narrative": "After reviewing your application, we found that your request for a 1,007 Deutsche Mark loan over 12 months was denied because our system identified you as a potential bad credit risk, with a 52% probability of default. This decision was based on several key factors in your financial profile, which we’ll explain below.\n\nThe most influential factor was your savings account status. You have over 1,000 DM in savings, which is actually a strong positive point—most approved applicants have less than 100 DM saved. This pushed the decision slightly toward approving your loan, but it wasn’t enough to overcome other concerns.\n\nThe second most important factor was the purpose of your loan: a new car. While this is a common reason for borrowing, it contributed toward the denial because applicants seeking car loans tend to have a slightly higher risk profile compared to those borrowing for items like radios or televisions, which are more common among approved applicants.\n\nThe third key factor was your checking account status, which shows a balance between 0 and 200 DM. This pushed the decision toward denial because many approved applicants have no checking account at all, and those with low balances are seen as having less financial flexibility. Your short employment duration of 1-4 years and the fact that you’ve only been at your current residence for one year also added to the risk, as these suggest less stability compared to typical approved applicants, who often have longer tenures.\n\nTo improve your chances in the future, consider building a longer employment history, maintaining a higher checking account balance, and perhaps choosing a loan purpose that aligns with lower-risk categories, like home improvements or education. Additionally, reducing your installment rate—currently 4% of your income, which is higher than the average for approved applicants—could demonstrate better financial management.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

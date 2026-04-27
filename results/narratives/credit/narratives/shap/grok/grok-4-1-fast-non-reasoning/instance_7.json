@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 7,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:06:08.173411",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our bank's machine learning model, which analyzes patterns from past credit decisions in 1970s Germany to predict risks. Based on the details you provided—like your checking account status showing 0-200 DM, a request for 6288 DM over 60 months for education, no notable property assets, and your steady job as a skilled worker with 1-4 years at your current employment—the model calculated an 81% probability that this credit would turn into a bad risk, leading to the denial of your application. This high probability means the model sees a strong chance you might struggle to repay, similar to patterns it has learned from historical cases. The three biggest factors pushing toward this bad credit prediction were, first, the unusually long 60-month duration of your requested loan, which is much higher than the 19-month average for approved applicants and often signals higher default risk. Second, your checking account with just 0-200 DM stood out negatively, as it's less common among those approved (only 23% had this, versus 50% with none outstanding), suggesting limited liquid reserves. Third, having no known property or assets like real estate or a car—unlike 88% of approved applicants who had some—further increased the model's concern about your ability to secure repayment. While positives like your existing paid credit history and no other installment plans helped pull slightly toward approval, they weren't enough to offset these top concerns. Compared to typical approved applicants, your requested amount is more than double their average, your installment rate of 4% edges above their 2.94% norm, and living rent-free with 4 years at your residence and no phone landline also deviated from safer patterns. To improve your chances next time, consider shortening the loan term, building up more savings or property equity, and providing stronger proof of stable finances—perhaps reapplying after reducing your credit amount or adding a guarantor. Our team is here to discuss options tailored to your situation as a 42-year-old male foreign worker with one dependent.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

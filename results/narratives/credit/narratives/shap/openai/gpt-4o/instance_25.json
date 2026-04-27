@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-27T23:42:41.100189",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and unfortunately, the application was denied. Let's explore the reasons behind this decision and how your specific situation influenced the outcome. The model predicted a 52% probability that you might be a bad credit risk, which led to the denial. This prediction was primarily influenced by three key factors: your savings, the purpose of the loan, and the status of your checking account.\n\nFirstly, your savings account status was a positive aspect of your application. Having savings of over 1000 DM is a strong indicator of financial stability, which is less common among approved applicants, as most have less than 100 DM in savings. This factor worked in your favor, suggesting a good credit risk.\n\nHowever, the purpose of your loan request, which was for purchasing a new car, was less favorable. While this is a common reason for loans, it didn't align as strongly with the profiles of those typically approved, who often apply for loans for radio/TV purchases. This factor slightly pushed the prediction towards a bad credit risk.\n\nLastly, the status of your checking account, which showed a balance between 0-200 DM, also contributed to the decision. While this is not uncommon among approved applicants, it still indicated a lower level of available funds compared to those with higher balances or no checking account issues, nudging the prediction towards a higher risk.\n\nGiven these insights, you might consider building a stronger financial profile by increasing your savings further or demonstrating a more diverse credit history. Additionally, exploring other loan purposes or improving your checking account status could enhance your application in the future. Understanding these factors can help you make informed decisions moving forward.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

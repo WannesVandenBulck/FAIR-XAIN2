@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 8,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:24:37.560293",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed, and the assessment found a 55% likelihood that you represent a credit risk — a figure that, while not overwhelmingly high, was sufficient to result in a denial. This means the decision was not clear-cut, and your profile contains both concerning and reassuring elements that together tipped the balance against approval.\n\nThe single most influential factor working against your application was the length of the loan you requested: 48 months, which is more than double the average of roughly 19 months seen among applicants who were approved. A longer loan duration means the bank is exposed to risk over a much greater period of time, and statistically, longer commitments are associated with a higher chance of repayment difficulties. Paired with this, the amount you requested — 6,560 DM — is also significantly above the average of approximately 2,887 DM among approved applicants, meaning the bank would be extending a substantially larger financial commitment than is typical for successful applications. Together, these two factors — a large sum over a long period — created the strongest push toward the denial decision.\n\nThe second most important factor was your checking account status, which shows a balance between 0 and 200 DM. While this is not the worst possible situation, it is worth noting that over half of approved applicants had no checking account obligations at all, and only about 7% of approved applicants had the stronger financial signal of a salary-linked account of 200 DM or more. A low checking account balance can signal limited financial cushion, which raises concern about your ability to absorb unexpected expenses while keeping up with loan repayments.\n\nOn a more positive note, your employment duration of 4 to 7 years actually worked in your favor, nudging the assessment slightly toward a good credit outcome. Stable employment over several years is a meaningful sign of financial reliability, and this was recognized in the evaluation.\n\nTo improve your chances in a future application, you might consider requesting a smaller loan amount, shortening the repayment period, or building up your savings and checking account balances before reapplying. Speaking with a financial advisor at the bank could also help you identify the combination of loan terms that would best fit your current financial profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

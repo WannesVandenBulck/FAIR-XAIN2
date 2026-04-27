@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:07:53.254193",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our machine learning model, which analyzes patterns from past borrowers in 1970s Germany to predict credit risk, and it determined there's a 58% probability that you represent a bad credit risk—meaning it's more likely than not that you might struggle to repay, leading to the denial of your request for 727 Deutsche Marks over 12 months to buy a radio or TV.\n\nThe model's decision hinged on three key factors from your profile, ranked by their influence: your checking account status, the short duration of your credit request, and your property situation.\n\nMost critically, your checking account showing less than 0 DM stood out as a major red flag, as it strongly pushed the prediction toward higher risk—unlike many approved applicants, where half had no account or positive balances up to 200 DM, making yours appear overdrawn and unstable.\n\nOn a positive note, your request for a relatively short 12-month term worked in your favor compared to the average 19 months among those approved, helping pull the prediction somewhat toward good credit and showing restraint in borrowing.\n\nHowever, lacking any known property or assets, such as real estate or a car that many approved applicants (over 30% with real estate alone) possess, further tipped the scales toward risk, signaling limited collateral or financial security.\n\nOther details like your existing paid credit history, unskilled resident job, less than a year in your current employment, and owning your housing were considered but played smaller roles here.\n\nCompared to typical approved applicants—who often request around 2,887 DM, have steadier employment over 1-4 years, and higher savings—your smaller amount and home ownership helped a bit, but they couldn't offset the top concerns.\n\nThis isn't a judgment on your character, but a data-driven assessment based on historical patterns where similar profiles faced repayment challenges.\n\nTo improve your chances next time, consider building up your checking account balance, securing identifiable assets like savings over 100 DM (which only 10% of approved applicants had at your level), or lengthening the loan term if feasible while demonstrating more employment stability.\n\nYou might also explore adding a guarantor, as 92% of approved applicants had none but it could help.\n\nReapplying after addressing these, perhaps with updated financial proof, could yield a different outcome—our model rewards positive changes in these areas.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 23,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:10:13.239015",
+  "status": "success",
+  "narrative": "Based on your application, our system has determined that you represent a high credit risk, leading to the denial of your loan. The model calculated an 86% probability that you would be unable to repay the debt, which is significantly above our threshold for approval.\n\nThe most important factor in this decision was the status of your checking account, which is currently overdrawn (below zero). This is a strong indicator of financial strain, as most approved applicants have a positive balance or at least a stable account. This single factor heavily pushed the prediction toward a \"bad credit risk\" classification.\n\nYour credit history also played a major role. While you have paid off all debts at your current bank, this specific history is actually quite rare among approved applicants—only about 3% of them share this profile. The model interpreted this as less reliable than having a longer, more varied history of managing credit, which is more common among those who were approved.\n\nAdditionally, the fact that you do not own any property or significant assets (like a car or life insurance) further contributed to the decision. Most approved applicants have some form of property or financial asset, which provides security. Your lack of such assets made the model view your application as riskier.\n\nOn a positive note, your requested loan amount of 1,442 DM is well below the average of 2,887 DM for approved applicants, which slightly worked in your favor. However, this was not enough to overcome the negative impact of your checking account and credit history.\n\nTo improve your chances in the future, focus on stabilizing your checking account by avoiding overdrafts. Consider building a more diverse credit history, perhaps by taking and repaying a smaller loan. Finally, accumulating savings or assets, even a small amount, would demonstrate greater financial stability to lenders.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

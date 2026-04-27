@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 11,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:06:23.481542",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our machine learning model, which analyzes patterns from past borrowers in 1970s Germany to predict credit risk, and it determined there's an 85% probability that you represent a bad credit risk, leading to the denial of your request. At 23 years old, with a skilled job, your own housing, a registered telephone, and no other installment plans or co-debtors, you have several positive aspects in your financial profile. However, the model focused most heavily on three key factors that strongly pushed its decision toward denial: the amount you requested, the duration of the loan, and the status of your checking account. The largest influence came from your request for 15,672 DM—far above the average of about 2,887 DM among approved applicants—which the model sees as a major red flag for higher risk, as larger loans have historically been harder to repay on time. Next, your requested duration of 48 months significantly outweighed the typical 19 months for those approved, signaling to the model a prolonged commitment that often correlates with repayment challenges. Your checking account status at 0-200 DM also contributed notably toward the bad credit prediction, as this limited balance is less common and less reassuring than the empty or overdrawn accounts surprisingly prevalent among many who were approved. In contrast, strengths like your \"existing paid\" credit history—matching the most common profile for approvals—and low 2% installment rate compared to the 2.94% average nudged things slightly in your favor, but not enough to offset the top concerns. Your business purpose for the loan, while understandable, aligns less with the radio/TV or car purchases that dominate approvals, adding subtle caution. Compared to typical approved applicants, your profile stands out for its ambitious scale in amount and length, which the model links to past defaults more than everyday needs. To improve your chances next time, consider requesting a smaller amount over a shorter period, building up more savings beyond your current <100 DM, or providing additional proof of steady income stability given your 1-4 years of employment. We encourage you to reapply after addressing these areas, perhaps starting with a more modest credit need that better matches proven approval patterns.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

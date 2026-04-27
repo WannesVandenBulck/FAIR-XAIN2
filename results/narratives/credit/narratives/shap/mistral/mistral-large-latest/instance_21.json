@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 21,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-27T23:45:38.846575",
+  "status": "success",
+  "narrative": "Your loan application was reviewed carefully, and unfortunately, we were unable to approve it at this time. The decision was based on several key factors in your financial profile that, when considered together, suggested a slightly higher risk of repayment difficulties compared to other applicants.\n\nOne of the most important factors in this decision was your credit history. While it’s positive that you’ve had no prior loans or have paid them all in full, this also means there’s little evidence of how you manage ongoing credit obligations. Most approved applicants have a track record of successfully handling existing loans, which provides more confidence in their ability to repay. Additionally, the current balance in your checking account—less than 200 DM—was another concern. Many approved applicants either have a higher balance or no checking account at all, which can sometimes indicate more stable financial habits.\n\nOn a more positive note, owning real estate worked in your favor, as it suggests some financial stability. However, this was outweighed by other aspects of your situation. For example, you’ve been at your current residence for only a year, while most approved applicants have lived at their address for nearly three years on average. This shorter duration may have made it harder for the system to assess your long-term stability. You also have two existing loans with our bank, which is slightly higher than the average of one loan for most approved applicants.\n\nThe amount you requested—1,778 DM—is lower than the typical loan size we approve, but the combination of your financial circumstances still led to a close decision. The system estimated a 54% likelihood that this loan could present repayment challenges, which is just above the threshold we use to approve applications.\n\nTo improve your chances in the future, you might consider building a stronger credit history by taking on and responsibly managing a smaller credit obligation, such as a credit card or a modest loan. Additionally, increasing your savings or maintaining a higher balance in your checking account could help demonstrate greater financial stability. If possible, staying at your current residence for a longer period may also strengthen your profile. We encourage you to reapply after addressing some of these areas, as your situation may look more favorable with these adjustments.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

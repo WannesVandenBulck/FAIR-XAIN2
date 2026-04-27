@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 21,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:07:09.643948",
+  "status": "success",
+  "narrative": "Your loan application for 1778 Deutsche Marks to buy a new car over 15 months was carefully reviewed by our bank's prediction system, which assesses credit risk based on past borrower data from 1970s Germany. The system estimated a 54% chance that you might face difficulties repaying, which is just over the threshold we use to approve loans, leading to the denial of your request. At 26 years old, working in an unemployed or unskilled non-resident role with less than a year on the job, renting your home, and having no telephone or savings over 100 DM, your overall profile showed some strengths like owning real estate and no other installment plans or guarantors needed. However, the decision hinged mostly on three key factors from your background. The biggest concern was your credit history of no credits taken or all paid back, which is quite rare—only about 2% of approved applicants share this, and it strongly signaled higher risk to the system compared to those with proven track records like existing paid credits. Next, your checking account status at 0-200 DM stood out negatively, as none of the approved applicants had this exact balance, unlike the majority with no account or other levels, pushing the prediction further toward caution. On a positive note, your real estate property helped pull things in your favor, since about 31% of approved applicants also list this as their main asset, providing some reassurance about stability. Your shorter requested duration and low installment rate of 2% of disposable income were below averages for approvals, but they weren't enough to offset the top concerns, especially with two existing credits at the bank and short residence time. Compared to typical approved applicants—who often have longer credit histories, steadier employment over 1-4 years or more, own their homes, and request around 2887 DM—these mismatches made your situation appear riskier. To improve your chances next time, consider building a clearer credit history with smaller, successfully repaid loans, boosting your checking or savings balance, and extending your employment or residence stability. You might also explore adding a guarantor or documenting any reliable income sources. Feel free to reapply after addressing these areas, or contact us for personalized advice on strengthening your profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 33,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:30:40.623769",
+  "status": "success",
+  "narrative": "Your loan application was reviewed by our credit assessment system, which evaluated your financial profile and determined a 71% likelihood of credit risk — a level high enough to result in a denial of your application. This means the system found more indicators of potential repayment difficulty than it typically sees in applicants who are approved, and it's worth walking through the specific reasons why.\n\nThe single most influential factor in this decision was the current status of your checking account, which shows a negative balance. Among applicants who were approved, only about 20% had a negative checking account balance, while the majority either had no checking account or maintained a positive balance. A negative checking account balance is a strong signal to the system that your current financial situation may already be under strain, making it harder to take on additional debt obligations.\n\nThe second factor that pushed your application toward denial was the purpose of your loan request — financing a new car. While new car purchases are a common reason for borrowing, the system weighs this purpose less favorably compared to, for example, purchasing household electronics or furniture, which tend to be associated with lower-risk borrowing patterns in this dataset.\n\nThe third contributing factor was the duration of your requested loan: 24 months. Approved applicants, on average, requested credit over a shorter period of roughly 19 months. A longer repayment timeline increases the overall exposure and uncertainty around your ability to repay, which added further weight to the denial.\n\nIt's worth noting that some aspects of your profile are actually comparable to or better than many approved applicants — your requested loan amount of 1,207 DM is well below the approved applicant average of around 2,887 DM, and your credit history shows existing credits being paid, which is the most common profile among approved applicants. These factors worked in your favor but were not enough to outweigh the concerns above.\n\nTo improve your chances in a future application, you should focus on bringing your checking account into a positive balance before reapplying, as this was by far the strongest driver of the denial. You might also consider whether a shorter repayment period would meet your needs, and whether a used car rather than a new one could serve as an alternative purpose that the system views more favorably. Addressing the checking account situation in particular would likely have the greatest positive impact on a future application outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

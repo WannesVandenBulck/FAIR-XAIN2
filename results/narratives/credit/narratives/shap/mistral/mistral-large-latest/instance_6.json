@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-27T23:34:42.930771",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed, and unfortunately, we were unable to approve it at this time. The decision was based on several key factors in your financial profile that suggested a higher risk of difficulty repaying the loan. Here’s why this happened and what stood out in your situation.\n\nThe most significant concern was the status of your checking account. Unlike most approved applicants—over half of whom have at least some funds in their account—yours currently shows a negative balance. This raised a red flag, as it suggests limited financial flexibility to handle additional debt. While this was the strongest factor pushing your application toward denial, a few other aspects of your profile also played a role.\n\nOn the positive side, the amount you requested (2,600 DM) was slightly below the average loan size for approved applicants, which worked in your favor. Similarly, the 18-month repayment term you proposed was close to the typical duration, which also helped your case. However, these factors weren’t enough to offset the concerns about your checking account.\n\nOther details in your application were mixed. For example, you have a strong credit history, with all past loans paid on time, which is a good sign. You’ve also been employed in a skilled position for 1–4 years, which is common among approved applicants. However, your savings are quite low (under 100 DM), and you don’t own property or have other assets that could serve as collateral. Additionally, you’ve lived at your current residence for four years, which is longer than average, but this wasn’t enough to balance out the other risks.\n\nTo improve your chances in the future, focus on stabilizing your checking account balance and building up your savings. Reducing other financial obligations—like the two existing loans you have with our bank—could also help. If possible, consider applying for a smaller loan amount or a longer repayment term, as these adjustments might make the risk more manageable. We encourage you to review your finances and reapply when your situation has improved.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

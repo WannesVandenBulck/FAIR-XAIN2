@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 22,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:10:06.891481",
+  "status": "success",
+  "narrative": "Based on your application, the model has determined that you represent a 59% probability of being a bad credit risk, which unfortunately led to the denial of your loan. This decision was not made lightly, and it is based on a careful analysis of your financial profile compared to other applicants.\n\nThe most significant factor in this decision was the status of your checking account, which is currently negative (below zero Deutsche Marks). This is a strong indicator of financial strain, as only about 20% of approved applicants had a negative account status, while the majority had a positive balance. This situation strongly pushed the model's decision toward seeing you as a higher risk.\n\nInterestingly, your savings account status actually worked in your favor. Having \"unknown/none\" in savings is common among approved applicants, and this factor slightly pushed the model toward a more favorable view of your application. However, this positive influence was not strong enough to overcome the other concerns.\n\nThe purpose of your loan also played a role in the decision. You requested the credit to purchase a new car, which is a common reason for loans among approved applicants. However, this purpose still contributed slightly toward the \"bad credit\" prediction, possibly because new cars are a significant expense that can strain finances.\n\nYour credit history shows that you have existing paid credits, which is generally positive and similar to about half of approved applicants. However, the combination of your negative checking account and the loan purpose outweighed this positive aspect. Additionally, your requested loan amount of 1,371 DM is lower than the average for approved applicants, but this did not compensate for the other risk factors.\n\nTo improve your chances in the future, focus on stabilizing your checking account by bringing it into positive territory. Building a small savings buffer, even if it is modest, would also help demonstrate financial stability. Consider applying for a smaller loan or one with a different purpose, such as for furniture or a used car, which are viewed more favorably. Finally, maintaining your current employment for a longer period could further strengthen your application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

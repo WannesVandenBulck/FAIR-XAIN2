@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:53:27.418243",
+  "status": "success",
+  "narrative": "As a highly skilled professional in a management role with over seven years of stable employment, you bring a strong personal background to your application for a 13,756 DM loan for a new car. However, after evaluating your profile, the model determined there is a 58% probability of this loan representing a bad credit risk, which exceeds the threshold for approval. This percentage means that when looking at historical data, individuals with a similar financial profile to yours were more likely to face challenges in completing their repayments. The primary factor driving this decision was the exceptionally large amount of credit you requested. At 13,756 DM, your request is nearly five times higher than the 2,887 DM average for approved applicants, creating a significant financial obligation. Interestingly, your lack of a traditional checking account status and your lack of recorded savings actually acted as favorable points in your assessment, pushing your risk score slightly lower than it might have been otherwise. These factors suggested to the model that you were not currently struggling with overdrawn accounts or minimal balances that often signal immediate financial distress. Despite these positive influences, they were not enough to overcome the risk associated with the sheer size of the loan and the 60-month repayment term, which is much longer than the 19-month average for successful loans. Additionally, while you have a stable residence, the fact that you live there for free rather than owning property or paying rent can sometimes be viewed as a lack of traditional financial anchors. To improve your chances for a future application, you might consider requesting a smaller loan amount that aligns more closely with typical approval ranges. Providing documentation of a steady savings history or offering a larger down payment for the vehicle could also help demonstrate a lower risk profile. We encourage you to adjust the terms of your request and reapply once these factors have been addressed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

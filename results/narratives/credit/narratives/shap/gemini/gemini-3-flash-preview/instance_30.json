@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 30,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T23:32:26.876632",
+  "status": "success",
+  "narrative": "You are currently working as a skilled professional and have lived in your rented home for four years, but your recent application for a 4,308 DM business loan has been carefully reviewed and ultimately denied. Based on your specific financial profile, our assessment indicates a 59% probability that this credit arrangement would represent a high risk, a figure that exceeds our threshold for approval. The most significant factor in this decision was the requested length of the loan, which you set at 48 months. This four-year commitment is substantially longer than the 19-month average seen in our successfully approved applications, creating a long-term debt obligation that is difficult to guarantee. Furthermore, because you have been with your current employer for less than a year, the model views such a long repayment period as a significant risk to your financial stability. Your checking account status, which currently sits below zero, was the second most influential factor in the denial. While over half of our approved applicants have no debt in their checking accounts, a negative balance suggests that your current liquid assets are under strain. This lack of a financial cushion is further compounded by having less than 100 DM in your savings account, making it harder to absorb unexpected costs. Interestingly, the specific amount of 4,308 DM you requested actually served as a slight point in your favor, as it is a standard request for business purposes, but this was not enough to overcome the concerns regarding the loan's duration. To improve your standing for a future application, we recommend focusing on maintaining a positive balance in your checking account for several consecutive months. Additionally, requesting a shorter repayment term—perhaps closer to the 20-month range—would significantly lower the risk profile of your application. Once you have reached a full year of steady employment and built up your savings, we would be happy to reconsider a revised request.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

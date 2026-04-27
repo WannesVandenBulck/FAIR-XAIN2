@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 17,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:26:51.654112",
+  "status": "success",
+  "narrative": "Your loan application was reviewed and, unfortunately, the assessment determined a higher likelihood of credit risk, resulting in a denial. The model estimated a 56% probability that you would represent a bad credit risk — a relatively narrow margin, but enough to tip the decision toward rejection. Understanding the key reasons behind this outcome can help you take meaningful steps to improve your situation.\n\nThe single most influential factor working against your application was your credit history. Specifically, having all your past credits paid directly at the bank — while it might sound positive — is actually a pattern the model associates with higher risk. Among applicants who were approved, only about 3% shared this credit history profile, compared to the majority who had a track record of consistently paying existing credits across various lenders. A broader, well-managed repayment history across different credit types tends to signal stronger financial reliability to lenders.\n\nThe second major concern was the status of your checking account, which currently shows a negative balance. This is a significant red flag, as it suggests potential difficulties managing day-to-day finances. While roughly 20% of approved applicants also had a negative checking account balance, this feature, combined with your credit history, created a compounding negative signal that weighed heavily on the decision.\n\nOn a more positive note, your installment rate — meaning the share of your disposable income that would go toward repaying this loan — actually worked in your favor. At just 1% of your disposable income, your requested repayment burden is well below the average of about 2.94% seen among approved applicants, suggesting the loan itself would not be financially overwhelming for you.\n\nThere are also several other aspects of your profile worth noting. You are currently unemployed, which is a circumstance shared by fewer than 5% of approved applicants, and your job classification as unemployed/unskilled non-resident is among the rarest categories seen in approved cases. Additionally, having no property assets and renting your home, while not the primary drivers of this decision, further limit the financial safety net lenders typically look for.\n\nTo improve your chances in the future, the most impactful steps would be to stabilize your checking account balance and, if possible, build a more diverse credit repayment history by responsibly managing different types of credit over time. Securing stable employment would also significantly strengthen any future application. Given that the predicted risk was only marginally above the threshold, relatively modest improvements in your financial profile could make a meaningful difference in a future assessment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

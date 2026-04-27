@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 22,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:54:46.750199",
+  "status": "success",
+  "narrative": "You are currently established as a skilled professional with a steady job of several years, seeking a loan of 1,371 DM to purchase a new car. After reviewing your financial profile, our assessment indicates a 59% probability that this credit arrangement might face repayment challenges, which has led to the denial of your application. The most significant factor in this decision is the current status of your checking account, which shows a balance below zero. While nearly 20% of our approved applicants occasionally have negative balances, starting a new credit obligation without a positive buffer in your primary account significantly increases the perceived risk. Additionally, the specific intent to use these funds for a new car weighed heavily against the approval in your specific case. Although many people successfully finance vehicles, the combination of a new car purchase with your current financial standing suggests a higher burden than is typical for successful applicants. On a more positive note, the status of your savings account actually acted as a stabilizing factor in the evaluation. Even though your savings are listed as unknown or none, this was viewed more favorably by the model than if you had a very low, depleted balance, providing a small amount of support to your overall score. However, other aspects of your request, such as the 24-month repayment period, are longer than the 19-month average we see for approved loans. Furthermore, your proposed installment rate of 4% of your disposable income is notably higher than the 2.9% average among those who are typically approved. Being 25 and currently renting your home also places you in a demographic where we look for slightly more financial liquidity to offset potential life changes. To improve your chances for a future application, we recommend focusing on bringing your checking account into a positive balance and maintaining it there for several months. Building a small, documented savings reserve would also demonstrate the financial cushion necessary to handle the monthly installments. Finally, considering a smaller loan amount or a shorter repayment term could align your request more closely with the profiles of our successful borrowers.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

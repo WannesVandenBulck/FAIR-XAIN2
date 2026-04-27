@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 7,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-27T23:41:01.915330",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and unfortunately, the application was denied. The decision was based on a prediction model that assessed your financial profile and determined an 81% probability of being a bad credit risk. This means that, according to the model, there is a high likelihood that you might face challenges in repaying the loan.\n\nSeveral factors contributed to this decision. One of the most significant was the duration of the credit request. You requested a loan term of 60 months, which is considerably longer than the average of 19 months among approved applicants. Longer loan durations can increase the risk for lenders, as they extend the period over which financial circumstances might change.\n\nAnother important factor was the status of your checking account, which showed a balance between 0 and 200 DM. While this is not uncommon, with 23.2% of approved applicants having similar balances, it still suggests limited immediate liquidity, which can be a concern for lenders.\n\nAdditionally, the model considered your property status, which was listed as unknown or none. This is less favorable compared to many approved applicants who have tangible assets like real estate or a car, which can serve as collateral or indicate financial stability.\n\nThese factors collectively pushed the prediction towards a higher risk category. While your credit history of having existing paid credits is positive, it wasn't enough to outweigh the concerns raised by the other factors.\n\nMoving forward, you might consider reducing the loan amount or duration, or improving your financial standing by increasing savings or acquiring assets. These steps could enhance your profile for future applications. Understanding these aspects can help you make informed decisions and potentially improve your chances of approval next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 8,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:06:11.447548",
+  "status": "success",
+  "narrative": "Your loan application for 6560 Deutsche Marks to buy a new car was carefully reviewed by our bank's machine learning model, which predicts credit risk based on details from past borrowers in 1970s Germany. The model assessed your situation—including your checking account status at 0-200 DM, your credit history of existing paid accounts, 48-month loan duration, 100-500 DM in savings, 4-7 years at your current job, own housing, and being a 24-year-old male foreign skilled worker with no phone or other debts—and calculated a 55% probability that you represent a bad credit risk. This tipped the scales just over the threshold, leading to the denial of your application to protect the bank from potential losses. The three biggest factors driving this decision were the length of your requested loan, your checking account status, and your employment duration. Most significantly, requesting a 48-month credit duration stood out as a strong push toward higher risk, since approved applicants typically seek much shorter terms around 19 months on average, making longer loans a red flag for repayment challenges. Your checking account with no more than 200 DM also heavily influenced the model toward denial, as this level is less common among those approved (only about 23% share this) compared to having no account at all. On a positive note, your 4-7 years of employment pulled in the opposite direction, helping lower the risk score somewhat, since this duration aligns reasonably well with many approved applicants. Overall, your requested amount of 6560 DM is more than double the average for those approved (around 2887 DM), which amplified these concerns in the model's eyes. While features like your solid credit history of existing paid accounts and no other installment plans were favorable, they weren't enough to offset the top risks. Compared to typical approved applicants—who often have smaller loans, shorter durations, and more substantial checking balances—your profile appeared riskier in key areas. To improve your chances next time, consider shortening the loan term, building up your checking account balance, or providing more details on stable employment history. You might also explore smaller loan amounts closer to averages for new car purchases among successful applicants. Feel free to reapply after addressing these, or contact us for personalized advice on strengthening your profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

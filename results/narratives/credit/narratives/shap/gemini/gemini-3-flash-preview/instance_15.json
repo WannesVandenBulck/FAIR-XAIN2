@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 15,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:51:35.665557",
+  "status": "success",
+  "narrative": "You are currently established in a high-level management or highly skilled role with over seven years of steady employment, which typically suggests a strong foundation of financial stability. However, your request for a loan of 10,623 DM to purchase a used car represents a very large financial commitment, especially considering the repayment period extends over 30 months. Based on these and other factors, our assessment indicates a 56% probability that this specific credit arrangement would be difficult to maintain, leading to the decision to deny the application. The most influential factor in this decision was the specific amount you requested, which is nearly four times higher than the 2,887 DM average seen in successfully approved applications. This high loan value significantly increased the perceived risk, as larger debts are statistically more difficult to settle when unexpected expenses arise. Furthermore, your current checking account balance is below zero, a situation shared by fewer than 20% of our approved borrowers. Having a negative balance at the time of application suggests that your current liquid assets are stretched thin, making it difficult to justify adding a new monthly installment to your budget. Interestingly, your history of managing \"critical\" or \"other\" credits actually worked in your favor, showing that you have significant experience navigating credit in the past. While this experience helped lower your risk profile slightly, it was unfortunately not enough to outweigh the concerns regarding the loan size and your current account status. We also noted that you are supporting two dependents and already have three existing credits at this bank, which further impacts your capacity to take on more debt. To improve your chances for a future application, we recommend focusing on bringing your checking account into a positive standing and maintaining it there for several months. Additionally, requesting a smaller loan amount or providing a larger down payment for the vehicle would bring your request closer to the levels we typically approve. Once your current debt load is reduced and your savings show more growth, we would be happy to re-evaluate a new proposal that better aligns with your financial capacity.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

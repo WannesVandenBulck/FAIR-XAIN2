@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 9,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:06:16.187774",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our machine learning model, which analyzes patterns from past borrowers in 1970s Germany to predict credit risk, and it determined there's an 82% probability that you represent a bad credit risk, leading to the denial of your request. This high probability means the model sees a strong likelihood of challenges in repaying the loan based on your profile. At 31 years old, working as a skilled official for 1-4 years, living in your own housing for 2 years, and seeking 6758 Deutsche Marks over 48 months for a radio or TV with no other debtors or installment plans, several aspects of your situation stood out as concerning. The three most influential factors pushing the prediction toward denial were your checking account status, the loan duration, and your savings level. Your checking account showing less than 0 DM was the biggest red flag, as it's uncommon among approved applicants—only about 20% of them had this, compared to over 50% with no account or positive balances—which signals potential instability in managing everyday finances. The requested duration of 48 months also strongly contributed to the risk assessment, far exceeding the average of 19 months for those approved, suggesting a longer commitment that historically correlates with higher default rates. Additionally, your savings under 100 DM nudged the prediction higher for bad credit, even though it's the most common level among approved applicants at 56%, because in combination with your other details, it indicates limited financial buffer. While positives like your existing paid credit history—matching the top category for 51% of approved applicants—and no other installment plans helped pull slightly toward approval, they weren't enough to offset the top concerns. Compared to typical approved applicants, your requested amount is more than double their average of around 2887 DM, and your installment rate of 3% aligns closely with theirs at 2.94%, but these didn't carry as much weight. To improve your chances next time, consider shortening the loan term, building up your checking account balance, increasing savings, or reducing the amount requested—these adjustments could better align with profiles our model views favorably. We recommend discussing options with a financial advisor to strengthen your overall stability before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

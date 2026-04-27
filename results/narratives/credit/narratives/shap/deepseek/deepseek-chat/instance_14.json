@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 14,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:09:23.688540",
+  "status": "success",
+  "narrative": "Based on your application, the model has determined there is a 63% chance you would be a bad credit risk, which is why your loan was denied. This decision was not made lightly, and it is based on a few key factors from your financial profile.\n\nThe most significant factor was the status of your checking account, which currently has a balance between 0 and 200 Deutsche Marks. This is a weaker position compared to many approved applicants, over half of whom had no balance at all, suggesting a more stable financial buffer. This factor strongly pushed the prediction toward a \"bad credit risk\" for you.\n\nAnother major influence was your property status, listed as \"unknown/none.\" Having no registered property or significant assets makes you a higher risk in the model's eyes, as it indicates less financial security. This also contributed significantly to the decision against approval.\n\nThe third key factor was the duration of your requested loan, which is 36 months. This is nearly double the average of 19 months for approved applicants. A longer loan term increases the period of uncertainty for the lender, and this pushed the prediction further toward a denial.\n\nWhile these were the top three reasons, other details in your application also played a role. For instance, your requested loan amount of 4,795 DM is higher than the average approved amount, and your employment duration of less than one year is shorter than most approved applicants. These factors, combined with the main ones, painted a picture of higher risk.\n\nTo improve your chances in the future, consider building up your savings and checking account balance to show greater financial stability. You might also look into securing a guarantor or co-applicant, as this was a common trait among approved borrowers. Finally, requesting a smaller loan amount over a shorter period could make your application more favorable.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

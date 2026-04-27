@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 26,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:10:30.190226",
+  "status": "success",
+  "narrative": "After reviewing your application, we found that your request for a 7,685 Deutsche Mark loan over 48 months was denied because our assessment indicates a 63% probability that you would be a bad credit risk. This means the model sees significant financial vulnerabilities in your profile compared to typical approved applicants.\n\nThe most important factor in this decision was the length of your loan request. You asked for 48 months to repay, which is much longer than the average of about 19 months for approved borrowers. Longer repayment periods increase uncertainty for lenders, as more time means higher risk of financial changes or missed payments.\n\nYour checking account status also played a major role. Your account had a negative balance (below 0 DM), which is a strong warning sign. Among approved applicants, only about 20% had negative balances, while half had no checking account at all. This suggests you are already struggling with cash flow, making it harder to take on new debt.\n\nOn a positive note, having a guarantor for your loan helped your case. This feature actually pushed the decision slightly toward approval, as it provides the bank with an additional layer of security. However, this benefit was not strong enough to overcome the other risk factors.\n\nYour credit history shows you have paid all past debts at your bank, which is good, but this category is rare among approved applicants—only about 3% had this exact status. Most approved borrowers had existing paid credits or other credit histories, which may indicate more established borrowing patterns.\n\nTo improve your chances in the future, consider requesting a shorter loan term, perhaps 24 months or less, and work on building a positive checking account balance. Even small savings can help demonstrate financial stability. Additionally, maintaining your guarantor arrangement will continue to be beneficial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

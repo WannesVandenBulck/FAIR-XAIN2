@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 9,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:24:50.192923",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed, and based on an automated assessment of your financial profile, the system determined an 82% likelihood that you represent a credit risk — a high enough probability to result in a denial of your application. This decision was not influenced by your age, gender, or background, but rather by specific financial factors in your profile that raised significant concerns.\n\nThe single most important factor working against your application was the current status of your checking account, which shows a negative balance. Among applicants who were approved, only about 1 in 5 had a negative checking account balance, while the majority either had no checking account or maintained a positive balance. A negative balance signals to the assessment that your day-to-day finances may already be under strain, which raises questions about your ability to take on additional debt responsibly.\n\nThe second major concern was the length of the loan you are requesting — 48 months, which is more than double the average duration of 19 months seen among approved applicants. A longer loan term means a longer period of financial commitment, and combined with the loan amount of 6,758 DM (compared to an average of around 2,887 DM among approved applicants), the overall financial exposure is considerably higher than what is typical for someone who gets approved. This combination of a large amount stretched over a long period significantly increased the system's concern about repayment risk.\n\nYour savings account balance, which falls below 100 DM, also contributed to the denial, though to a lesser degree than the two factors above. While it is true that over half of approved applicants also had savings below 100 DM, in your case this limited financial cushion compounds the concerns already raised by your negative checking account and the scale of the loan you are requesting.\n\nOn a more positive note, your employment situation of 1 to 4 years, your credit history showing existing credits being paid, your skilled occupation, and the fact that you own your home are all characteristics shared with many approved applicants and did not work against you.\n\nAs a next step, you may want to consider reapplying with a smaller loan amount or a shorter repayment period, as both of these adjustments could meaningfully improve your profile. Working to bring your checking account into a positive balance before reapplying would also address the most influential factor in this decision. Speaking directly with a bank advisor could help you identify a loan structure that better fits your current financial situation and improves your chances of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 12,
+  "prompt_type": "shap",
+  "provider": "claude",
+  "model": "claude-sonnet-4-6",
+  "timestamp": "2026-04-27T23:25:31.438021",
+  "status": "success",
+  "narrative": "After carefully reviewing your loan application, the model assessed a 58% probability that you represent a bad credit risk, which led to the denial of your request. While this is not an overwhelming majority, it was sufficient to tip the decision against approval, and understanding the key reasons behind this outcome may help you take steps to strengthen a future application.\n\nThe most significant factor working against your application was the current status of your checking account, which shows a negative balance. Among applicants who were approved, only about one in five had a negative checking account balance, while the majority either had no checking account or maintained a positive balance. A negative balance signals to the assessment that your day-to-day finances may already be under strain, which raises concerns about your ability to take on additional debt responsibly.\n\nThe second most influential factor was your property situation. You currently have no registered property or significant assets to your name, which places you in a less favorable position compared to most approved applicants — roughly 87% of whom owned real estate, a car, or had life insurance or building society savings. The absence of tangible assets means there is little financial cushion or collateral backing your request, which increases the perceived risk of lending to you.\n\nOn a more positive note, your installment rate — the share of your disposable income that would go toward repayments — actually worked in your favor. At 2%, it is lower than the average of about 2.94% among approved applicants, suggesting that the monthly repayment burden relative to your income is manageable. Unfortunately, this positive signal was not strong enough to outweigh the concerns raised by your account status and lack of property.\n\nIt is also worth noting that your requested loan amount of 5,493 DM is nearly double the average of 2,887 DM among approved applicants, and the requested duration of 36 months is significantly longer than the typical 19 months — both of which add to the overall risk profile, even if they were not the top-ranked factors in this decision.\n\nTo improve your chances in a future application, you might consider reducing the loan amount or duration, working to bring your checking account into a positive balance, and if possible, building up savings or registering any assets you may have. Addressing the checking account situation in particular could make a meaningful difference, as it was the single strongest driver of this outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

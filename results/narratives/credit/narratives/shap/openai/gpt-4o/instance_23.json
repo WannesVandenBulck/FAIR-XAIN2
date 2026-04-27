@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 23,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-27T23:42:30.812380",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and unfortunately, the application was denied. Let's explore why this decision was made and what it means for you. The model predicted an 86% probability that you might be a bad credit risk, which led to the denial. This prediction was primarily influenced by three key factors: the status of your checking account, your credit history, and your property status.\n\nFirstly, your checking account status showed a balance below zero, which is less common among approved applicants, where most have a balance of at least zero or more. This factor significantly influenced the model's decision, as it suggests potential financial instability. Secondly, while your credit history indicates that all debts have been paid at the bank, this particular category is rare among approved applicants, who typically have existing paid credits or no critical issues. This rarity might have raised concerns about the predictability of your future credit behavior. Lastly, the absence of property ownership or assets was another important factor. Most approved applicants have some form of property, which provides additional security to lenders.\n\nThese factors collectively pushed the prediction towards a higher risk category. However, it's important to note that other aspects of your profile, such as your employment duration of 4-7 years and your request for a relatively modest loan amount compared to the average, were more aligned with approved applicants and worked in your favor.\n\nMoving forward, you might consider improving your financial profile by maintaining a positive balance in your checking account and exploring options to acquire assets or property. Additionally, ensuring that your credit history remains positive and well-documented can help improve your chances in future applications. Understanding these factors can guide you in strengthening your financial standing and potentially securing a loan in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

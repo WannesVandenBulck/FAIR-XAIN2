@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 26,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-27T23:42:45.646870",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and unfortunately, the application was denied. Let's explore the reasons behind this decision and how your situation compares to others who were approved. The model predicted a 63% probability that you might be a bad credit risk, which led to the denial. This prediction was primarily influenced by a few key factors in your financial profile.\n\nFirstly, the duration of the credit request you made was significantly longer than average. You requested a loan term of 48 months, whereas most approved applicants typically have a term of around 19 months. Longer loan durations can increase the risk for lenders, as they extend the period over which financial circumstances might change.\n\nAnother important factor was the status of your checking account. Your account status indicated a balance of less than 0 DM, which is less common among approved applicants. Most approved applicants have a positive balance or at least a balance between 0 and 200 DM. This suggests a higher financial vulnerability, which the model considered risky.\n\nOn a more positive note, having a guarantor was seen as a favorable aspect of your application. While most approved applicants do not have a guarantor, this feature actually worked in your favor by suggesting additional financial support.\n\nGiven these insights, you might consider re-evaluating the loan amount or duration to better align with typical approved profiles. Additionally, improving your checking account balance could enhance your financial standing. Exploring these adjustments could potentially improve your chances if you decide to reapply in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

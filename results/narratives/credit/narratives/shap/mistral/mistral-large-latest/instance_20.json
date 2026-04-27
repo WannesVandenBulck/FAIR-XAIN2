@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 20,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-27T23:45:29.500554",
+  "status": "success",
+  "narrative": "Your loan application was reviewed carefully, and unfortunately, we were unable to approve it at this time. Based on the information provided, the system predicted a 59% likelihood that the loan could pose a higher risk of repayment difficulties. While this doesn’t mean you’ll definitely struggle with payments, it does suggest that certain aspects of your financial situation raised concerns compared to others who were approved.\n\nOne of the biggest factors in this decision was the current balance in your checking account. Most applicants who were approved either had a higher balance (over 200 DM) or no checking account at all, while your balance of 0-200 DM stood out as a potential risk. Additionally, the fact that you already have two existing loans with our bank—compared to the average of just one for approved applicants—made the system more cautious, as it suggests you may be managing multiple financial commitments.\n\nOn the other hand, your credit history actually worked in your favor. While you’ve had some past credit challenges, the system noted that you don’t have a pattern of serious delinquencies, which helped balance the decision slightly. However, this positive factor wasn’t enough to outweigh the other concerns.\n\nThe loan term you requested—24 months—was also longer than the average 19 months for approved applicants, which may have contributed to the higher risk assessment. Additionally, your installment rate (the percentage of your income going toward loan payments) is currently at 4%, which is above the average of 2.9% for those approved. This suggests that a significant portion of your income is already committed to debt repayment, leaving less flexibility for additional obligations.\n\nTo improve your chances in the future, you might consider reducing your existing debt load, building a higher balance in your checking account, or applying for a shorter loan term. If possible, waiting until you’ve been in your current job for at least a year could also strengthen your application, as most approved applicants had longer employment durations. We understand this decision may be disappointing, and we encourage you to review your financial situation and reapply when your circumstances better align with the factors that typically lead to approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

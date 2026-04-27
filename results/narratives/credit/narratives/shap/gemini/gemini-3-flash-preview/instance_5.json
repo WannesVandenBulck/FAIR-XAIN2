@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 5,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:45:30.302510",
+  "status": "success",
+  "narrative": "You are a 45-year-old homeowner currently working as an unskilled resident with a steady employment history of one to four years. You recently applied for a loan of 4,006 DM to purchase a new car, with a plan to pay it back over a period of 28 months. Based on an analysis of your financial profile, the system calculated a 55% probability that this loan represents a credit risk, which led to the denial of your application. This percentage indicates that, based on historical patterns from the 1970s, individuals with a similar financial standing have a higher likelihood of facing repayment difficulties. The most significant factor in this decision was the current status of your checking account, which shows a balance below zero. While only about 20% of approved applicants have a negative balance, over half of those who are successful maintain a checking account with no existing debt. Additionally, the purpose of your loan—purchasing a new car—was flagged as a factor that increased your risk profile. While new car loans are common, they represent a specific type of expenditure that, when combined with other factors, can increase the perceived risk compared to other loan types. Interestingly, the specific amount you requested, 4,006 DM, actually worked in your favor and helped lower your risk score slightly. Even though this amount is higher than the 2,887 DM average for approved loans, the model viewed this specific request size as a more stable commitment than much larger or much smaller loans. However, the 28-month repayment period you requested is significantly longer than the 19-month average seen in successful applications, which likely added to the overall concern. Ultimately, the combination of a negative account balance and the specific loan purpose outweighed the positive influence of your requested loan amount. To improve your chances for a future application, focusing on bringing your checking account into a positive balance would be the most effective step. Building up your savings account, which is currently under 100 DM, or requesting a shorter repayment duration could also help demonstrate greater financial stability. Reapplying once your immediate liquidity has improved will likely result in a much more favorable assessment of your creditworthiness.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 32,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T23:33:06.009105",
+  "status": "success",
+  "narrative": "You are a 31-year-old skilled professional with a stable seven-year employment history and your own home, which are typically strong indicators of financial stability. However, after reviewing your application for a 2,746 DM loan for furniture, our assessment indicates a 59% probability that this credit arrangement would be difficult to maintain, leading to the denial of your request. The most significant factor in this decision is the current status of your checking account, which currently shows a balance below zero. While nearly half of our approved applicants maintain a healthy or substantial balance, only about 20% of successful loans are granted to those with an overdrawn status. Additionally, your credit history—specifically having all previous credits paid at this bank—unexpectedly weighed against the application. While this sounds positive, only 3.2% of our approved borrowers share this specific history profile, suggesting the model may be looking for a more diverse or active credit track record. On a more positive note, the specific amount you requested actually worked in your favor, as it is slightly lower than the average 2,887 DM requested by approved applicants. This lower amount helped reduce the overall risk, but it was not enough to offset the concerns regarding your immediate liquidity and account status. Furthermore, the 36-month duration you requested is significantly longer than the 19-month average for approved loans, which adds to the long-term uncertainty. Your high installment rate of 4% of your disposable income also places a heavier burden on your monthly budget compared to the 2.9% average seen in approved cases. To improve your chances for a future application, we recommend focusing on maintaining a positive balance in your checking account for several months. Demonstrating a consistent surplus will address the primary concern that led to this decision and better align your profile with our typical successful applicants. Finally, considering a shorter repayment period or a smaller installment-to-income ratio could further strengthen your position.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

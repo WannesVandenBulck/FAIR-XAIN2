@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:05:52.308193",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our machine learning model, which assesses credit risk based on details from past borrowers in 1970s Germany, like checking account status, credit history, and financial details—without considering age, sex, or foreign worker status. The model predicted a 50% probability that you represent a bad credit risk, meaning it saw an even chance of challenges repaying, so your application was denied to protect both you and the bank. The strongest factor pushing toward this denial was your checking account status showing less than 0 DM, which is a major red flag since only about 20% of approved applicants had this, compared to over half with no account issues. This stood out as the top influence, signaling higher risk of repayment trouble based on patterns from similar past cases. Next, your request for a 12-month loan duration worked in your favor, as it's shorter than the 19-month average for those approved, suggesting easier manageability and pulling the prediction toward good credit. Your plan to use the funds for a new car also nudged the decision somewhat toward risk, since new car purchases were less common among approved applicants (around 20%) than everyday needs like radios or TVs (over 30%). Other details, like your past payment delays, low savings under 100 DM, unskilled resident job, and two financial dependents—higher than the approved average of 1.1—added to the concerns but weren't the main drivers here. Overall, your profile, including a modest 1344 DM amount request and 4% installment rate on disposable income (above the 2.9% average for approvals), didn't align closely enough with successful past borrowers. To improve your chances next time, consider building a positive balance in your checking account, shortening loan terms if possible, and strengthening your credit history with on-time payments. You might also explore purposes more typical for approvals, like household items, and reduce dependents or other credits at the bank. Reapplying after addressing these, perhaps with more savings or stable employment history, could shift the model's view in your favor. We're here to help guide you toward a stronger application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

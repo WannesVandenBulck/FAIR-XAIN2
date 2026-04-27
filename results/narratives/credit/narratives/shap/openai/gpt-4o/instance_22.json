@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 22,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-27T23:42:26.022982",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and the decision was based on a model that evaluates various aspects of your financial profile. Unfortunately, the model predicted a 59% probability that you might be a bad credit risk, leading to the denial of your application. This prediction was influenced by several key factors in your financial situation.\n\nFirstly, the status of your checking account was a significant factor. The model noted that your account status is below zero, which is less common among approved applicants, where only about 19.8% have a similar status. This suggests a potential risk in managing current finances, which contributed to the decision. \n\nOn a positive note, your savings status, although marked as unknown or none, is not uncommon among approved applicants, with 19.5% sharing this characteristic. This aspect actually worked in your favor, indicating that while savings are important, they were not a major negative factor in your case.\n\nThe purpose of your loan request, which was for purchasing a new car, also played a role. While this is a common reason for loans, with 19.8% of approved applicants having the same purpose, it was not enough to outweigh the concerns raised by your account status.\n\nIn comparison to typical approved applicants, your loan duration request was slightly longer, and your installment rate was higher than average, which might have added to the perceived risk. However, your employment duration and job type are in line with many approved applicants, suggesting stability in your employment situation.\n\nTo improve your chances in future applications, consider focusing on improving your checking account status and possibly reducing the requested loan amount or duration. These changes could help present a more favorable financial profile. Additionally, maintaining or increasing your savings could further strengthen your application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

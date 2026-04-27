@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 23,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:54:58.122246",
+  "status": "success",
+  "narrative": "You applied for a loan of 1,442 DM to purchase a new car, a request that we evaluated alongside your current financial standing as a 32-year-old professional with four to seven years of employment history. Based on our analysis, the likelihood of this loan resulting in a credit risk was calculated at 86%, which unfortunately exceeds our threshold for approval. The most significant factor in this decision is the current status of your checking account, which shows a balance below zero. While nearly 20% of approved applicants share this situation, the vast majority of successful borrowers maintain a positive balance or have no checking account at all. Your credit history, specifically having all previous loans at this bank already paid off, also played a major role in the denial. While this may seem like a positive trait, only about 3% of our approved applicants fall into this specific category, as the model favors those with active, ongoing credit lines that demonstrate current reliability. Furthermore, the lack of recorded property, such as real estate or a vehicle, weighed heavily against the application. Most individuals who receive approval possess some form of tangible asset to serve as security, whereas your profile indicates no such holdings. Other aspects of your profile, such as supporting two dependents and an installment rate of 4%—which is higher than the 2.94% average for approved loans—further increased the perceived risk. Your current housing situation, where you live for free rather than owning or renting, also differentiates you from the 75% of approved applicants who own their homes. These factors combined to push your profile toward a high-risk classification, outweighing your stable employment duration. To improve your chances for a future application, we recommend focusing on building a positive balance in your checking account to demonstrate liquidity. Additionally, establishing a consistent history with active credit accounts or acquiring a form of collateral could significantly lower your risk profile. Re-applying once your installment-to-income ratio is lower may also lead to a more favorable outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

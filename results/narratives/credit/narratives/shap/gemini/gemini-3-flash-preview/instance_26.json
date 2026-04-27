@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 26,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:55:52.669744",
+  "status": "success",
+  "narrative": "As a 37-year-old skilled professional with a stable employment history of four to seven years, you have several strengths in your profile, yet your recent business loan application for 7,685 DM was denied. Our assessment indicates a 63% probability that this credit arrangement would represent a high risk, a figure that suggests your current financial profile aligns more closely with past cases where repayment was not completed. The primary factor driving this decision was the requested loan duration of 48 months, which is significantly longer than the 19-month average seen in successful applications. Such an extended repayment period increases the long-term uncertainty of the loan, making it the most influential reason for the denial. Furthermore, the current status of your checking account, which shows a balance below zero, heavily influenced the model toward a high-risk prediction. While many successful applicants maintain a positive balance, starting a loan with a negative account status suggests a lack of immediate financial cushion to handle the high requested amount, which is nearly triple the average approved sum of 2,887 DM. Interestingly, your decision to include a guarantor on the application was a strong point in your favor and helped reduce your overall risk score, though it was not enough to offset the concerns regarding the loan's length and your current liquidity. Your credit history, while showing all previous debts at this bank were paid, is also somewhat unusual compared to the broader mix of credit experiences typically seen in approved borrowers. To improve your standing for future applications, you might consider requesting a smaller loan amount over a much shorter timeframe, perhaps closer to the two-year mark. Additionally, focusing on maintaining a positive balance in your checking account for several months would demonstrate the financial stability needed to manage new debt. Building up your savings beyond the current level of less than 100 DM would also provide the necessary collateral to balance out the risks associated with a large business investment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

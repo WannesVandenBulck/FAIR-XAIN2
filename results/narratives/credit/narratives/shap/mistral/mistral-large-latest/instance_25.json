@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-04-27T23:49:02.618424",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed, and unfortunately, the decision was to deny the request. The system assessed that there’s a slightly higher-than-average risk—about 52%—that the loan may not be repaid as agreed. This doesn’t mean you’re in a poor financial situation overall, but certain aspects of your profile raised concerns when compared to others who were approved.\n\nOne of the biggest factors in this decision was the purpose of your loan. You applied for funds to purchase a new car, which the system views as a higher-risk use of credit compared to other common reasons, like buying a radio or TV or making home improvements. While many people successfully take out loans for cars, the model tends to favor applicants who request credit for less expensive or more essential items.\n\nYour checking account status also played a key role. The system noted that your account balance is currently between 0 and 200 Deutsche Marks. While this isn’t unusual—about a quarter of approved applicants are in a similar position—it does suggest limited financial flexibility, especially when combined with other factors. Most people who were approved either had no checking account (which can sometimes indicate alternative financial stability) or a balance of at least 200 DM.\n\nOn a positive note, your savings were a strong point in your favor. Having at least 1,000 DM in savings is relatively uncommon—only about 6% of approved applicants have that much set aside—and it helped counterbalance some of the other concerns. This shows you have a financial cushion, which is a good sign.\n\nHowever, the combination of requesting a loan for a new car, your current checking account balance, and the fact that you’re relatively early in your employment (having worked in your current job for 1 to 4 years) led the system to conclude that the risk of default was just slightly too high. Many approved applicants have been in their jobs longer or have more established financial histories.\n\nIf you’d like to improve your chances in the future, you might consider applying for a smaller loan amount or waiting until your checking account balance is more stable. Building a longer employment history could also help. Alternatively, if you have other assets or financial commitments that weren’t fully reflected in your application, providing additional details might give a clearer picture of your ability to repay.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

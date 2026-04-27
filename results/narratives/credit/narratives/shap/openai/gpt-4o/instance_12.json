@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 12,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-27T23:41:28.481240",
+  "status": "success",
+  "narrative": "You recently applied for a loan, and the decision was based on a model that evaluates various aspects of your financial profile. Unfortunately, the model predicted a 58% probability that you might be a bad credit risk, leading to the denial of your application. Let's explore the reasons behind this decision and how your situation compares to others who were approved.\n\nOne of the most significant factors influencing the decision was the status of your checking account, which showed a negative balance. This is less common among approved applicants, where a majority have either no balance or a small positive balance. This aspect of your financial profile suggested a higher risk to the model. Additionally, the property status you reported as unknown or none also played a crucial role. Many approved applicants have some form of property, such as a car or real estate, which provides additional security to lenders.\n\nOn a more positive note, your installment rate, which is the percentage of your income used to pay off the loan, was lower than the average among approved applicants. This typically indicates a good ability to manage loan payments, and it worked in your favor by suggesting a lower risk.\n\nGiven these insights, you might consider focusing on improving the aspects that contributed to the unfavorable prediction. For instance, working towards a positive balance in your checking account and acquiring some form of property could enhance your financial profile. Additionally, maintaining your low installment rate is beneficial and should be continued. By addressing these areas, you may improve your chances of approval in future loan applications.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

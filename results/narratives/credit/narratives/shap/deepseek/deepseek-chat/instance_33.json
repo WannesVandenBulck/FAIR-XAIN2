@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 33,
+  "prompt_type": "shap",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "timestamp": "2026-04-27T23:11:09.454524",
+  "status": "success",
+  "narrative": "Based on your application, our system has determined that you represent a significant credit risk, leading to the denial of your loan. You requested 1,207 Deutsche Marks over 24 months for a new car, and while this amount is lower than what many approved applicants typically ask for, several other factors worked against you. The most critical issue is the status of your checking account, which is currently overdrawn or has a negative balance. This is a major red flag, as it directly indicates financial strain, and it was the single most influential factor pushing the decision toward denial.\n\nThe second key factor was the purpose of your loan—a new car. While not inherently bad, this purpose is associated with higher risk compared to more common approved uses like radio/TV or furniture. Your credit history, which shows you have existing credits that were paid off, is actually a positive point, but it was not enough to outweigh the other concerns. The length of your loan request, 24 months, also contributed slightly to the risk, as it is longer than the average of about 19 months for approved applicants.\n\nYour savings are under 100 DM, and you have been at your current job for less than a year, both of which add to the perception of financial instability. Additionally, your installment rate of 4% of your disposable income is higher than the average of about 2.9% for approved applicants, meaning a larger portion of your income would be tied up in payments. The model calculated a 71% probability that you would be a bad credit risk, meaning the system was quite confident in this assessment.\n\nTo improve your chances in the future, focus on stabilizing your checking account by bringing it to a positive balance and maintaining it for several months. Consider building up your savings to at least 100 DM and staying in your current job for a longer period to demonstrate steady employment. You might also explore a smaller loan for a used car or a different purpose, as this could lower the perceived risk. Addressing these areas will show lenders a more reliable financial profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

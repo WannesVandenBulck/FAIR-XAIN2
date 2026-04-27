@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 17,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:06:51.957413",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our bank's machine learning model, which analyzes patterns from past credit decisions in 1970s Germany to predict risks for new applicants like yourself. With your checking account showing a negative balance under 0 DM, a requested loan of 1193 DM for a new car over 24 months, low savings under 100 DM, unemployed status, and renting your residence, the model assessed your overall financial profile. It calculated a 56% probability that you represent a bad credit risk—meaning it's more likely than not that repaying this loan could be challenging based on similar past cases—leading to the denial of your application.\n\nThe decision hinged primarily on three key factors from your profile, ranked by their influence on the prediction. First, your credit history of all credits paid at this bank stood out as a major concern; while that's your situation, it's quite rare among approved applicants (only about 3% share this exact history), and in this case, it strongly pushed the model toward seeing you as a higher risk, possibly due to patterns in how such histories have played out before.\n\nSecond, your checking account status with less than 0 DM was almost as influential and also nudged the prediction toward bad credit risk; nearly 20% of approved applicants have this, but combined with your other details, it signaled ongoing financial strain unlike the majority who had no overdraft or small positive balances.\n\nThird, your installment rate of just 1% of disposable income worked strongly in your favor, pulling the prediction toward good credit—it's much lower than the 2.94% average for those approved, suggesting you could handle payments if other issues weren't present. Compared to typical approved applicants—who often have shorter loan durations around 19 months, higher credit amounts near 2887 DM, stable employment over years, owned housing, and jobs like skilled or official roles—your profile diverged in ways that amplified these top risk signals.\n\nTo improve your chances next time, consider building a more diverse and longer positive credit history elsewhere, clearing your checking account balance, securing stable employment, and perhaps starting with a smaller loan amount or shorter term to align closer with successful profiles. You might also explore adding savings or property assets, as those often help balance the picture for applicants in similar situations. Reapplying after addressing a couple of these could make a real difference.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 9,
+  "prompt_type": "shap",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "timestamp": "2026-04-27T22:48:08.834127",
+  "status": "success",
+  "narrative": "As a 31-year-old skilled professional who owns your own home, you possess several qualities that we typically value in a borrower. However, your application for a 6,758 DM loan to be repaid over 48 months for the purchase of radio or television equipment was denied because our assessment indicates an 82% probability of repayment difficulties. The primary factor driving this decision was the current status of your checking account, which shows a negative balance. In contrast, over half of our approved applicants have no deficit in their checking accounts, and starting a loan from a negative position is a strong indicator of immediate financial strain. The second most important factor was the requested duration of 48 months. This four-year term is significantly longer than the 19-month average for successful applicants, and such a lengthy commitment for consumer goods increases the risk that your financial situation might change before the debt is cleared. Furthermore, your current savings of less than 100 DM weighed heavily against the approval. Most successful borrowers have a larger financial safety net to cover unexpected expenses, whereas a small reserve makes a large loan more precarious. While your stable employment for the past few years is a positive sign, it was not enough to offset the risks posed by your current account balance and the long-term nature of the request. It is also worth noting that the amount you requested is more than double the 2,887 DM average for successful loans. To improve your standing for a future application, we recommend focusing on maintaining a positive balance in your checking account and building up your savings reserve. Additionally, applying for a smaller loan amount or a shorter repayment window would bring your request more in line with the profiles of those we typically approve.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}

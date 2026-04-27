@@ -1,0 +1,15 @@
+{
+  "dataset": "credit",
+  "instance_idx": 20,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-27T23:07:05.075761",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our bank's machine learning model, which analyzes patterns from past credit decisions in 1970s Germany to predict risks for new applicants like yourself—a 38-year-old male foreign worker seeking 1216 DM for a radio or TV purchase over 24 months. The model estimated a 59% probability that you represent a bad credit risk, meaning it saw enough concerning signals to tip the scales toward denial, even though your situation has some positive aspects. The strongest factor pushing toward this rejection was your checking account status, listed as having 0-200 DM; this stood out because no approved applicants had exactly this balance, unlike the more common empty or overdrawn accounts among those who succeeded. Next, your credit history rating of \"critical/other credits\" actually worked in your favor, pulling the prediction toward approval since it aligns with about a third of successful applicants who had similar histories yet performed well. However, having an existing installment plan with another bank was a notable concern, as it increased the perceived risk compared to the vast majority of approved applicants who had no such plans. These three elements—your account status, credit history, and other installment plan—were the most influential in the model's decision, outweighing positives like owning your housing, your skilled official job, or the modest loan amount below the average of around 2887 DM for approvals. For context, your requested 24-month duration and 4% installment rate on disposable income are both higher than typical approved averages of 19 months and under 3%, adding subtle pressure, while your short employment under 1 year and 4 years at your residence differ from the longer tenures common among approvals. Overall, your profile didn't match the safer patterns the model recognizes from those who repaid reliably, such as stronger account balances or fewer external commitments. To improve your chances next time, consider building up your checking account balance, paying down that other bank installment plan, and documenting longer stability in employment or residence. You might also explore a shorter loan duration or lower amount to align closer with approved norms. Feel free to gather recent proof of steady finances and reapply—we're here to help guide you toward success.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null
+}
