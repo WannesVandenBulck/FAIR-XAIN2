@@ -23,6 +23,16 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from scripts.generate_extractor_prompt import generate_extractor_prompt
 from llm_tools.other.llm_client import generate_text
 
+# LLM provider configuration - matches make_narratives.py
+LLM_MODELS = {
+    "openai": "gpt-4o",
+    "claude": "claude-sonnet-4-6",
+    "gemini": "gemini-3-flash-preview",
+    "grok": "grok-4-1-fast-non-reasoning",
+    "deepseek": "deepseek-chat",
+    "mistral": "mistral-large-latest",
+}
+
 
 def test_extraction(dataset_name="credit", instance_idx=0, provider="openai", prompt_type="shap"):
     """
@@ -62,10 +72,17 @@ def test_extraction(dataset_name="credit", instance_idx=0, provider="openai", pr
     print()
     
     try:
+        # Get the model for this provider
+        if provider not in LLM_MODELS:
+            raise ValueError(f"Unknown provider: {provider}. Available: {list(LLM_MODELS.keys())}")
+        
+        model = LLM_MODELS[provider]
+        print(f"Using model: {model}")
+        
         response = generate_text(
             messages=messages,
             provider=provider,
-            model=None,  # Use default model for provider
+            model=model,
             temperature=0,
             max_tokens=8192  # Increased for longer CSV
         )
@@ -134,15 +151,20 @@ def test_extraction(dataset_name="credit", instance_idx=0, provider="openai", pr
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Test extraction pipeline with LLM")
-    parser.add_argument("--provider", default="openai", help="LLM provider (default: openai)")
-    parser.add_argument("--dataset", default="credit", help="Dataset (default: credit)")
+    parser.add_argument("--provider", default="deepseek", 
+                        choices=list(LLM_MODELS.keys()),
+                        help=f"LLM provider (default: deepseek). Available: {', '.join(LLM_MODELS.keys())}")
+    parser.add_argument("--dataset", default="credit", choices=["credit", "law"],
+                        help="Dataset (default: credit)")
     parser.add_argument("--instance", type=int, default=0, help="Instance index (default: 0)")
-    parser.add_argument("--prompt-type", default="shap", help="Prompt type (default: shap)")
+    parser.add_argument("--prompt-type", default="shap", choices=["shap", "cf"],
+                        help="Prompt type (default: shap)")
     
     args = parser.parse_args()
     
     print("\n" + "=" * 80)
     print(f"EXTRACTION TEST - {args.dataset.upper()} Dataset, Instance {args.instance}")
+    print(f"Provider: {args.provider.upper()} | Model: {LLM_MODELS[args.provider]}")
     print("=" * 80 + "\n")
     
     response = test_extraction(

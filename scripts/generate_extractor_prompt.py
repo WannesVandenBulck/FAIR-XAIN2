@@ -240,11 +240,50 @@ Fill in the following table based on the narrative:
 
 {format_template_columns(template_row, dataset_name, config)}
 
-5. THE NARRATIVE TO EXTRACT FROM
+5. COLUMN FORMAT SPECIFICATIONS
+
+This section specifies EXACTLY what format and type of value should be filled in each column:
+
+**METADATA COLUMNS:**
+- `instance_index`: Integer (same as shown: {template_row['instance_index']})
+- `original_test_index`: Integer (the original index in the test set)
+- `predicted_probability`: Decimal between 0.0 and 1.0 (e.g., 0.87, 0.42) OR `***` if not explicitly mentioned
+
+**SHAP FEATURE COLUMNS (top {num_top_features} most important):**
+For each `SHAP_feature_N` (where N goes from 1 to {num_top_features}):
+- `SHAP_feature_N_name`: STRING - Exact feature name from the feature list above (e.g., "status", "duration", "age")
+- `SHAP_feature_N_rank`: INTEGER - Position 1 to {num_top_features} (1=most important, {num_top_features}=least important among top {num_top_features})
+- `SHAP_feature_N_sign`: BINARY (0 or 1) - 1=pushes toward negative outcome, 0=pushes toward positive outcome
+- `SHAP_feature_N_value`: NUMERIC or NaN - The actual numeric value or code (e.g., 42, 2, 0.87) OR `NaN` if not mentioned
+
+**OTHER FEATURE COLUMNS (all remaining features):**
+For each `other_feature_N` (where N goes from 0 to 19):
+- `other_feature_N_name`: STRING - Exact feature name from the feature list (e.g., "status", "duration", "age", "sex")
+- `other_feature_N_mentioned`: BINARY (0 or 1) - 1=discussed in narrative, 0=not mentioned
+- `other_feature_N_value`: NUMERIC or NaN - The actual numeric value/code if mentioned (e.g., 12, 3, 1) OR `NaN` if not mentioned
+
+**IMPORTANT FORMAT RULES:**
+- Integers: NO decimal points (e.g., 1, 2, 42) NOT (1.0, 2.0)
+- Decimals: For probability values, include decimal point (e.g., 0.87, 0.42)
+- NaN: Use exact string "NaN" (not "nan", not empty cell, not "null")
+- Binary values: Only 0 or 1 (never "yes"/"no", never "true"/"false")
+- Feature names: MUST match exactly from the feature list (case-sensitive)
+- Feature codes: Use numeric codes from attribute mappings (not readable descriptions)
+
+**VALIDATION CHECKLIST BEFORE RETURNING CSV:**
+- [ ] All *** are replaced with actual values
+- [ ] No empty cells (must be value or NaN)
+- [ ] All SHAP_feature ranks are 1 to {num_top_features} (not higher)
+- [ ] All binary fields contain only 0 or 1
+- [ ] Feature names match exactly from the provided list
+- [ ] Numeric codes used (not text descriptions) for categorical features
+- [ ] NaN uses correct spelling (not "nan", "null", or empty)
+
+6. THE NARRATIVE TO EXTRACT FROM
 
 {narrative}
 
-6. EXTRACTION GUIDELINES
+7. EXTRACTION GUIDELINES
 
 - Included features might not be mentioned explicitely in a clear manner. Use the descriptions of the features and your best judgement to determine if a feature is being referred to. 
 - Additionally use the categorical feature mapping to determine if a feature is being referred to when the narrative uses the human readable categorical value. 
@@ -253,10 +292,10 @@ Fill in the following table based on the narrative:
 - For the top {num_top_features} features (SHAP_feature_1 through SHAP_feature_{num_top_features}), the narrative should make clear which are emphasized. Extract these and fill in the names, ranks and values accordingly. If the narrative does not clearly rank them, use your best judgment based on the language used (e.g. "most important", "second most important", etc).
 - If a feature appears in both top {num_top_features} and the feature list, this is expected - fill in both locations.
 
-7. OUTPUT FORMAT
+8. OUTPUT FORMAT
 
 Return ONLY the completed CSV with all *** replaced by actual values. Do not include any other text or explanation - just the CSV data in a code block.
-Fill in all values based on the narrative extraction rules above.
+Fill in all values based on the narrative extraction rules and column format specifications above.
 
 """
     return prompt
