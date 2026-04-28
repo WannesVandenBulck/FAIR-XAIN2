@@ -71,7 +71,10 @@ def calculate_metrics(extraction, ground_truth, dataset_name):
         "features_mentioned": 0,           # (a) non-SHAP, non-protected features mentioned
         "feature_values_given": 0,         # (b) total feature values given
         "protected_attrs_mentioned": 0,    # (c) protected attributes mentioned
-        "shap_values_given": 0,            # NEW: count of SHAP features with values given
+        "shap_values_given": 0,            # count of SHAP features with values given
+        "shap_feature_values_given": 0,    # NEW: count of SHAP feature values
+        "protected_attrs_values_given": 0, # NEW: count of protected attribute values
+        "other_feature_values_given": 0,   # NEW: count of other feature values (not SHAP, not protected)
         "rank_agreements": [None, None, None],      # (d) per-rank agreement for ranks 1,2,3
         "sign_agreements": [None, None, None],      # (e) per-rank sign agreement for ranks 1,2,3
         "shap_value_agreement": [],        # (f) value agreement for top SHAP features
@@ -100,6 +103,14 @@ def calculate_metrics(extraction, ground_truth, dataset_name):
     for feat in extraction_features:
         if feat.get("value") and feat.get("value") != "NaN":
             metrics["feature_values_given"] += 1
+            
+            # NEW: Track by category
+            if feat.get("name") in shap_feature_names:
+                metrics["shap_feature_values_given"] += 1
+            elif feat.get("name") in protected_attrs:
+                metrics["protected_attrs_values_given"] += 1
+            else:
+                metrics["other_feature_values_given"] += 1
     
     # ========== (c) Count protected attributes mentioned ==========
     for feat in extraction_features:
@@ -134,21 +145,30 @@ def calculate_metrics(extraction, ground_truth, dataset_name):
             ext_sign = ext_feat.get("sign")
             gt_sign = gt_feat.get("sign")
             if ext_sign is not None and gt_sign is not None:
-                if ext_sign == gt_sign:
-                    metrics["sign_agreements"][rank_pos - 1] = 1
-                else:
+                try:
+                    ext_sign_int = int(ext_sign)
+                    gt_sign_int = int(gt_sign)
+                    if ext_sign_int == gt_sign_int:
+                        metrics["sign_agreements"][rank_pos - 1] = 1
+                    else:
+                        metrics["sign_agreements"][rank_pos - 1] = 0
+                except (ValueError, TypeError):
                     metrics["sign_agreements"][rank_pos - 1] = 0
             
-            # Value agreement for SHAP features
-            ext_value = ext_feat.get("value")
-            gt_value = gt_feat.get("value")
-            if ext_value and ext_value != "NaN" and gt_value and gt_value != "NaN":
-                try:
-                    ext_val_num = float(ext_value)
-                    gt_val_num = float(gt_value)
-                    metrics["shap_value_agreement"].append(abs(ext_val_num - gt_val_num) < 0.1)
-                except (ValueError, TypeError):
-                    metrics["shap_value_agreement"].append(ext_value == gt_value)
+            # Value agreement for SHAP features - compare by NAME, not by rank
+            ext_feat_name = ext_feat.get("name")
+            # Find this feature in ground truth by name
+            gt_feat_by_name = next((f for f in ground_truth_shap if f.get("name") == ext_feat_name), None)
+            if gt_feat_by_name:
+                ext_value = ext_feat.get("value")
+                gt_value = gt_feat_by_name.get("value")
+                if ext_value and ext_value != "NaN" and gt_value and gt_value != "NaN":
+                    try:
+                        ext_val_num = float(ext_value)
+                        gt_val_num = float(gt_value)
+                        metrics["shap_value_agreement"].append(abs(ext_val_num - gt_val_num) < 0.1)
+                    except (ValueError, TypeError):
+                        metrics["shap_value_agreement"].append(ext_value == gt_value)
     
     # ========== Overall value agreement for all extracted values ==========
     ground_truth_features = {f["name"]: f for f in ground_truth.get("features", [])}
@@ -227,6 +247,9 @@ def aggregate_metrics_by_provider(dataset_name, prompt_type="shap"):
             "feature_values_given_sum": 0,
             "protected_attrs_mentioned_sum": 0,
             "shap_values_given_sum": 0,  # NEW: sum of SHAP values given
+            "shap_feature_values_given_sum": 0,  # NEW: sum of SHAP feature values
+            "protected_attrs_values_given_sum": 0,  # NEW: sum of protected attribute values
+            "other_feature_values_given_sum": 0,  # NEW: sum of other feature values
             
             # (d) rank agreement per rank
             "rank_1_agreement_sum": 0,
@@ -235,6 +258,8 @@ def aggregate_metrics_by_provider(dataset_name, prompt_type="shap"):
             "rank_2_agreement_count": 0,
             "rank_3_agreement_sum": 0,
             "rank_3_agreement_count": 0,
+            "rank_total_agreement_sum": 0,  # NEW: total across all ranks
+            "rank_total_agreement_count": 0,  # NEW: total count across all ranks
             
             # (e) sign agreement per rank
             "sign_1_agreement_sum": 0,
@@ -243,6 +268,8 @@ def aggregate_metrics_by_provider(dataset_name, prompt_type="shap"):
             "sign_2_agreement_count": 0,
             "sign_3_agreement_sum": 0,
             "sign_3_agreement_count": 0,
+            "sign_total_agreement_sum": 0,  # NEW: total across all ranks
+            "sign_total_agreement_count": 0,  # NEW: total count across all ranks
             
             # (f) SHAP value agreement
             "shap_value_agreement_sum": 0,
@@ -278,10 +305,17 @@ def aggregate_metrics_by_provider(dataset_name, prompt_type="shap"):
                 provider_metrics["feature_values_given_sum"] += metrics["feature_values_given"]
                 provider_metrics["protected_attrs_mentioned_sum"] += metrics["protected_attrs_mentioned"]
                 provider_metrics["shap_values_given_sum"] += metrics["shap_values_given"]
+                provider_metrics["shap_feature_values_given_sum"] += metrics["shap_feature_values_given"]
+                provider_metrics["protected_attrs_values_given_sum"] += metrics["protected_attrs_values_given"]
+                provider_metrics["other_feature_values_given_sum"] += metrics["other_feature_values_given"]
                 
                 # (d) rank agreements per position
                 for rank_pos in range(3):
                     if metrics["rank_agreements"][rank_pos] is not None:
+                        # NEW: track total across all ranks
+                        provider_metrics["rank_total_agreement_sum"] += metrics["rank_agreements"][rank_pos]
+                        provider_metrics["rank_total_agreement_count"] += 1
+                        
                         if rank_pos == 0:
                             provider_metrics["rank_1_agreement_sum"] += metrics["rank_agreements"][rank_pos]
                             provider_metrics["rank_1_agreement_count"] += 1
@@ -295,6 +329,10 @@ def aggregate_metrics_by_provider(dataset_name, prompt_type="shap"):
                 # (e) sign agreements per position
                 for rank_pos in range(3):
                     if metrics["sign_agreements"][rank_pos] is not None:
+                        # NEW: track total across all ranks
+                        provider_metrics["sign_total_agreement_sum"] += metrics["sign_agreements"][rank_pos]
+                        provider_metrics["sign_total_agreement_count"] += 1
+                        
                         if rank_pos == 0:
                             provider_metrics["sign_1_agreement_sum"] += metrics["sign_agreements"][rank_pos]
                             provider_metrics["sign_1_agreement_count"] += 1
@@ -332,16 +370,21 @@ def aggregate_metrics_by_provider(dataset_name, prompt_type="shap"):
                 "avg_feature_values_given": provider_metrics["feature_values_given_sum"] / provider_metrics["valid_instances"],
                 "avg_protected_attrs_mentioned": provider_metrics["protected_attrs_mentioned_sum"] / provider_metrics["valid_instances"],
                 "avg_shap_values_given": provider_metrics["shap_values_given_sum"] / provider_metrics["valid_instances"],
+                "avg_shap_feature_values_given": provider_metrics["shap_feature_values_given_sum"] / provider_metrics["valid_instances"],
+                "avg_protected_attrs_values_given": provider_metrics["protected_attrs_values_given_sum"] / provider_metrics["valid_instances"],
+                "avg_other_feature_values_given": provider_metrics["other_feature_values_given_sum"] / provider_metrics["valid_instances"],
                 
                 # (d) rank agreement %
                 "rank_1_agreement_pct": (provider_metrics["rank_1_agreement_sum"] / provider_metrics["rank_1_agreement_count"] * 100) if provider_metrics["rank_1_agreement_count"] > 0 else None,
                 "rank_2_agreement_pct": (provider_metrics["rank_2_agreement_sum"] / provider_metrics["rank_2_agreement_count"] * 100) if provider_metrics["rank_2_agreement_count"] > 0 else None,
                 "rank_3_agreement_pct": (provider_metrics["rank_3_agreement_sum"] / provider_metrics["rank_3_agreement_count"] * 100) if provider_metrics["rank_3_agreement_count"] > 0 else None,
+                "rank_total_agreement_pct": (provider_metrics["rank_total_agreement_sum"] / provider_metrics["rank_total_agreement_count"] * 100) if provider_metrics["rank_total_agreement_count"] > 0 else None,
                 
                 # (e) sign agreement %
                 "sign_1_agreement_pct": (provider_metrics["sign_1_agreement_sum"] / provider_metrics["sign_1_agreement_count"] * 100) if provider_metrics["sign_1_agreement_count"] > 0 else None,
                 "sign_2_agreement_pct": (provider_metrics["sign_2_agreement_sum"] / provider_metrics["sign_2_agreement_count"] * 100) if provider_metrics["sign_2_agreement_count"] > 0 else None,
                 "sign_3_agreement_pct": (provider_metrics["sign_3_agreement_sum"] / provider_metrics["sign_3_agreement_count"] * 100) if provider_metrics["sign_3_agreement_count"] > 0 else None,
+                "sign_total_agreement_pct": (provider_metrics["sign_total_agreement_sum"] / provider_metrics["sign_total_agreement_count"] * 100) if provider_metrics["sign_total_agreement_count"] > 0 else None,
                 
                 # (f) SHAP value agreement %
                 "shap_value_agreement_pct": (provider_metrics["shap_value_agreement_sum"] / provider_metrics["shap_value_agreement_count"] * 100) if provider_metrics["shap_value_agreement_count"] > 0 else None,
@@ -359,28 +402,28 @@ def aggregate_metrics_by_provider(dataset_name, prompt_type="shap"):
 
 def print_summary(results_by_provider, dataset_name):
     """Print summary of metrics by NARRATIVE PROVIDER with detailed columns."""
-    print("\n" + "=" * 220)
+    print("\n" + "=" * 280)
     print(f"SHAP NARRATIVE EXTRACTION METRICS - {dataset_name.upper()} DATASET (by Narrative Provider)")
-    print("=" * 220)
+    print("=" * 280)
     
     # Print header line 1: Main categories
     header1 = (
         f"{'Provider':<12} {'Extr.':<6} "
-        f"{'(a) Features':<12} {'(b) Values':<12} {'(c) Prot.Attrs':<14} {'Avg SHAP Val':<12} "
-        f"{'(d) Rank Agreement %':<20} {'(e) Sign Agreement %':<20} "
-        f"{'(f) SHAP Val %':<14} {'(g) Prob Ment %':<12} {'(g) Prob Agr %':<12} {'(h) Val Agr %':<12}"
+        f"{'(a) Features':<12} {'(b) Values Breakdown':<52} {'(c) Prot.Attrs':<14} {'Avg SHAP Val':<12} "
+        f"{'(d) Rank %':<26} {'(e) Sign %':<24} "
+        f"{'(f) SHAP Val %':<14} {'(g) Prob':<24} {'(h) Val Agr %':<12}"
     )
     print(header1)
     
-    # Print header line 2: Sub-ranks
+    # Print header line 2: Sub-breakdown
     header2 = (
         f"{'':12} {'':6} "
-        f"{'Avg':<12} {'Avg':<12} {'Avg':<14} {'Avg':<12} "
-        f"{'R1%':<6} {'R2%':<6} {'R3%':<6} {'S1%':<6} {'S2%':<6} {'S3%':<6} "
-        f"{'%':<14} {'%':<12} {'%':<12} {'%':<12}"
+        f"{'Avg':<12} {'SHAP':<12} {'Prot.Attrs':<12} {'Other':<12} {'':12} {'Avg':<14} "
+        f"{'R1%':<6} {'R2%':<6} {'R3%':<6} {'Total':<6} {'S1%':<6} {'S2%':<6} {'S3%':<6} {'Total':<6} "
+        f"{'%':<14} {'Ment%':<12} {'Agr%':<12} {'%':<12}"
     )
     print(header2)
-    print("-" * 220)
+    print("-" * 280)
     
     for provider in sorted(results_by_provider.keys()):
         m = results_by_provider[provider]
@@ -389,10 +432,12 @@ def print_summary(results_by_provider, dataset_name):
         rank_1 = f"{m['rank_1_agreement_pct']:.0f}" if m['rank_1_agreement_pct'] is not None else "N/A"
         rank_2 = f"{m['rank_2_agreement_pct']:.0f}" if m['rank_2_agreement_pct'] is not None else "N/A"
         rank_3 = f"{m['rank_3_agreement_pct']:.0f}" if m['rank_3_agreement_pct'] is not None else "N/A"
+        rank_total = f"{m['rank_total_agreement_pct']:.0f}" if m['rank_total_agreement_pct'] is not None else "N/A"
         
         sign_1 = f"{m['sign_1_agreement_pct']:.0f}" if m['sign_1_agreement_pct'] is not None else "N/A"
         sign_2 = f"{m['sign_2_agreement_pct']:.0f}" if m['sign_2_agreement_pct'] is not None else "N/A"
         sign_3 = f"{m['sign_3_agreement_pct']:.0f}" if m['sign_3_agreement_pct'] is not None else "N/A"
+        sign_total = f"{m['sign_total_agreement_pct']:.0f}" if m['sign_total_agreement_pct'] is not None else "N/A"
         
         shap_val = f"{m['shap_value_agreement_pct']:.0f}" if m['shap_value_agreement_pct'] is not None else "N/A"
         prob_ment = f"{m['predicted_prob_mention_pct']:.0f}"
@@ -401,13 +446,13 @@ def print_summary(results_by_provider, dataset_name):
         
         row = (
             f"{provider:<12} {m['extractions_processed']:<6} "
-            f"{m['avg_features_mentioned']:<12.2f} {m['avg_feature_values_given']:<12.2f} {m['avg_protected_attrs_mentioned']:<14.2f} {m['avg_shap_values_given']:<12.2f} "
-            f"{rank_1:<6} {rank_2:<6} {rank_3:<6} {sign_1:<6} {sign_2:<6} {sign_3:<6} "
+            f"{m['avg_features_mentioned']:<12.2f} {m['avg_shap_feature_values_given']:<12.2f} {m['avg_protected_attrs_values_given']:<12.2f} {m['avg_other_feature_values_given']:<12.2f} {m['avg_protected_attrs_mentioned']:<14.2f} {m['avg_shap_values_given']:<12.2f} "
+            f"{rank_1:<6} {rank_2:<6} {rank_3:<6} {rank_total:<6} {sign_1:<6} {sign_2:<6} {sign_3:<6} {sign_total:<6} "
             f"{shap_val:<14} {prob_ment:<12} {prob_agr:<12} {all_val:<12}"
         )
         print(row)
     
-    print("=" * 220)
+    print("=" * 280)
 
 
 def save_results_to_csv(results_by_provider, dataset_name):
@@ -417,22 +462,40 @@ def save_results_to_csv(results_by_provider, dataset_name):
     rows = []
     for provider, m in results_by_provider.items():
         rows.append({
+            # Provider info
             "narrative_provider": m["provider"],
             "extractions_processed": m["extractions_processed"],
+            
+            # Feature extraction metrics
             "avg_features_mentioned": m["avg_features_mentioned"],
-            "avg_feature_values_given": m["avg_feature_values_given"],
             "avg_protected_attrs_mentioned": m["avg_protected_attrs_mentioned"],
             "avg_shap_values_given": m["avg_shap_values_given"],
+            
+            # Feature values breakdown
+            "avg_feature_values_given": m["avg_feature_values_given"],
+            "avg_shap_feature_values_given": m["avg_shap_feature_values_given"],
+            "avg_protected_attrs_values_given": m["avg_protected_attrs_values_given"],
+            "avg_other_feature_values_given": m["avg_other_feature_values_given"],
+            
+            # Rank agreement
             "rank_1_agreement_%": m["rank_1_agreement_pct"],
             "rank_2_agreement_%": m["rank_2_agreement_pct"],
             "rank_3_agreement_%": m["rank_3_agreement_pct"],
+            "rank_total_agreement_%": m["rank_total_agreement_pct"],
+            
+            # Sign agreement
             "sign_1_agreement_%": m["sign_1_agreement_pct"],
             "sign_2_agreement_%": m["sign_2_agreement_pct"],
             "sign_3_agreement_%": m["sign_3_agreement_pct"],
+            "sign_total_agreement_%": m["sign_total_agreement_pct"],
+            
+            # Value agreements
             "shap_value_agreement_%": m["shap_value_agreement_pct"],
+            "all_value_agreement_%": m["all_value_agreement_pct"],
+            
+            # Predicted probability
             "predicted_prob_mention_%": m["predicted_prob_mention_pct"],
             "predicted_prob_agreement_%": m["predicted_prob_agreement_pct"],
-            "all_value_agreement_%": m["all_value_agreement_pct"],
         })
     
     df = pd.DataFrame(rows)

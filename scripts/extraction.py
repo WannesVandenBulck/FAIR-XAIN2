@@ -17,6 +17,27 @@ from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
 import json
+import signal
+import functools
+from concurrent.futures import ThreadPoolExecutor, TimeoutError
+
+# Enable unbuffered output
+sys.stdout = open(sys.stdout.fileno(), mode='w', buffering=1)
+
+
+def timeout(seconds=90):
+    """Decorator to timeout a function after N seconds (works on Windows and Unix)."""
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            with ThreadPoolExecutor(max_workers=1) as executor:
+                future = executor.submit(func, *args, **kwargs)
+                try:
+                    return future.result(timeout=seconds)
+                except TimeoutError:
+                    return False, None, f"Timeout after {seconds} seconds"
+        return wrapper
+    return decorator
 
 # Add parent path to import modules
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -31,7 +52,7 @@ from llm_tools.other.llm_client import generate_text
 DATASET = "credit"  # "credit" or "law"
 NARRATIVE_PROVIDERS_TO_USE = ["gemini", "grok", "deepseek", "mistral", "openai", "claude"]  # All narrative providers: "gemini", "grok", "deepseek", "mistral", "openai", "claude"
 INSTANCE_INDICES = list(range(34))  # All instances
-EXTRACTOR_PROVIDER = "openai"  # LLM to use for extraction
+EXTRACTOR_PROVIDER = "deepseek"  # LLM to use for extraction
 PROMPT_TYPE = "shap"  # "shap" or "cf"
 
 # ============================================================================
@@ -52,6 +73,7 @@ DATASETS = {
 }
 
 
+@timeout(seconds=90)
 def extract_single(dataset_name="credit", instance_idx=0, narrative_provider="gemini", 
                    extractor_provider="grok", prompt_type="shap"):
     """
@@ -68,32 +90,33 @@ def extract_single(dataset_name="credit", instance_idx=0, narrative_provider="ge
         (success: bool, extraction: dict or None, error: str or None)
     """
     
-    # Generate the extractor prompt
-    prompt = generate_extractor_prompt(dataset_name, instance_idx, narrative_provider, prompt_type)
-    
-    if not prompt or prompt.startswith("Error:"):
-        return False, None, f"Failed to generate prompt: {prompt}"
-    
-    # Prepare messages for LLM
-    messages = [
-        {
-            "role": "system",
-            "content": "You are an expert data analyst. Your task is to extract information from narratives and fill in a JSON template. Return ONLY the completed JSON in a code block - no other text."
-        },
-        {
-            "role": "user",
-            "content": prompt
-        }
-    ]
-    
     try:
+        # Generate the extractor prompt
+        prompt = generate_extractor_prompt(dataset_name, instance_idx, narrative_provider, prompt_type)
+        
+        if not prompt or prompt.startswith("Error:"):
+            return False, None, f"Failed to generate prompt: {prompt}"
+        
+        # Prepare messages for LLM
+        messages = [
+            {
+                "role": "system",
+                "content": "You are an expert data analyst. Your task is to extract information from narratives and fill in a JSON template. Return ONLY the completed JSON in a code block - no other text."
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+        
+        # Call LLM
         model = LLM_MODELS[extractor_provider]
         response = generate_text(
             messages=messages,
             provider=extractor_provider,
             model=model,
             temperature=0,
-            max_tokens=2000
+            max_tokens=10000
         )
         
         # Save raw response
@@ -165,6 +188,10 @@ def run_extraction():
                 else:
                     eta_str = ""
                 print(f"Progress: {extraction_count}/{total_extractions} ({pct}%){eta_str}")
+                sys.stdout.flush()
+            
+            # Print what we're about to extract BEFORE attempting it
+            print(f"  [{extraction_count}/{total_extractions}] Extracting instance {instance_idx} (narrative: {narrative_provider})...", end=" ", flush=True)
             
             success, extraction, error = extract_single(
                 dataset_name=DATASET,
@@ -178,10 +205,15 @@ def run_extraction():
             if success:
                 results[key]["success"] += 1
                 total_success += 1
+                print("✅")
+                sys.stdout.flush()
             else:
                 results[key]["failed"] += 1
                 results[key]["errors"].append(f"Instance {instance_idx}: {error}")
                 total_failed += 1
+                # Print error immediately so user can see what's failing
+                print(f"❌ {error}")
+                sys.stdout.flush()
     
     # Summary
     elapsed = datetime.now() - start_time
