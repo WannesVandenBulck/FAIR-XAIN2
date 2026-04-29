@@ -203,10 +203,13 @@ def calculate_metrics(extraction, ground_truth):
     
     metrics["valid"] = True
     
-    # Count features mentioned
+    # Get SHAP feature names to exclude them from regular feature counts
+    shap_names = {f.get("name") for f in extraction.get("most_important_features", [])}
+    
+    # Count features mentioned (excluding protected attrs AND SHAP features)
     metrics["features_mentioned"] = sum(
         1 for f in extraction.get("features", [])
-        if f.get("mentioned", 0) == 1 and f.get("name") not in ["sex", "age", "foreign_worker"]
+        if f.get("mentioned", 0) == 1 and f.get("name") not in ["sex", "age", "foreign_worker"] and f.get("name") not in shap_names
     )
     
     # Count protected attributes mentioned
@@ -215,10 +218,10 @@ def calculate_metrics(extraction, ground_truth):
         if f.get("mentioned", 0) == 1 and f.get("name") in ["sex", "age", "foreign_worker"]
     )
     
-    # Count feature values given - ONLY for features that were mentioned (and are not protected attrs)
+    # Count feature values given - ONLY for features that were mentioned (excluding protected attrs AND SHAP features)
     metrics["feature_values_given"] = sum(
         1 for f in extraction.get("features", [])
-        if f.get("mentioned", 0) == 1 and f.get("value") != "NaN" and f.get("name") not in ["sex", "age", "foreign_worker"]
+        if f.get("mentioned", 0) == 1 and f.get("value") != "NaN" and f.get("name") not in ["sex", "age", "foreign_worker"] and f.get("name") not in shap_names
     )
     
     # Count SHAP features mentioned (how many top features did the LLM identify)
@@ -255,6 +258,17 @@ def calculate_metrics(extraction, ground_truth):
     metrics["all_value_agreement"] = calculate_all_value_agreement(extraction, ground_truth)
     
     return metrics
+
+
+def get_age_group(age_value):
+    """Convert age to group: 'under 32' or '32 and over'"""
+    if age_value == "NaN" or age_value is None:
+        return None
+    try:
+        age_int = int(age_value)
+        return "under 32" if age_int < 32 else "32 and over"
+    except:
+        return None
 
 
 def compute_metrics_by_provider_and_sex():
@@ -442,7 +456,7 @@ def save_to_excel_by_provider(results_by_provider):
         rows.append(row)
     
     df = pd.DataFrame(rows)
-    output_path = f"results/shap_metrics/shap_metrics_by_provider_{DATASET_NAME}_{TIMESTAMP}.xlsx"
+    output_path = f"results/shap_metrics/shap_metrics_by_provider_{DATASET_NAME}.xlsx"
     df.to_excel(output_path, index=False, engine="openpyxl")
     print(f"\n[OK] Saved: {output_path}")
     print(df.to_string())
@@ -483,7 +497,7 @@ def save_to_excel_by_sex_averaged(results_by_sex):
         rows.append(row)
     
     df = pd.DataFrame(rows)
-    output_path = f"results/shap_metrics/shap_metrics_by_sex_averaged_{DATASET_NAME}_{TIMESTAMP}.xlsx"
+    output_path = f"results/shap_metrics/sex/shap_metrics_by_sex_averaged_{DATASET_NAME}.xlsx"
     df.to_excel(output_path, index=False, engine="openpyxl")
     print(f"\n[OK] Saved: {output_path}")
     print(df.to_string())
@@ -491,6 +505,7 @@ def save_to_excel_by_sex_averaged(results_by_sex):
 
 def save_to_excel_by_sex_and_provider(results_by_provider_and_sex):
     """Save results by sex for each provider individually."""
+    os.makedirs("results/shap_metrics/sex", exist_ok=True)
     rows = []
     sex_names = {0: "male", 1: "female"}
     
@@ -525,7 +540,160 @@ def save_to_excel_by_sex_and_provider(results_by_provider_and_sex):
         rows.append(row)
     
     df = pd.DataFrame(rows)
-    output_path = f"results/shap_metrics/shap_metrics_by_sex_and_provider_{DATASET_NAME}_{TIMESTAMP}.xlsx"
+    output_path = f"results/shap_metrics/sex/shap_metrics_by_sex_and_provider_{DATASET_NAME}.xlsx"
+    df.to_excel(output_path, index=False, engine="openpyxl")
+    print(f"\n[OK] Saved: {output_path}")
+    print(df.to_string())
+
+
+def compute_metrics_by_provider_and_age():
+    """
+    Compute metrics broken down by:
+    - Narrative provider
+    - Age group: 'under 32' or '32 and over'
+    
+    Returns three dictionaries similar to sex version
+    """
+    results_by_provider = {}
+    results_by_age = {}
+    results_by_provider_and_age = {}
+    
+    print("\n" + "=" * 100)
+    print("COMPUTING METRICS BY PROVIDER AND AGE GROUP")
+    print("=" * 100)
+    
+    for instance_idx in range(NUM_INSTANCES):
+        print(f"\nProcessing instance {instance_idx}...", end=" ")
+        
+        gt = load_ground_truth(instance_idx)
+        if not gt:
+            print(f"[WARN] Ground truth not found")
+            continue
+        
+        # Get age
+        age = None
+        for feature in gt.get("features", []):
+            if feature.get("name") == "age":
+                age = feature.get("value")
+                break
+        
+        age_group = get_age_group(age)
+        if age_group is None:
+            print(f"[WARN] Age not found or invalid")
+            continue
+        
+        print(f"age={age} (group={age_group})")
+        
+        # Process each narrative provider
+        for provider in PROVIDERS:
+            extraction = load_extraction(provider, instance_idx)
+            if not extraction:
+                continue
+            
+            metrics = calculate_metrics(extraction, gt)
+            if not metrics["valid"]:
+                continue
+            
+            if provider not in results_by_provider:
+                results_by_provider[provider] = create_empty_metrics_dict()
+            
+            if age_group not in results_by_age:
+                results_by_age[age_group] = create_empty_metrics_dict()
+            
+            if (provider, age_group) not in results_by_provider_and_age:
+                results_by_provider_and_age[(provider, age_group)] = create_empty_metrics_dict()
+            
+            # Accumulate metrics
+            accumulate_metrics(results_by_provider[provider], metrics)
+            accumulate_metrics(results_by_age[age_group], metrics)
+            accumulate_metrics(results_by_provider_and_age[(provider, age_group)], metrics)
+    
+    return results_by_provider, results_by_age, results_by_provider_and_age
+
+
+def save_to_excel_by_age_averaged(results_by_age):
+    """Save results by age group, averaged across providers."""
+    os.makedirs("results/shap_metrics/age", exist_ok=True)
+    
+    rows = []
+    age_order = ["under 32", "32 and over"]
+    
+    for age_group in age_order:
+        if age_group not in results_by_age:
+            continue
+        
+        metrics = results_by_age[age_group]
+        if metrics["instances_count"] == 0:
+            continue
+        
+        count = metrics["instances_count"]
+        
+        row = {
+            "age_group": age_group,
+            "instances_count": count,
+            "avg_features_mentioned": metrics["features_mentioned_sum"] / count,
+            "avg_feature_values_given": metrics["feature_values_given_sum"] / count,
+            "avg_protected_attrs_mentioned": metrics["protected_attrs_mentioned_sum"] / count,
+            "avg_shap_features_mentioned": metrics["shap_features_mentioned_sum"] / count,
+            "avg_shap_values_given": metrics["shap_values_given_sum"] / count,
+            "avg_protected_attrs_values_given": metrics["protected_attrs_values_given_sum"] / count,
+            "rank_1_agreement_%": (metrics["rank_1_sum"] / metrics["rank_1_count"] * 100) if metrics["rank_1_count"] > 0 else None,
+            "rank_2_agreement_%": (metrics["rank_2_sum"] / metrics["rank_2_count"] * 100) if metrics["rank_2_count"] > 0 else None,
+            "rank_3_agreement_%": (metrics["rank_3_sum"] / metrics["rank_3_count"] * 100) if metrics["rank_3_count"] > 0 else None,
+            "rank_total_agreement_%": (metrics["rank_total_sum"] / metrics["rank_total_count"] * 100) if metrics["rank_total_count"] > 0 else None,
+            "total_sign_agreement_%": (metrics["total_sign_agreement_sum"] / metrics["total_sign_agreement_count"] * 100) if metrics["total_sign_agreement_count"] > 0 else None,
+            "shap_value_agreement_%": (metrics["shap_value_agreement_sum"] / metrics["shap_value_agreement_count"] * 100) if metrics["shap_value_agreement_count"] > 0 else None,
+            "protected_attrs_value_agreement_%": (metrics["protected_attrs_value_agreement_sum"] / metrics["protected_attrs_value_agreement_count"] * 100) if metrics["protected_attrs_value_agreement_count"] > 0 else None,
+            "other_features_value_agreement_%": (metrics["other_features_value_agreement_sum"] / metrics["other_features_value_agreement_count"] * 100) if metrics["other_features_value_agreement_count"] > 0 else None,
+            "all_value_agreement_%": (metrics["all_value_agreement_sum"] / metrics["all_value_agreement_count"] * 100) if metrics["all_value_agreement_count"] > 0 else None,
+        }
+        rows.append(row)
+    
+    df = pd.DataFrame(rows)
+    output_path = f"results/shap_metrics/age/shap_metrics_by_age_averaged_{DATASET_NAME}.xlsx"
+    df.to_excel(output_path, index=False, engine="openpyxl")
+    print(f"\n[OK] Saved: {output_path}")
+    print(df.to_string())
+
+
+def save_to_excel_by_age_and_provider(results_by_provider_and_age):
+    """Save results by age group for each provider individually."""
+    os.makedirs("results/shap_metrics/age", exist_ok=True)
+    rows = []
+    age_order = ["under 32", "32 and over"]
+    
+    for (provider, age_group) in sorted(results_by_provider_and_age.keys(), key=lambda x: (x[0], age_order.index(x[1]) if x[1] in age_order else 99)):
+        metrics = results_by_provider_and_age[(provider, age_group)]
+        
+        if metrics["instances_count"] == 0:
+            continue
+        
+        count = metrics["instances_count"]
+        
+        row = {
+            "provider": provider,
+            "age_group": age_group,
+            "instances_count": count,
+            "avg_features_mentioned": metrics["features_mentioned_sum"] / count,
+            "avg_feature_values_given": metrics["feature_values_given_sum"] / count,
+            "avg_protected_attrs_mentioned": metrics["protected_attrs_mentioned_sum"] / count,
+            "avg_shap_features_mentioned": metrics["shap_features_mentioned_sum"] / count,
+            "avg_shap_values_given": metrics["shap_values_given_sum"] / count,
+            "avg_protected_attrs_values_given": metrics["protected_attrs_values_given_sum"] / count,
+            "rank_1_agreement_%": (metrics["rank_1_sum"] / metrics["rank_1_count"] * 100) if metrics["rank_1_count"] > 0 else None,
+            "rank_2_agreement_%": (metrics["rank_2_sum"] / metrics["rank_2_count"] * 100) if metrics["rank_2_count"] > 0 else None,
+            "rank_3_agreement_%": (metrics["rank_3_sum"] / metrics["rank_3_count"] * 100) if metrics["rank_3_count"] > 0 else None,
+            "rank_total_agreement_%": (metrics["rank_total_sum"] / metrics["rank_total_count"] * 100) if metrics["rank_total_count"] > 0 else None,
+            "total_sign_agreement_%": (metrics["total_sign_agreement_sum"] / metrics["total_sign_agreement_count"] * 100) if metrics["total_sign_agreement_count"] > 0 else None,
+            "shap_value_agreement_%": (metrics["shap_value_agreement_sum"] / metrics["shap_value_agreement_count"] * 100) if metrics["shap_value_agreement_count"] > 0 else None,
+            "protected_attrs_value_agreement_%": (metrics["protected_attrs_value_agreement_sum"] / metrics["protected_attrs_value_agreement_count"] * 100) if metrics["protected_attrs_value_agreement_count"] > 0 else None,
+            "other_features_value_agreement_%": (metrics["other_features_value_agreement_sum"] / metrics["other_features_value_agreement_count"] * 100) if metrics["other_features_value_agreement_count"] > 0 else None,
+            "all_value_agreement_%": (metrics["all_value_agreement_sum"] / metrics["all_value_agreement_count"] * 100) if metrics["all_value_agreement_count"] > 0 else None,
+        }
+        rows.append(row)
+    
+    df = pd.DataFrame(rows)
+    output_path = f"results/shap_metrics/age/shap_metrics_by_age_and_provider_{DATASET_NAME}.xlsx"
     df.to_excel(output_path, index=False, engine="openpyxl")
     print(f"\n[OK] Saved: {output_path}")
     print(df.to_string())
@@ -533,6 +701,7 @@ def save_to_excel_by_sex_and_provider(results_by_provider_and_sex):
 
 if __name__ == "__main__":
     results_by_provider, results_by_sex, results_by_provider_and_sex = compute_metrics_by_provider_and_sex()
+    results_by_provider_age, results_by_age, results_by_provider_and_age = compute_metrics_by_provider_and_age()
     
     print(f"\n{'='*100}")
     print("GENERATING OUTPUT EXCEL FILES")
@@ -546,3 +715,9 @@ if __name__ == "__main__":
     
     print("\n[3] SEX BREAKDOWN FOR EACH PROVIDER INDIVIDUALLY")
     save_to_excel_by_sex_and_provider(results_by_provider_and_sex)
+    
+    print("\n[4] AGE GROUP BREAKDOWN AVERAGED ACROSS PROVIDERS")
+    save_to_excel_by_age_averaged(results_by_age)
+    
+    print("\n[5] AGE GROUP BREAKDOWN FOR EACH PROVIDER INDIVIDUALLY")
+    save_to_excel_by_age_and_provider(results_by_provider_and_age)
