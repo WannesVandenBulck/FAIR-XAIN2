@@ -8,7 +8,7 @@ import sys
 from datetime import datetime
 
 # All adversely predicted instances in credit dataset (0-33)
-ALL_INSTANCES = 32, 33
+ALL_INSTANCES = 17, 18
 PROVIDERS = ["mistral"]
 DATASET = "credit"
 PROMPT_TYPE = "shap"

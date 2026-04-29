@@ -50,9 +50,9 @@ from llm_tools.other.llm_client import generate_text
 # ============================================================================
 
 DATASET = "credit"  # "credit" or "law"
-NARRATIVE_PROVIDERS_TO_USE = ["gemini", "grok", "deepseek", "mistral", "openai", "claude"]  # All narrative providers: "gemini", "grok", "deepseek", "mistral", "openai", "claude"
-INSTANCE_INDICES = list(range(34))  # All instances
-EXTRACTOR_PROVIDER = "deepseek"  # LLM to use for extraction
+NARRATIVE_PROVIDERS_TO_USE = ["openai"]  # All narrative providers: "gemini", "grok", "deepseek", "mistral", "openai", "claude"
+INSTANCE_INDICES = [21] # All instances
+EXTRACTOR_PROVIDER = "openai"  # LLM to use for extraction
 PROMPT_TYPE = "shap"  # "shap" or "cf"
 
 # ============================================================================

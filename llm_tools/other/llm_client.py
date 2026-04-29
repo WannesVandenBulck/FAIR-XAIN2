@@ -105,31 +105,32 @@ def _call_llm(messages, provider="openai", model=None, temperature=0, max_tokens
             return response.content[0].text
         
         elif provider == "gemini":
-            import google.generativeai as genai
-            genai.configure(api_key=KEYS.get("gemini_key"))
-            model_name = model or "gemini-1.5-flash"  # Using Gemini 3 Flash Preview
+            import google.genai as genai
+            client = genai.Client(api_key=KEYS.get("gemini_key"))
+            model_name = model or "gemini-3.1-flash-lite-preview"
             
-            # Convert messages to Gemini format
+            # Extract system prompt and user message
             system_prompt = None
-            gemini_messages = []
+            user_content = None
             for msg in messages:
                 if msg["role"] == "system":
                     system_prompt = msg["content"]
-                else:
-                    gemini_messages.append({
-                        "role": "user" if msg["role"] == "user" else "model",
-                        "parts": msg["content"]
-                    })
+                elif msg["role"] == "user":
+                    user_content = msg["content"]
             
-            # Create model with system prompt
-            model_obj = genai.GenerativeModel(
-                model_name,
-                system_instruction=system_prompt
-            )
+            if not user_content:
+                raise ValueError("No user message found for Gemini")
             
-            response = model_obj.generate_content(
-                gemini_messages,
-                generation_config=genai.types.GenerationConfig(
+            # Combine system prompt with user content if system prompt exists
+            if system_prompt:
+                full_content = f"{system_prompt}\n\n{user_content}"
+            else:
+                full_content = user_content
+            
+            response = client.models.generate_content(
+                model=model_name,
+                contents=full_content,
+                config=genai.types.GenerateContentConfig(
                     temperature=temperature,
                     max_output_tokens=max_tokens
                 )

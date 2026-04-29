@@ -244,18 +244,19 @@ def describe_instance(row):
     """Generate instance description from row"""
     return create_instance_description_from_row(row)
 
-def separate_features_and_protected_attributes(original_instance, sex_override=None, age_override=None, foreign_worker_override=None):
+def separate_features_and_protected_attributes(original_instance):
     """
     Separate protected attributes from other features for clearer presentation.
-    NOTE: This function now only separates them logically; description includes ALL features together.
+    Note: All features including protected attributes are included in the description.
+    
+    The actual attribute values come from the data CSV (which may be batch-specific
+    for fairness evaluation with modified attributes).
     
     Parameters:
     - original_instance: pandas Series with feature values
-    - sex_override: Optional override for sex (readable string or numeric code)
-    - age_override: Optional override for age (numeric value)
-    - foreign_worker_override: Optional override for foreign_worker (readable string or numeric code)
+    
     Returns:
-        Tuple of (instance_desc_all_features, protected_attributes_for_overrides)
+        Tuple of (instance_desc_all_features, protected_attributes_for_info)
     """
     protected_attributes = ['sex', 'age', 'foreign_worker']
     
@@ -263,22 +264,10 @@ def separate_features_and_protected_attributes(original_instance, sex_override=N
     feature_cols = [col for col in original_instance.index if col not in 
                     ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_credit']]
     
-    # Apply overrides if provided (convert string to numeric)
+    # Use instance data as-is (no overrides - they're in the CSV)
     instance_for_desc = original_instance[feature_cols].copy()
-    if sex_override is not None and 'sex' in instance_for_desc.index:
-        numeric_sex = reverse_map_attribute_value("sex", sex_override)
-        instance_for_desc['sex'] = numeric_sex
-    if age_override is not None and 'age' in instance_for_desc.index:
-        try:
-            numeric_age = float(age_override) if not isinstance(age_override, int) else age_override
-            instance_for_desc['age'] = numeric_age
-        except (ValueError, TypeError):
-            pass
-    if foreign_worker_override is not None and 'foreign_worker' in instance_for_desc.index:
-        numeric_foreign_worker = reverse_map_attribute_value("foreign_worker", foreign_worker_override)
-        instance_for_desc['foreign_worker'] = numeric_foreign_worker
-
-    # Create description with ALL features including gender and age
+    
+    # Create description with ALL features including protected attributes
     instance_desc_regular = describe_instance(instance_for_desc)
     
     # Return the combined description (protected attributes now included in feature values)
@@ -434,21 +423,24 @@ STYLE:
 """
 
 
-def build_shap_prompt(instance_index, shap_csv_path: str = None, sex_override=None, age_override=None) -> str:
+def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None) -> str:
     """
     Build a SHAP explanation prompt by loading from the SHAP CSV.
     
     Parameters:
     - instance_index: the instance index to explain (e.g., 438, 89, etc.)
     - shap_csv_path: path to the SHAP CSV file (defaults to credit_dataset/credit_shap.csv)
-    - sex_override: Optional override for sex for bias injection
-    - age_override: Optional override for age for bias injection
+    - adverse_csv_path: path to the adverse CSV file with instance data (defaults to credit_dataset/credit_adverse.csv)
+                        For fairness eval: use batch-specific CSV with modified protected attributes
     
     Returns:
     - Full prompt string ready for LLM
     """
     if shap_csv_path is None:
         shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_shap.csv"
+    
+    if adverse_csv_path is None:
+        adverse_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_adverse.csv"
     
     # Load SHAP values (instance_index is now an explicit column)
     shap_df = pd.read_csv(shap_csv_path)
@@ -462,9 +454,8 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, sex_override=No
     # Extract predicted_probability
     predicted_probability = shap_values.get('predicted_probability', np.nan)
     
-    # Load corresponding original data
-    test_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_adverse.csv"
-    adverse_df = pd.read_csv(test_csv_path)
+    # Load corresponding original data (from adverse_csv_path which may be batch-specific)
+    adverse_df = pd.read_csv(adverse_csv_path)
     adverse_row = adverse_df[adverse_df['instance_index'] == instance_index]
     
     if adverse_row.empty:
@@ -480,8 +471,8 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, sex_override=No
             feature_name = col[5:]  # Remove 'SHAP_' prefix
             shap_dict[feature_name] = shap_values[col]
     
-    # Separate regular features from protected attributes, using overrides if provided
-    instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance, sex_override=sex_override, age_override=age_override)
+    # Separate regular features from protected attributes
+    instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance)
     
     # Create SHAP table as simple text
     shap_table_df = pd.DataFrame({
@@ -526,7 +517,7 @@ The model's prediction:
     return prompt
 
 
-def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: str = None, shap_csv_path: str = None, analysis_json_path: str = None, sex_override=None, age_override=None) -> str:
+def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: str = None, shap_csv_path: str = None, analysis_json_path: str = None) -> str:
     """
     Build a counterfactual prompt by loading from the CSV files and analysis JSON.
     
@@ -534,10 +525,9 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     - instance_index: the instance index to explain (e.g., 438, 89, etc.)
     - cf_csv_path: path to counterfactual CSV (defaults to credit_dataset/credit_counterfactual.csv)
     - adverse_csv_path: path to adverse CSV (defaults to credit_dataset/credit_adverse.csv)
+                        For fairness eval: use batch-specific CSV with modified protected attributes
     - shap_csv_path: path to SHAP CSV for predicted_probability (defaults to credit_dataset/credit_shap.csv)
     - analysis_json_path: path to counterfactual analysis JSON (defaults to credit_dataset/credit_counterfactual_analysis.json)
-    - sex_override: Optional override for sex for bias injection
-    - age_override: Optional override for age for bias injection
     
     Returns:
     - Full prompt string ready for LLM
@@ -659,8 +649,8 @@ Detailed feature changes:
     
     table_df = pd.DataFrame(table_data).set_index('row_type')
     
-    # Create instance description using overrides if provided
-    instance_desc, _ = separate_features_and_protected_attributes(original, sex_override=sex_override, age_override=age_override)
+    # Create instance description using batch-specific CSV
+    instance_desc, _ = separate_features_and_protected_attributes(original)
     
     table_str = table_df.to_string()
 

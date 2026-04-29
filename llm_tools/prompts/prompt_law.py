@@ -246,18 +246,19 @@ def describe_instance(row):
     """Generate instance description from row"""
     return create_instance_description_from_row(row)
 
-def separate_features_and_protected_attributes(original_instance, gender_override=None, race_override=None):
+def separate_features_and_protected_attributes(original_instance):
     """
     Separate protected attributes from other features for clearer presentation.
-    NOTE: This function now only separates them logically; description includes ALL features together.
+    Note: All features including protected attributes are included in the description.
+    
+    The actual attribute values come from the data CSV (which may be batch-specific
+    for fairness evaluation with modified attributes).
     
     Parameters:
     - original_instance: pandas Series with feature values
-    - gender_override: Optional override for gender (e.g., "male", "female" or numeric 0/1)
-    - race_override: Optional override for race (e.g., "white", "black", "hispanic", etc. or numeric code)
     
     Returns:
-        Tuple of (instance_desc_all_features, protected_attributes_for_overrides)
+        Tuple of (instance_desc_all_features, protected_attributes_for_info)
     """
     protected_attributes = ['gender', 'race']
     
@@ -265,14 +266,8 @@ def separate_features_and_protected_attributes(original_instance, gender_overrid
     feature_cols = [col for col in original_instance.index if col not in 
                     ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_law']]
     
-    # Apply overrides if provided (convert string to numeric)
+    # Use instance data as-is (no overrides - they're in the CSV)
     instance_for_desc = original_instance[feature_cols].copy()
-    if gender_override is not None and 'gender' in instance_for_desc.index:
-        numeric_gender = reverse_map_attribute_value("gender", gender_override)
-        instance_for_desc['gender'] = numeric_gender
-    if race_override is not None and 'race' in instance_for_desc.index:
-        numeric_race = reverse_map_attribute_value("race", race_override)
-        instance_for_desc['race'] = numeric_race
     
     # Create description with ALL features including gender and race
     instance_desc_regular = describe_instance(instance_for_desc)
@@ -429,21 +424,24 @@ STYLE:
 """
 
 
-def build_shap_prompt(instance_index, shap_csv_path: str = None, gender_override=None, race_override=None) -> str:
+def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None) -> str:
     """
     Build a SHAP explanation prompt by loading from the SHAP CSV.
     
     Parameters:
     - instance_index: the instance index to explain (e.g., 10, 25, etc.)
     - shap_csv_path: path to the SHAP CSV file (defaults to law_dataset/law_shap.csv)
-    - gender_override: Optional override for gender ("male", "female", or numeric 0/1). For bias injection experiment.
-    - race_override: Optional override for race ("white", "black", "hispanic", etc., or numeric code). For bias injection experiment.
+    - adverse_csv_path: path to the adverse CSV file with instance data (defaults to law_dataset/law_adverse.csv)
+                        For fairness eval: use batch-specific CSV with modified protected attributes
     
     Returns:
     - Full prompt string ready for LLM
     """
     if shap_csv_path is None:
         shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "law_dataset" / "law_shap.csv"
+    
+    if adverse_csv_path is None:
+        adverse_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "law_dataset" / "law_adverse.csv"
     
     # Load SHAP values (instance_index is now an explicit column)
     shap_df = pd.read_csv(shap_csv_path)
@@ -457,9 +455,8 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, gender_override
     # Extract predicted_probability
     predicted_probability = shap_values.get('predicted_probability', np.nan)
     
-    # Load corresponding original data
-    test_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "law_dataset" / "law_adverse.csv"
-    adverse_df = pd.read_csv(test_csv_path)
+    # Load corresponding original data (from adverse_csv_path which may be batch-specific)
+    adverse_df = pd.read_csv(adverse_csv_path)
     adverse_row = adverse_df[adverse_df['instance_index'] == instance_index]
     
     if adverse_row.empty:
@@ -475,8 +472,8 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, gender_override
             feature_name = col[5:]  # Remove 'SHAP_' prefix
             shap_dict[feature_name] = shap_values[col]
     
-    # Separate regular features from protected attributes, using overrides if provided
-    instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance, gender_override=gender_override, race_override=race_override)
+    # Separate regular features from protected attributes
+    instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance)
     
     # Create SHAP table as simple text
     shap_table_df = pd.DataFrame({
