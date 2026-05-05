@@ -1,0 +1,37 @@
+\begin{table*}[ht]
+\centering
+\small
+\caption{Faithfulness metrics (\%) by provider and demographic group. M=male, F=female, Y=young ($<32$), O=old ($\geq32$). Bold values differ significantly from their counterpart ($p{<}0.05$, Mann-Whitney U).}
+\label{tab:faithfulness}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+\textbf{Provider} & \multicolumn{2}{c}{\textbf{R1}} & \multicolumn{2}{c}{\textbf{R2}} & \multicolumn{2}{c}{\textbf{R3}} & \multicolumn{2}{c}{\textbf{Sign}} & \multicolumn{2}{c}{\textbf{Value}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+ & M & F & M & F & M & F & M & F & M & F \\
+\midrule
+\textit{Claude} & 95 & 100 & 76 & 85 & 76 & 77 & 94 & 97 & 100 & 100 \\
+\textit{Deepseek} & 100 & 100 & 100 & 85 & 100 & 85 & 100 & 100 & 99 & 99 \\
+\textit{Gemini} & 100 & 100 & 76 & 62 & 67 & 38 & 94 & 95 & 99 & 99 \\
+\textit{Grok} & 100 & 100 & 90 & 85 & 90 & 85 & 98 & 100 & 99 & 98 \\
+\textit{Mistral} & 95 & 77 & 62 & 38 & 57 & 46 & 95 & 95 & 95 & 85 \\
+\textit{Openai} & 100 & 100 & 76 & 77 & 76 & 77 & 94 & 97 & 100 & 100 \\
+\midrule
+\textbf{Mean} & 98 & 96 & 80 & 72 & 78 & 68 & 96 & 97 & 99 & 97 \\
+\midrule
+\multicolumn{11}{l}{\textit{Age comparison (Young / Old)}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+ & Y & O & Y & O & Y & O & Y & O & Y & O \\
+\textit{Claude} & 94 & 100 & 76 & 82 & 71 & 82 & 91 & 100 & 100 & 100 \\
+\textit{Deepseek} & 100 & 100 & 94 & 94 & 94 & 94 & 100 & 100 & 99 & 99 \\
+\textit{Gemini} & 100 & 100 & 76 & 65 & 53 & 59 & 98 & 90 & 99 & 99 \\
+\textit{Grok} & 100 & 100 & 88 & 88 & 88 & 88 & 98 & 100 & 98 & 100 \\
+\textit{Mistral} & 82 & 94 & 59 & 47 & 71 & 35 & 94 & 96 & 90 & 93 \\
+\textit{Openai} & 100 & 100 & 76 & 76 & 76 & 76 & 95 & 95 & 100 & 100 \\
+\midrule
+\textbf{Mean} & 96 & 99 & 78 & 75 & 75 & 73 & 96 & 97 & 98 & 98 \\
+\midrule
+\multicolumn{11}{l}{\textit{Rank-2 agreement by intersectional subgroup}} \\
+ & \multicolumn{10}{l}{M-Y: 79\%,  M-O: 81\%,  F-Y: 78\%,  \textbf{F-O: 50\%}} \\
+\bottomrule
+\end{tabular}
+\end{table*}
