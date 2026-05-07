@@ -333,3 +333,96 @@ STYLE:
 - Directly address the student and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. 
 - Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative.
 """
+
+def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None) -> str:
+    """
+    Build a SHAP explanation prompt by loading from the SHAP CSV.
+    
+    Parameters:
+    - instance_index: the instance index to explain (e.g., 438, 89, etc.)
+    - shap_csv_path: path to the SHAP CSV file (defaults to student_dataset/student_shap.csv)
+    - adverse_csv_path: path to the adverse CSV file with instance data (defaults to student_dataset/student_adverse.csv)
+                        For fairness eval: use batch-specific CSV with modified protected attributes
+    
+    Returns:
+    - Full prompt string ready for LLM
+    """
+    if shap_csv_path is None:
+        shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "student_dataset" / "student_shap.csv"
+    
+    if adverse_csv_path is None:
+        adverse_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "student_dataset" / "student_adverse.csv"
+    
+    # Load SHAP values (instance_index is now an explicit column)
+    shap_df = pd.read_csv(shap_csv_path)
+    shap_row = shap_df[shap_df['instance_index'] == instance_index]
+    
+    if shap_row.empty:
+        raise ValueError(f"Instance {instance_index} not found in SHAP CSV")
+    
+    shap_values = shap_row.iloc[0]
+    
+    # Extract predicted_probability
+    predicted_probability = shap_values.get('predicted_probability', np.nan)
+    
+    # Load corresponding original data (from adverse_csv_path which may be batch-specific)
+    adverse_df = pd.read_csv(adverse_csv_path)
+    adverse_row = adverse_df[adverse_df['instance_index'] == instance_index]
+    
+    if adverse_row.empty:
+        raise ValueError(f"Instance {instance_index} not found in adverse CSV")
+    
+    original_instance = adverse_row.iloc[0]
+    prediction = original_instance['predicted_class']
+    
+    # Extract SHAP values (remove instance_index and SHAP_ prefix)
+    shap_dict = {}
+    for col in shap_values.index:
+        if col.startswith('SHAP_'):
+            feature_name = col[5:]  # Remove 'SHAP_' prefix
+            shap_dict[feature_name] = shap_values[col]
+    
+    # Separate regular features from protected attributes
+    instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance)
+    
+    # Create SHAP table as simple text
+    shap_table_df = pd.DataFrame({
+        'Feature': list(shap_dict.keys()),
+        'SHAP_Value': list(shap_dict.values())
+    }).sort_values('SHAP_Value', key=abs, ascending=False)
+    
+    # Limit to top MAX_SHAP_FEATURES if configured
+    if MAX_SHAP_FEATURES is not None and len(shap_table_df) > MAX_SHAP_FEATURES:
+        shap_table_df = shap_table_df.head(MAX_SHAP_FEATURES)
+    
+    num_features = len(shap_table_df)
+    shap_table = shap_table_df.to_string(index=False)
+    
+    # Format predicted_probability for display
+    pred_prob_str = f"{predicted_probability:.1%}" if not np.isnan(predicted_probability) else "N/A"
+    
+    # Get fresh dataset description (compute dynamically instead of using module-level variable)
+    dataset_desc = get_dataset_description()
+    
+    # Format SHAP explanation with num_features
+    shap_explanation_formatted = SHAP_EXPLANATION.format(num_features=num_features)
+    
+    prompt = f"""{PROMPT_PREAMBLE_SHAP}
+{DATASET_EXPLANATION}
+{dataset_desc}
+
+{shap_explanation_formatted}
+
+{APPLICANT_INFORMATION}
+{instance_desc_regular}
+
+The model's prediction:
+- Predicted probability of failing: {pred_prob_str}
+
+{SHAP_VALUES_SECTION}
+{shap_table}
+
+{INSTRUCTIONS_SECTION}
+{SHAP_PROMPT_INSTRUCTIONS}
+"""
+    return prompt
