@@ -10,28 +10,42 @@ MAX_SHAP_FEATURES = 3  # None = include all features; integer = limit to top N f
 
 # Protected attribute mappings for readable display in prompts
 ATTRIBUTE_VALUE_MAPPINGS = {
-    'status': {1: '<0 DM', 2: '0-200 DM', 3: '≥200 DM/salary', 4: 'none'},
-    'credit_history': {1: 'no credits/all paid', 2: 'all paid at bank', 3: 'existing paid', 4: 'past delays', 5: 'critical/other credits'},
-    'purpose': {1: 'new car', 2: 'used car', 3: 'furniture/equipment', 4: 'radio/TV', 5: 'domestic appliances', 6: 'repairs', 7: 'education', 8: 'retraining', 9: 'business', 10: 'others'},
-    'savings': {1: '<100 DM', 2: '100-500 DM', 3: '500-1000 DM', 4: '≥1000 DM', 5: 'unknown/none'},
-    'employment_duration': {1: 'unemployed', 2: '<1 year', 3: '1-4 years', 4: '4-7 years', 5: '≥7 years'},
-    'sex':  {0: 'male', 1: 'female'},
-    'other_debtors': {1: 'none', 2: 'co-applicant', 3: 'guarantor'},
-    'property': {1: 'real estate', 2: 'building society/life insurance', 3: 'car/other', 4: 'unknown/none'},
-    'other_installment_plans': {1: 'bank', 2: 'stores', 3: 'none'},
-    'housing': {1: 'rent', 2: 'own', 3: 'for free'},
-    'job': {1: 'unemployed/unskilled-non-resident', 2: 'unskilled-resident', 3: 'skilled/official', 4: 'management/self-employed/highly skilled'},
-    'telephone': {1: 'none', 2: 'yes registered'},
-    'foreign_worker': {1: 'yes', 2: 'no'},
+    'sex': {0: 'Female', 1: 'Male'},
     'age': {},  # Age is numeric, no mapping
+    'health': {1: 'very bad', 2: 'bad', 3: 'fair', 4: 'good', 5: 'very good'},
+    'famsize': {0: '>3', 1: '<=3'},
+    'Pstatus': {0: 'Apart', 1: 'Together'},
+    'schoolsup': {0: 'yes', 1: 'no'},
+    'famsup': {0: 'no', 1: 'yes'},
+    'paid': {0: 'no', 1: 'yes'},
+    'activities': {0: 'no', 1: 'yes'},
+    'nursery': {0: 'yes', 1: 'no'},
+    'higher': {0: 'yes', 1: 'no'},
+    'internet': {0: 'no', 1: 'yes'},
+    'romantic': {0: 'no', 1: 'yes'},
+    'Mjob': {0: 'at_home', 1: 'health', 2: 'other', 3: 'services', 4: 'teacher'},
+    'Fjob': {0: 'teacher', 1: 'other', 2: 'services', 3: 'health', 4: 'at_home'},
+    'reason': {0: 'course', 1: 'other', 2: 'home', 3: 'reputation'},
+    'guardian': {0: 'mother', 1: 'father', 2: 'other'},
+    'traveltime': {1: '<15 min', 2: '15-30 min', 3: '30-60 min', 4: '>60 min'},
+    'studytime': {1: '<2 hours', 2: '2-5 hours', 3: '5-10 hours', 4: '>10 hours'},
+    'Medu': {0: 'none', 1: 'primary', 2: '5-9th grade', 3: 'secondary', 4: 'higher'},
+    'Fedu': {0: 'none', 1: 'primary', 2: '5-9th grade', 3: 'secondary', 4: 'higher'},
+    'famrel': {1: 'very bad', 2: 'bad', 3: 'fair', 4: 'good', 5: 'very good'},
+    'freetime': {1: 'very low', 2: 'low', 3: 'medium', 4: 'high', 5: 'very high'},
+    'goout': {1: 'very low', 2: 'low', 3: 'medium', 4: 'high', 5: 'very high'},
+    'Dalc': {1: 'very low', 2: 'low', 3: 'medium', 4: 'high', 5: 'very high'},
+    'Walc': {1: 'very low', 2: 'low', 3: 'medium', 4: 'high', 5: 'very high'},
 }
 
 # Categorical features (discrete/ordinal variables that should show distribution instead of average)
-CATEGORICAL_FEATURES = ['status', 'credit_history', 'purpose', 'savings', 'employment_duration', 'sex', 'other_debtors', 'property', 'other_installment_plans', 'housing', 'job', 'telephone', 'foreign_worker']
+CATEGORICAL_FEATURES = ['sex', 'famsize', 'Pstatus', 'schoolsup', 'famsup', 'paid', 'activities', 'nursery', 
+                        'higher', 'internet', 'romantic', 'Mjob', 'Fjob', 'reason', 'guardian', 'traveltime', 
+                        'studytime', 'Medu', 'Fedu', 'famrel', 'freetime', 'goout', 'Dalc', 'Walc', 'health']
 
 # Load dataset_info from pickle file
-DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "dataset_info"
-TRAIN_CLEANED_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "train_cleaned.parquet"
+DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "student_dataset" / "dataset_info"
+TRAIN_CLEANED_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "student_dataset" / "train_cleaned.parquet"
 
 _APPROVED_STATS_CACHE = None
 
@@ -44,7 +58,7 @@ DATASET_INFO = load_dataset_info()
 
 
 def get_approved_feature_stats():
-    """Compute fallback feature stats for approved applicants (target_credit == 0)."""
+    """Compute fallback feature stats for students who passed (target_student == 0)."""
     global _APPROVED_STATS_CACHE
     if _APPROVED_STATS_CACHE is not None:
         return _APPROVED_STATS_CACHE
@@ -52,12 +66,12 @@ def get_approved_feature_stats():
     stats = {}
     try:
         train_df = pd.read_parquet(TRAIN_CLEANED_PATH)
-        approved_df = train_df[train_df['target_credit'] == 0].copy()
+        approved_df = train_df[train_df['target_student'] == 0].copy()
         if approved_df.empty:
             _APPROVED_STATS_CACHE = stats
             return stats
 
-        skip_cols = ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_credit', 'sex', 'age', 'foreign_worker']
+        skip_cols = ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_student', 'sex', 'age', 'health']
         for col in approved_df.columns:
             if col in skip_cols:
                 continue
@@ -87,7 +101,7 @@ def map_attribute_value(feature_name, value):
     
     Parameters:
     - feature_name: the feature name (e.g., "sex", "age")
-    - value: the numeric or code value (e.g., 1, 2, etc.)
+    - value: the numeric or code value (e.g., 0, 1, etc.)
     
     Returns:
     - Mapped readable name if mapping exists, otherwise the original value
@@ -116,7 +130,7 @@ def reverse_map_attribute_value(feature_name, readable_value):
     
     Parameters:
     - feature_name: the feature name (e.g., "sex", "age")
-    - readable_value: the readable name (e.g., "male single", "female divorced/separated/married")
+    - readable_value: the readable name (e.g., "Male", "Female")
     
     Returns:
     - Numeric code if mapping exists, otherwise the original value
@@ -139,15 +153,15 @@ def get_dataset_description():
     desc = DATASET_INFO.get("dataset_description", "")
     target = DATASET_INFO.get("target_description", "")
     task = DATASET_INFO.get("task_description", "")
-    base_desc = f"{desc}\n\nTarget Variable: {target}\n\nML Task: {task}\n\nProtected attributes sex, age and foreign_worker were not used to make the machine prediction."
+    base_desc = f"{desc}\n\nTarget Variable: {target}\n\nML Task: {task}\n\nProtected attributes sex, age and health were not used to make the machine prediction."
     
     return base_desc 
 
 def create_instance_description_from_row(row):
     """
     Create instance description using actual feature names and descriptions from dataset_info.
-    For categorical features, displays distribution; for numerical features, displays average for denied applicants.
-    Protected attributes (sex, age, foreign_worker) are mapped to readable names without comparisons.
+    For categorical features, displays distribution; for numerical features, displays average.
+    Protected attributes (sex, age, health) are mapped to readable names without comparisons.
     
     Parameters:
     - row: pandas Series with feature values
@@ -158,7 +172,7 @@ def create_instance_description_from_row(row):
     
     for col in row.index:
         # Skip metadata columns
-        if col in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_credit']:
+        if col in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_student']:
             continue
             
         value = row[col]
@@ -169,18 +183,18 @@ def create_instance_description_from_row(row):
             desc = feature_info.iloc[0]['feature_desc']
             
             # Protected attributes: show without comparisons
-            if col in ['sex', 'age', 'foreign_worker']:
+            if col in ['sex', 'age', 'health']:
                 feature_lines.append(f"- {col} = {mapped_value} ({desc})")
-            # Categorical features: show distribution for approved applicants
+            # Categorical features: show distribution for students who passed
             elif col in CATEGORICAL_FEATURES:
                 distribution_positive = feature_info.iloc[0].get('feature_distribution_positive')
                 if pd.isna(distribution_positive) or distribution_positive is None:
                     distribution_positive = fallback_stats.get(col, {}).get('distribution_positive')
                 if pd.notna(distribution_positive) and distribution_positive is not None:
-                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - among approved applicants: {distribution_positive}")
+                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - among students who passed: {distribution_positive}")
                 else:
                     feature_lines.append(f"- {col} = {mapped_value} ({desc})")
-            # Numerical features: show average for approved applicants
+            # Numerical features: show average for students who passed
             else:
                 avg_positive = feature_info.iloc[0].get('feature_average_positive')
                 if pd.isna(avg_positive) or avg_positive is None:
@@ -189,7 +203,7 @@ def create_instance_description_from_row(row):
                     try:
                         value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
                         avg_str = f"{float(avg_positive):.2f}"
-                        feature_lines.append(f"- {col} = {value_str} ({desc}) - among approved applicants avg: {avg_str}")
+                        feature_lines.append(f"- {col} = {value_str} ({desc}) - among students who passed avg: {avg_str}")
                     except (ValueError, TypeError):
                         feature_lines.append(f"- {col} = {mapped_value} ({desc})")
                 else:
@@ -197,7 +211,7 @@ def create_instance_description_from_row(row):
         else:
             feature_lines.append(f"- {col} = {mapped_value}")
     
-    instance_desc = f"""Feature values (with comparisons to approved applicants where available):
+    instance_desc = f"""Feature values (with comparisons to students who passed where available):
 {chr(10).join(feature_lines)}
 
 """
@@ -221,11 +235,11 @@ def separate_features_and_protected_attributes(original_instance):
     Returns:
         Tuple of (instance_desc_all_features, protected_attributes_for_info)
     """
-    protected_attributes = ['sex', 'age', 'foreign_worker']
+    protected_attributes = ['sex', 'age', 'health']
     
     # Separate features for identification (but we'll include all in description)
     feature_cols = [col for col in original_instance.index if col not in 
-                    ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_credit']]
+                    ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_student']]
     
     # Use instance data as-is (no overrides - they're in the CSV)
     instance_for_desc = original_instance[feature_cols].copy()
@@ -240,17 +254,17 @@ def separate_features_and_protected_attributes(original_instance):
 # prompt template SHAP only 
 
 PROMPT_PREAMBLE_SHAP = """
-A machine learning model predicted that a loan applicant represents a BAD CREDIT RISK and therefore their loan application was DENIED.
+A machine learning model predicted that a student will FAIL their final year and therefore their academic performance is at risk.
 
-YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the applicant understand:
-- Why the model rejected their application in specific terms of their features
+YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the student understand:
+- Why the model predicted they will fail in specific terms of their situation
 - Which factors were most important in this decision
-- How their specific situation compared to typical applicants who were approved
+- How their specific situation compared to typical students who passed
 
 INFORMATION YOU WILL RECEIVE:
 1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
 2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
-3. APPLICANT PROFILE: The applicant's specific feature values with comparisons to approved applicants averages and distributions
+3. STUDENT PROFILE: The student's specific feature values with comparisons to students who passed averages and distributions
 4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
 5. CLEAR INSTRUCTIONS: What narrative you should write
 """
@@ -260,8 +274,8 @@ DATASET_EXPLANATION = """
 """
 
 APPLICANT_INFORMATION = """
-3. APPLICANT PROFILE 
-You are writing a narrative tailored to this specific person who is rejected a loan application. 
+3. STUDENT PROFILE 
+You are writing a narrative tailored to this specific student predicted to fail. 
 """
 
 SHAP_VALUES_SECTION = """
@@ -275,40 +289,40 @@ INSTRUCTIONS_SECTION = """
 SHAP_EXPLANATION = """
 2. TECHNICAL EXPLANATION: SHAP VALUES
 
-You are given SHAP values for this applicant's prediction.
+You are given SHAP values for this student's prediction.
 
-SHAP values explain how much each feature contributes to the model's prediction for this specific applicant.
+SHAP values explain how much each feature contributes to the model's prediction for this specific student.
 Each feature has a SHAP value that tells you:
-- How much that feature influenced the model's decision for this applicant.
-- Whether it pushed the prediction toward "bad credit risk" (positive contribution) or "good credit" (negative contribution).
+- How much that feature influenced the model's decision for this student.
+- Whether it pushed the prediction toward "will fail" (positive contribution) or "will pass" (negative contribution).
 - Larger absolute values indicate features with stronger influence on the prediction.
 
 Features are ranked by their absolute SHAP values, with the most influential features listed first.
-Features with positive SHAP values contributed toward a "bad credit risk" prediction.
-Features with negative SHAP values contributed toward a "good credit" prediction.
+Features with positive SHAP values contributed toward a "will fail" prediction.
+Features with negative SHAP values contributed toward a "will pass" prediction.
 
-IMPORTANT: Only the SHAP values of the top {num_features} most important features are included in the table below. These are the features with the strongest influence on this applicant's prediction.
+IMPORTANT: Only the SHAP values of the top {num_features} most important features are included in the table below. These are the features with the strongest influence on this student's prediction.
 """
 
 
 SHAP_PROMPT_INSTRUCTIONS = """
 TASK:
-Your goal is to generate a plausible textual explanation or narrative explaining why the loan application was denied for this applicant.
+Your goal is to generate a plausible textual explanation or narrative explaining why the student is predicted to fail.
 
 PERSONALIZATION INSTRUCTION:
-Based on the provided PERSONAL INFORMATION about the applicant, create a personalized narrative tailored to them. 
+Based on the provided PERSONAL INFORMATION about the student, create a personalized narrative tailored to them. 
 The narrative should feel like it was written specifically for this individual, acknowledging their personal circumstances and creating a more personalized experience. 
 However, do not force the personalization: it should be seamlessly integrated into the narrative.
 
 Write a detailed narrative explanation tailored to this non-technical reader that MUST explain:
-1) The current situation of the applicant (what are their features and background).
-2) The model's predicted probability of bad credit and what this means for the applicant.
-3) Why the application was denied: which features were most important in driving this prediction and why (focus on the ranking of most important features).
-4) How each of the most important features contributed (either pushing toward bad credit or toward good credit). 
-5) What the applicant should do next
+1) The current situation of the student (what are their background and characteristics).
+2) The model's predicted probability of failing and what this means for the student.
+3) Why the model predicted the student will fail, which factors were most important in driving this prediction and why.
+4) How each of the most important factors contributed (either pushing toward failing or toward passing). 
+5) What the student should consider next to improve their academic performance
 
 CONSTRAINTS:
-- Do NOT invent new SHAP values or new numerical values.
+- Do NOT invent new SHAP values or new feature values.
 - Do not use the numeric SHAP values in your answer. Instead, discuss the ranking and direction of influence.
 - Do not talk about model internals, algorithms, or training details.
 - Do not start with greeting or closing statements. Focus on the narrative. 
@@ -316,100 +330,6 @@ CONSTRAINTS:
 STYLE:
 - Length: 12-15 sentences.
 - Write a coherent narrative without bullet points or tables. The goal is to have a plausible narrative/story.
-- Directly address the applicant and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. 
+- Directly address the student and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. 
 - Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative.
-- Include feature values and their comparisons to averages or distributions, but reserve this for features where it really clarifies the explanation.
 """
-
-def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None) -> str:
-    """
-    Build a SHAP explanation prompt by loading from the SHAP CSV.
-    
-    Parameters:
-    - instance_index: the instance index to explain (e.g., 438, 89, etc.)
-    - shap_csv_path: path to the SHAP CSV file (defaults to credit_dataset/credit_shap.csv)
-    - adverse_csv_path: path to the adverse CSV file with instance data (defaults to credit_dataset/credit_adverse.csv)
-                        For fairness eval: use batch-specific CSV with modified protected attributes
-    
-    Returns:
-    - Full prompt string ready for LLM
-    """
-    if shap_csv_path is None:
-        shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_shap.csv"
-    
-    if adverse_csv_path is None:
-        adverse_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_adverse.csv"
-    
-    # Load SHAP values (instance_index is now an explicit column)
-    shap_df = pd.read_csv(shap_csv_path)
-    shap_row = shap_df[shap_df['instance_index'] == instance_index]
-    
-    if shap_row.empty:
-        raise ValueError(f"Instance {instance_index} not found in SHAP CSV")
-    
-    shap_values = shap_row.iloc[0]
-    
-    # Extract predicted_probability
-    predicted_probability = shap_values.get('predicted_probability', np.nan)
-    
-    # Load corresponding original data (from adverse_csv_path which may be batch-specific)
-    adverse_df = pd.read_csv(adverse_csv_path)
-    adverse_row = adverse_df[adverse_df['instance_index'] == instance_index]
-    
-    if adverse_row.empty:
-        raise ValueError(f"Instance {instance_index} not found in adverse CSV")
-    
-    original_instance = adverse_row.iloc[0]
-    prediction = original_instance['predicted_class']
-    
-    # Extract SHAP values (remove instance_index and SHAP_ prefix)
-    shap_dict = {}
-    for col in shap_values.index:
-        if col.startswith('SHAP_'):
-            feature_name = col[5:]  # Remove 'SHAP_' prefix
-            shap_dict[feature_name] = shap_values[col]
-    
-    # Separate regular features from protected attributes
-    instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance)
-    
-    # Create SHAP table as simple text
-    shap_table_df = pd.DataFrame({
-        'Feature': list(shap_dict.keys()),
-        'SHAP_Value': list(shap_dict.values())
-    }).sort_values('SHAP_Value', key=abs, ascending=False)
-    
-    # Limit to top MAX_SHAP_FEATURES if configured
-    if MAX_SHAP_FEATURES is not None and len(shap_table_df) > MAX_SHAP_FEATURES:
-        shap_table_df = shap_table_df.head(MAX_SHAP_FEATURES)
-    
-    num_features = len(shap_table_df)
-    shap_table = shap_table_df.to_string(index=False)
-    
-    # Format predicted_probability for display
-    pred_prob_str = f"{predicted_probability:.1%}" if not np.isnan(predicted_probability) else "N/A"
-    
-    # Get fresh dataset description (compute dynamically instead of using module-level variable)
-    dataset_desc = get_dataset_description()
-    
-    # Format SHAP explanation with num_features
-    shap_explanation_formatted = SHAP_EXPLANATION.format(num_features=num_features)
-    
-    prompt = f"""{PROMPT_PREAMBLE_SHAP}
-{DATASET_EXPLANATION}
-{dataset_desc}
-
-{shap_explanation_formatted}
-
-{APPLICANT_INFORMATION}
-{instance_desc_regular}
-
-The model's prediction:
-- Predicted probability of bad credit: {pred_prob_str}
-
-{SHAP_VALUES_SECTION}
-{shap_table}
-
-{INSTRUCTIONS_SECTION}
-{SHAP_PROMPT_INSTRUCTIONS}
-"""
-    return prompt
