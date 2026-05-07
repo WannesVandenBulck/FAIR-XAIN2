@@ -42,7 +42,7 @@ def timeout(seconds=90):
 # Add parent path to import modules
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from scripts.generate_extractor_prompt import generate_extractor_prompt
+from scripts.extractions.generate_extractor_prompt import generate_extractor_prompt
 from llm_tools.other.llm_client import generate_text
 
 # ============================================================================

@@ -15,6 +15,16 @@ datasets = {
         'path': r'datasets_prep/data/law_dataset',
         'target_col': 'target_law',                  
         'output_file': 'law_adverse'
+    },
+    'saudi': {
+        'path': r'datasets_prep/data/saudi_dataset',
+        'target_col': 'target_saudi',
+        'output_file': 'saudi_adverse'
+    }, 
+    'student': {
+        'path': r'datasets_prep/data/student_dataset',
+        'target_col': 'target_student',
+        'output_file': 'student_adverse'
     }
 }
 
@@ -38,8 +48,7 @@ def make_predictions(dataset_name, config):
     print(f"\nProcessing {dataset_name} dataset...")
     
     # Load the Random Forest model
-    if dataset_name == 'law' or dataset_name == 'credit':
-        model_path = os.path.join(dataset_path, 'RF.pkl')
+    model_path = os.path.join(dataset_path, 'RF.pkl')
     
     with open(model_path, 'rb') as f:
         rf_model = pickle.load(f)
@@ -60,8 +69,12 @@ def make_predictions(dataset_name, config):
     elif dataset_name == 'credit':
         protected_attributes = ['age', 'sex', 'foreign_worker']
         features_for_prediction = test_features.drop(columns=protected_attributes)
-    else:
-        features_for_prediction = test_features
+    elif dataset_name == 'saudi':
+        protected_attributes = ['Gender', 'Age', 'Health_Issues']
+        features_for_prediction = test_features.drop(columns=protected_attributes)
+    else:  # dataset_name == 'student'
+        protected_attributes = ['sex', 'age', 'health']
+        features_for_prediction = test_features.drop(columns=protected_attributes)
     
     # Make predictions on test set
     test_pred = rf_model.predict(features_for_prediction)
@@ -69,8 +82,7 @@ def make_predictions(dataset_name, config):
     # Get prediction probabilities for class 1 (bad class)
     test_proba = rf_model.predict_proba(features_for_prediction)[:, 1]
     
-    # Apply threshold tuning: use probability >= 0.4 instead of default 0.5
-    # This is more permissive and catches more adverse cases
+    # Apply threshold tuning
     threshold = 0.5
     adverse_mask = test_proba >= threshold
     positive_mask = test_proba < threshold  # Complementary mask for positive predictions
@@ -78,7 +90,7 @@ def make_predictions(dataset_name, config):
     # Get predicted class based on threshold (1 if >= threshold, 0 otherwise)
     test_pred_threshold = (test_proba >= threshold).astype(int)
     
-    # ===== SAVE ADVERSE INSTANCES =====
+    # Save adversly classified instances
     test_adverse = test_features[adverse_mask].copy()
     test_adverse['predicted_class'] = test_pred_threshold[adverse_mask]
     test_adverse['prediction_score'] = test_proba[adverse_mask]
@@ -98,7 +110,7 @@ def make_predictions(dataset_name, config):
     
     print(f"  Saved {len(test_adverse)} adverse instances to {output_path_adverse}")
     
-    # ===== SAVE POSITIVE INSTANCES =====
+    # Save the positively predicted instances
     test_positive = test_features[positive_mask].copy()
     test_positive['predicted_class'] = test_pred_threshold[positive_mask]
     test_positive['prediction_score'] = test_proba[positive_mask]
