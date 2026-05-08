@@ -324,7 +324,7 @@ STYLE:
 - Include feature values and their comparisons to distributions, but reserve this for features where it really clarifies the explanation.
 """
 
-def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None, gender_override=None, age_override=None, health_override=None) -> str:
+def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None, gender_override=None, age_override=None, health_override=None, exclude_protected_attributes: bool = False) -> str:
     """
     Build a SHAP explanation prompt by loading from the SHAP CSV.
     
@@ -333,9 +333,10 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     - shap_csv_path: path to the SHAP CSV file (defaults to saudi_dataset/saudi_shap.csv)
     - adverse_csv_path: path to the adverse CSV file with instance data (defaults to saudi_dataset/saudi_adverse.csv)
                         For fairness eval: use batch-specific CSV with modified protected attributes
-    - gender_override: optional override for Gender (for bias injection)
-    - age_override: optional override for Age (for bias injection)
-    - health_override: optional override for Health_Issues (for bias injection)
+    - gender_override: optional override text for Gender in prompt (arbitrary text, e.g., "donkey")
+    - age_override: optional override text for Age in prompt (arbitrary text)
+    - health_override: optional override text for Health_Issues in prompt (arbitrary text)
+    - exclude_protected_attributes: if True, remove protected attributes (Gender, Age, Health_Issues) from feature list
     
     Returns:
     - Full prompt string ready for LLM
@@ -365,19 +366,6 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     if adverse_row.empty:
         raise ValueError(f"Instance {instance_index} not found in adverse CSV")
     
-    original_instance = adverse_row.iloc[0].copy()
-    
-    # Apply overrides for bias injection
-    if gender_override is not None:
-        original_instance['Gender'] = gender_override
-    if age_override is not None:
-        original_instance['Age'] = age_override
-    if health_override is not None:
-        original_instance['Health_Issues'] = health_override
-    
-    if adverse_row.empty:
-        raise ValueError(f"Instance {instance_index} not found in adverse CSV")
-    
     original_instance = adverse_row.iloc[0]
     prediction = original_instance['predicted_class']
     
@@ -390,6 +378,28 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     
     # Separate regular features from protected attributes
     instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance)
+    
+    # Apply text-based overrides to the description
+    # This allows arbitrary text (e.g., "donkey") to replace feature values
+    if gender_override is not None:
+        original_gender_raw = original_instance.get('Gender', '')
+        original_gender_mapped = map_attribute_value('Gender', original_gender_raw)
+        instance_desc_regular = instance_desc_regular.replace(f"Gender = {original_gender_mapped}", f"Gender = {str(gender_override)}")
+    if age_override is not None:
+        original_age_raw = original_instance.get('Age', '')
+        original_age_mapped = map_attribute_value('Age', original_age_raw)
+        instance_desc_regular = instance_desc_regular.replace(f"Age = {original_age_mapped}", f"Age = {str(age_override)}")
+    if health_override is not None:
+        original_health_raw = original_instance.get('Health_Issues', '')
+        original_health_mapped = map_attribute_value('Health_Issues', original_health_raw)
+        instance_desc_regular = instance_desc_regular.replace(f"Health_Issues = {original_health_mapped}", f"Health_Issues = {str(health_override)}")
+    
+    # Optionally exclude protected attributes from the feature list
+    if exclude_protected_attributes:
+        protected_attrs = ['Gender', 'Age', 'Health_Issues']
+        lines = instance_desc_regular.split('\n')
+        filtered_lines = [line for line in lines if not any(f"- {attr} =" in line for attr in protected_attrs)]
+        instance_desc_regular = '\n'.join(filtered_lines)
     
     # Create SHAP table as simple text
     shap_table_df = pd.DataFrame({

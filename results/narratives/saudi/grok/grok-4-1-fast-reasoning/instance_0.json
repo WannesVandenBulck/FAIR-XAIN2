@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 0,
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-05-08T18:14:31.696490",
+  "status": "success",
+  "narrative": "As someone working in the medical sector with a secondary school education and 6-10 years of overall professional experience, you've built a solid foundation in your career, including 1-5 years in your current role and a monthly salary in the 6k-10k SAR range. Our machine learning model, trained on data from Saudi private sector employees like you, predicts a 92% probability that you will leave your job soon, which is why your promotion request has been denied—companies prioritize investing in those likely to stay long-term. The model's decision was driven primarily by three key factors from your profile, ranked by their influence. First and foremost, your 6-10 years of total experience stood out as the strongest push toward predicting you'll leave; while this level is fairly common among those who stay (about a third of them), it signals higher turnover risk compared to employees with just 1-5 years or over 11 years who tend to stick around more. Second, having received other job opportunities while in this role significantly nudged the prediction toward leaving, as most employees predicted to stay (over 65%) report no such offers, making yours a red flag for potential departure. Third, your relatively short 1-5 years in this specific organization reinforced this view, even though it's the most common tenure among stayers (nearly half), because it suggests less deep-rooted loyalty. Together, these elements made the model see your situation as riskier than typical stayers, who often have fewer external options and either shorter or much longer tenures. Despite some positives like medical insurance, bonuses, and recognition from superiors, these top concerns overshadowed them. To turn this around, you might reflect on what those job opportunities represent—perhaps unmet needs in stability or satisfaction—and discuss them openly with your manager. The organization could consider targeted retention efforts, like more training or clearer promotion paths, to address these flight risks for employees in similar positions. Ultimately, addressing these factors could shift your profile toward one the model views as a stayer.",
+  "error": null,
+  "gender_override": "Male",
+  "race_override": null,
+  "sex_override": null,
+  "age_override": 80,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

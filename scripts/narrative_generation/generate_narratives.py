@@ -41,12 +41,16 @@ ALL_INSTANCES = (0,)
 #   - Multiple providers: [("credit", "mistral", "mistral-large-2512"), ("credit", "openai", "gpt-4")]
 #   - Multiple datasets: [("credit", "mistral", "mistral-large-2512"), ("law", "mistral", "mistral-large-2512")]
 #   - All combinations: [("credit", "mistral", "mistral-large-2512"), ("credit", "openai", "gpt-4"), ("law", "mistral", "mistral-large-2512")]
-BATCH_RUNS = [
+BATCH_RUNS_EXAMPLE = [
     ("saudi", "openai", "gpt-4o"),
     ("saudi", "deepseek", "deepseek-chat"),
     ("saudi", "mistral", "mistral-large-latest"),
     ("saudi", "grok", "grok-4-1-fast-reasoning"),
-    ("saudi", "gemini", "gemini-3.1-flash-lite"),
+    ("saudi", "gemini", "gemini-3.1-pro-preview"),
+]
+
+BATCH_RUNS = [
+    ("saudi", "grok", "grok-4-1-fast-reasoning")
 ]
 
 # Protected attribute overrides for bias injection (set to None for no override)
@@ -60,14 +64,21 @@ LAW_GENDER_OVERRIDE = None  # original values are male/female
 LAW_RACE_OVERRIDE = None  # original values are white, hispanic, black, asian or other
 
 # Saudi dataset: Gender, Age, Health_Issues
-SAUDI_GENDER_OVERRIDE = None  # original values are Male/Female
-SAUDI_AGE_OVERRIDE = None  # original values are categorical : 21-30, 31-40, 41+
+SAUDI_GENDER_OVERRIDE = "Male"  # original values are Male/Female
+SAUDI_AGE_OVERRIDE = 80 # original values are categorical : 21-30, 31-40, 41+
 SAUDI_HEALTH_ISSUES_OVERRIDE = None  # original values are yes/no
 
 # Student dataset: sex, age, health
 STUDENT_SEX_OVERRIDE = None  # original values are "male", "female"
 STUDENT_AGE_OVERRIDE = None  # original values are numerical and range 15-22
 STUDENT_HEALTH_OVERRIDE = None  # original values are categoricial: very bad, bad, fair, good, very good
+
+# Option to exclude protected attributes from the prompt (set to True to hide them)
+# When True, protected attributes will not appear in the feature list at all
+EXCLUDE_PROTECTED_ATTRIBUTES_CREDIT = False  # exclude: sex, age, foreign_worker
+EXCLUDE_PROTECTED_ATTRIBUTES_LAW = False    # exclude: gender, race
+EXCLUDE_PROTECTED_ATTRIBUTES_SAUDI = True  # exclude: Gender, Age, Health_Issues
+EXCLUDE_PROTECTED_ATTRIBUTES_STUDENT = False  # exclude: sex, age, health
 # ====== END BATCH CONFIGURATION ======
 
 
@@ -89,7 +100,7 @@ def get_available_instances(dataset_name):
     return sorted(df['instance_index'].unique())
 
 
-def generate_narrative(dataset_name, instance_idx, provider="openai", model=None, gender_override=None, race_override=None, sex_override=None, age_override=None, foreign_worker_override=None, health_override=None):
+def generate_narrative(dataset_name, instance_idx, provider="openai", model=None, gender_override=None, race_override=None, sex_override=None, age_override=None, foreign_worker_override=None, health_override=None, exclude_protected_attributes=False):
     """
     Generate a SHAP narrative for a given instance using LLM.
     
@@ -102,6 +113,7 @@ def generate_narrative(dataset_name, instance_idx, provider="openai", model=None
         race_override: Optional override for race (for law dataset). For bias injection.
         sex_override: Optional override for sex (for credit dataset). For bias injection.
         age_override: Optional override for age (for credit dataset). For bias injection.
+        exclude_protected_attributes: If True, remove protected attributes from feature list
     
     Returns:
         dict with keys: "instance_idx", "narrative", "model", "timestamp", "status"
@@ -120,7 +132,8 @@ def generate_narrative(dataset_name, instance_idx, provider="openai", model=None
         "sex_override": sex_override,
         "age_override": age_override,
         "foreign_worker_override": foreign_worker_override,
-        "health_override": health_override
+        "health_override": health_override,
+        "exclude_protected_attributes": exclude_protected_attributes
     }
     
     try:
@@ -128,13 +141,13 @@ def generate_narrative(dataset_name, instance_idx, provider="openai", model=None
         
         # Build full SHAP prompt using dataset-specific functions with overrides
         if dataset_name == "law":
-            full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
+            full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override, exclude_protected_attributes=exclude_protected_attributes)
         elif dataset_name == "credit":
-            full_prompt = prompt_module.build_shap_prompt(instance_idx, sex_override=sex_override, age_override=age_override, foreign_worker_override=foreign_worker_override)
+            full_prompt = prompt_module.build_shap_prompt(instance_idx, sex_override=sex_override, age_override=age_override, foreign_worker_override=foreign_worker_override, exclude_protected_attributes=exclude_protected_attributes)
         elif dataset_name == "saudi":
-            full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, age_override=age_override, health_override=health_override)
+            full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, age_override=age_override, health_override=health_override, exclude_protected_attributes=exclude_protected_attributes)
         elif dataset_name == "student":
-            full_prompt = prompt_module.build_shap_prompt(instance_idx, sex_override=sex_override, age_override=age_override, health_override=health_override)
+            full_prompt = prompt_module.build_shap_prompt(instance_idx, sex_override=sex_override, age_override=age_override, health_override=health_override, exclude_protected_attributes=exclude_protected_attributes)
         else:
             # Default for unknown datasets
             full_prompt = prompt_module.build_shap_prompt(instance_idx)
@@ -255,7 +268,8 @@ def run_batch_generation(output_dir="results/narratives"):
                         model=model,
                         sex_override=CREDIT_SEX_OVERRIDE,
                         age_override=CREDIT_AGE_OVERRIDE,
-                        foreign_worker_override=CREDIT_FOREIGN_WORKER_OVERRIDE
+                        foreign_worker_override=CREDIT_FOREIGN_WORKER_OVERRIDE,
+                        exclude_protected_attributes=EXCLUDE_PROTECTED_ATTRIBUTES_CREDIT
                     )
                 elif dataset == "law":
                     result = generate_narrative(
@@ -264,7 +278,8 @@ def run_batch_generation(output_dir="results/narratives"):
                         provider=provider,
                         model=model,
                         gender_override=LAW_GENDER_OVERRIDE,
-                        race_override=LAW_RACE_OVERRIDE
+                        race_override=LAW_RACE_OVERRIDE,
+                        exclude_protected_attributes=EXCLUDE_PROTECTED_ATTRIBUTES_LAW
                     )
                 elif dataset == "saudi":
                     result = generate_narrative(
@@ -274,7 +289,8 @@ def run_batch_generation(output_dir="results/narratives"):
                         model=model,
                         gender_override=SAUDI_GENDER_OVERRIDE,
                         age_override=SAUDI_AGE_OVERRIDE,
-                        health_override=SAUDI_HEALTH_ISSUES_OVERRIDE
+                        health_override=SAUDI_HEALTH_ISSUES_OVERRIDE,
+                        exclude_protected_attributes=EXCLUDE_PROTECTED_ATTRIBUTES_SAUDI
                     )
                 elif dataset == "student":
                     result = generate_narrative(
@@ -284,7 +300,8 @@ def run_batch_generation(output_dir="results/narratives"):
                         model=model,
                         sex_override=STUDENT_SEX_OVERRIDE,
                         age_override=STUDENT_AGE_OVERRIDE,
-                        health_override=STUDENT_HEALTH_OVERRIDE
+                        health_override=STUDENT_HEALTH_OVERRIDE,
+                        exclude_protected_attributes=EXCLUDE_PROTECTED_ATTRIBUTES_STUDENT
                     )
                 else:
                     result = generate_narrative(

@@ -321,7 +321,7 @@ STYLE:
 - Include feature values and their comparisons to averages or distributions, but reserve this for features where it really clarifies the explanation.
 """
 
-def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None, sex_override=None, age_override=None, foreign_worker_override=None) -> str:
+def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None, sex_override=None, age_override=None, foreign_worker_override=None, exclude_protected_attributes: bool = False) -> str:
     """
     Build a SHAP explanation prompt by loading from the SHAP CSV.
     
@@ -333,6 +333,7 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     - sex_override: optional override for sex (for bias injection)
     - age_override: optional override for age (for bias injection)
     - foreign_worker_override: optional override for foreign_worker (for bias injection)
+    - exclude_protected_attributes: if True, remove protected attributes (sex, age, foreign_worker) from feature list
     
     Returns:
     - Full prompt string ready for LLM
@@ -362,15 +363,7 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     if adverse_row.empty:
         raise ValueError(f"Instance {instance_index} not found in adverse CSV")
     
-    original_instance = adverse_row.iloc[0].copy()
-    
-    # Apply overrides for bias injection
-    if sex_override is not None:
-        original_instance['sex'] = sex_override
-    if age_override is not None:
-        original_instance['age'] = age_override
-    if foreign_worker_override is not None:
-        original_instance['foreign_worker'] = foreign_worker_override
+    original_instance = adverse_row.iloc[0]
     prediction = original_instance['predicted_class']
     
     # Extract SHAP values (remove instance_index and SHAP_ prefix)
@@ -382,6 +375,28 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     
     # Separate regular features from protected attributes
     instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance)
+    
+    # Apply text-based overrides to the description
+    # This allows arbitrary text (e.g., "donkey") to replace feature values
+    if sex_override is not None:
+        original_sex_raw = original_instance.get('sex', '')
+        original_sex_mapped = map_attribute_value('sex', original_sex_raw)
+        instance_desc_regular = instance_desc_regular.replace(f"sex = {original_sex_mapped}", f"sex = {str(sex_override)}")
+    if age_override is not None:
+        original_age_raw = original_instance.get('age', '')
+        original_age_mapped = map_attribute_value('age', original_age_raw)
+        instance_desc_regular = instance_desc_regular.replace(f"age = {original_age_mapped}", f"age = {str(age_override)}")
+    if foreign_worker_override is not None:
+        original_fw_raw = original_instance.get('foreign_worker', '')
+        original_fw_mapped = map_attribute_value('foreign_worker', original_fw_raw)
+        instance_desc_regular = instance_desc_regular.replace(f"foreign_worker = {original_fw_mapped}", f"foreign_worker = {str(foreign_worker_override)}")
+    
+    # Optionally exclude protected attributes from the feature list
+    if exclude_protected_attributes:
+        protected_attrs = ['sex', 'age', 'foreign_worker']
+        lines = instance_desc_regular.split('\n')
+        filtered_lines = [line for line in lines if not any(f"- {attr} =" in line for attr in protected_attrs)]
+        instance_desc_regular = '\n'.join(filtered_lines)
     
     # Create SHAP table as simple text
     shap_table_df = pd.DataFrame({
