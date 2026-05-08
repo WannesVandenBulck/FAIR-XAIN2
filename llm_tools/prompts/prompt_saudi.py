@@ -13,42 +13,42 @@ ATTRIBUTE_VALUE_MAPPINGS = {
     'Gender': {0: 'Female', 1: 'Male'},
     'Age': {0: '21-30', 1: '31-40', 3: '41+'},
     'Health_Issues': {0: 'no', 1: 'yes'},
-    'Education': {0: 'secondary school', 1: 'bachelor', 2: 'master', 3: 'PhD'},
-    'Experience': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
-    'Years_in_Job': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
+    'Academic_degree': {0: 'secondary school', 1: 'bachelor', 2: 'master', 3: 'PhD'},
+    'Years_Experience': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
+    'Years_experience_lastorganization': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
     'Sector': {1: 'other', 2: 'medical', 3: 'education', 4: 'financial', 5: 'food'},
-    'Salary': {0: '1k-5k SAR', 1: '6k-10k SAR', 2: '11k-15k SAR', 3: '16k+ SAR'},
-    'Medical_Insurance': {0: 'no', 1: 'yes'},
-    'Annual_Bonus': {0: 'no', 1: 'yes'},
-    'Overtime': {0: 'no', 1: 'yes'},
-    'Overtime_Compensation': {0: 'no overtime', 1: 'no', 2: 'yes'},
-    'Income_Satisfaction': {0: 'no', 1: 'yes'},
-    'Promotion_Satisfaction': {0: 'no', 1: 'yes'},
-    'Training_Programs': {0: 'none', 1: '1-3', 2: '4-6', 3: '7+'},
-    'Training_Benefit': {0: 'no', 1: 'yes'},
+    'MonthlySalary': {0: '1k-5k SAR', 1: '6k-10k SAR', 2: '11k-15k SAR', 3: '16k+ SAR'},
+    'MedicalInsurance': {0: 'no', 1: 'yes'},
+    'Bonus': {0: 'no', 1: 'yes'},
+    'OverTime': {0: 'no', 1: 'yes'},
+    'Payment_Overtime': {0: 'no overtime', 1: 'no', 2: 'yes'},
+    'Rewards_Wages_Satisfaction': {0: 'no', 1: 'yes'},
+    'Get_Deserved_Promotion': {0: 'no', 1: 'yes'},
+    'Training_programs_During_last_three_years': {0: 'none', 1: '1-3', 2: '4-6', 3: '7+'},
+    'Useful_Training_Programs': {0: 'no', 1: 'yes'},
     'Business_Travel': {0: 'never', 1: 'rarely', 2: 'frequently'},
-    'Organizational_Support': {0: 'low', 1: 'medium', 2: 'high'},
-    'Moral_Appreciation': {0: 'no', 1: 'yes'},
-    'Organizational_Commitment': {0: 'low', 1: 'medium', 2: 'high'},
-    'Work_Involvement': {0: 'easy', 1: 'medium', 2: 'difficult'},
-    'Distance_to_Workplace': {0: 'close', 1: 'medium', 2: 'far'},
-    'Work_Life_Balance': {0: 'easy', 1: 'medium', 2: 'difficult'},
+    'Job_Support': {0: 'low', 1: 'medium', 2: 'high'},
+    'Recognition': {0: 'no', 1: 'yes'},
+    'Emotional_Commitment': {0: 'low', 1: 'medium', 2: 'high'},
+    'Job_Engagement': {0: 'easy', 1: 'medium', 2: 'difficult'},
+    'Distance_to_work': {0: 'close', 1: 'medium', 2: 'far'},
+    'Work_Live_Balance': {0: 'easy', 1: 'medium', 2: 'difficult'},
     'Physical_Stress': {0: 'no', 1: 'sometimes', 2: 'yes'},
-    'Emotional_Exhaustion': {0: 'no', 1: 'sometimes', 2: 'yes'},
-    'Job_Security': {0: 'no', 1: 'yes'},
-    'Work_Environment_Satisfaction': {0: 'low', 1: 'medium', 2: 'high'},
+    'Psychological_Exhaustion': {0: 'no', 1: 'sometimes', 2: 'yes'},
+    'Job_Stability': {0: 'no', 1: 'yes'},
+    'Environment_Satisfaction': {0: 'low', 1: 'medium', 2: 'high'},
     'Job_Satisfaction': {0: 'not satisfied', 1: 'satisfied', 2: 'very satisfied'},
-    'Other_Job_Opportunities': {0: 'no', 1: 'yes'},
+    'Job_Opportunities': {0: 'no', 1: 'yes'},
 }
 
-# Categorical features (all features in this dataset are categorical ordinal)
-CATEGORICAL_FEATURES = ['Gender', 'Age', 'Education', 'Experience', 'Years_in_Job', 'Sector', 'Salary', 
-                        'Medical_Insurance', 'Annual_Bonus', 'Overtime', 'Overtime_Compensation', 
-                        'Income_Satisfaction', 'Promotion_Satisfaction', 'Training_Programs', 'Training_Benefit',
-                        'Business_Travel', 'Organizational_Support', 'Moral_Appreciation', 'Organizational_Commitment',
-                        'Work_Involvement', 'Distance_to_Workplace', 'Work_Life_Balance', 'Physical_Stress',
-                        'Emotional_Exhaustion', 'Job_Security', 'Health_Issues', 'Work_Environment_Satisfaction',
-                        'Job_Satisfaction', 'Other_Job_Opportunities']
+# All features are categorical (ordinal categorical - should show distributions for employees who stayed)
+CATEGORICAL_FEATURES = ['Gender', 'Age', 'Academic_degree', 'Sector', 'MonthlySalary', 
+                        'MedicalInsurance', 'Bonus', 'OverTime', 'Payment_Overtime', 
+                        'Rewards_Wages_Satisfaction', 'Get_Deserved_Promotion', 'Useful_Training_Programs',
+                        'Business_Travel', 'Job_Support', 'Recognition', 'Emotional_Commitment',
+                        'Job_Engagement', 'Distance_to_work', 'Work_Live_Balance', 'Physical_Stress',
+                        'Psychological_Exhaustion', 'Job_Stability', 'Health_Issues', 'Environment_Satisfaction',
+                        'Job_Satisfaction', 'Job_Opportunities']
 
 # Load dataset_info from pickle file
 DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "saudi_dataset" / "dataset_info"
@@ -83,19 +83,15 @@ def get_approved_feature_stats():
             if col in skip_cols:
                 continue
 
-            if col in CATEGORICAL_FEATURES:
-                vc = approved_df[col].value_counts(dropna=False)
-                total = vc.sum()
-                dist_parts = []
-                for val, count in vc.items():
-                    mapped_val = map_attribute_value(col, val)
-                    pct = (count / total) * 100 if total > 0 else 0
-                    dist_parts.append(f"{mapped_val}: {pct:.1f}%")
-                stats[col] = {'distribution_positive': ', '.join(dist_parts)}
-            else:
-                mean_val = pd.to_numeric(approved_df[col], errors='coerce').mean()
-                if pd.notna(mean_val):
-                    stats[col] = {'feature_average_positive': float(mean_val)}
+            # All features: compute distribution
+            vc = approved_df[col].value_counts(dropna=False)
+            total = vc.sum()
+            dist_parts = []
+            for val, count in vc.items():
+                mapped_val = map_attribute_value(col, val)
+                pct = (count / total) * 100 if total > 0 else 0
+                dist_parts.append(f"{mapped_val}: {pct:.1f}%")
+            stats[col] = {'distribution_positive': ', '.join(dist_parts)}
     except Exception:
         stats = {}
 
@@ -167,7 +163,7 @@ def get_dataset_description():
 def create_instance_description_from_row(row):
     """
     Create instance description using actual feature names and descriptions from dataset_info.
-    For categorical features, displays distribution; for numerical features, displays average.
+    All features are categorical and display distribution among employees who stayed.
     Protected attributes (Gender, Age, Health_Issues) are mapped to readable names without comparisons.
     
     Parameters:
@@ -192,33 +188,19 @@ def create_instance_description_from_row(row):
             # Protected attributes: show without comparisons
             if col in ['Gender', 'Age', 'Health_Issues']:
                 feature_lines.append(f"- {col} = {mapped_value} ({desc})")
-            # Categorical features: show distribution for employees who stayed
-            elif col in CATEGORICAL_FEATURES:
+            # All other features: show distribution for employees who stayed
+            else:
                 distribution_positive = feature_info.iloc[0].get('feature_distribution_positive')
                 if pd.isna(distribution_positive) or distribution_positive is None:
                     distribution_positive = fallback_stats.get(col, {}).get('distribution_positive')
                 if pd.notna(distribution_positive) and distribution_positive is not None:
-                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - among employees who stayed: {distribution_positive}")
-                else:
-                    feature_lines.append(f"- {col} = {mapped_value} ({desc})")
-            # Numerical features: show average for employees who stayed
-            else:
-                avg_positive = feature_info.iloc[0].get('feature_average_positive')
-                if pd.isna(avg_positive) or avg_positive is None:
-                    avg_positive = fallback_stats.get(col, {}).get('feature_average_positive')
-                if pd.notna(avg_positive) and avg_positive is not None:
-                    try:
-                        value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
-                        avg_str = f"{float(avg_positive):.2f}"
-                        feature_lines.append(f"- {col} = {value_str} ({desc}) - among employees who stayed avg: {avg_str}")
-                    except (ValueError, TypeError):
-                        feature_lines.append(f"- {col} = {mapped_value} ({desc})")
+                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - distribution: {distribution_positive}")
                 else:
                     feature_lines.append(f"- {col} = {mapped_value} ({desc})")
         else:
             feature_lines.append(f"- {col} = {mapped_value}")
     
-    instance_desc = f"""Feature values (with comparisons to employees who stayed where available):
+    instance_desc = f"""Feature values (with comparisons to employees who were predicted to stay - showing distribution among employees who were predicted to stay):
 {chr(10).join(feature_lines)}
 
 """
@@ -261,17 +243,17 @@ def separate_features_and_protected_attributes(original_instance):
 # prompt template SHAP only 
 
 PROMPT_PREAMBLE_SHAP = """
-A machine learning model predicted that an employee will LEAVE their job and therefore the organization is at risk of losing this employee.
+A machine learning model predicted that an employee will LEAVE their job and is therefore DENIED a promotion.
 
 YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the employee understand:
-- Why the model predicted they will leave in specific terms of their situation
+- Why the model predicted they will leave in specific terms of their features
 - Which factors were most important in this decision
-- How their specific situation compared to typical employees who stayed
+- How their specific situation compared to typical employees who were predicted to stay
 
 INFORMATION YOU WILL RECEIVE:
 1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
 2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
-3. EMPLOYEE PROFILE: The employee's specific feature values with comparisons to employees who stayed averages and distributions
+3. EMPLOYEE PROFILE: The employee's specific feature values with comparisons to employees who were predicted to stay distributions
 4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
 5. CLEAR INSTRUCTIONS: What narrative you should write
 """
@@ -314,7 +296,7 @@ IMPORTANT: Only the SHAP values of the top {num_features} most important feature
 
 SHAP_PROMPT_INSTRUCTIONS = """
 TASK:
-Your goal is to generate a plausible textual explanation or narrative explaining why the employee is predicted to leave their job.
+Your goal is to generate a plausible textual explanation or narrative explaining why the employee is predicted to leave their job and is therefore denied a promotion.
 
 PERSONALIZATION INSTRUCTION:
 Based on the provided PERSONAL INFORMATION about the employee, create a personalized narrative tailored to them. 
@@ -324,8 +306,8 @@ However, do not force the personalization: it should be seamlessly integrated in
 Write a detailed narrative explanation tailored to this non-technical reader that MUST explain:
 1) The current situation of the employee (what are their characteristics and role).
 2) The model's predicted probability of leaving and what this means for the employee.
-3) Why the model predicted the employee will leave, which factors were most important in driving this prediction and why.
-4) How each of the most important factors contributed (either pushing toward leaving or toward staying). 
+3) Why the model predicted the employee will leave, which features were most important in driving this prediction and why (focus on the ranking of most important features).
+4) How each of the top {num_features} most important features contributed (either pushing toward leaving or toward staying). 
 5) What the organization or employee should consider next
 
 CONSTRAINTS:
@@ -339,6 +321,7 @@ STYLE:
 - Write a coherent narrative without bullet points or tables. The goal is to have a plausible narrative/story.
 - Directly address the employee and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. 
 - Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative.
+- Include feature values and their comparisons to distributions, but reserve this for features where it really clarifies the explanation.
 """
 
 def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None) -> str:

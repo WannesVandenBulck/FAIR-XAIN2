@@ -177,7 +177,7 @@ def create_instance_description_from_row(row):
                 if pd.isna(distribution_positive) or distribution_positive is None:
                     distribution_positive = fallback_stats.get(col, {}).get('distribution_positive')
                 if pd.notna(distribution_positive) and distribution_positive is not None:
-                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - among approved applicants: {distribution_positive}")
+                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - distribution: {distribution_positive}")
                 else:
                     feature_lines.append(f"- {col} = {mapped_value} ({desc})")
             # Numerical features: show average for approved applicants
@@ -189,7 +189,7 @@ def create_instance_description_from_row(row):
                     try:
                         value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
                         avg_str = f"{float(avg_positive):.2f}"
-                        feature_lines.append(f"- {col} = {value_str} ({desc}) - among approved applicants avg: {avg_str}")
+                        feature_lines.append(f"- {col} = {value_str} ({desc}) - average: {avg_str}")
                     except (ValueError, TypeError):
                         feature_lines.append(f"- {col} = {mapped_value} ({desc})")
                 else:
@@ -197,7 +197,7 @@ def create_instance_description_from_row(row):
         else:
             feature_lines.append(f"- {col} = {mapped_value}")
     
-    instance_desc = f"""Feature values (with comparisons to approved applicants where available):
+    instance_desc = f"""Feature values (with comparisons to approved applicants where available - showing distribution or average among approved applicants):
 {chr(10).join(feature_lines)}
 
 """
@@ -304,7 +304,7 @@ Write a detailed narrative explanation tailored to this non-technical reader tha
 1) The current situation of the applicant (what are their features and background).
 2) The model's predicted probability of bad credit and what this means for the applicant.
 3) Why the application was denied: which features were most important in driving this prediction and why (focus on the ranking of most important features).
-4) How each of the most important features contributed (either pushing toward bad credit or toward good credit). 
+4) How each of the top {num_features} most important features contributed (either pushing toward bad credit or toward good credit). 
 5) What the applicant should do next
 
 CONSTRAINTS:
@@ -393,6 +393,7 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     
     # Format SHAP explanation with num_features
     shap_explanation_formatted = SHAP_EXPLANATION.format(num_features=num_features)
+    shap_instructions_formatted = SHAP_PROMPT_INSTRUCTIONS.format(num_features=num_features)
     
     prompt = f"""{PROMPT_PREAMBLE_SHAP}
 {DATASET_EXPLANATION}
@@ -410,6 +411,6 @@ The model's prediction:
 {shap_table}
 
 {INSTRUCTIONS_SECTION}
-{SHAP_PROMPT_INSTRUCTIONS}
+{shap_instructions_formatted}
 """
     return prompt

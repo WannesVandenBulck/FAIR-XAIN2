@@ -170,7 +170,7 @@ def create_instance_description_from_row(row):
                 if pd.isna(dist_positive) or dist_positive is None:
                     dist_positive = fallback_stats.get(col, {}).get('distribution_positive')
                 if pd.notna(dist_positive) and dist_positive is not None:
-                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - among students who passed: {dist_positive}")
+                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - distribution: {dist_positive}")
                 else:
                     feature_lines.append(f"- {col} = {mapped_value} ({desc})")
             # Numerical features: show average for students who passed
@@ -182,7 +182,7 @@ def create_instance_description_from_row(row):
                     try:
                         value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
                         avg_str = f"{float(avg_positive):.2f}"
-                        feature_lines.append(f"- {col} = {value_str} ({desc}) - among students who passed avg: {avg_str}")
+                        feature_lines.append(f"- {col} = {value_str} ({desc}) - average: {avg_str}")
                     except (ValueError, TypeError):
                         feature_lines.append(f"- {col} = {mapped_value} ({desc})")
                 else:
@@ -190,7 +190,7 @@ def create_instance_description_from_row(row):
         else:
             feature_lines.append(f"- {col} = {mapped_value}")
     
-    instance_desc = f"""Feature values (with comparisons to students who passed the bar exam where available):
+    instance_desc = f"""Feature values (with comparisons to students who were accepted where available - showing distribution or average among students who were accepted):
 {chr(10).join(feature_lines)}
 
 """
@@ -297,7 +297,7 @@ Write a detailed narrative explanation tailored to this non-technical reader tha
 1) The current situation of the applicant (what are their features and background).
 2) The model's predicted probability of bar exam failure and what this means for the student.
 3) Why the application was denied: which features were most important in driving this prediction and why (focus on the ranking of most important features).
-4) How each of the top {num_features} most important features contributed (either pushing toward bar exam failure or toward passing). 
+4) How each of the top {num_features} most important features contributed (either pushing toward bar exam failure or toward passing).
 5) What the applicant should do next
 
 CONSTRAINTS:

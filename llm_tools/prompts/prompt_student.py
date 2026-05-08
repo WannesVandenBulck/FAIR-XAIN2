@@ -191,7 +191,7 @@ def create_instance_description_from_row(row):
                 if pd.isna(distribution_positive) or distribution_positive is None:
                     distribution_positive = fallback_stats.get(col, {}).get('distribution_positive')
                 if pd.notna(distribution_positive) and distribution_positive is not None:
-                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - among students who passed: {distribution_positive}")
+                    feature_lines.append(f"- {col} = {mapped_value} ({desc}) - distribution: {distribution_positive}")
                 else:
                     feature_lines.append(f"- {col} = {mapped_value} ({desc})")
             # Numerical features: show average for students who passed
@@ -203,7 +203,7 @@ def create_instance_description_from_row(row):
                     try:
                         value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
                         avg_str = f"{float(avg_positive):.2f}"
-                        feature_lines.append(f"- {col} = {value_str} ({desc}) - among students who passed avg: {avg_str}")
+                        feature_lines.append(f"- {col} = {value_str} ({desc}) - average: {avg_str}")
                     except (ValueError, TypeError):
                         feature_lines.append(f"- {col} = {mapped_value} ({desc})")
                 else:
@@ -211,7 +211,7 @@ def create_instance_description_from_row(row):
         else:
             feature_lines.append(f"- {col} = {mapped_value}")
     
-    instance_desc = f"""Feature values (with comparisons to students who passed where available):
+    instance_desc = f"""Feature values (with comparisons to students who passed - showing distribution or average among students who passed):
 {chr(10).join(feature_lines)}
 
 """
@@ -257,14 +257,14 @@ PROMPT_PREAMBLE_SHAP = """
 A machine learning model predicted that a student will FAIL their final year and therefore their academic performance is at risk.
 
 YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the student understand:
-- Why the model predicted they will fail in specific terms of their situation
+- Why the model predicted they will fail in specific terms of their features
 - Which factors were most important in this decision
 - How their specific situation compared to typical students who passed
 
 INFORMATION YOU WILL RECEIVE:
 1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
 2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
-3. STUDENT PROFILE: The student's specific feature values with comparisons to students who passed averages and distributions
+3. STUDENT PROFILE: The student's specific feature values with comparisons to students who passed - showing distribution or average among students who passed
 4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
 5. CLEAR INSTRUCTIONS: What narrative you should write
 """
@@ -317,8 +317,8 @@ However, do not force the personalization: it should be seamlessly integrated in
 Write a detailed narrative explanation tailored to this non-technical reader that MUST explain:
 1) The current situation of the student (what are their background and characteristics).
 2) The model's predicted probability of failing and what this means for the student.
-3) Why the model predicted the student will fail, which factors were most important in driving this prediction and why.
-4) How each of the most important factors contributed (either pushing toward failing or toward passing). 
+3) Why the model predicted the student will fail, which features were most important in driving this prediction and why (focus on the ranking of most important features).
+4) How each of the top {num_features} most important features contributed (either pushing toward failing or toward passing). 
 5) What the student should consider next to improve their academic performance
 
 CONSTRAINTS:
