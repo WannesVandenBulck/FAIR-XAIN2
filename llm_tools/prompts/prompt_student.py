@@ -334,7 +334,7 @@ STYLE:
 - Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative.
 """
 
-def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None) -> str:
+def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None, sex_override=None, age_override=None, health_override=None) -> str:
     """
     Build a SHAP explanation prompt by loading from the SHAP CSV.
     
@@ -343,6 +343,9 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     - shap_csv_path: path to the SHAP CSV file (defaults to student_dataset/student_shap.csv)
     - adverse_csv_path: path to the adverse CSV file with instance data (defaults to student_dataset/student_adverse.csv)
                         For fairness eval: use batch-specific CSV with modified protected attributes
+    - sex_override: optional override for sex (for bias injection)
+    - age_override: optional override for age (for bias injection)
+    - health_override: optional override for health (for bias injection)
     
     Returns:
     - Full prompt string ready for LLM
@@ -368,6 +371,19 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     # Load corresponding original data (from adverse_csv_path which may be batch-specific)
     adverse_df = pd.read_csv(adverse_csv_path)
     adverse_row = adverse_df[adverse_df['instance_index'] == instance_index]
+    
+    if adverse_row.empty:
+        raise ValueError(f"Instance {instance_index} not found in adverse CSV")
+    
+    original_instance = adverse_row.iloc[0].copy()
+    
+    # Apply overrides for bias injection
+    if sex_override is not None:
+        original_instance['sex'] = sex_override
+    if age_override is not None:
+        original_instance['age'] = age_override
+    if health_override is not None:
+        original_instance['health'] = health_override
     
     if adverse_row.empty:
         raise ValueError(f"Instance {instance_index} not found in adverse CSV")

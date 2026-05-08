@@ -1,0 +1,16 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 0,
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-05-08T15:57:49.762539",
+  "status": "success",
+  "narrative": "Here’s a clear, personalized narrative explaining the model’s prediction for you:\n\nYou’re currently working in the medical sector with 6–10 years of overall experience, though you’ve spent 1–5 years in your current role. While your salary falls in the 6k–10k SAR range—common for many employees who stay—several key factors led the model to predict a 92% chance you’ll leave your job. This high probability means the system recommended denying your promotion request, as the risk of turnover outweighs the investment.\n\nThe strongest signal influencing this prediction is your years of experience. With 6–10 years in the workforce, you’re at a stage where many employees seek growth opportunities, yet you’ve spent relatively little time in your current organization. This mismatch suggests you may feel ready for advancement but haven’t had the chance to progress here. Additionally, you’ve received other job opportunities while employed here, which further increases the likelihood of leaving—employees who explore external options are far more likely to act on them. Finally, your shorter tenure in this role (1–5 years) also played a role; those who stay typically build longer histories with their employer.\n\nOther factors contributed to the prediction, though less strongly. For example, you’ve expressed dissatisfaction with your wages relative to your effort and don’t feel you’ve received deserved promotions—frustrations that often drive turnover. Your work-life balance is also strained, which can push employees to seek change. On the other hand, some aspects of your role, like receiving a bonus and feeling recognized for your work, slightly countered the prediction, as these are linked to higher retention.\n\nThis isn’t a reflection of your performance, but rather a pattern the model identified based on similar employees. If you’d like to discuss ways to address these concerns—whether through career development, workload adjustments, or other support—the organization may be open to exploring solutions. The goal is to ensure you feel valued and engaged in your role.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null
+}

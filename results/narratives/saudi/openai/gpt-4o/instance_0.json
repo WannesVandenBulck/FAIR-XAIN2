@@ -1,0 +1,16 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 0,
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-05-08T15:57:34.925843",
+  "status": "success",
+  "narrative": "You are currently working in the medical sector, and with 6-10 years of overall experience, you bring a wealth of knowledge to your role. However, the model has predicted a high probability of 92% that you might leave your job. This prediction has influenced the decision to deny your promotion, as the organization is concerned about investing in an employee who might not stay.\n\nThe model's prediction was primarily influenced by three key factors. First, your total years of experience, which is relatively high compared to many of your peers who are predicted to stay. This suggests that with your level of experience, you might be seeking new challenges or opportunities that your current role does not provide. Second, the fact that you have received other job opportunities while working in your current position indicates that you are in demand and might be considering these alternatives. Lastly, your tenure at your current organization, which is between 1-5 years, is a common period for employees to reassess their career paths and consider changes.\n\nEach of these factors contributed to the prediction that you might leave. Your extensive experience suggests you might be looking for roles that better match your skills and aspirations. The job offers you've received could be tempting, especially if they promise better growth or satisfaction. Meanwhile, your relatively short time at the current organization might mean you haven't yet formed a strong attachment or commitment to stay long-term.\n\nGiven these insights, it might be beneficial for both you and the organization to have an open discussion about your career goals and how they align with your current role. Exploring opportunities for growth, additional responsibilities, or even a tailored career path within the organization could help address the factors influencing the prediction. This proactive approach could lead to a more satisfying work experience for you and potentially alter the current trajectory suggested by the model.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null
+}

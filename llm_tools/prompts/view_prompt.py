@@ -4,7 +4,7 @@ Quick viewer for a SHAP prompt in Markdown format
  .\.venv\Scripts\python.exe .\llm_tools\prompts\view_prompt.py 13
  """
 
-from prompt_credit import build_shap_prompt
+from prompt_student import build_shap_prompt
 import sys
 
 # Get instance index from command line or default to 0

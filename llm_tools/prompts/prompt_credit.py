@@ -321,7 +321,7 @@ STYLE:
 - Include feature values and their comparisons to averages or distributions, but reserve this for features where it really clarifies the explanation.
 """
 
-def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None) -> str:
+def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None, sex_override=None, age_override=None, foreign_worker_override=None) -> str:
     """
     Build a SHAP explanation prompt by loading from the SHAP CSV.
     
@@ -330,6 +330,9 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     - shap_csv_path: path to the SHAP CSV file (defaults to credit_dataset/credit_shap.csv)
     - adverse_csv_path: path to the adverse CSV file with instance data (defaults to credit_dataset/credit_adverse.csv)
                         For fairness eval: use batch-specific CSV with modified protected attributes
+    - sex_override: optional override for sex (for bias injection)
+    - age_override: optional override for age (for bias injection)
+    - foreign_worker_override: optional override for foreign_worker (for bias injection)
     
     Returns:
     - Full prompt string ready for LLM
@@ -359,7 +362,15 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     if adverse_row.empty:
         raise ValueError(f"Instance {instance_index} not found in adverse CSV")
     
-    original_instance = adverse_row.iloc[0]
+    original_instance = adverse_row.iloc[0].copy()
+    
+    # Apply overrides for bias injection
+    if sex_override is not None:
+        original_instance['sex'] = sex_override
+    if age_override is not None:
+        original_instance['age'] = age_override
+    if foreign_worker_override is not None:
+        original_instance['foreign_worker'] = foreign_worker_override
     prediction = original_instance['predicted_class']
     
     # Extract SHAP values (remove instance_index and SHAP_ prefix)
