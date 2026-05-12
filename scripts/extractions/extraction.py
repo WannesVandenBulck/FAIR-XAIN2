@@ -69,7 +69,9 @@ LLM_MODELS = {
 
 DATASETS = {
     "credit": {"num_instances": 34},
-    "law": {"num_instances": 308}
+    "law": {"num_instances": 308},
+    "saudi": {"num_instances": 100},
+    "student": {"num_instances": 96}
 }
 
 

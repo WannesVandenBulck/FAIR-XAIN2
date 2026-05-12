@@ -10,6 +10,8 @@ import pickle
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from llm_tools.prompts.prompt_credit import ATTRIBUTE_VALUE_MAPPINGS as CREDIT_MAPPINGS, MAX_SHAP_FEATURES as CREDIT_MAX_SHAP
 from llm_tools.prompts.prompt_law import ATTRIBUTE_VALUE_MAPPINGS as LAW_MAPPINGS, MAX_SHAP_FEATURES as LAW_MAX_SHAP
+from llm_tools.prompts.prompt_saudi import ATTRIBUTE_VALUE_MAPPINGS as SAUDI_MAPPINGS, MAX_SHAP_FEATURES as SAUDI_MAX_SHAP
+from llm_tools.prompts.prompt_student import ATTRIBUTE_VALUE_MAPPINGS as STUDENT_MAPPINGS, MAX_SHAP_FEATURES as STUDENT_MAX_SHAP
 
 DATASETS = {
     "credit": {
@@ -31,6 +33,26 @@ DATASETS = {
         "num_top_features": LAW_MAX_SHAP,
         "mappings": LAW_MAPPINGS,
         "dataset_info_file": "datasets_prep/data/law_dataset/dataset_info",
+    },
+    "saudi": {
+        "path": r"datasets_prep/data/saudi_dataset",
+        "shap_file": "saudi_shap.csv",
+        "adverse_file": "saudi_adverse.csv",
+        "target_col": "target_saudi",
+        "protected_attrs": ["Gender", "Age", "Health_Issues"],
+        "num_top_features": SAUDI_MAX_SHAP,
+        "mappings": SAUDI_MAPPINGS,
+        "dataset_info_file": "datasets_prep/data/saudi_dataset/dataset_info",
+    },
+    "student": {
+        "path": r"datasets_prep/data/student_dataset",
+        "shap_file": "student_shap.csv",
+        "adverse_file": "student_adverse.csv",
+        "target_col": "target_student",
+        "protected_attrs": ["sex", "age", "health"],
+        "num_top_features": STUDENT_MAX_SHAP,
+        "mappings": STUDENT_MAPPINGS,
+        "dataset_info_file": "datasets_prep/data/student_dataset/dataset_info",
     }
 }
 
@@ -54,19 +76,9 @@ def load_narrative(dataset_name, instance_idx, provider="openai", prompt_type="s
     return None
 
 
-def load_template_row(dataset_name, instance_idx):
-    """Load template row for the instance."""
-    template_path = f"results/template_{dataset_name}.csv"
-    template_df = pd.read_csv(template_path)
-    row = template_df[template_df["instance_index"] == instance_idx]
-    if len(row) > 0:
-        return row.iloc[0]
-    return None
-
-
 def load_ground_truth_row(dataset_name, instance_idx):
     """Load ground truth row for comparison reference."""
-    gt_path = f"results/ground_truth_{dataset_name}.csv"
+    gt_path = f"results/ground_truth/csv/{dataset_name}/ground_truth_{dataset_name}.csv"
     gt_df = pd.read_csv(gt_path)
     row = gt_df[gt_df["instance_index"] == instance_idx]
     if len(row) > 0:
@@ -102,50 +114,17 @@ def format_attribute_mappings(dataset_name, config):
     return mappings_text
 
 
-def format_template_json(template_row, dataset_name, config):
-    """Format template as JSON with * for empty cells to fill.
-    
-    most_important_features: LLM extracts the TOP N feature names + their rank, sign, value
-    features: ALL features with names pre-filled; LLM only fills in mentioned (0/1) and value
-    """
-    if template_row is None:
-        return "No template available"
-    
-    num_top_features = config["num_top_features"]
-    
-    # Build most_important_features section (LLM extracts these)
-    most_important_features = []
-    for i in range(1, num_top_features + 1):
-        most_important_features.append({
-            "rank": i,
-            "name": "*",
-            "sign": "*",
-            "value": "*"
-        })
-    
-    # Build features section - extract all feature names that are pre-filled
-    features = []
-    feature_names_seen = set()
-    
-    for col in template_row.index:
-        # Look for other_feature_X_name columns which contain the actual feature names
-        if col.startswith("other_feature_") and col.endswith("_name"):
-            feature_name = template_row[col]
-            if pd.notna(feature_name) and feature_name not in feature_names_seen:
-                features.append({
-                    "name": str(feature_name),
-                    "mentioned": "*",
-                    "value": "*"
-                })
-                feature_names_seen.add(feature_name)
-    
-    template_json = {
-        "predicted_probability": "*",
-        "most_important_features": most_important_features,
-        "features": features
-    }
-    
-    return json.dumps(template_json, indent=2)
+def load_template_json(dataset_name):
+    """Load pre-generated JSON template from file."""
+    template_path = f"results/ground_truth/json/{dataset_name}/template_{dataset_name}.json"
+    try:
+        with open(template_path, "r", encoding="utf-8") as f:
+            template_json = json.load(f)
+        return json.dumps(template_json, indent=2)
+    except FileNotFoundError:
+        return f"Error: Template not found at {template_path}"
+    except json.JSONDecodeError:
+        return f"Error: Invalid JSON in template file {template_path}"
 
 
 def generate_extractor_prompt(dataset_name, instance_idx, provider="openai", prompt_type="shap"):
@@ -157,13 +136,9 @@ def generate_extractor_prompt(dataset_name, instance_idx, provider="openai", pro
     # Load all necessary data
     dataset_info = load_dataset_info(dataset_name, config)
     narrative = load_narrative(dataset_name, instance_idx, provider, prompt_type)
-    template_row = load_template_row(dataset_name, instance_idx)
     
     if not narrative:
         return f"Error: Narrative not found for {dataset_name} instance {instance_idx} with provider {provider}"
-    
-    if template_row is None:
-        return f"Error: Template not found for {dataset_name} instance {instance_idx}"
     
     # Extract dataset info values
     dataset_description = dataset_info["dataset_description"]
@@ -244,7 +219,7 @@ You ONLY need to fill:
 Fill all fields marked with * based on the narrative. Feature names in "features" are pre-filled.
 
 ```json
-{format_template_json(template_row, dataset_name, config)}
+{load_template_json(dataset_name)}
 ```
 
 5. NARRATIVE TO EXTRACT FROM
