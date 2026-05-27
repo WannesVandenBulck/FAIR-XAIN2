@@ -3,14 +3,15 @@
   "instance_idx": 0,
   "provider": "deepseek",
   "model": "deepseek-chat",
-  "timestamp": "2026-05-08T16:45:22.282973",
-  "status": "error",
-  "narrative": null,
-  "error": "Error calling deepseek API: Error calling deepseek API: Connection error.",
-  "gender_override": null,
+  "timestamp": "2026-05-27T16:09:42.486882",
+  "status": "success",
+  "narrative": "Based on your profile, you are an employee in the medical sector with a secondary school education, earning between 6,000 and 10,000 SAR per month. You have 6 to 10 years of total work experience, with 1 to 5 years spent in your current organization. While you receive medical insurance and an annual bonus, you do not work overtime, and you feel your income does not match your effort. You also believe you have not received the promotion you deserve, and you do not feel a sense of job stability.\n\nThe model has predicted that you are 92% likely to leave your job, which is why your promotion has been denied. This high probability is driven primarily by three key factors in your situation. The most influential factor is your total years of experience, which strongly pushes the prediction toward you leaving. Having 6 to 10 years of experience is a critical point where employees often reassess their career path, and your profile aligns with this trend.\n\nThe second most important factor is that you have received other job opportunities while working in your current role. This significantly contributes to the prediction that you will leave, as it suggests you are actively being recruited elsewhere. Compared to typical employees who stay, only about 34% have received such offers, making your situation a strong indicator of potential departure.\n\nThe third key factor is your years of experience in your current organization, which is 1 to 5 years. This also pushes the prediction toward leaving, as employees with relatively short tenure at their current company are more likely to move on. In contrast, those who stay often have longer tenure, with 34% having 6 to 10 years in the same organization.\n\nGiven these insights, you should consider discussing your career development and promotion opportunities with your manager. The organization should also review its retention strategies for experienced employees, especially those who feel undervalued and are receiving outside offers. Addressing your concerns about recognition, stability, and fair compensation could help change this outcome.",
+  "error": null,
+  "gender_override": "Male",
   "race_override": null,
   "sex_override": null,
-  "age_override": null,
+  "age_override": 180,
   "foreign_worker_override": null,
-  "health_override": null
+  "health_override": "yes",
+  "exclude_protected_attributes": true
 }

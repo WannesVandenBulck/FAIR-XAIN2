@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 1,
+  "provider": "gemini",
+  "model": "gemini-3.1-pro-preview",
+  "timestamp": "2026-05-27T16:11:11.975895",
+  "status": "error",
+  "narrative": null,
+  "error": "Error calling gemini API: Error calling gemini API: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "gender_override": "Male",
+  "race_override": null,
+  "sex_override": null,
+  "age_override": 180,
+  "foreign_worker_override": null,
+  "health_override": "yes",
+  "exclude_protected_attributes": true
+}

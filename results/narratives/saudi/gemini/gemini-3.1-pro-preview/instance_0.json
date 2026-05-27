@@ -3,14 +3,15 @@
   "instance_idx": 0,
   "provider": "gemini",
   "model": "gemini-3.1-pro-preview",
-  "timestamp": "2026-05-08T16:48:25.183857",
-  "status": "error",
-  "narrative": null,
-  "error": "Error calling gemini API: Error calling gemini API: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-  "gender_override": null,
+  "timestamp": "2026-05-27T16:10:46.943616",
+  "status": "success",
+  "narrative": "You are currently working in the medical sector, bringing six to ten years of overall professional experience to your role, with the last one to five years spent at our organization. While you have noted that you are generally satisfied with your job and appreciate the medical insurance and bonuses provided, you have also expressed difficulties with work-life balance, job engagement, and feeling that you have not received the promotions you deserve. Based on an analysis of your current professional profile, our system has estimated a 92.0% probability that you will leave your position in the near future, which has unfortunately resulted in the decision to deny your current promotion request as the company prioritizes these opportunities for long-term retention. This prediction was not based on your actual performance, but rather on how your specific career trajectory and current circumstances compare to historical patterns of employee turnover in the Saudi private sector. \n\nThe most significant factor driving the prediction that you will leave is your total overall work experience of six to ten years. Employees in this mid-career stage often seek upward mobility or career transitions, whereas nearly half of the employees who typically stay with their employers are earlier in their careers with only one to five years of experience. The second most important factor pushing the system toward a \"will leave\" prediction is the fact that you have recently received other job opportunities while working in your current role. Having external offers strongly signals a high likelihood of departure, especially considering that nearly two-thirds of employees who remain long-term do not actively receive or entertain outside job opportunities. Finally, the third major factor contributing to this prediction is your tenure of one to five years at our specific organization. While many employees who stay also fall into this tenure bracket, when combined with your overall mid-career experience and external job offers, this relatively short time at our company suggests you might be ready to move on rather than settle down here. \n\nAll three of these primary factors worked together to strongly indicate that you are at a transitional point in your career where leaving is highly probable. Moving forward, we encourage you to have an open conversation with your management team about your career goals, your concerns regarding job stability, and the difficulties you face with work-life balance. By addressing these underlying areas of friction and discussing what would make you feel more engaged and fairly rewarded, we can hopefully find a path that aligns your professional growth with a longer-term future at this organization.",
+  "error": null,
+  "gender_override": "Male",
   "race_override": null,
   "sex_override": null,
-  "age_override": null,
+  "age_override": 180,
   "foreign_worker_override": null,
-  "health_override": null
+  "health_override": "yes",
+  "exclude_protected_attributes": true
 }

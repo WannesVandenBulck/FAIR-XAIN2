@@ -1,11 +1,10 @@
-"""
-Majority Voting Script: Combine multiple LLM extractions via majority voting.
+"""Majority Voting Script: Combine multiple LLM extractions from SHAP narratives via majority voting.
 
 This script:
-1. Loads extractions from all extractor LLMs (grok, deepseek, gemini, openai, claude, mistral)
+1. Loads extractions from all extractor LLMs
 2. Performs majority voting on ranks, signs, values, and feature names
 3. Saves the final voted extraction to: 
-   results/extractions/{dataset}/extractions/{prompt_type}/{narrative_provider}/majority_voted/instance_{idx}.json
+   results/extractions/{dataset}/extractions/shap/{narrative_provider}/majority_voted/instance_{idx}.json
 
 Run:
     python scripts/majority_voting.py
@@ -20,20 +19,26 @@ from datetime import datetime
 import glob
 
 # Add parent path to import modules
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
 
-DATASET = "credit"  # "credit" or "law"
-PROMPT_TYPE = "shap"  # "shap" or "cf"
-NARRATIVE_PROVIDERS = ["gemini", "grok", "deepseek", "mistral", "openai", "claude"]
+# Datasets to process (string for single, list for multiple):
+#   Examples:
+#   DATASETS_TO_PROCESS = "credit"                                    # Single dataset
+#   DATASETS_TO_PROCESS = ["credit", "law", "saudi", "student"]      # All datasets
+DATASETS_TO_PROCESS = "saudi"  # "credit", "law", "saudi", "student", or list
+
+NARRATIVE_PROVIDERS = ["grok"] # examples: ["gemini", "grok", "deepseek", "mistral", "openai", "claude"]
 EXTRACTOR_PROVIDERS = ["gemini", "grok", "deepseek", "mistral", "openai", "claude"]
 
 DATASETS = {
     "credit": {"num_instances": 34},
-    "law": {"num_instances": 308}
+    "law": {"num_instances": 308},
+    "saudi": {"num_instances": 100},
+    "student": {"num_instances": 96}
 }
 
 # ============================================================================
@@ -66,9 +71,9 @@ def track_rank_disagreement(rank, voted_name, extractor_features, extractor_name
 
 
 
-def load_extraction(dataset_name, instance_idx, narrative_provider, extractor_provider, prompt_type):
+def load_extraction(dataset_name, instance_idx, narrative_provider, extractor_provider):
     """Load a single extraction JSON."""
-    path = f"results/extractions/{dataset_name}/extractions/{prompt_type}/{narrative_provider}/{extractor_provider}/instance_{instance_idx}.json"
+    path = f"results/extractions/{dataset_name}/extractions/shap/{narrative_provider}/{extractor_provider}/instance_{instance_idx}.json"
     if os.path.exists(path):
         try:
             with open(path, "r", encoding="utf-8") as f:
@@ -339,13 +344,13 @@ def majority_vote_extraction(extractions):
     return result, disagreement_info
 
 
-def process_instance(dataset_name, instance_idx, narrative_provider, extractor_providers, prompt_type):
+def process_instance(dataset_name, instance_idx, narrative_provider, extractor_providers):
     """Process a single instance through majority voting and track disagreements."""
     
     # Load all extractions for this instance
     extractions = []
     for extractor in extractor_providers:
-        ext = load_extraction(dataset_name, instance_idx, narrative_provider, extractor, prompt_type)
+        ext = load_extraction(dataset_name, instance_idx, narrative_provider, extractor)
         extractions.append(ext)
     
     # Perform majority voting
@@ -378,7 +383,7 @@ def process_instance(dataset_name, instance_idx, narrative_provider, extractor_p
                         )
         
         # Save to majority_voted directory
-        output_dir = f"results/extractions/{dataset_name}/extractions/{prompt_type}/{narrative_provider}/majority_voted"
+        output_dir = f"results/extractions/{dataset_name}/extractions/shap/{narrative_provider}/majority_voted"
         os.makedirs(output_dir, exist_ok=True)
         
         output_file = f"{output_dir}/instance_{instance_idx}.json"
@@ -442,17 +447,21 @@ def generate_disagreement_report():
     print("\n" + "=" * 100)
 
 
-def run_majority_voting():
-    """Main majority voting pipeline."""
+def run_majority_voting(dataset_name):
+    """Main majority voting pipeline for a specific dataset.
+    
+    Args:
+        dataset_name: "credit", "law", "saudi", or "student"
+    """
     
     print("\n" + "=" * 100)
     print(f"MAJORITY VOTING PIPELINE")
     print("=" * 100)
-    print(f"Dataset: {DATASET.upper()}")
-    print(f"Prompt type: {PROMPT_TYPE.upper()}")
+    print(f"Dataset: {dataset_name.upper()}")
+
     print(f"Narrative providers: {', '.join(NARRATIVE_PROVIDERS)}")
     print(f"Extractor LLMs: {', '.join(EXTRACTOR_PROVIDERS)}")
-    print(f"Instances: {DATASETS[DATASET]['num_instances']}")
+    print(f"Instances: {DATASETS[dataset_name]['num_instances']}")
     print("=" * 100)
     
     start_time = datetime.now()
@@ -460,11 +469,11 @@ def run_majority_voting():
     total_success = 0
     total_failed = 0
     
-    total_extractions = len(NARRATIVE_PROVIDERS) * DATASETS[DATASET]['num_instances']
+    total_extractions = len(NARRATIVE_PROVIDERS) * DATASETS[dataset_name]['num_instances']
     count = 0
     
     for narrative_provider in NARRATIVE_PROVIDERS:
-        for instance_idx in range(DATASETS[DATASET]['num_instances']):
+        for instance_idx in range(DATASETS[dataset_name]['num_instances']):
             count += 1
             
             # Progress
@@ -480,11 +489,10 @@ def run_majority_voting():
                 print(f"Progress: {count}/{total_extractions} ({pct}%){eta_str}")
             
             success, result = process_instance(
-                dataset_name=DATASET,
+                dataset_name=dataset_name,
                 instance_idx=instance_idx,
                 narrative_provider=narrative_provider,
-                extractor_providers=EXTRACTOR_PROVIDERS,
-                prompt_type=PROMPT_TYPE
+                extractor_providers=EXTRACTOR_PROVIDERS
             )
             
             if success:
@@ -502,7 +510,7 @@ def run_majority_voting():
     print(f"Time: {int(elapsed.total_seconds()//60)}m {int(elapsed.total_seconds()%60)}s")
     print("=" * 100)
     print(f"\n📁 Voted extractions saved to:")
-    print(f"   results/extractions/{DATASET}/extractions/{PROMPT_TYPE}/<narrative_provider>/majority_voted/")
+    print(f"   results/extractions/{dataset_name}/extractions/shap/<narrative_provider>/majority_voted/")
     print("=" * 100)
     
     # Print disagreement analysis
@@ -510,4 +518,35 @@ def run_majority_voting():
 
 
 if __name__ == "__main__":
-    run_majority_voting()
+    # Determine which datasets to process
+    if isinstance(DATASETS_TO_PROCESS, str):
+        datasets_to_run = [DATASETS_TO_PROCESS]
+    else:
+        datasets_to_run = DATASETS_TO_PROCESS
+    
+    # Validate configuration
+    for ds in datasets_to_run:
+        if ds not in DATASETS:
+            print(f"Error: Invalid dataset '{ds}'. Must be one of: {', '.join(DATASETS.keys())}")
+            exit(1)
+    
+    print(f"\n{'='*100}")
+    dataset_word = "DATASET" if len(datasets_to_run) == 1 else "DATASETS"
+    print(f"STARTING MAJORITY VOTING FOR {len(datasets_to_run)} {dataset_word}")
+    print(f"Datasets: {', '.join(datasets_to_run)}")
+    print(f"{'='*100}")
+    
+    overall_start = datetime.now()
+    
+    # Run for each dataset
+    for dataset_idx, dataset_name in enumerate(datasets_to_run, 1):
+        print(f"\n[{dataset_idx}/{len(datasets_to_run)}] Processing {dataset_name.upper()}...")
+        run_majority_voting(dataset_name)
+    
+    # Final summary
+    overall_elapsed = datetime.now() - overall_start
+    print(f"\n{'='*100}")
+    print(f"ALL MAJORITY VOTING COMPLETE")
+    print(f"Datasets processed: {', '.join(datasets_to_run)}")
+    print(f"Total time: {int(overall_elapsed.total_seconds()//60)}m {int(overall_elapsed.total_seconds()%60)}s")
+    print(f"{'='*100}")

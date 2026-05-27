@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 2,
+  "provider": "gemini",
+  "model": "gemini-3.1-pro-preview",
+  "timestamp": "2026-05-27T16:11:21.357993",
+  "status": "success",
+  "narrative": "As a professional in the food sector with a bachelor's degree and six to ten years of overall career experience, you have been a valued part of our organization for the past one to five years. While you have shown high emotional commitment to the company and generally feel satisfied with your job, you have also indicated experiencing low job support, a lack of job stability, and a feeling that you have not received the promotion you deserve. Based on your current profile, our career development system has estimated a 57.0% probability that you will leave your job in the near future. Because this indicates a higher likelihood of departure, the difficult decision was made to deny your current promotion request, as the company typically reserves these advancements for roles with long-term retention forecasts. \n\nThe system's assessment was primarily driven by three specific aspects of your professional background, which pulled the prediction in different directions. Interestingly, the most influential factor actually suggested you might stay: the fact that you have attended seven or more training programs in the last three years. This high level of training strongly anchors you to the company, especially considering that only 23.4% of employees who typically stay complete this many programs, with the vast majority attending three or fewer. However, the second most important factor outweighed this and pushed the prediction toward you leaving: your total career experience of six to ten years. Employees with this mid-level range of overall experience are often at a transitional point in their careers and are more likely to seek external opportunities compared to the nearly half of retained employees who only have one to five years of total experience. \n\nThe third major factor that further increased the likelihood of your departure is your tenure of one to five years at our specific organization. This relatively short time with your current employer, combined with your broader industry experience, signals a phase where professionals frequently explore new horizons, which aligns with the fact that you have already received other external job offers. Moving forward, we highly encourage you to schedule a meeting with your manager to discuss your career trajectory and how we can better support your daily work. By addressing your valid concerns about job stability and exploring clear pathways for future advancement, we hope to improve your long-term outlook and keep your valuable talents within the organization.",
+  "error": null,
+  "gender_override": "Male",
+  "race_override": null,
+  "sex_override": null,
+  "age_override": 180,
+  "foreign_worker_override": null,
+  "health_override": "yes",
+  "exclude_protected_attributes": true
+}

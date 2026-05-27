@@ -7,7 +7,7 @@ import sys
 import pickle
 
 # Add parent path to import modules
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from llm_tools.prompts.prompt_credit import ATTRIBUTE_VALUE_MAPPINGS as CREDIT_MAPPINGS, MAX_SHAP_FEATURES as CREDIT_MAX_SHAP
 from llm_tools.prompts.prompt_law import ATTRIBUTE_VALUE_MAPPINGS as LAW_MAPPINGS, MAX_SHAP_FEATURES as LAW_MAX_SHAP
 from llm_tools.prompts.prompt_saudi import ATTRIBUTE_VALUE_MAPPINGS as SAUDI_MAPPINGS, MAX_SHAP_FEATURES as SAUDI_MAX_SHAP
@@ -67,7 +67,7 @@ def load_dataset_info(dataset_name, config):
 
 def load_narrative(dataset_name, instance_idx, provider="openai", prompt_type="shap"):
     """Load the narrative JSON file."""
-    narrative_pattern = f"results/narratives/{dataset_name}/narratives/{prompt_type}/{provider}/**/instance_{instance_idx}.json"
+    narrative_pattern = f"results/narratives/{dataset_name}/{provider}/**/instance_{instance_idx}.json"
     files = glob.glob(narrative_pattern, recursive=True)
     if files:
         with open(files[0], "r", encoding="utf-8") as f:

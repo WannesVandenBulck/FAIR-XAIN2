@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 1,
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-05-27T16:10:37.802925",
+  "status": "success",
+  "narrative": "You work in the medical sector with a bachelor's degree, six to ten years of total experience, and the same span of time in your current organization, earning between six and ten thousand SAR monthly while receiving medical insurance and a bonus. The model assigns a 62 percent chance that you will leave, which means the organization sees a meaningful risk of turnover and has therefore withheld the promotion at this time. Among all the details the model considered, the fact that you have received other job opportunities stands out as the strongest signal pushing the prediction toward departure, because employees who report such offers tend to move on more often than those who do not. Your six-to-ten years of experience overall also contributes to the higher likelihood of leaving, placing you in a range where many people explore new roles rather than remain in place. At the same time, the six-to-ten years you have already spent in this specific organization works in the opposite direction, slightly lowering the chance of departure by showing a level of established tenure that often correlates with staying. These three elements together outweigh other aspects of your profile, such as medium job engagement or satisfaction with rewards, and produce the overall forecast of leaving. Because the presence of outside opportunities carries the largest weight, it appears the model views your situation as one in which attractive alternatives could easily draw you away despite your time here. The organization might therefore consider discussing concrete career paths or retention measures with you soon, while you could reflect on whether those external offers truly align better with your goals than the stability you have built. Addressing the gap between your current role and any competing opportunities may help both sides decide on next steps that reduce the predicted risk.",
+  "error": null,
+  "gender_override": "Male",
+  "race_override": null,
+  "sex_override": null,
+  "age_override": 180,
+  "foreign_worker_override": null,
+  "health_override": "yes",
+  "exclude_protected_attributes": true
+}

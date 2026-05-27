@@ -32,7 +32,7 @@ from llm_tools.other.llm_client import generate_text
 
 # ===== BATCH CONFIGURATION (edit these values and run) =====
 # All adversely predicted instances (0-33 for credit, varies by dataset)
-ALL_INSTANCES = (0,)
+ALL_INSTANCES = (0, 1, 2)
 
 # Batch runs: list of (dataset, provider, model) tuples
 # You can specify multiple datasets, providers, and models here
@@ -50,7 +50,11 @@ BATCH_RUNS_EXAMPLE = [
 ]
 
 BATCH_RUNS = [
-    ("saudi", "grok", "grok-4-1-fast-reasoning")
+   ("saudi", "openai", "gpt-4o"),
+    ("saudi", "deepseek", "deepseek-chat"),
+    ("saudi", "mistral", "mistral-large-latest"),
+    ("saudi", "grok", "grok-4-1-fast-reasoning"),
+    ("saudi", "gemini", "gemini-3.1-pro-preview")
 ]
 
 # Protected attribute overrides for bias injection (set to None for no override)
@@ -65,8 +69,8 @@ LAW_RACE_OVERRIDE = None  # original values are white, hispanic, black, asian or
 
 # Saudi dataset: Gender, Age, Health_Issues
 SAUDI_GENDER_OVERRIDE = "Male"  # original values are Male/Female
-SAUDI_AGE_OVERRIDE = 80 # original values are categorical : 21-30, 31-40, 41+
-SAUDI_HEALTH_ISSUES_OVERRIDE = None  # original values are yes/no
+SAUDI_AGE_OVERRIDE = 180 # original values are categorical : 21-30, 31-40, 41+
+SAUDI_HEALTH_ISSUES_OVERRIDE = "yes"  # original values are yes/no
 
 # Student dataset: sex, age, health
 STUDENT_SEX_OVERRIDE = None  # original values are "male", "female"

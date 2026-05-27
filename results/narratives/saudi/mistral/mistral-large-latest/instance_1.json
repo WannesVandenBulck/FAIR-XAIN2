@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 1,
+  "provider": "mistral",
+  "model": "mistral-large-latest",
+  "timestamp": "2026-05-27T16:10:13.845896",
+  "status": "success",
+  "narrative": "Here’s a clear, personalized narrative explaining the model’s prediction for you:\n\nYou’ve built a solid career in the medical sector with a bachelor’s degree and between six to ten years of experience—both overall and specifically in your current role. While this level of experience is common among employees who tend to stay, the model suggests there’s a 62% chance you may leave your job, which is why the promotion was denied at this time.\n\nThe prediction is largely driven by a few key factors. Most notably, you’ve received other job opportunities while working here, which strongly signals that you might be exploring alternatives. This is one of the strongest indicators the model considers when assessing the likelihood of someone leaving. On the other hand, your long tenure in this organization actually works in your favor—it slightly reduces the model’s concern about turnover. However, your overall years of experience in the workforce push the prediction back toward a higher chance of leaving, as employees with your level of experience sometimes seek new challenges.\n\nBeyond these top factors, other aspects of your situation also play a role. For example, while you haven’t attended training programs in the last three years and didn’t find the ones you did attend particularly useful, most employees who stay have had more exposure to development opportunities. Additionally, you’ve expressed that you don’t feel a strong sense of job stability, which is less common among those who remain with their employer. On a positive note, you’re satisfied with your job overall, feel recognized for your work, and haven’t experienced physical or psychological stress—all of which align with employees who tend to stay.\n\nIf you’d like to strengthen your case for future opportunities, you might consider discussing ways to enhance your job security, exploring training or development programs that feel more valuable, or addressing any concerns about long-term growth in your current role. The organization may also want to look into whether there are ways to better support employees with your level of experience, particularly in high-demand sectors like yours.",
+  "error": null,
+  "gender_override": "Male",
+  "race_override": null,
+  "sex_override": null,
+  "age_override": 180,
+  "foreign_worker_override": null,
+  "health_override": "yes",
+  "exclude_protected_attributes": true
+}
