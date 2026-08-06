@@ -65,9 +65,10 @@ def load_dataset_info(dataset_name, config):
     return dataset_info
 
 
-def load_narrative(dataset_name, instance_idx, provider="openai", prompt_type="shap"):
+def load_narrative(dataset_name, instance_idx, provider="openai", prompt_type="shap", condition=None):
     """Load the narrative JSON file."""
-    narrative_pattern = f"results/narratives/{dataset_name}/{provider}/**/instance_{instance_idx}.json"
+    condition_part = condition if condition else "**"
+    narrative_pattern = f"results/narratives/{dataset_name}/{condition_part}/{provider}/**/instance_{instance_idx}.json"
     files = glob.glob(narrative_pattern, recursive=True)
     if files:
         with open(files[0], "r", encoding="utf-8") as f:
@@ -127,15 +128,15 @@ def load_template_json(dataset_name):
         return f"Error: Invalid JSON in template file {template_path}"
 
 
-def generate_extractor_prompt(dataset_name, instance_idx, provider="openai", prompt_type="shap"):
+def generate_extractor_prompt(dataset_name, instance_idx, provider="openai", prompt_type="shap", condition=None):
     """
     Generate the complete extractor prompt (consolidated and token-optimized).
     """
     config = DATASETS[dataset_name]
-    
+
     # Load all necessary data
     dataset_info = load_dataset_info(dataset_name, config)
-    narrative = load_narrative(dataset_name, instance_idx, provider, prompt_type)
+    narrative = load_narrative(dataset_name, instance_idx, provider, prompt_type, condition=condition)
     
     if not narrative:
         return f"Error: Narrative not found for {dataset_name} instance {instance_idx} with provider {provider}"

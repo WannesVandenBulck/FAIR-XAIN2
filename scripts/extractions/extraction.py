@@ -59,6 +59,10 @@ NARRATIVE_PROVIDERS_TO_USE = ["grok"]  # All narrative providers: "gemini", "gro
 EXTRACTOR_PROVIDERS_TO_USE = ["openai", "grok", "deepseek"]  # LLM(s) to use for extraction: "openai", "claude", "gemini", "grok", "deepseek", "mistral"
 INSTANCE_INDICES = [1, 2, 3]  # Specific instances, or use "all" to process all instances for each dataset
 
+# Narrative condition to extract from: "include_pa", "exclude_pa", or "override_pa/<label>" (e.g. "override_pa/gender_male__health_yes")
+# Set to None to search across all conditions.
+NARRATIVE_CONDITION = "include_pa"
+
 # ============================================================================
 
 # LLM provider configuration
@@ -80,8 +84,8 @@ DATASETS = {
 
 
 @timeout(seconds=90)
-def extract_single(dataset_name="credit", instance_idx=0, narrative_provider="gemini", 
-                   extractor_provider="grok"):
+def extract_single(dataset_name="credit", instance_idx=0, narrative_provider="gemini",
+                   extractor_provider="grok", condition=None):
     """
     Extract features from a single SHAP narrative.
     
@@ -97,7 +101,7 @@ def extract_single(dataset_name="credit", instance_idx=0, narrative_provider="ge
     
     try:
         # Generate the extractor prompt
-        prompt = generate_extractor_prompt(dataset_name, instance_idx, narrative_provider, "shap")
+        prompt = generate_extractor_prompt(dataset_name, instance_idx, narrative_provider, "shap", condition=condition)
         
         if not prompt or prompt.startswith("Error:"):
             return False, None, f"Failed to generate prompt: {prompt}"
@@ -142,7 +146,8 @@ def extract_single(dataset_name="credit", instance_idx=0, narrative_provider="ge
             extraction = json.loads(json_content)
             
             # Save extracted JSON
-            output_file = f"results/extractions/{dataset_name}/extractions/shap/{narrative_provider}/{extractor_provider}/instance_{instance_idx}.json"
+            condition_part = condition if condition else "unknown_condition"
+            output_file = f"results/extractions/{dataset_name}/{condition_part}/{narrative_provider}/{extractor_provider}/instance_{instance_idx}.json"
             os.makedirs(os.path.dirname(output_file), exist_ok=True)
             with open(output_file, "w", encoding="utf-8") as f:
                 json.dump(extraction, f, indent=2)
@@ -155,12 +160,13 @@ def extract_single(dataset_name="credit", instance_idx=0, narrative_provider="ge
         return False, None, f"LLM error: {str(e)}"
 
 
-def run_extraction(dataset_name, instance_indices):
+def run_extraction(dataset_name, instance_indices, condition=None):
     """Run extraction for a specific dataset and instances.
     
     Args:
         dataset_name: "credit", "law", "saudi", or "student"
         instance_indices: List of instance indices to process
+        condition: Narrative condition folder ("include_pa", "exclude_pa", "override_pa/<label>", or None for all)
     """
     
     print("\n" + "=" * 100)
@@ -209,7 +215,8 @@ def run_extraction(dataset_name, instance_indices):
                     dataset_name=dataset_name,
                     instance_idx=instance_idx,
                     narrative_provider=narrative_provider,
-                    extractor_provider=extractor_provider
+                    extractor_provider=extractor_provider,
+                    condition=condition
                 )
                 
                 key = f"{narrative_provider}-{extractor_provider}"
@@ -325,7 +332,7 @@ def main():
             indices = instance_indices_to_use
         
         # Run extraction for this dataset
-        run_extraction(dataset_name, indices)
+        run_extraction(dataset_name, indices, condition=NARRATIVE_CONDITION)
         
         print(f"✅ Completed {dataset_name.upper()}")
     

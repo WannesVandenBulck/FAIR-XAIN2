@@ -13,12 +13,6 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime
 import importlib
-import pickle
-
-try:
-    dill = importlib.import_module("dill")
-except ModuleNotFoundError:
-    dill = pickle
 
 # Add parent directory to path to find llm_tools
 ROOT = Path(__file__).parent.parent.parent
@@ -189,50 +183,36 @@ def save_result(result, output_dir):
     instance = result["instance_idx"]
     provider = result["provider"]
     model = result["model"]
-    
-    # Create directory structure: dataset/provider/model
-    result_dir = Path(output_dir) / dataset / provider / model
+
+    # Determine condition subfolder
+    exclude_pa = result.get("exclude_protected_attributes", False)
+    overrides = {
+        "gender": result.get("gender_override"),
+        "race": result.get("race_override"),
+        "sex": result.get("sex_override"),
+        "age": result.get("age_override"),
+        "foreign_worker": result.get("foreign_worker_override"),
+        "health": result.get("health_override"),
+    }
+    active_overrides = {k: v for k, v in overrides.items() if v is not None}
+
+    if exclude_pa:
+        condition = "exclude_pa"
+    elif active_overrides:
+        label = "__".join(f"{k}_{str(v).lower()}" for k, v in active_overrides.items())
+        condition = f"override_pa/{label}"
+    else:
+        condition = "include_pa"
+
+    result_dir = Path(output_dir) / dataset / condition / provider / model
     result_dir.mkdir(parents=True, exist_ok=True)
-    
-    # Save as JSON
+
     filepath = result_dir / f"instance_{instance}.json"
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
-    
+
     return filepath
 
-
-def save_experiment_pickle(results, model_name, output_dir, dataset, provider):
-    """Save generated narratives in one aggregated experiment.pkl (SHAP-narrative-metrics style)."""
-
-    # Match reference style: one binary file with all generated narratives for a run.
-    experiment_dir = Path(output_dir) / "experiments" / dataset / provider / model_name
-    experiment_dir.mkdir(parents=True, exist_ok=True)
-
-    experiment_payload = {
-        "dataset": dataset,
-        "provider": provider,
-        "model": model_name,
-        "run_timestamp": datetime.now().isoformat(),
-        "num_instances": len(results),
-        "successful": sum(1 for r in results if r.get("status") == "success"),
-        "failed": sum(1 for r in results if r.get("status") == "error"),
-        "instances": sorted([r.get("instance_idx") for r in results if "instance_idx" in r]),
-        "results": results,
-    }
-
-    experiment_path = experiment_dir / "experiment.pkl"
-    with open(experiment_path, "wb") as f:
-        dill.dump(experiment_payload, f)
-
-    # Optional temp checkpoint path, similar to reference repo usage.
-    temp_dir = Path(output_dir) / "temp"
-    temp_dir.mkdir(parents=True, exist_ok=True)
-    temp_path = temp_dir / "latest_experiment.pkl"
-    with open(temp_path, "wb") as f:
-        dill.dump(experiment_payload, f)
-
-    return experiment_path, temp_path
 
 
 def run_batch_generation(output_dir="results/narratives"):
@@ -337,19 +317,6 @@ def run_batch_generation(output_dir="results/narratives"):
                     "error": str(e),
                     "timestamp": datetime.now().isoformat()
                 })
-        
-        # Save aggregated results for this configuration
-        if all_results:
-            config_results = [r for r in all_results if r.get("dataset") == dataset and r.get("provider") == provider and r.get("model") == model]
-            if config_results:
-                experiment_path, temp_path = save_experiment_pickle(
-                    config_results,
-                    model,
-                    output_dir,
-                    dataset,
-                    provider
-                )
-                print(f"  Config results saved to: {experiment_path}")
         
         print()
     
