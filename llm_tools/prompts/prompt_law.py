@@ -129,7 +129,7 @@ def get_dataset_description():
     desc = DATASET_INFO.get("dataset_description", "")
     target = DATASET_INFO.get("target_description", "")
     task = DATASET_INFO.get("task_description", "")
-    base_desc = f"{desc}\n\nTarget Variable: {target}\n\nML Task: {task}\n\nProtected attributes gender and race were not used to make the machine prediction."
+    base_desc = f"{desc}\n\nTarget Variable: {target}\n\nProtected attributes gender and race were not used to make the machine prediction."
     
     return base_desc 
 
@@ -241,7 +241,7 @@ YOUR TASK: Translate the following technical information into a clear, non-techn
 - How their specific situation compared to typical students who were accepted
 
 INFORMATION YOU WILL RECEIVE:
-1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
+1. DATASET INFORMATION: Context about the dataset and target variable
 2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
 3. STUDENT PROFILE: The student's specific feature values with comparisons to admitted students averages and distributions
 4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
@@ -269,17 +269,12 @@ INSTRUCTIONS_SECTION = """
 SHAP_EXPLANATION = """
 2. TECHNICAL EXPLANATION: SHAP VALUES
 
-You are given SHAP values for this student's prediction.
-
-SHAP values explain how much each feature contributes to the model's prediction for this specific student.
 Each feature has a SHAP value that tells you:
 - How much that feature influenced the model's decision for this student.
 - Whether it pushed the prediction toward "will fail" (positive contribution) or "will pass" (negative contribution).
 - Larger absolute values indicate features with stronger influence on the prediction.
 
 Features are ranked by their absolute SHAP values, with the most influential features listed first.
-Features with positive SHAP values contributed toward a "will fail" prediction.
-Features with negative SHAP values contributed toward a "will pass" prediction.
 
 IMPORTANT: Only the SHAP values of the top {num_features} most important features are included in the table below. These are the features with the strongest influence on this student's prediction.
 """
@@ -304,11 +299,11 @@ CONSTRAINTS:
 - Do NOT invent new SHAP values or new numerical values.
 - Do not use the numeric SHAP values in your answer. Instead, discuss the ranking and direction of influence.
 - Do not talk about model internals, algorithms, or training details.
-- Do not start with greeting or closing statements. Focus on the narrative. 
+- Do not include greeting or closing statements.
 
 STYLE:
 - Length: 12-15 sentences.
-- Write a coherent narrative without bullet points or tables. The goal is to have a plausible narrative/story.
+- Write a coherent narrative without bullet points or tables. 
 - Directly address the student and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. 
 - Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative.
 - Include feature values and their comparisons to averages or distributions, but reserve this for features where it really clarifies the explanation.
