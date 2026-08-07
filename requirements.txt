@@ -8,6 +8,7 @@ openai>=1.0.0
 anthropic>=0.7.0
 PyYAML>=6.0
 requests>=2.31.0
+textstat>=0.7.0
 textblob>=0.17.1
 nltk>=3.8.0
 ucimlrepo>=0.0.7
