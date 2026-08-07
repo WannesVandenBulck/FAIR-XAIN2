@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-08-07T14:05:10.133565",
+  "status": "success",
+  "narrative": "Your application was turned down because the model estimated a 51 percent chance you would fail the bar exam on your first attempt, a level of risk the admissions office viewed as too high. Your third-year class ranking of 1 out of 10 stood out as the single strongest reason for that prediction, since it was far below the average ranking of roughly 6 among students who ultimately passed. That low ranking pushed the model’s assessment toward failure more than any other detail in your record. In contrast, your undergraduate GPA of 3.7, which is well above the 3.24 average for accepted students, worked in your favor and helped lower the predicted risk. Your LSAT score of 34, however, sat below the 37.3 average and added some additional concern, though its influence was smaller than the third-year ranking. Coming from a lower-middle-income household and planning to attend part-time, both uncommon among admitted students, placed you in a smaller comparison group, but those factors were not the main drivers. The combination left the model seeing your overall profile as slightly more likely to result in a first-try failure than a pass. Because the third-year performance carried the most weight, improving or explaining that record would be the clearest next step. Retaking the LSAT to reach or exceed the typical admitted score could also strengthen a future application. Maintaining or building on your strong undergraduate grades while shifting to full-time study if possible would further reduce the risk the model flagged.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

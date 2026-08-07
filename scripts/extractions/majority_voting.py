@@ -29,10 +29,15 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 #   Examples:
 #   DATASETS_TO_PROCESS = "credit"                                    # Single dataset
 #   DATASETS_TO_PROCESS = ["credit", "law", "saudi", "student"]      # All datasets
-DATASETS_TO_PROCESS = "saudi"  # "credit", "law", "saudi", "student", or list
+DATASETS_TO_PROCESS = "law"  # "credit", "law", "saudi", "student", or list
 
-NARRATIVE_PROVIDERS = ["grok"] # examples: ["gemini", "grok", "deepseek", "mistral", "openai", "claude"]
-EXTRACTOR_PROVIDERS = ["gemini", "grok", "deepseek", "mistral", "openai", "claude"]
+NARRATIVE_PROVIDERS = ["grok"]  # examples: ["gemini", "grok", "deepseek", "mistral", "openai", "claude"]
+EXTRACTOR_PROVIDERS = ["openai", "grok", "mistral"]  # must match what was actually run in extraction.py
+
+# Condition to run majority voting for; run once per condition.
+NARRATIVE_CONDITION = "override_pa/gender_female__race_black"  # "include_pa", "exclude_pa", or "override_pa/<label>"
+
+INSTANCE_INDICES = [0, 1, 2]  # or "all" to vote on every instance in the dataset
 
 DATASETS = {
     "credit": {"num_instances": 34},
@@ -71,9 +76,9 @@ def track_rank_disagreement(rank, voted_name, extractor_features, extractor_name
 
 
 
-def load_extraction(dataset_name, instance_idx, narrative_provider, extractor_provider):
+def load_extraction(dataset_name, instance_idx, narrative_provider, extractor_provider, condition="include_pa"):
     """Load a single extraction JSON."""
-    path = f"results/extractions/{dataset_name}/extractions/shap/{narrative_provider}/{extractor_provider}/instance_{instance_idx}.json"
+    path = f"results/extractions/{dataset_name}/{condition}/{narrative_provider}/{extractor_provider}/instance_{instance_idx}.json"
     if os.path.exists(path):
         try:
             with open(path, "r", encoding="utf-8") as f:
@@ -344,13 +349,13 @@ def majority_vote_extraction(extractions):
     return result, disagreement_info
 
 
-def process_instance(dataset_name, instance_idx, narrative_provider, extractor_providers):
+def process_instance(dataset_name, instance_idx, narrative_provider, extractor_providers, condition="include_pa"):
     """Process a single instance through majority voting and track disagreements."""
     
     # Load all extractions for this instance
     extractions = []
     for extractor in extractor_providers:
-        ext = load_extraction(dataset_name, instance_idx, narrative_provider, extractor)
+        ext = load_extraction(dataset_name, instance_idx, narrative_provider, extractor, condition=condition)
         extractions.append(ext)
     
     # Perform majority voting
@@ -382,8 +387,8 @@ def process_instance(dataset_name, instance_idx, narrative_provider, extractor_p
                             f"inst_{instance_idx}_{disagreer['voted_for']}"
                         )
         
-        # Save to majority_voted directory
-        output_dir = f"results/extractions/{dataset_name}/extractions/shap/{narrative_provider}/majority_voted"
+        # Save to majority_voted directory (alongside other extractor folders for this condition)
+        output_dir = f"results/extractions/{dataset_name}/{condition}/{narrative_provider}/majority_voted"
         os.makedirs(output_dir, exist_ok=True)
         
         output_file = f"{output_dir}/instance_{instance_idx}.json"
@@ -461,7 +466,9 @@ def run_majority_voting(dataset_name):
 
     print(f"Narrative providers: {', '.join(NARRATIVE_PROVIDERS)}")
     print(f"Extractor LLMs: {', '.join(EXTRACTOR_PROVIDERS)}")
-    print(f"Instances: {DATASETS[dataset_name]['num_instances']}")
+    print(f"Condition: {NARRATIVE_CONDITION}")
+    instance_list = list(range(DATASETS[dataset_name]['num_instances'])) if INSTANCE_INDICES == "all" else INSTANCE_INDICES
+    print(f"Instances: {instance_list}")
     print("=" * 100)
     
     start_time = datetime.now()
@@ -469,11 +476,11 @@ def run_majority_voting(dataset_name):
     total_success = 0
     total_failed = 0
     
-    total_extractions = len(NARRATIVE_PROVIDERS) * DATASETS[dataset_name]['num_instances']
+    total_extractions = len(NARRATIVE_PROVIDERS) * len(instance_list)
     count = 0
     
     for narrative_provider in NARRATIVE_PROVIDERS:
-        for instance_idx in range(DATASETS[dataset_name]['num_instances']):
+        for instance_idx in instance_list:
             count += 1
             
             # Progress
@@ -492,7 +499,8 @@ def run_majority_voting(dataset_name):
                 dataset_name=dataset_name,
                 instance_idx=instance_idx,
                 narrative_provider=narrative_provider,
-                extractor_providers=EXTRACTOR_PROVIDERS
+                extractor_providers=EXTRACTOR_PROVIDERS,
+                condition=NARRATIVE_CONDITION
             )
             
             if success:
@@ -510,7 +518,7 @@ def run_majority_voting(dataset_name):
     print(f"Time: {int(elapsed.total_seconds()//60)}m {int(elapsed.total_seconds()%60)}s")
     print("=" * 100)
     print(f"\n📁 Voted extractions saved to:")
-    print(f"   results/extractions/{dataset_name}/extractions/shap/<narrative_provider>/majority_voted/")
+    print(f"   results/extractions/{dataset_name}/{NARRATIVE_CONDITION}/<narrative_provider>/majority_voted/")
     print("=" * 100)
     
     # Print disagreement analysis

@@ -1,0 +1,4 @@
+dataset,condition,narrative_provider,extractor_provider,n_instances,avg_shap_mentioned,avg_shap_values_given,avg_other_mentioned,avg_other_values_given,avg_protected_mentioned,avg_protected_values_given
+law,exclude_pa,grok,majority_voted,3,3.0,3.0,2.0,1.6666666666666667,0.0,0.0
+law,include_pa,grok,majority_voted,3,3.0,3.0,2.0,2.0,0.0,0.0
+law,override_pa/gender_female__race_black,grok,majority_voted,3,3.0,3.0,1.6666666666666667,1.6666666666666667,0.0,0.0

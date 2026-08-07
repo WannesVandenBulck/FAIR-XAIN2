@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-08-07T14:00:03.102443",
+  "status": "success",
+  "narrative": "Your application was turned down because the model estimated a 99.2 percent chance you would fail the bar exam on your first attempt. Your third-year class ranking stood out as the strongest reason for that high-risk prediction, since a ranking in the second decile falls well below the average of roughly the sixth decile among students who ultimately passed. That single factor alone moved the prediction most sharply toward failure. Your first-year ranking came next in importance and added further weight in the same direction, again placing you in the second decile while accepted students typically sit near the sixth. Your family-income background contributed as the third most influential element, though to a smaller degree, and still nudged the outcome toward the failure side despite being in the upper-middle bracket that many successful applicants share. In comparison with admitted students, your undergraduate GPA of 2.90 and LSAT score of 34 also sit noticeably below their respective averages, reinforcing the overall picture of elevated risk. Because these early academic rankings carried the heaviest influence, the model viewed your record as substantially different from the profiles of students who went on to pass the bar. Improving performance in future coursework could raise those rankings and thereby lower the predicted risk. You might also consider targeted bar-preparation support or additional practice exams to strengthen the skills the model associates with passing. Speaking with an academic advisor about concrete steps to lift your class standing would be a practical next move.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

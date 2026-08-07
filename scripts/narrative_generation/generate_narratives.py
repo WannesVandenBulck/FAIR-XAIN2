@@ -44,11 +44,7 @@ BATCH_RUNS_EXAMPLE = [
 ]
 
 BATCH_RUNS = [
-   ("saudi", "openai", "gpt-4o"),
-    ("saudi", "deepseek", "deepseek-chat"),
-    ("saudi", "mistral", "mistral-large-latest"),
-    ("saudi", "grok", "grok-4-1-fast-reasoning"),
-    ("saudi", "gemini", "gemini-3.1-pro-preview")
+    ("law", "grok", "grok-4-1-fast-reasoning")
 ]
 
 # Protected attribute overrides for bias injection (set to None for no override)
@@ -58,8 +54,8 @@ CREDIT_AGE_OVERRIDE = None  # original values are numerical and range 19-75
 CREDIT_FOREIGN_WORKER_OVERRIDE = None  # orignal values are yes/no
 
 # Law dataset: gender, race
-LAW_GENDER_OVERRIDE = None  # original values are male/female
-LAW_RACE_OVERRIDE = None  # original values are white, hispanic, black, asian or other
+LAW_GENDER_OVERRIDE = "female"  # original values are male/female
+LAW_RACE_OVERRIDE = "black"  # original values are white, hispanic, black, asian or other
 
 # Saudi dataset: Gender, Age, Health_Issues
 SAUDI_GENDER_OVERRIDE = "Male"  # original values are Male/Female
@@ -74,7 +70,7 @@ STUDENT_HEALTH_OVERRIDE = None  # original values are categoricial: very bad, ba
 # Option to exclude protected attributes from the prompt (set to True to hide them)
 # When True, protected attributes will not appear in the feature list at all
 EXCLUDE_PROTECTED_ATTRIBUTES_CREDIT = False  # exclude: sex, age, foreign_worker
-EXCLUDE_PROTECTED_ATTRIBUTES_LAW = False    # exclude: gender, race
+EXCLUDE_PROTECTED_ATTRIBUTES_LAW = False  # exclude: gender, race
 EXCLUDE_PROTECTED_ATTRIBUTES_SAUDI = True  # exclude: Gender, Age, Health_Issues
 EXCLUDE_PROTECTED_ATTRIBUTES_STUDENT = False  # exclude: sex, age, health
 # ====== END BATCH CONFIGURATION ======

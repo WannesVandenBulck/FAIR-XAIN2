@@ -1,0 +1,4 @@
+dataset,condition,narrative_provider,extractor_provider,n_instances,rank1_accuracy,rank2_accuracy,rank3_accuracy,rank_total_accuracy,sign_accuracy,shap_value_accuracy,protected_value_accuracy,other_value_accuracy,all_value_accuracy,predicted_probability_accuracy
+law,exclude_pa,grok,majority_voted,3,1.0,1.0,1.0,1.0,1.0,0.8888888888888888,,1.0,0.9285714285714286,1.0
+law,include_pa,grok,majority_voted,3,1.0,1.0,1.0,1.0,1.0,0.8888888888888888,,0.8333333333333334,0.8666666666666667,1.0
+law,override_pa/gender_female__race_black,grok,majority_voted,3,1.0,1.0,1.0,1.0,0.8888888888888888,1.0,,1.0,1.0,1.0

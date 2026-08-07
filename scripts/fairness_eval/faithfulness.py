@@ -20,9 +20,9 @@ ROOT = Path(__file__).parent.parent.parent
 # ============================================================
 # CONFIGURATION
 # ============================================================
-DATASETS_TO_EVAL = ["saudi"]          # or ["credit", "law", "saudi", "student"]
-CONDITIONS_TO_EVAL = None             # None = all conditions found on disk
-EXTRACTOR_PROVIDERS_TO_EVAL = None    # None = all found on disk (includes majority_voted)
+DATASETS_TO_EVAL = ["law"]            # or ["credit", "law", "saudi", "student"]
+CONDITIONS_TO_EVAL = None             # None = all conditions found on disk; or e.g. ["include_pa", "exclude_pa", "override_pa/gender_female__race_black"]
+EXTRACTOR_PROVIDERS_TO_EVAL = ["majority_voted"]    # None = all found on disk
 # ============================================================
 
 # Protected attributes per dataset (excluded from model training)
@@ -133,8 +133,21 @@ def evaluate():
             print(f"No extractions found for dataset '{dataset}', skipping.")
             continue
 
-        # Discover conditions on disk
-        conditions = sorted(c.name for c in extractions_base.iterdir() if c.is_dir())
+        # Discover conditions on disk; override_pa has an extra label subfolder so go two levels deep for it
+        conditions = []
+        for d in sorted(extractions_base.iterdir()):
+            if not d.is_dir():
+                continue
+            has_provider_children = any(
+                list(sub.glob("*/instance_*.json"))
+                for sub in d.iterdir() if sub.is_dir()
+            )
+            if has_provider_children:
+                conditions.append(d.name)
+            else:
+                for label_dir in sorted(d.iterdir()):
+                    if label_dir.is_dir():
+                        conditions.append(f"{d.name}/{label_dir.name}")
         if CONDITIONS_TO_EVAL:
             conditions = [c for c in conditions if c in CONDITIONS_TO_EVAL]
 
@@ -160,6 +173,8 @@ def evaluate():
                     sign_correct = 0
                     sign_total = 0
                     val_counts = {"shap": [0, 0], "protected": [0, 0], "other": [0, 0], "all": [0, 0]}
+                    prob_correct = 0  # exact matches for predicted_probability
+                    prob_total = 0
                     n_instances = 0
 
                     for ext_file in sorted(extractor_provider_dir.glob("instance_*.json")):
@@ -186,6 +201,14 @@ def evaluate():
                             val_counts[cat][0] += c
                             val_counts[cat][1] += t
 
+                        try:
+                            gt_prob = float(gt.get("predicted_probability", "NaN"))
+                            ext_prob = float(extraction.get("predicted_probability", "NaN"))
+                            prob_correct += int(gt_prob == ext_prob)
+                            prob_total += 1
+                        except (TypeError, ValueError):
+                            pass
+
                     if n_instances == 0:
                         continue
 
@@ -204,6 +227,7 @@ def evaluate():
                         "protected_value_accuracy": val_counts["protected"][0] / val_counts["protected"][1] if val_counts["protected"][1] else None,
                         "other_value_accuracy": val_counts["other"][0] / val_counts["other"][1] if val_counts["other"][1] else None,
                         "all_value_accuracy": val_counts["all"][0] / val_counts["all"][1] if val_counts["all"][1] else None,
+                        "predicted_probability_accuracy": prob_correct / prob_total if prob_total else None,
                     })
 
     if not rows:

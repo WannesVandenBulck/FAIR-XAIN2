@@ -23,9 +23,9 @@ ROOT = Path(__file__).parent.parent.parent
 # ============================================================
 # CONFIGURATION
 # ============================================================
-DATASETS_TO_EVAL = ["saudi"]          # or ["credit", "law", "saudi", "student"]
+DATASETS_TO_EVAL = ["law"]          # or ["credit", "law", "saudi", "student"]
 CONDITIONS_TO_EVAL = None             # None = all conditions found on disk
-EXTRACTOR_PROVIDERS_TO_EVAL = None    # None = all found on disk
+EXTRACTOR_PROVIDERS_TO_EVAL = ["majority_voted"]    # None = all found on disk
 # ============================================================
 
 PROTECTED_ATTRS = {
@@ -100,7 +100,21 @@ def evaluate():
 
         protected_attrs = PROTECTED_ATTRS.get(dataset, [])
 
-        conditions = sorted(c.name for c in extractions_base.iterdir() if c.is_dir())
+        # override_pa has an extra label subfolder so go two levels deep for it
+        conditions = []
+        for d in sorted(extractions_base.iterdir()):
+            if not d.is_dir():
+                continue
+            has_provider_children = any(
+                list(sub.glob("*/instance_*.json"))
+                for sub in d.iterdir() if sub.is_dir()
+            )
+            if has_provider_children:
+                conditions.append(d.name)
+            else:
+                for label_dir in sorted(d.iterdir()):
+                    if label_dir.is_dir():
+                        conditions.append(f"{d.name}/{label_dir.name}")
         if CONDITIONS_TO_EVAL:
             conditions = [c for c in conditions if c in CONDITIONS_TO_EVAL]
 

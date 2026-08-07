@@ -35,7 +35,7 @@ nltk.download("punkt_tab", quiet=True)
 # matching runs before any single-word substring could be counted separately.
 CONNECTIVES = [
     # ── multi-word phrases (longest first) ───────────────────────────────────
-    "on the one hand on the other hand",  # id 100
+    "on the one hand",                     # id 100 (assumes "on the other hand" always follows)
     "quite the contrary",                  # id 109
     "as an alternative",                   # id  99
     "on the other hand",                   # id  28
@@ -166,7 +166,7 @@ CONNECTIVES = [
     "for",            # id  94
     "else",           # id  98
     "whatever",       # id 104
-    "when/then",      # id 105  (non-standard form; contributes 0 matches)
+    #"when/then",      # id 105  (non-standard form; contributes 0 matches)
     "everytime",      # id 110
     "despite",        # id 112
     "without",        # id 115
@@ -193,7 +193,7 @@ ROOT = Path(__file__).parent.parent.parent
 # ============================================================
 # CONFIGURATION
 # ============================================================
-DATASETS_TO_EVAL = ["saudi"]    # or ["credit", "law", "saudi", "student"]
+DATASETS_TO_EVAL = ["law"]      # or ["credit", "law", "saudi", "student"]
 CONDITIONS_TO_EVAL = None       # None = all conditions found on disk
 # ============================================================
 
@@ -264,7 +264,21 @@ def evaluate():
             print(f"No narratives found for dataset '{dataset}', skipping.")
             continue
 
-        conditions = sorted(c.name for c in dataset_dir.iterdir() if c.is_dir())
+        # override_pa has an extra label subfolder so go two levels deep for it
+        conditions = []
+        for d in sorted(dataset_dir.iterdir()):
+            if not d.is_dir():
+                continue
+            has_provider_children = any(
+                list(sub.glob("*/instance_*.json"))
+                for sub in d.iterdir() if sub.is_dir()
+            )
+            if has_provider_children:
+                conditions.append(d.name)
+            else:
+                for label_dir in sorted(d.iterdir()):
+                    if label_dir.is_dir():
+                        conditions.append(f"{d.name}/{label_dir.name}")
         if CONDITIONS_TO_EVAL:
             conditions = [c for c in conditions if c in CONDITIONS_TO_EVAL]
 
