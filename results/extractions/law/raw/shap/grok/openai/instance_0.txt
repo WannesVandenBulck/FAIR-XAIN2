@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "ugpa",
       "sign": "-1",
-      "value": "3.7"
+      "value": "3.70"
     },
     {
       "rank": 3,
@@ -45,7 +45,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": "3.7"
+      "value": "3.70"
     },
     {
       "name": "fulltime",

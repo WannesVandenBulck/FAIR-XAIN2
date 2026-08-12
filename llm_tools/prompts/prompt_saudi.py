@@ -245,15 +245,12 @@ def separate_features_and_protected_attributes(original_instance):
 PROMPT_PREAMBLE_SHAP = """
 A machine learning model predicted that an employee will LEAVE their job and is therefore DENIED a promotion.
 
-YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the employee understand:
-- Why the model predicted they will leave in specific terms of their features
-- Which factors were most important in this decision
-- How their specific situation compared to typical employees who were predicted to stay
+TASK: Your goal is to generate a plausible textual explanation or narrative explaining why the employee is predicted to leave their job and is therefore denied a promotion.
 
 INFORMATION YOU WILL RECEIVE:
 1. DATASET INFORMATION: Context about the dataset and target variable 
 2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
-3. EMPLOYEE PROFILE: The employee's specific feature values with comparisons to employees who were predicted to stay distributions
+3. EMPLOYEE PROFILE: The employee's specific feature values with comparisons to averages, percentiles, and distributions of employees who were predicted to stay
 4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
 5. CLEAR INSTRUCTIONS: What narrative you should write
 """
@@ -278,27 +275,16 @@ INSTRUCTIONS_SECTION = """
 SHAP_EXPLANATION = """
 2. TECHNICAL EXPLANATION: SHAP VALUES
 
-Each feature has a SHAP value that tells you:
+A SHAP value tells you:
 - How much that feature influenced the model's decision for this employee.
 - Whether it pushed the prediction toward "will leave" (positive contribution) or "will stay" (negative contribution).
 - Larger absolute values indicate features with stronger influence on the prediction.
 
-Features are ranked by their absolute SHAP values, with the most influential features listed first.
-
-IMPORTANT: Only the SHAP values of the top {num_features} most important features are included in the table below. These are the features with the strongest influence on this employee's prediction.
+IMPORTANT: Only the SHAP values of the top {num_features} most important features are included in the table below. These are the features with the strongest influence on this employee's prediction, ranked by absolute value.
 """
 
 
-SHAP_PROMPT_INSTRUCTIONS = """
-TASK:
-Your goal is to generate a plausible textual explanation or narrative explaining why the employee is predicted to leave their job and is therefore denied a promotion.
-
-PERSONALIZATION INSTRUCTION:
-Based on the provided PERSONAL INFORMATION about the employee, create a personalized narrative tailored to them. 
-The narrative should feel like it was written specifically for this individual, acknowledging their personal circumstances and creating a more personalized experience. 
-However, do not force the personalization: it should be seamlessly integrated into the narrative.
-
-Write a detailed narrative explanation tailored to this non-technical reader that MUST explain:
+SHAP_PROMPT_INSTRUCTIONS = """Write a detailed narrative explanation tailored to this non-technical reader that MUST explain:
 1) The current situation of the employee (what are their characteristics and role).
 2) The model's predicted probability of leaving and what this means for the employee.
 3) Why the model predicted the employee will leave, which features were most important in driving this prediction and why (focus on the ranking of most important features).
@@ -306,17 +292,15 @@ Write a detailed narrative explanation tailored to this non-technical reader tha
 5) What the organization or employee should consider next
 
 CONSTRAINTS:
-- Do NOT invent new SHAP values or new feature values.
 - Do not use the numeric SHAP values in your answer. Instead, discuss the ranking and direction of influence.
 - Do not talk about model internals, algorithms, or training details.
 - Do not include greeting or closing statements.
 
 STYLE:
 - Length: 12-15 sentences.
-- Write a coherent narrative without bullet points or tables. 
-- Directly address the employee and provide PERSONALIZED insights tailored to THEIR situation (you can use the personal information provided), but let it sound natural. 
+- Write a coherent narrative addressing the employee without bullet points or tables.
 - Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative.
-- Include feature values and their comparisons to distributions, but reserve this for features where it really clarifies the explanation.
+- Include feature values and their comparisons to averages or distributions, or their percentiles, but reserve this for features where it really clarifies the explanation.
 """
 
 def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None, gender_override=None, age_override=None, health_override=None, exclude_protected_attributes: bool = False) -> str:

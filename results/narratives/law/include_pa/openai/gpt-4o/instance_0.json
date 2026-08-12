@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-08-12T11:42:19.878186",
+  "status": "success",
+  "narrative": "The law school application process is highly competitive, and decisions are often influenced by a variety of factors that predict a student's likelihood of success in passing the bar exam. In this case, the model predicted a 51% probability that you might not pass the bar exam on your first attempt, which led to the rejection of your application. This prediction was primarily influenced by three key aspects of your academic profile.\n\nFirstly, your academic performance in Year 3, where you were placed in the lowest decile, was a significant factor. This is notably below the average decile of 5.91 for admitted students, suggesting that your performance in this critical year was a concern for the admissions committee. This aspect of your profile was the strongest factor pushing the prediction towards a higher likelihood of failing the bar exam.\n\nOn the other hand, your undergraduate GPA was a positive aspect of your application. With a GPA of 3.70, you exceeded the average GPA of 3.24 among admitted students. This strong academic record in your undergraduate studies worked in your favor, indicating your capability to handle rigorous academic work, and it pushed the prediction towards a more favorable outcome.\n\nAdditionally, your LSAT score, while slightly below the average of 37.27, also contributed positively, albeit to a lesser extent than your GPA. Although your score of 34 was not as high as the average, it still suggested a reasonable level of preparedness for law school, helping to mitigate the overall prediction of failure.\n\nGiven these insights, it may be beneficial to focus on improving your academic performance in areas similar to Year 3, perhaps by seeking additional academic support or resources. Additionally, retaking the LSAT to achieve a higher score could further strengthen your application. By addressing these areas, you can enhance your profile for future applications, increasing your chances of success in both law school admissions and the bar exam.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

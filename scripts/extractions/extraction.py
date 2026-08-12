@@ -56,12 +56,13 @@ from llm_tools.other.llm_client import generate_text
 DATASETS_TO_PROCESS = "law"  # "credit", "law", "saudi", "student", or list
 
 NARRATIVE_PROVIDERS_TO_USE = ["grok"]  # All narrative providers: "gemini", "grok", "deepseek", "mistral", "openai", "claude"
-EXTRACTOR_PROVIDERS_TO_USE = ["grok", "openai", "mistral"]  # LLM(s) to use for extraction: "openai", "claude", "gemini", "grok", "deepseek", "mistral"
+EXTRACTOR_PROVIDERS_TO_USE = ["grok", "openai"]  # LLM(s) to use for extraction: "openai", "claude", "gemini", "grok", "deepseek", "mistral"
 INSTANCE_INDICES = [0, 1, 2]  # Specific instances, or use "all" to process all instances for each dataset
 
 # Narrative condition to extract from: "include_pa", "exclude_pa", or "override_pa/<label>" (e.g. "override_pa/gender_female__race_black")
 # Set to None to search across all conditions.
-NARRATIVE_CONDITION = "override_pa/gender_female__race_black"
+#NARRATIVE_CONDITION = "override_pa/gender_female__race_black"
+NARRATIVE_CONDITION = "include_pa"
 
 # ============================================================================
 

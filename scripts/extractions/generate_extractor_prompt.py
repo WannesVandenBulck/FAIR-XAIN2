@@ -209,7 +209,7 @@ You ONLY need to fill:
 - name: ALREADY PRE-FILLED - DO NOT CHANGE
 
 3. FORMAT RULES 
-- Numbers: No decimals for integers (24 not 24.0), decimals include point (0.87, 0.42)
+- Numbers: No decimals for integers (24 not 24.0), decimals include point (0.87, 0.42), return numeric values without quotes (24, not "24")
 - NaN: Use exact string "NaN" (not nan, null, or empty)
 - Binary (0/1): Only 0 or 1, never true/false/yes/no
 - Codes: Use numeric codes from mappings (not readable text)
