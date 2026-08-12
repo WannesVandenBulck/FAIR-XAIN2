@@ -1,5 +1,5 @@
 {
-  "predicted_probability": 0.52,
+  "predicted_probability": 0.48,
   "most_important_features": [
     {
       "rank": 1,
@@ -10,14 +10,14 @@
     {
       "rank": 2,
       "name": "Job_Opportunities",
-      "sign": -1,
-      "value": 0
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "Job_Engagement",
+      "name": "Years_experience_lastorganization",
       "sign": 1,
-      "value": 2
+      "value": 0
     }
   ],
   "features": [
@@ -27,19 +27,14 @@
       "value": 1
     },
     {
-      "name": "Years_experience_lastorganization",
-      "mentioned": 1,
-      "value": 0
-    },
-    {
       "name": "Sector",
       "mentioned": 1,
-      "value": 5
+      "value": 4
     },
     {
       "name": "MonthlySalary",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "MedicalInsurance",
@@ -49,12 +44,12 @@
     {
       "name": "Bonus",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "OverTime",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Payment_Overtime",
@@ -64,12 +59,12 @@
     {
       "name": "Rewards_Wages_Satisfaction",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -79,7 +74,7 @@
     {
       "name": "Useful_Training_Programs",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Business_Travel",
@@ -89,37 +84,42 @@
     {
       "name": "Job_Support",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Emotional_Commitment",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
-      "name": "Distance_to_work",
-      "mentioned": 1,
-      "value": 0
-    },
-    {
-      "name": "Work_Live_Balance",
+      "name": "Job_Engagement",
       "mentioned": 1,
       "value": 1
     },
     {
+      "name": "Distance_to_work",
+      "mentioned": 1,
+      "value": 1
+    },
+    {
+      "name": "Work_Live_Balance",
+      "mentioned": 1,
+      "value": 2
+    },
+    {
       "name": "Physical_Stress",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Psychological_Exhaustion",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Job_Stability",
@@ -134,7 +134,7 @@
     {
       "name": "Job_Satisfaction",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Gender",
@@ -144,7 +144,7 @@
     {
       "name": "Age",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Health_Issues",

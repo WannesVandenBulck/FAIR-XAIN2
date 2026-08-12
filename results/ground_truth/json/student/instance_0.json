@@ -1,23 +1,23 @@
 {
-  "predicted_probability": 0.57,
+  "predicted_probability": 0.12,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "failures",
-      "sign": 1,
-      "value": 1
+      "name": "studytime",
+      "sign": -1,
+      "value": 3
     },
     {
       "rank": 2,
-      "name": "Medu",
-      "sign": 1,
-      "value": 1
+      "name": "failures",
+      "sign": -1,
+      "value": 0
     },
     {
       "rank": 3,
-      "name": "famrel",
+      "name": "reason",
       "sign": -1,
-      "value": 4
+      "value": 2
     }
   ],
   "features": [
@@ -32,6 +32,11 @@
       "value": 1
     },
     {
+      "name": "Medu",
+      "mentioned": 1,
+      "value": 1
+    },
+    {
       "name": "Fedu",
       "mentioned": 1,
       "value": 1
@@ -39,15 +44,10 @@
     {
       "name": "Mjob",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Fjob",
-      "mentioned": 1,
-      "value": 1
-    },
-    {
-      "name": "reason",
       "mentioned": 1,
       "value": 1
     },
@@ -59,11 +59,6 @@
     {
       "name": "traveltime",
       "mentioned": 1,
-      "value": 1
-    },
-    {
-      "name": "studytime",
-      "mentioned": 1,
       "value": 2
     },
     {
@@ -74,7 +69,7 @@
     {
       "name": "famsup",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "paid",
@@ -84,7 +79,7 @@
     {
       "name": "activities",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "nursery",
@@ -104,17 +99,22 @@
     {
       "name": "romantic",
       "mentioned": 1,
-      "value": 1
+      "value": 0
+    },
+    {
+      "name": "famrel",
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 3
+      "value": 5
     },
     {
       "name": "goout",
       "mentioned": 1,
-      "value": 2
+      "value": 5
     },
     {
       "name": "Dalc",
@@ -124,12 +124,12 @@
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "absences",
       "mentioned": 1,
-      "value": 9
+      "value": 0
     },
     {
       "name": "sex",
@@ -144,7 +144,7 @@
     {
       "name": "health",
       "mentioned": 1,
-      "value": 5
+      "value": 2
     }
   ]
 }

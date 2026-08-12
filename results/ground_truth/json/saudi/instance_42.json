@@ -1,23 +1,23 @@
 {
-  "predicted_probability": 0.74,
+  "predicted_probability": 0.53,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_Experience",
+      "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     },
     {
       "rank": 2,
-      "name": "Years_experience_lastorganization",
+      "name": "Years_Experience",
       "sign": 1,
-      "value": 0
+      "value": 2
     },
     {
       "rank": 3,
-      "name": "Job_Opportunities",
+      "name": "Years_experience_lastorganization",
       "sign": -1,
-      "value": 0
+      "value": 1
     }
   ],
   "features": [
@@ -29,7 +29,7 @@
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 3
+      "value": 2
     },
     {
       "name": "MonthlySalary",
@@ -49,22 +49,22 @@
     {
       "name": "OverTime",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Payment_Overtime",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Rewards_Wages_Satisfaction",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -74,22 +74,22 @@
     {
       "name": "Useful_Training_Programs",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Business_Travel",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Job_Support",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Emotional_Commitment",
@@ -114,12 +114,12 @@
     {
       "name": "Physical_Stress",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Psychological_Exhaustion",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Job_Stability",
@@ -139,7 +139,7 @@
     {
       "name": "Gender",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Age",

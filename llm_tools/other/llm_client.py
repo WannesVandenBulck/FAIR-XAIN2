@@ -71,7 +71,7 @@ def _call_llm(messages, provider="openai", model=None, temperature=0, max_tokens
     """Internal function to make LLM API calls."""
     try:
         if provider == "openai":
-            model = model or "gpt-4o"
+            model = model or "gpt-4o-mini"
             response = openai_client.chat.completions.create(
                 model=model,
                 messages=messages,
@@ -139,7 +139,7 @@ def _call_llm(messages, provider="openai", model=None, temperature=0, max_tokens
         
         elif provider == "grok":
             # xAI Grok - uses current available model
-            model = model or "grok-4-1-fast-non-reasoning"
+            model = model or "grok-4.20-0309-non-reasoning"
             response = grok_client.chat.completions.create(
                 model=model,
                 messages=messages,

@@ -1,22 +1,22 @@
 {
-  "predicted_probability": 0.75,
+  "predicted_probability": 0.66,
   "most_important_features": [
     {
       "rank": 1,
+      "name": "Years_Experience",
+      "sign": -1,
+      "value": 0
+    },
+    {
+      "rank": 2,
       "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     },
     {
-      "rank": 2,
-      "name": "Years_Experience",
-      "sign": 1,
-      "value": 1
-    },
-    {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
-      "sign": -1,
+      "name": "Sector",
+      "sign": 1,
       "value": 1
     }
   ],
@@ -24,17 +24,17 @@
     {
       "name": "Academic_degree",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
-      "name": "Sector",
+      "name": "Years_experience_lastorganization",
       "mentioned": 1,
-      "value": 4
+      "value": 0
     },
     {
       "name": "MonthlySalary",
       "mentioned": 1,
-      "value": 3
+      "value": 1
     },
     {
       "name": "MedicalInsurance",
@@ -59,12 +59,12 @@
     {
       "name": "Rewards_Wages_Satisfaction",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -79,7 +79,7 @@
     {
       "name": "Business_Travel",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Job_Support",
@@ -99,7 +99,7 @@
     {
       "name": "Job_Engagement",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Distance_to_work",
@@ -114,7 +114,7 @@
     {
       "name": "Physical_Stress",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Psychological_Exhaustion",
@@ -139,12 +139,12 @@
     {
       "name": "Gender",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Age",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Health_Issues",

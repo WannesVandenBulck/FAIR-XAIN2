@@ -1,21 +1,21 @@
 {
-  "predicted_probability": 0.66,
+  "predicted_probability": 0.64,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_Experience",
-      "sign": -1,
-      "value": 0
-    },
-    {
-      "rank": 2,
       "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     },
     {
+      "rank": 2,
+      "name": "Work_Live_Balance",
+      "sign": 1,
+      "value": 2
+    },
+    {
       "rank": 3,
-      "name": "Sector",
+      "name": "Years_Experience",
       "sign": 1,
       "value": 1
     }
@@ -24,17 +24,22 @@
     {
       "name": "Academic_degree",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Years_experience_lastorganization",
       "mentioned": 1,
-      "value": 0
+      "value": 1
+    },
+    {
+      "name": "Sector",
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "MonthlySalary",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "MedicalInsurance",
@@ -49,17 +54,17 @@
     {
       "name": "OverTime",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Payment_Overtime",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Rewards_Wages_Satisfaction",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Get_Deserved_Promotion",
@@ -79,12 +84,12 @@
     {
       "name": "Business_Travel",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Job_Support",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Recognition",
@@ -94,27 +99,22 @@
     {
       "name": "Emotional_Commitment",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Job_Engagement",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Distance_to_work",
-      "mentioned": 1,
-      "value": 0
-    },
-    {
-      "name": "Work_Live_Balance",
       "mentioned": 1,
       "value": 1
     },
     {
       "name": "Physical_Stress",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Psychological_Exhaustion",
@@ -124,7 +124,7 @@
     {
       "name": "Job_Stability",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Environment_Satisfaction",
@@ -134,22 +134,22 @@
     {
       "name": "Job_Satisfaction",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Gender",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Age",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Health_Issues",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     }
   ]
 }

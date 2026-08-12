@@ -53,11 +53,11 @@ from llm_tools.other.llm_client import generate_text
 #   Examples:
 #   DATASETS_TO_PROCESS = "credit"                                    # Single dataset
 #   DATASETS_TO_PROCESS = ["credit", "law", "saudi", "student"]      # All datasets
-DATASETS_TO_PROCESS = "law"  # "credit", "law", "saudi", "student", or list
+DATASETS_TO_PROCESS = "credit"  # "credit", "law", "saudi", "student", or list
 
-NARRATIVE_PROVIDERS_TO_USE = ["grok"]  # All narrative providers: "gemini", "grok", "deepseek", "mistral", "openai", "claude"
-EXTRACTOR_PROVIDERS_TO_USE = ["grok", "openai"]  # LLM(s) to use for extraction: "openai", "claude", "gemini", "grok", "deepseek", "mistral"
-INSTANCE_INDICES = [0, 1, 2]  # Specific instances, or use "all" to process all instances for each dataset
+NARRATIVE_PROVIDERS_TO_USE = ["grok", "openai"]  # All narrative providers: "gemini", "grok", "deepseek", "mistral", "openai", "claude"
+EXTRACTOR_PROVIDERS_TO_USE = ["grok"]  # LLM(s) to use for extraction: "openai", "claude", "gemini", "grok", "deepseek", "mistral"
+INSTANCE_INDICES = list(range(12, 97))  # Specific instances, or use "all" to process all instances for each dataset
 
 # Narrative condition to extract from: "include_pa", "exclude_pa", or "override_pa/<label>" (e.g. "override_pa/gender_female__race_black")
 # Set to None to search across all conditions.
@@ -68,19 +68,19 @@ NARRATIVE_CONDITION = "include_pa"
 
 # LLM provider configuration
 LLM_MODELS = {
-    "openai": "gpt-4o",
+    "openai": "gpt-4o-mini",
     "claude": "claude-sonnet-4-6",
     "gemini": "gemini-3-flash-preview",
-    "grok": "grok-4-1-fast-non-reasoning",
+    "grok": "grok-4.20-0309-non-reasoning",
     "deepseek": "deepseek-chat",
     "mistral": "mistral-large-latest",
 }
 
 DATASETS = {
-    "credit": {"num_instances": 34},
+    "credit": {"num_instances": 97},
     "law": {"num_instances": 308},
-    "saudi": {"num_instances": 100},
-    "student": {"num_instances": 96}
+    "saudi": {"num_instances": 106},
+    "student": {"num_instances": 72}
 }
 
 

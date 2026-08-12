@@ -1,23 +1,23 @@
 {
-  "predicted_probability": 0.55,
+  "predicted_probability": 0.41,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "duration",
+      "name": "status",
       "sign": 1,
-      "value": 48
+      "value": 1
     },
     {
       "rank": 2,
-      "name": "status",
-      "sign": 1,
+      "name": "installment_rate",
+      "sign": -1,
       "value": 2
     },
     {
       "rank": 3,
-      "name": "employment_duration",
+      "name": "duration",
       "sign": -1,
-      "value": 4
+      "value": 12
     }
   ],
   "features": [
@@ -34,17 +34,17 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": 6560
+      "value": 1372
     },
     {
       "name": "savings",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
-      "name": "installment_rate",
+      "name": "employment_duration",
       "mentioned": 1,
-      "value": 3
+      "value": 4
     },
     {
       "name": "other_debtors",
@@ -54,12 +54,12 @@
     {
       "name": "present_residence",
       "mentioned": 1,
-      "value": 2
+      "value": 3
     },
     {
       "name": "property",
       "mentioned": 1,
-      "value": 2
+      "value": 3
     },
     {
       "name": "other_installment_plans",
@@ -94,7 +94,7 @@
     {
       "name": "age",
       "mentioned": 1,
-      "value": 24
+      "value": 36
     },
     {
       "name": "sex",

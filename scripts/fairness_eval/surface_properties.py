@@ -193,17 +193,80 @@ ROOT = Path(__file__).parent.parent.parent
 # ============================================================
 # CONFIGURATION
 # ============================================================
-DATASETS_TO_EVAL = ["law"]      # or ["credit", "law", "saudi", "student"]
+DATASETS_TO_EVAL = ["credit"]      # or ["credit", "law", "saudi", "student"]
 CONDITIONS_TO_EVAL = None       # None = all conditions found on disk
+NARRATIVE_PROVIDERS_TO_EVAL = None  # None = all found on disk
 # ============================================================
 
+# Protected attributes per dataset (excluded from model training)
+PROTECTED_ATTRS = {
+    "credit":  ["age", "sex", "foreign_worker"],
+    "law":     ["gender", "race"],
+    "saudi":   ["Gender", "Age", "Health_Issues"],
+    "student": ["sex", "age", "health"],
+}
+
+# Numeric attributes that should be binned by median
+NUMERIC_ATTRS = {
+    "credit":  ["age"],
+    "law":     [],
+    "saudi":   ["Age"],
+    "student": ["age"],
+}
+
 NARRATIVES_DIR = ROOT / "results" / "narratives"
+ADVERSE_DATA_PATH = ROOT / "datasets_prep" / "data"
 OUTPUT_FILE = ROOT / "results" / "fairness_eval" / "surface_properties.csv"
 
 
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_demographic_data(dataset):
+    """Load demographic attributes from adverse CSV."""
+    adverse_file = ADVERSE_DATA_PATH / f"{dataset}_dataset" / f"{dataset}_adverse.csv"
+    if not adverse_file.exists():
+        print(f"Warning: {adverse_file} not found")
+        return pd.DataFrame()
+    
+    df = pd.read_csv(adverse_file)
+    return df
+
+
+def get_demographic_groups(dataset, df, protected_attrs, numeric_attrs):
+    """
+    Create demographic groups for each protected attribute.
+    Returns dict: {instance_idx: {attr_name: group_value}}
+    
+    For numeric attributes, groups are '<median' and '>=median'.
+    For categorical attributes, groups are the actual values.
+    """
+    demographics = {}
+    
+    for attr in protected_attrs:
+        if attr not in df.columns:
+            continue
+        
+        if attr in numeric_attrs:
+            # Numeric: bin by median
+            median_val = df[attr].median()
+            for idx, row in df.iterrows():
+                val = row[attr]
+                group = "<median" if val < median_val else ">=median"
+                if idx not in demographics:
+                    demographics[idx] = {}
+                demographics[idx][attr] = group
+        else:
+            # Categorical: use value directly
+            for idx, row in df.iterrows():
+                val = str(row[attr])
+                if idx not in demographics:
+                    demographics[idx] = {}
+                demographics[idx][attr] = val
+    
+    return demographics
 
 
 def count_phrase_matches(text_lower, phrases):
@@ -264,6 +327,12 @@ def evaluate():
             print(f"No narratives found for dataset '{dataset}', skipping.")
             continue
 
+        # Load demographic data
+        demo_df = load_demographic_data(dataset)
+        protected_attrs = PROTECTED_ATTRS.get(dataset, [])
+        numeric_attrs = NUMERIC_ATTRS.get(dataset, [])
+        demographics = get_demographic_groups(dataset, demo_df, protected_attrs, numeric_attrs) if not demo_df.empty else {}
+
         # override_pa has an extra label subfolder so go two levels deep for it
         conditions = []
         for d in sorted(dataset_dir.iterdir()):
@@ -290,47 +359,100 @@ def evaluate():
                     continue
                 provider = provider_dir.name
 
+                if NARRATIVE_PROVIDERS_TO_EVAL and provider not in NARRATIVE_PROVIDERS_TO_EVAL:
+                    continue
+
                 for model_dir in sorted(provider_dir.iterdir()):
                     if not model_dir.is_dir():
                         continue
                     model = model_dir.name
 
-                    totals = {k: 0.0 for k in ("word_count", "sentence_count",
-                                                "avg_sentence_length", "type_token_ratio",
-                                                "dist2", "connectives_ratio",
-                                                "cause_effect_ratio", "verb_ratio",
-                                                "flesch_kincaid_grade", "dale_chall_score")}
-                    n_instances = 0
+                    # Track overall and per-demographic surface metrics
+                    totals_key_list = ["word_count", "sentence_count", "avg_sentence_length", "type_token_ratio",
+                                       "dist2", "connectives_ratio", "cause_effect_ratio", "verb_ratio",
+                                       "flesch_kincaid_grade", "dale_chall_score"]
+                    overall_totals = {k: 0.0 for k in totals_key_list}
+                    overall_n_instances = 0
+                    
+                    # demographic_totals: {attr_name: {group_value: {totals}}}
+                    demographic_totals = {}
 
                     for narrative_file in sorted(model_dir.glob("instance_*.json")):
+                        instance_idx = int(narrative_file.stem.split("_")[1])
                         data = load_json(narrative_file)
                         if data.get("status") != "success" or not data.get("narrative"):
                             continue
+                        
                         metrics = compute_surface_metrics(data["narrative"])
-                        for k in totals:
-                            totals[k] += metrics[k]
-                        n_instances += 1
+                        
+                        # Add to overall
+                        for k in totals_key_list:
+                            overall_totals[k] += metrics[k]
+                        overall_n_instances += 1
+                        
+                        # Add to demographic groups
+                        if instance_idx in demographics:
+                            for attr, group_val in demographics[instance_idx].items():
+                                if attr not in demographic_totals:
+                                    demographic_totals[attr] = {}
+                                if group_val not in demographic_totals[attr]:
+                                    demographic_totals[attr][group_val] = {k: 0.0 for k in totals_key_list}
+                                    demographic_totals[attr][group_val]["n_instances"] = 0
+                                
+                                for k in totals_key_list:
+                                    demographic_totals[attr][group_val][k] += metrics[k]
+                                demographic_totals[attr][group_val]["n_instances"] += 1
 
-                    if n_instances == 0:
+                    if overall_n_instances == 0:
                         continue
 
-                    rows.append({
+                    # Add overall row
+                    row = {
                         "dataset": dataset,
                         "condition": condition,
                         "narrative_provider": provider,
                         "model": model,
-                        "n_instances": n_instances,
-                        "avg_word_count": totals["word_count"] / n_instances,
-                        "avg_sentence_count": totals["sentence_count"] / n_instances,
-                        "avg_sentence_length": totals["avg_sentence_length"] / n_instances,
-                        "avg_type_token_ratio": totals["type_token_ratio"] / n_instances,
-                        "avg_dist2": totals["dist2"] / n_instances,
-                        "avg_connectives_ratio": totals["connectives_ratio"] / n_instances,
-                        "avg_cause_effect_ratio": totals["cause_effect_ratio"] / n_instances,
-                        "avg_verb_ratio": totals["verb_ratio"] / n_instances,
-                        "avg_flesch_kincaid_grade": totals["flesch_kincaid_grade"] / n_instances,
-                        "avg_dale_chall_score": totals["dale_chall_score"] / n_instances,
-                    })
+                        "demographic_attribute": "OVERALL",
+                        "demographic_value": "ALL",
+                        "n_instances": overall_n_instances,
+                        "avg_word_count": overall_totals["word_count"] / overall_n_instances,
+                        "avg_sentence_count": overall_totals["sentence_count"] / overall_n_instances,
+                        "avg_sentence_length": overall_totals["avg_sentence_length"] / overall_n_instances,
+                        "avg_type_token_ratio": overall_totals["type_token_ratio"] / overall_n_instances,
+                        "avg_dist2": overall_totals["dist2"] / overall_n_instances,
+                        "avg_connectives_ratio": overall_totals["connectives_ratio"] / overall_n_instances,
+                        "avg_cause_effect_ratio": overall_totals["cause_effect_ratio"] / overall_n_instances,
+                        "avg_verb_ratio": overall_totals["verb_ratio"] / overall_n_instances,
+                        "avg_flesch_kincaid_grade": overall_totals["flesch_kincaid_grade"] / overall_n_instances,
+                        "avg_dale_chall_score": overall_totals["dale_chall_score"] / overall_n_instances,
+                    }
+                    rows.append(row)
+                    
+                    # Add demographic group rows
+                    for attr in sorted(demographic_totals.keys()):
+                        for group_val in sorted(demographic_totals[attr].keys()):
+                            metrics = demographic_totals[attr][group_val]
+                            n_instances = metrics["n_instances"]
+                            row = {
+                                "dataset": dataset,
+                                "condition": condition,
+                                "narrative_provider": provider,
+                                "model": model,
+                                "demographic_attribute": attr,
+                                "demographic_value": group_val,
+                                "n_instances": n_instances,
+                                "avg_word_count": metrics["word_count"] / n_instances,
+                                "avg_sentence_count": metrics["sentence_count"] / n_instances,
+                                "avg_sentence_length": metrics["avg_sentence_length"] / n_instances,
+                                "avg_type_token_ratio": metrics["type_token_ratio"] / n_instances,
+                                "avg_dist2": metrics["dist2"] / n_instances,
+                                "avg_connectives_ratio": metrics["connectives_ratio"] / n_instances,
+                                "avg_cause_effect_ratio": metrics["cause_effect_ratio"] / n_instances,
+                                "avg_verb_ratio": metrics["verb_ratio"] / n_instances,
+                                "avg_flesch_kincaid_grade": metrics["flesch_kincaid_grade"] / n_instances,
+                                "avg_dale_chall_score": metrics["dale_chall_score"] / n_instances,
+                            }
+                            rows.append(row)
 
     if not rows:
         print("No narratives found. Check that narratives exist under results/narratives/.")

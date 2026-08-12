@@ -1,5 +1,5 @@
 {
-  "predicted_probability": 0.58,
+  "predicted_probability": 0.31,
   "most_important_features": [
     {
       "rank": 1,
@@ -9,27 +9,32 @@
     },
     {
       "rank": 2,
-      "name": "duration",
-      "sign": 1,
-      "value": 42
+      "name": "installment_rate",
+      "sign": -1,
+      "value": 2
     },
     {
       "rank": 3,
-      "name": "credit_history",
+      "name": "duration",
       "sign": -1,
-      "value": 5
+      "value": 12
     }
   ],
   "features": [
     {
+      "name": "credit_history",
+      "mentioned": 1,
+      "value": 3
+    },
+    {
       "name": "purpose",
       "mentioned": 1,
-      "value": 6
+      "value": 3
     },
     {
       "name": "amount",
       "mentioned": 1,
-      "value": 3394
+      "value": 1282
     },
     {
       "name": "savings",
@@ -39,17 +44,12 @@
     {
       "name": "employment_duration",
       "mentioned": 1,
-      "value": 1
-    },
-    {
-      "name": "installment_rate",
-      "mentioned": 1,
-      "value": 4
+      "value": 3
     },
     {
       "name": "other_debtors",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "present_residence",
@@ -69,17 +69,17 @@
     {
       "name": "housing",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "number_credits",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "job",
       "mentioned": 1,
-      "value": 1
+      "value": 3
     },
     {
       "name": "people_liable",
@@ -94,12 +94,12 @@
     {
       "name": "age",
       "mentioned": 1,
-      "value": 65
+      "value": 20
     },
     {
       "name": "sex",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "foreign_worker",

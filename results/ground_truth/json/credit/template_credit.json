@@ -27,17 +27,17 @@
       "value": "*"
     },
     {
-      "name": "purpose",
-      "mentioned": "*",
-      "value": "*"
-    },
-    {
       "name": "duration",
       "mentioned": "*",
       "value": "*"
     },
     {
       "name": "credit_history",
+      "mentioned": "*",
+      "value": "*"
+    },
+    {
+      "name": "purpose",
       "mentioned": "*",
       "value": "*"
     },

@@ -1,15 +1,15 @@
 {
-  "predicted_probability": 0.86,
+  "predicted_probability": 0.81,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
+      "name": "duration",
       "sign": 1,
-      "value": 1
+      "value": 60
     },
     {
       "rank": 2,
-      "name": "credit_history",
+      "name": "status",
       "sign": 1,
       "value": 2
     },
@@ -22,19 +22,19 @@
   ],
   "features": [
     {
-      "name": "duration",
+      "name": "credit_history",
       "mentioned": 1,
-      "value": 18
+      "value": 3
     },
     {
       "name": "purpose",
       "mentioned": 1,
-      "value": 1
+      "value": 7
     },
     {
       "name": "amount",
       "mentioned": 1,
-      "value": 1442
+      "value": 6288
     },
     {
       "name": "savings",
@@ -44,7 +44,7 @@
     {
       "name": "employment_duration",
       "mentioned": 1,
-      "value": 4
+      "value": 3
     },
     {
       "name": "installment_rate",
@@ -74,17 +74,17 @@
     {
       "name": "number_credits",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "job",
       "mentioned": 1,
-      "value": 2
+      "value": 3
     },
     {
       "name": "people_liable",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "telephone",
@@ -94,7 +94,7 @@
     {
       "name": "age",
       "mentioned": 1,
-      "value": 32
+      "value": 42
     },
     {
       "name": "sex",

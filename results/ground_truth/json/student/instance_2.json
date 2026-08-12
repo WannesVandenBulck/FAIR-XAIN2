@@ -1,50 +1,45 @@
 {
-  "predicted_probability": 0.59,
+  "predicted_probability": 0.31,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "higher",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 2,
       "name": "failures",
       "sign": -1,
       "value": 0
     },
     {
+      "rank": 2,
+      "name": "higher",
+      "sign": -1,
+      "value": 0
+    },
+    {
       "rank": 3,
-      "name": "studytime",
-      "sign": 1,
-      "value": 1
+      "name": "Mjob",
+      "sign": -1,
+      "value": 3
     }
   ],
   "features": [
     {
       "name": "famsize",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Pstatus",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Medu",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Fedu",
       "mentioned": 1,
-      "value": 2
-    },
-    {
-      "name": "Mjob",
-      "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Fjob",
@@ -63,6 +58,11 @@
     },
     {
       "name": "traveltime",
+      "mentioned": 1,
+      "value": 4
+    },
+    {
+      "name": "studytime",
       "mentioned": 1,
       "value": 1
     },
@@ -104,12 +104,12 @@
     {
       "name": "famrel",
       "mentioned": 1,
-      "value": 5
+      "value": 4
     },
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 3
+      "value": 5
     },
     {
       "name": "goout",
@@ -119,27 +119,27 @@
     {
       "name": "Dalc",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 2
+      "value": 5
     },
     {
       "name": "absences",
       "mentioned": 1,
-      "value": 4
+      "value": 0
     },
     {
       "name": "sex",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "age",
       "mentioned": 1,
-      "value": 16
+      "value": 15
     },
     {
       "name": "health",

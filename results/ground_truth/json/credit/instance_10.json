@@ -1,5 +1,5 @@
 {
-  "predicted_probability": 0.65,
+  "predicted_probability": 0.34,
   "most_important_features": [
     {
       "rank": 1,
@@ -9,22 +9,22 @@
     },
     {
       "rank": 2,
-      "name": "purpose",
+      "name": "installment_rate",
       "sign": -1,
-      "value": 3
+      "value": 2
     },
     {
       "rank": 3,
-      "name": "savings",
-      "sign": 1,
-      "value": 1
+      "name": "purpose",
+      "sign": -1,
+      "value": 2
     }
   ],
   "features": [
     {
       "name": "duration",
       "mentioned": 1,
-      "value": 18
+      "value": 36
     },
     {
       "name": "credit_history",
@@ -34,17 +34,17 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": 1131
+      "value": 8229
     },
     {
-      "name": "employment_duration",
+      "name": "savings",
       "mentioned": 1,
       "value": 1
     },
     {
-      "name": "installment_rate",
+      "name": "employment_duration",
       "mentioned": 1,
-      "value": 4
+      "value": 3
     },
     {
       "name": "other_debtors",
@@ -59,7 +59,7 @@
     {
       "name": "property",
       "mentioned": 1,
-      "value": 3
+      "value": 2
     },
     {
       "name": "other_installment_plans",
@@ -84,7 +84,7 @@
     {
       "name": "people_liable",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "telephone",
@@ -94,12 +94,12 @@
     {
       "name": "age",
       "mentioned": 1,
-      "value": 33
+      "value": 26
     },
     {
       "name": "sex",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "foreign_worker",

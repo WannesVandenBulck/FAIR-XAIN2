@@ -1,5 +1,5 @@
 {
-  "predicted_probability": 0.85,
+  "predicted_probability": 0.83,
   "most_important_features": [
     {
       "rank": 1,
@@ -9,37 +9,37 @@
     },
     {
       "rank": 2,
-      "name": "Years_experience_lastorganization",
-      "sign": 1,
-      "value": 0
-    },
-    {
-      "rank": 3,
       "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "Years_experience_lastorganization",
+      "sign": 1,
+      "value": 0
     }
   ],
   "features": [
     {
       "name": "Academic_degree",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 3
+      "value": 1
     },
     {
       "name": "MonthlySalary",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "MedicalInsurance",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Bonus",
@@ -49,12 +49,12 @@
     {
       "name": "OverTime",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Payment_Overtime",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Rewards_Wages_Satisfaction",
@@ -69,22 +69,22 @@
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Useful_Training_Programs",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Business_Travel",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Job_Support",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Recognition",
@@ -94,17 +94,17 @@
     {
       "name": "Emotional_Commitment",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Job_Engagement",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Distance_to_work",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Work_Live_Balance",

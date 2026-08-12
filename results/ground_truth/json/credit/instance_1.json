@@ -1,23 +1,23 @@
 {
-  "predicted_probability": 0.51,
+  "predicted_probability": 0.35,
   "most_important_features": [
     {
       "rank": 1,
       "name": "status",
       "sign": 1,
-      "value": 1
+      "value": 2
     },
     {
       "rank": 2,
       "name": "credit_history",
-      "sign": 1,
-      "value": 1
+      "sign": -1,
+      "value": 5
     },
     {
       "rank": 3,
-      "name": "property",
+      "name": "amount",
       "sign": -1,
-      "value": 1
+      "value": 3617
     }
   ],
   "features": [
@@ -29,12 +29,7 @@
     {
       "name": "purpose",
       "mentioned": 1,
-      "value": 6
-    },
-    {
-      "name": "amount",
-      "mentioned": 1,
-      "value": 1108
+      "value": 3
     },
     {
       "name": "savings",
@@ -44,12 +39,12 @@
     {
       "name": "employment_duration",
       "mentioned": 1,
-      "value": 4
+      "value": 5
     },
     {
       "name": "installment_rate",
       "mentioned": 1,
-      "value": 4
+      "value": 1
     },
     {
       "name": "other_debtors",
@@ -58,6 +53,11 @@
     },
     {
       "name": "present_residence",
+      "mentioned": 1,
+      "value": 4
+    },
+    {
+      "name": "property",
       "mentioned": 1,
       "value": 3
     },
@@ -69,12 +69,12 @@
     {
       "name": "housing",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "number_credits",
       "mentioned": 1,
-      "value": 2
+      "value": 3
     },
     {
       "name": "job",
@@ -89,7 +89,7 @@
     {
       "name": "telephone",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "age",

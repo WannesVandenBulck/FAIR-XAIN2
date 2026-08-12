@@ -27,12 +27,7 @@
       "value": "*"
     },
     {
-      "name": "freetime",
-      "mentioned": "*",
-      "value": "*"
-    },
-    {
-      "name": "famrel",
+      "name": "higher",
       "mentioned": "*",
       "value": "*"
     },
@@ -47,12 +42,12 @@
       "value": "*"
     },
     {
-      "name": "Fedu",
+      "name": "Medu",
       "mentioned": "*",
       "value": "*"
     },
     {
-      "name": "Medu",
+      "name": "Fedu",
       "mentioned": "*",
       "value": "*"
     },
@@ -112,17 +107,22 @@
       "value": "*"
     },
     {
-      "name": "higher",
-      "mentioned": "*",
-      "value": "*"
-    },
-    {
       "name": "internet",
       "mentioned": "*",
       "value": "*"
     },
     {
       "name": "romantic",
+      "mentioned": "*",
+      "value": "*"
+    },
+    {
+      "name": "famrel",
+      "mentioned": "*",
+      "value": "*"
+    },
+    {
+      "name": "freetime",
       "mentioned": "*",
       "value": "*"
     },

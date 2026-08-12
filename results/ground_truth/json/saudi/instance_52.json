@@ -1,35 +1,40 @@
 {
-  "predicted_probability": 0.83,
+  "predicted_probability": 0.41,
   "most_important_features": [
     {
       "rank": 1,
       "name": "Years_Experience",
-      "sign": 1,
-      "value": 1
+      "sign": -1,
+      "value": 0
     },
     {
       "rank": 2,
       "name": "Job_Opportunities",
-      "sign": 1,
-      "value": 1
+      "sign": -1,
+      "value": 0
     },
     {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
+      "name": "Job_Engagement",
       "sign": 1,
-      "value": 0
+      "value": 2
     }
   ],
   "features": [
     {
       "name": "Academic_degree",
       "mentioned": 1,
+      "value": 1
+    },
+    {
+      "name": "Years_experience_lastorganization",
+      "mentioned": 1,
       "value": 0
     },
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 1
+      "value": 5
     },
     {
       "name": "MonthlySalary",
@@ -69,47 +74,42 @@
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Useful_Training_Programs",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Business_Travel",
       "mentioned": 1,
-      "value": 2
+      "value": 0
     },
     {
       "name": "Job_Support",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
-      "value": 2
-    },
-    {
-      "name": "Job_Engagement",
       "mentioned": 1,
       "value": 0
     },
     {
       "name": "Distance_to_work",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Work_Live_Balance",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Physical_Stress",
@@ -119,22 +119,22 @@
     {
       "name": "Psychological_Exhaustion",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Job_Stability",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Environment_Satisfaction",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Job_Satisfaction",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Gender",

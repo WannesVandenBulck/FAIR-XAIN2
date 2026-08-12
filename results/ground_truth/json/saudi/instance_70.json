@@ -1,35 +1,35 @@
 {
-  "predicted_probability": 0.78,
+  "predicted_probability": 0.45,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_Experience",
+      "name": "Job_Opportunities",
       "sign": 1,
-      "value": 2
+      "value": 1
     },
     {
       "rank": 2,
-      "name": "Job_Opportunities",
+      "name": "Years_experience_lastorganization",
       "sign": -1,
-      "value": 0
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
+      "name": "Years_Experience",
       "sign": 1,
-      "value": 0
+      "value": 1
     }
   ],
   "features": [
     {
       "name": "Academic_degree",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 4
+      "value": 3
     },
     {
       "name": "MonthlySalary",
@@ -74,7 +74,7 @@
     {
       "name": "Useful_Training_Programs",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Business_Travel",
@@ -94,17 +94,17 @@
     {
       "name": "Emotional_Commitment",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Job_Engagement",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Distance_to_work",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Work_Live_Balance",
@@ -114,12 +114,12 @@
     {
       "name": "Physical_Stress",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Psychological_Exhaustion",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Job_Stability",

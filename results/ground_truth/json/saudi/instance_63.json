@@ -9,15 +9,15 @@
     },
     {
       "rank": 2,
-      "name": "Job_Opportunities",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 3,
       "name": "Years_experience_lastorganization",
       "sign": 1,
       "value": 0
+    },
+    {
+      "rank": 3,
+      "name": "Job_Opportunities",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -29,22 +29,22 @@
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "MonthlySalary",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "MedicalInsurance",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Bonus",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -59,22 +59,22 @@
     {
       "name": "Rewards_Wages_Satisfaction",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Useful_Training_Programs",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Business_Travel",
@@ -84,22 +84,22 @@
     {
       "name": "Job_Support",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Emotional_Commitment",
       "mentioned": 1,
-      "value": 2
+      "value": 0
     },
     {
       "name": "Job_Engagement",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Distance_to_work",
@@ -109,12 +109,12 @@
     {
       "name": "Work_Live_Balance",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Physical_Stress",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Psychological_Exhaustion",
@@ -129,12 +129,12 @@
     {
       "name": "Environment_Satisfaction",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Job_Satisfaction",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Gender",

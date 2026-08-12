@@ -1,15 +1,15 @@
 {
-  "predicted_probability": 0.85,
+  "predicted_probability": 0.57,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_Experience",
-      "sign": 1,
-      "value": 1
+      "name": "Training_programs_During_last_three_years",
+      "sign": -1,
+      "value": 3
     },
     {
       "rank": 2,
-      "name": "Job_Opportunities",
+      "name": "Years_Experience",
       "sign": 1,
       "value": 1
     },
@@ -29,7 +29,7 @@
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 1
+      "value": 5
     },
     {
       "name": "MonthlySalary",
@@ -39,12 +39,12 @@
     {
       "name": "MedicalInsurance",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Bonus",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "OverTime",
@@ -54,12 +54,12 @@
     {
       "name": "Payment_Overtime",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Rewards_Wages_Satisfaction",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Get_Deserved_Promotion",
@@ -67,14 +67,9 @@
       "value": 0
     },
     {
-      "name": "Training_programs_During_last_three_years",
-      "mentioned": 1,
-      "value": 0
-    },
-    {
       "name": "Useful_Training_Programs",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Business_Travel",
@@ -84,7 +79,7 @@
     {
       "name": "Job_Support",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Recognition",
@@ -99,12 +94,12 @@
     {
       "name": "Job_Engagement",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Distance_to_work",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Work_Live_Balance",
@@ -119,7 +114,7 @@
     {
       "name": "Psychological_Exhaustion",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Job_Stability",
@@ -129,10 +124,15 @@
     {
       "name": "Environment_Satisfaction",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Job_Satisfaction",
+      "mentioned": 1,
+      "value": 1
+    },
+    {
+      "name": "Job_Opportunities",
       "mentioned": 1,
       "value": 1
     },
@@ -144,7 +144,7 @@
     {
       "name": "Age",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Health_Issues",

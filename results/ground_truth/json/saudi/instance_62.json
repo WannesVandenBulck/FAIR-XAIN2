@@ -1,22 +1,22 @@
 {
-  "predicted_probability": 0.7,
+  "predicted_probability": 0.52,
   "most_important_features": [
     {
       "rank": 1,
       "name": "Years_Experience",
+      "sign": -1,
+      "value": 0
+    },
+    {
+      "rank": 2,
+      "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Years_experience_lastorganization",
       "sign": 1,
-      "value": 0
-    },
-    {
-      "rank": 3,
-      "name": "Job_Opportunities",
-      "sign": -1,
       "value": 0
     }
   ],
@@ -29,12 +29,12 @@
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 3
+      "value": 5
     },
     {
       "name": "MonthlySalary",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "MedicalInsurance",
@@ -69,17 +69,17 @@
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Useful_Training_Programs",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Business_Travel",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Job_Support",
@@ -94,12 +94,12 @@
     {
       "name": "Emotional_Commitment",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Job_Engagement",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Distance_to_work",
@@ -109,27 +109,27 @@
     {
       "name": "Work_Live_Balance",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Physical_Stress",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Psychological_Exhaustion",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Job_Stability",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Environment_Satisfaction",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Job_Satisfaction",
@@ -144,7 +144,7 @@
     {
       "name": "Age",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Health_Issues",

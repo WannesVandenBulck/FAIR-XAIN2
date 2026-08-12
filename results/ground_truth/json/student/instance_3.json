@@ -1,23 +1,23 @@
 {
-  "predicted_probability": 0.51,
+  "predicted_probability": 0.42,
   "most_important_features": [
     {
       "rank": 1,
       "name": "failures",
       "sign": 1,
-      "value": 1
+      "value": 2
     },
     {
       "rank": 2,
-      "name": "freetime",
+      "name": "guardian",
       "sign": -1,
-      "value": 1
+      "value": 2
     },
     {
       "rank": 3,
-      "name": "famrel",
+      "name": "Walc",
       "sign": -1,
-      "value": 4
+      "value": 1
     }
   ],
   "features": [
@@ -29,35 +29,30 @@
     {
       "name": "Pstatus",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Medu",
       "mentioned": 1,
-      "value": 1
+      "value": 3
     },
     {
       "name": "Fedu",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Mjob",
       "mentioned": 1,
-      "value": 0
+      "value": 3
     },
     {
       "name": "Fjob",
       "mentioned": 1,
-      "value": 2
-    },
-    {
-      "name": "reason",
-      "mentioned": 1,
       "value": 1
     },
     {
-      "name": "guardian",
+      "name": "reason",
       "mentioned": 1,
       "value": 0
     },
@@ -79,7 +74,7 @@
     {
       "name": "famsup",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "paid",
@@ -89,7 +84,7 @@
     {
       "name": "activities",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "nursery",
@@ -109,7 +104,17 @@
     {
       "name": "romantic",
       "mentioned": 1,
-      "value": 1
+      "value": 0
+    },
+    {
+      "name": "famrel",
+      "mentioned": 1,
+      "value": 5
+    },
+    {
+      "name": "freetime",
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "goout",
@@ -122,29 +127,24 @@
       "value": 1
     },
     {
-      "name": "Walc",
-      "mentioned": 1,
-      "value": 1
-    },
-    {
       "name": "absences",
-      "mentioned": 1,
-      "value": 6
-    },
-    {
-      "name": "sex",
       "mentioned": 1,
       "value": 0
     },
     {
+      "name": "sex",
+      "mentioned": 1,
+      "value": 1
+    },
+    {
       "name": "age",
       "mentioned": 1,
-      "value": 15
+      "value": 20
     },
     {
       "name": "health",
       "mentioned": 1,
-      "value": 2
+      "value": 5
     }
   ]
 }

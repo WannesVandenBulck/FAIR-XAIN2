@@ -1,50 +1,50 @@
 {
-  "predicted_probability": 0.58,
+  "predicted_probability": 0.47,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "amount",
+      "name": "purpose",
       "sign": 1,
-      "value": 13756
+      "value": 1
     },
     {
       "rank": 2,
-      "name": "status",
+      "name": "amount",
       "sign": -1,
-      "value": 4
+      "value": 6260
     },
     {
       "rank": 3,
-      "name": "savings",
-      "sign": -1,
-      "value": 5
+      "name": "status",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
     {
       "name": "duration",
       "mentioned": 1,
-      "value": 60
+      "value": 18
     },
     {
       "name": "credit_history",
       "mentioned": 1,
-      "value": 5
+      "value": 3
     },
     {
-      "name": "purpose",
+      "name": "savings",
       "mentioned": 1,
       "value": 1
     },
     {
       "name": "employment_duration",
       "mentioned": 1,
-      "value": 5
+      "value": 4
     },
     {
       "name": "installment_rate",
       "mentioned": 1,
-      "value": 2
+      "value": 3
     },
     {
       "name": "other_debtors",
@@ -54,22 +54,22 @@
     {
       "name": "present_residence",
       "mentioned": 1,
-      "value": 4
+      "value": 3
     },
     {
       "name": "property",
       "mentioned": 1,
-      "value": 4
+      "value": 1
     },
     {
       "name": "other_installment_plans",
       "mentioned": 1,
-      "value": 1
+      "value": 3
     },
     {
       "name": "housing",
       "mentioned": 1,
-      "value": 3
+      "value": 1
     },
     {
       "name": "number_credits",
@@ -79,7 +79,7 @@
     {
       "name": "job",
       "mentioned": 1,
-      "value": 4
+      "value": 2
     },
     {
       "name": "people_liable",
@@ -89,12 +89,12 @@
     {
       "name": "telephone",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "age",
       "mentioned": 1,
-      "value": 63
+      "value": 28
     },
     {
       "name": "sex",

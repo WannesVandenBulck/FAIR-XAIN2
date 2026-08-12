@@ -1,15 +1,15 @@
 {
-  "predicted_probability": 0.85,
+  "predicted_probability": 0.59,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Job_Opportunities",
-      "sign": 1,
-      "value": 1
+      "name": "Years_Experience",
+      "sign": -1,
+      "value": 0
     },
     {
       "rank": 2,
-      "name": "Years_Experience",
+      "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     },
@@ -29,12 +29,12 @@
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 1
+      "value": 5
     },
     {
       "name": "MonthlySalary",
       "mentioned": 1,
-      "value": 2
+      "value": 0
     },
     {
       "name": "MedicalInsurance",
@@ -44,7 +44,7 @@
     {
       "name": "Bonus",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -54,22 +54,22 @@
     {
       "name": "Payment_Overtime",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Rewards_Wages_Satisfaction",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Useful_Training_Programs",
@@ -79,17 +79,17 @@
     {
       "name": "Business_Travel",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Job_Support",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Emotional_Commitment",
@@ -104,7 +104,7 @@
     {
       "name": "Distance_to_work",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Work_Live_Balance",
@@ -124,17 +124,17 @@
     {
       "name": "Job_Stability",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Job_Satisfaction",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Gender",

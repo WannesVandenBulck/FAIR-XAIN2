@@ -1,50 +1,50 @@
 {
-  "predicted_probability": 0.52,
+  "predicted_probability": 0.55,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "savings",
-      "sign": -1,
-      "value": 4
+      "name": "duration",
+      "sign": 1,
+      "value": 48
     },
     {
       "rank": 2,
-      "name": "purpose",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 3,
       "name": "status",
       "sign": 1,
       "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "employment_duration",
+      "sign": -1,
+      "value": 4
     }
   ],
   "features": [
-    {
-      "name": "duration",
-      "mentioned": 1,
-      "value": 12
-    },
     {
       "name": "credit_history",
       "mentioned": 1,
       "value": 3
     },
     {
-      "name": "amount",
+      "name": "purpose",
       "mentioned": 1,
-      "value": 1007
+      "value": 1
     },
     {
-      "name": "employment_duration",
+      "name": "amount",
       "mentioned": 1,
-      "value": 3
+      "value": 6560
+    },
+    {
+      "name": "savings",
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "installment_rate",
       "mentioned": 1,
-      "value": 4
+      "value": 3
     },
     {
       "name": "other_debtors",
@@ -54,12 +54,12 @@
     {
       "name": "present_residence",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "property",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "other_installment_plans",
@@ -94,7 +94,7 @@
     {
       "name": "age",
       "mentioned": 1,
-      "value": 22
+      "value": 24
     },
     {
       "name": "sex",

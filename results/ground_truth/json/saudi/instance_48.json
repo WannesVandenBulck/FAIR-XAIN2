@@ -1,17 +1,17 @@
 {
-  "predicted_probability": 0.52,
+  "predicted_probability": 0.7,
   "most_important_features": [
     {
       "rank": 1,
       "name": "Years_Experience",
-      "sign": -1,
-      "value": 0
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 2,
       "name": "Job_Opportunities",
-      "sign": 1,
-      "value": 1
+      "sign": -1,
+      "value": 0
     },
     {
       "rank": 3,
@@ -24,17 +24,17 @@
     {
       "name": "Academic_degree",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 5
+      "value": 3
     },
     {
       "name": "MonthlySalary",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "MedicalInsurance",
@@ -44,7 +44,7 @@
     {
       "name": "Bonus",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -69,12 +69,12 @@
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": 0
+      "value": 2
     },
     {
       "name": "Useful_Training_Programs",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Business_Travel",
@@ -94,17 +94,17 @@
     {
       "name": "Emotional_Commitment",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Job_Engagement",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Distance_to_work",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Work_Live_Balance",
@@ -124,12 +124,12 @@
     {
       "name": "Job_Stability",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "Job_Satisfaction",
@@ -139,12 +139,12 @@
     {
       "name": "Gender",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Age",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Health_Issues",

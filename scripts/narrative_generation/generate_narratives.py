@@ -25,9 +25,9 @@ from llm_tools.other.llm_client import generate_text
 
 
 # ===== BATCH CONFIGURATION (edit these values and run) =====
-# All adversely predicted instances (0-33 for credit, varies by dataset)
+# All adversely predicted instances (varies by dataset)
 #ALL_INSTANCES = (0, 1, 2)
-ALL_INSTANCES = (2,)  
+ALL_INSTANCES = tuple(range(97))  # Example: first 97 instances
 
 # Batch runs: list of (dataset, provider, model) tuples
 # You can specify multiple datasets, providers, and models here
