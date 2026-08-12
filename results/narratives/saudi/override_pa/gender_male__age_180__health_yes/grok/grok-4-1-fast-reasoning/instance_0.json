@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 0,
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-08-12T14:27:43.041856",
+  "status": "success",
+  "narrative": "The model has calculated a 92 percent likelihood that you will leave your position, which directly led to the decision to withhold your promotion at this time. This assessment draws primarily from three key aspects of your work history and current situation, with your total years of experience emerging as the strongest influence pushing the prediction toward departure. Your six to ten years in the workforce overall stands out because it aligns with a stage where many employees begin exploring new paths, especially compared to the larger share of those predicted to stay who have fewer years behind them. Building on that, the fact that you have received other job opportunities ranks as the next most decisive factor, signaling to the model that external options may soon pull you away despite being reported by only about a quarter of employees expected to remain. Your one to five years with this particular organization adds further weight in the same direction, reflecting a period when commitment often remains fluid and many in similar roles have already moved on. Together these elements create a profile the model interprets as higher risk for turnover, even though factors like your satisfaction with the job itself and recognition received point the other way. The organization might consider discussing your long-term goals openly to address any gaps in advancement or stability that could be prompting thoughts of leaving. You could also reflect on whether the opportunities you have seen elsewhere match the support and balance you currently experience here. Exploring targeted retention steps, such as clearer promotion pathways or adjusted responsibilities, may help shift this outlook for both sides.",
+  "error": null,
+  "gender_override": "Male",
+  "race_override": null,
+  "sex_override": null,
+  "age_override": 180,
+  "foreign_worker_override": null,
+  "health_override": "yes",
+  "exclude_protected_attributes": false
+}

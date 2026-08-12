@@ -9,22 +9,26 @@ datasets = {
     'credit': {
         'path': r'datasets_prep/data/credit_dataset',
         'target_col': 'target_credit',           
-        'output_file': 'credit_adverse'
+        'output_file': 'credit_adverse',
+        'threshold': 0.25  # Modify this to get more/fewer adverse instances
     },
     'law': {
         'path': r'datasets_prep/data/law_dataset',
         'target_col': 'target_law',                  
-        'output_file': 'law_adverse'
+        'output_file': 'law_adverse',
+        'threshold': 0.5
     },
     'saudi': {
         'path': r'datasets_prep/data/saudi_dataset',
         'target_col': 'target_saudi',
-        'output_file': 'saudi_adverse'
+        'output_file': 'saudi_adverse',
+        'threshold': 0.4
     }, 
     'student': {
         'path': r'datasets_prep/data/student_dataset',
         'target_col': 'target_student',
-        'output_file': 'student_adverse'
+        'output_file': 'student_adverse',
+        'threshold': 0.1  # Modify this to get more/fewer adverse instances
     }
 }
 
@@ -82,8 +86,8 @@ def make_predictions(dataset_name, config):
     # Get prediction probabilities for class 1 (bad class)
     test_proba = rf_model.predict_proba(features_for_prediction)[:, 1]
     
-    # Apply threshold tuning
-    threshold = 0.5
+    # Apply threshold tuning (dataset-specific)
+    threshold = config.get('threshold', 0.5)
     adverse_mask = test_proba >= threshold
     positive_mask = test_proba < threshold  # Complementary mask for positive predictions
     

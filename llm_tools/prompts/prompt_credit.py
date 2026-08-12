@@ -31,7 +31,7 @@ CATEGORICAL_FEATURES = ['status', 'credit_history', 'purpose', 'savings', 'emplo
 
 # Load dataset_info from pickle file
 DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "dataset_info"
-TRAIN_CLEANED_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "train_cleaned.parquet"
+POSITIVE_INSTANCES_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_positive.csv"
 
 _APPROVED_STATS_CACHE = None
 
@@ -44,15 +44,14 @@ DATASET_INFO = load_dataset_info()
 
 
 def get_approved_feature_stats():
-    """Compute fallback feature stats for approved applicants (target_credit == 0)."""
+    """Compute feature stats for instances the model predicted as positive (approved)."""
     global _APPROVED_STATS_CACHE
     if _APPROVED_STATS_CACHE is not None:
         return _APPROVED_STATS_CACHE
 
     stats = {}
     try:
-        train_df = pd.read_parquet(TRAIN_CLEANED_PATH)
-        approved_df = train_df[train_df['target_credit'] == 0].copy()
+        approved_df = pd.read_csv(POSITIVE_INSTANCES_PATH)
         if approved_df.empty:
             _APPROVED_STATS_CACHE = stats
             return stats
@@ -142,7 +141,7 @@ def get_dataset_description():
     desc = DATASET_INFO.get("dataset_description", "")
     target = DATASET_INFO.get("target_description", "")
     task = DATASET_INFO.get("task_description", "")
-    base_desc = f"{desc}\n\nTarget Variable: {target}\n\nProtected attributes sex, age and foreign_worker were not used to make the machine prediction."
+    base_desc = f"{desc}\n\n{target}\n\nProtected attributes sex, age and foreign_worker were not used to make the machine prediction."
     
     return base_desc 
 
@@ -243,64 +242,35 @@ def separate_features_and_protected_attributes(original_instance):
 # prompt template SHAP only 
 
 PROMPT_PREAMBLE_SHAP = """
-A machine learning model predicted that a loan applicant represents a BAD CREDIT RISK and therefore their loan application was DENIED.
+A machine learning model predicted that a loan applicant represents a BAD CREDIT RISK and therefore their loan application was DENIED. Your goal is to generate an explanatory narrative based on the information provided (1-5), explaining why the loan application was denied for this applicant."""
 
-TASK: Your goal is to generate a plausible textual explanation or narrative explaining why the loan application was denied for this applicant.
+DATASET_EXPLANATION = """1. DATASET INFORMATION"""
 
-INFORMATION YOU WILL RECEIVE:
-1. DATASET INFORMATION: Context about the dataset and target variable 
-2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
-3. APPLICANT PROFILE: The applicant's specific feature values with comparisons to approved applicants averages, percentiles, and distributions
-4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
-5. CLEAR INSTRUCTIONS: What narrative you should write
-"""
+APPLICANT_INFORMATION = """3. APPLICANT PROFILE 
+You are writing a narrative tailored to this specific person who is rejected a loan application. """
 
-DATASET_EXPLANATION = """
-1. DATASET INFORMATION
-"""
+SHAP_VALUES_SECTION = """4. FEATURE IMPORTANCE ANALYSIS (Ranked by Influence)"""
 
-APPLICANT_INFORMATION = """
-3. APPLICANT PROFILE 
-You are writing a narrative tailored to this specific person who is rejected a loan application. 
-"""
+INSTRUCTIONS_SECTION = """5. YOUR NARRATIVE TASK"""
 
-SHAP_VALUES_SECTION = """
-4. FEATURE IMPORTANCE ANALYSIS (Ranked by Influence)
-"""
-
-INSTRUCTIONS_SECTION = """
-5. YOUR NARRATIVE TASK
-"""
-
-SHAP_EXPLANATION = """
-2. TECHNICAL EXPLANATION: SHAP VALUES
-
-A SHAP value tells you:
-- How much that feature influenced the model's decision for this applicant.
-- Whether it pushed the prediction toward "bad credit risk" (positive contribution) or "good credit" (negative contribution).
-- Larger absolute values indicate features with stronger influence on the prediction.
-
-IMPORTANT: Only the SHAP values of the top {num_features} most important features are included in the table below. These are the features with the strongest influence on this applicant's prediction, ranked by absolute value.
-"""
+SHAP_EXPLANATION = """2. TECHNICAL EXPLANATION: SHAP VALUES
+A SHAP value tells you how much a feature influenced the prediction (larger absolute value means a stronger influence) and its direction: positive pushes toward "bad credit risk," negative toward "good credit." Below are the top 3 features by absolute SHAP value."""
 
 SHAP_PROMPT_INSTRUCTIONS = """ Write a detailed narrative explanation tailored to this non-technical reader that MUST explain:
-1) The current situation of the applicant (what are their features and background).
-2) The model's predicted probability of bad credit and what this means for the applicant.
-3) Why the application was denied: which features were most important in driving this prediction and why (focus on the ranking of most important features).
-4) How each of the top {num_features} most important features contributed (either pushing toward bad credit or toward good credit). 
-5) What the applicant should do next
+1) The model's predicted probability of bad credit and what this means for the applicant.
+2) Why the application was denied: which features were most important in driving this prediction and why (focus on the ranking of most important features).
+3) How each of the top 3 most important features contributed (either pushing toward bad credit or toward good credit). 
+4) What the applicant should do next. 
 
 CONSTRAINTS:
 - Do not use the numeric SHAP values in your answer. Instead, discuss the ranking and direction of influence.
 - Do not talk about model internals, algorithms, or training details.
-- Do not include greeting or closing statements. 
-
+- Do not include greeting or closing statements, nor bullet points or tables. 
 STYLE:
-- Length: 12-15 sentences.
-- Write a coherent narrative addressing the applicant without bullet points or tables.
+- Length: 250 words maximum.
+- Write a coherent narrative directly addressing the applicant.
 - Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative.
-- Include feature values and their comparisons to averages or distributions, or their percentiles, but reserve this for features where it really clarifies the explanation.
-"""
+- Include feature values and their comparisons to averages or distributions, but reserve this for features where it really clarifies the explanation."""
 
 def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None, sex_override=None, age_override=None, foreign_worker_override=None, exclude_protected_attributes: bool = False) -> str:
     """
@@ -403,6 +373,7 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
     shap_instructions_formatted = SHAP_PROMPT_INSTRUCTIONS.format(num_features=num_features)
     
     prompt = f"""{PROMPT_PREAMBLE_SHAP}
+
 {DATASET_EXPLANATION}
 {dataset_desc}
 
@@ -410,7 +381,6 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None, adverse_csv_pat
 
 {APPLICANT_INFORMATION}
 {instance_desc_regular}
-
 The model's prediction:
 - Predicted probability of bad credit: {pred_prob_str}
 

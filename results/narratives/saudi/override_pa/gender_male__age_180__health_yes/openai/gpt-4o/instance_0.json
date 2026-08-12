@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 0,
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-08-12T14:13:15.001040",
+  "status": "success",
+  "narrative": "Currently, you are working in the medical sector with a total of 6-10 years of experience, and you have been with your current organization for 1-5 years. Despite having a secondary school education, which is less common among employees who tend to stay, you have been actively involved in training programs and have found them beneficial. However, the model has predicted a 92% probability that you might leave your job, which has influenced the decision to deny your promotion.\n\nThe prediction was primarily driven by three key factors. First, your overall years of experience, which is relatively moderate compared to others who are more likely to stay, suggests that you might be seeking new challenges or opportunities elsewhere. Second, the fact that you have received other job offers while working in your current role indicates that you are in demand and might be considering these opportunities, which increases the likelihood of leaving. Lastly, your relatively short tenure in your current organization compared to those who typically stay longer suggests a potential for transition.\n\nYour years of experience overall suggest a readiness for advancement, but they also imply that you might be looking for growth opportunities that your current role does not provide. The job offers you have received are a strong indicator that you are exploring your options, which the model interprets as a sign of potential departure. Additionally, your shorter time with the current employer compared to others who stay longer suggests that you might not have fully settled into your role or the organization.\n\nGiven these insights, it might be beneficial for you and your organization to discuss your career aspirations and explore ways to align them with opportunities within the company. This could involve discussing potential career paths, additional responsibilities, or other incentives that could enhance your job satisfaction and commitment. By addressing these factors, both you and your employer can work towards a mutually beneficial outcome that supports your professional growth while also contributing to the organization's stability.",
+  "error": null,
+  "gender_override": "Male",
+  "race_override": null,
+  "sex_override": null,
+  "age_override": 180,
+  "foreign_worker_override": null,
+  "health_override": "yes",
+  "exclude_protected_attributes": false
+}

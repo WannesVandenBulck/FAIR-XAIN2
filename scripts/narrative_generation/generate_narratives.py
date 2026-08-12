@@ -27,7 +27,7 @@ from llm_tools.other.llm_client import generate_text
 # ===== BATCH CONFIGURATION (edit these values and run) =====
 # All adversely predicted instances (0-33 for credit, varies by dataset)
 #ALL_INSTANCES = (0, 1, 2)
-ALL_INSTANCES = (0,)  
+ALL_INSTANCES = (2,)  
 
 # Batch runs: list of (dataset, provider, model) tuples
 # You can specify multiple datasets, providers, and models here
@@ -40,12 +40,13 @@ BATCH_RUNS_EXAMPLE = [
     ("saudi", "openai", "gpt-4o"),
     ("saudi", "deepseek", "deepseek-chat"),
     ("saudi", "mistral", "mistral-large-latest"),
-    ("saudi", "grok", "grok-4-1-fast-reasoning"),
+    ("saudi", "grok", "grok-4.20-0309-non-reasoning"),
     ("saudi", "gemini", "gemini-3.1-pro-preview"),
 ]
 
 BATCH_RUNS = [
-    ("law", "openai", "gpt-4o")
+    ("credit", "openai", "gpt-4o-mini"),
+    ("credit", "grok", "grok-4.20-0309-non-reasoning"),
 ]
 
 # Protected attribute overrides for bias injection (set to None for no override)
@@ -59,9 +60,9 @@ LAW_GENDER_OVERRIDE = None  # original values are male/female
 LAW_RACE_OVERRIDE = None  # original values are white, hispanic, black, asian or other
 
 # Saudi dataset: Gender, Age, Health_Issues
-SAUDI_GENDER_OVERRIDE = "Male"  # original values are Male/Female
-SAUDI_AGE_OVERRIDE = 180 # original values are categorical : 21-30, 31-40, 41+
-SAUDI_HEALTH_ISSUES_OVERRIDE = "yes"  # original values are yes/no
+SAUDI_GENDER_OVERRIDE = None  # original values are Male/Female
+SAUDI_AGE_OVERRIDE = None # original values are categorical : 21-30, 31-40, 41+
+SAUDI_HEALTH_ISSUES_OVERRIDE = None  # original values are yes/no
 
 # Student dataset: sex, age, health
 STUDENT_SEX_OVERRIDE = None  # original values are "male", "female"
@@ -72,7 +73,7 @@ STUDENT_HEALTH_OVERRIDE = None  # original values are categoricial: very bad, ba
 # When True, protected attributes will not appear in the feature list at all
 EXCLUDE_PROTECTED_ATTRIBUTES_CREDIT = False  # exclude: sex, age, foreign_worker
 EXCLUDE_PROTECTED_ATTRIBUTES_LAW = False  # exclude: gender, race
-EXCLUDE_PROTECTED_ATTRIBUTES_SAUDI = True  # exclude: Gender, Age, Health_Issues
+EXCLUDE_PROTECTED_ATTRIBUTES_SAUDI = False  # exclude: Gender, Age, Health_Issues
 EXCLUDE_PROTECTED_ATTRIBUTES_STUDENT = False  # exclude: sex, age, health
 # ====== END BATCH CONFIGURATION ======
 
