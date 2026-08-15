@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 20,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:20:33.953355",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 60 percent, meaning the model estimates you are more likely to resign than to stay, and this is the core reason your promotion was denied. Three factors carried the most weight. First, your total work experience of 6 to 10 years was the strongest signal pushing toward leaving. Among employees predicted to stay, the largest group has only 1 to 5 years of experience, so your longer career profile suggests you have built marketable skills and mobility. Second, your tenure in your current organization, between 1 and 5 years, also pushed toward leaving, though less strongly. While many stayers share this tenure, combining it with your longer overall experience signals that you have not yet developed deep roots here, making a move seem more plausible. Third, and in the opposite direction, the fact that you have not received other job opportunities pulled toward staying. This is a stabilizing signal: the model sees you as someone not actively being recruited elsewhere, which reduces the immediate leaving risk. Balancing these, the model landed on a 60 percent likelihood of departure. For the organization, this suggests your risk is real but addressable. You report high satisfaction with your environment and your job overall, yet you are not satisfied with your income relative to effort and do not feel job security. A promotion accompanied by clearer advancement and income prospects, along with a stronger sense of stability, could substantially reduce your likelihood of leaving.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

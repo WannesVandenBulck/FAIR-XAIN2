@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 4,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:32:07.551522",
+  "status": "success",
+  "narrative": "The model estimates that you have a 10% chance of failing your final year. That sounds low, and it is good news, but it also means that out of every ten students with a similar profile, roughly one does not finish successfully. The school has set its remedial-course requirement conservatively, so even this level of risk triggers extra support.\n\nInterestingly, the three strongest factors in your case are not pushing you toward failure. They are actually protective. You have never failed a class before, which is a strong positive sign and matches the record of students who pass. Not having attended nursery school also nudges your prediction toward passing, even though most students who pass did attend nursery. Your free time after school is low, and for you this works in your favor, likely because it means your daily schedule is structured and focused.\n\nSo why were you flagged at all? The model’s decision is based on the whole combination of your circumstances, not on one single warning sign. None of your top three influences are causing the risk; instead, the 10% probability comes from the accumulated effect of many smaller details in your profile.\n\nThe best next step is to keep doing what is already working. Maintain your study routine, protect your structured time, and continue avoiding past failures. The remedial courses are not a punishment; they are a safety net to make sure that small risk never becomes real. With your current strengths, you are very close to a successful outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

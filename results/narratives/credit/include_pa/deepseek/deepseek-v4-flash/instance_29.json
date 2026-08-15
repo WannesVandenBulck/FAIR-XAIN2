@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 29,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:00:07.477022",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model estimated a 25% chance that you would not repay the loan — a risk level above what the bank accepts. In practical terms, that means one in four applicants with a similar profile ends up in default.\n\nThe three most influential factors in your evaluation were the length of your loan, the state of your checking account, and the amount you requested. Interestingly, all three actually worked in your favor. Your loan term of six months is far shorter than the average 19 months, which lessens the time for financial trouble to arise. Your requested amount of 3,518 DM is somewhat above the typical 3,020 DM, yet this factor still nudged your risk lower. And your lack of a checking account, while less common among approved applicants, followed a pattern the model treats as favorable, so it helped rather than hurt.\n\nSo why the denial? Because these positives were not enough. Other details in your profile — not among the top three — pushed in the opposite direction and outweighed the protective factors. The model’s verdict is a probability, not a certainty; a 25% chance still means a 75% chance you would repay. But the bank’s threshold is strict, and your overall risk landed above it.\n\nWhat you can do next: strengthen the areas that raised your risk. Consider applying for a smaller amount, adding a guarantor, or building a longer record of steady employment and savings. Opening and regularly using a checking account can also show financial reliability. After a few months of positive financial behavior, you may be in a much stronger position to reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

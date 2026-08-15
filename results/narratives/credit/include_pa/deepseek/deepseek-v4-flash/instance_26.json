@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 26,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:59:31.743399",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model estimated a 27% chance that you would default on the loan — meaning roughly one in four borrowers with a similar profile ends up unable to repay. That risk is above the level the bank is willing to accept, so the decision was made to decline the request.\n\nThe three factors that most strongly influenced this decision actually worked in your favor. The amount you asked for, 3,001 DM, was just slightly below the amount typical for approved applicants, which shows you were not overreaching. Your installment rate of 2% of your disposable income is also lower than the average of around 3%, meaning your monthly repayment burden leaves you more breathing room. And your employment of 4 to 7 years at your current job adds a measure of stability that the model recognized as a positive sign.\n\nHowever, those favorable points were not enough to outweigh the overall picture. Other aspects of your financial situation — such as having very little in savings, a checking account balance between 0 and 200 DM, and no telephone — pulled your risk upward. The model weighed everything together and still found your probability of default too high.\n\nWhat you can do now: focus on building a stronger financial foundation. Increase your savings cushion, keep your checking account in the positive range, and continue paying all existing bills on time. You might also consider requesting a smaller loan or adding a co‑signer. After several months of stable financial behavior, you would be in a much better position to reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

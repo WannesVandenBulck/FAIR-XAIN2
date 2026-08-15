@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 70,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:10:05.854285",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 63% chance that you would default on the loan. In practical terms, this means that, based on patterns from many similar past borrowers, you were considered significantly more likely to miss payments or fail to repay than a typical approved applicant. While this is not a certainty, the bank judged the risk too high to approve.\n\nThree main factors drove this decision, ranked from strongest to weakest influence. The most important was the loan duration. You requested 48 months, while approved applicants typically borrow for around 19 months. Longer repayment periods create more time for financial circumstances to change, and this strongly pushed the prediction toward bad credit. The second major factor was the status of your checking account. Your account is currently overdrawn (below zero), whereas most approved applicants have a positive balance or no overdraft. This indicates current financial strain and also pushed strongly toward the denial. The third factor, surprisingly, worked in your favor: you have a guarantor. Very few applicants—only about one in twenty—have this extra security, and the model recognized it as a positive signal, pulling the prediction slightly toward good credit.\n\nUnfortunately, the positive effect of having a guarantor was not enough to overcome the strong negative signals from your overdrawn account and the unusually long loan term. To improve your chances in the future, consider applying for a shorter loan, rebuilding your checking account balance to a positive range, and demonstrating a few months of stable finances before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 16,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:57:20.669878",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, your application was denied because you have a 30% chance of being a bad credit risk. That means nearly one in three borrowers with a profile like yours would struggle to repay the loan, and the bank considers that too high to approve.\n\nThe most important factor working against you is the current state of your checking account. Your account is overdrawn, with a balance below zero. Among approved applicants, only about 13% had this kind of negative balance, so it stands out as a clear warning sign. It strongly pushed the decision toward denial because it suggests you may already be short on cash and less able to handle a new monthly payment.\n\nTwo other factors actually helped you. First, your requested loan amount of 2,462 Deutsche Mark is below the average of around 3,020 among approved applicants, which shows you are not asking for too much. Second, your installment rate is only 2% of your disposable income, lower than the average of about 3%. Both of these pulled the decision toward approval, indicating that your loan size and repayment burden are manageable.\n\nHowever, the negative signal from your overdrawn checking account outweighed those positives. In the model’s view, the immediate cash-flow problem is the most reliable predictor of trouble.\n\nTo improve your chances next time, focus on bringing your checking account into positive territory and keeping it stable for several months. You might also consider applying for a smaller amount or waiting until your savings grow. Any of these steps would demonstrate stronger financial health and likely change the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

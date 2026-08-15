@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 59,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:27:55.669679",
+  "status": "success",
+  "narrative": "You have been denied a promotion because the model assessing retention has estimated your chance of leaving the organization at 44 percent. That means the model sees nearly a one-in-two chance that you won't remain long enough for the promotion to pay off.\n\nThe strongest signal in your profile points in your favor. Your total experience of one to five years is the most influential factor, and it actually pushes the prediction toward you staying. Among employees the model considered likely to stay, about half have the same limited total experience, so the model reads this as normal and reassuring.\n\nThe second most important factor works against you: your tenure within your current organization is also between one and five years. While this is common among stayers, the model treats employees at this stage in the same workplace as still in a vulnerable settling-in period, so this slightly raises your leaving risk.\n\nThe third factor helps you again. You have not received outside job offers. Because roughly three-quarters of employees predicted to stay also reported no other opportunities, the model sees this as a stabilizing sign.\n\nOverall, the model weighs your short tenure at this organization as the main concern, but your limited overall experience and lack of competing offers suggest you are not actively preparing to leave.\n\nFor next steps, focus on reaching the six-to-ten-year tenure milestone, where departure risk drops meaningfully, and revisit promotion consideration after more time in role.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

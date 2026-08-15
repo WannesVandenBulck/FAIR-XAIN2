@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 183,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:54:40.187031",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, your predicted probability of failing the bar exam on the first attempt is 97%, meaning the risk is extremely high. Because the school relies on this bar passage rate as a key measure of graduate success, your application was denied—the model sees this as a very likely unsuccessful outcome.\n\nThe most important factor driving this decision was your class standing in your third year. Being in the bottom decile of your law school class is a very strong signal that you struggled academically in your final year, and this weighed more heavily than anything else in the prediction. Your first-year class standing was also among the lowest in your school, and while it played a slightly smaller but still significant role, it reinforced the pattern of academic struggle from early on. Both of these factors pushed strongly toward a prediction of bar exam failure, because the model has learned that students who finish near the bottom of their class typically struggle with the bar.\n\nThe second most influential feature was your LSAT score of 25, which is well below the average of 37 among students who were admitted. This indicates that your baseline reading and reasoning skills, as measured by the test, were much lower than peers who succeeded, further pushing the prediction toward failure.\n\nTo improve, consider a structured bar preparation course, academic support or tutoring, and taking time to strengthen your foundations before retaking the LSAT. A stronger LSAT score and improved academic performance would significantly change a future evaluation.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

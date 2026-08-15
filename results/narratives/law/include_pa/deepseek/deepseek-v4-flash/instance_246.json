@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 246,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:12:19.718959",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates an 85.9% chance that you would not pass the bar exam on the first attempt. That is a very strong risk signal, and it comes mainly from three factors, ranked from most to least impactful.\n\nThe most influential factor was your class standing in the third year of law school. You were in the bottom decile for Year 3 grades. Among admitted students, the average class standing was around the 5.8 decile, meaning most successful applicants were in the upper half. Being at the very bottom is a red flag, because it suggests you were struggling with the most advanced coursework.\n\nThe second biggest factor was your LSAT score. Your score of 22 is far below the average of about 37 for accepted students. That exam is designed to measure the reasoning and reading skills needed for legal study, so a low score strongly pushed the prediction toward failing the bar.\n\nThird, your first-year class standing was also in the bottom decile, even worse than the typical accepted applicant's Year 1 decile of around 6.0. These three signals together overwhelmingly point to a high risk of bar exam failure.\n\nWhat should you do next? Retake the LSAT after intensive preparation to demonstrate stronger aptitude, and, if possible, retake key courses to improve your grades. Consider a structured bar-prep program if you reapply. Strengthening these two areas would substantially change the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

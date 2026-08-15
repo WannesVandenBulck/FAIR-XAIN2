@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:53:48.902280",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates you have a 35% chance of becoming a bad credit risk — meaning a little more than one in three odds of defaulting, which the bank considers too high. The single strongest factor pushing toward this decision was your checking account status. Your account balance sits in a very low range (0–200 DM), which is unusual among approved applicants; most have no balance at all or higher amounts, and this pattern strongly signals financial tightness. This outweighed the other factors.\n\nSurprisingly, your credit history actually worked in your favor. Even though it was rated as “critical/other credits,” the model weighed it as a point toward being a good risk, perhaps because it is not the worst category and many approved applicants share this profile. Similarly, the loan amount you requested — 3,617 DM, which is above the average of about 3,020 DM — was treated as a positive influence. Combined with your short repayment duration of 12 months (compared to roughly 19 months average), the model seems to view the loan as manageable.\n\nHowever, the negative signal from your low checking account balance was strong enough to overshadow these positives, pushing your overall risk above the acceptable level.\n\nTo improve your chances next time, focus on building a healthier checking account buffer, perhaps by saving more before reapplying. Also consider requesting a smaller loan or providing a larger down payment, and give your credit history time to improve by making all payments on time. These steps will directly address the main concerns the model identified.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

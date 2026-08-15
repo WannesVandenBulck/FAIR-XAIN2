@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 65,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:08:57.917917",
+  "status": "success",
+  "narrative": "We’re sorry to tell you that your loan application was denied. Based on your information, the model estimated a 41% chance that you would become a bad credit risk — meaning you might struggle to repay the loan. That is above the level the bank is willing to accept, and so your application was not approved.\n\nThree key factors shaped this decision, in order of importance. The strongest concern was your checking account balance, which sits between 0 and 200 DM. Many approved applicants have no such balance or keep a larger buffer, so this limited immediate liquidity pointed clearly toward higher risk. The second factor was your property status, which is unknown or none. Most approved borrowers own real estate, a car, or other property that can serve as security; without any visible assets, the bank has less protection if you cannot pay. Interestingly, the third factor — the amount you requested, 4,297 DM — actually worked slightly in your favor. Although that amount is higher than the average loan taken by approved applicants, in combination with your other details the model saw it as a smaller concern, not an added risk.\n\nTo improve your chances in the future, consider strengthening your financial profile. This could mean building up a larger checking account balance or savings buffer, reducing the loan amount you ask for, or providing proof of property or another form of collateral. Also, a record of prompt payments on other credits would help. Please note that factors like your sex, age, or foreign worker status were not used in this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 75,
+  "provider": "grok",
+  "model": "grok-4.20-0309-non-reasoning",
+  "timestamp": "2026-08-15T12:13:28.066934",
+  "status": "success",
+  "narrative": "The model estimates a 68% chance that you will leave your current job, which is why your promotion request has been denied. This prediction is driven primarily by three key factors in your profile.\n\nThe strongest influence is that you have received other job opportunities while at your company. Most employees predicted to stay (77%) had no such external offers, but your access to alternatives significantly increases the likelihood of you moving on.\n\nYour six to ten years of experience in this organization is the second most important factor. This actually works in your favor, as it pushes the prediction slightly toward staying. However, it is not enough to offset the other influences. For context, over half of employees predicted to stay have only one to five years in their current role.\n\nYour overall career experience of six to ten years ranks third. This pushes the prediction toward leaving, as the model sees this mid-level tenure as a point where many professionals begin exploring new paths. Among those predicted to stay, half have only one to five years of total experience.\n\nTaken together, these elements suggest the organization views you as someone with growing external options and enough experience to act on them. To address this, you and your manager should discuss ways to strengthen your connection to the company, such as clearer advancement paths, more meaningful recognition, or tailored development opportunities that reduce the appeal of outside offers.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

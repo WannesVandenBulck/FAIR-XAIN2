@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 59,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:07:12.115827",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model assessed your overall likelihood of defaulting as about 27%. In practical terms, this means that out of every 100 similar applicants, roughly 27 fail to repay, which the bank considers too high a risk to approve.\n\nThe decision came down to three key factors, ranked by how strongly they influenced the outcome. Interestingly, the two most influential factors actually worked in your favor. The first was your savings situation: having no savings or an unknown balance did not hurt your case as much as other financial signs might have, and it nudged the prediction toward you being a reliable borrower. The second factor was your employment situation. Even though you are currently unemployed, the model did not treat this as a major warning sign in your specific case, and it also pulled slightly toward approving you.\n\nWhat ultimately tipped the balance against you was the length of the loan you requested. You asked for a 48-month term, which is more than double the average of about 19 months among approved borrowers. A longer loan means more time for your financial circumstances to change and more opportunity for missed payments, and this factor pushed strongly toward classifying you as a bad credit risk. Those extra months outweighed the positive signals from your savings and employment profile.\n\nTo improve your chances going forward, consider requesting a shorter loan term or a smaller amount, and try to build up visible savings. Stabilizing your income situation, even with part-time work, would also strengthen a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

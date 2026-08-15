@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 45,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:25:19.897261",
+  "status": "success",
+  "narrative": "Your profile shows a 78% predicted chance of leaving the organization, which is why the promotion decision went against you. The main reasons come from three areas, ranked by influence.\n\nFirst, your total experience of 6–10 years stands out. Compared with employees who stay, this range is more often seen among those who move on. The model interprets it as a sign that you may have the skills to find other work.\n\nSecond, even though your experience in your current job is only 1–5 years, that short stay also increases the risk. Many leavers in this situation tend to change jobs after a few years, so the combination of solid overall experience but limited time in this role made the prediction stronger.\n\nThe third factor actually worked in your favor: you have not received other job opportunities. This usually means you are less likely to leave, and it lowered the risk. But the two experience-related signals were strong enough to outweigh that.\n\nIn short, the prediction is not about your performance. It reflects a pattern: experienced employees who have not yet built long tenure here are seen as likely to leave soon. To change this outcome, the organization could offer clearer career paths, stronger recognition, and a reason to stay. You might also discuss how the promotion decision could be revisited once you show longer commitment or after completing a development plan.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

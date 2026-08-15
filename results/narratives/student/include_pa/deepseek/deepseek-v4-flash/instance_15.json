@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 15,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:35:27.391060",
+  "status": "success",
+  "narrative": "Your predicted chance of failing this year is 10%. That is a one-in-ten risk, and your school requires remedial courses for anyone at this level, so you are on the borderline. The model does not see you as a certain failure, but it sees enough risk to warrant extra support.\n\nThe three most important factors in your favour are your clean record, your goal, and your study habit. You have never failed a year before, which is a strong positive sign. Students who have repeated a year are at much higher risk, so your history helps you. You also said you want to pursue higher education; every single student who passed in the dataset shared that ambition. That desire pushes your prediction toward passing. Finally, you study between two and five hours per week, which is the typical amount among students who succeed. That routine also works in your favour.\n\nSo why are you still in this position? Even with these positive influences, other features in your profile add enough weight to keep your risk at exactly the threshold. For example, you do not have internet access at home, which is less common among passing students. To move clearly into the safe zone, keep up your current study schedule and aim to increase it slightly. Use the school’s resources, such as library time or tutoring, to make up for the lack of home internet. Staying focused on your goal of higher education will also help. These actions can lower your risk and help you finish the year successfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

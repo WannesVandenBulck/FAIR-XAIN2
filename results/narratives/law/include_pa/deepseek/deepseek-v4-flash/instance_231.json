@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 231,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:07:38.308003",
+  "status": "success",
+  "narrative": "Based on your academic profile, the model assessing bar exam readiness placed your chance of failing the bar exam on the first attempt at 56.8%. This means that, statistically, you were considered slightly more likely to fail than to pass, which is why the admission committee decided to deny your application to the law program.\n\nThe two most powerful factors influencing this decision worked against you, while one—surprisingly—worked in your favor. Your LSAT score of 36, though slightly below the average of 37 among admitted students, was the single most influential factor in the entire evaluation. Notably, it actually pushed the prediction toward passing, indicating that your test-taking ability was viewed as a genuine strength rather than a concern.\n\nUnfortunately, that positive signal was outweighed by two academic performance measures. Your third-year class standing placed you in the 2nd decile, compared to an average decile near 6 for accepted students. Being near the bottom of your class in the most recent year of study was the second strongest influence, and it pushed the model hard toward predicting bar exam failure. Your undergraduate GPA of 2.50, well below the 3.23 average of admitted applicants, also pushed toward failure, serving as the third most important factor.\n\nIn short, your LSAT suggested legal aptitude, but your consistently low grades—both in your final year and throughout college—signaled that you might struggle with the rigorous, high-stakes preparation needed to pass the bar. To improve your chances, consider taking a post-baccalaureate program to raise your GPA, retaking the LSAT to score even higher, and then reapplying with a stronger record.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

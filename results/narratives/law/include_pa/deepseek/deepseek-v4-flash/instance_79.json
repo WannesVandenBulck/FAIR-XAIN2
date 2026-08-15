@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 79,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:29:47.807710",
+  "status": "success",
+  "narrative": "After reviewing your application, the model indicates you have a 66.6% chance of failing the bar exam on the first attempt. That means an estimated two-in-three likelihood of failure—a level of risk the admissions committee is not willing to take.\n\nThe strongest signal in your profile is your class rank in the final year of your law studies. Being in the bottom tenth of your class, while most admitted students hover around the middle, points to serious difficulty mastering the material needed for the bar. This single factor most heavily pushed the prediction toward failure. Your first-year class standing also contributed in the same direction, though with less weight. It shows a pattern of struggling from the very beginning, and the model treats that as an ongoing concern.\n\nInterestingly, your undergraduate GPA worked against that trend, pushing slightly toward success. It suggests you do have academic potential, but that strength was not enough to offset the steep risk revealed by your law school performance.\n\nThe decision, while painful, is about statistical likelihood, not your character. To improve a future application, focus on demonstrating you can handle rigorous legal coursework—for example, by taking additional advanced courses and earning high grades, retaking the LSAT to raise your score substantially, and perhaps seeking a mentor in the legal field. If you can build a record of recent academic success, you will provide evidence that your earlier performance does not reflect where you are now.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 37,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:23:56.951706",
+  "status": "success",
+  "narrative": "You have been denied a promotion because our model assessed your risk of leaving the company as significant, with a predicted probability of 45%. While this is not a certainty, it means that, in the eyes of the organization, you are close to the line where employees typically hand in their resignation. Because that risk is considered too high, we cannot invest in a promotion at this time.\n\nLet me explain what led to this conclusion, focusing on the three factors that mattered most.\n\nThe single strongest influence was that you have not received any other job offers while working here. That is a positive sign and actually pushes you toward staying. Employees who stay in their jobs usually do not have outside offers, so this factor works in your favor. Similarly, your total work experience of one to five years also points toward staying. Compared to more experienced colleagues, you are at a stage where changing jobs is less likely, so this too reduces your risk.\n\nThe third and most concerning factor is your level of engagement at work. You reported that it is difficult for you to get involved in decision-making and that your opinions are not easily included. This is uncommon—only about one in ten employees who stay feel this way. This difficulty is what pushes the model toward predicting you might leave. It suggests you may feel disconnected from your role.\n\nGoing forward, the organization should focus on making you feel more included in decisions and ensuring your voice is heard. Re-evaluating your promotion after these improvements could be worthwhile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

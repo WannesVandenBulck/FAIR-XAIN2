@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 5,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:12:38.229543",
+  "status": "success",
+  "narrative": "The decision rests on a prediction that you have a 59.6 percent chance of failing the bar exam on your first attempt. Since failure is more likely than not, the law school concluded the risk was too high.\n\nThe most influential factor was your undergraduate GPA. At 3.30, it is only slightly above the 3.23 average of accepted students, yet the model treated it as the strongest signal pointing toward bar failure. Even a small shortfall relative to what the model expects carried heavy weight.\n\nYour third-year class standing was the second most important factor, and it worked in your favor, nudging the prediction toward passing. Your decile of 9 differs from the 5.79 average among accepted students, but the model interpreted this signal as a positive — just not strong enough to offset your GPA.\n\nYour LSAT score of 40, which sits above the accepted average of 37.18, was the third most influential factor. Despite that, the model counted it as pushing toward failure. This seems contradictory, but the model evaluates scores together with your whole profile, not in isolation.\n\nThe path forward is clear: retake the LSAT to move well above the average, and strengthen your academic record through additional coursework or a post-baccalaureate program. Reapplying with improved credentials would give the model a very different picture.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

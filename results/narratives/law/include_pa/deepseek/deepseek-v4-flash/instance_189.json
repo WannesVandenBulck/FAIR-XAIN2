@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 189,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:55:47.094572",
+  "status": "success",
+  "narrative": "The bar exam prediction for you was 91 percent likely to result in a failure on the first attempt. In practical terms, this means that based on your academic record, the law school concluded you would almost certainly not pass the licensing exam, and therefore decided that admitting you to the university would set you up for an outcome inconsistent with the school's standards and your own goals.\n\nThe most decisive factor in this decision was your class standing in your third year. You finished in the bottom decile of your class, while accepted students typically sit near the middle of the distribution. Poor academic performance this late in your studies signals to the model that your grasp of legal concepts is not yet at the level required for bar success, and this strongly pushed the prediction toward failure.\n\nYour first-year class standing also contributed meaningfully. Ranking in the lowest decile in Year 1, compared to the average near the sixth decile for accepted students, reinforced the pattern. Early struggles alone might be dismissed, but combined with the third-year ranking, they paint a picture of persistent academic difficulty rather than a temporary adjustment.\n\nYour undergraduate GPA, however, worked in your favor. At 3.10, it is only slightly below the 3.23 average among accepted students, and the model recognized it as a modest positive signal pointing toward passing. Unfortunately, this favorable influence was not strong enough to overcome the two class-rank indicators.\n\nYou should focus on improving your academic performance in law school coursework before reapplying—either through a post-baccalaureate program or by retaking key courses to raise your class standing. Strengthening your study habits and demonstrating a clear upward trend would directly address the most important factors in your rejection.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

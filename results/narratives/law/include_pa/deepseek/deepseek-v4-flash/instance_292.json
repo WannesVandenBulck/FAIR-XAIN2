@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 292,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:25:58.134129",
+  "status": "success",
+  "narrative": "The model predicts a 90.8% chance that you would fail the bar exam on your first attempt, meaning the law school saw this as a very high risk and denied admission because they believe you would not become a licensed attorney. Three key factors drove this decision, in order of importance.\n\nYour third-year class standing was the strongest reason for the denial. You were in the bottom decile of your school, while admitted students typically sit around the sixth decile. This places you far below the academic performance expected of a successful candidate. It pushed the prediction strongly toward failure.\n\nYour first-year class standing was the second most important factor. Again, you were in the bottom decile compared to the admitted average near the sixth decile. Starting law school at such a low academic level suggests early difficulty that may carry through, reinforcing the concern.\n\nYour LSAT score was the third contributing factor. At 27, it is well below the average of 37 for admitted students. A lower score typically indicates weaker critical reading and reasoning skills, which are essential for bar passage, and it pushed further toward failure.\n\nTogether, these three signals paint a consistent picture: despite your middle-income background and full-time attendance, the academic indicators—bottom-tier class rank and a low LSAT score—overwhelmingly point to a high risk of not passing the bar. To improve your chances, focus on strengthening your academic record, consider retaking the LSAT after dedicated preparation, and look into bar-exam support courses. Demonstrating readiness through these steps could make a future application more competitive.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

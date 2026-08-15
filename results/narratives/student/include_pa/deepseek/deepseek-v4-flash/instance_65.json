@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 65,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:51:38.738843",
+  "status": "success",
+  "narrative": "Your predicted chance of failing is 20 percent. That means the model sees you as at risk, and although you have some strong positives, the overall picture places you in the group needing remedial courses to get back on track.\n\nThe clearest warning sign is your workday alcohol consumption, which is very high. Among students who passed, almost all reported very low drinking during the week. This factor pushes strongly toward failing and outweighs the good parts of your profile. You also have zero past course failures, which is a positive sign—it pulls your risk down and shows you can keep up when things are going well. Similarly, choosing your school because of its reputation actually helps your chances a little, since students with that motivation tend to do better.\n\nSo you are not being flagged because of academic weakness. The main problem is your weekday drinking, which likely affects focus, sleep, and daily energy. To improve, consider cutting back on alcohol during school days and finding healthier ways to manage stress or free time. Keep your record of never failing a class, and build on the confidence that comes from being in a school you believe in. Because your family relationships are also very bad, asking for support from a counselor or trusted adult could help you handle pressures in a safer way. Making these changes can reduce your risk and help you finish the year successfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 20,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:57:53.747662",
+  "status": "success",
+  "narrative": "Your loan application was declined because the model considers you to have a moderate risk of not repaying the loan. The estimated chance that you would become a bad credit risk is about 39%. That means that out of every 100 applicants with a similar financial profile, roughly 39 are expected to have serious repayment difficulties. It is not a certainty, but it is high enough for the bank to be cautious.\n\nWhat most influenced the decision? Interestingly, two of the three strongest factors were in your favor. Your savings situation was the single most influential factor, and it actually lowered your risk: having no established savings is common among approved borrowers, so this did not count against you. Similarly, not having a checking account was the second strongest factor, and it also worked in your favor; many approved applicants are in the same situation. So the denial was not driven by those areas.\n\nThe third strongest factor went the other way. The amount you requested, 7,980 DM, is far above the average of about 3,020 DM for approved loans. This large request pushed the model strongly toward a bad credit risk, because higher amounts mean more exposure if repayment fails. In fact, this positive risk was enough to outweigh the good signs from your savings and checking account.\n\nWhat can you do next? Consider requesting a smaller loan amount, or building up a visible savings balance and a stable checking account for a few months. You may also want to improve your credit history before reapplying. A lower amount and a stronger financial buffer would substantially improve your chances.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 27,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:17:37.713583",
+  "status": "success",
+  "narrative": "Your application was denied because the admissions model predicts a 92% chance that you would fail the bar exam on your first attempt. In practical terms, this means the law school does not believe you were likely to successfully complete the program and pass the bar, given the academic signals available.\n\nThe most important factor in this decision was your class standing in your third year. Ranking in the first decile places you among the lowest performers in your school, while accepted students typically rank around the sixth decile. This very strongly pushed the prediction toward bar exam failure. The second most influential factor was your LSAT score of 26, far below the average of 37 seen among accepted students. This also pushed the prediction toward failure, because the test reflects the analytical and reading skills essential to bar preparation. The third factor, your first-year class standing, again in the first decile, was somewhat less influential but still pushed toward failure, reinforcing a pattern of academic struggle from the very beginning.\n\nThese three signals far outweighed your full-time enrollment status or family background. The message they send together is that your performance so far has not demonstrated the foundation needed for law school. Before reapplying, focus on strengthening that foundation: prepare intensively to raise your LSAT score, and consider enrolling in rigorous coursework to show you can succeed at a higher academic level. A future application that shows clear upward improvement would directly counter the concerns that drove this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

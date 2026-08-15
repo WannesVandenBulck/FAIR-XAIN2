@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 67,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:52:17.868943",
+  "status": "success",
+  "narrative": "Your final-year prediction shows a 32% chance of failing. That may sound modest, but it is high enough that the school requires you to take remedial courses. The model did not judge your personality, health, or gender; it focused on patterns that separate students who pass from those who do not.\n\nThe single most important factor in your prediction was that you said you do not want to pursue higher education. Among students who passed, every single one wanted to continue studying after school. This made your profile look more like someone who might disengage, and it pushed strongly toward failing.\n\nThe second most influential factor was your reason for choosing this school. You selected it because it is close to home. That actually worked in your favor, pulling the prediction toward passing, because it suggests you can attend easily and stay connected to your community. However, that positive influence was not enough to overcome the risks.\n\nThe third most important factor was that you have one previous failure. Students who passed had none on average. Past difficulty is a warning sign that similar obstacles could appear again unless something changes.\n\nThe good news is that these are all areas you can act on. Reconsider your plans after school; even if you are unsure about university, connecting your subjects to a career goal can give you motivation. Since you already faced one failure, take advantage of tutoring, extra support, and family help. Build a steady study routine now, and use the remedial courses as a chance to strengthen your foundation. One past failure does not define your final result.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

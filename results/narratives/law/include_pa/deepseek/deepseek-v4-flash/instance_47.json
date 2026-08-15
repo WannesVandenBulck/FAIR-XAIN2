@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 47,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:22:08.205228",
+  "status": "success",
+  "narrative": "Based on your application, the model indicates a 75.2% chance that you would fail the bar exam on your first attempt. In plain terms, if you were admitted alongside students with a similar academic profile, more than three out of four would not pass the bar the first time. That risk is why your application was denied: the school’s primary concern is admitting candidates likely to succeed in law practice, and failing the bar is a very strong negative signal.\n\nThe most important factor in this decision was your class standing in the third year of your undergraduate studies. You were in the 2nd decile, meaning your grades placed you in the bottom 20% of your class. Among admitted students, the average decile was close to 6, a middle-of-the-pack position. This low third-year rank weighed heavily, pushing the prediction toward failure.\n\nYour Year 1 class standing also contributed, though less strongly. You were also in the 2nd decile then, far below the admitted average of about 6. This early academic struggle reinforced the risk.\n\nYour undergraduate GPA, however, worked slightly in your favor. At 3.20, it was just under the admitted average of 3.23, so it nudged the prediction modestly toward passing the bar. But it was not enough to offset the two weak class ranks.\n\nWhat should you do next? Focus on raising your academic performance in a postgraduate or retake program: take rigorous, graded coursework to demonstrate you can succeed in upper-level classes. Stronger recent grades would directly improve your class standing and give admissions committees better evidence of your readiness.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

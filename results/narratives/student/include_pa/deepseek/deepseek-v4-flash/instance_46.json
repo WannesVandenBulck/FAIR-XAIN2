@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 46,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:45:18.120542",
+  "status": "success",
+  "narrative": "Based on your profile, the model places your risk of failing at about 11%. That means roughly 11 students out of 100 with similar characteristics might not finish the year. The school sees this as enough to require extra help.\n\nThe strongest factors the model considers are actually in your favor. Having no previous failed classes strongly reduces your risk, as does your clear desire to go on to higher education—every student in the passing group shared that goal. Your small family size also nudges the prediction toward success.\n\nHowever, the model does not see these as enough to clear the threshold. Other parts of your profile tip the balance. You miss school more often than the average student who passes: six absences compared to under four. Your weekend alcohol consumption is medium, while most passing students report very low or low. You also go out with friends more than the typical passing student, and you are not taking extra paid classes within the subject.\n\nThese smaller influences accumulate and result in the residual risk. None are dramatic red flags, but together they point to a need for structured support. To improve your chances, consider reducing absences, moderating weekend drinking, and adding a little more focused study time—these are the areas where small changes could make the biggest difference.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

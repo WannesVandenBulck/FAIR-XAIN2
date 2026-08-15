@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:11:50.066383",
+  "status": "success",
+  "narrative": "The model has determined that your likelihood of failing the bar exam on the first attempt is extremely high, at 99.2%. Because your future success as an admitted student is so heavily tied to this outcome, the university decided to reject your application to protect your chances of a viable legal career.\n\nThe single most important factor in this decision was your academic ranking in your third year. Being in the second decile places you among the lower-performing students in your class, which is a significant concern when the average accepted applicant falls in roughly the sixth decile. Your first-year class ranking was equally weak by comparison, and this was the second strongest influence on the decision. Having performed in the bottom quarter of your class in both your first and third years shows a persistent pattern of struggling relative to your peers, which the model views as a powerful indicator that you may also struggle with the high-stakes pressure of the bar exam.\n\nYour family income background was the third relevant factor, although its influence was considerably weaker. While coming from an upper-middle-class background is actually the most common profile among accepted students, the model weighed it as a very minor negative signal in your case.\n\nTo change this outcome in the future, your primary focus should be on dramatically improving your class standing. Seek out academic tutoring, exam-preparation workshops, and study groups to address this directly. You may also consider retaking the LSAT to strengthen your application, but remember that improving your grades is the most decisive step you can take.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

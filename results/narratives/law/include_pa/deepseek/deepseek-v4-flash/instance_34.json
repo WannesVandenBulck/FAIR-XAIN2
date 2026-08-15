@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 34,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:18:42.117202",
+  "status": "success",
+  "narrative": "The model's prediction indicates a 96% chance you would fail the bar exam on your first attempt, leaving only a 4% chance of passing. That level of confidence drove the decision to deny your application.\n\nWhat matters most is not any single piece of information but the combination of three particularly strong signals. The strongest influence came from your third-year academic standing. Being in the bottom decile of your cohort at that point, when the average accepted student was near the sixth decile, suggests persistent difficulty with legal coursework. This weighs heavily because later-year performance is closely connected to bar readiness.\n\nThe second most important factor was your LSAT score. At 24, yours is far below the average of 37 among accepted students. The exam measures critical reasoning and reading comprehension skills that also underlie bar exam performance, so the model sees this as pointing in the same direction.\n\nThird, your first-year class standing also pushed toward failure. Again, you were in the lowest decile while accepted students typically sat around the sixth, indicating that the struggle began early and continued.\n\nNone of these factors alone would have sealed your application, but together they strongly pointed one way: bar exam failure.\n\nWhat should you do next? Retake the LSAT after dedicated preparation; that gap is the most actionable. Strengthen your academic record through rigorous coursework, and begin structured bar exam study early. If you reapply, show an upward trend. This outcome is not permanent, but you will need to change the pattern.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

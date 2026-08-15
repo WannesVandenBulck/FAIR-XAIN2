@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 19,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:37:12.511401",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates you have a 16% chance of failing your final year. That means you are more likely to pass than not, but the risk is high enough that the school requires you to take remedial courses to keep you on track.\n\nThe three strongest factors in the model’s decision all actually worked in your favor. First, you have no previous failures, which is the most influential factor. Students who passed also averaged zero failures, so you match that successful pattern. Second, you have relatively little free time after school, which suggests you are not spending too much time idle; this points toward a focus on responsibilities and supports passing. Third, you want to pursue higher education. Every single student who passed in the comparison group shared that ambition, so your own desire for further study is a meaningful protective signal.\n\nDespite these strengths, the model still flagged you as needing support. Other parts of your profile, such as your weekend alcohol consumption being higher than most students who passed and your weekly study time being on the lower end, push the balance toward risk. These factors outweighed the positive signals and left your overall chance of failing at 16%.\n\nTo improve, keep your record of no failures intact and hold on to your goal of higher education. Consider reducing weekend drinking and adding more structured study hours, as these are the areas where you differ most from peers who pass.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

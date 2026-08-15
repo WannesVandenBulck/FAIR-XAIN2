@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 255,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:15:42.905366",
+  "status": "success",
+  "narrative": "Your law school application was denied because the admission model assessed your chances of passing the bar exam on the first attempt at only about 39%, meaning a 61% probability of failure. In other words, the model saw your academic profile as tilting toward bar exam failure rather than success.\n\nThe strongest factor working against you was your class standing in your third year. You finished in the third decile of your school cohort, while students admitted in past cycles typically sat near the sixth decile. Since this was the single most influential signal in the review, a lower rank among your peers weighed heavily against you and pushed the outcome toward failure.\n\nYour LSAT score compounded the problem. At 33, you scored below the average of roughly 37 for accepted students. This was the third most influential factor, and it too pushed the prediction toward failure.\n\nNotably, not every signal was negative. Your undergraduate GPA of 3.90 stands well above the 3.23 average for accepted students, and this was the second most influential factor in your review. It pushed strongly toward passing and demonstrated your academic capability, but the model ultimately weighed your law-school-specific performance and LSAT more heavily.\n\nWhat should you do next? Consider retaking the LSAT after dedicated preparation, since improvement would directly counter the two biggest risks in your file. Strengthening your academic record in your current program would also help, as third-year standing proved to be the decisive indicator.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

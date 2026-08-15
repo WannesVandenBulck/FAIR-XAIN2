@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 23,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:38:39.523853",
+  "status": "success",
+  "narrative": "The model estimates that you have a 21% chance of failing your final year. That means about one in five students with a profile like yours does not make it, and the school has decided that this level of risk is high enough to require you to take remedial courses. Even though the chance of passing is greater, the model still flags you as needing extra support.\n\nThe single most important factor pushing you toward failure is that you do not currently plan to pursue higher education. Among students who passed, every single one wanted to continue their studies. This goal seems to be a powerful motivator for staying on track, and its absence is what most strongly raises your risk. The second factor, past class failures, works in your favor: you have never failed a class before, which is a strong sign that you can handle your coursework. The third factor is your guardian. Having your father as your guardian is slightly less common among successful students than having your mother, but it still points toward passing rather than failing.\n\nSo your profile is mixed. The positive signs—no past failures and having a supportive guardian—are outweighed by the lack of ambition to go on to higher education. To lower your risk further, consider exploring what options exist after school, whether university, vocational training, or another path. Talking to a counselor or a teacher about possible futures can help you build a concrete goal that gives you a reason to stay engaged. The model is telling you that this missing motivation is the main thing holding you back.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

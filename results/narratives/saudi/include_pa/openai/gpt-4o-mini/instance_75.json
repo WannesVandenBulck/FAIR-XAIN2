@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 75,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "timestamp": "2026-08-15T15:42:19.329951",
+  "status": "success",
+  "narrative": "The model has predicted a 68% chance that you will leave your job, which is a significant probability indicating that the organization is concerned about your potential departure. This prediction has influenced the decision to deny you a promotion, as the organization aims to retain employees who are likely to stay and contribute positively.\n\nThe primary reason for this prediction stems from a few key factors. First, your perception of job opportunities is notably different from many of your peers; while a majority feel they have limited options, you have indicated that you have received other job offers. This suggests a potential inclination to explore those opportunities, which raises concerns about your commitment to your current role.\n\nAdditionally, your years of experience in this organization are on par with many others, but the model indicates that this factor leans slightly towards stability. However, your overall experience in the workforce is relatively common among employees who are predicted to stay, which does not strongly support your retention.\n\nLastly, the model considers your years of experience in your current position, which aligns with many others who have been in similar roles for a comparable duration. This factor tends to suggest stability, but it is overshadowed by the stronger influence of your job opportunities.\n\nGiven this context, it may be beneficial for you to engage in a conversation with your manager about your career path and express your commitment to the organization. This could help alleviate concerns and potentially open up avenues for professional development that align with your aspirations.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

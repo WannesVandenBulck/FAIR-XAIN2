@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 283,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:23:51.224178",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 56% chance that you would not pass the bar exam on the first attempt — meaning you were seen as more likely to fail than to pass. This is a close margin, but it tipped the decision against you, and three factors drove that assessment.\n\nThe single most powerful influence was your class standing in your third year. You ranked in the bottom decile (the 1st), while students whose applications were accepted typically fall around the 6th decile. This weighed heavily against you, pushing the prediction firmly toward bar exam failure. Third-year performance is a strong signal because it reflects the legal reasoning skills you would bring to your final year of study and, ultimately, to the bar exam itself.\n\nTwo factors actually worked in your favor. Your first-year class standing placed you in the 4th decile, better than the accepted average of the 6th decile, which nudged the prediction toward passing. Your undergraduate GPA, at 2.40 compared with the accepted average of 3.23, also pulled slightly in the direction of passing — though this effect was weak and far too modest to offset the damage from your third-year ranking.\n\nYour LSAT score of 30, well below the average of 37 among accepted students, remains a concern even though it was not among the top three influences. To strengthen a future application, focus on dramatically improving your third-year grades, retake the LSAT, and consider enrolling full-time, since nearly all accepted students did so. Addressing your weakest signals now could reshape a future prediction in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 1,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:16:54.672623",
+  "status": "success",
+  "narrative": "Your promotion was denied because our assessment indicates a 46% chance you would leave the organization in the near future, and that level of risk makes investing in a promotion difficult to justify. The strongest signal in your profile is your experience. With only one to five years of total experience, you are in the most common group among employees who remain; this actually works in your favor, pulling the prediction toward staying, because it suggests you are still building your career and not yet set on leaving. The second strongest signal is having received other job opportunities while working here. This works against you. Most employees who stay—about three out of four—report no outside offers, while yours signals that you are actively attractive to other employers and may be weighing alternatives. The third factor is your sector. You work in a sector labeled “other,” and among employees who stay, medical and education sectors are much more common. This pushes the prediction further toward leaving, possibly because “other” roles may offer fewer clear career paths or less stability than those dominant sectors. Taken together, these three factors create a risk profile that, despite your satisfaction with income and high emotional commitment, still points to a meaningful chance you will leave. To address this, you should talk with your manager about your career trajectory and any outside opportunities you are considering. The organization, in turn, should clarify growth paths in your sector and ensure you feel that staying is the better choice.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

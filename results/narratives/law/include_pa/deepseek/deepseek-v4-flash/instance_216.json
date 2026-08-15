@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 216,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:03:08.396089",
+  "status": "success",
+  "narrative": "Based on the review of your academic profile, the model predicts an 88.2% chance that you would not pass the bar exam on your first attempt. This high risk of failure, rather than your current grades alone, is the primary reason your application to law school was denied. The decision hinges on three key factors, ranked by how strongly they influenced the outcome.\n\nThe single most influential factor was your class standing in your third year. Your placement in the bottom decile of your current school's cohort is strikingly low, especially when compared to admitted students who typically sit near the middle (around the 6th decile). This pattern strongly signals to the model that your academic trajectory is heading toward bar exam difficulty, pushing the prediction firmly toward failure.\n\nCuriously, your undergraduate GPA worked in your favor. At 3.50, it is above the average of 3.23 for accepted students, and this pulled the prediction toward passing. It shows you have the intellectual foundation, but it was not enough to offset your recent performance.\n\nYour first-year class standing, also in the bottom decile, compounded the concern raised by your third-year record. Although it had less influence than your third-year standing, it confirms a persistent pattern of ranking at the very bottom of your class, rather than a one-time setback. This reinforced the model's risk assessment.\n\nYour LSAT score of 30 was not among the top drivers of this decision, and your family income and part-time or full-time status were not significant factors in this prediction.\n\nTo improve your chances, focus on dramatically improving your academic performance and class rank in your final year. Consider bar preparation courses and seek academic support to demonstrate you can perform at the level required for both law school and the bar exam.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

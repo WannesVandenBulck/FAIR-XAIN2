@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 228,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:06:50.752031",
+  "status": "success",
+  "narrative": "The model behind your law school rejection predicts a 63.3% chance that you would fail the bar exam on your first attempt. In other words, based on the information in your application, failure was more likely than passing, and that is the primary reason your admission was denied.\n\nWhat drove that prediction most strongly were your class ranks. Your third-year standing was the single most important factor, and your first-year standing was the second most important. In both years, you were in the lowest tenth of your class, while students who are typically admitted are closer to the middle, around the sixth decile. Being at the very bottom of your class in both years is a powerful signal that you struggled with legal coursework, and it pushed the prediction toward bar exam failure.\n\nYour undergraduate GPA, however, worked in the opposite direction. Even though your GPA of 3.10 is below the average of about 3.23 for admitted students, this factor actually nudged the prediction toward passing. It suggests your earlier academic abilities are not the issue.\n\nTo strengthen your case for next time, focus on improving your academic standing as much as possible. Retake any courses to raise your grades, aim for a higher class rank in upcoming terms, and consider preparing seriously for the LSAT. If you can demonstrate that you can perform near the top of your class, you will substantially improve your chances of a favorable outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

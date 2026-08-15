@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 66,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:51:57.099780",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates that you have a 37% chance of not completing your final year successfully. This does not mean failure is likely or certain; rather, it means that the school considers this risk high enough to require you to take remedial courses. In fact, the same model would expect about two out of three students with your profile to pass, but your particular combination of factors raises enough concern to act early.\n\nThe strongest reason for this prediction is your record of past course failures. You have already failed three courses, while students who go on to pass the year typically have no previous failures. The model treats this as the most important signal because repeated difficulty in the past often points to greater challenges ahead, especially if the underlying obstacles have not been addressed.\n\nTwo other factors worked in your favor. You have very little free time after school, and although that sounds like a downside, the model associates this pattern with students who pass, likely because it means more time is spent on schoolwork. Not having attended nursery school also did not count against you; if anything, it slightly nudged the prediction toward passing. These positive influences explain why your risk is not higher, but they are not enough to overcome the strong effect of your previous failures.\n\nNow is the time to take that warning seriously. Focus on the subjects you previously failed and seek extra help in those areas. Your weekly study time is currently under two hours, which is low, and your absences are above the average for passing students. Reducing weekend alcohol use and making sure you have a reliable place to study would also help. Think of the remedial courses not as a penalty but as a structured opportunity to break the pattern and finish the year successfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

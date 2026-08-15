@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 8,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:55:37.473650",
+  "status": "success",
+  "narrative": "Based on the assessment, your application was denied because the model estimated a 41% probability that you would default, meaning you fell on the riskier side of the bank’s approval threshold. While this is not an overwhelmingly high risk, it was enough to decline the loan.\n\nThe single most important factor in this decision was the status of your checking account, which currently has a negative balance. This is unusual and a strong warning sign: only about one in eight approved applicants had a negative balance at the time of their application. This outweighed everything else, pulling your overall profile firmly toward “bad credit risk.”\n\nThe next most influential factors actually worked in your favor. Your requested loan term of 12 months is shorter than the typical 19 months for approved applicants, and shorter durations are associated with lower risk. Additionally, your installment rate of 2% of disposable income is below average, indicating that you have more financial breathing room each month and are less likely to struggle with payments. Your credit history of having existing paid-off loans also supports your reliability, but even these positive signals could not compensate for the negative checking account.\n\nTo improve your chances in the future, focus on rebuilding a positive balance in your checking account and maintaining it for several months. This single change directly addresses the main reason for this denial. Consider reapplying once you have a stable buffer, and perhaps keep the loan amount modest and the term short, as those factors favored you this time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

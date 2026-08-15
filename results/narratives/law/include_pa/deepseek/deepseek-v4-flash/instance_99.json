@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 99,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:33:41.337757",
+  "status": "success",
+  "narrative": "Your application was denied because our predictive model estimates you have an 88.3% probability of failing the bar exam on your first attempt. In plain terms, the model believes that, based on your academic record, you are very likely to struggle with the licensure exam that determines whether you can practice law. Because passing the bar is a critical outcome for law students, the school uses this prediction to protect both its graduation rates and your investment of time and money.\n\nThe most influential factor in this decision was your class standing in the third year of your undergraduate studies. You are in the first decile, meaning you ranked in the bottom ten percent of your school cohort. This is a strong signal of persistent academic difficulty. By contrast, admitted students were typically in the sixth decile, around the middle of the class. The second most important factor was your first-year class standing, also in the first decile, which further reinforces that academic challenges have been present from the start. Both of these grades-based signals pushed the model strongly toward the \"failure\" side of the prediction.\n\nYour undergraduate GPA did slightly counteract that trend, leaning toward success, but its influence was far weaker than your class rankings and could not overcome them.\n\nTo strengthen a future application, focus on your academic trajectory. Consider retaking courses to improve your grades, or complete a post-baccalaureate program to demonstrate you can handle rigorous coursework. Doing so for several years could move you out of the bottom decile and substantially change the model's decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 272,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:20:33.313310",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated that you had a 52% chance of failing the bar exam on your first attempt. That is just over even odds, and it made the law school deem your admission too risky. Three factors in your record drove this outcome.\n\nThe strongest influence was your third-year class standing. You ranked in the second decile, which looks strong compared with the average of around the sixth decile for admitted students. However, the model focused on the direction of your grades: you were at the very top in your first year (first decile) and then slipped by your third year. That downward dip was the most important signal, and it pushed the prediction toward bar-exam failure. Your first-year standing, while excellent, contributed mildly in the same direction, reinforcing the concern that your academic momentum had stalled.\n\nNotably, your LSAT score did not hurt you. Although your score of 35.5 is below the admitted-student average of 37.2, the model treated it as the second most influential factor and it pushed you toward passing. In short, the LSAT worked in your favor, but it could not fully offset the worry about your grade trend.\n\nTo improve your chances, retake the LSAT to strengthen an already positive feature, and write a clear personal statement explaining your third-year slip and what changed afterward. If you can show strong recent grades or achieve a higher exam score, a future application would look considerably safer.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 212,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:01:24.878629",
+  "status": "success",
+  "narrative": "After careful review of your application, the admissions committee used a predictive assessment of your likelihood of passing the bar exam on the first attempt. The result was not favorable: the model estimated a 74.7% probability of failure—roughly three chances in four. Because passing the bar is essential to a successful legal career, this estimate weighed heavily in the decision to deny your application.\n\nThree factors shaped this outcome. The strongest influence was your academic standing in your third year of study. Your position, in the second decile of your class, places you well below the average accepted applicant, who typically sits near the sixth decile. This pattern of academic struggle is closely tied to bar exam failure. Your first-year class rank also mattered, though slightly less. At the third decile, against an average near the sixth, you showed early difficulty that was not fully resolved.\n\nThe only counterweight came from your LSAT score. At 38, you scored above the accepted average of about 37, and this pushed the prediction toward passing. However, it was not powerful enough to overcome the concerns raised by your class standing.\n\nWhat should you do next? Consider enrolling in a bar-preparation",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

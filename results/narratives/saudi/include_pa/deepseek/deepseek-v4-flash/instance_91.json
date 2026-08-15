@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 91,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:33:47.329825",
+  "status": "success",
+  "narrative": "Your profile has been assessed, and the model’s 78% chance of leaving is what led to the promotion decision. In plain terms, the model sees a strong likelihood—more than three out of four—that you will leave your job in the near future. The main reason is not your performance or satisfaction, but the combination of your work history and experience patterns.\n\nThe single strongest signal is your long overall experience. You have more than 11 years of total experience, yet only a small share of employees who stay with their organization have this much experience. The model interprets this long track record as a signal that you are an experienced professional who may be likely to move on.\n\nA second important factor works in your favor: you have not received other job opportunities while working here. That factor pushes toward staying, but the model does not consider it strong enough to offset the two experience-related signals. The third important factor is your time with your current employer: only 1 to 5 years. Combined with your long total career, this pattern—long career, short current tenure—is associated with people who are likely to move on.\n\nTaken together, the model’s message is that you are at a higher risk of leaving, and that risk is the basis for denying the promotion. To change this outcome, the organization should focus on retaining experienced employees who are still early in their tenure at the company—offering clearer career paths, growth, and reasons to stay. For you personally, it may be worth considering what would make this job a long-term commitment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

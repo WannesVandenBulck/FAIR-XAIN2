@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 80,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:31:55.492214",
+  "status": "success",
+  "narrative": "Based on the available data, the model estimates there is a 60% chance that you will resign from your position in the near future. Because this risk is higher than the threshold for career investment, a promotion was denied—not as a judgment of your past performance, but as a precaution against investing in someone who may soon depart.\n\nThree factors weighed most heavily in this decision. The single strongest influence was your long service in your current role. With more than eleven years in this organization, you are far more loyal than typical employees—among those predicted to stay, only about one in seven had such long tenure, so this factor strongly pushed the prediction toward you remaining.\n\nHowever, the second most important factor worked against you: you have received other job opportunities while working here. This is a significant signal, because among employees predicted to stay, only about a quarter had outside offers. Combined with your eleven-plus years of total experience—a level reached by fewer than fifteen percent of stayers—the model sees you as highly marketable and likely to act on those prospects.\n\nIn short, the model views your deep history here as a reason to stay, but your experience and external options as reasons to leave. Your long tenure clearly means something to you, yet the presence of alternatives suggests you may already have one foot out the door. To address this, the organization should re-engage you through meaningful career development and open dialogue about your future, while you should clarify whether growth opportunities remain here or whether you are ready to move on.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

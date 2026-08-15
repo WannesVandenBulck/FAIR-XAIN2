@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 104,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:34:49.011370",
+  "status": "success",
+  "narrative": "You were denied admission because the model assesses your chance of failing the bar exam on the first attempt at roughly 85%. That is a very high risk, and the school decided it is too great. Your academic record in law school is the main reason. Your class ranking in your first year and again in your third year placed you at the very bottom of your class, in the lowest decile. Students who were accepted typically sit around the sixth decile, meaning you are far behind. These two factors together were the strongest forces pushing the prediction toward failure. In fact, they outweighed your LSAT score, which did work in your favor. Your LSAT score is above the average of accepted students, and that pulled the prediction toward passing. So you did have a strength, but it could not counterbalance the concern raised by your class performance. To improve your chances, focus on building a much stronger academic foundation. Seek out academic support, study groups, or tutoring, and consider whether a lighter course load might allow you to raise your grades. Retaking the LSAT to raise your score further is also a good idea. Additionally, you might gain practical legal experience through internships or prep courses that demonstrate your commitment and capability. Reapply once you can show a record of sustained academic improvement and a higher LSAT score.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 50,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:26:19.298836",
+  "status": "success",
+  "narrative": "Based on your profile, the model calculates an 85% likelihood that you will leave your position in the near future. This high probability is the reason the promotion decision came back negative. In effect, the model looks at patterns from many employees like you and sees a strong risk that you would not remain in the role long enough for a promotion to be a worthwhile investment.\n\nThree factors weigh most heavily in this prediction. First, you reported that you have received other job opportunities while working here. This is the strongest signal: having outside options suggests you are actively considered by other employers, which historically correlates with an employee choosing to move on. Second, your total experience of 6 to 10 years makes you highly marketable; with that background, leaving becomes easier because other doors are open. Third, despite that considerable overall experience, you have only been in your current organization for 1 to 5 years. That combination—high overall experience but relatively short tenure in this specific job—pushes the prediction toward departure, possibly indicating that you have not yet built deep roots or long-term commitment here.\n\nIt is important to note that these are tendencies, not certainties. You may feel fully committed, and your own satisfaction with your environment and job is high. For the organization, the key takeaway is to consider retention actions: have an open conversation about your career path, clarify promotion timelines, and consider opportunities that would make staying more attractive. For you, it may be valuable to discuss your future goals directly rather than letting a prediction define your potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

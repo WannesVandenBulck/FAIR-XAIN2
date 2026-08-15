@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 156,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:47:29.036549",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts a 54% chance you would not pass the bar exam on the first attempt. This means that, based on the information available, the law school judged you more likely to fail than to succeed on that critical exam. The prediction is not about your worth but about specific measurable factors that historically matter most for bar passage.\n\nThe single most influential factor in this decision was your law school admission test score. Your score of 25 is far below the average of 37 among admitted students. This weighed heavily against you, pushing the prediction strongly toward bar exam failure. Even when other parts of your record suggested you could pass, this large gap was the primary driver of the denial.\n\nYour undergraduate grade point average, in contrast, worked in your favor, but only modestly. At 3.30, it is slightly above the average of 3.23 for accepted students. This positive signal nudged the prediction toward passing, yet its influence was much smaller than that of your admission test score and not enough to reverse the outcome.\n\nSimilarly, your third-year class standing helped a little. Being in the fourth decile is above the average accepted student’s fifth or sixth decile, so this also pushed mildly toward success. However, its contribution was even weaker than your undergraduate GPA.\n\nTogether, these two supportive factors could not outweigh the single, powerful negative influence of your admission test score. To improve your chances, focus on retaking that test after serious preparation. A substantially higher score would directly address the main reason for this decision. You might also consider strengthening your academic record through additional coursework. After making these improvements, you would be a much stronger candidate for reapplication.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

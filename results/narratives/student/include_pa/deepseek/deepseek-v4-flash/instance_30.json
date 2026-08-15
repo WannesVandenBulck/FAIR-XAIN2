@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 30,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:41:02.835583",
+  "status": "success",
+  "narrative": "After reviewing your school data, the model estimates there is a 24% chance you will not finish the year successfully. That is the reason you are being asked to take remedial courses. Although this may sound like a low probability, the model has judged that the risk is high enough to act, and it is important to understand why.\n\nThe most powerful signal in your profile is actually a positive one: you are receiving extra educational support from the school. This is working in your favour, pushing the prediction toward passing. Very few students who pass receive this kind of help, so having it shows you are trying, but it also suggests that without it your risk would be even higher.\n\nHowever, two other factors are strongly pushing the prediction in the opposite direction. First, you have three past class failures. Among students who ultimately pass, the average number of previous failures is zero. Repeating courses is a major warning sign because it indicates gaps in foundational knowledge that tend to grow if not addressed. Second, you indicated that you do not intend to go on to higher education. Every student in the comparison group of successful peers did want to continue studying. Lacking that long-term goal can reduce motivation and make it harder to put in consistent effort.\n\nYour family situation, travel time, and free time are less relevant to the prediction. The main areas to focus on are strengthening your academic basics and reflecting on your future plans, even if they do not involve university. The remedial courses are designed to help you overcome exactly these obstacles.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

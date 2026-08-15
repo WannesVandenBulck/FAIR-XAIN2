@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 43,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:03:20.217072",
+  "status": "success",
+  "narrative": "Our automated credit assessment concluded that you are likely to be a bad credit risk. Specifically, it estimated an 81 percent probability of this outcome, meaning that in similar situations repayment difficulties occur roughly eight out of ten times. This high level of risk is why your loan application was denied.\n\nThe three most important reasons, in order of influence, were your checking account situation, your credit history, and the purpose of the loan you requested.\n\nMost significantly, your checking account was overdrawn, with a balance below zero. Most approved applicants either had no overdraft or maintained a positive balance. This suggests current financial strain and strongly pushed the decision toward denial.\n\nSecond, your credit history was reported as having no credits taken out, with all previous debts paid. Although that sounds responsible, it is a very uncommon pattern among approved borrowers. The model treats it as a risk because there is little evidence that you have managed ongoing credit obligations. This factor also pushed toward bad credit risk.\n\nThird, you requested a new car loan. While vehicle financing is not unusual, this purpose appears riskier than more common loan purposes, such as household goods or furniture, and it contributed further to the negative outcome.\n\nTo improve your chances in the future, focus on keeping your checking account consistently in positive territory for several months, build a longer and more demonstrable credit record with smaller obligations, and consider whether a new car is the best purpose—or apply for a smaller amount once your financial situation is more stable.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

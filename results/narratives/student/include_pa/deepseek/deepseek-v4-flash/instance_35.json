@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 35,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:42:10.082265",
+  "status": "success",
+  "narrative": "The model’s verdict is that you have a 16 percent chance of finishing the year unsuccessfully. That is not a certainty, but it is high enough that the school requires you to take remedial courses as a safeguard. To understand why, we look at the three factors that most shaped your prediction: your past academic record, your ambition for further study, and your attendance. Reassuringly, each of these actually leaned in your favor. You have never failed a class before, and this matches the typical record of students who passed, so the model sees your history as a clear sign that you can keep up with coursework. Your desire to pursue higher education is another strong positive—it is a goal shared by every student in the data who passed, making it one of the most reliable signals of success. Even your attendance, which stands at twenty-two absences compared with an average of about four among students who passed, was not counted against you in the model’s reasoning; if anything, it nudged slightly toward passing. So why the failing prediction? Because these three powerful factors were weighed together with many smaller ones from the rest of your profile, and the combined picture still left your risk above the accepted threshold. The 16 percent is a caution flag, not a judgment on your ability. The remedial courses exist to reduce that remaining risk. Use them as an opportunity: keep your attendance consistent, hold onto your goal of higher education, and treat the extra support as a way to close the gap between a good profile and a guaranteed pass.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

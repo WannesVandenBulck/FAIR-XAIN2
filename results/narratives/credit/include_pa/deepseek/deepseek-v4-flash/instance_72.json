@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 72,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:10:20.606462",
+  "status": "success",
+  "narrative": "After reviewing your application, the model estimated a 37 percent chance that you would default on the loan—meaning that out of every 100 similar applicants, about 37 fail to repay. That is too high for the bank to accept, so your request was denied.\n\nThe most important factor in the decision was your checking account status. You have a balance of at least 200 Deutschmarks or a regular salary deposit, which is actually a positive sign. In fact, only about one in ten approved applicants has this strong an account, so this feature worked in your favor and reduced your risk in the model’s eyes.\n\nThe second strongest influence was your savings. You have less than 100 Deutschmarks in a savings account. This is a significant weakness: among approved applicants, nearly half also have low savings, but combined with other factors, it increased your predicted risk. The model saw your limited financial cushion as a red flag.\n\nThe third factor was the purpose of the loan—furniture or equipment. This is not a high-risk category; about one in five approved applicants borrowed for this reason, so it slightly helped your case. Similarly, your requested amount of 1,925 Deutschmarks is below the average loan size, which is another point in your favor.\n\nHowever, the model concluded that the protective effect of your strong checking account and relatively safe purpose was not enough to offset the risk from your very low savings. To improve your chances next time, consider building a savings reserve first—even a modest amount above 100 Deutschmarks would show greater financial stability. You might also lower the loan amount further or add a co-applicant or guarantor to strengthen your application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

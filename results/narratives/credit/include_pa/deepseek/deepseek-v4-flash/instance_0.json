@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:53:39.263765",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 31% probability that you would be a bad credit risk. While that number may seem modest, it was high enough to place you above the bank’s acceptable risk threshold. The decision was not based on any single factor, but the most influential signal came from your checking account status. Your account is currently overdrawn, with a balance below zero. In the majority of approved applications, applicants either had a positive balance or no checking account at all; a negative balance is a strong warning sign of financial strain.\n\nTwo other important factors actually worked in your favor. Your requested loan duration is 12 months, considerably shorter than the average of about 19 months among approved applicants, which reduces the time the bank is exposed to risk. Additionally, your installment rate is only 2% of your disposable income, lower than the typical 3%, indicating that your monthly repayment burden would be relatively light. These positive elements suggest you have the capacity to repay, but they were not enough to overcome the concern raised by your overdrawn account.\n\nTo strengthen a future application, focus on improving your checking account situation. Bringing it to a positive balance—or at least avoiding overdraft—would directly address the main reason for this denial. It may also help to build a small savings buffer, as limited savings and no telephone were additional risk indicators. Consider reapplying after a few months of consistent account management, which would give the bank clearer evidence of financial stability.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

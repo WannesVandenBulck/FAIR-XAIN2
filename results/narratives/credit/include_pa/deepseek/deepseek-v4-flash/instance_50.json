@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 50,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:05:09.539027",
+  "status": "success",
+  "narrative": "Based on your application, our model assessed a 58% probability that you represent a bad credit risk, which unfortunately falls above our acceptable threshold, leading to the denial. The single most decisive factor in this decision was the amount you requested. At 13,756 DM, your requested loan is more than four times the average of 3,020 DM among approved applicants. This large sum, combined with a requested duration of 60 months—roughly three times the typical 19-month term—significantly elevated your risk profile.\n\nInterestingly, two other major factors worked in your favor. Your checking account status played a positive role; while many approved applicants also have no checking account, having a known status helped you slightly. Similarly, your savings account situation nudged the prediction toward good credit rather than against it.\n\nHowever, these positive influences could not overcome the weight of the substantial amount requested. Furthermore, your credit history shows critical or other existing credits, a category associated with higher risk, and you have no other debtors or guarantors to share the burden. Even your strong points—over seven years of stable employment and a management-level job—were not enough to offset these concerns.\n\nTo improve your chances in the future, consider requesting a notably smaller loan amount with a shorter repayment period. Building additional savings or adding a co-applicant or guarantor could also strengthen a future application. Reapplying with these adjustments would present a much more favorable risk profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

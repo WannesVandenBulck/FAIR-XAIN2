@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 287,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:24:45.805884",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed your chance of failing the bar exam on the first attempt at 68.9%. That means you were seen as more likely to fail than to pass, which raised serious concerns about your readiness for the legal profession.\n\nThe two strongest factors in this decision were your class standing in your first and third years of law school. In both years, you ranked in the second decile of your class, while accepted students typically ranked around the sixth decile. Being near the bottom of your law school class—especially in your final year—strongly signaled that you would struggle with the bar exam. These two rankings were the primary drivers pushing the prediction toward failure.\n\nYour undergraduate GPA, however, actually worked in your favor. With a 3.0, you were close to the average of accepted students (3.23), so this factor pointed slightly toward passing the bar. It was the third most influential element in the decision, but it was not enough to overcome the much larger concern created by your low class rankings.\n\nIn short, the model did not see you as lacking ability—your undergraduate record was acceptable—but your performance within your law school cohort suggested you had not mastered the material needed to pass the bar.\n\nTo improve your chances, consider strengthening your academic record through additional coursework or a structured bar preparation program. Requesting an interview to explain the circumstances behind your class rank, and providing evidence of recent improvement, could help a future admissions committee see your potential beyond these numbers.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

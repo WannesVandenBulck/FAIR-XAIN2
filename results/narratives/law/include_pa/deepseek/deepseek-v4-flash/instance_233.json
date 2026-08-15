@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 233,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:08:11.533427",
+  "status": "success",
+  "narrative": "Your application was decided on one question: how likely are you to pass the bar exam on the first attempt. The model set that chance at a 52.4 percent probability of failing—slightly worse than a coin toss, and more risk than the admissions committee was willing to accept.\n\nThe biggest factor pushing the decision toward denial was your class standing in the third year of study. You were in the first decile, meaning the bottom ten percent of your class, while accepted students typically fall near the sixth decile. Falling that low in your most advanced year raised serious doubts. No other factor carried as much weight.\n\nYour second most important factor actually helped you: your LSAT score of 39, above the 37 average of accepted students, pulled toward passing. A strong test score, however, could not outweigh the pattern of classroom performance.\n\nThe third factor was your first-year class standing, again in the first decile. Weak results in both your first and third years pointed to a consistent academic struggle, which the model associated with a higher risk of failing the bar.\n\nTo improve your chances, strengthen your academic record before reapplying. Take rigorous legal coursework and earn high grades, consider retaking the LSAT, and gain hands-on legal experience to show competence beyond the classroom. Demonstrated improvement will give you a far stronger case.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

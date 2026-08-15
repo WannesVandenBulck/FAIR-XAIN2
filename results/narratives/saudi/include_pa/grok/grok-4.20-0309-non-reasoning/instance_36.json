@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 36,
+  "provider": "grok",
+  "model": "grok-4.20-0309-non-reasoning",
+  "timestamp": "2026-08-15T12:11:08.654795",
+  "status": "success",
+  "narrative": "The model estimates a 47% chance that you will leave your job. This is high enough for the company to deny your promotion, as they prefer to invest in people more likely to stay long-term.\n\nThe decision was driven mainly by three factors, ranked by importance. First, your total years of experience across all jobs pulled the prediction strongly toward staying. With only 1-5 years overall, you fall into the most common group among employees the model expects to remain, which normally signals stability. Second, having received other job offers pushed the prediction toward leaving. This was the strongest factor increasing the likelihood you might depart. Third, working in the “other” sector also nudged the prediction slightly toward leaving, as this category shows more turnover than fields like medicine or education.\n\nTaken together, the model sees your external opportunities as the main risk, outweighing the reassuring signal from your relatively short but typical experience level.\n\nThe organization should discuss with you how to strengthen your sense of future growth inside the company. You may want to explore whether those external offers better match your goals or if adjustments to your current role could reduce the pull they exert. Addressing this openly could improve both your satisfaction and your retention prospects. (218 words)",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

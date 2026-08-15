@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 44,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:25:13.424691",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 78 percent. In practical terms, this means the model sees a strong likelihood that you will leave the organization soon, so approving a promotion is considered too risky. The main reason for this decision is that you have received other job opportunities while working here. This is the single strongest factor pushing the prediction toward leaving. Compared with employees predicted to stay, only about one in four received such offers, so this signal stood out clearly.\n\nYour overall experience also pushed in the same direction. With six to ten years of experience, you are more mobile and attractive to other employers than those with less experience. That makes the model consider you more likely to leave.\n\nThe only major factor pulling the prediction toward staying is your long tenure in your current organization. You have also been here six to ten years, which is longer than most employees predicted to stay. This loyalty and accumulated knowledge should work in your favor, but it was not enough to outweigh the external opportunities and overall experience.\n\nFinally, the model did not use your gender, age, or health status. The decision is based on work-related signals, not personal characteristics. For the organization, the key takeaway is that you are actively receiving outside offers. Rather than simply denying promotion, it should explore whether engagement, rewards, or career growth could reduce your desire to leave. For you, consider communicating your concerns and asking what would make staying more attractive.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 64,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:08:44.117490",
+  "status": "success",
+  "narrative": "Based on your application, our model estimated a 27% chance that you would become a bad credit risk. While that also means a 73% chance of repaying the loan, a 27% default probability is still too high for the bank to accept, which is why your application was denied.\n\nThe single most important factor behind this decision was the amount you requested: 11,054 DM. That is more than three times the average amount approved for borrowers like you. Requesting such a large sum substantially raised the risk score — it was the strongest push toward a denial.\n\nInterestingly, the other two top factors actually worked in your favor. Your checking account situation, while listed as having no account, was viewed positively compared to the profile of typical risky borrowers. Similarly, having little or no savings also tilted the scale toward good credit in this model, meaning those two aspects of your financial history helped lower your risk. But the upward pressure from the very large loan amount outweighed those favorable elements, leaving the overall prediction above the safe threshold.\n\nWhat should you do next? If you still need financing, consider re-applying for a smaller amount — closer to 3,000 to 4,000 DM — to align with what the bank typically approves. You might also wait until you can demonstrate a more established checking account or build up some savings, since those were already helpful to you. Adding a co-applicant or offering collateral could also strengthen a future application. Taking these steps would reduce the perceived risk and give you a much better chance of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

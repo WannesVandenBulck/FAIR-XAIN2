@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 30,
+  "provider": "grok",
+  "model": "grok-4.20-0309-non-reasoning",
+  "timestamp": "2026-08-15T12:10:48.759230",
+  "status": "success",
+  "narrative": "The model estimates a 76% chance that you will leave your current role, which is why your promotion request has been denied. This prediction is driven primarily by three key aspects of your professional background that strongly signal higher turnover risk compared to colleagues expected to stay.\n\nYour total years of experience stands out as the most influential factor. With over 11 years across your career, you are in a group that represents just 15% of employees the model believes will remain—most who stay have far less overall experience. This suggests the model sees you as someone with broad market options who may be ready for a change. \n\nNext, your tenure in this specific organization, at 1-5 years, also pushes the prediction toward leaving. This is actually similar to the majority of employees predicted to stay, but in your case it combines with your high overall experience to indicate you may not be fully settled here yet.\n\nFinally, having received other job offers while employed here is the third major contributor, pulling the outcome toward departure. Only about 23% of employees in the \"stay\" group report such opportunities, so the model interprets this as a clear sign you are actively considering external moves.\n\nThe organization should discuss retention strategies with you, such as addressing your lack of bonus, recognition, and perceived promotion fairness. You might consider what would make staying more appealing or whether exploring those external opportunities aligns with your goals.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

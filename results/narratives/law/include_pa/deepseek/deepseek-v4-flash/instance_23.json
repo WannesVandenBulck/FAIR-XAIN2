@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 23,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:16:22.974937",
+  "status": "success",
+  "narrative": "Your application for admission was denied because the risk assessment associated with your file predicted a 95.8% probability that you would fail the bar exam on your first attempt. In practical terms, that means the review considered it very unlikely that you would complete the program and pass the licensing test, making admission a poor bet. Importantly, your gender and race played no role; only your academic and test-related record was used.\n\nThe strongest concern came from your third-year class standing. Finishing in the very bottom decile of your law school class in that final year is a powerful marker of struggling with the higher-level material most similar to the bar exam. This was the number-one factor pushing the prediction toward failure.\n\nYour first-year class rank was the second most important signal. Ranking in the second decile, compared with the sixth-decile average among typical accepted students, shows that the difficulty began early and persisted.\n\nYour LSAT score of 28, while below the accepted-student average of 37, was the third factor in importance. It added to the picture by suggesting limited performance on a high-stakes standardized test, though it played a smaller role than the two class ranks.\n\nBecause your academic standing drove this outcome, the clearest path forward is to address it directly. Consider improving your preparation through a rigorous post-baccalaureate program to raise your GPA, and retake the LSAT with a structured study plan. Reapplying with demonstrated academic gains would directly counter the reasons for today's denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

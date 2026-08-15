@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 61,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:28:23.135745",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 73%, which is high. This is why the promotion was denied—the model sees you as likely to leave soon, and investing a promotion in someone who may depart is a risk the organization is not willing to take.\n\nThe strongest signal driving this prediction is your total experience. With 6 to 10 years under your belt, you have more experience than most employees who stay—only about a third of stayers fall in this range. Experienced professionals like you are often more mobile and confident in seeking better roles, which pushes the prediction toward leaving.\n\nThe second most influential factor is that you have received other job opportunities. Among employees predicted to stay, only about 23 percent had outside offers. This tells the model you are attractive to other employers, which raises the chances you might accept one.\n\nFinally, your time in this specific organization is only 1 to 5 years, even though your total experience is higher. This combination—broad experience but a relatively short commitment to your current employer—suggests you have not yet built deep ties here, making departure more likely.\n\nAll three factors point in the same direction: mobility. None of them reflect your performance, effort, or character. For the organization, the key question is what might make you stay—perhaps clearer growth paths, recognition, or a conversation about your intentions. For you, if you are genuinely committed, communicating that directly could help, since the model can only see patterns, not your plans.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

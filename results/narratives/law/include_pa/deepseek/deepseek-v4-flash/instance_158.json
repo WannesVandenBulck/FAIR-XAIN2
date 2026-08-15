@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 158,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:48:15.057609",
+  "status": "success",
+  "narrative": "Your application was denied because the admissions model estimated a 60.2% probability that you would fail the bar exam on the first attempt. In other words, the model sees failure as more likely than success, and the law school decided that level of risk was too high to admit you.\n\nThe strongest reason for that prediction came from your class standing. In your third year, you were in the lowest decile of your school, while accepted applicants typically sit near the middle of the ranking, around the sixth decile. This was the single most influential factor, and it pushed strongly toward a predicted failure. Your first-year class ranking was also at the very bottom decile, compared to an accepted average near the sixth decile. That was the second most important factor, also pushing toward failure. Together, these two rankings show the model that your grades in school have been consistently weak, which it treats as a major warning sign for the bar exam.\n\nInterestingly, your undergraduate GPA, which was 2.60 against an accepted average of 3.23, actually nudged slightly in the opposite direction—toward a predicted pass. That means it was not a reason for the denial, and it had less influence than your two class rankings.\n\nTo improve your chances, focus on the areas the model flagged. If possible, retake key courses, complete additional legal studies, or pursue a post-baccalaureate program to show stronger academic performance. You could also ask the school to reconsider with new evidence of your readiness.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 7,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:18:11.593052",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 75 percent, meaning that the model sees a strong chance you will leave within the coming period—and that is why your promotion was denied. This does not mean you have actually done anything wrong; rather, it means the patterns in your profile look very similar to employees who end up leaving.\n\nThe single most important factor pushing the prediction toward leaving is that you received other job opportunities while working here. This is rare among employees who stay—only about a quarter of them received outside offers. Even if you have not accepted anything, the model reads this as a clear sign that your options are open, which often leads to departure.\n\nYour overall experience of 6 to 10 years also pushed in the same direction, though less strongly than the outside offers. Among employees who stay, the largest group has only 1 to 5 years of experience; employees with your level of tenure are more likely to have the confidence and credibility to move on.\n\nPartly balancing these signals, your 6 to 10 years of experience within this specific organization pushed toward staying. That long tenure suggests loyalty and deeper roots here, and it is actually common among stayers. But this protective signal was not strong enough to offset the other two.\n\nThe key question for the organization is why you are receiving outside offers and what could keep you engaged. You may also want to reflect on whether your current role still offers the growth you need. A transparent conversation about career paths—rather than a simple denial—would benefit everyone.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

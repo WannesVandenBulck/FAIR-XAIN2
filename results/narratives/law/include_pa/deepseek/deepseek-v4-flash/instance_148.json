@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 148,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:45:37.695387",
+  "status": "success",
+  "narrative": "You are receiving this decision because the assessment of your application indicated an 88.8% likelihood that you would not pass the bar exam on your first attempt. This is a statistical evaluation of patterns that predict success, not a judgment of your character or potential.\n\nThe strongest factor pushing the decision toward denial was your class standing in your third year of undergraduate study. You ranked in the 1st decile, among the lowest in your class, while admitted students typically ranked around the 6th decile. This gap was the single most influential consideration.\n\nYour LSAT score also worked against you. At 25, it fell well below the 37 average among admitted students. This exam measures the reading and reasoning skills essential for law school, and your score was the second-strongest influence pushing toward failure.\n\nOne factor worked in your favor: your undergraduate GPA of 3.50 exceeds the 3.23 average among admitted students. This pushed the prediction modestly toward passing, but it could not outweigh the two stronger signals pointing toward bar exam difficulty.\n\nTo strengthen a future application, retake the LSAT after dedicated preparation, seek academic support to improve your class standing, and take new coursework that demonstrates your readiness for rigorous study.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

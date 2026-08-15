@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 33,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:01:05.527525",
+  "status": "success",
+  "narrative": "Based on the information available, the model assessed a 25% probability that you would be a bad credit risk. This means that, in a quarter of similar situations, the borrower defaulted or fell behind on payments, and that level of risk is more than the bank is willing to accept.\n\nThe decision was shaped by three main factors, ranked by how much they influenced the outcome. The first and strongest factor worked in your favor: your requested loan duration of 9 months is much shorter than the average of about 19 months among approved applicants. This signaled that you would repay quickly, which is a positive sign. The second important factor also helped you: the purpose of your loan, business, is less common among approved applicants, but it still pushed your risk downward, suggesting that using the money for a business endeavor was seen as a reasonable, lower-risk reason.\n\nThe third factor, however, pushed the other direction and was especially influential: the status of your checking account. With a balance between 0 and 200 Deutschmarks, your account situation is less common among approved borrowers, many of whom have no checking account balance at all or a more substantial one. This limited balance suggests current financial tightness, and it was enough to override the positive signals from the short duration and business purpose.\n\nTo improve your chances, focus on strengthening your checking account balance and building a savings cushion. You might also consider applying for a smaller amount or waiting until your financial situation looks more stable.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

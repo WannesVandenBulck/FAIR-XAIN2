@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 24,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:21:14.943760",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 88 percent, which is very high. In practical terms, the model believes that, given your current situation, the chances you will remain with the organization are quite low. Because of this strong likelihood of departure, the decision was made to deny the promotion, as investing in a role you may soon vacate carries considerable risk.\n\nThe single most important factor driving this prediction is your total career experience of six to ten years. Employees predicted to stay most commonly have only one to five years of experience, so your longer work history signals that you bring valuable, portable skills and likely have options elsewhere. This strongly pushed the prediction toward leaving.\n\nThe second most influential factor is that you have received other job opportunities while working here. Among employees predicted to stay, the vast majority have not received outside offers. Receiving such opportunities suggests active demand for your abilities in the market and makes you more likely to accept one.\n\nThe third factor is your tenure in your current job, which is only one to five years despite your longer overall career. This combination indicates you may feel your current role has not fully utilized your experience, increasing the urge to move on.\n\nTaken together with your lack of performance bonus, no overtime compensation, dissatisfaction with rewards and feeling that you did not receive the promotion you deserved, the picture is consistent: you perceive limited growth here while seeing attractive alternatives outside.\n\nConsider speaking openly with your manager about your career path and compensation. The organization should examine why you feel unrecognized and whether a counteroffer or clearer progression plan could address your concerns before it is too late.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

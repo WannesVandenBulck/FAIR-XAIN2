@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 100,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:35:55.739760",
+  "status": "success",
+  "narrative": "Because your predicted chance of leaving is 55%, the model sees you as more likely to depart than to stay. That is why the promotion was denied: the organization is not willing to invest in someone it believes is already halfway out the door.\n\nThree factors mattered most. The strongest one works against you: your total career experience. You have 11+ years overall, a profile shared by only about 15% of employees who stay. Long experience often means you have options, skills, and confidence—so the model reads it as a sign you could move on.\n\nYour short tenure at this organization makes that concern worse. You have been here only 1 to 5 years, even though you have been working for more than a decade. Among committed stayers, most have either matched their tenure to their experience or have been with the company longer. The combination of long career history and short organizational loyalty suggests this job may be just a stepping stone.\n\nOne important factor worked in your favor: you have not received other job offers. Most stayers also have no outside opportunities, and in your case this reduced the risk of leaving. But it was not enough to overcome the two experience-related signals.\n\nWhat happens next depends on you. If you genuinely want to stay and grow here, make that clear—and give the organization a reason to believe you are committed. For the organization, this prediction is a warning: rather than simply denying the promotion, they could explore why someone with your experience feels under-utilized, and consider retention measures beyond promotion alone.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

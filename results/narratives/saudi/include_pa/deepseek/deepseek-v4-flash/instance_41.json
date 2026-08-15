@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 41,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:24:46.893260",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, you have a 59% chance of leaving your job, meaning the model considers it more likely than not that you will move on in the near future. Because the promotion decision depends on retaining talent, the organization has decided not to offer you the role at this time.\n\nThe single strongest factor in the prediction was your total years of experience. Having only 1 to 5 years across your career pushed the prediction toward staying. This profile is common among employees who remain—about half of them have similar experience—so it worked in your favor.\n\nHowever, the second most influential factor worked against you. You indicated that you have received other job opportunities while working here. Only about 23% of employees who stay receive outside offers. This strongly signals that you are actively being recruited, making it more likely you will leave.\n\nThe third most important factor was your tenure in your current position. You have spent 1 to 5 years in this organization. Although this length of service is also common among employees who stay, in your specific situation it contributed toward leaving. Possibly because, combined with outside offers, a relatively short tenure means you have not yet built deep roots that would keep you here.\n\nThe overall picture is that you are a fairly typical early-career employee, but the availability of other opportunities is the key risk sign. To change this outcome, you and the organization could discuss what would make you want to stay, such as clearer career paths or increased engagement.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

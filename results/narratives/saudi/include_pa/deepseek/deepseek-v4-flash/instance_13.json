@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 13,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:19:06.346209",
+  "status": "success",
+  "narrative": "Based on the available information, our assessment indicates a 68 percent likelihood that you will leave your job in the near future. Because this probability is well above the threshold where we can confidently invest in a promotion, the decision was made to deny it. This does not mean you will definitely leave, but rather that the signals we observe point strongly in that direction.\n\nThe most influential factor in this assessment is actually in your favor: you have attended seven or more training programs in the last three years, which is far more than most employees who remain. This suggests a genuine investment in your growth and pulls the prediction toward you staying. However, this positive signal is outweighed by two others.\n\nYou have received other job opportunities while working here. This is relatively rare among employees who stay—only about a quarter of them receive such offers—and it strongly suggests you are actively considering options elsewhere. Additionally, your overall experience of eleven years or more places you in a small group; only about fifteen percent of employees who stay have this much experience. Professionals with your background tend to have more external options and are more likely to move on.\n\nTogether, these factors create the 68 percent probability of leaving. For the organization, it would be valuable to understand what other opportunities you are considering and whether addressing your concerns could change your intentions. For you, it may be worth reflecting on what you are looking for in your next role, and discussing with leadership whether those needs can be met here before making any decisions.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

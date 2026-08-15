@@ -1,24 +1,24 @@
 ```json
 {
-  "predicted_probability": 0.57,
+  "predicted_probability": 0.62,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_Experience",
-      "sign": -1,
+      "name": "Job_Opportunities",
+      "sign": 1,
       "value": 1
     },
     {
       "rank": 2,
       "name": "Years_experience_lastorganization",
-      "sign": 1,
-      "value": 0
+      "sign": -1,
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "Training_programs_During_last_three_years",
+      "name": "Years_Experience",
       "sign": -1,
-      "value": 3
+      "value": 1
     }
   ],
   "features": [
@@ -29,33 +29,33 @@
     },
     {
       "name": "Job_Opportunities",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Years_experience_lastorganization",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Academic_degree",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Sector",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Bonus",
@@ -69,8 +69,8 @@
     },
     {
       "name": "Payment_Overtime",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Rewards_Wages_Satisfaction",
@@ -79,13 +79,13 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Useful_Training_Programs",

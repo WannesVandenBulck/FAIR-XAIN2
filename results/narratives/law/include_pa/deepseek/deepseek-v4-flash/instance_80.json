@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 80,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:30:09.653328",
+  "status": "success",
+  "narrative": "Your application was denied because the model projects a 61% chance you would not pass the bar exam on the first attempt—a substantial risk for a law program concerned with student success. That probability is not a judgment of your character, but it reflects concrete gaps in your academic profile compared with admitted students.\n\nTwo factors weighed heavily against you. Your LSAT score of 32 is well below the average of 37 among admitted applicants, and this was the single strongest influence on the prediction, strongly pushing the outcome toward bar exam failure. Likewise, your undergraduate GPA of 2.70 is notably lower than the admitted average of 3.23, adding further weight in the same direction. These two signals together indicate that your current academic foundation is a serious concern for handling the rigors of legal study and passing the bar.\n\nOne factor worked in your favor: your first-year class standing was in the 6th decile, right at the average for admitted students. This actually pushed the prediction slightly toward passing, suggesting you have some academic capability. However, it was not enough to offset the negative impact of your lower standardized test performance and undergraduate record.\n\nWhat you can do next is strengthen those weak areas. Retake the LSAT with dedicated preparation—many students improve significantly with practice—and consider enrolling in rigorous undergraduate or post-baccalaureate coursework to raise your GPA. A stronger record will directly lower the model’s predicted failure risk and improve your chances on a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

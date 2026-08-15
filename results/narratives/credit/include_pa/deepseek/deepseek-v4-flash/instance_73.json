@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 73,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:10:30.306776",
+  "status": "success",
+  "narrative": "You may wonder why your loan application was denied. Based on your information, the model estimated a 34% probability that you would default—roughly a one-in-three chance. That risk level is considered too high for approval. Three key factors shaped this decision.\n\nMost importantly, your checking account balance was very low, at just 0-200 DM. Among previously approved applicants, most had no checking account at all or a larger cushion. This limited buffer strongly signaled that you might struggle to cover unexpected expenses or make payments on time. It pushed the prediction firmly toward bad credit.\n\nInterestingly, two other factors actually worked in your favor. Your purpose for the loan—buying a used car—was viewed as a reasonable, less risky use of credit compared to other purposes. Also, although you have had past payment delays, the model treated your credit history as slightly favorable—not as severe as other credit problems, and it nudged the risk down rather than up. However, these positives were not enough to overcome the concern raised by your low account balance.\n\nWhat can you do next? Building a larger buffer in your checking account would directly address the strongest risk factor. Even a few months of consistent savings can change the picture. You might also consider applying for a smaller loan, or waiting until your recent payment record shows a longer stretch of on-time payments. With those improvements, your application would present a very different risk profile, and you would have a much better chance of approval in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

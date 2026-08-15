@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 41,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:43:58.262835",
+  "status": "success",
+  "narrative": "The model indicates there is a 59% chance you will not pass your final year, which is why additional courses are being required. This does not mean failure is certain, but it means the balance of factors currently tips more toward struggling than succeeding. The most influential factor in this prediction is your own stated goal: unlike every student in the comparison group who passed, you indicated that you do not intend to pursue higher education. This weighs heavily because students aiming for further study tend to stay more motivated and engaged. The second most influential factor actually works in your favor: you have never failed a class before, which is a strong sign that you are capable of the work. Finally, your weekly study time is under two hours, and this pushes the prediction toward difficulty. Students who passed typically studied between two and five hours per week, so your current routine is simply not enough to keep up with the demands of the final year. In other words, the model sees a capable student who has not yet connected daily effort to a long-term goal. The path forward is clear: reconsider what you want after school, even if it is not university, and commit to a regular study schedule of at least a few hours each week. The remedial courses will help you build the discipline and foundation you need, and given your clean record, there is every reason to expect improvement if you take them seriously.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

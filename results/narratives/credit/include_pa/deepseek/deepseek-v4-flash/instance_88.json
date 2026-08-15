@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 88,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:14:08.265078",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, your application was denied because the estimated probability that you would become a bad credit risk is about 36 percent. In practical terms, out of 100 borrowers with a profile very much like yours, the bank expects more than 36 to miss payments or default, and that level of risk is above what the bank is willing to accept.\n\nInterestingly, the single most influential factor in this decision was not held against you. Your credit history, though classified as critical, was actually treated by the model as a point in your favor. Many applicants with similar histories go on to repay reliably, so this factor nudged the assessment toward approving your loan rather than denying it.\n\nThe second most important factor, and the real driver of the denial, was your checking account. Your account is currently overdrawn, with a balance below zero. This is a strong warning signal: only about one in eight approved applicants had a negative account balance at the time of application. The model sees an overdrawn account as a sign of current financial strain, which raises doubts about your ability to take on a new monthly payment.\n\nThe third factor helped you. Your installment payments are only 2 percent of your disposable income, which is lower than the average of about 3 percent among approved applicants, showing that you are not overextended.\n\nTo strengthen a future application, focus on bringing your checking account into positive territory and keeping it there for several consecutive months. Maintaining your low installment burden and avoiding new debt will also improve your chances.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

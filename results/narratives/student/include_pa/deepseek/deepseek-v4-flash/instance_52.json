@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 52,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:47:04.752302",
+  "status": "success",
+  "narrative": "The model estimates that you have a 28% chance of finishing the year without passing, and although that means there is a 72% chance you will pass, the risk is high enough that your school requires you to take remedial courses to make sure you stay on track. The most important factor in this decision is actually working in your favor: you have never failed a class before. Students who have repeated a year in the past are much more likely to struggle again, and your clean record strongly pushes the model toward predicting you will pass. A second factor, however, works against you: your father's education level is primary school only. Compared with other students, whose fathers more often finished secondary school or higher education, this background is associated with less academic support at home, and it is the single biggest reason the model sees extra risk for you. The third factor helps you again: you chose this school because it is close to home. Many students choose based on course reputation or specific programs, but choosing for convenience suggests you already have a stable, low-stress path to school, which is linked to better attendance and performance. Because your main risk comes from limited parental educational background rather than your own behavior, you can offset it by seeking support elsewhere. Talk to your teachers, use study groups, and make sure your family knows how to help you, even if they cannot help with the subject matter itself. With your record of no failures and sensible reasons for being here, you are in a good position to prove the model wrong.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

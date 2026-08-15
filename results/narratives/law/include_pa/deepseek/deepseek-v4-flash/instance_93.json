@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 93,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:32:39.596861",
+  "status": "success",
+  "narrative": "Based on the model's assessment, there is a 62% chance you would not pass the bar exam on your first attempt, which is a substantial risk for an institution that depends on high pass rates for its reputation and for your eventual employability. Your application was denied primarily because your academic record within your undergraduate years raised a red flag, not because of your background or any personal characteristics.\n\nThe single most important factor in this decision was your performance in your third year of study, where you ranked in the 3rd decile of your class. This places you significantly below the average standing of accepted students, whose third-year decile is typically around 5.79. Because your third-year grades came after you had settled into your studies, they are powerful evidence of your current academic trajectory and capacity.\n\nYour first-year class standing, also in the 3rd decile compared to an average of 6.00 among accepted peers, was a secondary factor pushing the prediction toward failure. While slightly less influential than your third-year rank, it confirms that your performance was consistently in the lower third of your class throughout your undergraduate career.\n\nYour family's upper-middle income level was the third most influential feature, and it pushed the prediction slightly toward failure. Compared to your peers, most of whom also come from middle or upper-middle backgrounds, this factor alone is not concerning. However, in your case, when combined with your lower academic deciles, it suggests that you had access to educational resources and support that did not translate into strong academic outcomes, relative to similar students.\n\nTo improve your candidacy, retake the LSAT to raise your score above the average of 37.18, and consider taking additional coursework or a post-baccalaureate program to earn higher grades and demonstrate your readiness for the rigors of law school.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

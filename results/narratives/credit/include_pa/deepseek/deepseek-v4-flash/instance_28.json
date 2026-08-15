@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 28,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:59:49.044007",
+  "status": "success",
+  "narrative": "Your loan application has been denied. Based on the information you provided, the model estimated that you have a 29% chance of becoming a bad credit risk. This means that while most applicants with a similar profile would repay reliably, roughly three out of ten would not — and the bank considers that level of uncertainty too high.\n\nThe main factor behind this decision was the balance in your checking account. You reported having between 0 and 200 German Marks available. Among approved applicants, a large share have no checking account at all, and those who do usually maintain a healthier balance. Having such a small amount raised red flags about your immediate financial flexibility, and this aspect strongly increased your risk in the bank’s assessment.\n\nTwo things worked in your favor, but they were not enough to change the outcome. First, you requested the loan for a business purpose. This is a less common reason, seen in under one in ten applications, and it often signals that the money will be used productively. Second, you have lived at your current address for four years, which is longer than the average approved applicant. Stability in residence is generally a positive sign.\n\nNevertheless, the checking account concern outweighed these strengths, and the model ultimately classified you as a bad credit risk.\n\nTo improve your chances next time, consider strengthening your financial standing — for example, by building a larger checking account buffer or reducing other debts. You might also reapply with a co-signer, collateral, or a smaller loan request. These steps could help demonstrate that the risk is lower than it appears today.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

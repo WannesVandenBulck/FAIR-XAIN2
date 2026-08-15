@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 11,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:13:55.655442",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed that you have a 57.4% chance of failing the bar exam on your first attempt. While this is not an overwhelming probability, it means that, based on the available data, the odds tip slightly against you—and for a school making admission decisions, that elevated risk is enough to justify a rejection.\n\nThe single most influential factor in this decision was your class standing in the first year of your studies. You ranked in the very bottom decile of your school, whereas admitted students typically sit closer to the sixth decile. This matters enormously because first-year performance often reflects how well a student grasps the foundational concepts of law, and a very low rank here pushed the prediction strongly toward \"will fail the bar.\" Your third-year class rank also worked against you: at the second-lowest decile, you remained well below the typical admitted student, reinforcing the same pattern, though not quite as strongly as the first-year ranking did.\n\nThere is one important counterbalance. Your undergraduate GPA of 3.40 is actually above the average of 3.23 for admitted students, and this pulled the prediction in the opposite direction, toward passing. It shows you have solid general academic capability and that this factor is not a concern for the committee.\n\nSo the picture is this: raw ability is not the issue—your undergraduate record proves that. The worry is specifically how your performance dropped once you began law-focused study. To improve your prospects if you reapply, consider building evidence that your academic trajectory has changed. Retaking the LSAT, completing additional coursework with strong grades, or enrolling in a bar-preparation program could help demonstrate that your more recent performance, not your distant GPA, reflects your true potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

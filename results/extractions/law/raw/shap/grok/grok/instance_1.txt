@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "decile3",
+      "name": "decile1",
       "sign": 1,
       "value": 2
     },
     {
       "rank": 2,
-      "name": "decile1",
+      "name": "decile3",
       "sign": 1,
       "value": 2
     },
     {
       "rank": 3,
       "name": "fam_inc",
-      "sign": 1,
-      "value": 4.0
+      "sign": -1,
+      "value": 4
     }
   ],
   "features": [
@@ -29,8 +29,8 @@
     },
     {
       "name": "lsat",
-      "mentioned": 1,
-      "value": 34
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "decile1",
@@ -40,12 +40,12 @@
     {
       "name": "fam_inc",
       "mentioned": 1,
-      "value": 4.0
+      "value": 4
     },
     {
       "name": "ugpa",
-      "mentioned": 1,
-      "value": 2.9
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "fulltime",
@@ -54,12 +54,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

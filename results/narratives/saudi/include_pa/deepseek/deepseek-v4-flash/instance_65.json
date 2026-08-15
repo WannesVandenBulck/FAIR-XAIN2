@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 65,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:29:23.654311",
+  "status": "success",
+  "narrative": "The model assessed a 59% chance that you will leave your job, and because this risk is significant, the promotion was denied. This does not mean you definitely plan to resign, but the patterns in your situation align with employees who eventually do.\n\nThe most decisive factor was your total experience—you have just 1-5 years overall, and the same range in your current position. This actually pushed the prediction toward staying, since roughly half of employees who stay have comparable experience, meaning early-career employees are not yet the most likely to depart. Next, the model considered whether you had received other job offers. You have not, which also nudged the prediction toward staying; more than three-quarters of employees who stay receive no outside opportunities, so without alternatives, you appear more settled.\n\nHowever, the third factor worked against you strongly: you find it difficult to become engaged in your job—whether through decision-making or having your opinions heard. Among employees predicted to stay, only about one in ten report this difficulty. This single factor outweighed the two stabilizing signals, and it is the main reason your leaving probability crossed above the threshold for denial.\n\nThe organization should treat this as a warning about workplace engagement rather than simply about your loyalty. Giving you a genuine voice in decisions could reduce the predicted risk. For yourself, consider whether more involvement would improve your commitment—if not, that 59% may reflect a real, unresolved disconnect.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

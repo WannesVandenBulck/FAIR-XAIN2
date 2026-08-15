@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 71,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:30:24.429274",
+  "status": "success",
+  "narrative": "Based on the information available, the model indicates a 71% chance that you would leave your job in the near future. Because this risk is high, the promotion was denied. The most important factor in this decision is your long overall career: you have more than 11 years of experience, while most employees who stay have only 1 to 5 years. Extensive experience often means you have many options and may not see this position as a long-term home, which pushes the prediction strongly toward leaving. The second most influential factor works in your favor: you have not received other job offers while working here, and this is typical of employees who remain. This lowers the risk somewhat, showing that you are not actively looking elsewhere. However, the third factor again raises concern: despite your long career, you have only been in your current organization for 1 to 5 years. This combination—extensive experience but a relatively short tenure here—suggests a pattern of moving between employers, which increases the chance you will leave again. In practical terms, the organization should look beyond this single decision. Discussing your career path, offering clearer advancement opportunities, and understanding what would keep you committed could change this outcome. For you personally, consider expressing your intentions and asking what conditions would make a promotion possible in the future. The prediction is not a certainty, but it signals that your retention is seen as a significant risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

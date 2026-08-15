@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 60,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:07:26.405845",
+  "status": "success",
+  "narrative": "Based on the information you provided, the model estimated a 39% chance that you would become a bad credit risk. While that is not an overwhelmingly high number, it was still above the threshold the bank uses to approve loans, and that is why your application was denied.\n\nThe three most important factors in this decision were your checking account status, the purpose of the loan, and the fact that you have a co-applicant.\n\nInterestingly, your checking account status worked in your favor. Having no checking account is the most common situation among approved borrowers, so the model did not treat this as a warning sign. In fact, it was the single most influential factor, but it pushed your application toward approval, not denial.\n\nThe purpose of the loan, however, moved things in the opposite direction. You requested the money to buy a new car. Among approved applicants, only about one in six borrowed for this purpose, which makes it a less common and somewhat riskier reason for a loan. This was the second most important factor, and it pushed your application toward the bad-credit side.\n\nThe third factor was having a co-applicant. Only about 6% of approved loans involved a co-applicant. The model saw this as slightly unusual and it added a smaller push toward denial as well.\n\nSo, what should you do next? Consider applying for a loan with a more common purpose, such as furniture or home equipment, which are far more frequently approved. You might also think about whether a co-applicant is really necessary, and take time to build a stronger financial record before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

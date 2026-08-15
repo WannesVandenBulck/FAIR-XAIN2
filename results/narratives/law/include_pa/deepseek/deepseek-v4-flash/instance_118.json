@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 118,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:38:17.439646",
+  "status": "success",
+  "narrative": "The model estimates your likelihood of failing the bar exam on the first attempt at 56 percent. In other words, after weighing your entire profile, it sees you as slightly more likely to fail than to pass, and that risk drove the admission decision. This is why your application was denied.\n\nThe most influential factor was your third-year class rank. You are in the first decile—the top 10 percent of your class—while accepted applicants are typically around the sixth decile. Although strong grades usually sound good, the model treated your very high third-year rank as the strongest single signal toward failure. That doesn’t mean your achievement is bad; it means that, based on past students with similar profiles, this pattern carried a higher bar-exam risk.\n\nYour first-year rank was the next most influential factor, but it worked in the opposite direction. At the fourth decile, you were better than the accepted average, and this pushed toward passing. That helped your case, but not enough to outweigh the impact of your third-year rank.\n\nFamily income was the third factor. Coming from a lower-middle-income background is uncommon among accepted students, yet the model actually viewed it as a slight positive, nudging you toward bar-exam success.\n\nTo improve your chances if you reapply, focus on strengthening the areas that matter most: consider retaking the LSAT and raising your undergraduate GPA, and gain additional academic or bar-preparation experience that can provide clear evidence of exam readiness.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

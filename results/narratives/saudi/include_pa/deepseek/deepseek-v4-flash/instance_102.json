@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 102,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:36:13.664195",
+  "status": "success",
+  "narrative": "Given the model’s assessment, the predicted chance of you leaving your job is 81%, meaning that in similar situations most employees ultimately decide to resign. Because the organization uses this prediction to decide on promotions, this high risk of leaving is why your promotion was denied.\n\nWhat most strongly influenced the prediction was not your age, gender, or health, but three other factors. First, your total experience of one to five years actually lowered the risk of leaving—employees with longer tenure are even more stable, but you were not penalized for being early in your career. Second, the fact that you have received other job opportunities while working here was a major reason the model sees you as likely to depart. In the broader workforce, only about 23% of stable employees receive outside offers, so this signal is significant. Third, working in the “other” sector—rather than medical, education, or financial—added to the prediction. Employees in this category tend to change jobs more frequently, likely due to varying labor market conditions.\n\nTaken together, your profile suggests that although you have solid support and reasonable conditions, the combination of outside opportunities and your sector’s mobility points toward an imminent resignation. For the organization, this is a call to understand why you are receiving offers and whether engagement, recognition, or career growth could be improved. For you, consider discussing your long-term intentions and aspirations with your supervisor so that the promotion decision can be revisited with more certainty.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

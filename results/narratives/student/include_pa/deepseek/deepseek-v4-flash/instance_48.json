@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 48,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:46:01.033761",
+  "status": "success",
+  "narrative": "The model estimates that you have a 17% chance of failing your final year. In plain terms, out of every 100 students with a profile like yours, about 17 would not make it through. That is still a real risk, and it is above the level your school uses to decide who needs extra help. So even though your chances look fairly good on the surface, the remedial courses are being recommended as a safety net, not because you are already failing.\n\nImportantly, your sex, age, and health were not part of the decision. Instead, the three strongest factors the model considered all actually worked in your favor. The most important was your past record: you have zero previous class failures, which matches the average of students who passed. The second was your father’s education level, which is higher education. This is associated with more academic support and expectations at home, and it pushed you toward passing. The third was your own desire to go on to higher education, a goal shared by every student in the passing group.\n\nSo why are you still flagged? Because these three positive factors were not enough to completely outweigh the rest of your profile. For example, you currently study between two and five hours per week, and you have very high free time. While these are not bad by themselves, the model sees many small signals that together leave a small but real gap between you and students who are clearly on track to pass.\n\nThe best next step is to treat the remedial courses as a way to close that gap. Build on your strengths: keep your clean record, use your family’s support, and stay focused on your university goal. Adding more consistent weekly study time would directly reduce your 17% risk, turning a near-pass into a confident one.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 10,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:34:12.467738",
+  "status": "success",
+  "narrative": "Your situation is not one of obvious failure. The model puts your chance of failing at 34%, meaning about one in three students with a similar profile does not pass, while two in three pass. Because this crosses the threshold, you are required to take remedial courses.\n\nWhat most influenced the prediction were three positive signs. Having no previous failed classes was the single strongest factor, and it leaned strongly toward passing. Your stated wish to pursue higher education also helped, as did your father having completed secondary education; both are associated with better outcomes. These three factors all pulled the prediction toward pass, so the model does not see you as severely at risk.\n\nNevertheless, the prediction remains on the fail side. Several smaller factors tip the balance. You study fewer than two hours a week, whereas most students who pass study two to five. Your weekend drinking is high compared with most successful students, and your health is rated bad. You also missed eight classes, more than double the average of those who pass. Individually these may seem minor, but together they outweigh your good record and ambitions.\n\nUse this as a warning, not a verdict. Keep your positive record by increasing weekly study time, reduce weekend alcohol, address your health, and improve attendance. Those changes directly target what the model flags and should considerably lower your risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

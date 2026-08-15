@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 52,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:05:25.989433",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 51% probability that you would become a bad credit risk. In plain terms, the model sees you as just slightly more likely than not to default, and that is enough for the bank to decline the loan.\n\nThe strongest factor working against you was the status of your checking account. You currently have a negative balance, which is rare among approved applicants—only about one in eight people with an approved loan have a negative account. This signals immediate financial strain and was the most influential factor in the decision, pushing the outcome strongly toward denial.\n\nYour favor, you requested a relatively short loan term of 12 months, compared to the average of about 19 months among approved borrowers. Shorter terms usually mean less time for things to go wrong, so this factor pushed in your favor. Similarly, using the loan for domestic appliances is generally seen as a lower-risk purpose, which also nudged the decision toward approval. However, these positive factors were not enough to outweigh the concern raised by your negative checking account.\n\nTo improve your chances next time, focus on stabilizing your checking account. Bringing it into a positive balance, even modestly, would directly address the model’s biggest concern. Building a small savings buffer and maintaining consistent employment will also help. Reapplying once your account has been in good standing for several months—ideally with a slightly smaller request—would give you a much stronger profile. The model’s verdict is not permanent; your financial situation can change, and the next application will reflect that.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

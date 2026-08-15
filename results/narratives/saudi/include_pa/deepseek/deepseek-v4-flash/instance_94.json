@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 94,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:34:29.845541",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 52% probability that you will leave your job in the coming period. That figure sits just above the threshold used for the promotion decision, so you were not recommended. It is important to know that your gender, age, and health issues played no role in this outcome. Instead, three work-related signals mattered most.\n\nThe strongest single factor lowering your departure risk was your experience. With only 1 to 5 years of total experience—and the same short tenure in your current organization—you resemble many employees who stay. Among those predicted to stay, half have 1-5 years of experience, so your early-career stage was read as a stabilizing influence.\n\nHowever, this was outweighed by the fact that you have received other job opportunities. Among employees predicted to stay, only about a quarter received outside offers. Having alternatives makes leaving easier, and the model saw this as the clearest warning sign pushing toward departure.\n\nYour lack of medical insurance, interestingly, pulled in the opposite direction. Although you do not have insurance, this factor slightly reduced the risk prediction compared to someone with insurance, so it was not part of the reason for denial.\n\nTaken together, the main concern is your openness to outside opportunities, not your performance or commitment. You might speak with your manager about career growth and what would make you stay. The organization, for its part, should recognize that employees with outside options need stronger retention measures.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

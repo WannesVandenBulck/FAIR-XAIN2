@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 206,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:59:36.949888",
+  "status": "success",
+  "narrative": "Your law school application was denied because the model predicted a 56.6% chance that you would fail the bar exam on the first attempt. That means the risk of failure was considered slightly higher than the chance of passing, making your admission too risky for the program.\n\nThe most important factor driving this prediction was your third-year class ranking. You placed in the 2nd decile of your class, while accepted students typically fall around the 6th decile. This is a strong signal that your academic performance, especially in your final year, lagged significantly behind other admitted applicants. Because class standing in the third year is closely tied to bar exam readiness, this weighed heavily against you.\n\nYour undergraduate GPA, however, worked in your favor. At 3.30, it is slightly above the 3.23 average for accepted students, so this factor pushed the prediction toward passing. It was the second most influential factor, but it simply was not strong enough to offset the negative impact of your class rank.\n\nA third, smaller influence came from your family income bracket. Even though upper-middle income is the most common group among accepted students, this factor still nudged the prediction slightly toward failure. This is likely because income can correlate with other pressures or opportunities, but it was only a minor contributor.\n\nTo strengthen a future application, focus on raising your academic performance in later years—particularly your final-year class standing. Retaking the LSAT or completing additional coursework to demonstrate mastery could also help offset the weak third-year record. The message is clear: improving your late-stage academic trajectory is your best path forward.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

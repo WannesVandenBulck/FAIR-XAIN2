@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 36,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "timestamp": "2026-08-15T15:40:28.080134",
+  "status": "success",
+  "narrative": "The model has predicted a 47% chance that you may leave your job, which is a significant indicator that your current situation might not be as stable as desired. This prediction has influenced the decision to deny you a promotion, as the organization is concerned about your potential departure.\n\nThe model identified three key factors that contributed to this prediction. First, your overall years of experience in the workforce, which is relatively low compared to many others in the organization, suggests that you may still be exploring your career options. This can lead to a perception that you might be more likely to seek opportunities elsewhere. \n\nSecond, the model noted that you have received job offers while in your current position. This indicates that other companies are interested in your skills, which can heighten the likelihood of you considering a change. \n\nLastly, your current sector, categorized as \"other,\" is less common compared to sectors like medical or education, where employees tend to have more stability. This context may contribute to a perception of uncertainty regarding your long-term commitment to the organization.\n\nGiven these insights, it may be beneficial for you to engage in discussions with your manager about your career path and opportunities for growth within the company. Additionally, reflecting on your job satisfaction and exploring ways to enhance your engagement could help solidify your position and potentially lead to future promotions.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

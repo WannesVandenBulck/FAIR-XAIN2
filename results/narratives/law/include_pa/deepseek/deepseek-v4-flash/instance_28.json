@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 28,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:17:49.184483",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts you have a 65% chance of failing the bar exam on the first attempt—meaning you are more likely to fail than to pass. That risk was too high for admission, especially compared to accepted students.\n\nThe single most important factor driving this decision was your LSAT score. At 21.30, it is far below the average of 37.18 among accepted students, and this score strongly pushed the prediction toward bar exam failure. The LSAT is a critical signal of the reasoning and reading skills needed for law school and the bar, and your score was a major concern.\n\nThe second most influential factor was your undergraduate GPA. At 3.20, it is just slightly below the accepted-student average of 3.23. Interestingly, this feature actually pushed in the *opposite* direction—toward passing. In other words, your GPA was not a weakness; if anything, it gave the model a small reason to believe you could succeed. But it was not enough to outweigh your LSAT.\n\nThe third factor was your third-year class standing. You ranked in the 2nd decile that year, while accepted students typically ranked around the 5.79 decile. This placed you well below the typical admitted student and added another strong push toward failure.\n\nTo improve your chances, focus first on retaking the LSAT—a higher score would directly address the biggest driver of this denial. You might also consider strengthening your recent academic record, as your Year 3 performance clearly raised red flags. With meaningful improvement in these areas, you could present a much stronger application in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

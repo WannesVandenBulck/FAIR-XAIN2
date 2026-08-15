@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 93,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:34:19.725608",
+  "status": "success",
+  "narrative": "The model estimates that you have a 40% chance of leaving your job in the near future, despite your deep roots and strong feelings about the organization. A 40% risk is not high enough to say you will definitely leave, but it is high enough that the employer sees a real chance of losing you shortly after investing in a promotion. The most influential factor in this assessment is your long history here: you have been with this organization for 11+ years, much longer than most employees who stay. That fact alone strongly pushes the prediction toward you staying, and it shows loyalty. The second strongest factor, however, works in the opposite direction: you have received other job opportunities while working here. Only about a quarter of employees who stay receive such offers, so this is an unusual signal. It suggests that you are in demand elsewhere and that another employer might lure you away. Third, your high emotional commitment to the organization normally reduces leaving risk, and it did push toward you staying. But the model decided that the pull of outside offers is more powerful than your loyalty and tenure. In other words, you seem satisfied and engaged, but you are also marketable, and that combination creates uncertainty for the company. To move forward, consider having an honest conversation with your manager about your career intentions and what would make you stay long-term, such as growth opportunities or new challenges. The organization might then see your interest as a commitment rather than a risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

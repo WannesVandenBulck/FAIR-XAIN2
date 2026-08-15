@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 76,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:10:59.203720",
+  "status": "success",
+  "narrative": "You were denied because the model sees a 36% chance you would not repay the loan. While that may sound like a minority chance, it is more than one in three, and the bank considers it too risky to approve.\n\nThe single strongest factor in your favor was the length of your loan request. You asked for only 8 months, which is far shorter than the average approved loan of about 19 months. A shorter commitment means less time for your financial situation to change, so this pushed strongly toward approving you.\n\nUnfortunately, two other factors worked against you enough to tip the decision. Your checking account is currently overdrawn, with a balance below zero. This was the clearest warning sign: among approved applicants, only about 13% had such a negative balance. The model saw this as a real sign of financial strain, pushing your risk higher.\n\nYour credit history was also flagged as “critical/other credits,” but counterintuitively, this pushed slightly toward low risk. The model seems to weigh your history less harshly than your current account situation, possibly because you have other existing credits and have managed them. Still, this positive influence was not enough.\n\nTo improve your chances next time, focus on rebuilding your checking account balance well above zero and maintaining steady payments on your current credits. Reapplying later with a healthier account position and a similar short loan term would give you a much stronger application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 50,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:46:41.673318",
+  "status": "success",
+  "narrative": "You have a 19% chance of failing your final year, which means the model sees about one in five odds of not passing. That risk is enough to require remedial courses, so let me explain what stood out most.\n\nThe single most important factor in this prediction is that you said you do not plan to pursue higher education. Every student in the comparison group who passed wanted to continue their studies, so this really sets you apart. Not aiming for further study often reduces day-to-day motivation, and that is what pushed the model most strongly toward a fail.\n\nThe second most influential factor actually worked in your favour: you chose this school because of its reputation. Students who passed were most likely to choose the school for its courses, but reputation was the second most common reason among them. Choosing a school for quality suggests you care about your environment, which nudged the prediction toward passing.\n\nThe third factor also helped you. You have never failed a class before, while the average passing student also had zero past failures. A clean record shows you can handle schoolwork, so this too pushed toward passing.\n\nDespite these positives, the lack of desire for higher education outweighed them enough to tip the balance. To improve your chances, think about what you actually want after graduation, whether that is a job, training, or another path. Connecting your current courses to that goal can give you a reason to engage more deeply. Since your travel time is moderate and your family supports your studies, you have a solid base. Talk to a counsellor about options beyond secondary school, and treat the remedial courses as a chance to build momentum rather than a setback.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

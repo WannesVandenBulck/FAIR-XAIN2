@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 89,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:14:34.813789",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates you have a 34% chance of defaulting on this loan—in other words, about a one-in-three chance of becoming a bad credit risk. That level of uncertainty is more than the bank is willing to accept.\n\nInterestingly, the three most influential factors in your assessment actually worked in your favor. The strongest factor was the amount you requested: at 2,528 DM, it is below the average loan amount taken out by approved applicants, and that lowered your risk score. The purpose of the loan also helped you—business loans are less common among approved borrowers, and your stated purpose moved you toward the good-credit side. Finally, even though you have lived at your current residence for only one year, compared to about three years for many approved applicants, this particular factor actually nudged your score in a positive direction as well. So the top three influences were not the reason for your denial.\n\nThe problem lies in other parts of your financial profile. Your checking account balance is very low, your savings are under 100 DM, you have been at your job for less than a year, and your monthly installment would consume a relatively large share of your income. These elements increased your predicted risk. Combined, they outweighed the positive influences of your loan amount, purpose, and residence time.\n\nTo improve your chances next time, focus on building a stronger financial foundation. Try to increase your savings and maintain a healthier checking account balance. Waiting until you have a longer, stable employment record could also make a meaningful difference. If you can reduce your existing monthly obligations before reapplying, you would present a much more reassuring risk profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

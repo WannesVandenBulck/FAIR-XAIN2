@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 69,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:09:57.164261",
+  "status": "success",
+  "narrative": "The model assessed your application and found a 52% chance that you would default, which is slightly above the threshold for approval. This means that, based on patterns from past borrowers, you fall just on the risky side of the line—not overwhelmingly so, but enough for the bank to say no. The most important factors were your savings account, the purpose of the loan, and your checking account balance. Your savings account actually helped you: having over 1,000 DM in savings is unusual among approved borrowers—only about 3% have that much—so this strongly suggested you could handle unexpected expenses. However, this positive signal was outweighed by two riskier factors. You asked for a new car, and this type of loan is associated with higher default rates than other purposes like home electronics or furniture; only about one in six approved applicants used their loan for a new car. More importantly, your checking account has a balance between 0 and 200 DM. Approved applicants typically have no checking account balance or a larger cushion; having a very small balance suggests limited day-to-day financial liquidity, making it harder to absorb payment shocks. These two factors together tipped the prediction toward bad credit, despite your good savings and steady employment. To improve your chances next time, consider building up your checking account balance over several months, reducing the loan amount, or applying for a different purpose such as a used car or household goods. Reapplying after you’ve shown a stronger cash buffer would give the model more evidence that you can manage monthly payments.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

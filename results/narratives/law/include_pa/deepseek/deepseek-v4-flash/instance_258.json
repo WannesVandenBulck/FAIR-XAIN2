@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 258,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:17:02.883774",
+  "status": "success",
+  "narrative": "The model predicts a 79.1% chance that you would fail the bar exam on your first attempt. Because this risk is so high, the law school denied your application. Three factors were most influential, in order.\n\nThe strongest was your third-year class standing. You are in the first decile, the bottom tenth of your class, while accepted students tend to be around the sixth decile. Struggling in your final years of legal study strongly points toward bar failure.\n\nThe next factor was your first-year class standing. Again, you are in the first decile, far below the accepted average near the sixth. Early academic difficulty reinforces the same concern.\n\nYour undergraduate GPA actually worked in your favor, but less strongly. At 3.10, it is close to the accepted average of 3.23, so the model treated it as a mild positive, slightly lowering your failure risk. This small benefit could not outweigh the two class-rank factors.\n\nWhat should you do next? Strengthen your academic record. Retake any courses with weak grades, seek tutoring, and practice with bar exam materials. You may also consider a master’s program or legal work experience to show you can handle demanding study. Then reapply with renewed proof that you are prepared to pass the bar.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

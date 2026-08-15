@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 46,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:25:33.986483",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 58 percent, meaning the model estimates there is a slightly greater-than-even chance you will leave your position in the near future. This is why the promotion decision went against you: the organization sees turnover risk as a significant concern.\n\nLooking at what drove this prediction, three factors mattered most. The strongest influence was your total years of experience. Having only 1 to 5 years is actually typical among employees who stay, with about half of them falling in this range, so this factor worked in your favor, gently pulling the prediction toward staying rather than leaving.\n\nYour monthly salary also helped you. At 6,000 to 10,000 SAR, you sit in the most common salary band among employees who remain, which again nudged the prediction toward staying.\n\nThe factor that tipped the balance, however, was how difficult you find it to get involved in your job. This was the most significant risk signal in your profile. Among employees who stay, the vast majority describe engagement as medium or easy, while only about one in ten report difficulty. Your experience of difficulty is a strong warning sign that you may become disengaged and eventually leave.\n\nIn short, your experience and salary suggest you are well anchored, but your difficulty engaging at work overrides that stability. To improve your chances in the future, the organization should focus on giving you more involvement in decisions and a clearer voice in your role, which would lower your turnover risk and strengthen your promotion case.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

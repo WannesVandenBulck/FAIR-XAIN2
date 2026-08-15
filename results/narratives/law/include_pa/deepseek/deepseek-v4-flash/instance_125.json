@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 125,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:40:28.502102",
+  "status": "success",
+  "narrative": "The law school's decision was driven by a prediction that you had a 52 percent chance of failing the bar exam on the first attempt, meaning failure was slightly more likely than passing. Because that risk tipped just past the halfway point, the university judged it too high to accept.\n\nThe most influential factor was your academic standing in your third year. You ranked in the second decile of your school in both your first and third years, while accepted students typically sit near the sixth decile. Your third-year class rank carried the most weight by far, and being near the bottom of your class pushed the prediction strongly toward failure. This was the primary reason your application was denied.\n\nYour undergraduate GPA, while below the 3.23 average of accepted students, actually nudged the prediction slightly toward passing. It acted as a small counterweight rather than a reason for rejection. Likewise, coming from a middle-income family worked mildly in your favor, since that background was associated with slightly lower bar-exam risk compared with other applicants.\n\nWhat should you do next? The clearest path is to demonstrate academic improvement: enroll in a post-baccalaureate program or retake advanced legal coursework to raise your class standing, especially in subjects that mirror the bar exam. Since your LSAT score of 25 is well below the accepted average of 37, a significantly stronger LSAT score would also improve your chances. The prediction is close to fifty-fifty, so modest gains in these areas could push you comfortably into the passing side, and you can reapply with that new evidence.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

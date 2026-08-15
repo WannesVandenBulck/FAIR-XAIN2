@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 96,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:16:30.851609",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed you as a bad credit risk, with a 38% probability of defaulting. In other words, even though you have a 62% chance of repaying, the bank considers a 38% default risk too high to approve.\n\nThe most influential factor in this decision was your checking account. Your account was overdrawn, with a balance below zero. Among approved applicants, only about 12.6% had such a negative balance, while the majority had either a positive balance or no checking account at all. This strongly pushed the prediction toward bad credit and is the main reason your application failed.\n\nInterestingly, the other two most important factors moved in your favor. Your savings situation—having no savings or unknown savings—was not treated as a serious problem. A third of approved applicants had a similar profile, so this factor nudged the outcome toward good credit. Likewise, the purpose of your loan, listed as “others,” did not raise concerns. The model did not consider that purpose risky, so it also pulled slightly toward approval.\n\nStill, these positive factors were not enough to overcome the negative impression left by your overdrawn account.\n\nTo improve your chances next time, focus on rebuilding your checking account. Bring it into positive territory and maintain it for several months before reapplying. Building even a small savings cushion would also strengthen your application. If you can, wait until your financial situation stabilizes, then reapply with a clearer loan purpose and more favorable bank balances.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

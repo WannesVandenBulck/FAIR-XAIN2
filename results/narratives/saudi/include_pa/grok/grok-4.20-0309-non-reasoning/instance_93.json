@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 93,
+  "provider": "grok",
+  "model": "grok-4.20-0309-non-reasoning",
+  "timestamp": "2026-08-15T12:14:38.071269",
+  "status": "success",
+  "narrative": "The model estimates a 40% chance that you will leave your current role. Because this probability is high enough to flag a risk of departure, the organization has decided to deny your promotion.\n\nThe decision is driven primarily by three key aspects of your profile. First, your long tenure of over 11 years in this organization was the strongest factor pulling the prediction toward staying; most employees the model expects to remain also have shorter tenures, so your loyalty should normally work in your favor. However, the model still leaned toward leaving because of two important counteracting influences.\n\nThe second most influential factor is that you have received other job offers while working here. Having external opportunities is relatively uncommon among employees the model predicts will stay, and this strongly pushed the prediction toward you eventually leaving. Third, your high level of emotional commitment to the organization worked in your favor by pulling the prediction back toward staying, yet it was not enough to overcome the effect of those outside opportunities.\n\nTaken together, the combination of your long service and strong attachment are positive signals, but the presence of alternative job offers creates enough concern about retention that the organization is hesitant to invest in a promotion at this time.\n\nYou and your manager should discuss ways to reduce the appeal of outside opportunities, perhaps through clearer career progression, adjusted responsibilities, or other retention measures that address what might be pulling you elsewhere.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

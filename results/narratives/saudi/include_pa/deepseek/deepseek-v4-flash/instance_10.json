@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 10,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:18:34.973086",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 63%, which means the model sees you as more likely to leave than stay, and that risk is why your promotion was not approved. The single strongest reason is that you have received other job opportunities while working here—this is rare among employees who stay (only about a quarter of them have outside offers), so it signals that you may already have one foot out the door. In contrast, your long tenure in your current role—six to ten years, which matches the typical stayer pattern—pushed the prediction in the opposite direction, toward staying. That shows you have real loyalty and investment here. However, your overall career experience (six to ten years across all jobs) then pushed back toward leaving, likely because with that much experience you are highly marketable and may feel ready for a move. In simple terms, the model sees you as an engaged and committed professional—you’ve stayed long enough to build deep roots—but it also sees strong external pull and a realistic chance you will leave soon. For next steps, I encourage you to discuss your career path openly with your manager. Ask what would be needed to earn a promotion here, and whether salary, recognition, or growth opportunities can be improved. Its important to address the outside offers directly: are they a temptation, or a signal that you need something this organization isn’t currently providing? Clarifying that can turn this denial into a constructive conversation.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

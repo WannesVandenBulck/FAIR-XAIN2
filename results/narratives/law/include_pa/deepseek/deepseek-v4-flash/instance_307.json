@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 307,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:30:26.709937",
+  "status": "success",
+  "narrative": "The decision to deny your application rests on a prediction that you have a 75% chance of failing the bar exam on your first attempt — a substantial risk the committee was not willing to take. In plain terms, the model judged you three times more likely to fail than to pass.\n\nThree parts of your record drove this outcome, ranked from most to least influential.\n\nYour Year 3 class standing was the strongest factor, and it worked against you. You ranked in the third decile of your cohort, meaning the bottom third of your class. Typically admitted students land near the middle, around the sixth decile, so this gap signaled that your later law-related coursework was weak. Because final-year performance often tracks bar readiness, this weighed heavily toward a failure prediction.\n\nYour Year 1 class standing also pushed toward failure, though less forcefully. You sat in the fifth decile, just below the admitted average of the sixth. This alone was not alarming, but combined with Year 3 it painted a picture of a student consistently below the typical admitted profile.\n\nYour LSAT score pulled the other way, toward passing. At 41, you beat the admitted average of about 37, showing strong reasoning ability. Still, this strength could not outweigh the two academic-standing signals.\n\nTo strengthen a future application, focus on raising your class standing through academic support or retaking rigorous coursework, and gather evidence — a recent strong score or work portfolio — that your performance no longer reflects your potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

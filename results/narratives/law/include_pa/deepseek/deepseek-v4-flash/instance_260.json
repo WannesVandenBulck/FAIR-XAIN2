@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 260,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:17:36.656789",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 96% probability that you would not pass the bar exam on your first attempt. This is an extremely high risk, and the university concluded that admitting you would very likely lead to an unsuccessful outcome.\n\nThe single strongest reason for this prediction was your academic standing in your third year of study. You placed at the very bottom of your class, while students accepted into this program typically sit near the middle, around the sixth decile. Such a low ranking in the advanced years of legal education strongly suggests that your grasp of complex, bar-relevant material was weak, and this factor pushed the prediction heavily toward failure.\n\nYour first-year class standing also played a major role. Once again, you were in the bottom decile, whereas accepted students averaged about the sixth decile. This is significant because it shows your academic difficulties were not limited to one year but persisted from the very start, compounding the model's concern about your readiness for the bar exam.\n\nYour LSAT score was the third most important contributor. At 27, it falls well below the average of roughly 37 among successful applicants. Since the LSAT measures reasoning and reading comprehension skills that are directly relevant to bar exam performance, this lower score further pushed the prediction toward failure.\n\nTaken together, these three factors convinced the model that failing the bar exam was almost certain. To improve your chances in the future, consider retaking the LSAT after focused preparation, strengthening your academic record through additional coursework, and enrolling in a structured bar-exam preparation program. Reapplying with these improved credentials would give you a far better prospect of admission.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

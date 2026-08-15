@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 24,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:58:58.909444",
+  "status": "success",
+  "narrative": "After reviewing your application, our model estimated a 35 percent chance that you would default on the loan—meaning about one in three applicants with a similar profile ends up failing to repay. Although that means there was a 65 percent chance you would repay, the bank considers 35 percent too high a risk to approve.\n\nThree factors mattered most, and they pulled in different directions. The single strongest influence was the length of your loan request. At 9 months, it is much shorter than the average of around 19 months among approved applicants. This worked in your favor: shorter commitments mean less time for financial circumstances to change, and it helped lower your risk.\n\nThe second most important factor, however, went against you: the status of your checking account. Your account is currently overdrawn, with a negative balance below zero. Among previously approved applicants, only about 12.6 percent had a checking account in this condition. This was the main reason your risk score rose, because it signals that you already have difficulty keeping up with current financial obligations.\n\nFinally, your job type helped you again. Being in management, self-employed, or a highly skilled position indicates stable income potential, and only a small share of approved applicants—about 16.5 percent—have this profile. This positive signal offset some of the concern from your account, but not enough to bring your risk below the acceptable threshold.\n\nTo strengthen a future application, focus on improving your checking account balance and maintaining your current job for at least another year. Reapplying once you have a healthier account history would significantly improve your chances.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

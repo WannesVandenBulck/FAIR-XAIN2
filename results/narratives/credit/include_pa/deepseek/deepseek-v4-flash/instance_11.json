@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 11,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:56:12.277278",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, your predicted probability of being a bad credit risk was 55 percent. That means you were slightly more likely than not to fall behind on the loan, so the bank decided to deny the application.\n\nThe most important factor pushing the prediction toward \"bad credit\" was your checking account status. Your account had a negative balance (below zero), which is uncommon among approved applicants—only about 12.6 percent of those approved had a similar situation. Most approved borrowers had a zero balance, some savings in the account, or at least no negative amount. This strongly signals financial strain, and it weighed heavily against you.\n\nThe purpose of the loan also contributed to the risk. You requested the credit for a new car. While this is not an unusual purpose, it is less common among approved applicants than borrowing for items like a television or radio, or furniture. In the model’s view, a new-car loan added extra risk, pushing the decision further toward denial.\n\nInterestingly, the amount you requested worked in your favor. Although your requested amount of 4006 DM is higher than the average approved loan of about 3020 DM, the model actually saw this as a positive sign—perhaps because it was proportionate to your income or other circumstances. So the size of the loan was not the problem.\n\nTo improve your chances in the future, focus on rebuilding your checking account so it is not negative. Consider waiting until you have a small buffer, and think about whether a different loan purpose—or a smaller, less risky request—might better fit your situation. Reapplying once your financial picture strengthens would give you a much better chance of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

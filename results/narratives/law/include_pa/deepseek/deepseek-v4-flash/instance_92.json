@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 92,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:32:32.180305",
+  "status": "success",
+  "narrative": "Your law school application was denied because the predictive model estimates that you have a 79.3% chance of failing the bar exam on the first attempt. In other words, the model sees a strong risk that you would not pass, which is why admission could not be offered.\n\nThe single most influential factor in this decision is your academic rank in the third year of your current program. You are in the bottom decile, while accepted students are typically near the middle of the distribution. This very low class standing strongly pushes the prediction toward bar exam failure. Your first year rank is also a major factor, and again you are in the lowest decile compared with an average around the sixth decile for accepted students. Both of these early and late academic struggles weigh heavily against you.\n\nYour family income, however, works slightly in your favor. Being in the upper-middle income bracket is associated with a small push toward passing, likely reflecting resources and support that help bar preparation. Still, this positive influence is far smaller than the negative impact of your class ranks. Other factors such as your LSAT score and undergraduate GPA are also below typical accepted-student averages, reinforcing the overall picture of elevated risk.\n\nTo strengthen a future application, focus on raising your academic standing and demonstrating your ability to perform at a high level, particularly in the final year of study. Consider retaking the LSAT to improve your score, and seek academic support or bar preparation programs that address your weaker areas. Show the admissions committee that you can overcome these early obstacles.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

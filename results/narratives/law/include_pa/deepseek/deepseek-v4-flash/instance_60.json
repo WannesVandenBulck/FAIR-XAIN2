@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 60,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:25:35.395142",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated a 60% probability that you would fail the bar exam on your first attempt. This means that, while not a certainty, the risk of failure was considered substantial enough to deny admission, as the school uses this prediction as a key indicator of eventual success in the legal profession.\n\nThe decision was not based on your gender or racial background, which were explicitly excluded from the evaluation. Instead, three factors carried the most weight. Your LSAT score was the single strongest influence, and it worked in your favor. At 40, you scored noticeably above the average of 37.18 among accepted students, suggesting strong aptitude for legal reasoning. This pulled the prediction toward passing.\n\nHowever, two other factors pushed firmly in the opposite direction. Your undergraduate GPA of 2.50 was well below the 3.23 average of accepted applicants. A weaker academic track record raises concern about your ability to handle the rigorous coursework required to prepare for the bar exam. Additionally, your standing in your graduating class during the third year placed you in the 3rd decile, whereas accepted students typically sit near the 6th decile. This indicates that, despite a strong LSAT, your performance in your own law school courses did not keep pace with your peers, which is a powerful predictor of bar exam struggles.\n\nTo strengthen a future application, focus on raising your third-year academic performance and take steps to demonstrate your capability through bar preparation coursework or related achievements. Retaking the LSAT to further solidify your strong score could also help offset a lower undergraduate GPA.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

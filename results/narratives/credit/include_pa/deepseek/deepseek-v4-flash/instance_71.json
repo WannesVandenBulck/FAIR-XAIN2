@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 71,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:10:13.397220",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, your application was denied because you were calculated to have a 53% chance of defaulting on the loan, meaning the bank judged you a slightly greater risk than a safe borrower. This is a close decision, but it tipped toward denial.\n\nThe single most influential factor was the status of your checking account. Your account currently has a negative balance, which is uncommon among approved borrowers—most approved applicants either have no checking account or maintain a positive balance. A negative balance signals to the lender that you may not have enough financial buffer to handle unexpected expenses, pushing the model strongly toward classifying you as a bad credit risk.\n\nThe second most important factor was the amount you requested: 5,371 DM, which is considerably higher than the average approved loan of about 3,020 DM. Asking for a substantially larger loan increases the lender’s exposure, and combined with your tight checking account, this raised your risk score.\n\nInterestingly, the purpose of the loan—furniture and equipment—actually worked in your favor. This purpose is associated with lower risk among approved applicants, and it pulled your prediction back toward the good-credit side. However, it wasn’t enough to outweigh the negative signals from your account balance and loan size.\n\nTo improve your chances next time, consider building up a small cushion in your checking account so it shows a positive balance. You might also apply for a smaller loan amount or wait until your financial situation is more stable. These changes would directly address the two biggest concerns the model identified.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

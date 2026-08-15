@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 54,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:06:09.801207",
+  "status": "success",
+  "narrative": "After reviewing your application, the bank's system determined a 54% chance that you would have difficulty repaying the loan. Because this probability is above the acceptable threshold, your application was denied.\n\nThe most important factor in this decision was your credit history. Your file indicates that you have no previous credits and no record of past payments. While this may mean you have never missed a payment, the model treats the absence of a track record as a risk — it has no evidence that you can successfully manage debt. Most approved applicants have an established history of repaying existing credit, which gives the bank confidence in their reliability.\n\nThe second most influential factor was the balance in your checking account. With only 0 to 200 Deutsche Marks available, your financial buffer is thin. This limited cushion suggests that even a minor unexpected expense could push you into difficulty meeting your monthly obligations.\n\nOn the positive side, owning real estate worked in your favor — this was the third most significant factor and it pushed toward approving your application. The amount you requested, 1,778 DM, is also well below the average of around 3,020 DM, and you applied for a new car, a common purpose among borrowers.\n\nHowever, the strength of the first two concerns outweighed these positives. To strengthen a future application, focus on building a credit record, for example by taking out a small loan and repaying it consistently over several months. Maintaining a higher checking account balance for a sustained period would also help demonstrate financial stability before you reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

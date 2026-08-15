@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 22,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:58:31.927293",
+  "status": "success",
+  "narrative": "Your loan application was denied because the bank's credit assessment indicated a meaningful chance you would have trouble repaying. Specifically, the model estimated a 37% probability that you would default on the loan. While that means there was a 63% chance you would repay, lenders are generally cautious, and a one-in-three risk is considered too high.\n\nThe most important reason for this decision was the condition of your checking account. Your account currently has a negative balance, which is very unusual among approved applicants—only about 12% of them are in this situation. Most approved borrowers either have no checking account or a positive balance. This was seen as a strong warning sign that you might already be financially overextended.\n\nThe other two key factors actually supported your application. You requested the loan to buy a radio or television, which is a common and lower-risk purpose among approved loans. And you asked for a 12-month term, which is shorter than the typical approved loan of about 19 months, meaning the bank would not be exposed for as long. However, these positive signals were not enough to overcome the concern about your negative account balance.\n\nTo improve your chances in the future, focus on bringing your checking account balance into positive territory and keeping it there for several months. You could also consider applying for a smaller amount or adding a co-applicant or guarantor. After demonstrating steady finances, you would be much better positioned to reapply and receive a favorable decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

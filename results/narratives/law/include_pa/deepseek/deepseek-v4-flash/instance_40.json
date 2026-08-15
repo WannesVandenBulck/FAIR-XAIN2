@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 40,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:20:17.180027",
+  "status": "success",
+  "narrative": "The model’s prediction indicates that you have a 60 percent chance of not passing the bar exam on the first attempt, and that is the central reason your law school application was denied. The single most important factor in this prediction was your third-year class ranking. You placed in the lowest decile, whereas admitted students typically sat near the sixth decile, and this weighed heavily against you. Your first-year ranking also pushed the prediction toward failure, though it carried less weight than the third-year ranking.\n\nInterestingly, your LSAT score actually worked in your favor. Although it is slightly below the admitted-student average, it was the second most influential factor and it pushed the prediction toward passing, not failing. In other words, the model viewed your academic performance during law school, especially in your final year, as a far stronger signal of bar exam risk than your entrance exam score.\n\nBecause your class standing was the dominant concern, the clearest path forward is to demonstrate academic improvement. Consider retaking difficult coursework, enrolling in additional legal writing and bar-preparation classes, and seeking academic support to raise your grades. A stronger LSAT score remains within your control and could also strengthen a future application. Focus on building a record that shows consistent, stronger performance, particularly in your final year, and reapply once you have addressed that academic gap.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

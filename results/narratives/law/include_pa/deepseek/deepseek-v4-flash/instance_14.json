@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 14,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:14:23.858521",
+  "status": "success",
+  "narrative": "The model assessed your likelihood of passing the bar exam on the first attempt, and the result was not favorable: you have a 63.9% predicted probability of failing. This means that, based on the patterns in the data, you are more likely than not to struggle on the bar exam, which is a critical signal for law school admissions.\n\nThe primary reason your application was denied is your academic performance in law school, especially later in the program. Your class standing in your third year was extremely low—you were in the bottom decile, whereas admitted students on average sit near the middle of their class. This was the single strongest factor pushing the prediction toward bar failure. Your first-year class standing also worked against you: you were in the second-lowest decile, while the average accepted student was near the sixth decile. Together, these two rankings showed a consistent pattern of struggling academically relative to your peers, which strongly suggested you would not pass the bar.\n\nYour undergraduate GPA actually worked slightly in your favor, since it was not as far below average—though at 2.40 versus the 3.23 average, it still wasn’t a strength. But that small positive influence could not overcome the much stronger negative signals from your class ranks.\n\nTo improve your chances, focus on strengthening your academic record. Consider a rigorous post-baccalaureate program, retake courses to improve your GPA, and seek academic support to raise your class ranking before reapplying. Demonstrating upward academic momentum will directly address the factors that drove this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

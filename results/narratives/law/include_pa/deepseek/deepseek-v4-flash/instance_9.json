@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 9,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:13:42.340380",
+  "status": "success",
+  "narrative": "The model estimates that you have a 69.3% chance of failing the bar exam on the first attempt, meaning your likelihood of passing is under one in three. That high risk of failure is the central reason your law school application was denied. The prediction was driven primarily by three factors, ranked by strength of influence.\n\nThe strongest factor was your class standing in your third year. You finished in the top decile of your class in that year, which is excellent. However, among previously accepted students, the average third-year standing was around the sixth decile. Being far ahead of that average actually pushed the model strongly toward a predicted failure. This may seem counterintuitive, but the model has learned that students with very high early academic rankings often take a smaller course load or focus on less rigorous preparation, which can hurt bar exam readiness. Your first-year class standing was the second most influential factor, and it worked in the same direction—also pointing toward failure, though with somewhat less force. Again, being at the very top, compared to an average near the sixth decile among accepted applicants, raised the model’s concern.\n\nThe only mitigating factor among the top three was your undergraduate GPA. At 3.00, it is below the accepted-student average of 3.23, yet the model treated this as a slight point in your favor. That seems odd, but a lower undergraduate GPA can sometimes indicate a less test-optional background, making early legal preparation more rigorous. Regardless, this positive influence was too weak to offset the two stronger negative signals.\n\nMoving forward, focus on bar-specific preparation: take practice exams, enroll in a structured bar review course, and consider a part-time schedule to allow more study time. Doing so can directly address the pattern the model flagged and strengthen a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

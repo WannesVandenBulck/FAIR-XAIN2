@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 30,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:00:29.595883",
+  "status": "success",
+  "narrative": "The model estimates there is a 38% chance you would become a bad credit risk, and while that is not a certainty, the bank considers it too high for approval. The most influential factor in this decision was actually your savings situation—and it worked in your favor. Having no verified savings did not hurt you; in fact, it pointed toward lower risk. The real problem was your checking account. Your account is currently overdrawn below zero, a condition seen in only about 13% of approved applicants. This was the strongest signal pushing toward denial, because it suggests you are already facing financial strain. The third most important factor, the purpose of the loan, helped your case. Borrowing for furniture or equipment is viewed as a reasonable, lower-risk reason compared to other purposes. In short, the negative impact of your overdrawn checking account outweighed the positive influences from your savings and loan purpose. To improve your chances in the future, focus on restoring your checking account to a positive balance and keeping it there for several months. A cleaner financial picture would reduce the strongest risk signal the bank sees, making it more likely your next application would be approved.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

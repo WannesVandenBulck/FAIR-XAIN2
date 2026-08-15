@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 35,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:01:29.448928",
+  "status": "success",
+  "narrative": "Your loan was denied because the model sees a 65% chance you would be a bad credit risk. That means that among people with a similar financial profile, about 65 out of 100 do not repay as agreed. The bank considers this too high. This decision is based on your financial profile, not on personal characteristics such as sex, age, or origin.\n\nThe strongest factor was your checking account. It is currently overdrawn, below zero. Only about 13% of approved borrowers have a negative account, so it is a clear warning sign. It suggests you may already be struggling with everyday expenses, making a new loan payment harder to handle.\n\nSecond was the loan purpose: furniture or equipment. This actually helped you. Loans for furniture or equipment are fairly common among approved applicants, and the model treated this purpose as a small positive signal, less risky than other credit types.\n\nThird was savings. You have less than 100 DM, which raised your risk. Although about 46% of approved applicants also have low savings, having almost no savings leaves little room for unexpected bills alongside a new loan.\n\nOverall, the overdrawn account and low savings outweighed the positive purpose. To improve future chances, bring your checking account into positive territory, build a small savings cushion, and consider reapplying later once your income is more stable.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

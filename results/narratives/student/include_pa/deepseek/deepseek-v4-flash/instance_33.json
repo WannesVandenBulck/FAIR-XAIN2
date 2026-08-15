@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 33,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:41:45.269162",
+  "status": "success",
+  "narrative": "Based on your information, the model calculates your chance of failing the final year at about 40%. That means you still have a 60% chance of passing, but the risk is high enough that the school requires you to take remedial courses.\n\nThree factors weighed most heavily in this decision. By far, your past failures were the strongest. You have failed two classes before, while students who ultimately passed generally had none. This is the main reason the prediction leans toward failing. It signals that past difficulties may repeat unless something changes.\n\nTwo other factors actually pulled in your favor. Your family size of three or fewer gave a slight positive nudge, even though most successful students come from larger families. Similarly, not having attended nursery school was also seen as a mild plus, despite being less common among those who passed. These positive influences were weaker than the negative impact of your previous failures.\n\nBecause past failures dominate, the best way to change this outcome is to directly address that pattern. Consider using tutoring, extra help, or structured study time to strengthen topics you previously struggled with. Speak with teachers early about difficult material, and take full advantage of academic support. The remedial courses are an opportunity to break the cycle of past failures. With consistent effort, you can improve your chances and move toward a successful final year.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

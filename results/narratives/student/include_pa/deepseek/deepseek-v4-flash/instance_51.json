@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 51,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:46:48.487548",
+  "status": "success",
+  "narrative": "The model's prediction means you have an 11% chance of not passing your final year. That is a relatively small risk, but it is still high enough that the school has decided you should take remedial courses to make sure you succeed. The prediction is not a verdict; it is a warning that there are some areas to strengthen.\n\nThe three strongest factors the model considered were your past failures, the quality of your family relationships, and your desire to pursue higher education. You have never failed a class before, and that is a strong positive sign. Students with a clean record like yours are usually on a solid path, so this factor pushes the model toward expecting you to pass. You also described your family relationships as good, which is another protective factor, because having a supportive home environment tends to help students stay focused. Finally, you said you want to continue into higher education, and that goal is a meaningful motivator; when students have a clear aim, they are more likely to work through difficulties.\n\nSo why does the model still flag you? These three factors are the most influential, but they are not the only ones. When all of your information is combined, the model finds a small but real chance that you might not make it through. That is why you are being asked to take additional courses: not because you are likely to fail, but to close that gap.\n\nConsider this a safety net. Keep up your study routine, ask for help early if you feel stuck, and stay close to your family and your goal. With your clean record and strong motivation, you are well positioned to prove that warning wrong.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

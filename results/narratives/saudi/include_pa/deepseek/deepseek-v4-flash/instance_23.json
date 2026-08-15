@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 23,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:21:08.868888",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, there is a 96% probability that you are planning to leave your current job, which is why the promotion has been denied. This is not a judgment of your performance, but an indication that your profile strongly matches employees who resign.\n\nThe most influential factor in this decision is your overall professional history. With more than 11 years of experience, you have a level of expertise and marketability that most of your colleagues who stay do not possess. In fact, only about 15% of those predicted to stay have this much experience. This makes you highly attractive to other employers, and the model sees this as a strong signal that new opportunities are actively pulling you away.\n\nThe second most important factor is that you have received other job offers during your time here. Employees who are actively sought after by other companies are far more likely to accept one of those offers. Since only about 23% of employees who stay receive such offers, your situation stands out as a clear risk indicator.\n\nFinally, the model considered how long you have been in this specific organization, which is between one and five years. While you have deep overall experience, you are still relatively new to this role. Combined with your external opportunities, this suggests you may not yet have the long-term investment in this organization that would anchor you to staying. Each of these factors independently pushed the prediction toward leaving, and together they created an overwhelming signal.\n\nFor the next steps, the organization should have a direct conversation with you about your long-term intentions and the offers you have received. You should consider whether this role still aligns with your career goals, and the organization should assess whether increased internal opportunities could offset the external pull.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

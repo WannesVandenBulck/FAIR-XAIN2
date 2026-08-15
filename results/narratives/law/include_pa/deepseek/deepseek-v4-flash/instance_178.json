@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 178,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:53:41.130541",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, you have an 84.1% predicted probability of failing the bar exam on the first attempt. This is a very strong signal, and it is the primary reason your application was denied—the school uses this likelihood as a core part of its admission decision.\n\nThe single most influential factor driving that prediction was your academic standing in your third year. You finished in the bottom decile of your class, which is a very low position compared to accepted students, who typically land around the sixth decile. This tells the model that your performance did not improve over time and likely left you underprepared for the rigorous content of the bar exam. Your first-year class standing also played a significant role on the same side. You were also in the very bottom decile in that year, while accepted students again averaged near the sixth decile. The model saw two years of consistently bottom-tier performance as a strong warning sign.\n\nThere was one piece of good news in your profile. Your undergraduate GPA of 3.30 slightly exceeded the average of accepted students, and this factor pushed modestly in the direction of passing. However, this positive influence was much weaker than the negative impact of your two extremely low class rankings, so it could not turn the overall prediction around.\n\nTo improve your chances in the future, focus squarely on academic remediation. Retaking core courses, performing exceptionally well in your final year to climb out of the bottom decile, and investing heavily in bar exam preparation would help demonstrate that your earlier class standing no longer defines your potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

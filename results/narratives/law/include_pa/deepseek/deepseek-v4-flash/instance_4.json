@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 4,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:12:26.122108",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated a 99.2% probability that you would fail the bar exam on your first attempt. That extremely high risk is the reason your law school application was denied. The decision was not based on your gender or race, but on a few key academic indicators that strongly shape bar exam success.\n\nThe most influential factor was your third-year decile ranking. You finished in the 2nd decile, meaning you were near the bottom of your class, while accepted students typically sit around the 6th decile. This pattern of struggling in the later stages of your legal education is a powerful signal that you were not prepared for the bar exam. Your first-year decile was also important, and it told the same story: a 2nd decile ranking compared to an average of 6 among accepted students shows that academic difficulties began early and did not improve. Together, these two factors pushed strongly toward a failure prediction, because consistent low class standing is one of the best predictors of bar exam struggle.\n\nYour family income also played a small role. While upper-middle income is common among accepted students, it added a slight push toward the failure prediction in your case. This was far less important than your academic rankings, but it still contributed to the overall risk.\n\nWhat should you do next? Consider strengthening your academic foundation before reapplying. Retake challenging courses, seek tutoring, and build a track record of strong grades. You might also ask academic advisors for feedback on how to improve your performance. A higher class standing in future coursework would directly address the main reasons behind this denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

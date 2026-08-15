@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 47,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:25:44.653027",
+  "status": "success",
+  "narrative": "Your promotion was not approved because our model assesses your likelihood of leaving the company as high—specifically, about 49%. That means the model sees nearly a one-in-two chance that you will leave in the near future. While this is not a certainty, it is a significant risk that makes the organization hesitant to invest in a new role for you.\n\nThree main factors stood out in the model's reasoning. First, your years of experience—between one and five—actually worked in your favor. Many employees who stay share this profile, so this factor pushed the prediction slightly toward staying. Second, you indicated that you have received other job opportunities while working here. This carries a strong warning sign: among employees who stay, only about a quarter received outside offers, so the model sees this as a clear signal that you have one foot out the door. Third, feeling that you received the promotion you deserved worked in your favor again, pushing the prediction toward staying. That sense of fairness is common among those who remain.\n\nSo the model's decision comes down to this: even though you feel fairly promoted and have only a few years of experience, the fact that you have outside opportunities is a powerful counterweight. It suggests your loyalty is uncertain.\n\nWe recommend a conversation about your career path and what would make you stay; this would help us understand whether the risk the model detected can be addressed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

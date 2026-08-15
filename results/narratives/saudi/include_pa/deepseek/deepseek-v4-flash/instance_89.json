@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 89,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:33:26.848443",
+  "status": "success",
+  "narrative": "The model’s prediction indicates a 55% chance you will leave your job, and because this is above the threshold used for decisions, your promotion was denied. This does not mean you are definitely leaving, but it does mean that, in the model’s view, the signals pointing toward departure are slightly stronger than those pointing toward staying.\n\nThe most important factor pushing in your favor is your experience level. With one to five years of experience overall and in your current role, you match the profile of most employees who stay, so this adds stability to your case.\n\nHowever, the second strongest factor works against you: you have received other job opportunities during your time here. Among employees predicted to stay, only about a quarter had such offers, so this is a strong signal to the model that you have alternatives and may be tempted to leave.\n\nThe third factor, your employment sector, also pushes slightly toward leaving. Your sector is less common among employees who stay, compared with medical or education sectors, which makes your work situation a little less typical and slightly more fragile.\n\nTaken together, the model sees a person with modest experience who nonetheless has outside options and works in a sector where retention is less certain. The organization should consider speaking with you about your other opportunities and what would keep you engaged. You might also reflect on whether those offers genuinely matter to you or whether your reasons for staying are strong enough to move forward.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

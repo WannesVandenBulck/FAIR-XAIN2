@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 114,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T18:33:18.032927",
+  "status": "success",
+  "narrative": "The model's prediction is that you have a 73% chance of failing the bar exam on your first attempt. In practical terms, this means that for every four students with a similar profile, the model expects roughly three to fail, and only one to pass. This high risk of failure is the reason your application was denied.\n\nThe single most important factor driving this decision was your class standing in your third year of studies. You ranked in the 3rd decile of your graduating cohort, while accepted students typically place around the 6th decile on average. This gap was the strongest signal the model considered, and it pushed the prediction firmly toward bar exam failure.\n\nYour LSAT score was the second most influential factor. At 31, your score falls well below the average of 37 among accepted applicants. The model interpreted this as another indicator that you would struggle to meet the academic demands of a law program and, ultimately, the bar exam.\n\nYour undergraduate GPA was the third most important contributor. At 2.70, it sits below the 3.23 average of accepted students. While this factor carried less weight than your class rank or LSAT score, it still pointed in the same direction — toward a higher chance of failing.\n\nAll three of these signals aligned: each one independently suggested academic difficulty, and together they produced a decisive prediction.\n\nWhat should you do next? Focus on strengthening the areas the model flagged. Consider retaking the LSAT after dedicated preparation — a substantially improved score could change a future outcome. If you are still in school, work to raise your grades in your remaining year. Reapplying with a stronger record would give the model a very different picture of your likelihood to succeed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

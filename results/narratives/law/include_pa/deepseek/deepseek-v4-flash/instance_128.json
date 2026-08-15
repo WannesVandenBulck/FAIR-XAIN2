@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 128,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:41:08.305254",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts you have a 51% chance of failing the bar exam on the first attempt—just over the line where a failure becomes more likely than not. That slim margin tipped the decision against admission.\n\nThree factors drove this prediction, ranked from strongest to weakest. The most influential was your Year 3 class standing. Even though a ranking in the top decile compares very favorably to the average accepted student, the model weighed this factor most heavily and pushed the prediction toward bar exam failure. In other words, this single factor was the primary reason your application was not approved.\n\nYour LSAT score of 36, while only slightly below the average of about 37 for accepted students, pushed in the opposite direction—toward passing. So did your undergraduate GPA of 3.40, which is above the accepted-student average of 3.23. These two factors worked in your favor and lowered your predicted risk, but their combined influence was not enough to offset the strong negative effect of your class standing.\n\nBecause the model’s predicted failure probability was marginally above 50%, even a small improvement in your profile could change the outcome in a future review. I recommend retaking the LSAT to move your score meaningfully above the accepted average, and continuing to maintain excellent grades—if possible, through rigorous coursework that strengthens your last-year record. You might also consider seeking academic support or bar-preparation resources early, and reapplying with updated results. A modest upward shift in your test performance or an even stronger final-year standing could bring your predicted probability below the threshold and turn a rejection into an acceptance.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

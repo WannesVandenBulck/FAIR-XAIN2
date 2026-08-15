@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 14,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:35:05.914513",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates that you have a 23% chance of not passing the year—roughly one in four. Because that risk is considered high enough, you have been placed in the remedial course group. The single strongest reason for this prediction is that you said you do not want to pursue higher education after school. Among students who passed, every single one wanted to continue into higher education. This difference matters more than anything else in the model’s decision.\n\nTwo other factors actually worked in your favor. You chose this school because of its reputation, and many students who passed also chose it for that reason, so this detail pushed the prediction toward passing. You also have no previous course failures, which matches the average for students who passed. So your past record and your reason for choosing the school are positive signs.\n\nHowever, the lack of interest in higher education was strong enough to tip the overall prediction toward failing. To improve your chances, start by exploring what you want after school. Even if university is not the goal, having a clear plan or vocational direction can give you a stronger reason to engage with your classes. You might also consider increasing your weekly study time; you currently study less than two hours, while most students who passed study between two and five hours. These steps directly address the concerns behind the prediction and would give you a much better chance of passing.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

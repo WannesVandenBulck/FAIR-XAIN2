@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 120,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:39:03.529850",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated an 82.1% chance that you would fail the bar exam on the first attempt. In other words, out of every ten students with a similar profile, roughly eight are expected to fail—a risk that admissions could not accept.\n\nWhat drove this decision? The single most influential factor was your class standing in the third year of study. You finished in the first decile of your class, meaning the bottom ten percent. This weighed heavily toward a failure prediction. Your first-year class standing was the second strongest factor: you were also in the bottom decile as a first-year student. Ranking near the very bottom in both the beginning and the end of your undergraduate career suggests a persistent academic struggle that the model views as a serious warning sign.\n\nYour LSAT score, by contrast, pushed slightly in the direction of passing. At 35, it is below the average of 37.18 among applicants who have been accepted, so it was not enough to offset the class-rank concerns, nor did it rank among the top influences.\n\nImportantly, your gender and race played no part in this outcome; only academic indicators were considered.\n\nIf you wish to reapply, focus on strengthening the areas that held you back. Consider a strong post-baccalaureate record that demonstrates you can perform at a high level, and retake the LSAT. A higher score alongside recent evidence of academic success would directly address the two class-standing signals that most influenced this denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

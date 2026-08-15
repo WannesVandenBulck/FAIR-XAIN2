@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 91,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:15:05.045066",
+  "status": "success",
+  "narrative": "The model concluded that you have a 33 percent chance of being a bad credit risk—meaning that, based on your profile, the bank believes there is roughly a one-in-three chance you would fail to repay the loan. Because the bank treats that as too risky, your application was denied. In reaching this decision, the model weighed many details about your finances, and three factors stood out as most important.\n\nThe single strongest influence was the guarantor backing your loan. This is uncommon—only about six percent of approved applicants had one—and it worked clearly in your favor, signaling you have support and pushing your risk lower. The second most important factor worked against you: your checking account is currently overdrawn, with a balance below zero. Most approved applicants had a positive balance or no checking account at all, so this overdraft raised a red flag about your day-to-day money management and outweighed the help from your guarantor. Finally, the amount you requested—1,755 marks—was well below the roughly 3,020-mark average among approved applicants, so the bank stood to lose less; this again pushed your risk downward. Yet the negative signal from your overdrawn account was strong enough to tip the overall prediction toward denial.\n\nWhat you should do next: clear your overdraft and keep a positive checking balance for several months, then reapply. With your guarantor and your modest request already working in your favor, a healthier account would give the bank far more reason to approve you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

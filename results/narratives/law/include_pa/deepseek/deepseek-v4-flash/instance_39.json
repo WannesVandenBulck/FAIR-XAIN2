@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 39,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:20:08.240939",
+  "status": "success",
+  "narrative": "Your law school application was denied because the admissions model determined you have a 91.9% chance of failing the bar exam on your first attempt. In practical terms, the model sees you as very likely to struggle with the licensing exam that is essential to practicing law, and the university has decided not to take on that risk.\n\nThe most important factor in this decision was your class ranking in your third year of study. You are in the bottom decile, meaning your grades placed you in the lowest 10% of your class. Students who were accepted into the program were typically around the middle of their class, so this is a dramatic gap. Almost as influential was your first-year class ranking, where you were again in the very bottom decile. Again, accepted students usually sat in the middle of the pack. Both of these rankings strongly pushed the prediction toward bar exam failure. Together, they signal a pattern of academic struggle from the very start of your legal education through your final year.\n\nYour LSAT score of 37 was essentially average and actually nudged the prediction slightly toward passing the bar, but this positive influence was far too weak to offset the damage from your two bottom-decile class rankings. A score near the average simply could not compensate for consistently low performance in your coursework.\n\nTo strengthen a future application, focus squarely on improving your academic record. Consider whether a reduced course load or part-time study would allow you to finish stronger, and seek out tutoring or academic support early. You might also retake the LSAT after intensive preparation to create a more convincing counterweight to your grades.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

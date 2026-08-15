@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 104,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:36:29.675060",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, there is a 51% chance that you will leave your job. That means the risk is slightly higher than the chance you will stay, and that risk is why the promotion was denied. This is not a judgment on your performance; it is a statistical look at your situation.\n\nThe most important factor in this decision is your total years of experience. With only one to five years, you are similar to about half of employees who remain in their jobs, so this actually works in your favor—it suggests you are not the type to leave simply because of tenure. Next, having received other job opportunities while working here is a strong counterweight. Only about a quarter of employees who stay receive such offers, so your situation makes you stand out as someone with attractive options elsewhere. This factor alone pushes the prediction strongly toward leaving. Finally, your emotional commitment to the organization is high, which again points toward staying. It shows you have a real psychological connection to your workplace, and this helped offset some of the external pull.\n\nIn short, the model sees you as committed and relatively early in your career, but the presence of outside offers tips the balance toward departure. For next steps, you and your employer should talk openly about what would make you stay long-term—especially since you report low support, no bonus, and limited recognition. Addressing those issues could reduce your turnover risk and strengthen your case for promotion in the future. Your gender, age, and health were never part of this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

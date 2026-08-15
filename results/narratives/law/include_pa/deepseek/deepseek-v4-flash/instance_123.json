@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 123,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:39:45.923123",
+  "status": "success",
+  "narrative": "The model that reviewed your law school application concluded there is a 52 percent chance you would fail the bar exam on your first attempt. Because that number is just above fifty percent, the prediction tipped toward failure rather than success, and this is what led to your application being denied. It does not mean failure is guaranteed; it means the model sees your risk as slightly higher than your likelihood of passing.\n\nThree factors shaped this decision more than any others. The single strongest influence was your undergraduate grade point average, which worked in your favor. At 3.60, your GPA is well above the 3.23 average among accepted students, and this strongly pushed the prediction toward passing.\n\nAlmost as influential, however, was your class standing at the end of your third year of law school. You placed in the very bottom decile of your school, while accepted students typically sit near the middle of their class, around the sixth decile. This is a serious concern: a law student who ranks near the bottom in the final year generally struggles with the material and exam skills required to pass the bar. This factor pushed the prediction emphatically toward failure and outweighed the positive impression left by your undergraduate record.\n\nYour family income level also mattered, ranking third in influence. This worked in your favor as well, nudging the prediction toward passing, even though only a small share of accepted applicants come from a low-income background.\n\nThe honest takeaway is that your third-year academic performance is the reason this application was denied. Retaking courses, improving your class rank, or gathering strong evidence of bar-readiness through additional preparation could meaningfully change a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 58,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:48:32.246324",
+  "status": "success",
+  "narrative": "According to the model, you have around a 22% chance of finishing the year without passing. That means roughly one in five students with your profile would need to retake, and this is why additional course work is being required: to lower that risk before it becomes reality.\n\nThe most important factor in your prediction was your past school record. You have never failed a year, and that strongly pulls you toward passing. If that were the only thing considered, you would look like a student who is on track. However, the next strongest influence goes the other direction. You study fewer than two hours a week, while most students who pass study between two and five hours. This low amount of study time was the biggest reason the model leaned toward failure.\n\nThe third factor, having not attended nursery school, actually helped your prediction slightly, nudging you back toward passing. So your risk does not come from who you are or your family background; it comes from your current study habits.\n\nWhat should you do next? Focus on increasing your weekly study time to at least two to five hours. Build a regular schedule, even in subjects you find easy. Since you have never failed before and you want to go on to higher education, you already have a strong foundation. The remedial courses are a safety net, not a verdict. Use them to strengthen your routine and show what you can do.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

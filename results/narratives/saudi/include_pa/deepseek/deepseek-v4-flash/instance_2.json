@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 2,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:17:05.681374",
+  "status": "success",
+  "narrative": "The model’s prediction suggests a 62% likelihood that you will leave your job in the near future. Because the organization uses this likelihood to guide promotion decisions, that elevated risk is the reason your promotion was denied.\n\nThe most influential factor is that you have received other job opportunities while working here. Among employees who remain, only about a quarter report receiving outside offers, so this stands out as a strong signal that you may be considering leaving. Your total work experience, six to ten years, also adds to the prediction of leaving—this is a career stage where employees are highly marketable and often move between employers. However, not all factors point in the same direction. Your six to ten years of experience within your current organization actually reduces the likelihood of leaving, because long tenure signals commitment and stability.\n\nIn short, the model sees you as a valuable, experienced employee who is likely being recruited elsewhere, and who may not remain long enough to justify the investment of a promotion.\n\nFor the organization, this raises an important point: if a strong employee receives outside offers, denying a promotion may push them out the door. For you, the question is whether you can demonstrate your commitment to staying—and whether the organization is willing to recognize your contributions and give you a compelling reason to stay.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

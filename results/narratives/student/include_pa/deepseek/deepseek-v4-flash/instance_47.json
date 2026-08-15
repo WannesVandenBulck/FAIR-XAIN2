@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 47,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:45:42.635819",
+  "status": "success",
+  "narrative": "The model places you in the at-risk category, estimating a 14 percent chance that you will not pass this year. That means roughly one in seven students with a similar profile ends up failing, and the school considers this risk serious enough to require remedial courses now.\n\nThe strongest reason for this warning is your alcohol use during the week. You reported drinking very heavily on school days, which is extremely rare among students who pass. In fact, the vast majority of successful students drink very little or not at all on weekdays. Heavy weekday drinking can disrupt sleep, concentration, and study time, and this pattern alone outweighs the positive signals in your profile.\n\nThe second most important factor actually works in your favor: you have never failed a class before. That shows you are capable of handling your coursework and that a strong academic foundation is there. Your desire to continue into higher education is also protective, since every student who passed in this dataset shared that same ambition. These two factors push strongly toward passing, but they cannot fully cancel out the risk created by your weekday drinking.\n\nTo improve, focus on reducing alcohol during school days and protecting your evening study time. Remember that you already have the motivation and the track record to succeed. A meaningful change in your daily routine, especially around drinking, could be enough to turn this warning around.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 62,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:25:50.985509",
+  "status": "success",
+  "narrative": "Based on your application, the model assessed your chances of passing the bar exam on the first attempt and concluded there was a 55.5% likelihood you would fail. This means that, in the model’s view, the balance of evidence tipped slightly against you—not that failure was certain, but that you were more likely than not to struggle. That risk was the basis for denying your admission.\n\nThree factors shaped that prediction most strongly. The single most important one was your class standing in your third year, where you ranked in the very bottom decile. Admitted students typically stood around the sixth decile, so this was a major red flag, and it pushed strongly in the direction of failing the bar. Next in importance was your LSAT score. At 37, it was essentially identical to the average score of admitted applicants (37.18), so rather than hurting you, this factor actually nudged the prediction toward passing. Third was your undergraduate GPA of 2.90, which is below the 3.23 average of accepted students; this was only mildly influential, and it also pushed the prediction slightly toward passing rather than failing. In other words, your LSAT and GPA provided some support for your candidacy, but they were far outweighed by the concern raised by your third-year academic ranking.\n\nThe encouraging part is that the strongest signal against you is something you have the power to change. Focus on improving your academic standing in your remaining coursework, consider retaking the LSAT—even a modest increase helps—and reapply once your record more clearly demonstrates that you can handle the rigor of law school and the bar exam.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 76,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:31:10.817946",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving this job is 48%, which is high enough that the organization considers it too risky to grant you a promotion. This does not mean you are a poor performer; it means the model sees signs that you are likely to move on soon, and promoting someone who may leave is a risk the company is not willing to take.\n\nThe most important factor in this decision actually works in your favor. You have not received other job opportunities while working here, which is uncommon among employees who stay. This absence of outside offers strongly suggests you are not actively looking elsewhere, and it pulls your prediction toward staying.\n\nHowever, two other strong factors push in the opposite direction. Your total experience across all jobs is 6 to 10 years, which is higher than most employees who are predicted to stay—about half of them have only 1 to 5 years. With this level of experience, you are more marketable and more likely to be recruited away. Additionally, your experience specifically in this organization is only 1 to 5 years. While that is common among stayers, the model still treats it as a risk: you have been here long enough to build skills, but not long enough to be deeply anchored to the company.\n\nTaken together, the model sees you as a capable, mobile professional. To change this outcome, the organization should focus on retention—offering clear career paths, competitive pay, and meaningful development opportunities. For your part, consider communicating your longer-term commitment and asking what would make you a stronger candidate for promotion in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

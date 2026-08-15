@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 96,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:33:13.441439",
+  "status": "success",
+  "narrative": "The model estimates you have a 53 percent chance of failing the bar exam on your first attempt. That means the risk of failure is slightly higher than the chance of passing, and this tipped the decision toward denial. The single strongest factor was your plan to attend law school part-time. Among accepted applicants, only about 7 percent study part-time, so this pattern is uncommon and historically linked to lower bar success. This alone pushed your prediction firmly in the direction of failing. Your academic standing, however, worked in your favor. Your first-year class rank placed you in the 8th decile against an average of 6th for accepted students, and your third-year rank was also slightly above average. Both of these factors pulled the prediction toward passing, meaning your grades showed real promise. Unfortunately, the part-time enrollment had a greater impact than these two positive indicators combined, so the overall model still leaned toward failure. What should you do next? If you are able, attending full-time would directly address the strongest risk factor and likely change the prediction dramatically. You might also consider discussing your situation with the admissions office to see if they would reconsider with a full-time commitment, or ask whether your first-year and third-year performance could be weighed differently if you reapply. Strengthening an application for a future cycle should focus on aligning your study format with the pattern that leads to bar exam success.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

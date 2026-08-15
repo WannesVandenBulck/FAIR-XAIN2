@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 87,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:33:03.986829",
+  "status": "success",
+  "narrative": "Your promotion was denied because the model sees a 45% chance you will leave the company in the near future. That is not a guarantee, but it is a clear warning sign: roughly one in two employees with your profile departs, so the organization treats that as too risky to invest in a higher-level role.\n\nThe strongest factor in the decision was your total career experience. Having only one to five years of experience is actually common among employees who stay, so this factor worked in your favor. Similarly, the second strongest factor also helped you: you have not received other job opportunities while working here, and most stable employees report the same. Together, these suggest you are not actively looking elsewhere.\n\nThe third factor, however, pushed the prediction toward leaving. You described your involvement in the job as difficult—meaning you find it hard to have a say in decisions or feel your opinions do not matter. This is rare among employees who stay: only about one in ten stayers report this. This sense of being sidelined is what raises your risk.\n\nFor you and the organization, the message is clear. The risk is not about your length of service or outside offers—it is about engagement. You may want to discuss with your manager how to be more involved in decisions. The organization should consider whether low involvement is driving your dissatisfaction, because addressing that could reduce your leaving risk and justify a future promotion.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

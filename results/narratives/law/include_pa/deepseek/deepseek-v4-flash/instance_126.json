@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 126,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:40:45.239495",
+  "status": "success",
+  "narrative": "The model predicts you have a 65.9 percent chance of failing the bar exam on your first attempt—more likely than not, in its view. That risk is the direct basis for denying your university admission.\n\nWhat drove that risk? The single most influential factor was your LSAT score. At 34, it fell below the average of 37 among accepted applicants. In the model's logic, a lower LSAT score strongly pushes the prediction toward failing the bar, and this outweighed much of what you did well.\n\nThe second most important factor was your first-year class decile. You were in the sixth decile, which is exactly the average for accepted students. Even so, the model treated that middle-of-the-road performance as a slight additional nudge toward failure rather than as neutral. That may seem surprising, but it means your first-year standing did nothing to offset the LSAT concern.\n\nThe third factor was your family income bracket. Coming from a middle-income household is common among accepted students—about a third of them share that background. However, the model still counted it as a small risk factor, pushing your predicted failure probability up modestly.\n\nNotably, your undergraduate GPA is strong at 3.70, well above the 3.23 average, and neither your gender nor race influenced the decision. The denial reflects only the model's estimate of exam-passing risk.\n\nYour clearest next step is to retake the LSAT, as improving that score would directly address the biggest factor in the denial. In the meantime, consider how you can strengthen your academic performance in the first year of any future program, and plan to enroll in bar-preparation support early if you are admitted later. This outcome is not a judgment on your ability—it is a roadmap for improvement.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

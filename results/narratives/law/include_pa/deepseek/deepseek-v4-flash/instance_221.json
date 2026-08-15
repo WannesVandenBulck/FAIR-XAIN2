@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 221,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:04:32.713536",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated an 88.3% chance that you would not pass the bar exam on your first attempt. That is a very high risk, and the university used it as the basis for rejection. This was not based on your gender or race. Instead, three academic signals drove the decision.\n\nThe strongest signal was your third-year class standing. You finished in the first decile, the lowest tenth of your class, while accepted students were, on average, around the sixth decile. This pointed firmly toward failing the bar. Your first-year class standing had the next largest effect, and it told the same story: also in the first decile, near the bottom, and that further increased your predicted risk.\n\nThe third factor was your LSAT score. At 32, it was below the average of about 37 for admitted students. This also pushed the prediction toward failure, but it was less influential than your class rankings. Together, these three factors all moved in the same direction, producing the high failure probability.\n\nTo improve your chances in the future, focus on raising your LSAT score and building stronger academic skills, especially in legal analysis and",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

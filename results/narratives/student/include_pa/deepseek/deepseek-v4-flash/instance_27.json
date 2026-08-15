@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 27,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:39:33.990748",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates an 11 percent chance that you will not pass your final year. While that is a relatively small risk, the school considers it significant enough to require remedial courses. Looking at the three main factors behind this decision, two of them actually work in your favor, and only one is a genuine concern.\n\nThe strongest influence on the prediction is your record of past failures — or rather, your lack of them. You have never failed a class, which matches the profile of students who passed, who also had zero previous failures on average. This pushes the prediction strongly toward passing. The second most important factor is your desire to pursue higher education. Every student who passed in the data shared this ambition, so your own goal of continuing your studies also points toward success.\n\nThe deciding factor, however, is your weekly study time. You reported studying fewer than two hours per week, while the majority of students who passed studied between two and five hours. This is the one element pushing the prediction toward failure, and it was strong enough to place you in the group requiring extra support.\n\nThe good news is that the solution is within your control. If you increase your study time to at least two hours per week — ideally two to five, spread across short daily sessions — you will align yourself with the habits of successful students. You already have the track record and the motivation; consistent study time is the missing piece.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

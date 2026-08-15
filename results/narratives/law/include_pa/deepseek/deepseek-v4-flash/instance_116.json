@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 116,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:37:37.667108",
+  "status": "success",
+  "narrative": "Your application was denied because the admission model estimated an 83% chance that you would not pass the bar exam on your first attempt. In plain terms, the model views your risk of failing that exam as very high, and since passing the bar is the essential outcome for a law school graduate, that risk drove the decision to reject your application.\n\nThe single strongest factor pushing the prediction toward failure was your LSAT score of 24. Among students whose applications were accepted, the average score was just over 37, so you are a full fifteen points below the typical admitted student. The model considers this score the most powerful signal in your entire file, because performance on the LSAT closely tracks the reading, logic, and analytical skills the bar exam tests. That large gap alone pushed the prediction strongly toward failure.\n\nTwo other factors added much smaller weight, and both still moved the prediction slightly toward failure. Your class ranking in the first year placed you in the 5th decile of your school, and by the third year you had moved to the 4th decile. Interestingly, accepted students averaged around the 6th decile in both years, meaning your ranks are actually better than the typical accepted applicant's. However, the model still treated any position outside the highest deciles as a mild risk, though these two factors influenced the outcome far less than your LSAT did.\n\nYour family income, gender, race, and enrollment status were not considered in the prediction. To improve your chances in a future application, focus first on retaking the LSAT—a substantially higher score would directly address the strongest risk factor. You should also plan to enroll in a bar-preparation course and seek academic support early in law school to protect your class standing and your eventual bar performance.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

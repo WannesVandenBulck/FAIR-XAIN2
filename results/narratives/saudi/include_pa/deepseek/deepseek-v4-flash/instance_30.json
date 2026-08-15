@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 30,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:22:45.330283",
+  "status": "success",
+  "narrative": "You were denied the promotion because our model sees a 76% chance that you will leave the company in the near future. That high risk makes it difficult to invest in promoting you, even though your performance may be strong. Your gender, age, and health were not part of this decision.\n\nThe most important signals all point in the same direction: you have over 11 years of total work experience, yet you have only been with this organization for 1 to 5 years. Among employees who stay, most have either 1–5 or 6–10 years of total experience; having more than 11 years is relatively rare for someone still with the same employer. This combination suggests a pattern of moving between organizations — you are experienced, but you haven't yet shown long-term commitment to one workplace. That is a strong predictor of leaving.\n\nThe third key factor is that you have received other job opportunities while working here. Among employees who stay, only about one in four has received such offers. When someone is actively attractive to other employers, the risk of resignation rises substantially.\n\nTogether, these three factors overwhelmed the many positive things in your profile, such as your high job support, satisfaction, and medium work-life balance. The model isn't saying you will definitely leave, but the probability is high enough that we can't confidently promote you right now.\n\nNext, we recommend a conversation about your career path, what would make you feel more committed, and whether a different role or clearer long-term growth plan could reduce your likelihood of leaving.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

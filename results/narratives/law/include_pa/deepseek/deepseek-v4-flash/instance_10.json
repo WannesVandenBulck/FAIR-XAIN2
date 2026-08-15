@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 10,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:13:49.095766",
+  "status": "success",
+  "narrative": "Based on your application, the model estimates that you have a 65% chance of failing the bar exam on your first attempt. This means that, in the model's assessment, the odds are stacked against you when it comes to passing the bar—which is the key reason your law school application was denied. The admission decision was driven almost entirely by three aspects of your academic record.\n\nBy far the most significant factor was your class standing in your third year. You are in the bottom decile of your class at that point, whereas students who were accepted are typically in the top half (around the 5.8 decile on average). This single factor weighed heavily against you, pushing the prediction strongly toward bar exam failure. A low third-year rank signals that your academic performance did not improve over time, which the model associates with a higher risk of failing the bar.\n\nYour LSAT score also worked against you. Your score of 28 is well below the average of 37 among accepted students, and this further pushed the prediction toward failure.\n\nInterestingly, your undergraduate GPA was a point in your favor. At 3.00, it is only slightly below the accepted-student average of 3.23, and this factor actually nudged the prediction toward passing. Unfortunately, it was not strong enough to offset the negative impact of your third-year rank and LSAT score.\n\nTo strengthen a future application, you should focus on raising your LSAT score significantly and, if possible, retaking core courses to improve your academic standing. Demonstrating recent academic success would directly counter the concerns the model identified.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

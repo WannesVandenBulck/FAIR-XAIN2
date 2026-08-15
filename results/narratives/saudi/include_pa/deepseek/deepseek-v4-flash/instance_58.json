@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 58,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:27:49.588988",
+  "status": "success",
+  "narrative": "Based on the available information, the model estimates a 67% probability that you will leave your job within the coming period. Because this risk is considered high, the organization has decided not to offer you a promotion at this time.\n\nThe most important factor driving this prediction is your total career experience. With 6–10 years across all jobs, you are more seasoned than roughly a third of employees who stay, and this experience makes you more marketable and likely to seek opportunities elsewhere. Interestingly, the second strongest factor actually worked in your favor: you have not received other job offers while working here, a characteristic shared by most loyal employees, suggesting you are not actively looking. This pulled the prediction back toward staying. However, this positive signal was outweighed by the third key factor—your tenure with this specific organization. Having been here 1–5 years, you are in a period where employees often reassess their growth, and combined with your overall experience, the model sees you as prepared to move on.\n\nGiven this, the organization should recognize that you are a valuable, experienced professional who may simply feel underutilized. To retain you, they should explore increasing your responsibilities, offering clearer career pathways, or addressing your expressed concerns around recognition, stability, and fair compensation. For you, the next step is to clarify your own career goals and consider discussing a development plan with your manager, since external offers are not currently pulling you away.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 51,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:05:15.948162",
+  "status": "success",
+  "narrative": "Your application was declined because the model estimated a 37% chance you would become a bad credit risk. While that means a 63% chance you would repay, the bank’s tolerance for risk is lower, so this probability was simply too high for approval.\n\nWhat most influenced that decision? Your credit history, the amount you requested, and the length of the loan term. Interestingly, two of these actually helped you. Your credit history, although rated as critical or with other credits, still pushed toward good credit compared with approved applicants—perhaps because you have existing credits that you are managing. The requested amount of 2,820 DM also nudged slightly toward good credit, as it is below the average approved amount of about 3,020 DM.\n\nThe main factor working against you was the loan duration. You asked for 36 months, while approved applicants average about 19 months. The longer term was the strongest single influence toward bad credit risk in your case, outweighing the positive signals from your credit history and amount. In short, the bank saw the extended repayment period as making you significantly riskier.\n\nWhat should you do next? Consider re-applying with a shorter loan term—for example, 18 to 24 months—even if that means a higher monthly payment. Also focus on continuing to make timely payments on your current obligations, since your credit history is already helping you. A shorter, more manageable loan request would likely push your risk below the bank’s threshold.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

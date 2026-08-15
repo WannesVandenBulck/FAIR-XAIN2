@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 26,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:21:38.256894",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 58 percent. This is not a certainty, but it tells us that, based on patterns from employees like you, your risk of resigning is slightly above the tipping point. Because of that elevated risk, the promotion was denied.\n\nThe single most influential factor actually works in your favor: your total experience of one to five years. Among employees the model expects to stay, about half also have this level of experience. This places you in a stable, early-career pattern and pulls the prediction toward staying.\n\nHowever, two other factors override that stability. The second most important factor: you have received other job opportunities while employed here. Only about one in four employees who stay receive outside offers, so having them signals that you are attractive to other employers and therefore more likely to leave.\n\nThe third factor is your tenure at this organization, also one to five years. That length of time is common among stayers, but when combined with outside offers, it shows that your attachment here is still forming. Employees who remain long-term tend to build deeper roots; at this stage, the pull of other options weighs heavily.\n\nWhat should happen next? The organization should see you as a valued employee being pursued elsewhere, not simply a flight risk. A meaningful promotion, clear growth path, and stronger recognition could significantly reduce that 58 percent risk. On your side, consider what would genuinely make you stay. If support and rewards improve, your desire to leave may fade, and the prediction would become outdated.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

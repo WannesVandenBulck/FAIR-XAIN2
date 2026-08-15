@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 45,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:44:54.097752",
+  "status": "success",
+  "narrative": "Your predicted chance of failing is 30 percent. That does not mean you are certain to fail—the odds still favor you—but it means that among students with a similar profile, roughly three in ten did not make it to the end of the year. Because that risk is high enough, the school is requiring you to take remedial courses to protect your chances.\n\nInterestingly, the three factors that most strongly influenced the prediction all point in your favor. The most important is your past record: you have never failed a year before, and students who pass typically have zero prior failures—a strong signal you are capable. Next is your ambition: you want to pursue higher education, and every student who passed shared that goal. Third, your free time after school is low, which is less common among students who pass; it works in your direction, suggesting you are not overscheduling leisure and have room to focus on studies.\n\nSo why did the model still flag you? Because smaller factors, combined, tipped the balance. Your weekly study time is below two hours, while most successful students study two to five. Your weekday alcohol consumption is high, and you rate your health as bad. None alone is decisive, but together they create enough risk to warrant extra support.\n\nUse the remedial courses to build a consistent study routine, cut back on alcohol, and care for your health. With your clean academic history, this support should be all you need to pass.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

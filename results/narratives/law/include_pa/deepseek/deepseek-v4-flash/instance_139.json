@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 139,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:43:29.076596",
+  "status": "success",
+  "narrative": "Your law school application was denied because the model estimates that you have a 52.7% chance of failing the bar exam on your first attempt, which sits just above the critical 50% threshold. In practical terms, slightly more than half of students with a profile similar to yours fail, making your application too risky for admission.\n\nThe most influential factor in this decision was your third-year academic decile. At 2.00, your rank placed you in the bottom twenty percent of your class, far below the average of roughly 6.00 among admitted students. This strongly pushed the prediction toward bar exam failure. Your first-year class rank was the third most important factor: at the 3rd decile, you were again well below the admitted average of 6.00, and this also moved the prediction toward failure. Considered together, these rankings suggested persistent academic difficulty in law school coursework, which is a strong concern for bar readiness.\n\nPartially countering these concerns was your undergraduate GPA of 3.30, the second most influential factor, which sits slightly above the admitted average of 3.23 and pulled meaningfully toward a passing prediction. Unfortunately, this positive signal was not strong enough to offset the combined weight of your two low class rankings.\n\nTo improve your chances in a future application, focus on performing strongly in your remaining law school years to raise your class standing, and consider retaking the LSAT, since your current score of 36.50 falls slightly below the admitted average of 37.18. A stronger record in your final year would directly address the factors that most drove this denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

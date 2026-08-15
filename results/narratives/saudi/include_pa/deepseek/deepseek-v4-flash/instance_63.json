@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 63,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:28:56.568519",
+  "status": "success",
+  "narrative": "The model indicates an 85% chance that you will leave your job in the near future, which is why the promotion was denied—investing in someone with such a strong intention to leave does not align with long-term organizational planning. Three factors weighed most heavily in this decision.\n\nYour total work experience was the single strongest signal. With 6 to 10 years behind you, you are more experienced than most employees who stay—only about a third of them had similar tenure. This level of experience makes you valuable and mobile, and it signals that you have attractive options elsewhere.\n\nThe second factor was how long you have been with your current organization. Even though you have spent 1 to 5 years in this job, this is short relative to your overall career. Employees who stay typically show a closer balance between their total experience and their time here. This gap suggested that you are still building ties here and could more easily walk away.\n\nFinally, the fact that you have received other job opportunities while working here was the third key factor. This was uncommon among employees who stayed—fewer than a quarter had such offers. It shows you are actively recruited, which pushed the prediction further toward leaving.\n\nIndividually these factors raise risk; together they made the outcome clear. The organization should consider what it can offer to keep you—such as clearer promotion paths, recognition, and better support. For yourself, it may be worth reflecting on whether your concerns can be addressed here or whether a change is genuinely better for your growth.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

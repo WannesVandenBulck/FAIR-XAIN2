@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 46,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:21:23.463725",
+  "status": "success",
+  "narrative": "Your application was not accepted because the admission model estimated a 69% chance that you would fail the bar exam on your first attempt. In plain terms, for someone with your academic pattern, about seven out of every ten candidates would not pass, and that level of risk fell short of what the law school required.\n\nThe most important factor in this decision was your third-year class standing. You finished in the lowest decile of your cohort, while admitted students typically sit near the sixth decile. That low rank was the strongest single signal pointing toward bar failure. Your first-year class standing was also in the lowest decile, and it was the next-most powerful",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -149,7 +149,7 @@ def _call_llm(messages, provider="openai", model=None, temperature=0, max_tokens
             return response.choices[0].message.content
         
         elif provider == "deepseek":
-            model = model or "deepseek-chat"
+            model = model or "deepseek-flash-v4"  # Default to Deepseek Flash v4
             response = deepseek_client.chat.completions.create(
                 model=model,
                 messages=messages,

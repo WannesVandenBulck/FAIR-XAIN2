@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 92,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:15:27.042636",
+  "status": "success",
+  "narrative": "After reviewing your application, the model determined there is a 71% chance you represent a bad credit risk, meaning you are significantly more likely to default on the loan than a typical approved applicant. This high probability is why your application was denied.\n\nThe most influential factor in this decision was your checking account status. Your account is currently overdrawn, with a negative balance. Among approved borrowers, the majority (nearly 60%) had no overdraft at all, and only about 13% had a negative balance. Having an overdrawn account signals financial strain and is a strong warning sign that you may struggle to make loan payments.\n\nThe second most important factor was the purpose of the loan: a new car. While this is a common request, on average, approved applicants were more likely to use loans for items like radio/TV or furniture. A new car is a depreciating asset and often indicates a higher-risk borrowing purpose than more essential or lower-cost purchases.\n\nFinally, the loan duration of 24 months was also a contributing factor. The average approved loan term is about 19 months, so your request is longer than typical. A longer repayment period increases the window of time in which your financial situation could change, adding uncertainty and risk.\n\nTo improve your chances in the future, focus first on fixing your checking account balance—bringing it out of the negative will have the biggest impact. Consider reducing your loan amount, choosing a shorter repayment period, and perhaps applying for a less depreciating purpose, such as a used car or home repairs. Building a healthier financial foundation before reapplying will make a substantial difference.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 98,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:33:34.469103",
+  "status": "success",
+  "narrative": "Based on the model's assessment, your predicted probability of failing the bar exam on the first attempt is 58 percent, which means the model considers it more likely than not that you would not pass. Because this risk is above the threshold the university uses for admission, your application was denied, as they aim to protect their bar passage rates and your future career prospects.\n\nThe single most important factor driving this decision was your academic standing in the third year of your law studies. You finished in the first decile of your class, meaning you were among the lowest-performing students, whereas admitted students typically sit around the sixth decile. The model interprets this as a strong signal that you struggled to master the material, making it more likely you would repeat that pattern on the bar exam, and this weighed heavily toward a failure prediction. \n\nYour second most influential factor, your undergraduate GPA, told a slightly different story. Even though your 2.90 is below the average of 3.23 among accepted students, the model actually viewed this factor as a point in your favor, subtly pulling your prediction toward passing. This suggests that your earlier academic record did not raise major red flags on its own.\n\nFinally, your enrollment status had a notable effect. As a part-time student, you belong to a small minority of applicants, and the model associates part-time study with a higher risk of bar failure. This significantly pushed your prediction in the wrong direction.\n\nMoving forward, consider retaking the LSAT, as your current score is well below the applicant average, and focus on demonstrating your academic ability through post-graduate coursework or work experience in a full-time legal setting. Reapplying with a stronger record would substantially improve your chances.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

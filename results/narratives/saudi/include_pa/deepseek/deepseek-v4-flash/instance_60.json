@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 60,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:28:12.423049",
+  "status": "success",
+  "narrative": "You are being denied a promotion because our model assesses a 94% chance that you will leave the company in the near future. This is not a judgment on your performance, but a statistical pattern based on factors that historically correlate with employee turnover. Three factors stand out most strongly.\n\nYour total experience of 6 to 10 years is the single biggest influence. Among employees who stayed, half had only 1 to 5 years of experience. At your stage, professionals often feel ready for a bigger role or a new challenge, which makes you more likely to move on. Your tenure in your current organization—1 to 5 years—also pushes in that direction. While this length of service is common among those who stay, it becomes risky when combined with your overall experience. It suggests you have not yet built deep roots here and may still be evaluating your options.\n\nThe third major factor is that you have received other job offers. Only about one in four stayers received outside opportunities, while you did. This strongly indicates that you have alternatives and a realistic path to leave, which raises your risk considerably.\n\nFor the organization, this suggests we need to understand what is driving your interest elsewhere and whether we can offer you a compelling reason to stay—such as clearer growth paths, better recognition, or improved work-life balance. For you, it is worth reflecting on what would truly make you committed here. If you see a future, we encourage you to share those needs; if not, this decision may help both sides plan more honestly.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 55,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:27:13.202962",
+  "status": "success",
+  "narrative": "Your promotion was declined because the model assessing your profile estimates a 47% chance that you will leave your job. That is close to a coin flip, and it crossed the risk threshold the organization applies when deciding who to promote.\n\nThree factors weighed most heavily. Your total experience, one to five years, is the strongest signal, but it actually worked in your favor: it matches the profile of half of the employees who stay, so it pulled the prediction toward staying. The factor that pushed most strongly toward leaving is that you have received other job opportunities. Only about one in four employees who stay have outside offers; having them suggests you already have alternatives, which makes you harder to retain. Third, the number of training programs you attended, one to three, nudged the prediction slightly toward leaving. While many stayers attended a similar number, it added to the overall risk picture.\n\nIn practical terms, the model sees you as a capable employee with options and is unsure you will stay long enough for a promotion to pay off. Your organization should treat this as a retention signal, not a judgment of your performance. A conversation about your career path, salary, or future opportunities could address what the model cannot see. For yourself, this is a moment to clarify whether staying is genuinely your goal, and what would make it so.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

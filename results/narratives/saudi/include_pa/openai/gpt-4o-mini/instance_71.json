@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 71,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "timestamp": "2026-08-15T15:42:07.790992",
+  "status": "success",
+  "narrative": "The model has predicted a 71% chance that you will leave your job, which is a significant indication that your current situation may not be conducive to your long-term commitment. This prediction has led to the decision to deny you a promotion, as the organization is concerned about your potential departure.\n\nThe primary factors influencing this prediction revolve around your extensive experience and the relatively short time you've spent in your current role. While you have over 11 years of overall experience, your tenure at this organization is only between 1 to 5 years, which is a common timeframe for employees who may be seeking new opportunities. This suggests that you might be feeling restless or unfulfilled, especially since many employees in similar positions have been with their organizations longer.\n\nAdditionally, the model noted that you have not received any job offers from other companies, which typically indicates a lack of external validation of your skills. However, this factor also suggests that you may not feel secure or valued in your current role, contributing to the prediction of your potential departure.\n\nLastly, the model highlighted that you are not satisfied with your job overall, which is a critical aspect of employee retention. Many employees who feel unfulfilled in their roles are more likely to seek new opportunities.\n\nGiven these insights, it may be beneficial for you to discuss your career aspirations and concerns with your manager. Exploring opportunities for professional development, increased recognition, or adjustments to your current role could enhance your job satisfaction and commitment to the organization.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

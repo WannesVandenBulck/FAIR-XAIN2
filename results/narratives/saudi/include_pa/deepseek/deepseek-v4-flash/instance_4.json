@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 4,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:17:33.497955",
+  "status": "success",
+  "narrative": "Your profile shows an 85 percent chance of leaving the organization, and that is why the promotion decision went against you. This does not mean you are a poor performer; rather, the model sees strong signals in your background that you are likely to move on. The most important signal is your overall professional history. You have six to ten years of experience across jobs, which is more substantial than most employees who stay, many of whom have only one to five years. Professionals with your level of experience are attractive to other employers, so this works in favor of leaving. The next strongest factor is that you have received other job opportunities while working here. Only about a quarter of employees who stay receive outside offers, so when this happens, it is a telling sign that you might accept one. Finally, your time in your current role is relatively short, one to five years, compared with your broader experience. That pattern suggests you have not yet built deep roots in this position and may see better prospects elsewhere. All three factors push your predicted risk of leaving very high. For the organization, your possible departure is a genuine concern, and offering clearer growth pathways could change the picture. For you, it may be worth deciding whether you want to stay and ask for development opportunities that increase your commitment, or whether another role truly aligns better with your long-term goals.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 269,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:19:28.535189",
+  "status": "success",
+  "narrative": "Based on your application, the university's predictive model estimated that you have a 55.9 percent chance of failing the bar exam on your first attempt. Because this probability was slightly above the level the university considers acceptable for admission, your application was denied. The most important factor in this decision was your planned enrollment status: you indicated you would attend law school part-time, while more than nine in ten admitted students are full-time. This single factor pushed the prediction most strongly toward bar exam failure. Working while studying part-time likely signals increased demands on your time and a slower path to completion, which the model associates with higher risk.\n\nYour other significant factors actually worked in your favor. Your LSAT score of 33.50, though below the average of 37.18, nudged the prediction toward passing. Likewise, your undergraduate GPA of 3.30, slightly above the typical 3.23, also pushed toward success. However, these two positive influences combined were not enough to outweigh the risk associated with part-time attendance.\n\nTo improve your chances in the future, you should consider whether you can commit to full-time enrollment. If that is not possible, you may want to demonstrate how you plan to manage outside responsibilities or strengthen other parts of your application, such as raising your LSAT score. A revised plan that addresses the time and rigor of full-time study would likely change the outcome of a future review.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

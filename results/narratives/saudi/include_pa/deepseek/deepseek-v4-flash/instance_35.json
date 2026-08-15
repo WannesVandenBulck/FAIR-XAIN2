@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 35,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:23:30.528468",
+  "status": "success",
+  "narrative": "Based on the information available, the model estimates a 67% chance you will leave your job within the prediction period. Because this probability crosses the threshold used by the organization, your promotion has been denied — the model sees you as a retention risk more than a stayer.\n\nThe single strongest factor pushing toward leaving is that you have received other job opportunities while working here. Only about one in four employees who were predicted to stay received outside offers, so your situation is uncommon and signals real external attractiveness — and therefore higher risk.\n\nThe second most influential factor actually worked in your favor: your overall experience of one to five years. While this is the most common experience range among employees who stay (about half), the model read it as a reason to expect you to remain, softening the overall leaving risk.\n\nThe third factor, however, pushes the other way: the sector you work in. Employees in your sector type are less represented among stayers (around one in five, compared to larger shares in medical and education), and the model treated this as adding to your likelihood of leaving.\n\nIn short, external job options and sector context outweigh your relatively short experience. The organization should consider whether retention conversations — such as career pathing or counter-offers — could address the root cause, and you may wish to clarify whether staying is genuinely what you want before any promotion discussions continue.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 182,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:54:34.458336",
+  "status": "success",
+  "narrative": "Based on the academic information available, the model has determined there is an 82% chance that you would not pass the bar exam on the first attempt. This high risk of failure is the central reason your application was denied, as the school relies on this prediction to gauge whether you would be able to complete the program and enter the profession successfully.\n\nThe single strongest factor in this decision was your academic standing in your third year of undergraduate study. You finished in the very bottom decile of your school, while students who are typically admitted to this law program finish, on average, much higher. This pattern suggests that your academic performance was declining or struggling relative to your peers at a critical point, which the model sees as a strong warning sign for future exam success.\n\nYour first-year class rank also pushed the prediction strongly toward failure. Again, you ranked at the very bottom of your class. While this was slightly less influential than your third-year standing, being in the lowest ten percent in both years paints a consistent picture of academic difficulty, which the model weighs heavily.\n\nYour undergraduate GPA did slightly favor you, acting as a counterbalance to those low class ranks. A 3.20 is close to the average of 3.23 for accepted students, showing you possess the baseline intellectual ability to succeed. However, this modest positive factor was far outweighed by the two very strong negative signals from your class rankings.\n\nTo improve your chances, you should focus on strengthening your academic record. Retake the LSAT to raise your score above the average of 37.18, and consider enrolling in a post-baccalaureate program to earn higher grades, demonstrating that you can now succeed in rigorous coursework. A reapplication with this new evidence would give the model a much fuller picture of your readiness.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

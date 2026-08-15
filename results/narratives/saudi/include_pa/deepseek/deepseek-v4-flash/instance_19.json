@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 19,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:20:26.960575",
+  "status": "success",
+  "narrative": "The model indicates a 47% chance that you will leave your job in the near future—a risk considered too high to grant a promotion. The primary reason for this prediction is that you have received other job offers while working here. Among employees the model expects to stay, only about one in five has received outside opportunities. This strongly signals that you are actively exploring alternatives, which outweighs several positive factors.\n\nInterestingly, the model did not rely solely on this risk. Your six-to-ten years of experience within this organization actually reduced the likelihood of you leaving. Loyalty and deep institutional knowledge generally point toward retention, and your tenure here is a stabilizing factor that partially offsets the concern raised by outside offers.\n\nHowever, your broader career history works against you. You have six-to-ten years of total professional experience, which places you beyond the majority of stayers, who typically have only one-to-five years. With this level of experience, you are more marketable and more likely to receive attractive offers, making you a higher turnover risk.\n\nThe organization should not view this as a personal failing. Rather, you should have an open conversation with your manager about your career aspirations and what would make you stay. This will allow the company to address your concerns and perhaps reconsider a promotion with a structured retention plan, instead of relying on a model that sees your opportunities as a reason to hold you back.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

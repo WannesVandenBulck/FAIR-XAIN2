@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 90,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:14:56.805838",
+  "status": "success",
+  "narrative": "Our analysis shows a 59% probability that you would be a bad credit risk, meaning the risk of default is too high for us to approve this loan. The decision is not about you personally, but about the patterns we see in similar applications. The single most influential factor was your checking account balance, which is currently overdrawn. Very few approved applicants have a negative balance. This heavily pushed the decision toward denial. Your credit history, while showing you have paid off all past debts at a bank, is actually a rare pattern among approved borrowers—most have existing loans or other credit lines they are managing. This also worked against you, pushing toward a bad-risk classification. In contrast, the amount you requested worked in your favor: at 2,746 DM, it is below the average granted, which is a reassuring sign and reduced your risk slightly. However, the negative effects of your overdrawn account and uncommon credit history outweighed this. To improve your chances if you reapply, focus on bringing your checking account into positive territory and maintaining that for several months. You might also consider a smaller loan or request a co-signer to offset the perceived risk. These steps would directly address the key factors behind this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

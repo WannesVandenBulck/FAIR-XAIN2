@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 135,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:42:20.136731",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts an 84% chance you would not pass the bar exam on the first attempt, a signal the admissions committee used to assess your likelihood of succeeding in their program. The most influential factor was your class standing in your third year, which placed you in the second decile of your current school. This is far below the average sixth decile seen among typically admitted students, and it strongly pushed the prediction toward future bar exam failure. Your first-year class standing was nearly as important, also in the second decile compared to an average near sixth. These consistently low rankings over time suggest that, even by your final year, you were not outperforming your peers in rigorous legal coursework.\n\nThe only factor working in your favor was your LSAT score. At 40, you scored above the average of 37.18 for admitted students, and this leaned the prediction toward passing. However, this advantage could not offset the much stronger negative evidence from your class ranks. In other words, while your standardized test ability looks solid, the grades you earned in law school relative to your classmates tell a more concerning story about your ability to succeed on the bar.\n\nYour gender, race, family income, and full-time status were not considered. To strengthen a future application, focus on raising your academic standing through additional coursework or a post-baccalaureate program, and consider retaking the LSAT to improve your score further. Demonstrating recent academic excellence would directly counter the patterns that led to this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

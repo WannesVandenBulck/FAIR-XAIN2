@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 81,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:12:25.857466",
+  "status": "success",
+  "narrative": "The decision to deny your loan application was not made lightly, but the model assigned a 34% chance that you would become a bad credit risk — meaning that in about one out of three similar situations, the borrower fails to repay. Even though that leaves a majority chance of repayment, the bank considers this level of uncertainty too high to approve.\n\nThe single most important factor in the decision was your credit history. You have no previous credits and have paid all your bills on time, which sounds positive, but it actually worked against you. Because you have no track record of managing borrowed money, the model could not see evidence that you would handle a loan well. This is the main reason your application tipped toward denial.\n\nOn the positive side, your checking account balance is strong — at least 200 Deutschmarks per month — which is better than most approved applicants. That helped your case significantly. The requested loan duration of nine months also worked in your favor, since it is much shorter than the average of about 19 months, suggesting you planned to repay quickly.\n\nHowever, these strengths were not enough to outweigh the lack of established credit history. To improve your chances next time, consider starting with a smaller loan or a credit card that you repay consistently, so you build a recognizable record of on-time payments. Maintaining your current checking account balance will also help. Once you can demonstrate a history of handling credit responsibly, the model will see you as a much safer bet.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

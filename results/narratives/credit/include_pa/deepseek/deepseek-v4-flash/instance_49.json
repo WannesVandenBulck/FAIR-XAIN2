@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 49,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:04:48.396356",
+  "status": "success",
+  "narrative": "Based on the information you provided, the model assessed a 56% probability that you would become a bad credit risk, meaning the likelihood of falling behind on payments is slightly more than half. Because that risk is above the acceptable threshold, your loan application was denied. The most important reason for this decision was your credit history. Although you have paid back all previous loans at the bank, this particular pattern is actually quite rare among approved applicants – only about 3 in 100 have the same history. The model saw it as a mild risk rather than a strong positive. The second most influential factor was your checking account status. Your account had a negative balance, which is a concern. Among approved applicants, most have a positive balance or no balance at all, and only about 13% had a negative balance, so this pushed the decision against you. On the helpful side, your installment payment was very low, using only 1% of your disposable income compared to an average of about 3% for approved applicants. This clearly showed you have room in your budget to manage payments and lowered your overall risk, but it was not enough to overcome the negative impact of the other two factors. To improve your chances for a future application, I recommend focusing on building a more established and favorable credit record over time, keeping your checking account out of the negative, and maintaining your current low payment burden. If you can demonstrate six months to a year of stable positive credit behavior, your next application would look considerably stronger.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

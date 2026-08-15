@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 34,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:01:15.872636",
+  "status": "success",
+  "narrative": "The model assessed your application and estimated a 26% chance that you would become a bad credit risk, meaning about one in four applicants with similar characteristics fails to repay. Although that leaves a 74% chance of repayment, the bank’s risk threshold considers this too uncertain, and so your application was denied.\n\nThe most important factor in this decision was the length of the loan you requested. Your six-month term is much shorter than the typical approved loan of about nineteen months, and this worked strongly in your favor. A shorter commitment means less time for financial circumstances to change, so this suggested you were a safer borrower.\n\nThe second strongest influence was your checking account balance, which is currently below zero. This worked against you. Only about twelve percent of approved applicants have a negative balance, and it is a clear sign of immediate financial strain. The model sees this as a serious warning that you may struggle to make loan payments.\n\nThe third factor, your savings situation, actually helped you. Having no known savings is common among approved applicants, and relative to other risk signals, it did not hurt your case. Your overall profile also includes a paid-off credit history and a strong job position, which are positive, but the negative checking account was enough to tip the decision.\n\nTo improve your chances next time, focus on rebuilding a positive checking account balance and maintaining it for a few months. Even a small buffer would reduce the strongest risk signal the model identified. Since your loan term and savings already favor you, addressing this one area could make your next application successful.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 21,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:38:08.530853",
+  "status": "success",
+  "narrative": "The model estimates that you have a 44% chance of failing your final year, and although that means you are more likely to pass than fail, the school considers this level of risk serious enough to require remedial courses. The strongest reason for this warning is your answer about wanting to pursue higher education. You indicated that you do not plan to continue to university or further studies, while every single student in the data who passed did want that. This single factor pushed the model most strongly toward the failing side. The second most influential factor actually worked in your favor: you have never failed a class before, which is the same as the average student who passes. That positive signal was not enough, however, to outweigh the others. The third important factor was how much time you spend studying. You reported less than two hours per week, while a majority of successful students studied between two and five hours. This low study time pushed the model further toward predicting that you would struggle.\n\nWhat can you take from this? Your past record shows you are capable, so the main things to change are your future goals and your daily habits. Even if you are unsure about higher education, keeping that option open can motivate you. More importantly, adding even a couple of extra hours of focused study each week could make a real difference. The remedial courses are not a punishment but a way to build that study routine and help you stay on track.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

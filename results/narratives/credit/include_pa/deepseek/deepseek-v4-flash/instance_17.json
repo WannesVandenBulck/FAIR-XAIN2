@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 17,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:57:30.107654",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model assessed a 45% probability that you would default, which places you in the bad credit risk category. This is not a certainty, but it is high enough that the bank considers the loan too risky to approve.\n\nThe strongest factor working against you was your credit history. You have no credits or loans that have been fully paid off, which is very unusual—only about 1% of approved applicants share this profile. Most approved borrowers have already demonstrated they can manage existing credit responsibly. Lacking this track record, the model sees little evidence that you will reliably repay a new loan, pushing strongly toward the bad credit side.\n\nYour checking account status also contributed to the denial. With a balance between 0 and 200 DM, you have a thinner financial cushion than many approved applicants, the majority of whom have no checking account or higher balances. This suggests limited liquidity to absorb unexpected expenses, further increasing your perceived risk.\n\nThere was one factor pulling in your favor: the loan duration of 12 months is shorter than the average of about 19 months among approved borrowers. A shorter commitment reduces the window for financial trouble, which slightly lowered your risk score. However, this positive influence was not enough to overcome the negative signals from your credit history and account balance.\n\nTo improve your chances in the future, focus on building a positive credit record—even a small loan or credit card paid off consistently will help. Keep your checking account balance healthier and consider applying for a smaller, shorter loan after establishing this track record.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

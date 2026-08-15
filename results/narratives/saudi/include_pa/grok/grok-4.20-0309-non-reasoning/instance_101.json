@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 101,
+  "provider": "grok",
+  "model": "grok-4.20-0309-non-reasoning",
+  "timestamp": "2026-08-15T12:15:07.840643",
+  "status": "success",
+  "narrative": "The model estimates a 58% chance that you will leave your current job. Because of this, the organization has decided to deny your promotion, as they are concerned about investing in someone who may not stay long-term.\n\nThe prediction is driven primarily by three key factors. First, having received other job opportunities while at your current company was the strongest influence pushing the model toward predicting you would leave. Employees who get external offers are far more likely to depart than those who do not. Second, your 11+ years of total professional experience also pulled the prediction toward leaving. While most employees predicted to stay have only 1–5 years of experience, your extensive background makes you more marketable and mobile. Third, finding it difficult to balance work and personal life further increased the likelihood of leaving. Most employees the model expects to stay report a medium balance, so your struggle in this area stands out as a risk factor.\n\nAlthough many positive aspects appear in your profile—such as high emotional commitment, strong job satisfaction, recognition from superiors, and a sense of job stability—these were not enough to outweigh the top three drivers.\n\nThe organization should discuss your external opportunities and work-life balance with you openly. You may want to reflect on whether your long experience and outside offers mean you are ready for a new chapter, or if adjustments could help you stay and grow here.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

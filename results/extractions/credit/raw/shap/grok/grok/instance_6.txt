@@ -55,7 +55,7 @@
     {
       "name": "employment_duration",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "installment_rate",

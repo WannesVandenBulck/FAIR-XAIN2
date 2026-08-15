@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 26,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:39:17.583274",
+  "status": "success",
+  "narrative": "Your profile carries a 13% chance of failing the year. That means the model believes you are likely to pass, but the risk is real enough that the school wants you to take remedial courses as a safety net. The model did not use your gender, age, or health. It focused most on three things.\n\nThe most important factor in your favour is your record: you have never failed a class before. This is a strong sign that you know how to succeed in school, and it pulls the prediction toward passing. The second strongest factor is also positive: you said you want to go on to higher education. Students with that ambition tend to stay motivated, and the model treats it as another clear sign pointing toward passing.\n\nThe one factor that works against you is your father’s education. He completed primary school, while among students who passed, only about 14% had fathers at that level; most had fathers with more schooling. This is not something you control, and it does not mean you cannot pass, but it is the main reason the model hesitates and places you in the fail group rather than the pass group.\n\nBecause your positive factors are stronger, the failure probability stays low. Still, the small risk is why remedial courses are required. Use them to keep your good record intact, stay focused on your goal of higher education, and ask your teachers for help early if anything feels difficult.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

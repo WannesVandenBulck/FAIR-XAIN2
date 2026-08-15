@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 87,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:13:57.924995",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, you have a 58% chance of being a bad credit risk, meaning it is slightly more likely than not that you would struggle to repay the loan. Because this probability is above the bank’s safety threshold, your application was denied.\n\nThe most important reason for this decision was the condition of your checking account, which is currently overdrawn. Among approved applicants, only about 13% have a negative balance, so this is a strong warning sign. It suggests you may not have enough cash flow to cover a new monthly payment.\n\nThe second most influential factor was your requested repayment period of 12 months. This actually helped your case—loan durations among approved applicants average around 19 months, so asking for a shorter term means the bank’s money is at risk for less time. However, this positive influence was not enough to outweigh the concerns.\n\nThe third factor was your property situation. You have no registered property or assets listed. Among approved borrowers, only a small minority—roughly 8%—have no property at all. Lenders see this as a lack of financial backup if you were to default, pushing you further toward the “bad risk” category.\n\nTo improve your chances in the future, focus on building a healthier checking account balance and keeping it positive for several months. Consider saving up a deposit, adding a guarantor or co-applicant, or waiting until you have owned property or other valuable assets. With a stronger financial foundation, a future application would be much more likely to succeed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

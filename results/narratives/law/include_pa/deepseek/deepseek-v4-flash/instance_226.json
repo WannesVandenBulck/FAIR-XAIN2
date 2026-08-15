@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 226,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:06:26.862605",
+  "status": "success",
+  "narrative": "Your application was denied because the model that law schools use to forecast bar exam success estimates that you have a 98 percent chance of failing the bar exam on your first attempt. In other words, out of every hundred students with a profile like yours, only about two would be expected to pass. Since a law school’s reputation depends heavily on bar passage rates, admitting someone with a failure risk this high is a significant gamble.\n\nThe most influential factor in that prediction was your class standing during your third year of study: you finished in the bottom decile, while accepted students usually ranked around the fifth or sixth decile. This pattern suggests that, even after several years of legal coursework, your academic performance remained far below the level typically needed for bar readiness. That factor pushed most strongly toward a failure prediction.\n\nThe second most important factor was your LSAT score. Your score of 25 is well below the average of about 37 among accepted applicants. Because the LSAT is designed to measure the reasoning and reading skills the bar exam demands, a score this low adds strong evidence that you would struggle on the bar.\n\nThe third factor was your first-year class ranking. Again, you were in the bottom decile, while accepted students usually sat near the middle of the distribution. This early difficulty reinforces the overall picture: from your first year onward, your academic trajectory has been a warning sign, not a reassurance.\n\nIf you want to pursue a legal career, the next step is to dramatically strengthen your academic record and your LSAT performance. Retake the LSAT after a serious test-prep program, seek tutoring or academic support, and consider delaying admission until your recent grades demonstrate that you can perform at the level the profession demands.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 262,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:18:00.384058",
+  "status": "success",
+  "narrative": "Your application was denied because the model that reviewed your file estimated that you have a 63.5% chance of failing the bar exam on your first attempt. In plain terms, the model concluded that, based on your academic record, you are more likely to fail than to pass, and that risk was considered too high for admission.\n\nThree factors drove this decision, in order of importance.\n\nThe strongest signal came from your class standing in your third year. You ranked in the very bottom decile of your school, while typical admitted students rank near the sixth decile. This performance level strongly pushed the prediction toward bar exam failure. Because your third-year standing was the single most influential factor, it carried significant weight in the denial.\n\nThe second most important factor was your LSAT score. You scored 36, slightly below the average of about 37 for accepted applicants. Interestingly, this score actually pushed the prediction in the direction of passing—it was a point in your favor. The model saw your LSAT as evidence of some legal aptitude, but it was not strong enough to offset the concern raised by your academic standing.\n\nThe third factor was your first-year class ranking. You placed in the second decile, again far below the average of six for accepted students. This also pushed the prediction toward failure, reinforcing the pattern seen in your third-year performance.\n\nThe picture that emerged is one of consistently low academic performance relative to your peers, especially in later years, combined with an LSAT score that, while helpful, was not sufficient to overcome that concern.\n\nMoving forward, consider retaking the LSAT to strengthen that positive factor, and pursue additional coursework or post-baccalaureate study to demonstrate that you can perform at a higher academic level.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

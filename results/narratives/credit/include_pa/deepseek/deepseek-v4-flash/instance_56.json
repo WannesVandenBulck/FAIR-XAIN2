@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 56,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:06:27.108382",
+  "status": "success",
+  "narrative": "Your loan application has been denied. Based on your financial profile, the model estimated a 39 percent chance that you would default on the loan. In practical terms, that means nearly four out of ten borrowers with similar circumstances end up failing to repay, and the bank sees that as too high a risk to approve.\n\nThree features of your situation were especially important in this decision. The strongest single factor was your other installment plan at a bank. You already have an ongoing credit commitment, which pushes the assessment strongly toward bad risk—it leaves less room in your budget to handle a new loan payment. The model views this as a clear warning sign.\n\nInterestingly, your savings situation and your checking account status both worked in your favor. Having no checking account and having unknown or no savings were each associated with lower risk in the bank’s data, so they pulled the prediction toward good credit. That may seem surprising, but many customers who repay reliably also lack these accounts. Still, the protective effect of those two factors was not large enough to outweigh the negative impact of your existing bank installment plan and the rest of your application.\n\nYour requested amount of 7,824 Deutschmarks is also much higher than the average approved loan of about 3,020, and you asked for a longer repayment period than typical—28 months versus 19. These additional factors added further weight to the risk assessment.\n\nTo improve your chances in the future, focus on paying down your existing installment plan and reducing your overall debt burden. You might also consider applying for a smaller loan with a shorter duration, which would lower the risk for the bank. With time and improved financial stability, your application would look much stronger.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

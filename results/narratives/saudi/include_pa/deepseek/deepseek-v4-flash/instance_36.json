@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 36,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:23:44.809341",
+  "status": "success",
+  "narrative": "The model estimates that there is a 47% chance you will leave your job in the near future. This is not a certainty—it is close to a coin toss—but it is high enough that the organization does not feel confident investing a promotion in someone who may not be around long enough to grow into the role.\n\nThe strongest factor the model weighed was your total work experience. With only one to five years of experience, you actually resemble the majority of employees who stay—about half of those who remain with their employer also fall into this group. This should have worked in your favor, signaling that you are still building your career and likely to stay put.\n\nHowever, two other signals outweighed that positive sign. First, you have received other job opportunities while working here. Only about a quarter of employees who remain receive such offers. This suggests that you are attractive to outside employers and may be weighing your options, which raises the risk that you would leave shortly after being promoted.\n\nSecond, you work in the \"other\" sector, which is less commonly associated with long-term retention than fields like medical or education roles, which make up the largest share of employees who stay.\n\nGoing forward, the organization could reduce this risk by offering you a clear growth path or having an honest conversation about your future plans. You might also consider whether these outside opportunities are real alternatives, or whether discussing your career aspirations here could change what the model sees as a likelihood of departure.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

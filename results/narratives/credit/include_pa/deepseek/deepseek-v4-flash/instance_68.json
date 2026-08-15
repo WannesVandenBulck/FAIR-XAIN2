@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 68,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:09:40.320667",
+  "status": "success",
+  "narrative": "After reviewing your application, the model estimated a 45% probability that you would default on the loan. That is a substantial level of risk, and it is why your application was denied.\n\nThe single most important factor in this decision was your checking account. You currently have a negative balance, and this is uncommon among approved borrowers: only about 13% of approved applicants had a negative account balance. This strongly pushed your file toward the “bad credit risk” side.\n\nYour credit history was the second most influential factor, but it actually worked in your favor. Even though your history is described as critical or involving other credits, the model viewed this as a slight positive in your overall risk calculation, nudging you toward “good credit.” The third factor was the amount you requested. At 2,121 DM, your loan request was below the average approved amount of around 3,020 DM. This too helped you, because a smaller request generally means less risk for the bank.\n\nHowever, the negative checking account outweighed both of those positive factors. It was the dominant signal, and it pushed the risk high enough that the loan could not be approved.\n\nThe clearest path forward is to focus on your checking account. Work to bring it into a positive balance and keep it there for several months. Avoid overdrafts and demonstrate stable money management. Once your account shows a consistent healthy pattern, your financial profile will look much stronger, and you would have a better chance if you reapply later.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

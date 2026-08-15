@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 41,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:20:28.249622",
+  "status": "success",
+  "narrative": "Your application was denied because the predictive model assessed a 60% chance that you would fail the bar exam on your first attempt. That is above what the university considers acceptable, and it reflects a pattern of academic risk factors strongly tied to bar success. The most influential factor in the decision was your undergraduate GPA. At 2.20, it is a full point below the average of 3.23 seen among accepted students, and this low performance was the single biggest contributor pushing the prediction toward failure. The second most influential factor was your LSAT score of 31, well below the average of 37.18 among accepted applicants. That also pushed importantly toward a failed first attempt. Together, these two factors are the main reason your predicted risk came out high. Interestingly, not all evidence pointed against you. Your class standing in the third year was a mitigating factor: you are in the 5th decile, which is actually better than the average decile of 5.79 for accepted students, and the model recognized this as a positive signal that lowers your predicted risk. However, that one positive was not enough to offset the GPA and LSAT disadvantages. What should you do next? Focus on strengthening your academic record through additional coursework or a graduate degree with strong grades, and invest serious time in LSAT preparation to raise your score. If you can show upward academic performance and a materially higher LSAT, you will likely become a more competitive applicant in the next cycle.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

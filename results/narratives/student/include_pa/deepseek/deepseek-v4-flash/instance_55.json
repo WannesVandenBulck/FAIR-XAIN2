@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 55,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:47:34.734117",
+  "status": "success",
+  "narrative": "The model estimates that you have a 47% chance of failing your final year. That is nearly one in two, so although it is not a certainty, it is serious enough that remedial courses are now required to help you get back on track.\n\nThe biggest reason for this prediction is that you indicated you do not want to pursue higher education. This matters more than any other factor. Among students who passed, every single one wanted to continue into higher education. Your answer stands out as a strong warning sign, because it often affects how much effort and importance a student places on their studies.\n\nThe second factor the model considered was your history of past failures. Here you have good news: you have never failed a year before, and this is exactly the same as students who passed. This part of your profile pushes the prediction toward passing, not failing.\n\nThe third most important factor is your weekly study time. You study less than two hours each week, while most passing students study between two and five hours. This lack of regular study time is another clear risk, pushing the prediction back toward failing.\n\nTaken together, these factors create nearly equal chances of passing or failing. To improve your outlook, try to set a clearer goal for your future, even if you do not yet plan to attend university. Increasing your weekly study time to at least two hours would also make a meaningful difference. These changes directly address the two strongest risks in your profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

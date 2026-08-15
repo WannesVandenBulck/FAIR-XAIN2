@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 6,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:55:10.860418",
+  "status": "success",
+  "narrative": "Based on your application, the model assessed that you have an 84% chance of being a bad credit risk, which is why your loan was denied. This is a high probability, meaning the bank considers you significantly likely to default on the loan.\n\nThe most important factor in this decision was your checking account. Your account is currently overdrawn, with a balance below zero Deutsche Marks. This is a strong signal of current financial strain. Only about 12.6% of applicants have this status, while the majority of approved applicants have a positive balance or no account at all.\n\nThe second major factor was the length of the loan you requested. You asked for a 60-month term, which is roughly three times longer than the average approved loan of about 19 months. A longer term extends the period of uncertainty and increases the chance that your financial situation could worsen, which raises the risk for the bank.\n\nThe third factor was your property situation. You reported no known property or other assets. Many approved applicants own real estate, a vehicle, or have savings contracts; lacking such assets reduces the bank's confidence that it could recover its money if you were unable to repay.\n\nTo improve your chances in the future, consider stabilising your checking account and keeping it in positive territory. Also, applying for a shorter loan term and building up savings or assets would directly address the main reasons behind this denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

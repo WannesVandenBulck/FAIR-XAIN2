@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 304,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:29:27.310335",
+  "status": "success",
+  "narrative": "The decision to deny your application was based on a prediction that you would not pass the bar exam on the first attempt. The model placed your chance of failing at 52.9%, meaning that, although it is close to a coin flip, there is a slightly greater than even likelihood that you would fail. When the model looked at your file, the single strongest factor was your enrollment status: you plan to attend part-time, whereas over nine in ten successful applicants are full-time. This weighed heavily in the direction of failing, as the model associated part-time study with a higher risk of not passing the bar. After your enrollment status, the next most influential factor was your LSAT score. Even though your LSAT of 34 is below the average of 37.18 among accepted students, it actually nudged the prediction toward passing rather than failing. The third factor, your undergraduate GPA, did the same. At 3.30, it is slightly above the average of 3.23, which further reduced your predicted risk. Because the part-time enrollment was by far the most important factor, the denial can be traced to that risk. To improve your chances, consider committing to full-time study if possible, or retake and raise your LSAT to better offset the risk from a part-time schedule.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 3,
+  "provider": "grok",
+  "model": "grok-4.20-0309-non-reasoning",
+  "timestamp": "2026-08-15T12:09:13.013581",
+  "status": "success",
+  "narrative": "The model estimates a 57% chance that you will leave your current job. Because of this, the company has decided to deny your promotion, as they are concerned about investing in someone who may not stay long-term.\n\nThe prediction is driven primarily by three key aspects of your profile. Most influential was the fact that you have participated in a high number of training programs over the past three years. While this might seem positive, the model sees this level of training—higher than what most employees who stay typically receive—as a signal that you are actively building skills for opportunities elsewhere, pushing the prediction strongly toward leaving.\n\nNext, your overall career experience of 6–10 years works against you. Compared with employees the model expects to stay (half of whom have only 1–5 years total experience), your broader background suggests you have more external options, increasing the likelihood you will move on.\n\nYour tenure in this specific organization (1–5 years) also contributes, though less strongly. It indicates you have gained enough familiarity to feel confident exploring new roles without being tied down by very long service.\n\nTaken together, these factors outweigh many positive elements in your profile, such as your satisfaction with rewards, recognition, and work-life balance. The organization should discuss your career goals openly with you and explore whether targeted retention steps, like a clearer promotion path or new challenges, could change your trajectory. You, in turn, may want to reflect on what would make staying worthwhile. (248 words)",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

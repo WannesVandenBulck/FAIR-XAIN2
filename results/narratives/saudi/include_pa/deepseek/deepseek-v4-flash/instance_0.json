@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:16:45.348056",
+  "status": "success",
+  "narrative": "Your application for promotion was reviewed using a model that assesses how likely an employee is to remain with the organization. In your case, the model estimates a very high probability—92%—that you would leave your job in the near future. Because the promotion decision is tied to retention, this high risk is why the request was denied.\n\nThe most influential factor was your overall experience. With six to ten years in the workforce, you are more experienced than many employees who stay—most of them have only one to five years. That experience makes you highly employable, so the model sees you as more likely to move on.\n\nNext, the fact that you have received other job opportunities while working here pushed the prediction further toward leaving. Among employees predicted to stay, only about one in five had such offers. Receiving outside interest suggests you are actively attractive to other employers.\n\nFinally, your tenure in your current position—one to five years—played a role. Although this is common among stayers, combined with your longer overall career, it means you have not yet built the deep roots in this organization that anchor long-term employees.\n\nConsider what might increase your commitment: clearer career growth, recognition, or compensation alignment. For you, it may be helpful to communicate your intentions to stay and ask what would make you more likely to remain.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

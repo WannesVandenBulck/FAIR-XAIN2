@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 250,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:14:06.782868",
+  "status": "success",
+  "narrative": "Your law school application was denied because of what your academic record says about your likelihood of passing the bar exam. When the admissions model evaluated your profile, it estimated that you have a 91.7 percent chance of failing the bar on your first attempt—meaning fewer than one in ten students with a similar profile would be expected to pass. That level of risk was considered too high to accept.\n\nThe most important reason for this prediction was your class standing in your third year. You finished in the lowest decile of your class, while admitted students typically ranked around the middle. Your first-year standing was the second most influential factor, and it showed the same pattern: you were again in the bottom decile, well below the average of admitted students. Both factors strongly pushed the prediction toward bar exam failure, because consistent low performance in law school coursework is a reliable sign that you would struggle with the bar exam itself.\n\nYour family income played only a minor role. Coming from an upper-middle-income home—the most common background among accepted students—added a very slight nudge toward failure, but it was far less important than your academic standing.\n\nIf you want to reapply, focus on improving your academic performance, since your class rank is what matters most. Seek structured academic support, build early bar-exam preparation into your study routine, and consider retaking the LSAT to strengthen the rest of your application before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

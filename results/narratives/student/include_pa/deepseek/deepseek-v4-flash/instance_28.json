@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 28,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:40:04.419279",
+  "status": "success",
+  "narrative": "The model estimates your chance of failing this year at 16%. That may sound low, but it is high enough that the school decided you need remedial courses. Interestingly, the three strongest signals the model considered in your case all point the other way, toward passing. Your history of no past failed classes is the most powerful factor in your favor, because most students who pass also have a clean record. Your wish to continue into higher education is the second strongest factor, and every student in the comparison group who passed shared that same ambition. Third, you describe your family relationships as good, and that closeness tends to support academic steadiness.\n\nSo why are you still flagged? Because these positive influences are outweighed by many smaller risk factors that add up. You study less than two hours each week, while most passing students study between two and five. You don’t have internet access at home, which can make homework and research harder. And you’ve missed nine classes, more than double the average of about four absences among students who pass. Individually these may not seem severe, but together they push your overall risk above the line that triggers extra support.\n\nThe good news is that the strongest parts of your profile are already on your side. To lower your risk further, try to increase your weekly study time, catch up on missed material, and talk to your teachers about getting internet or study support. With that effort, you have a very real chance of turning this prediction around.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

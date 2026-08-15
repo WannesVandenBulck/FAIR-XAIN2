@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 83,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:32:21.074254",
+  "status": "success",
+  "narrative": "The model's analysis indicates a 66 percent probability that you will leave your job within the coming period, and it is this risk that led to the promotion decision. Three factors in particular drove that outcome.\n\nThe strongest signal is that you have received other job opportunities while working here. Among employees the model expects to stay, only about 23 percent had received outside offers. This suggests you are being recruited or considering alternatives, which is a powerful indicator of departure.\n\nThe next most influential factor is your overall experience. With more than eleven years in your field, you belong to a small group—roughly 15 percent of stable employees have this much experience. Long experience makes you highly marketable and more likely to accept opportunities elsewhere, especially when combined with the offers you have already received.\n\nFinally, the sector you work in contributed to the prediction. Only about 22 percent of employees who stay come from your sector, meaning it is associated with higher turnover. This third signal, on top of the other two, strengthened the model's conclusion that you are at risk of leaving.\n\nTo be clear, none of these factors alone means you will definitely resign, but together they point to a significant risk. If you are committed to staying, consider sharing your career intentions with your manager. The organization, likewise, could explore retention measures—such as a clearer advancement path, competitive compensation, or recognition of your long experience—to reduce the pull of outside opportunities.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

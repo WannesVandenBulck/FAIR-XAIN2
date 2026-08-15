@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 296,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:27:05.032220",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts a 55.0% chance you would fail the bar exam on the first attempt—meaning you were judged slightly more likely to fail than to pass. This tipped the admission decision against you.\n\nThree factors drove this prediction, ranked from strongest to weakest influence. The single most influential factor was your LSAT score. Your score of 26 is well below the average of 37 among admitted students, and this gap strongly pushed the prediction toward bar exam failure. In fact, this one factor was so dominant that it outweighed the other two important features combined.\n\nThe second most important factor was your family income, which actually worked in your favor. Coming from a high-income background pushed the prediction toward passing the bar. However, this positive influence was not strong enough to offset the negative impact of your LSAT score.\n\nThe third most important factor was your undergraduate GPA. At 2.80, it is below the admitted-student average of 3.23. Interestingly, though, this feature contributed slightly toward a passing prediction in your case—likely because the model considered your overall academic pattern rather than just the raw number. Still, this mild positive effect could not overcome the LSAT.\n\nWhat should you do next? Focus on retaking the LSAT. Given that it was by far the strongest factor in the denial and the one most within your control, a significantly higher score would change the model’s prediction dramatically. Consider a structured prep course, additional practice exams, and retesting before reapplying. Strengthening this single metric is your clearest path to a positive admission outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

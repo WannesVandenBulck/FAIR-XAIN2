@@ -26,9 +26,9 @@ ROOT = Path(__file__).parent.parent.parent
 # ============================================================
 # CONFIGURATION
 # ============================================================
-DATASETS_TO_EVAL = ["credit"]          # or ["credit", "law", "saudi", "student"]
-CONDITIONS_TO_EVAL = None             # None = all conditions found on disk
-NARRATIVE_PROVIDERS_TO_EVAL = None    # None = all found on disk
+DATASETS_TO_EVAL = ["credit", "law", "saudi", "student"]         # or ["credit", "law", "saudi", "student"]
+CONDITIONS_TO_EVAL = ["include_pa"]             # None = all conditions found on disk; or e.g. ["include_pa", "exclude_pa", "override_pa/gender_female__race_black"]
+NARRATIVE_PROVIDERS_TO_EVAL = ["grok", "openai", "deepseek"]    # None = all found on disk
 EXTRACTOR_PROVIDERS_TO_EVAL = ["grok"]    # None = all found on disk
 # ============================================================
 

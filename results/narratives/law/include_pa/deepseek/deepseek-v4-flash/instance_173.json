@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 173,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:52:24.833710",
+  "status": "success",
+  "narrative": "Based on the model, you had a 63% predicted probability of failing the bar exam on your first attempt. That means that in similar situations, about six out of ten students like you did not pass, and only four did. This high risk of failure is the reason your law school application was denied.\n\nThe strongest factor in this decision was your third-year class standing. You were in the second decile of your school's cohort, meaning your Year 3 grades placed you in the bottom 20% of your class. By comparison, accepted students were typically around the sixth decile. This was the single most powerful signal, and it pushed the prediction strongly toward bar exam failure. A second meaningful factor was your first-year standing: you were in the third decile, again well below the average of accepted students (around the sixth decile). Although this was less influential than your third-year standing, it also moved the prediction in the direction of failure. Together, these two academic rankings heavily outweighed everything else.\n\nInterestingly, your LSAT score was not the cause of the denial. Although your score of 35 is somewhat below the average of accepted students (about 37), the model viewed this as a point in your favor, pushing slightly toward bar exam success. In other words, your standardized test performance actually helped you, but it was not enough to offset your low class rankings.\n\nWhat should you do next? Focus on improving your academic record—especially your upper-level grades. Retake your final year with a stronger performance, and consider delaying application until your class standing rises substantially. With better grades, your LSAT strength can work for you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

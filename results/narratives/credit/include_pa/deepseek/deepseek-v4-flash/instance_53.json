@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 53,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:05:34.737914",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model estimates that you have a 59 percent chance of being a bad credit risk. That means the bank sees your profile as more likely than not to default, so it cannot approve the loan.\n\nLooking at your application, three factors mattered most. The single strongest influence was your checking account. You have a balance between 0 and 200 DM, and the model sees this as a clear warning sign. By contrast, the majority of approved applicants have no checking account or a higher balance, so this pushed your risk upward. The second important factor was your credit history. Although your record is marked as critical or other credits, the model actually treated this as slightly favourable rather than as a negative—so this factor did not contribute to the denial. The third factor was your other installment plan at a bank. Most approved applicants have no additional installment obligations; you do, and that noticeably increased your risk.\n\nThe positive parts of your application, such as owning your home and having a skilled job, were not enough to offset these concerns.\n\nThe best next step is to strengthen your financial profile. Try to keep a larger buffer in your checking account, pay off or reduce the other bank installment plan, and keep every future credit payment on time. Over the coming months, this should improve your credit standing and make it more likely that a future application will be approved.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

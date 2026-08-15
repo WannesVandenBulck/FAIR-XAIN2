@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 29,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:40:29.975455",
+  "status": "success",
+  "narrative": "The model predicts you have a 12% chance of failing your final year. That means the model is not saying you are likely to fail; in fact, you have an 88% chance of passing. But because that 12% risk crosses the school’s threshold for extra help, you are being required to take remedial courses.\n\nWhat pushed the model’s decision? The three strongest factors in your profile were your history of past failures, your weekly study time, and the fact that you receive extra educational support from school. All three actually work in your favor. Having never failed a class is a very strong sign of academic resilience, and it is exactly what you see among students who pass. Studying more than ten hours a week is extremely rare among successful students—only a small handful do that—so it also lowers your risk. And receiving school support, though uncommon, helps you further.\n\nSo why did the model still flag you? Because these powerful positive factors were not quite enough to cancel out other, smaller risk factors in your background. Things like your parents’ education level, your family relationship quality, and other details contributed a little bit each, and together they outweighed the positives.\n\nThe message is not that you are doing badly. You are doing many things right. Keep your study routine and use the support you already have. Also talk to your family about school, since relationship quality may need attention. Your path is strong—remedial courses are a safety net to make sure that 12% stays unlikely.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

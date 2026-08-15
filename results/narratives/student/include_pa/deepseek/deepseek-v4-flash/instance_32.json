@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 32,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:41:25.783075",
+  "status": "success",
+  "narrative": "The model places your risk of failing at 11 percent. That is a low number, but it still means your school has decided this chance is high enough to require you to attend remedial courses. Think of it as a caution flag rather than a verdict.\n\nInterestingly, the three strongest influences on your prediction were actually working in your favour. Having never failed a subject before was the most important factor, and it strongly pointed toward you passing. Wanting to go on to higher education was the next most important, and since every student in the passing group shared that goal, it also pushed toward success. Your father’s education level, secondary school, was the third strongest factor; while it pulled in the same helpful direction, it did so less strongly, since only about a quarter of students who passed had a father with that exact level.\n\nSo why were you still predicted to fail? Because many weaker factors combined to tip the balance. Your very low study time of under two hours per week, high alcohol consumption on weekdays and weekends, and very poor health are not among the most influential features individually, but together they outweighed the positive ones.\n\nThe most useful response is to build on your strengths. You already have a good academic history and clear motivation. Use the remedial courses as a safety net, and consider reducing alcohol, improving your health, and adding just a few more hours of study each week. These changes will move the odds further in your favour.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

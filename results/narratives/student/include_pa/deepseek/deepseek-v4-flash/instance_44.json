@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 44,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:44:30.548168",
+  "status": "success",
+  "narrative": "Based on your information, the model estimates that you have a 15% chance of failing the final year. In other words, out of every 100 students with a similar profile, about 15 do not pass. While your chances are mostly good, this is enough above the school's risk threshold that you are being asked to take remedial courses as a safety net.\n\nThe three factors that most influenced this prediction all actually worked in your favour. The strongest of these was your record of previous failures: you have not failed any class so far, and a clean record significantly reduces the risk of failing now. The second most influential factor was your desire to pursue higher education, a goal shared by every student who previously passed; this ambition signals motivation and pushed your result toward passing. The third factor was your weekend alcohol consumption, which you reported as very low. That also points to better academic outcomes and further lowered your risk.\n\nSo the most important signals were good ones. The predicted 15% risk comes from the broader combination of your other circumstances, including your nine absences, more than double the average of about four among students who passed, and your report of very bad health. To reduce this risk further, focus on attending school more regularly, looking after your health, and maintaining steady study habits. The remedial courses are designed to support you, not punish you; they can help turn this small risk into a confident pass.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

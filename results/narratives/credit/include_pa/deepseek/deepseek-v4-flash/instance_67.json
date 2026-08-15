@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 67,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:09:22.690000",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model assessed you as having a 68 percent chance of being a bad credit risk—well above the level the bank accepts. The most important factor was your credit history. Even though you have paid off all previous credits at this bank, this pattern is actually less common among approved applicants than having existing paid credits. In effect, your history is positive but not as strongly proven as the bank would like, and it slightly raised your risk score. The second strongest factor was your checking account status. With a balance between 0 and 200 Deutschmarks, your account shows only a small financial buffer; most approved applicants have either no checking account or a larger balance, and this low-positive amount was treated as a warning sign. The third factor was the purpose of the loan: buying a new car. Loans for new cars are approved much less often than loans for other purposes, and they are considered riskier because new cars lose value quickly and are not essential purchases. These three factors together strongly pushed the decision toward denial. To improve your chances if you reapply, consider keeping a larger buffer in your checking account and choosing a different purpose, such as repairs or furniture. Also, maintain your current credit relationships over time rather than closing them, so your repayment track record becomes more established.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

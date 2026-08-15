@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 220,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:04:21.486818",
+  "status": "success",
+  "narrative": "The model that reviewed your application estimates that, if you were admitted and took the bar exam after your first attempt, you would have an 80% chance of failing. This is not a judgment about your effort or character; it is an assessment of risk based on patterns in prior students' records. A risk that high means the university is not confident you would be able to pass the exam and become licensed, so they denied admission to protect both your prospects and their reputation.\n\nThree factors drove this decision, ranked from strongest to weakest influence. The most important was your academic standing in your third year of study. Your class rank placed you in the second decile, meaning you finished in the bottom 20% of your class. Students who were accepted typically ranked around the sixth decile, so this was a significant gap. The second most influential factor was your first-year class rank, also in the second decile against an average of around six. This matters because it shows that your academic difficulties appeared early and did not resolve over time. The third factor was your undergraduate grade point average of 2.80, which is below the 3.23 average of accepted students. It reinforced the picture of a student who has consistently struggled academically compared with successful applicants.\n\nAll three of these features pushed the prediction strongly toward failure. None moved in your favor.\n\nThe path forward is to address the underlying pattern. Consider retaking coursework to raise your GPA, improving your study habits, or enrolling in a structured prep program before reapplying. Demonstrating an improved academic record, especially during a later year of study, would directly counter the concerns in your profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

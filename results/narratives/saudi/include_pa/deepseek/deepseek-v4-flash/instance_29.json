@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 29,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:22:29.206467",
+  "status": "success",
+  "narrative": "The model estimates that you have an 86% chance of leaving your job in the near future. That is the main reason your promotion was denied: the organization sees a high likelihood it would invest in someone who may not stay. Three factors are especially important in that assessment.\n\nYour total career experience is the strongest signal. You have more than 11 years in the workforce, but among employees who are predicted to stay, only about 15% have that much experience. In this dataset, long overall experience is associated with greater mobility, not loyalty. That alone pushed the prediction strongly toward you leaving.\n\nThe second signal is your time in your current job. You have only been in your current role for 1 to 5 years, even though your overall career is long. This mismatch suggests you have not yet built deep roots here, and the model sees that as a risk that you will move on. It also pushed toward leaving.\n\nThe third signal is that you have received other job opportunities while working in this job. Only about a quarter of stayers receive such offers, and receiving them makes the chance of leaving much higher. This was the third strongest reason the model sees you as likely to leave.\n\nFor the organization, the right next step is not simply to reject you, but to understand what would keep you: promotion paths, recognition, job security, or compensation. For you, this result is worth using as a conversation starter about your future and what would make you stay.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

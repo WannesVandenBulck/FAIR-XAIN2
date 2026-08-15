@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 5,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:55:00.414912",
+  "status": "success",
+  "narrative": "Based on our assessment, your application was denied because the model estimated a 51% chance that you would be a bad credit risk—meaning that, slightly more often than not, applicants with your profile fail to repay their loans. The main driver of this decision was the status of your checking account, which is currently overdrawn by more than zero marks. Among approved applicants, very few have a negative balance—only about 12%—while most have no balance or a positive one. This suggests financial strain, and it pushed strongly toward the denial.\n\nYour credit history also played a significant role. You have no existing credits and all prior debts were paid, but this profile is quite rare among approved borrowers—only about 1% of them have no credit history. Lenders generally trust applicants who have successfully managed credit in the past; having no record makes it harder to confirm you will repay this loan.\n\nOne factor worked in your favor: you own real estate. Applicants with property are more likely to be approved, and this clearly helped you. However, the combined weight of the overdrawn account and the lack of established credit outweighed that positive signal.\n\nWhat can you do next? Build a credit track record by taking on a small, manageable credit and paying it on time, and work to keep your checking account in the positive. Consider reapplying after a year or two of healthy financial behavior.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

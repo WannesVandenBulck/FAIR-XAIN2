@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 25,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:39:11.793891",
+  "status": "success",
+  "narrative": "Your situation shows a 36 percent chance of not finishing this year successfully, according to the prediction. This does not mean failure is certain, but it is significant enough that extra support is required to keep you on track.\n\nThe single largest factor working against you is your history of past class failures. You have already failed three classes, while students who ultimately pass typically have none on their record. Past difficulties are often the strongest signal that current challenges may repeat, and this weighs heavily in the decision.\n\nTwo other factors are actually working in your favor, and they matter almost as much. You are currently receiving extra educational support from your school, which is unusual among successful students—very few of them needed that help. This tells the model you are already trying to address problems, which pushes the prediction toward passing. Your father being your guardian also helps slightly, as students in your school with a father as guardian tend to perform somewhat better than those with other arrangements.\n\nWhat should you take from this? Your past failures are not a verdict; they are a warning. Because you already have school support and a involved guardian, you have a foundation to build on. Consider increasing your weekly study time, since you currently study only two to five hours, and focus on course material you found difficult before. Speak honestly with your teachers about the specific subjects where you previously struggled. With deliberate effort, you can prove that past failures do not define your future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 71,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:53:20.863880",
+  "status": "success",
+  "narrative": "The model estimates that you have a 45% chance of finishing the year without passing. That is a substantial risk, so the school requires you to take remedial courses to improve your odds.\n\nThe most important reason the model leans toward failure is that you said you do not plan to go on to higher education. Every student in the comparison group who passed said they did want higher education, so this is a strong warning sign. Wanting further education often motivates students to persist through difficult work, and without that goal your grades may suffer.\n\nTwo factors work in your favor. You have never failed a course before, which is exactly the pattern seen among students who passed; this lowers the risk. Your weekend alcohol consumption is also very low, and that is another protective factor, since heavy drinking can interfere with study and sleep.\n\nTaken together, these signals say that your academic history is solid, but your current motivation is the main concern. Remedial courses are not a punishment. They are a chance to rebuild momentum and keep your options open. Use them to strengthen your weak areas, and consider speaking with a school counselor about what further education could offer you. Even if you are unsure about university, keeping that possibility alive can give you a reason to work harder now. Your past record shows you are capable; the task is to connect that capability to a goal for the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

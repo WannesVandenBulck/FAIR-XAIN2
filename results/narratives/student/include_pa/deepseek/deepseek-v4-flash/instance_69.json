@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 69,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:52:51.667666",
+  "status": "success",
+  "narrative": "Your model result shows a 13% chance of failing the year. That means you have an 87% chance of passing, but because the risk is still considered high enough, the school requires you to take remedial courses as a precaution.\n\nThe three most important factors in this prediction all actually point toward you passing. The single biggest factor is the reason you chose this school: because it is close to home. This is a positive sign. Second, you have never failed a class before, which strongly supports your ability to keep up. Third, you want to go on to higher education, and that goal is a powerful motivator. All three of these pull your risk down, not up.\n\nSo why the 13%? The model weighed many other smaller factors. For example, your weekend alcohol consumption is very high, and you do not have internet access at home, both of which are linked to more difficulty passing. Your study time is only two to five hours per week, and your family relationships are only fair, which add a little more risk. These factors are not as influential as the positive ones, but together they create the 13% warning.\n\nTo lower this risk further, consider reducing weekend alcohol, setting a regular study routine, and using school resources for internet access. The remedial courses are not a punishment; they are a safety net to ensure you finish the year successfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

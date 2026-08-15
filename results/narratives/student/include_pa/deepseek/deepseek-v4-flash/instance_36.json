@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 36,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:42:35.473608",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates there is a 47% chance you will not successfully complete your final year. That number is not a verdict against you, but it is high enough that the school requires you to take remedial courses as a safeguard, because the risk of failing is real rather than remote.\n\nThe single strongest factor driving this prediction is that you have failed a class before. Among students who ultimately passed their final year, the average number of previous failures is zero. Your one past failure stands out sharply and pushes the model strongly in the direction of expecting failure. This suggests that earlier difficulties may still be creating gaps in your knowledge or confidence that could affect your final exams.\n\nHowever, two other important factors are working in your favor. Your family size is three or fewer people, which is actually less common among students who pass, yet the model reads this as pulling you slightly toward success, likely because a smaller household can mean fewer distractions and more individual support at home. Similarly, your weekly study time falls in the 2 to 5 hour range, which is exactly the habit most passing students report, and the model treats this as a positive sign pulling you back toward passing.\n\nTo reduce your risk further, focus on the past failure as your main concern. Consider seeking extra educational support even though most passing students did not use it, because your situation carries that extra warning sign. Try gradually increasing your study time beyond 5 hours weekly, and ask your guardian to help you build a structured revision plan for the subjects you previously struggled with. These steps directly target what the model sees as your biggest vulnerability.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

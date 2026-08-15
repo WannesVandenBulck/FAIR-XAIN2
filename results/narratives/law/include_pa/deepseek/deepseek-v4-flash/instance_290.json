@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 290,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:25:18.205545",
+  "status": "success",
+  "narrative": "The model assessed your likelihood of passing the bar exam on the first attempt, and the result was not favorable: a 68.9% probability of failure. This means the model believes that if you took the bar today, you would more likely than not fail—and that risk is why your application was denied.\n\nThe most influential factor was not your background but your academic standing. The single strongest signal was your third-year class rank: you finished in the lowest decile, a 1, while the typical accepted applicant sat around a 6. That gap told the model your final-year performance was far below what it associates with bar success. Your first-year rank was also in the lowest decile, nearly identical to your third-year rank, showing a persistent pattern rather than a one-time stumble. Though slightly less influential than your third-year standing, this early signal still pushed strongly toward a failure prediction.\n\nYour LSAT score of 37 was essentially average for accepted students (37.18). That helped a little—it nudged the prediction in the direction of passing—but it was a minor counterweight compared to your class rank, and it could not overturn what your grades suggested.\n\nThe message is clear: your academic record signaled serious bar-exam risk, and a near-average test score was not enough to overcome it. To change this outcome, focus on demonstrable improvement: retake the LSAT and aim well above the average, take additional courses or bar-preparation programs that show you can master legal material, and reapply with grades or a postgraduate record that contradicts the pattern the model saw.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 243,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:11:20.791278",
+  "status": "success",
+  "narrative": "A 65% predicted probability of failing the bar exam on the first attempt is what drove this decision. In practical terms, the model determined that if you were admitted and sat for the bar, you would be more likely than not to fail on your very first try, and that risk was substantial enough to deny your application.\n\nThe most powerful factor in this prediction was your academic standing within your own school. Your third-year class decile of 2 places you in the bottom fifth of your class, while students who were accepted averaged around the 6th decile — a very wide gap. This single factor carried the most weight and pushed strongly toward predicting bar exam failure. Your first-year class decile of 3 also pushed in the same direction, though less forcefully, again falling well below the average of roughly the 6th decile seen among accepted students. In other words, your grades in both your first and third years told a consistent story: your academic performance was below the level normally associated with passing the bar.\n\nThere was one meaningful point in your favor. Your LSAT score of 39 sits slightly above the average of 37.18 among accepted students, and this factor pushed the prediction toward passing. It made the outcome less certain than it might otherwise have been. Unfortunately, it was not strong enough to overcome the concerning signal from your class rank.\n\nWhat should you do next? Focus on raising your academic record. A postgraduate year with markedly better grades would improve your class standing, and retaking the LSAT to push your score higher could meaningfully strengthen a future application. Speaking with a pre-law advisor about structured post-baccalaureate programs would be a wise first step, as such programs can demonstrate your readiness for the rigors of legal study before you reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

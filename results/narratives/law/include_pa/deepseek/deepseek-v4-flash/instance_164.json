@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 164,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:50:23.371729",
+  "status": "success",
+  "narrative": "The model behind this decision estimates that you would have about a 70% chance of failing the bar exam on the first attempt. In practical terms, the university saw a seven-in-ten risk and concluded the application was too risky to accept.\n\nThree factors shaped that risk, in order of importance. The strongest was your LSAT score. At 32, it is noticeably below the admitted-student average of about 37, and this lower score pushed hard toward the failure outcome. Because it was the most influential factor, it carried the most weight against your application.\n\nSecond, your third-year class standing actually helped you. Being in the 8th decile is better than the typical admitted applicant’s average of about 5.8, so this signal moved toward passing. It was a positive point, but not enough to overcome the LSAT’s influence.\n\nThird, family income contributed a small negative nudge. You are in the middle-income bracket",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

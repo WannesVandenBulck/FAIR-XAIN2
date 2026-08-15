@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 77,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:28:58.945234",
+  "status": "success",
+  "narrative": "The law school’s admission model determined that you have a 58% predicted chance of failing the bar exam on your first attempt. That means that, based on the information available, a first-time bar failure was more likely than not, so the application was denied to protect the school’s bar passage record and your own investment.\n\nThe single most important factor in this decision was your Year 3 academic decile. You were in the 2nd decile, while accepted applicants typically come from around the 6th decile. That low standing compared with peers weighed heavily against you, pushing the prediction toward failure. In contrast, your LSAT score and undergraduate GPA, though both below the averages for accepted students (34 vs. 37 and 2.60 vs. 3.23), actually influenced the model in the opposite direction—they nudged the odds slightly toward passing. This means the main driver of the denial was not your standardized test or prior grades, but your final-year academic rank.\n\nWhat should you do next? If you are still committed to law school, focus on improving your academic performance or retaking the LSAT to strengthen your application. Consider asking the school for feedback or asking an admissions advisor how to demonstrate readiness. Because your predicted bar risk is close to the 50% threshold, a stronger record could change the outcome on a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 43,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:44:15.943570",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 51% chance that you will not pass this year. That means the prediction leans slightly toward failing, which is why you are being asked to take remedial courses. This does not mean failure is certain, but the risk is high enough that extra support is considered necessary.\n\nThe most important reason for this prediction is that you have one past class failure. Among students who passed, the average number of past failures was zero, so your situation stands out. This single factor was by far the strongest influence, and it pushed the prediction toward failing. It is the main reason the model sees you as at risk.\n\nTwo other features also mattered, but they worked in your favor. You have very little free time after school, and although most students who passed reported having more free time, your limited free time actually nudged the prediction toward passing, likely because it suggests you spend most of your time on school-related work. In addition, you reported having good family relationships, which is similar to most passing students and also helped push the prediction away from failure.\n\nSo the model is not saying everything about you points to failing. Instead, it is saying that your past difficulty in a class is a powerful warning sign that carries more weight than your current effort or your supportive home life. The best thing you can do now is address that weak point directly. Review what made that previous class hard, ask teachers or family for help, and treat the remedial courses as a chance to build a stronger foundation. With your good family support and your willingness to put in time, you can overcome that past setback and improve your chances of passing.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

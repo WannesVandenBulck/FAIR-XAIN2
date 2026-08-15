@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 21,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:20:56.584555",
+  "status": "success",
+  "narrative": "Based on the factors that most strongly influenced this prediction, the model sees a 68% likelihood that you would leave your job in the near future, and this risk is the reason your promotion is being denied. The single most influential factor is that you have received other job opportunities while working here. This strongly pushes the prediction toward you leaving, as it suggests you are actively marketable elsewhere and may already have one foot out the door.\n\nInterestingly, your long tenure of six to ten years in your current organization works in the opposite direction. It is the second most important factor, and it strongly suggests stability and loyalty, pushing the prediction toward you staying. However, this positive signal is outweighed by your total career experience of more than eleven years across all jobs. Having such extensive overall experience, combined with active outside offers, is a powerful indicator that you have the mobility and confidence to move on when opportunities arise.\n\nWhat this means is that your profile shows a deeply experienced professional who is connected to the current employer through time spent, yet simultaneously engaged with the outside market. The organization should recognize that your desire for promotion may actually be tied to feeling undervalued, especially given your low sense of recognition and job support. To retain you, they should consider not just a promotion, but a genuine conversation about your career path, compensation, and how outside offers compare to what you receive here. For you, this prediction is a chance to clarify what would genuinely make you stay, so you can negotiate from a position of strength.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

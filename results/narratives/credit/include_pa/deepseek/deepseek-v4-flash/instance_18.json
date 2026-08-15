@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 18,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:57:35.965900",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed you as a bad credit risk, with a predicted probability of default of 47%. That means the model found nearly a one-in-two chance you would have trouble repaying the loan — a risk level the bank considers too high to accept.\n\nThree main factors drove this decision. The most influential was the purpose of the loan: you requested financing for a new car. Applicants asking for new-car loans are more likely to default than those borrowing for other purposes, so this pushed your risk upward. Next, the amount you asked for — 6,260 DM — was about twice the average approved loan amount. While a larger loan can sometimes signal confidence, in your case it contributed to the model’s caution, actually pulling slightly toward a good-risk assessment because you requested a manageable sum relative to your income. Still, the final weight of this factor was not enough to offset other concerns. The third major factor was your checking account status: you have a balance between 0 and 200 DM. This indicates limited financial buffer and was a strong signal pushing toward bad credit, as most approved applicants have no balance or more substantial funds.\n\nTo improve your chances in the future, consider strengthening your financial profile. Build up a larger savings cushion, maintain a higher checking account balance, and perhaps wait until you can request a smaller loan or choose a purpose associated with lower risk, such as furniture or equipment. Reapplying after these changes may lead to a different outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

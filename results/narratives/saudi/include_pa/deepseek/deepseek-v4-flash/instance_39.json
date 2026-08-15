@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 39,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:24:28.908541",
+  "status": "success",
+  "narrative": "The model has assessed your likelihood of leaving the organization at 46 percent. While this is not an outright majority, it represents a substantial risk, and it is this risk that led to the promotion being denied. The model does not see you as certain to go, but it sees enough signals of turnover that approving a promotion felt unsafe.\n\nInterestingly, the strongest factor in the model’s reasoning is actually in your favor. You have not received other job opportunities while working here, and this aligns you closely with employees who stay—most of whom also have no outside offers pulling them away. The second most influential factor also supports staying: your 6 to 10 years in this specific organization. Long tenure in the current job is a hallmark of employees who remain, and it signals loyalty and stability.\n\nHowever, the third factor changes the picture. Your total career experience also falls in the 6-to-10-year range, and the model treats this as a concern. Employees who stay tend to have less overall experience—most have only 1 to 5 years. Combined with a master’s degree and a salary at the top tier, your profile resembles that of a highly marketable professional who may soon be tempted by external opportunities. You are deeply rooted in this job, yet your broader experience suggests you are ready for something more.\n\nThe organization should recognize that this tension may come from feeling underappreciated—you receive no bonus, you feel you were not promoted fairly, and you carry psychological exhaustion. A genuine conversation about career growth, recognition, and a clearer path forward could reduce the real turnover risk behind this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

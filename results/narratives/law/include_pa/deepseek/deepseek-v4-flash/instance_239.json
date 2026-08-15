@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 239,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:10:23.927911",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts you have an 87% chance of failing the bar exam on the first attempt. This does not mean you would definitely fail, but it indicates strong academic risk compared with admitted students.\n\nThe strongest factor driving this decision is your third-year class standing. You ranked in the 1st decile of your school cohort, meaning you finished in the bottom ten percent, while admitted students typically sit near the 6th decile. This is the single most important signal and pushes strongly toward failure. The second most influential factor is your enrollment status. You planned to attend part-time, while over 90 percent of accepted applicants study full-time. Part-time study is associated with more difficulty passing, so this factor contributed to the denial. The third factor is your first-year ranking. At the 3rd decile, you performed well below the admitted average of the 6th decile, further supporting concern. Although this was less influential than your third-year rank and part-time status, it still added to the overall risk picture.\n\nTo improve your chances, focus on strengthening your academic record before applying again. Retake the LSAT to get closer to the admitted average of 37, and consider addressing the reasons behind your low class rankings. If possible, apply as a full-time student and demonstrate through additional coursework or bar preparation programs that you can handle the demands of law school and the bar exam.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

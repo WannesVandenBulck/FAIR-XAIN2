@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 18,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:36:59.161217",
+  "status": "success",
+  "narrative": "The model estimates that you currently have a 13% chance of failing your final year, which means there is an 87% chance you will pass. Even so, that 13% risk is enough for the school to place you in the remedial course requirement, so you can reduce that risk further.\n\nThe most important factor in the model’s decision is your past academic record. You have never failed a class before, and this is exactly what is expected of students who pass. This strongly pushes the prediction in your favor, toward passing, and shows you already have the ability to succeed. The second most important factor is your personal goal: you have said you want to pursue higher education. Every student in the passing group shared this ambition, so this also moves the prediction toward a passing outcome.\n\nHowever, the factor that most works against you is your weekly study time. You study less than two hours per week, while most students who pass study between two and five hours. This is a clear warning sign, and it is the main reason the model still places you in the at-risk category. In other words, your strong past record and your motivation are not quite enough to offset the low amount of time you currently invest in your schoolwork.\n\nTo improve your chances, consider increasing your study time to at least two to five hours per week. This would directly address the model’s biggest concern and would likely move you into the passing group with confidence. Keep your record clean, keep your goal of higher education in mind, and treat the remedial courses as a helpful support rather than a punishment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

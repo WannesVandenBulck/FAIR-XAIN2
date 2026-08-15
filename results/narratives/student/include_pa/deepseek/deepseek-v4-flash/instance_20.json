@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 20,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:37:33.048671",
+  "status": "success",
+  "narrative": "Your situation is closer to passing than failing. The model estimates you have a 17% chance of failing, meaning an 83% chance of passing. However, the school requires remedial courses for students whose risk crosses the precautionary line, and 17% is enough to trigger that support. You are on the wrong side of a very thin line.\n\nThe three most influential factors behind the model's decision actually work in your favor. Having never failed a class before is the strongest signal, and it pushes firmly toward passing. Your intention to continue into higher education also helps, because every student in the data who ultimately passed shared that goal. In addition, your mother being a teacher is a positive factor, since it tends to mean more academic guidance at home.\n\nSo why the fail prediction? The model also weighs many smaller details, and together those details tipped you over the line. Your weekend alcohol use is higher than the very low or low levels typical of students who pass. You have eight absences compared with an average of about four among successful students. And you study under two hours a week, while most passing students study two to five hours or more. These factors accumulated and outweighed the strong positives.\n\nThe encouraging part is that you do not need a complete turnaround. Adding a couple of hours of study, cutting back on weekend drinking, and reducing absences would likely shift you firmly into the passing group. Since you are already so close, small changes can make a decisive difference.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

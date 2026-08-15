@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 40,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:02:47.967986",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated a 28% chance that you would default on the loan, which is above the bank’s acceptable threshold and is why your request was denied. In plain terms, after weighing all the information you provided, the risk was considered too high.\n\nThe single strongest factor working against you was your checking account status. Your account shows a balance below zero, which is a pattern the bank sees far more often among customers who later struggle to repay. This outweighed everything else. While having a negative balance alone did not fully decide the outcome, it was the most influential signal in the model’s assessment.\n\nInterestingly, two other key factors actually worked in your favor. The amount you requested, 3,643 DM, was higher than the typical approved loan, and your monthly installment payment represents only a small share of your disposable income. Both of these suggested you could handle the payments, but they were not enough to overcome the concern raised by your overdrawn account.\n\nTo improve your chances in the future, focus first on restoring your checking account to a positive balance and keeping it there for several months. Since you have a long, stable employment history and own your home, those are assets you can build on. Consider re-applying once your account has been consistently in good standing, perhaps with a slightly smaller loan amount. Demonstrating a period of financial stability will directly address the main reason your application was declined.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

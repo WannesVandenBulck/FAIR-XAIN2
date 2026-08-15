@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 61,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:07:48.751216",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 26% chance that you would default—meaning about one in four customers with a similar profile fail to repay. Even though that number may sound low, the bank treats it as an unacceptable risk.\n\nThe most important factor in this decision was the guarantor. Having someone else guarantee your loan actually worked in your favor, since most approved applicants rely on no one else. It reduced your risk, but not enough to outweigh the concerns.\n\nThe second strongest factor was the loan duration. At 12 months, your request was shorter than the typical approved loan of about 19 months. Shorter loans are generally safer, so this too helped your case.\n\nHowever, the third factor—and the decisive one—was the state of your checking account. Your account is overdrawn, showing a negative balance. This is uncommon among approved applicants; fewer than 13% have a negative account, and most have no overdraft at all. To the model, an overdrawn account signals financial strain and a higher chance that you will struggle to make repayments. This negative signal outweighed the two positive ones.\n\nWhat can you do next? Focus on bringing your checking account into positive territory and keeping it there for several months. Consider reapplying once your account has been stable, perhaps with your guarantor again and a similarly short loan term, as both help your profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

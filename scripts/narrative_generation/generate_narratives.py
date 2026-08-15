@@ -26,8 +26,8 @@ from llm_tools.other.llm_client import generate_text
 
 # ===== BATCH CONFIGURATION (edit these values and run) =====
 # All adversely predicted instances (varies by dataset)
-#ALL_INSTANCES = (0, 1, 2)
-ALL_INSTANCES = tuple(range(97))  # Example: first 97 instances
+ALL_INSTANCES = [299]
+#ALL_INSTANCES = tuple(range(308))  # Example: first 97 instances
 
 # Batch runs: list of (dataset, provider, model) tuples
 # You can specify multiple datasets, providers, and models here
@@ -37,16 +37,15 @@ ALL_INSTANCES = tuple(range(97))  # Example: first 97 instances
 #   - Multiple datasets: [("credit", "mistral", "mistral-large-2512"), ("law", "mistral", "mistral-large-2512")]
 #   - All combinations: [("credit", "mistral", "mistral-large-2512"), ("credit", "openai", "gpt-4"), ("law", "mistral", "mistral-large-2512")]
 BATCH_RUNS_EXAMPLE = [
-    ("saudi", "openai", "gpt-4o"),
-    ("saudi", "deepseek", "deepseek-chat"),
+    ("saudi", "openai", "gpt-4o-mini"),
+    ("saudi", "deepseek", "deepseek-v4-flash"),
     ("saudi", "mistral", "mistral-large-latest"),
     ("saudi", "grok", "grok-4.20-0309-non-reasoning"),
     ("saudi", "gemini", "gemini-3.1-pro-preview"),
 ]
 
 BATCH_RUNS = [
-    ("credit", "openai", "gpt-4o-mini"),
-    ("credit", "grok", "grok-4.20-0309-non-reasoning"),
+    ("law", "deepseek", "deepseek-v4-flash"),
 ]
 
 # Protected attribute overrides for bias injection (set to None for no override)

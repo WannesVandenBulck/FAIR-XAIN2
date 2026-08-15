@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 294,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:26:31.849961",
+  "status": "success",
+  "narrative": "The decision to deny your law school application was based on a model that estimated your chances of failing the bar exam on the first attempt at 57%. In practical terms, the model saw you as more likely to fail than to pass, and that risk was considered unacceptable for admission.\n\nThe single most important factor in that prediction was your academic standing in your third year of school. You were placed in the lowest decile, meaning you ranked among the bottom ten percent of your class based on your Year 3 grades. For students who were admitted, the typical third-year decile was around 5.8, so your position at the very bottom stood out as a major warning sign. This one factor strongly pushed the prediction toward bar exam failure.\n\nInterestingly, your LSAT score and undergraduate GPA did not hurt your case as much as you might expect. In fact, the model treated both as slight positive signals, nudging the prediction a little toward passing. That may seem surprising given that your LSAT score of 31 and your undergraduate GPA of 2.70 are below the averages of admitted students, but in your particular profile those two factors together were not strong enough to overcome the drag created by your Year 3 class rank. They worked in your favor, but only weakly.\n\nYour family income, gender, race, and full-time enrollment status were not used in the prediction. The core issue is academic performance in law school, not your background or personal characteristics.\n\nWhat should you do next? Focus on strengthening your academic record. If you can retake courses, improve your class standing, or complete a post-baccalaureate program that demonstrates your ability to perform at a higher level, that would directly address the main reason for this denial. Retaking the LSAT and improving your undergraduate GPA may also help, but the most important step is showing that your third-year grades do not reflect your true potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

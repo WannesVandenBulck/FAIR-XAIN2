@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 78,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:29:26.249295",
+  "status": "success",
+  "narrative": "Being denied admission is difficult, and I want to explain as clearly as possible why the decision went against you. The model estimates that you have an 80 percent chance of failing the bar exam on the first attempt. In practical terms, this means that if you were admitted, the odds strongly favor you not passing the licensing exam, which is a serious risk for the university and for you.\n\nThree factors most strongly influenced this decision, in order of importance. The most significant was your class standing in your third year. You are in the bottom ten percent of your class — a decile of 1 — whereas students admitted to this program typically sit around the sixth decile. This alone indicates a pattern of struggling in law-related coursework. The second most influential factor was your LSAT score. At 24.5, your score is far below the average of 37.2 among admitted students, suggesting that your standardized reasoning skills place you at a significant disadvantage for bar exam success. Third, your first-year class standing also contributed: you again placed in the bottom ten percent, reinforcing that your academic difficulties began early and persisted through law school.\n\nAll three of these factors pushed in the same direction, toward failure, and together they made the model highly confident in the negative outcome. This is not the end of the road. Consider strengthening your academic record with additional coursework, retaking the LSAT after dedicated preparation, and addressing whatever affected your class standing. With time and demonstrated improvement, you can build a stronger application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

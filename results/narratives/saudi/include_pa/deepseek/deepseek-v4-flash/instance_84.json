@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 84,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:32:37.335340",
+  "status": "success",
+  "narrative": "The model's prediction indicates a 69% probability that you will leave your job, which is high enough that the promotion was denied. In plain terms, the model sees you as more likely to depart than to remain, and that risk outweighs the investment a promotion would require.\n\nThe single most influential factor in this prediction is your overall work experience of 1 to 5 years. Interestingly, this actually pushes in your favor—toward staying. Compared with employees the model expects to remain, short experience is common (about half of stayers have 1-5 years), so the model treats your tenure as a sign of stability, not flight risk.\n\nThe second most important factor, however, works against you: you have received other job opportunities while working here. This strongly pushes the prediction toward leaving, and for good reason—only about a quarter of employees who are predicted to stay receive outside offers. Having options elsewhere signals that you are actively marketable and may be tempted to leave.\n\nThe third factor is your sector, classified as \"other.\" This moderately increases the likelihood of leaving. Employees in medical, education, financial, or food sectors tend to be more stable; being outside those familiar sectors makes turnover more common in the model's view.\n\nWhat should happen next? You can address the \"other job opportunities\" concern directly. If you are genuinely committed to staying, communicating that clearly—and perhaps discussing a retention plan or career path with your manager—would help. The organization should also recognize that your short experience and sector placement are not personal failings; offering clearer growth opportunities within this job could help offset the pull of outside offers.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 253,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:15:01.777673",
+  "status": "success",
+  "narrative": "After reviewing your application, the admission model estimated a 63.8% chance that you would fail the bar exam on your first attempt. Because this exceeds the chance of passing, your application was denied. Three factors were decisive, listed in order of impact.\n\nYour family income was the largest concern. A middle-income background, while common, is less frequent among accepted students than upper-middle-income – and the model linked this to a higher risk of exam failure, perhaps due to differences in support or resources.\n\nSecond came your first-year academic ranking. You were in the 5th decile, which is lower than the average 6th decile of accepted students. This weak start in Year 1 pushed the prediction toward failure.\n\nYour LSAT score of 39 was actually above the accepted-student average of 37.18, and your GPA was strong too. Despite that, the model treated your LSAT as a small factor leaning slightly toward failure – meaning your test performance did little to offset the other risks.\n\nTo improve your odds, focus on boosting your academic standing from the first year onward. Seek financial aid or mentoring to reduce income-related stressors, and consider additional bar-exam preparation. Reapplying with a stronger, more consistent record – especially in your early semesters – will address the main reasons your application was rejected.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

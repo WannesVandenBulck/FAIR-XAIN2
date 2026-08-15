@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 48,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:04:35.309095",
+  "status": "success",
+  "narrative": "Based on the information you provided, the model estimates an 85 percent chance that you would have trouble repaying this loan, so your application was denied. The most important factors were all pointing in the same direction. Your checking account is currently overdrawn, a situation seen in only about one in eight approved borrowers. That was the strongest single warning sign, because it suggests you may already be short of cash. Next, the amount you requested, over 10,000 marks, is more than three times the average of around 3,000 marks for approved loans. A loan that large puts a much bigger strain on your monthly budget. Finally, you asked for a repayment period of 48 months, while most approved loans run for about 19 months. Longer terms increase the chance that something goes wrong over time. While you have paid past credit installments reliably and have been at your job for 4 to 7 years, these positive signals were not enough to offset the combination of an overdrawn account, a very high request, and a long term. To strengthen your future application, consider paying off the overdraft and waiting until your account is comfortably positive. You might also request a smaller amount and a shorter repayment period that better match your income. These changes would directly address the main reasons for this denial and increase your chances of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

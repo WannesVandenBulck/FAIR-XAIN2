@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 201,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:58:44.796593",
+  "status": "success",
+  "narrative": "Based on your academic and background profile, the admissions model estimated that you have a 50.9 percent chance of failing the bar exam on the first attempt. Because that is just over the halfway mark, your law school application was denied. The main drivers were your LSAT score and your class standing in the third year, not your personal characteristics.\n\nYour LSAT score of 24 is well below the average of about 37 among admitted students, and this was the second strongest factor in the decision. It strongly pushed the prediction toward bar exam failure. Likewise, your third-year decile of 2 indicates you were near the bottom of your class; students who were admitted were typically in the 6th decile. This was the third most influential factor and also pushed toward failure.\n\nInterestingly, family income was the single most influential factor overall, but it worked in your favor. Your lower-middle-income background actually reduced the predicted chance of failure slightly, meaning the model saw it as a point in your favor compared to otherwise similar applicants. However, the combined negative effects of the LSAT score and class rank outweighed that advantage, leaving you just above the failure threshold.\n\nThe clearest path forward is to strengthen the two areas that hurt your application. Retake the LSAT after focused preparation and, if possible, retake courses or complete additional coursework to improve your grades. Reapplying with a higher LSAT score and stronger academic record would substantially lower the predicted risk of bar exam failure and improve your chances of admission.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

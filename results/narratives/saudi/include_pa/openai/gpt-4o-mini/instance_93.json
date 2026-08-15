@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 93,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "timestamp": "2026-08-15T15:43:12.529072",
+  "status": "success",
+  "narrative": "The model has predicted a 40% chance that you may leave your job, which is a significant concern for the organization when considering your promotion. This prediction suggests that there are factors in your current situation that could lead to your departure, and the decision to deny your promotion reflects this risk.\n\nThe most influential factor in this prediction is your extensive experience in your current role, which typically indicates stability and commitment. However, the model suggests that this experience may not be enough to outweigh other concerns. The second important factor is the presence of job opportunities elsewhere, which indicates that you might be considering other options. This is a critical signal for the organization, as it suggests you may not feel fully engaged or satisfied with your current position. Lastly, your emotional commitment to the organization, while high, is not as strong as it could be, which may further contribute to the prediction of leaving.\n\nGiven these insights, it would be beneficial for both you and the organization to explore ways to enhance your job satisfaction and engagement. This could involve discussions about your career path, opportunities for further development, or addressing any concerns you may have about your current role. By focusing on these areas, the organization can work to retain valuable employees like you and ensure that you feel recognized and fulfilled in your position.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

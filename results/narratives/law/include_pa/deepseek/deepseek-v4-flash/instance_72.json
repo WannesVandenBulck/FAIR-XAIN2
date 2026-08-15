@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 72,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:28:06.963195",
+  "status": "success",
+  "narrative": "Your application was denied because the admissions model estimates a 70.6% probability that you would fail the bar exam on your first attempt. In plain terms, based on the patterns of thousands of prior students, fewer than three out of ten with a profile similar to yours would pass. That level of risk is why the university could not admit you.\n\nThe single strongest factor in this decision was your third-year class standing. Being in the bottom decile places you far below the typical accepted student, who falls around the sixth decile. This strongly pushed the prediction toward failing the bar exam. The second most important factor was your first-year class standing, where you were again in the bottom decile, compared to an average of roughly the sixth decile among accepted students. Together, these two rankings reveal a persistent academic struggle across multiple years, and the model treats that as a serious warning sign for your ability to handle the rigors of law school and pass the bar.\n\nThe only factor working in your favor was your undergraduate GPA. At 3.10, it is somewhat below the 3.23 average of accepted students, but it nudged the prediction slightly toward passing, softening the overall outcome. Unfortunately, the combined influence of your two very low class rankings outweighed this positive signal.\n\nWhat should you do next? Retake the LSAT to raise your score, and consider retaking a few courses to lift your class standing. If you reapply, submit updated grades that demonstrate a clear upward trend, and strengthen your application with letters of recommendation and a personal statement that explains your growth and commitment to succeeding in law school.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

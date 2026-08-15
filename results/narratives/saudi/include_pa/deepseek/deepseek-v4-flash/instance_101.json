@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 101,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:36:03.668616",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 58 percent. This means the model believes it is more likely than not that you will leave your job in the near future, and because of this risk, the organization decided to deny you the promotion.\n\nThe strongest signal driving this prediction is that you have received other job opportunities while working here. Only about a quarter of employees who stay receive outside offers, so this is a clear sign you are attractive to other employers and may be weighing your options. The second most important factor is your long experience of over eleven years. Fewer than fifteen percent of those who stay have that much experience, which suggests you could easily find work elsewhere. Finally, you described your work-life balance as difficult. This is rare among employees who remain—only about nine percent report it—and it often pushes people to search for a more sustainable role elsewhere.\n\nThese three factors outweighed your many positive signals, such as being very satisfied with your job, feeling recognized, and having high job stability. Together, they pulled the prediction strongly toward leaving rather than staying.\n\nGiven this result, you and the organization should speak openly about what would keep you in your role, especially around workload, scheduling, or flexibility. If receiving this promotion matters to you, consider sharing your career intentions directly and asking what conditions or commitments could change the decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

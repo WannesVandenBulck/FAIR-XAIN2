@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 11,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:18:40.545557",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, there is a 44% chance you will leave your job in the near future. While that is not an absolute certainty, it is high enough that the organization is unwilling to invest in you through a promotion.\n\nThe single most important factor in this prediction is your total work experience. With only one to five years in the workforce, you are still early in your career, and this actually pushes the prediction toward staying. Employees at your experience level tend to remain with their current employer; roughly half of those predicted to stay also have one to five years of experience.\n\nThe second most influential factor, however, points in the opposite direction: you have received other job opportunities while working here. This strongly pushes the prediction toward leaving. Among employees predicted to stay, only about 23% received outside offers, so your situation is less common and signals to the model that you have alternatives and might be tempted away.\n\nYour emotional commitment to the organization is the third key factor, and it pushes the prediction back toward staying. You feel a strong psychological connection to your workplace, which is a positive signal—about half of those who stay report high commitment.\n\nIn short, the model sees a conflict: you are loyal and still building experience, but you are also being courted by other employers. That combination leaves enough doubt about your future here to deny the promotion.\n\nFor the organization, the next step should be to have an honest conversation with you about your career path, growth opportunities, and what would make you stay. For you, consider whether those outside offers truly align with your long-term goals, and bring your concerns to leadership before making a decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

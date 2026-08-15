@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 49,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:46:24.418136",
+  "status": "success",
+  "narrative": "The model gives you a 35% chance of failing this year. That is not a guarantee—it is closer to a one-in-three risk—but it is high enough that the school has asked you to take remedial courses as a precaution. The goal is not to punish you; it is to reduce that risk before it becomes real.\n\nLooking at what most influenced the prediction, the strongest signal was your past record: you have already failed one class, while students who ultimately passed had, on average, no previous failures. That single past difficulty counts heavily against you, because it suggests you may have hit a barrier once before and could face it again if nothing changes.\n\nThe other two important factors actually worked in your favour. You chose this school because of its reputation, and that choice pushed you slightly toward passing—many students who passed did not list reputation as their main reason, but for you it reflects a genuine motivation to succeed. In addition, having little free time after school also nudged you toward passing, probably because your schedule is already fairly structured and focused.\n\nSo the model’s conclusion is not that you are doing everything wrong. It is that your previous failure creates enough added risk that, even with your school motivation and structured schedule, the balance tips toward needing support. The best next step is to take the remedial course seriously, especially in the subject you failed before. You already have family support at home, and adding this extra academic help can close that gap. Use this as a chance to strengthen the one area that is holding you back, and the odds will shift clearly in your favour.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

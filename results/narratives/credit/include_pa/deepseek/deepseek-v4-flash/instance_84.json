@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 84,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:13:07.810097",
+  "status": "success",
+  "narrative": "Based on your application, the model calculated a 48 percent probability that you would be a bad credit risk. While that may sound like slightly less than half, it means the bank views you as nearly as likely to default as to repay. This level of uncertainty does not meet the threshold for approval.\n\nThe single most influential factor was the status of your checking account, which had a negative balance. This weighed heavily against you, as the majority of approved applicants either had no checking account or a positive balance. A negative balance signals ongoing financial strain and raises doubts about your ability to absorb an additional monthly payment.\n\nTwo other factors worked in your favor, but neither was strong enough to outweigh the checking account concern. The amount you requested, 2406 Deutsche Marks, was actually below the average for approved loans, which shows moderation in your request. Likewise, you have been employed for 4 to 7 years, a stable work history compared to many other applicants. Both of these factors pushed the assessment toward good credit, but their influence was smaller than the alarm caused by your negative account balance.\n\nTo strengthen a future application, focus on restoring your checking account to a positive balance and maintaining it consistently for several months. Avoid missed payments and consider building a small savings buffer to demonstrate financial resilience. If possible, reapply after six months to a year, once these changes have taken effect.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

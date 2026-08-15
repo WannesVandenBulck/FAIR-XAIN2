@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 271,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:20:24.074400",
+  "status": "success",
+  "narrative": "Based on the model's assessment, you have a 68% chance of failing the bar exam on your first attempt. That means, even though you might pass, the odds are clearly against you. This risk is what led to your application being denied.\n\nThe most important factor in this decision was your academic standing in your third year. Your placement in the second decile means you finished near the bottom of your class that year, far below the average of students who were accepted (around the sixth decile). This pattern strongly suggests that your performance declined over time, which is a critical indicator of whether you can handle the rigorous material on the bar exam. This single factor pushed the prediction most strongly toward failure.\n\nInterestingly, your LSAT score worked in your favor. At 40.00, you scored above the accepted-student average of 37.18. This was the second most influential factor and it pushed toward passing, showing you have strong logical reasoning and reading comprehension skills. However, its positive influence was outweighed by your academic record.\n\nFinally, your first-year decile of 5.00 also contributed, but less strongly. Being slightly below the average of 6.00 indicates some early struggles, but it was your third-year drop that proved decisive.\n\nTo improve your chances in the future, focus on explaining your grades. Consider retaking the LSAT to push your score even higher, but more importantly, take additional coursework to demonstrate you can succeed academically. Retaking the exam or applying with updated, stronger academic evidence would give you a far better shot.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

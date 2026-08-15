@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 8,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:33:11.579006",
+  "status": "success",
+  "narrative": "Based on your data, the model estimates a 13% chance of failing this year. That is not high—you are likely to pass—but the school treats that level as enough to require remedial courses to keep you safe.\n\nThree factors mattered most, and all of them actually lowered your risk. Your record of never having failed a course was the biggest protective factor; students who pass also have no past failures. Your wish to go to higher education came next; every student who passed in the data shared that wish. The third was choosing this school because it is close to home. That also worked in your favour, likely because a short commute gives you more time and energy for schoolwork. So the model did not flag you because of these big factors.\n\nYou were flagged because many smaller factors together tipped you into the at-risk zone. For example, you do not have internet access at home, which is less common among students who passed. The model weighs all of these small signals together, and the total exceeded the threshold.\n\nTreat the remedial course as a safety net, not a verdict. You already have a strong foundation: no past failures, clear motivation, a stable home, and good family support. Use that foundation to build a fixed study routine, keep attending classes, and consider getting internet access or extra help in subjects you find hard. You are close to the pass line, and a small push is all that is needed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

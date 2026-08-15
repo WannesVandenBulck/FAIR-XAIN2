@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 62,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:50:04.260617",
+  "status": "success",
+  "narrative": "Based on your student profile, the model estimates a 26% chance of not passing the final year. This means that, while you are more likely to pass than fail, your situation shows enough risk that the school requires you to take remedial courses as a precaution.\n\nThe most important factor in this prediction is the number of past class failures, which for you is zero. This is actually a strong point in your favor—it pushes the prediction toward passing, because students who have never failed before are much more likely to succeed. You have a clean academic record, and that helps you.\n\nThe second most influential factor is your father's education level, which is primary school. Compared to most students who pass, whose fathers typically have more schooling, this is a point of concern. The model sees this as a slight risk factor pushing toward failing. This is not about your ability, but rather a statistical pattern linking family background to academic support and resources.\n\nThe third factor is your weekend alcohol consumption, which is low. This works in your favor, pushing the prediction toward passing. Students who drink very little on weekends tend to stay more focused and consistent with their studies, so your low level of weekend drinking is a positive sign.\n\nOther details, like your very good family relationships and zero absences, support your success, while your family size and parents living apart add only minor risk. To improve your chances, keep your current study habits, maintain your low alcohol use, and seek additional academic support at school to offset any home disadvantages.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

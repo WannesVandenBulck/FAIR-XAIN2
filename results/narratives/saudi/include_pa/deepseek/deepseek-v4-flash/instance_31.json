@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 31,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:22:54.409342",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, there is an 84% chance you will leave your job in the near future. Because the model sees this as a strong likelihood, the organization has decided not to offer you a promotion at this time.\n\nThree factors stood out most clearly in this decision, and none of them have to do with your age, gender, or health. The strongest influence was the fact that you have received other job opportunities while working here. That alone is a very strong signal that you are actively being recruited or considering alternatives—so the organization reads this as a high intention to move on.\n\nYour total work experience also played a major role. You have spent six to ten years in your career, which makes you more mobile and attractive in the job market. Interestingly, most employees predicted to stay have only one to five years of experience, so at your level, outside offers become more common and tempting.\n\nFinally, the sector you work in contributed. You are employed in a sector classified as “other,” which among those who stay is less common—most stayers work in medical or education fields. This suggests your sector may offer more external mobility or instability, further increasing the model’s confidence that you will leave.\n\nTo change this outlook, the organization should take your job opportunities seriously. Rather than waiting for you to resign, they could engage in conversation about your career goals, offer a meaningful retention plan, or address what is leading you to consider other roles. From your side, expressing your intentions and asking for what you need might create an opportunity to reverse this prediction.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

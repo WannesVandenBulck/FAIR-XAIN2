@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 69,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:30:03.435106",
+  "status": "success",
+  "narrative": "Your chances of leaving were estimated at 49%—almost a coin flip. That is not a majority, but it is high enough that the organization viewed your departure as a real risk, and that is why the promotion was denied. Importantly, your gender, age, and health were not part of this assessment.\n\nThe strongest factor actually pushed toward you staying: your total experience of 1 to 5 years. This is very typical among employees who remain—about half of those who stayed have the same background—so it did not raise concern. A second factor also worked in your favor: you have not received other job offers. Most employees who stay also report no outside opportunities, so this was reassuring.\n\nWhat tipped the balance was your work-life balance. You described it as difficult, while only about one in ten employees who stayed said the same. This single factor outweighed the positive signals from your experience and lack of outside offers, pushing your leave risk up to the borderline level that led to the denial.\n\nThe main red flag is not your skills or tenure—it is the strain you feel between work and personal life. The organization should look at scheduling, workload, and flexibility to reduce that pressure. For you, continuing to build experience and openly discussing what would make your work-life balance easier could improve not only your wellbeing but also your future promotion chances.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 277,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:21:31.267204",
+  "status": "success",
+  "narrative": "Your application was not accepted because the admission model predicted a 62.6% chance that you would fail the bar exam on your first attempt. In other words, based on patterns in past students' records, the model saw you as more likely to fail than to pass, and that risk drove the rejection.\n\nThe most important factor in this outcome was your undergraduate GPA. Though your 3.40 is above the average of 3.23 among accepted students, the model associated a GPA in your range with a higher likelihood of bar failure. This suggests that students with your academic profile did not tend to perform well on the exam in the historical data.\n\nThe second strongest factor, your class standing in your third year, actually worked in your favor. The model treated your standing there as a signal pointing toward passing. However, that positive signal was not strong enough to offset the concerns raised by other factors.\n\nFinally, your family income played a smaller but notable role. An upper-middle-income background was associated with a slight increase in predicted failure risk, even though many accepted students share this background. This was the least influential of the three main factors, but it added to the overall risk picture.\n\nWhat should you do next? Focus on the area the model found most concerning: your undergraduate academic record. Strengthening credentials through additional coursework or test preparation could help. Because the model flagged a real statistical risk, demonstrating improved academic readiness, and building strong bar-exam study habits early, would be your best path forward.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

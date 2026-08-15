@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 117,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:37:47.525760",
+  "status": "success",
+  "narrative": "Your application was denied for one clear reason: the model that reviewed your file estimated that you have a 54 percent chance of failing the bar exam on your first attempt. In other words, you were seen as slightly more likely to fail than to pass—and that assessment tipped the decision against you.\n\nThe factor that mattered most, by a considerable distance, was your LSAT score. At 18, it is roughly half the average of 37 among admitted students. The model leaned on this number heavily and read it as a strong signal pointing toward bar exam failure, since the exam tests the same analytical reasoning skills measured by the LSAT. This single factor is what ultimately drove your rejection.\n\nTwo other factors partially worked in your favor. Your first-year class standing—the 7th decile—was interpreted by the model as a mild positive, pointing toward passing. Likewise, your undergraduate GPA of 2.70, though below the 3.23 average of admitted students, was weighed as a slightly favorable signal. But these two modest positives combined could not offset the strong negative weight of your LSAT score.\n\nThe path forward is clear: strengthen the factor that drove this decision. Invest serious time in LSAT preparation and retake the exam—a strong improvement would substantially change how the model assesses your chances. Consider re-applying next cycle, and use your personal statement to highlight the upward trajectory in your academic record as evidence of your persistence and potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

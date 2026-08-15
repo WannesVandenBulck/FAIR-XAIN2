@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 263,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:18:12.073812",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessing bar exam readiness suggests you have an 86.7% chance of failing the bar exam on the first attempt. In plain terms, this means that if you were admitted and completed law school, the evidence strongly indicates you would struggle to pass the licensing exam, which is a critical outcome for a law school's reputation and for your own career.\n\nThree factors drove this decision, in order of importance. The strongest influence was your third-year academic ranking: you were in the bottom group (the first decile) of your undergraduate class, while admitted students typically fall around the sixth decile. This pattern of performance matters because law school requires sustained academic effort, and your record suggests a real risk of difficulty. Your first-year ranking also pushed significantly toward the failure prediction. Again, you fell in the lowest decile, far below the average of admitted students, showing early struggles that appear to persist. Finally, your LSAT score of 28 was well below the admitted-student average of 37.18. That score is a direct measure of the reasoning and reading skills needed for law school and the bar exam, so the model saw it as another strong signal of high risk.\n\nNone of this is based on your gender, race, or income. It is based purely on academic signals. To improve your chances, consider retaking the LSAT after focused preparation, and if possible, complete advanced coursework or a post-baccalaureate program to demonstrate you can perform at a higher academic level. Then reapply with a stronger record.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

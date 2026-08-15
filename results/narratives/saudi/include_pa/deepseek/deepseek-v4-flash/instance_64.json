@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 64,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:29:10.020802",
+  "status": "success",
+  "narrative": "Your promotion was not approved because our model assesses that you are 79% likely to leave the company in the near future. That does not mean you will definitely resign, but it means your profile strongly resembles people who do. Importantly, this assessment did not use your gender, age, or health status.\n\nThe strongest signal is your total experience. You have 6 to 10 years, while most employees who stay have only 1 to 5 years. At this stage, your skills are marketable, and the model sees that as a higher risk of departure.\n\nThe second strongest factor is that you have received other job offers while working here. That is uncommon among stayers—only about a quarter of them say yes. Receiving outside opportunities makes it significantly more likely that you will take one.\n\nThird, although you have considerable overall experience, you have been in your current role for only 1 to 5 years. This tenure is quite common among stayers, but when combined with your overall experience and outside offers, it suggests your connection to this specific organization has not yet deepened enough to keep you anchored.\n\nIn short, the model pictures an employee who is attractive to other employers, has been actively approached, and has not built enough long-term investment in this job to feel tied to it.\n\nThe organization should respond by offering clearer career progression, meaningful development opportunities, and retention-focused support. You may also want to discuss your ambitions and concerns with leadership directly—so that staying becomes a stronger choice than leaving.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

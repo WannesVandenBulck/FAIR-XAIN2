@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 43,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:25:03.132228",
+  "status": "success",
+  "narrative": "An 80% predicted probability of leaving means the model strongly believes you will leave your job in the near future, and that risk is why your promotion is denied. The clearest signal driving this prediction is that you have received other job opportunities while working here. Only about one in four employees who stay receive such offers, so this weighs most heavily in the model's judgment—it sees you as someone with a foot out the door. Your level of overall experience, six to ten years, also matters. Roughly a third of stayers share this profile, but at this career stage you are highly marketable, and the model interprets that combined with outside offers as a sign you are likely to move on. Finally, the sector you work in contributes to the prediction. Most stable employees are in medical or education fields, while your sector belongs to a smaller share of stayers. This pushes the model further toward expecting your departure.\n\nWhat should happen next is a direct conversation. You have reported high emotional commitment and strong job support, which contradict the model's conclusion. If you genuinely intend to stay, that commitment must be communicated clearly, and you should ask what would reduce the risk the model sees. For the organization, the takeaway is retention: why are you receiving outside offers, and what would make you choose to stay? Addressing compensation, growth paths, or the underlying reasons those opportunities arrived could turn an 80% likelihood of losing you into a reason to invest in you instead.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

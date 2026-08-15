@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 24,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:38:49.192466",
+  "status": "success",
+  "narrative": "According to the model, you have a 22 percent chance of not finishing the year successfully. That means the school considers you at real risk, and that is why additional courses are now required. Interestingly, the three strongest signals the model found were actually positive ones. The most influential factor was your past record: you have no previous class failures, which matches the average for students who passed. The second strongest factor is that you receive extra educational support at school, something only about three percent of passing students had, so this is a notable advantage. The third most important factor is your desire to continue into higher education, a goal shared by every student who passed in the data. All three of these pushed your risk downward, not upward.\n\nYet despite these strong protective factors, your overall predicted risk still landed above the threshold the school accepts. This means that other parts of your profile, while less influential one by one, combined to create a meaningful concern. Your daily commute takes over an hour, your weekend alcohol use is very high relative to most passing students, and your weekly study time sits at only two to five hours. These do not override the good signs, but they add up. To bring your risk down further, keep the positives strong: continue using school support, hold on to your university goal, and be proud of your clean record. At the same time, consider cutting back on weekend drinking and building a more consistent study routine despite the long travel time. These changes could make the difference between barely passing and passing with confidence.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

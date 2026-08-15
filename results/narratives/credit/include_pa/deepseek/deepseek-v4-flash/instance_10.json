@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 10,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:56:02.406065",
+  "status": "success",
+  "narrative": "Based on your application, the model assessed a 34% probability that you would default on the loan. That means your profile carries a meaningful risk of becoming a bad credit risk, and the bank decided the risk was too high to approve at this time.\n\nSeveral factors influenced this decision, but three stood out as most important. The strongest influence came from your checking account status. Your account is currently below zero, which is unusual among approved borrowers—only about 13% of applicants with this negative balance receive a loan. This pattern strongly points toward financial strain, and it pushed the model's decision firmly toward denial.\n\nThe second most important factor actually helped you: the portion of your income going toward loan installments. At 2%, you are committing less than the typical borrower, who pays about 3%. This signals that you have some financial room to manage additional debt, and it reduced your overall risk.\n\nThe third factor—also in your favor—was the purpose of your loan. You requested a used car, which is not the most common purpose but is associated with a lower-risk profile in the bank's assessment. This helped your case, but not enough to outweigh the concern from your overdrawn account.\n\nWhat should you do next? Focus on improving your checking account situation. Bring your balance into positive territory and maintain that for several months. If possible, build a small savings buffer. After demonstrating stable account management, you can reapply and likely improve your chances considerably.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

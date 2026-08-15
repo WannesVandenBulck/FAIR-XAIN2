@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 53,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:26:50.064623",
+  "status": "success",
+  "narrative": "The decision to deny the promotion was driven by a model that predicts you are more likely than not to leave the company—it puts your probability of leaving at 57%. This does not mean you definitely will leave, but it means the organization sees significant risk that a promotion would not keep you here long. Importantly, this decision was not based on your gender, age, or health.\n\nThe strongest signals came from three things. Your total work experience actually worked in your favor: having only 1 to 5 years overall is common among employees who stay, so the model saw that as a sign you might remain. The second signal pointed toward leaving: you said you have received other job opportunities while working here. Among employees who stay, the vast majority do not have competing offers, so your outside options make the model think you are more likely to move on. The third signal was your time in your current role. Like many stayers, you have been here only 1 to 5 years, but in your case that shorter tenure combined with external opportunities made the model view you as not yet firmly attached.\n\nTaken together, these factors suggest that although you are still early in your career and have strong reasons to stay, the presence of other opportunities weakens your expected commitment.\n\nIf you genuinely want to grow here, speak openly with your manager about your future and the offers you have received. The organization should also consider what would increase your loyalty—such as clearer career paths, better compensation, or supportive working conditions—before making further promotion decisions.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

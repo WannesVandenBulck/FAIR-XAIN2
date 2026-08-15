@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 51,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:26:28.762249",
+  "status": "success",
+  "narrative": "Based on the model's assessment, you have a 74% chance of leaving your job within the near future. Because this risk is high, the organization has decided not to promote you at this time.\n\nThe strongest factor pushing you toward leaving is your total career experience. You have 6 to 10 years in the workforce, which is more than the typical employee who stays—most stayers have only 1 to 5 years. With this level of experience, you likely have skills and qualifications that are in demand, making it easier for you to consider opportunities elsewhere. This feeling of mobility strongly influences the prediction.\n\nYour time in your current organization also contributes, though less strongly. You have been here for 1 to 5 years, which is actually the most common range among employees who stay. However, when combined with your longer overall career, it appears you may feel ready for a new challenge or that your growth here is not keeping pace with your experience.\n\nOne factor works in your favor: you have not received other job offers while working here. This absence of outside opportunities subtly reduces your likelihood of quitting. Yet this stabilizing influence is not strong enough to outweigh the powerful effect of your experience-related characteristics.\n\nMoving forward, you should consider discussing your career path and growth opportunities directly with your manager. The organization, in turn, should recognize that your experience makes you a valuable asset, and may need to provide clearer advancement prospects to retain you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

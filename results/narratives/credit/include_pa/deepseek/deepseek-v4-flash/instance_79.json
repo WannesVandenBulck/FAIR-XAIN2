@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 79,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:11:35.698843",
+  "status": "success",
+  "narrative": "The model estimates that you have a 43% chance of defaulting on this loan, meaning that out of 100 people with very similar profiles, about 43 would be unable to repay. That level of risk is too high for the bank to approve.\n\nThe most important factor in this decision was your savings account. Having over 1,000 DM saved is quite rare—only about 3% of approved applicants have that much—and this worked strongly in your favor, lowering your predicted risk. The third most influential factor also helped you: you have held your job for 4 to 7 years, which reflects a stable employment history and reduces your risk in the model’s eyes.\n\nHowever, the second most influential factor pushed hard in the opposite direction. You requested 10,961 DM, which is more than three times the average amount requested by approved borrowers (about 3,020 DM). That very large request signals a heavy financial commitment, and even with your good savings and stable job, the model concluded that the combination of such a high loan amount with your other financial details carried too much default risk.\n\nIn practical terms, the denial is driven mainly by the size of the loan relative to your income and existing debts. To improve your chances in the future, consider asking for a smaller amount, perhaps after saving more or exploring a less expensive purchase. Continue building your savings and staying in your current job, since those clearly help. Also reduce any existing credit obligations you can. Reapplying later with a lower request and a stronger financial profile would give you a much better outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

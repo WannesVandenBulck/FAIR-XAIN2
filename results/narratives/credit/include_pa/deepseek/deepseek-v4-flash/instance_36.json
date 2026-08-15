@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 36,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:01:58.571878",
+  "status": "success",
+  "narrative": "Based on the bank's predictive model, your application was denied because you have an 85% chance of being a bad credit risk, meaning it is highly likely you would struggle to repay the loan on time. This is a very strong signal, far beyond the threshold banks consider acceptable.\n\nThe single most important factor in this decision was the loan amount you requested: 15,672 DM. This is more than five times the average approved loan amount of roughly 3,020 DM, and this enormous size played the biggest role in pushing your risk level upward. Lending such a large sum poses a major financial exposure to the bank, especially for a borrower without significant savings or a long employment history.\n\nThe second most influential factor was the 48-month repayment period you asked for. Approved loans typically run around 19 months, so your term is more than double the norm. A longer duration gives more time for unexpected financial shocks—job loss, illness, or other debts—to derail your repayment, which made the model see you as far riskier.\n\nFinally, your checking account balance of 0–200 DM contributed to the decision, though less strongly than the amount and duration. Among approved applicants, only 18.4% held such a low balance, while most had no checking account or a healthier one. This signals a very tight financial buffer, leaving little room to absorb an unexpected payment.\n\nTo improve your chances next time, consider requesting a considerably smaller loan, ideally around the average amount, and shorten the repayment term to under two years. Building up your savings and maintaining a stronger checking balance will also help demonstrate financial stability to the bank.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 31,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:41:15.250853",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates you have a 30% chance of failing your final year. That means you are mostly on track, but the risk is real enough that extra support is required to make sure you finish successfully.\n\nThe single biggest factor pushing the prediction toward failure is that you said you do not want to pursue higher education. This stood out sharply because every single student who passed in the data wanted to continue their studies. Not aiming for further education does not mean you are incapable, but it can reduce motivation and make it harder to stay engaged with schoolwork, which is why it carries so much weight.\n\nOn the other hand, two important factors are actually working in your favor. You have never failed a class before, which is a strong sign that you can handle the material when you put your mind to it. Also, you spend little time going out with friends, giving you more time and fewer distractions for studying compared to many of your peers. Both of these pull the prediction toward passing.\n\nSo your risk is not about ability or past performance. It is mostly about having a clear reason to finish strong. You should consider talking to a school counselor about what you want to do after graduation—even if university is not your goal, passing opens doors to jobs, training programs, and other paths. The remedial courses will help you stay focused and build the study habits you need to cross the finish line.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

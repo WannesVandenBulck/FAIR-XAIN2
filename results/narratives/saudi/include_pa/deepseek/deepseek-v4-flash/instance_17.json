@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 17,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:20:06.847460",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, there is a 71% chance you will leave your job in the near future. That is a strong signal, and it is the main reason your promotion request was denied. This result does not reflect your gender, age, or health—those factors were not used—but rather patterns in your work history and current situation.\n\nThe most influential factor pushing you toward leaving is your overall career experience. With 6 to 10 years in the workforce, you have more experience than the majority of employees who tend to stay, many of whom have only 1 to 5 years. This suggests that at your stage, you may feel ready for a new challenge or a different workplace.\n\nThe second strongest factor is the time you have spent in your current organization—between 1 and 5 years. Interestingly, this is the most common range for employees who stay, but combined with your total experience, it seems to indicate that you are not deeply rooted here. The model sees this as a sign that you could be open to moving on.\n\nHowever, not everything points in that direction. The model also looked at whether you had received other job offers, and you have not. This factor actually pushes toward staying, meaning you do not appear to have one foot out the door already. It is a stabilizing influence, but it is not enough to outweigh the experience-related signals.\n\nGoing forward, you and your employer should discuss what would make you want to stay: clearer growth paths, stronger recognition, or greater involvement. Without such steps, the prediction suggests your loyalty may continue to weaken.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

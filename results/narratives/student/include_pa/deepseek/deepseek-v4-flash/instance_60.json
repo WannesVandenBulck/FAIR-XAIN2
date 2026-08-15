@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 60,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:48:57.121483",
+  "status": "success",
+  "narrative": "According to the model, you have a 25 percent chance of failing your final year. That means about one in four students with a similar profile does not make it, and that risk is high enough that you are now required to take remedial courses. The main reason is not who you are or your health; those factors were not used. Instead, the strongest signal is that you have failed one course before. Students who passed typically had no previous failures. Past difficulty is a well-known warning sign, and it pushed the prediction clearly toward failing.\n\nTwo other factors worked in your favor. You chose this school because it is close to home, and although that reason is less common among successful students, for you it actually moved the prediction toward passing. You also said you want to continue into higher education. That desire is shared by all students who passed, so it, too, pulled the prediction in the right direction. Even with these positives, the previous failure outweighed them.\n\nThe remedial courses are not punishment; they are a response to that one history of failure. To improve, focus on study habits. You currently study less than two hours a week, while most successful students study two to five hours. You have also missed many school days, far above average. Attending class more regularly and increasing study time can directly address the main risk. Use the extra support to show that one past failure does not define your final year.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

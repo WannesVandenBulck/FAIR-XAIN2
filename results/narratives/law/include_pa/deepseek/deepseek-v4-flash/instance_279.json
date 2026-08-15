@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 279,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:22:14.970696",
+  "status": "success",
+  "narrative": "The model's assessment gives you a 62.5% chance of failing the bar exam on your first attempt. This means that, statistically, the odds are slightly against a first-time pass, and this is the core reason your application was denied. Looking at your profile, two factors were overwhelmingly responsible for this negative outcome: your year-one and year-three class ranks. While these ranks (2nd decile and 3rd decile) are better than the average admitted student (who sits around the 6th decile), the model flagged them as the highest-risk indicators. It found that students with this specific pattern—very high early standing that slips slightly by year three—have historically correlated with bar exam failure. Strong but slightly declining academic rank was the strongest driver pushing toward failure. In contrast, your LSAT score was the only factor that worked in your favor. Even though your score of 36 is slightly below the admitted average of roughly 37, the model still considered it a protective element pushing toward passing. Unfortunately, the risk associated with your class rank trajectory outweighed the benefit of your LSAT performance. To strengthen your case, you should focus on raising your LSAT score well above the admitted average, as this is your primary protective lever. If you appeal or reapply, directly address the slight dip in your third-year class rank by providing context about your course load or circumstances, as this exact trajectory drove the denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 31,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:00:44.277667",
+  "status": "success",
+  "narrative": "Based on the assessment, the model placed your likelihood of being a bad credit risk at 35 percent. While that means the majority of similar profiles are considered acceptable, it was still high enough to result in a denial. The decision was driven primarily by three factors, ranked by how strongly they influenced the outcome.\n\nYour credit history was the single most important factor, and it actually worked in your favor. Having critical or other credits is common among rejected applicants, but your record still pushed the assessment toward \"good credit,\" not away from it. The length of your requested credit also helped you: at 11 months, your request was notably shorter than the typical 19 months, and this too nudged the outcome in a positive direction.\n\nThe decisive factor, however, was your checking account status. With a balance between 0 and 200 DM, you fall into a category that only about 18 percent of approved applicants share. This was the strongest signal pushing toward \"bad credit risk,\" and it outweighed the favorable aspects of your credit history and short loan duration. In essence, the model saw a pattern where limited available cash in your checking account, combined with a new car purchase of 1,322 DM and four percent of your income going to installments, signaled potential difficulty managing payments.\n\nTo improve your chances next time, focus on building up your checking account balance and maintaining a steady record of on-time payments on your existing credits. A larger down payment on the car or a longer employment tenure could also strengthen a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 54,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:23:52.987264",
+  "status": "success",
+  "narrative": "Your law school application was denied because our model concluded that, based on your file, you would be more likely to fail the bar exam on the first attempt than to pass it. The predicted probability of failing was 68.8%. That does not mean you definitely would fail, but the evidence pointed clearly in that direction.\n\nThe most important factor was your class ranking in the final year of your undergraduate degree. You placed in the third decile—the bottom third of your class—while students who tend to be accepted rank around the sixth decile on average. This strong gap suggests your final-year performance did not prepare you well for a demanding exam like the bar.\n\nYour first-year ranking mattered too. You placed in the fourth decile, again below the average near the sixth decile, showing that academic struggles were present from the beginning rather than a recent lapse.\n\nA third, smaller influence came from your family income bracket. Being from an upper-middle income home—the most common category among accepted students—was associated with a slight increase in predicted failure, possibly reflecting outside pressures that affect exam preparation.\n\nTo strengthen a future application, focus on raising your grades in additional coursework, retake the LSAT to move your score above 36 and toward the average of 37, and complete bar-preparation courses to demonstrate readiness.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

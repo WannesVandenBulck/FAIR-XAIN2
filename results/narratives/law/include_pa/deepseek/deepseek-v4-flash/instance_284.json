@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 284,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:24:04.535336",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts a 61.9% chance—roughly six in ten—that you would not pass the bar exam on the first attempt. That is a high level of risk, and the university used it as a key factor in rejecting your admission. Three main pieces of your profile drove this decision, in order of importance.\n\nThe strongest influence was your class standing after your first year. You placed in the 2nd decile, meaning you were near the bottom of your class, while accepted students typically sit near the 6th decile. This pattern strongly pushed the prediction toward failure, because early law school performance is a powerful signal of future exam success.\n\nYour LSAT score was next in influence, though it worked in your favor. Even though your score of 35 is slightly below the average of 37 among accepted students, the model weighed it as a positive factor, nudging the prediction toward passing. This suggests your score gave you some credit, but it could not outweigh the poor class rank.\n\nFinally, your family income level contributed moderately toward failure. As a middle-income applicant, you fit a category that the model associated with higher bar-exam risk, especially compared to the many upper-middle-income students who were accepted. This is not about your personal ability, but it still factored into the overall assessment.\n\nWhat can you do next? Focus on strengthening the areas you control. Retake the LSAT to raise your score, and consider a post-baccalaureate program to improve your academic record and demonstrate a higher class ranking. A successful appeal or future application will need to show that your first-year performance is not predictive of your true potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

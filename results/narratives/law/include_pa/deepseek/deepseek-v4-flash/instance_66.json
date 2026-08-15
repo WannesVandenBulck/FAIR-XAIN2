@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 66,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:26:47.811426",
+  "status": "success",
+  "narrative": "The decision to deny your law school application is based on a prediction that you currently have a 68 percent chance of failing the bar exam on your first attempt. That is a high-risk estimate, and the university weighs it heavily when deciding whether an applicant is likely to succeed.\n\nThe single strongest factor in this prediction was your academic standing in the third year of your undergraduate studies. You finished in the bottom 10 percent of your class—the lowest decile—whereas accepted students typically sit much closer to the middle of the pack. Your first-year class standing was almost equally influential: again, you were in the very bottom decile, compared to an average near the sixth decile among successful applicants. Seeing low performance at both the start and end of your undergraduate career suggests that your difficulties were not a one-time setback but a consistent pattern.\n\nOne factor worked in your favor: your family's upper-middle income bracket. That background is associated with slightly better bar exam outcomes, likely reflecting greater access to preparation resources. However, this positive influence was too small to offset the strong negative signals from your academic rank.\n\nYour LSAT score of 32 and undergraduate GPA of 2.90 are also below the averages of accepted students, reinforcing the concern. To change this outcome, focus on raising your grades in additional coursework, prepare seriously to retake the LSAT, and reapply with a stronger record.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

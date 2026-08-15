@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 32,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:00:51.445593",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model estimated a 29% chance that you would be a bad credit risk—meaning about one in four odds that you wouldn’t repay as agreed. That level of risk is above the bank’s cutoff. Interestingly, the strongest factor in your profile actually helped you: your checking account situation, where you have no account at present, is common among approved borrowers and contributed toward a lower risk. The second most important factor, however, worked against you. You have another installment plan at a bank, which is rare among approved applicants—fewer than one in ten have this obligation. This signals that part of your income is already committed, leaving less room to handle a new loan. The third factor, your requested repayment period of 12 months, helped your case because it is much shorter than the average of about 19 months, reducing the length of time the bank is exposed. But the burden of that existing bank installment plan was significant enough to outweigh your positive points. Your paid-off credit history and long employment are strengths, but they couldn’t overcome this concern. What can you do next? Focus on paying down or closing that existing bank installment plan before reapplying. You may also consider asking for a smaller loan or extending the repayment period to lower your monthly burden. Adding a co-applicant or guarantor could further reduce risk. These steps, combined with your stable job and good past credit, would give you a much stronger chance next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 94,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:16:03.201418",
+  "status": "success",
+  "narrative": "Based on the information available, the model estimated a 33% probability that you would default on this loan. This means that in about one out of three similar situations, the borrower fails to repay. The bank considers that risk too high, so your application was denied.\n\nThe main reasons come from your current financial situation. The strongest factor was your checking account status. Having no checking account is actually not a negative signal—it is common among approved borrowers, and it slightly lowered your estimated risk. So that part worked in your favor.\n\nHowever, two other factors outweighed it. Your employment situation was the next most important factor. You are currently unemployed, which is very unusual among approved applicants—only about 7% of them are unemployed. This strongly increased your estimated risk. The third most influential factor was your savings balance, which is below 100 DM. While many approved borrowers also have low savings, the model still sees this as a limited financial cushion, and it added to your overall risk.\n\nIn short, even though your lack of a checking account helped, the combination of being unemployed and having very little savings pushed your risk above the bank’s threshold.\n\nWhat can you do next? Focus on strengthening your financial stability. Finding steady employment, even part-time, would significantly improve your chances. Building up a small savings cushion over time would also help. You may consider reapplying once you have a regular income and some savings set aside. Your sex, age, and foreign worker status were not used in this decision, so those factors did not affect the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

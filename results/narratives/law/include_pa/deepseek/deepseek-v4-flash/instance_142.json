@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 142,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:44:10.352336",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, you have an 83.6 percent chance of failing the bar exam on your first attempt. That is a very high risk, and it is the reason your law school application was denied: the admissions decision is based on whether you are likely to pass the bar, not just complete coursework.\n\nThe two strongest factors working against you are your class standing in your first and third years of undergraduate study. You finished in the lowest decile (the bottom 10 percent) in both years. By contrast, students who were accepted into law school typically placed around the sixth decile in their first year and slightly above that in their third year. These two standings—especially your third year performance—had the largest impact on the prediction, both strongly pushing toward a likely bar exam failure. This suggests that your academic trajectory, particularly by the end of your undergraduate education, did not demonstrate the level of mastery needed for the bar.\n\nThe third most influential factor, your family income, actually helped your case rather than hurt it. Coming from an upper-middle income background is associated with a slightly lower risk of failing the bar, and it moved the prediction toward passing. Indeed, many accepted applicants share your income bracket. However, this positive influence was not nearly strong enough to outweigh the very substantial negative impact of your low class rankings.\n\nGiven this outcome, your best next step is to strengthen your academic record before reapplying. Consider enrolling in post-baccalaureate coursework or a structured legal studies preparation program to improve your grades and demonstrate greater readiness. Retaking the LSAT to raise your current score of 30 well above the accepted average of 37 would also help. Focus on building a clear record of improvement so the next review shows a different story.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

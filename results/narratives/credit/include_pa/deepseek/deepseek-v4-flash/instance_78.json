@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 78,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:11:25.445050",
+  "status": "success",
+  "narrative": "Based on the information you provided, the model assessed your application as having a 56% chance of being a bad credit risk. This means the balance of evidence slightly tipped toward denial, and that is why your loan was not approved.\n\nThe most important reason was your credit record. You have no existing credits and have never taken out a loan before. While that may seem cautious, it actually works against you: approved applicants almost always have a history of successfully paid credits, whereas having no track record gives the bank little confidence you will handle repayments. This factor pushed most strongly toward a denial. The second key factor was your checking account balance, which is between 0 and 200 DM. Most approved customers either have no checking account or a more comfortable balance, so a low positive balance suggests limited financial slack. That also pushed toward a denial. Interestingly, the amount you requested, 4,280 DM, is higher than the typical approved loan of around 3,020 DM, but this factor did not hurt your case. It actually pulled slightly in your favor, likely because the requested amount is still reasonable compared to your income and current obligations. Unfortunately, the two risk factors above outweighed that positive signal.\n\nTo strengthen a future application, consider building a credit history by taking a smaller loan and paying it back in full, and try to maintain a higher checking account balance over several months. These steps will give the bank clearer evidence that you are a reliable borrower.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

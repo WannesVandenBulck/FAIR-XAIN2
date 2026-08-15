@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 20,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:15:49.722767",
+  "status": "success",
+  "narrative": "The decision to deny your application was based on a prediction that you have an 83 percent likelihood of failing the bar exam on your first attempt. In other words, the model assessing your profile found strong signals pointing toward difficulty passing, and the university weighed that risk heavily.\n\nThe most important factor working against you was your enrollment status. Your part-time schedule is unusual among admitted students, over nine in ten of whom study full-time. Part-time study was the single strongest indicator pushing the prediction toward failure, likely because it extends the time between coursework and exam preparation and competes with other responsibilities.\n\nYour Year 3 class standing also played a major role. You ranked in the third decile of your school cohort, while admitted students typically sit near the sixth decile. This gap mattered considerably: a weaker record in the final year of study was the second-strongest signal that you might struggle with the bar exam.\n\nTo a lesser degree, your family income bracket contributed as well. Your middle-income background is not unusual, but admitted students skew toward the upper-middle range, and the model treated this as a mild additional risk factor. This is not a comment on your ability, but rather a statistical pattern in the data.\n\nBecause the prediction leans heavily toward failure, the university chose not to admit you. If you wish to strengthen a future application, consider enrolling full-time, improving your end-of-program class ranking, and seeking academic support early to lift your Year 3 performance. These are the areas that most influenced the outcome and the ones you can most directly change.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

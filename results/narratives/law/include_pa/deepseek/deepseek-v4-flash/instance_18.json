@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 18,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:15:33.206534",
+  "status": "success",
+  "narrative": "The law school application was denied because the model that evaluates bar exam readiness calculated a 51% probability that you would fail the bar exam on your first attempt. Although this is barely above a coin flip, it still tips in an unfavorable direction, and the university treats this as a significant risk when making admission decisions.\n\nThe single most important factor driving this prediction was your LSAT score. At 24, this is well below the average of 37 for accepted students. This score pushed strongly toward the \"will fail\" outcome, serving as a major warning sign for the committee. It outweighed everything else in the evaluation.\n\nTwo other factors worked in your favor, though not strongly enough to overcome the LSAT concern. Your undergraduate GPA of 3.30 is slightly above the accepted student average of 3.23, which pushed the prediction toward passing. Similarly, your third-year class standing in the 4th decile was stronger than the typical accepted student, who usually sits around the 6th decile. Both of these signals suggested you have solid academic ability, but their combined influence was less powerful than the negative impact of your LSAT score.\n\nThe model essentially saw a student with good grades and class performance but a standardized test score low enough to raise doubts about bar passage. Your family income, gender, race, and part-time enrollment status played no role in this decision.\n\nTo improve your chances in the future, focus on retaking the LSAT. A stronger score would directly address the most influential negative factor and meaningfully shift the prediction toward passing.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

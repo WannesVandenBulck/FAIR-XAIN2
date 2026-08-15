@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 223,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:05:41.915450",
+  "status": "success",
+  "narrative": "You may be wondering why your law school application was denied. When the admission committee reviewed your file, a prediction model estimated that you have a 68.8% chance of failing the bar exam on your first attempt, and that level of risk was considered too high for admission.\n\nThe most important factor driving this prediction was your class standing in the third year of your undergraduate studies. You finished in the first decile, meaning you ranked among the lowest ten percent of your class, while students who are typically admitted average around the sixth decile. This was by far the strongest signal in your file, and it pointed directly toward bar exam failure. Your first-year class rank also mattered, though to a lesser extent. You were in the second decile in that year, again well below the average of admitted students, and this too pushed the prediction in the direction of failure.\n\nInterestingly, not everything worked against you. Your LSAT score of 41 was actually higher than the average of about 37 among admitted students, and this was the second most influential factor overall. It worked in your favor, pushing the prediction toward passing. However, the combined weight of your two low class rankings outweighed the benefit of your LSAT score, producing the overall 68.8% failure risk.\n\nTo improve your chances in the future, focus on strengthening the areas that hurt you most. Consider enrolling in additional coursework or a post-baccalaureate program to demonstrate that you can perform at a much higher academic level, and retake the LSAT to further boost your strengths.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

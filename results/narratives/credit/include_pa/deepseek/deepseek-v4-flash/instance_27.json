@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 27,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:59:43.026405",
+  "status": "success",
+  "narrative": "Based on the model's assessment, your loan application has been denied because you were evaluated as having an 82% probability of being a bad credit risk. In practical terms, this means the model considers you very likely to struggle with repaying the loan as agreed, making the loan too risky for the bank to approve.\n\nThree main factors drove this decision, listed from the strongest to the weakest influence. The most significant issue is the current status of your checking account, which is overdrawn (below zero). This is a major red flag. Most approved applicants either have a positive balance or no checking account at all; only a small fraction have an overdrawn account, so your situation strongly signals immediate financial strain.\n\nThe second most important factor is the length of the loan you requested: 48 months. This is more than double the average loan duration of about 19 months among approved borrowers. A longer loan means more time for your financial situation to change or deteriorate, which the model views as substantially increasing risk.\n\nThe third factor is your savings account, which holds less than 100 DM. Compared to approved applicants, who more often have larger savings buffers, this low level of savings suggests you have little financial cushion to fall back on if unexpected expenses arise.\n\nTo improve your chances in the future, start by working to bring your checking account out of the negative and maintain a positive balance over several months. Consider requesting a smaller loan with a significantly shorter repayment period, and build up your savings reserve. Taking these steps will show greater financial stability and reduce the risk signals the model identified.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

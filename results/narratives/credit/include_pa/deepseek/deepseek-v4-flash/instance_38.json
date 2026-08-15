@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 38,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:02:17.748207",
+  "status": "success",
+  "narrative": "You may be wondering why your loan application was denied. The model that assessed your request estimated a 25% chance that you would become a bad credit risk—meaning a 1 in 4 chance of failing to repay. This was above the bank's threshold for approval, so the application was declined. What makes this decision frustrating is that the three most influential factors in the assessment actually worked in your favor. The strongest influence was your savings situation. Although you have no documented savings or an unknown status, this was still a positive sign compared with applicants holding very small balances. The second most important factor was your property: you own real estate, which signals financial stability and lowered your risk. The third factor was your installment rate. At just 1% of your disposable income, your requested monthly payment is far more manageable than the average borrower's, again reducing your risk. So the most powerful forces were positive ones. Unfortunately, they were not enough to outweigh serious concerns elsewhere in your application. The loan amount of over 7,400 DM is more than double the average approved loan, and your employment situation—currently unemployed with an unskilled or non-resident status—raises significant doubt about your ability to keep up with payments. These risk factors pushed your overall score just past the acceptable limit. To strengthen a future application, consider requesting a smaller amount, or waiting until you have stable employment and a documented income. Building a visible savings balance and continuing to hold your real estate would also help.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

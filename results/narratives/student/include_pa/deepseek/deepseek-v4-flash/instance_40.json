@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 40,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:43:36.748941",
+  "status": "success",
+  "narrative": "The model gives you a 42 percent chance of failing your final year. That is not a certainty, but it is a real level of risk, and that is why the school is requiring you to take remedial courses.\n\nThe most important reason the model leaned toward failing is your answer that you do not want to pursue higher education after school. This one factor had the strongest influence on the prediction. It is especially significant because every single student in the comparison group who passed their final year said they did want higher education. Your lack of interest in that path created a large gap between you and students who succeeded, and it pushed the prediction strongly toward failure.\n\nTwo other factors mattered, but they actually worked in your favor. You have never failed a class before, which is exactly the same as students who passed, and that pushed the model toward passing. Your travel time to school was also not treated as a risk factor, and it nudged the model slightly toward passing as well. So it was not your past record or your commute that caused the failing prediction. It was mainly your plans for the future.\n\nThis gives you a clear place to focus. Talk to a school counselor about what you want to do after finishing school, even if you are not interested in university. Understanding why your studies matter can make a big difference. The remedial courses are there to help you build a stronger foundation and keep your options open, so try to use them as a fresh start rather than a punishment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

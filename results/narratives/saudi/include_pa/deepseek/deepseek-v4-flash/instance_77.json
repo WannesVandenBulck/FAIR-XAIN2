@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 77,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:31:19.877548",
+  "status": "success",
+  "narrative": "Your promotion was denied because the model assessing retention risk predicts you have a 54% chance of leaving the organization in the near future. While this is not an overwhelming majority, it crossed the threshold used to decide whether a promotion is a safe investment, and the decision leans toward risk.\n\nThe strongest factor in your prediction was your experience level. With only one to five years of experience, you are in the same range as half of the employees who stay, and this factor actually worked in your favor, pushing the prediction toward you remaining. Your tenure alone is not the concern.\n\nHowever, the second most important factor moved the prediction in the opposite direction. You indicated that you have received other job opportunities while working here. Among employees predicted to stay, only about one in four had outside offers. Your situation signals that you are actively marketable and possibly considering leaving, which the model treats as a strong warning sign.\n\nThe third factor was your employment sector. You work in a sector classified as \"other,\" which is less common among loyal employees, where more than sixty percent work in medical or education fields. This slightly increased the likelihood that you would leave.\n\nGiven these signals, the organization should recognize that your risk is driven not by performance but by external opportunity and sector context. A conversation about your career path, or retention measures such as a clearer growth plan, could change the equation. For you, consider clarifying whether you intend to stay, as your answers to the promotion and opportunity questions shape how the organization reads your commitment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

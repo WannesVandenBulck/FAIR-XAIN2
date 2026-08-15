@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 53,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:47:17.434221",
+  "status": "success",
+  "narrative": "The model estimates a 29% chance that you will not pass your final year. While that means there is a 71% chance you could pass, the risk is high enough that the school requires you to take remedial courses to give you the best possible support.\n\nThe most important factor in this prediction is your past academic record, and here the news is good. You have never failed a course before, which strongly pushes the prediction toward passing. This shows you have proven ability, and it is the main reason your risk is not even higher than 29%.\n\nHowever, two other factors push the prediction the other way. You reported having very little free time after school. Students who passed typically have a medium or even high amount of free time. This might suggest that you are overcommitted, exhausted, or simply overwhelmed by your schedule. Ironically, having no free time can hurt your learning because your brain never gets a proper rest, and you may have less energy to absorb new material.\n\nThe third factor is your mother's education, which stopped at primary school. Among students who passed, a much larger share had mothers with secondary or higher education. This is not a judgment on your mother's abilities or her support for you—it simply reflects that students whose parents have navigated higher education often receive more academic guidance at home. Since this is not available to you, the model sees you as having fewer outside resources to help you succeed.\n\nYou have already shown strong academic potential. Use this remedial period to focus on creating a more balanced schedule with real breaks, and remember that your success is entirely within your control.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

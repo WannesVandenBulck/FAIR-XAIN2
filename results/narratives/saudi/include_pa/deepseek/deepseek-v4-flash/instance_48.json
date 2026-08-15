@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 48,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:26:00.637970",
+  "status": "success",
+  "narrative": "Based on the model’s analysis, there is a 70% chance you will leave your job in the near future, so the promotion has been denied. This is not a reflection of your performance, but rather a statistical signal that you may not stay long enough to make the investment worthwhile.\n\nThe strongest reason the model sees this risk is your total career experience. With 6 to 10 years in the workforce, you have more options and confidence than someone just starting out. People at this stage often look for new challenges, better titles, or higher pay, and that pattern pushes strongly toward you leaving.\n\nThe second major factor is the time you’ve spent in your current role. You have only been in this organization for 1 to 5 years, even though your total experience is much longer. That gap suggests you may still be settling in or exploring whether this is the right place for you. This also pushes clearly toward the prediction that you could go.\n\nThere is one important factor working in your favor: you have not received other job offers while working here. That indicates you are not actively looking elsewhere, and it pulls somewhat toward you staying. However, the combined weight of your extensive experience and relatively short tenure with us still outweighs that positive signal.\n\nTo move forward, consider having an honest conversation with your supervisor about your long-term career intentions and what would make you feel committed. The organization could also offer a clearer path for growth, so that your experience is seen as a strength to build on rather than a risk to lose.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

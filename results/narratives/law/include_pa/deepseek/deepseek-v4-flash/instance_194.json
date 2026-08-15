@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 194,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:56:36.712475",
+  "status": "success",
+  "narrative": "The model that reviewed your application determined that you have a 64.6 percent chance of failing the bar exam on your first attempt. Since passing the bar is a key requirement for a law career, the school decided this level of risk was too high to grant admission.\n\nThe most decisive factor was your class standing in your third year. You ranked in the lowest 10 percent of your class, while students admitted to this program typically sit around the sixth decile. This placed strong pressure on the prediction toward failure. A sustained pattern of low grades, especially at the end of your studies, signals that you may struggle with the high-stakes bar exam as well.\n\nYour LSAT score, however, worked in your favor. Although your score of 35 is slightly below the average of 37 among accepted students, the model treated it as evidence you can handle standardized testing, nudging the prediction back toward passing. It was the second most influential factor, but it was not strong enough to overcome your class rank.\n\nFinally, your family income bracket—middle—had a small but notable effect pushing the prediction toward failure. This is not a comment on your potential, but students in this bracket in the dataset showed slightly higher risk than those from upper-middle and high-income families.\n\nWhat should you do next? Retake the LSAT; a stronger score would reinforce the positive signal you already showed. Then consider post-baccalaureate coursework to raise your grades and demonstrate academic growth. Reapplying with a stronger record will give the school a much different picture to weigh.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

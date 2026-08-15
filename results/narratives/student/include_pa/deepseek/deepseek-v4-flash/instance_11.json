@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 11,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:34:23.782370",
+  "status": "success",
+  "narrative": "Even though your chances look good at first glance, the model estimates that you have a 15 percent probability of failing your final year. That means that in a group of 100 students with very similar profiles, about 15 would not make it through. Because that risk is considered too high, your school requires you to take remedial courses.\n\nWhat most influenced this prediction? Your past academic record, your desire to pursue higher education, and the way you spend your free time. These three factors were the most important in the model’s reasoning. Interestingly, each one actually works in your favor, lowering your risk rather than raising it.\n\nYou have never failed a school year before, and that is a strong sign of steady performance. Unlike some students who carry past failures into their final year, you start without that burden. You also said you want to go on to higher education, and every student in the comparison group who passed shared that goal. That motivation matters. Finally, your free time after school is low, which suggests you use your hours productively. Many students who passed had medium or high free time, but your more limited leisure time may reflect extra effort on schoolwork.\n\nSo why the remaining risk? These three protective factors are important, but they do not erase everything else in your profile. Your absences are higher than the average for students who passed, and you study less than two hours weekly, which is less than many successful students. The model weighs all these elements together, and the result is a 15 percent chance that is still meaningful.\n\nUse this as a wake-up call. Keep your good record intact, maintain your ambition, and protect your study time. With a little extra support, you can push that risk down and finish strong.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

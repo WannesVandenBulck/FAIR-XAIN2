@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 54,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:47:23.521727",
+  "status": "success",
+  "narrative": "The model estimates that you have a 39 percent chance of failing your final year. That is not a certainty, but it is high enough that your school has decided remedial courses are necessary to make sure you succeed. This prediction is not based on who you are, but mainly on a few key signs from your school history.\n\nThe most important of these signs is that you have failed a class before. Among students who passed, the average number of past failures was zero, so having one failure stands out as a clear warning sign. It pushes strongly toward the model seeing you as likely to fail again. The other two most important factors actually work in your favor. You have had zero absences, while students who passed typically missed about four days, so your perfect attendance suggests you are engaged and present, which lowers your risk. Also, your father’s education level is secondary, a background that, compared to other passing students, gives you a slight advantage in terms of support and expectations at home.\n\nEven though these two factors are positive, the past failure carries more weight. It is the single strongest signal in your profile, and it is enough to make the model lean toward failure, resulting in the 39 percent risk.\n\nWhat should you do next? The best way to counter that past failure is to actively address it. Consider asking about extra educational support or tutoring, even if you have not needed it before. Keep up your perfect attendance, as it clearly helps. Also, talk to your father about your coursework, since his level of education can be a resource. With these steps, you can bring down that risk and show that your past failure does not define your final year.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 19,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:57:44.083887",
+  "status": "success",
+  "narrative": "After reviewing your application, our assessment indicates a 43% probability that you would default on the loan—a level we consider too risky to approve. This does not mean you are a bad person, but it reflects a financial pattern that has historically led to repayment problems. The decision was based solely on your financial profile; factors like your sex, age, or nationality were not considered.\n\nThree aspects of your application weighed most heavily. First, the balance in your checking account was a major concern. At 0–200 DM, it falls below what most approved applicants maintain. A thin buffer suggests limited financial flexibility and makes it harder to absorb unexpected expenses, which increases risk.\n\nSecond, the length of the credit you requested actually helped your case. You asked for 10 months, much shorter than the typical approved loan of about 19 months. Shorter commitments reduce the chance of long-term payment difficulties, so this factor pushed toward approval.\n\nThird, the amount you requested also worked in your favor. You asked for 1,521 DM, roughly half the average loan amount of around 3,020 DM. A smaller obligation is easier to manage and reduces your default risk.\n\nDespite these positives, your low checking account balance outweighed them, pushing the overall risk above our acceptable threshold. To strengthen a future application, I recommend building up your checking account buffer, even modestly, and maintaining your record of on-time payments. A stronger savings cushion and consistent employment over the coming year will demonstrate improved financial stability and significantly increase your chances of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

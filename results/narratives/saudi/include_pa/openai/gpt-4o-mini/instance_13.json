@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 13,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "timestamp": "2026-08-15T15:39:22.732368",
+  "status": "success",
+  "narrative": "The model has predicted a 68% chance that you may leave your job, which is a significant concern for the organization and a key factor in the decision to deny your promotion. This prediction suggests that there are underlying factors in your current situation that may lead you to seek opportunities elsewhere.\n\nThe most influential factors in this prediction include your recent training experiences, the job opportunities you’ve encountered, and your overall years of experience. While you have attended a substantial number of training programs in the last three years, which typically supports retention, the model indicates that your perception of job opportunities is a stronger driver toward leaving. This suggests that you may feel there are better prospects available to you outside the organization. Additionally, your extensive experience, while generally a positive attribute, may also lead to expectations for advancement that are not being met, contributing to the prediction of leaving.\n\nGiven these insights, it may be beneficial for you to engage in a conversation with your manager about your career aspirations and the potential for growth within the organization. Exploring additional training or mentorship opportunities could also enhance your job satisfaction and commitment. The organization should consider addressing these concerns proactively to retain valuable employees like you, ensuring that your skills and ambitions align with future opportunities within the company.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

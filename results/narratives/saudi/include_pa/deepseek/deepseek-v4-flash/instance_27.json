@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 27,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:22:05.473882",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 51%, meaning the model sees you as slightly more likely than not to leave your job within the study period. That is why the promotion is denied—not as a judgment of your performance, but as a risk management decision.\n\nThe most important factor in the prediction is your total work experience. With only 1 to 5 years across all jobs, you fit the profile of many employees who stay—about half of stayers also have this level of experience. This actually pulls the prediction toward staying, lowering your risk.\n\nHowever, two other factors push the balance toward leaving. First, you have received other job opportunities while working here. Among employees predicted to stay, fewer than one in four had such offers, so your situation is noticeably different. The model interprets outside offers as a strong sign that you may be preparing to leave.\n\nSecond, you have been in your current position for just 1 to 5 years. While many stayers also have short tenure, longer service in the same organization is associated with greater commitment. Having only a short history here, combined with external options, makes the model believe you are not anchored to the company.\n\nIn practice, this suggests the organization should consider whether your outside opportunities reflect unmet needs—such as salary, recognition, or growth—and respond with retention efforts like clearer career paths or better rewards. For you, it may be worth reflecting on what would genuinely make you stay, because the current signal is that you are open to leaving. Addressing that openly could change the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

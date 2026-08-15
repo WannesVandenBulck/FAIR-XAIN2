@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 25,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:21:23.818215",
+  "status": "success",
+  "narrative": "Your promotion request has been declined because the model places the likelihood that you will leave your job at 61 out of 100. In other words, the model sees a stronger pull toward departure than toward staying, and it identifies three aspects of your situation as the main drivers.\n\nThe single most influential factor is that you have received outside job offers. Among employees who are predicted to stay, only about one in four has received other opportunities, so seeing this in your profile signals to the model that you are actively being courted elsewhere and may already have one foot out the door. This weighs heavily in the decision.\n\nThe second factor is your participation in training over the last three years. You attended only one to three programs, which places you in the middle of the scale. Employees who stay typically receive either no training at all or substantially more investment. The model interprets your limited development opportunities as a sign that you may not feel the organization is investing in your growth, nudging the prediction toward leaving.\n\nFinally, your total experience of six to ten years pushes in the same direction. Among stable employees, half have fewer than five years of experience. Having reached this career stage often coincides with a moment when professionals reassess their trajectory and begin seeking more senior roles elsewhere.\n\nTaken together, these three signals—outside offers, limited training investment, and experience at a pivotal career stage—explain why the model views you as a departure risk. The organization should consider counter-offering with a clearer growth path and additional development programs, while you may wish to clarify with your manager whether your future here matches your career ambitions.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

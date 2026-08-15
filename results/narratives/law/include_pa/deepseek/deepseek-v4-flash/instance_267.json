@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 267,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:19:12.448182",
+  "status": "success",
+  "narrative": "Your law school application was denied because the admissions model evaluated your academic record and calculated a 72% probability that you would fail the bar exam on your first attempt. In other words, based on your profile, the model believed there was a strong chance you would not pass the licensing exam, which is a critical outcome for any law program. This high risk of failure drove the decision to reject your application.\n\nThe single most important factor in this prediction was your undergraduate GPA. At 2.60, it is well below the average of 3.23 seen among students who were accepted into the program. This is a significant gap, and it pushed the prediction strongly toward bar exam failure. The model essentially treats your undergrad performance as the strongest signal of how you will handle the academic demands of law school and the bar exam.\n\nThe second most influential factor was your family income bracket. While this did affect the prediction, it is important to understand its direction: being in the upper-middle income range actually pushed slightly toward passing, because students from that background have generally performed well in this dataset. However, this positive influence was much weaker than the negative influence of your GPA.\n\nThe third most important factor was your class rank in your first year of undergraduate studies, measured by decile. You ranked in the 7th decile, while accepted students typically average around the 6th decile. This indicates you were in the lower portion of your class, which nudged the prediction further toward failure. Your LSAT score of 40 was slightly above average, but it was not influential enough to offset your academic record.\n\nYour next step should be to strengthen your academic profile. Consider enrolling in rigorous post-baccalaureate courses to demonstrate you can earn high grades, and retake the LSAT to raise your score. Reapplying with improved academic credentials will substantially lower your predicted risk of bar exam failure.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

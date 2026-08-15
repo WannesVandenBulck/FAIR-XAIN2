@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 81,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:32:03.079031",
+  "status": "success",
+  "narrative": "Based on the factors most relevant to your situation, the model has determined there is a 70% chance you will leave your job in the near future. Because this likelihood is high, the organization has decided not to award you the promotion.\n\nThe single strongest signal in your profile is your overall experience. Having spent 6 to 10 years working across various jobs, you have accumulated substantial skills and market value. This alone suggests you are an attractive candidate to other employers and may be actively considering a move.\n\nThe second most influential factor is how long you have been in your current role. You have only been with this organization for 1 to 5 years, which is short compared to your total career tenure. The combination of extensive overall experience but relatively little time at your current employer strongly points toward a pattern of job-hopping, or at least a willingness to change organizations. Most employees who stay long-term at a company tend to have accumulated several years there, whereas your profile more closely resembles someone who uses each position as a stepping stone.\n\nInterestingly, one factor actually worked in your favor: you reported having received no other job offers while working here. This typically indicates stability and reduced external pressure to leave, which lowered your risk score somewhat.\n\nHowever, this positive signal was not strong enough to offset the two major experience-related concerns. For your next steps, it would be wise to address this directly with your employer, communicate your commitment to the organization, and clarify your long-term intentions. The organization should also consider having an open conversation with you to understand what would keep you engaged, since your profile suggests you may be considering opportunities elsewhere despite no current offers.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 42,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:03:06.709667",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated a 32 percent probability that you would default on the loan, meaning roughly one in three borrowers with a similar profile fails to repay. Because this falls above the bank's acceptable risk threshold, your application was denied.\n\nLooking at what most influenced this decision, the amount you requested was actually the strongest single factor, and it worked in your favor. Requesting 3,915 Deutschmarks, while above the typical approved amount of around 3,020, still pointed toward you being a responsible borrower relative to other applicants with similar characteristics.\n\nThe second most important factor pushed in the opposite direction: the balance in your checking account. Having only between 0 and 200 Deutschmarks available signals financial tightness, as most approved applicants maintain a healthier balance or none at all. This scarcity of readily accessible funds raised your estimated risk noticeably.\n\nThe third factor, the purpose of your loan, again favored you. Borrowing for a business venture is far less common than for consumer goods, and the model associated this purpose with lower default risk.\n\nUnfortunately, these three factors together were not enough to offset the overall picture. The 32 percent risk estimate, driven partly by your low checking balance and other financial details, exceeded what the bank is willing to accept. To improve your chances, consider building a larger cushion in your checking account, reducing the amount you request, and perhaps waiting until your employment tenure is longer before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

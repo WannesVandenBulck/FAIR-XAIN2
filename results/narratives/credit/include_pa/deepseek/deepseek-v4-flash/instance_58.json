@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 58,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:07:00.959755",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 30% chance that you would not repay the loan—roughly a 1 in 3 risk, which is higher than the bank considers acceptable. The decision was driven by three main factors, and they did not all point in the same direction.\n\nThe single most influential factor was the condition of your checking account, which is currently overdrawn. This is a situation shared by only about 13% of borrowers the bank has approved, and it strongly suggests you are already struggling to cover your everyday expenses. For the bank, this outweighed everything else in your application.\n\nTwo other important factors actually worked in your favor. The first is the length of the loan you requested: 9 months is far shorter than the 19-month average for approved borrowers, which limits how long the bank is exposed to risk. The second is your employment history. Having worked at your job for 4 to 7 years shows stability, and this has been a positive signal in many approved applications. However, these two favorable points combined were not strong enough to overcome the concern raised by your overdrawn account.\n\nThe path forward is clear: focus on bringing your checking account into positive territory and keeping it there for several months before reapplying. Building a small buffer will demonstrate that you can manage your finances and cover loan payments comfortably. Once your account shows a healthy balance, the risk profile of your application would look very different, and you would be in a much stronger position to be approved.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

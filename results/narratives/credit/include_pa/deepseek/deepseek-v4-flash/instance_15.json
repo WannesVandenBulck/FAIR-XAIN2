@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 15,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:57:05.989448",
+  "status": "success",
+  "narrative": "After reviewing your application, the model concluded that you have a 38% chance of being a bad credit risk, and that crossed the threshold for denial. In plain terms, the evidence taken together pointed to too high a likelihood of missing payments. The three most important factors in this decision were your requested loan amount, the repayment period, and the state of your checking account.\n\nYour requested amount of 2,579 DM was actually below the typical loan in this dataset, and your chosen term of 12 months was much shorter than the average of about 19 months. Both of those features pushed the decision toward approving you, because smaller and faster loans are generally less risky. So the denial was not due to asking too much or stretching out the repayment.\n\nThe decisive negative factor was your checking account: it is currently below zero. Among applicants, a negative balance is uncommon, and it is a strong warning sign of current financial strain. This outweighed the positive aspects of your request. In other words, your account situation alone pushed the model strongly toward the \"bad credit risk\" category, and that was enough to tip the overall decision against you.\n\nTo improve your chances next time, focus on getting your checking account into positive territory and keeping it there for several months. Even a small cushion or a regular salary deposit would help. Reapplying after your account has been stable may lead to a different outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

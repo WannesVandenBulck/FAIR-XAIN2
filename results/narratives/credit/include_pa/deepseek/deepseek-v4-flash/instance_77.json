@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 77,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:11:12.915107",
+  "status": "success",
+  "narrative": "Based on the model's assessment, your application was denied because you were found to represent an unacceptably high credit risk. Specifically, the model estimated a 28% probability that you would default on the loan. In other words, the bank believes there is more than a one-in-four chance you would not repay the money, and that level of uncertainty exceeds what the bank is willing to accept.\n\nThe most influential factor in this decision was your credit history. Interestingly, this factor actually worked in your favor, nudging the prediction toward \"good credit\" rather than away from it. Despite having a critical credit rating or other outstanding credits, the model weighed this less harshly for you than for other applicants.\n\nThe second most important factor, however, pushed strongly in the opposite direction: you have other installment plans with the bank. Among approved applicants, the vast majority—about 87%—have no such additional plans. Your existing payment obligations signal to the bank that you are already carrying debt, which reduces your capacity to take on and repay another loan.\n\nThe third most influential factor worked in your favor again. You requested a credit duration of only 12 months, which is considerably shorter than the average of roughly 19 months among approved applicants. A shorter repayment window means the bank's money is exposed to risk for less time, lowering your overall risk profile.\n\nUnfortunately, the combined weight of these factors still left your estimated default probability too high for approval. To strengthen a future application, consider paying off or closing your existing installment plan at the bank first. Reapplying once that obligation is cleared, and ideally after you have built up a longer employment history, would substantially improve your chances.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

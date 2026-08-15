@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 237,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:09:54.956085",
+  "status": "success",
+  "narrative": "After reviewing your application, the admissions model calculated a 56.9% chance that you would fail the bar exam on your first attempt. Because this is higher than the risk the university is willing to accept, your application was denied. This does not mean you are incapable of becoming a lawyer, but it does mean your current academic and professional patterns carry significant risk.\n\nThe single strongest factor pushing toward failure was your enrollment status. You planned to attend law school part-time while working, which is a much less common path among accepted applicants—only about 7% of them study part-time. The model has learned that part-time students often struggle to devote enough time to exam preparation, and this weighed heavily against you.\n\nThe second most important factor was your class standing in your third year of undergraduate studies. You ranked in the 3rd decile, meaning roughly 70% of your peers had higher grades. Students who are accepted typically rank in the 6th decile or better. This low relative performance suggests a weak grasp of the foundational material tested on the bar exam, pushing strongly toward failure.\n\nYour undergraduate GPA, however, worked slightly in your favor. At 2.70, it is below the average accepted student’s 3.23, but the model still viewed it as a small positive signal compared to your other risk factors. Unfortunately, this improvement was not enough to offset the two major concerns.\n\nTo strengthen a future application, consider retaking the LSAT to demonstrate academic aptitude and, more importantly, show that you can succeed in a full-time law program. If part-time study is unavoidable, you could also take additional legal coursework and earn high marks to prove your exam readiness. Address these patterns, and you can change the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

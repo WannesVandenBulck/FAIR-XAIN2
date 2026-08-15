@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 230,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:07:30.600146",
+  "status": "success",
+  "narrative": "Based on your application, the model estimates a 50.8% chance that you would fail the bar exam on the first attempt. That is essentially a coin flip, and because the risk is slightly higher than the chance of passing, the admissions committee decided to deny your application.\n\nThe most influential factor in this decision was your undergraduate GPA. At 3.40, it is actually above the average for accepted students (3.23), and that pushed the prediction in your favor — toward passing. Unfortunately, two other factors outweighed that advantage. The second most important factor was your class standing in your third year of college. You are in the 2nd decile, meaning you ranked in the bottom 20% of your class, while accepted students typically sit around the 6th decile. That strongly pushed the prediction toward bar exam failure. The third most important factor was your first-year class standing, also at the 2nd decile compared to an average of around 6th for accepted students. Both class standings tell the same story: despite a solid GPA, your relative performance among peers was weak in both your first and third years. This pattern raises a serious concern about your ability to keep up with rigorous law school coursework and pass the bar.\n\nHere is what you should do next. Consider taking additional upper-level courses to demonstrate that you can perform at a higher class rank, and prepare thoroughly to retake the LSAT — a stronger score would offset the class standing concern. You might also complete a post-baccalaureate program to prove your academic readiness, then reapply with more evidence of success.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

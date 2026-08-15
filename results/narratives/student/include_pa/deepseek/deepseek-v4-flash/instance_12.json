@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 12,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:34:39.621558",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 32% chance that you will not pass your final year. That does not mean you are doomed; in fact, the opposite is more likely. But the risk is high enough that the school requires remedial courses to improve your odds.\n\nThe single strongest signal in your case is your history of past failures. You have already failed three classes, while students who typically pass have none on record. This stands out as the main reason the model leans toward failure, because past struggles often repeat unless something changes.\n\nInterestingly, two other important factors actually work in your favor. Your father staying at home, and the fact that your guardian is someone other than your mother or father, both nudge the prediction toward passing. In other words, these circumstances are not putting you at risk; they are slightly protective compared to other students.\n\nWhat should you do next? Since past failures carry the most weight, focus on understanding what went wrong before. Meet your teachers, ask for extra help, and use the remedial courses to close those gaps. You also have strong foundations: you have perfect attendance, which shows you are showing up ready to work. And note that every passing student in the dataset wanted to pursue higher education, while you indicated no interest. If you have doubts about your future path, talking to a counsellor might help you find a goal worth working toward. Your situation is not fixed, and this warning is an opportunity to change direction before it is too late.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

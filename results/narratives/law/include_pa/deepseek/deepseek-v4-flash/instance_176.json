@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 176,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:53:23.962094",
+  "status": "success",
+  "narrative": "Your application was denied because our model predicts a 69% chance that you would fail the bar exam on your first attempt. In practical terms, this means that, based on the academic and background factors we examined, you were assessed as being at substantial risk of not completing the critical licensing step required for a legal career. That risk made your admission a poor bet for the law school.\n\nThe single most important reason for this outcome was your undergraduate grade point average. At 2.60, it falls well below the average of 3.23 for admitted students. This is a strong signal that your prior academic performance may not be at the level needed to handle the rigors of law school and bar preparation. It pushed the prediction strongly toward failure.\n\nThe next most influential factor was your LSAT score. Your score of 34 is noticeably lower than the admitted-student average of 37.18. Along with your GPA, this suggests that you might struggle with the standardized reasoning skills the bar exam tests.\n\nThe third factor was your family income bracket, where you fall in the middle category. This had a smaller influence, but still pushed slightly toward failure, likely reflecting fewer of the resources or support systems more common among upper-middle-income students. Keep in mind that your gender and race were never considered.\n\nThe good news is that these are not fixed barriers. You can retake the LSAT after focused preparation, and you could strengthen your academic record through post-baccalaureate coursework. If you show improved performance, you would be a much stronger candidate when you reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

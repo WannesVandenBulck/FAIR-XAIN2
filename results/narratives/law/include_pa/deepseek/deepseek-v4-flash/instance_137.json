@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 137,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:42:41.170892",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates you have a 57.8% chance of failing the bar exam on the first attempt. In other words, you are more likely to fail than pass, and that risk is what drove the decision.\n\nThe most important factor in this prediction was your LSAT score. Interestingly, it actually worked in your favor: with a score of 38, you are slightly above the average of accepted students (37.18), so this part of your profile pushed you toward passing, not failing. That means the problem lies elsewhere.\n\nThe second strongest influence was your class standing in your third year. Here, the model saw a clear risk factor: your standing pushed you toward bar exam failure. While you were in the fourth decile, which might look reasonable, when combined with other parts of your academic record the model still treated it as a warning sign.\n\nThe third most important factor was your undergraduate GPA. At 2.70, you are well below the average GPA of 3.23 among accepted students. This was another strong push toward failure. Together, your third-year class position and undergraduate GPA outweighed the positive signal from your LSAT score, leading to the final prediction of 57.8% failure.\n\nYour gender and race played no role in this decision.\n\nWhat can you do next? Focus on addressing the two weaker areas. Consider retaking the LSAT to raise your score even further, and if possible, take additional coursework or a post-baccalaureate program to demonstrate that you can succeed at a higher academic level. Strengthening these parts of your record would directly lower your predicted bar exam risk and improve your chances if you reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

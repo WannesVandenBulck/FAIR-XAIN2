@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 37,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:42:47.210826",
+  "status": "success",
+  "narrative": "Based on the information available, the model estimates a 34% chance that you will not finish the year successfully. That means there is a meaningful risk, and because of it, you are being asked to take remedial courses to make sure you stay on track. The single most influential reason for this decision is that you said you do not plan to continue into higher education. Out of everything considered, this was the strongest factor pushing toward a failed outcome. In the comparison group, nearly every student who passed the year did want higher education, so your answer stands out as a major warning sign.\n\nThe next two most important factors actually worked in your favor. You have never failed a previous class, and that history strongly supports your ability to pass now. Also, your commute of thirty to sixty minutes unexpectedly counted slightly toward passing rather than against it. These positive points lowered the overall risk, but they could not fully balance out the concern about your future goals.\n\nThe real issue is not your ability, but your motivation and direction. You have no past failures to worry about, and your current attendance is reasonable. The remedial courses should help you build stronger study habits and connect your daily work to a meaningful plan for after school. Consider talking with a counselor or family member about possible careers, even if university is not your goal. Seeing the concrete benefits of finishing this year—like more job options or higher pay—could change your outlook. With your clean record so far, you have a solid foundation. Clarifying what you are working toward will make the difference.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

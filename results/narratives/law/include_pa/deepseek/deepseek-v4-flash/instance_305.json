@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 305,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:30:00.365005",
+  "status": "success",
+  "narrative": "After reviewing your application and the model’s risk assessment, the law school denied admission because the prediction indicated a 76.7% chance that you would fail the bar exam on your first attempt. In plain terms, the model sees you as high-risk, even though you are clearly a capable student.\n\nThe most influential factor in this decision was your third-year class ranking. You were in the top decile, which sounds outstanding—yet the model has learned from previous bar examinees that a very high ranking like this actually pushes the prediction strongly toward failure. While accepted students tend to fall near the middle of their class in that year, your position at the very top was the single biggest reason the model leaned negative. Your first-year ranking also pushed in the same direction, though with less weight. Again, being in the top decile is normally a positive, but the model associated this pattern with a higher likelihood of failing the bar.\n\nInterestingly, your undergraduate GPA of 2.90, which is below the 3.23 average, did not hurt you. In fact, the model treated it as a slight factor in favor of passing—but its influence was far too small to offset the negative signal from your class ranks.\n\nWhat should you do next? I recommend contacting the admissions office to see if you can provide additional evidence of your academic readiness, such as strong letters of recommendation, relevanth work experience, or a plan for bar preparation. You might also request an interview or ask for a reconsideration based on a reassessment of your file. Consider retaking the LSAT to improve your score, or seeking admission to a program with a different focus. Your top-class standing shows you can excel academically; the model’s concern is about the bar exam itself, so demonstrating a targeted prep strategy may help your case.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

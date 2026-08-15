@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 57,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:24:48.359303",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessing bar exam readiness found more signals pointing toward failure than success. You had a 52.6% predicted chance of failing the bar on the first attempt—not an overwhelming risk, but enough that the law school judged it too high to accept.\n\nThe strongest factor in this decision was your third-year class rank. You finished in the 2nd decile—meaning you were near the bottom of your class—while accepted students typically land around the 6th decile. This was the single most influential reason the model leaned toward failure. Your first-year rank also worked against you: being in the 3rd decile compared to the 6th-decile average among accepted students reinforced the pattern of academic struggle, though it carried less weight than your third-year performance.\n\nInterestingly, your family income was the second most influential feature overall, but it worked in your favor. Despite coming from a lower-middle-income background—a group that makes up only about 9% of accepted students—the model interpreted this as pushing you slightly toward passing. In other words, your financial background was not part of the problem.\n\nThe core issue is clear: your class rankings, especially in your final year, signaled to the model that you would be at risk of failing the bar. Moving forward, focus on dramatically improving your academic performance, particularly in your final year, and consider repeating or strengthening coursework to demonstrate mastery. If you reapply, stronger grades will directly address the two factors that sank your application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

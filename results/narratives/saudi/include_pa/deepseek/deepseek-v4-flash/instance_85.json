@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 85,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:32:48.354358",
+  "status": "success",
+  "narrative": "Based on the information available, the model’s prediction is that there is an 85% chance you will leave your job in the near future. This is why the promotion was denied: retaining talent is a key factor in promotion decisions, and the data strongly suggests you are likely to depart.\n\nThe most influential signs pointing toward leaving come from your overall career history, your time with this organization, and outside offers. You have six to ten years of total professional experience—more than most employees who stay, who typically have one to five years. However, while your overall experience is substantial, you have only been in your current role for one to five years. That gap matters: you are seasoned enough to be attractive elsewhere, but not yet deeply anchored in this organization.\n\nThe strongest single signal is your overall experience, which pushes clearly toward leaving. Your relatively short tenure here also contributes, though a bit less strongly. And significantly, you indicated receiving other job opportunities while working here. Very few employees who stay—only about one in four—receive outside offers. This third factor adds meaningful momentum to the leaving prediction, because it suggests you are actively sought after or exploring alternatives.\n\nFor the organization, this is a warning sign and an opportunity. It would be wise to have an open conversation with you about your career path, what would encourage you to stay, and whether a promotion or other adjustments—such as salary, recognition, or job flexibility—could change that trajectory. For you personally, this may be a moment to clarify your own goals and what you truly want from your next step.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

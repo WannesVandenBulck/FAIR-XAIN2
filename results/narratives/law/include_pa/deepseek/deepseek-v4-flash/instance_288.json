@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 288,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:24:55.956699",
+  "status": "success",
+  "narrative": "The model assessed that you have an 84.2 percent probability of failing the bar exam on the first attempt. That means that, based on patterns in past students' records, this level of academic performance has historically been a strong signal of bar exam difficulty. The application was denied because the most important factors in this prediction were your class ranking in the third year of study, your class ranking in the first year, and your LSAT score, in that order.\n\nThe most significant influence was your third-year class standing. You were in the first decile, the very bottom of your class. By contrast, admitted students typically sit around the sixth decile. This placed you far outside the range associated with bar success, and it moved the prediction strongly toward failure. Your first-year standing also pointed in the same direction: the second decile versus the sixth decile average among admitted students. It was the second most important reason for the decision, reinforcing the picture of consistently low grades. Less influential but still relevant, your LSAT score of 31 is well below the admitted pool's average of 37.18, contributing a further, more moderate push toward a predicted failure.\n\nTaken together, these three signals outweighed the strengths of your application. To improve your prospects, focus on raising your class standing in subsequent years, retake the LSAT with preparation, and build a record of strong academic performance before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

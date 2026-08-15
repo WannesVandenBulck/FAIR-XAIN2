@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 144,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:44:29.910090",
+  "status": "success",
+  "narrative": "Your law school application was denied because the admissions model estimated that you would have a 63% chance of failing the bar exam on the first attempt. That is a substantial risk, and the university judged it too high to grant you admission.\n\nWhat drove that estimate? The most important factor was your third-year class decile. At the lowest possible rank, you were at the bottom of your class, while admitted students typically sit near the middle with a decile around 5.79. This single piece of information pushed the prediction most strongly toward bar exam failure. The second most influential factor was your LSAT score. Your score of 22.00 is far below the average of 37.18 among admitted students, and it too pointed toward a high chance of failing the bar.\n\nThe third factor in importance was your first-year decile. Here the direction was surprisingly different: despite your decile of 3.00 being lower than the admitted average of 6.00, the model treated it as a mild point in your favor, slightly reducing the predicted failure risk. This suggests that your early performance was seen as less discouraging than your later record would indicate. However, that small positive nudge was far too weak to overcome the much stronger negative signals from your third-year ranking and LSAT score.\n\nWhat can you do next? Focus on two things. First, prepare intensively and retake the LSAT; a substantially higher score would directly reduce the most important risk factor. Second, if you are still in school, work to raise your class standing in your final year, especially if you can improve your upper-level grades. A stronger LSAT and a better third-year decile would put you in a far more competitive position for a future application. The decision is not permanent, and with focused effort you can change these deciding factors.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

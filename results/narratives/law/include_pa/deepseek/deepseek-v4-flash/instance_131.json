@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 131,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:41:39.864503",
+  "status": "success",
+  "narrative": "Your application was denied because the model that assesses law school readiness estimated a 61.7% chance that you would fail the bar exam on your first attempt. That is a high risk, and the school determined that admitting you would likely lead to an unsuccessful outcome. The decision was based on a few key signals from your academic record, not on who you are as a person.\n\nThe single most important factor was your class standing in the third year of your studies. You finished in the second decile, meaning you were near the very bottom of your class. Students who were accepted into this program typically finish around the sixth decile, so this gap was stark and heavily pushed the prediction toward failure. Your first-year class standing also mattered, though less strongly. You were in the third decile, while accepted students averaged around the sixth. This consistent struggle across both early and later years indicated to the model that your academic performance in law-related coursework has been well below the level needed to pass the bar.\n\nInterestingly, your family income worked in your favor. Coming from an upper-middle-income background reduced the predicted failure risk slightly, perhaps because it suggests access to resources like tutoring or study support. However, this positive influence was not enough to offset the strong negative signals from your class rankings. Your LSAT score of 31 and undergraduate GPA of 2.10 were also below averages for accepted students, but the model concentrated most heavily on your law school performance.\n\nWhat should you do now? Focus on strengthening your academic record. Consider enrolling in additional courses or a post-baccalaureate program to demonstrate improvement, and invest in serious LSAT preparation to bring that score up. If you can show a clear upward trend and stronger test results, you can reapply with better odds.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

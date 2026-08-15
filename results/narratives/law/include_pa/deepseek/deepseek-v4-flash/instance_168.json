@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 168,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:51:29.106101",
+  "status": "success",
+  "narrative": "The decision to deny your application comes down to a statistical prediction: based on the available information, the model estimates that you have a 54.6 percent chance of failing the bar exam on the first attempt. That means, for a candidate like you, failure is slightly more likely than success, and the law school judged that risk too high.\n\nThe most influential factor in this prediction was your academic standing in the third year of your degree. You placed in the second decile, meaning you were near the bottom of your class that year. Among admitted students, the average third-year decile is around 5.8, so your performance sits well below what the school typically sees. This strongly pushed the prediction toward bar exam failure, because third-year grades are a reliable signal of legal knowledge and exam readiness.\n\nYour other two major factors actually worked in your favor. Your undergraduate GPA, although below the admitted-student average of 3.23, contributed toward a lower likelihood of failure than would otherwise be expected. Similarly, your family income being in the high bracket served as a protective factor in the model, also pushing slightly toward passing. However, these two positive contributions were not enough to outweigh the strong negative signal from your third-year class rank.\n\nTo improve your chances, focus on raising your academic performance in future coursework or a post-baccalaureate program, and consider retaking the LSAT to strengthen your overall application. Reapply once you can demonstrate greater academic resilience and readiness for the demands of law school.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

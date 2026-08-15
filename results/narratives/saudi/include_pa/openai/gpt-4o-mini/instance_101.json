@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 101,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "timestamp": "2026-08-15T15:43:34.735826",
+  "status": "success",
+  "narrative": "The model has predicted a 58% chance that you may leave your job, which suggests a significant concern regarding your future with the organization. This prediction has influenced the decision to deny you a promotion, as the organization is likely prioritizing stability and retention in its workforce.\n\nThe primary factors leading to this prediction include the opportunities you have received from other employers, your extensive experience, and the challenges you face in balancing work and personal life. The model indicates that you are more likely to consider leaving due to the job opportunities available to you, which is a concern since many employees who stay tend to have fewer external offers. Additionally, while you have over 11 years of experience, which is commendable, it may also suggest that you are at a stage in your career where you seek new challenges or advancements that your current role may not provide.\n\nMoreover, the difficulty you experience in maintaining a healthy work-life balance could contribute to feelings of dissatisfaction, pushing you closer to the decision to leave. This is particularly relevant given that many employees who are predicted to stay report a more manageable balance between their work and personal lives.\n\nMoving forward, it may be beneficial for you to discuss your career aspirations and any support you need to enhance your work-life balance with your manager. The organization should also consider how to better engage and retain experienced employees like you, ensuring that your contributions are recognized and that you feel valued in your role.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

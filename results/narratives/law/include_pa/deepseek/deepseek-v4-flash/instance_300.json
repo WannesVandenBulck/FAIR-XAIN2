@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 300,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:28:44.344365",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessing bar exam readiness assigned you a 72.5% probability of failing on the first attempt. That means the law school concluded the risk was too high to admit you. The prediction wasn’t based on your gender, race, or family income; it was driven almost entirely by three factors.\n\nThe most influential factor was your third-year class decile. Being in the very top decile of your Year 1 and Year 3 grades sounds excellent—and in fact, accepted students averaged around a decile of 6. However, in this dataset, a decile value of 1 is the *lowest* academic grouping, not the highest. Your Year 3 decile of 1 strongly pushed the prediction toward failing the bar. Your Year 1 decile of 1 also pushed in that direction, but less strongly than your third-year standing. Together, these two features told the model that your academic trajectory and performance relative to peers, especially in the final year, were not strong indicators you would survive the rigor of bar preparation.\n\nThe one factor working in your favor was your undergraduate GPA of 3.50, which is above the accepted-student average of 3.23. This pushed the prediction slightly toward passing the bar. Unfortunately, that positive influence was not enough to outweigh the negative signals from your class position. Your LSAT score of 38 was essentially average, and your family income and intended full-time enrollment did not meaningfully change the outcome.\n\nWhat should you do next? Request an appointment with the admissions office to discuss this decision. Ask whether your decile ranking is calculated differently than assumed—if there is a data error, you may appeal. More importantly, consider retaking core first-year and third-year courses or pursuing a post-baccalaureate program that demonstrates academic growth. Competitive LSAT prep and reapplying after you have shown sustained high performance in upper-level legal studies will directly address the two factors that carried the most weight in this denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

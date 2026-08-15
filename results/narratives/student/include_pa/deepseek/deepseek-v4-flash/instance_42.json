@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 42,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:44:04.603335",
+  "status": "success",
+  "narrative": "Based on your information, the model estimates you have a 15 percent chance of failing your final year. This means that while your overall situation looks mostly positive, the model still sees enough of a risk to recommend remedial courses as a safety net.\n\nInterestingly, the three most important factors in this decision all actually work in your favor. The strongest influence was your reason for choosing this school: you selected it because of its reputation. Students who choose a school for its reputation tend to be more invested in their education, which pushes the model toward predicting you will pass. The second most influential factor is your record of past failures, which is zero. Having never failed a course before is a strong sign that you have kept up with your studies, and this also pushes the prediction toward passing. The third factor is your family relationships, which you described as good. A supportive home environment often helps students stay motivated, and again this steers the prediction in a positive direction.\n\nSo why are you being asked to take remedial courses? Even though your most important factors point toward success, the model still assigns you a small but meaningful chance of failing. That remaining risk is enough to trigger the requirement. To lower this risk further, consider building on your strengths by strengthening your study routine, making use of extra support if you feel challenged in any subject, and keeping the supportive communication with your family open. The model believes you are close, and these courses can help ensure you finish the year successfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

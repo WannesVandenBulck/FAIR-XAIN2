@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 64,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T18:31:11.332061",
+  "status": "success",
+  "narrative": "The model’s assessment shows you have a 10% chance of not completing the year successfully. That means that for every 100 students with a similar profile, about 10 would struggle to pass. While that is a relatively low risk, it is high enough that the school requires you to take remedial courses as a safety net to prevent you from becoming part of that group.\n\nInterestingly, the three factors that most strongly influenced your evaluation were all favorable ones. Your history of no previous failed classes is a powerful positive sign; many students who pass also have a clean record, and you are in that same situation. Your reason for choosing this school was its reputation, which suggests you are motivated by quality and are making a deliberate choice about your education. While most students who passed chose the school because of a specific course, your focus on reputation still works in your favor. Your study time of five to ten hours per week is also higher than what many successful students report, showing that you are putting in meaningful effort.\n\nBecause these factors all push you toward a successful outcome, your overall risk remains low. However, the small but real chance of failure is why the school wants you to take extra courses. The best way to use this opportunity is to keep up your strong study habits and seek help early if any subject feels challenging. You already have a solid foundation; these courses are meant to make it even stronger and ensure you finish the year with confidence.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

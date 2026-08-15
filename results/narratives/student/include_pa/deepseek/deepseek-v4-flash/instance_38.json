@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 38,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:43:01.994440",
+  "status": "success",
+  "narrative": "The model estimates that you have a 13 percent chance of failing your final year. That is a low risk, but it is still high enough that the school requires you to take remedial courses as a precaution. The strongest factor behind this prediction is your record of past failures. You have never failed a class, which is a very positive sign. Students who passed also had, on average, no past failures, so this part of your profile works in your favor and lowers your chance of failing.\n\nThe second most influential factor is your desire to pursue higher education. You said you want to continue studying after school, and that is another positive signal. In fact, every student who passed in the data shared that same ambition, so it pushes you further toward success.\n\nThe third factor is your weekend alcohol consumption. You reported drinking little on weekends, which also matches the pattern of students who passed, most of whom drank very little or none at all. This is another protective factor.\n\nSo all three of the strongest influences on your prediction actually point toward passing, not failing. Your overall risk is low, but it still sits just above the level where the school feels extra support is necessary. Think of the remedial courses as a safety net rather than a punishment.\n\nTo bring your risk even lower, focus on your weekly study time, which is currently under two hours. Most students who passed studied between two and five hours per week. Building a more regular study routine could make the difference, and with your strong foundations, you are well placed to finish the year successfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

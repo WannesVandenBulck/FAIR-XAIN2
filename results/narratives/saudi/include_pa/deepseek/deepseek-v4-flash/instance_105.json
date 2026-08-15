@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 105,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:36:40.390071",
+  "status": "success",
+  "narrative": "Your promotion was denied because the model predicts an 82% chance you will leave your job in the near future. This is not a judgment on your performance; the signals in your work situation strongly resemble those of employees who resign. Your gender, age, and health were not part of this decision.\n\nThe strongest signal is your overall experience. With 6 to 10 years in total, you have more experience than many employees who stay, and experienced professionals often look for higher-level roles. The second signal is your tenure here: 1 to 5 years. That shorter time pushes toward leaving, because it suggests you have not yet built deep ties to this organization. The third signal is job alternatives. You have received other offers while working here, but only about one in four staying employees has that option. Having options makes leaving easier.\n\nTogether, these three factors account for most of the high leaving risk. The organization is unwilling to invest a promotion in someone likely to leave. To change this, you and your manager should discuss what would make you want to stay—such as a clearer career path, better pay, or recognition. The organization could offer a retention plan, like a development opportunity or a redesigned role, to lower your leaving risk and make a future promotion more likely.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

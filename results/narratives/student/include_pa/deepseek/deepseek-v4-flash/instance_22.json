@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 22,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:38:21.454668",
+  "status": "success",
+  "narrative": "Your situation is not as clear-cut as it might seem. The model estimates that you have a 19% chance of failing the final year—roughly one in five. Because that is not a negligible risk, the school requires you to take remedial courses, even though you are more likely than not to pass.\n\nLooking at what most strongly influenced this prediction, the single most important factor is actually in your favor: you have never failed a course before. Having zero past failures is a strong signal that you are capable, and it pushes the model toward predicting you will pass. The second most important factor is your own ambition: you have said you want to pursue higher education. In fact, every student in the data who passed also wanted this, so this goal is a meaningful sign pointing toward success. The third factor is your social life. You spend a medium amount of time going out with friends, and this moderate level is the one most common among students who pass. It also works in your favor.\n\nSo why are you being asked to take extra courses? Because the overall picture includes smaller influences that point the other way. For example, you do not have internet access at home, and you are not taking extra paid classes in the subject. Individually these are minor, but combined they raise your risk enough to be concerning. With a 19% chance of failing, the safest next step is to make use of the remedial courses, pay close attention to your study habits, and consider seeking support to keep your risk low.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

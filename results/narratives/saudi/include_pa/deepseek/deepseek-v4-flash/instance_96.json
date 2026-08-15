@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 96,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:34:53.162085",
+  "status": "success",
+  "narrative": "The model predicts a 52% chance that you will leave your job, which is why the promotion was denied—the prediction crosses the threshold indicating a genuine retention risk. The most influential factor in this decision was your total years of experience across all jobs. Having only 1–5 years of experience actually pushed the prediction toward staying, since half of employees who stay share this profile. The second strongest factor also supported staying: you have not received other job opportunities, and the vast majority of stayers (about three-quarters) similarly received none. However, the third factor outweighed those stabilizing signals. Your job engagement was rated as difficult—you found it hard to get involved in decision-making and to have your opinions matter. This is striking because only about 10% of stayers report such difficulty, and it strongly pushed the prediction toward leaving. In short, the model sees you as someone who is early in their career and not being courted elsewhere, but who is struggling to feel involved and heard in the workplace. That disengagement outweighed your otherwise stable profile. The organization should examine how entry-level and mid-level employees are included in decisions, and you should consider raising your concerns about involvement directly with management. If your engagement improves and you feel more integrated into workplace decisions, the risk of leaving would likely diminish, and a future promotion review would be more favorably positioned.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 109,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:35:49.608409",
+  "status": "success",
+  "narrative": "The decision to deny your application was driven by a prediction that you have a 96% chance of failing the bar exam on your first attempt. In practical terms, this means the model sees your academic record as a very strong signal that you would not clear the licensing hurdle required for a legal career, which is why the university could not admit you.\n\nThe single most influential factor in this prediction was your class ranking in your third year. You finished in the bottom tenth of your class, and this matters more than anything else because it is the closest available measure of how you perform at the end of your legal studies. The second most influential factor was your LSAT score. At 25, it fell well below the average of about 37 among successful applicants. Because the LSAT is designed to measure the reasoning skills the bar exam also tests, this greatly reinforced the prediction of failure. Third in importance was your first-year class rank, also in the bottom tenth, which shows that your academic difficulties were not a one-time event but part of a consistent pattern.\n\nAll three of these factors pushed in the same direction: toward bar exam failure. Your undergraduate GPA of 2.70, also below the typical 3.23, supports the same conclusion, though it had less direct influence. What should you do next? Retake the LSAT after substantial preparation, and consider strengthening your academic record. If you can show meaningful improvement in these areas, you will change the picture the model sees.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

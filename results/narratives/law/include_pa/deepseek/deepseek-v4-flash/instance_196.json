@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 196,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T18:35:08.279431",
+  "status": "success",
+  "narrative": "The model's prediction indicates you have a 51.3% chance of failing the bar exam on your first attempt. This means the balance tilts slightly against you, which is why your application was denied.\n\nThe most influential factor in this prediction was your class standing in your third year of law school. You are in the bottom decile of your class for that year, whereas accepted students typically sit around the middle of their cohort. Ranking this low after three years of legal training is the strongest sign that you might struggle when taking the bar exam.\n\nThe second most important factor, your undergraduate GPA, actually worked in your favor. Your 3.40 GPA is higher than the 3.23 average among admitted students, so this pushed the model toward predicting you would pass. Unfortunately, this positive signal was not strong enough to overcome the concerns raised by your law school performance.\n\nYour first-year class standing also contributed to the decision. Being in the bottom decile from the very start of law school reinforced the concerning pattern seen in your third year.\n\nYour LSAT score of 29, well below the 37 average of accepted applicants, paints a similar picture, though it was not among the three most decisive factors.\n\nTo improve your chances in the future, focus on raising your class standing through additional coursework and academic support, and consider retaking the LSAT after thorough preparation. A stronger LSAT score and improved grades would offer far more evidence that you could pass the bar exam on the first attempt.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

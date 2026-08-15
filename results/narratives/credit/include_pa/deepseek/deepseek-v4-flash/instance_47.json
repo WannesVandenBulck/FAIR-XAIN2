@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 47,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:04:10.354225",
+  "status": "success",
+  "narrative": "Your loan application was denied because our risk assessment determined that you have a 27% chance of defaulting—meaning that out of 100 people with similar profiles, about 27 fail to repay. While that might sound like a minority, it is above the bank's acceptable threshold, so we cannot offer you credit at this time.\n\nThree main factors drove this decision. The most important one was the condition of your checking account, which is currently overdrawn. This is a significant warning sign: only about 13% of approved applicants had a negative balance. It suggests immediate cash-flow pressure that could make it harder to keep up with loan payments, and this pushed strongly toward denying your request.\n\nInterestingly, your loan duration worked in your favor. You asked to borrow over just 6 months, compared with the typical 19 months, which means the bank's money would be at risk for a much shorter period. This factor reduced your overall risk. Your credit history also gave you a slight advantage: although it shows some critical or other existing credits, the model did not treat this as a major red flag—it actually nudged your risk score downward, especially compared with a history of past payment delays.\n\nHowever, the negative checking account balance outweighed these positive factors and pushed your risk above the acceptable range, even despite your stable employment, low installments relative to your income, and owned home.\n\nWhat you should do next: focus on bringing your checking account into positive territory and keeping it there for several months without overdrafts. Once your account shows stability, you can reapply with a stronger chance of approval. If you need funds sooner, consider applying for a smaller amount or asking someone to co-sign.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

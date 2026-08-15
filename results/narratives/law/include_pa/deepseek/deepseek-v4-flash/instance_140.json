@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 140,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:43:44.186950",
+  "status": "success",
+  "narrative": "The model predicts a 56.7% likelihood that you would fail the bar exam on your first attempt, meaning the evidence points slightly more toward failure than success. This is why your application was denied.\n\nThe single most influential factor was your class standing in your third year. Being in the 2nd decile places you among the lowest-performing students in your cohort, while admitted students typically sit near the middle (around the 6th decile). This strongly signals that you struggled with legal coursework, and that pattern historically translates into a high risk of bar exam failure. Because this factor dominated your profile, it outweighed your other strengths.\n\nYour LSAT score, however, worked in your favor. At 39, you scored above the average of about 37 for accepted students, pulling the prediction toward passing. Likewise, your undergraduate GPA of 3.10—though slightly below the accepted-student average—still contributed mildly toward a pass prediction. In other words, your raw aptitude was not the concern.\n\nThe problem is not your ability but your performance in law school itself, particularly in the later years when the material becomes most demanding. If you wish to reapply, focus on addressing that pattern directly. Consider strengthening your academic record through additional coursework, improving your study strategies, or resolving any personal obstacles that affected your grades. Retaking the LSAT to raise an already solid score could help, but your clearest path forward is demonstrating that you can perform well in rigorous legal studies—because that is exactly what the bar exam requires.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

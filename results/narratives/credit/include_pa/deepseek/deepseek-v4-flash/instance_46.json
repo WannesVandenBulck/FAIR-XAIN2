@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 46,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:04:00.188796",
+  "status": "success",
+  "narrative": "Based on the information you provided, our assessment shows a 56% chance that you would default on the loan—meaning the risk of non-payment is slightly higher than the chance you would repay. Because of this elevated risk, your application was denied.\n\nThe main reason for this decision is the size of the credit you requested. At 10,623 Deutsche Marks, your request is more than three times the average approved amount of about 3,020. A loan of that size puts greater strain on your finances, and the model saw this as the strongest factor pushing toward a bad outcome.\n\nYour checking account status also played a major role. Having a negative balance in your checking account is uncommon among approved applicants—only about 13% of them are in that situation. This suggests you may not have enough buffer to handle unexpected expenses, which further increased the perceived risk.\n\nInterestingly, your credit history did not hurt you. Even though it was recorded as “critical/other credits,” this factor actually nudged the assessment in the positive direction, slightly lowering your risk compared to what it might have been. Still, the combined weight of the large loan amount and your negative account balance outweighed that positive influence.\n\nTo improve your chances in the future, consider reducing the amount you request and building a more positive checking account balance. Taking these steps could help you present a lower-risk profile and make your next application more likely to succeed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

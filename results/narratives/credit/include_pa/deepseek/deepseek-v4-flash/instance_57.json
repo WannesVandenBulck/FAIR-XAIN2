@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 57,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:06:47.233736",
+  "status": "success",
+  "narrative": "Your application was denied because the model assesses a 31% chance that you would default, and at that level it classifies you as a bad credit risk. In other words, based on patterns from many similar applicants, the bank sees a real chance you would struggle to repay the loan. Three factors mattered most, listed from strongest to weakest influence.\n\nThe single most important factor was your savings account balance. With at least 1,000 DM in savings, you are in an unusually strong position—only about 3% of approved applicants have that much saved. This actually helped your application, acting as a financial cushion that reduced your overall risk.\n\nThe second most important factor worked against you: the purpose of the loan. You asked for credit to buy a new car. Loans for new cars are less common among approved applicants than loans for furniture or entertainment equipment, and they tend to be riskier in the bank’s experience.\n\nThird, the balance in your checking account, between 0 and 200 DM, also pushed the prediction toward denial. Most approved applicants have no checking account or a much larger balance, so this modest amount did not reassure the model.\n\nEven with your strong savings, these two negative signals outweighed that benefit and led to the denial. To improve your chances in the future, build up your checking account balance, consider applying for a smaller loan or a different purpose, and reapply after a period of steady employment and savings.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

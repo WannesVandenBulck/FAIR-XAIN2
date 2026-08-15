@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 26,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:17:17.866147",
+  "status": "success",
+  "narrative": "The model's assessment of your application points to a 67.4% probability that you would fail the bar exam on your first attempt — meaning roughly two out of three students with a similar profile do not pass. This elevated risk was the fundamental reason your application was denied.\n\nThe strongest signal in your file was your class rank. Your third-year performance was the single most influential factor: you finished in the second decile of your school, placing you in the bottom 20% of your cohort, whereas accepted students typically sit around the sixth decile. Your first-year rank was nearly as important and told the same story — a second-decile finish, again far below the accepted-student average. Being near the bottom of your class in both your first and third years suggests difficulty mastering legal material, and the model read this as a strong indicator that you would struggle on the bar exam.\n\nThere was one meaningful factor working in your favor. Your undergraduate GPA of 3.70 stands well above the 3.23 average for accepted students, and the model recognized this as evidence of underlying academic ability, pushing toward success. Unfortunately, that single positive signal was not enough to overcome the weight of two consecutive years of low class rank.\n\nWhat should you do next? Focus first on improving your class standing: seek academic support, strengthen your weakest subjects, and build a clear upward trend in your grades. You should also consider raising your LSAT score, which currently sits below the typical accepted-student average. If you reapply with a demonstrated record of academic improvement, the outcome could be very different.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

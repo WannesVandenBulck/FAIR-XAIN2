@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 225,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:06:11.021545",
+  "status": "success",
+  "narrative": "Based on your academic record, the model estimated a 71.1% probability that you would fail the bar exam on your first attempt, a risk the admissions committee found too high to accept. The most influential factor in this decision was your law school class standing. Both your first-year and third-year rankings placed you in the lowest decile, while students who were accepted typically ranked around the sixth decile. Your third-year class rank carried the most weight, followed by your first-year rank. Together, these two measures revealed a persistent pattern of struggling relative to your peers throughout law school, and both strongly pushed the prediction toward bar exam failure.\n\nYour undergraduate GPA, at 3.10, was slightly below the average of 3.23 for admitted students. Interestingly, this factor actually worked in your favor, gently pushing the prediction toward passing the bar. However, its positive influence was not strong enough to offset the powerful negative signal coming from your law school performance.\n\nWe recommend that you focus on strengthening your academic record before reapplying. Because your class rankings were the decisive factor, consider retaking challenging courses, engaging with academic support services, and building a track record of strong performance in upper-level or graduate work. Demonstrating clear upward momentum in your grades would give the admissions committee—and the model—far more encouraging evidence the next time you apply. Your undergraduate GPA shows you have capability; the key is proving that you can translate that capability into consistent success within a rigorous law school environment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

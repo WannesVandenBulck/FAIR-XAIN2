@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 55,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:06:21.040382",
+  "status": "success",
+  "narrative": "Based on the information available, the model assessed a 59% probability that you would be a bad credit risk—meaning that, statistically, you were judged more likely than not to have difficulty repaying the loan. Because that risk outweighed the potential benefit, your application was denied.\n\nThe most significant factor working against you was the status of your checking account. You have a negative balance, a situation that only about 12.6% of approved applicants had. This strongly suggests financial strain and was the single biggest driver pushing the decision toward denial.\n\nYour savings account also played a major role, though in a slightly different way. With unknown or no savings—a profile shared by about a third of approved applicants—you lacked the financial buffer that lenders look for. This absence of a safety net further reinforced the risky profile, pushing the prediction in the same direction.\n\nFinally, the purpose of the loan added to the assessment. You requested the credit to purchase a new car, which is a less common purpose among approved applicants (around 16.5% compared to more frequent uses like radio/TV or furniture). While not inherently negative, it contributed to the overall risk picture.\n\nThe encouraging news is that some of these factors are within your control. To improve your chances in the future, focus on bringing your checking account into positive territory and building a modest savings cushion. Consider applying for a smaller loan for a different purpose, or waiting until your financial situation is more stable. These changes would address the very areas that most influenced this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

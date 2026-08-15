@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 80,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:11:52.170176",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model sees your profile as too risky. It estimated a 45% chance that you would become a bad credit risk—meaning that in a group of 100 people like you, about 45 would struggle to repay. Even though a majority would repay, that is still too high for the bank to approve.\n\nThree factors mattered most. The strongest was the amount you requested. Your requested amount was lower than the average approved loan, so this pointed toward good credit risk. The second most important factor was your checking account status. Your account is below zero, while most approved applicants have no overdraft; this pointed strongly toward bad credit risk. The third factor was your installment burden. Your payments are only 2% of your disposable income, lower than the average of about 3%, so this also pointed toward good credit risk.\n\nIn the end, the negative signal from your overdrawn checking account outweighed the two positive signals. Positive factors like your stable job and existing paid credit history were not enough to overcome it.\n\nTo improve your chances, bring your checking account into positive balance and keep it stable for several months. Avoid taking on new credit during that time. You may also consider asking for a smaller loan or providing a larger down payment. Reapplying later with a healthier account would give you a much stronger profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 4,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:54:28.990113",
+  "status": "success",
+  "narrative": "Your loan application was denied because the bank’s risk model estimated a 27% probability that you would default on the loan. While this means there is a 73% chance you would repay, the bank treats a 27% default risk as too high for approval, given its lending standards. Three key factors from your financial profile drove this decision, ranked by their influence.\n\nThe most significant factor was your savings account status. Even though you have no savings or an unverified account, this actually worked in your favor, nudging your risk downward. Many approved applicants are in a similar situation, so the model did not penalize you heavily here. The second most influential factor, however, worked against you: you have an existing installment plan at a bank. This is a red flag, as only about 9% of loan applicants carry such an obligation, while the vast majority have none. This additional debt burden suggests a higher risk of financial strain, and it pushed your overall risk upward. The third factor was the purpose of your loan—a used car. This had a mild positive effect, as used-car loans tend to be associated with lower risk than other purposes like business or education.\n\nIn the end, the weight of your existing bank installment plan outweighed the positive aspects of your savings and loan purpose, keeping your default probability above the bank’s acceptable cutoff. To improve your chances in the future, focus on paying off that other installment plan or reducing any other debts. Building a small savings cushion, even a modest amount, would also strengthen your profile. Reconsidering the timing of the car purchase until your obligations are lighter could make a meaningful difference.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

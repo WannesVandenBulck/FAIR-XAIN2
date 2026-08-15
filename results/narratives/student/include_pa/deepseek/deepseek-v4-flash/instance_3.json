@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 3,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:31:53.710209",
+  "status": "success",
+  "narrative": "The model estimates that you have a 42% chance of failing your final year. That is not a certainty, but it is a serious warning sign: among students with a similar profile, more than four out of ten do not complete the year successfully. This is why you are required to take remedial courses — the risk is too high to ignore.\n\nThe strongest reason for this prediction is your history of past failures. You have already failed two classes, while students who passed this year typically had none. Past failures are the single most important clue the model uses, because they often mean that key material or study skills are still missing. This pushes the prediction strongly toward failing.\n\nThere are, however, two factors that work in your favor. Your guardian is someone other than your mother or father, which is rare for students who pass and is actually associated with passing. This may mean you have an adult supporting you in a different way, and that reduces the risk. Likewise, your weekend alcohol consumption is very low, which is also linked to better outcomes. Both of these pull the prediction back toward passing.\n\nBecause past failures are the main warning, your next step should be to focus on exactly where those earlier courses went wrong. Use the remedial courses to close those gaps, ask for help early, and build a consistent study routine. Your current support structure and healthy habits give you a solid base to succeed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 59,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:48:44.571152",
+  "status": "success",
+  "narrative": "Based on your profile, the model gives you a 12% chance of failing your final year. While that might sound like a small risk, it was enough to place you in the category of students who need extra help, which is why you are being asked to take remedial courses.\n\nInterestingly, the three most important factors in the model’s decision all worked in your favor. The single strongest influence was your past academic record: you have never failed a class before. This is a powerful positive sign, because students who pass almost always have a clean record like yours. The second most influential factor was your weekend alcohol consumption. You reported drinking at a low level, which is consistent with most students who pass, and this also pushed the prediction toward success. Finally, the quality of your family relationships played a major role. You described your family life as good, and this matches the experience of the majority of passing students, giving you another solid advantage.\n\nSo why the warning? Even though these three big factors pointed toward passing, they were not enough on their own. The model detected that the overall combination of your circumstances still carried a small but real risk of failure. Think of it as a gentle caution sign, not a verdict on your abilities.\n\nUse this as motivation. Talk to your teachers early, keep up your study routine, and be mindful of how you spend your free time. With your strong record and supportive family, you have every chance of proving the prediction wrong.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

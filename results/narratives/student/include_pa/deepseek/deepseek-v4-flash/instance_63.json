@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 63,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T18:30:52.945369",
+  "status": "success",
+  "narrative": "The model gives you a 12% chance of failing your final year. That means you have an 88% chance of passing, which is good news. However, because failing has such serious consequences, the school uses a very cautious rule: any meaningful risk, even a small one, triggers the requirement to take remedial courses.\n\nYou may be surprised to learn that the three strongest influences in the model actually worked in your favor. The most important was the reason you chose this school: you selected it because of its reputation, a sign of motivation that is much more common among students who pass. The second strongest factor was your spotless record of no past class failures. Students in the passing group averaged zero previous failures, exactly like you, which strongly suggests you are capable of keeping up. The third factor was your wish to pursue higher education. Every single student who passed shared that ambition, and your own \"yes\" places you firmly with them.\n\nSo why the fail prediction? Because the model also weighs many smaller signals together. Your very high level of going out with friends, your high free time after school, and your medium weekend alcohol consumption all quietly push in the opposite direction, raising your risk just enough to cross the school's caution threshold.\n\nThe best way forward is to treat the remedial courses as a safety net, not a punishment. Keep your strong motivation and clean academic record, but consider dialing back weekend drinking and balancing social time with focused study. Those small changes can easily turn your 12% risk into a much safer position.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

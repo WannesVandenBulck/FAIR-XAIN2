@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 244,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:11:41.093321",
+  "status": "success",
+  "narrative": "Your application was denied because of a strong statistical assessment that you would fail the bar exam on your first attempt. The model placed your predicted probability of failure at 72.5%, meaning that, based on the academic patterns of many students before you, you are roughly three times more likely to fail than to pass.\n\nThe most influential factor was your standing in the third year of your studies. You finished in the very bottom decile of your school, while accepted students typically land around the sixth decile. This final-year struggle is the single strongest warning sign the model sees, because the skills tested in that year closely mirror what the bar exam demands.\n\nYour first-year standing also weighed heavily, and again you were in the bottom decile versus the accepted average near the sixth. When both the beginning and end of your academic record show the lowest possible placement, the risk appears substantial.\n\nOne feature worked in your favor: your undergraduate GPA of 3.20, nearly identical to the 3.23 average among accepted students, actually nudged the prediction toward passing. This shows you were not judged weak overall, but that your law-related coursework overwhelmed that positive signal.\n\nSince the denial hinges on your year-end standings, address those directly. Seek academic advice about why those grades were low and whether any courses can be retaken. Strong recent performance in rigorous coursework, or a documented explanation for your early semesters, would give a future review committee concrete evidence to outweigh this prediction.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

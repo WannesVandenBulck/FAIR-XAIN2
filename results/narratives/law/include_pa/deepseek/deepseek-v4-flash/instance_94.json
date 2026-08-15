@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 94,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:32:46.043946",
+  "status": "success",
+  "narrative": "The law school admission decision was based on a model that estimated your chances of passing the bar exam on the first attempt, and that estimate turned out to be heavily against you: an 82% predicted probability of failure. In practical terms, this means that for every ten students with a profile like yours, roughly eight would be expected to fail the bar, which posed too great a risk for admission.\n\nThree main factors drove this decision, ranked by how strongly they influenced the outcome. Your LSAT score was by far the most important factor. At 24, it fell dramatically below the average of 37 among accepted students, and this score pushed the prediction very strongly toward bar exam failure. The second most influential factor was your third-year class decile. Sitting in the 2nd decile, compared to an average of about 5.79 for accepted applicants, indicated that your academic performance in that year was in the bottom fifth of your class. This also pushed the prediction firmly toward failure. Interestingly, your undergraduate GPA had an opposing effect: it actually nudged the prediction toward passing, because a 2.60, while below the 3.23 average, was not catastrophically low. However, this positive influence was the weakest of the three and could not offset the damage done by the other two.\n\nTo strengthen a future application, your clearest path forward is to retake the LSAT and aim for a score much closer to, or above, the accepted-student average. Simultaneously, work on raising your academic standing in your final year, since improving your class decile would directly reduce the strongest signals of risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

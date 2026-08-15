@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 13,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:56:27.951719",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 35% chance that you would become a bad credit risk—a level above what the bank accepts. The three factors that weighed most heavily in this decision were your checking account status, the credit amount, and the loan duration.\n\nYour lack of a checking account actually worked in your favor. Among approved borrowers, more than half have no checking account, so this factor pulled you toward being seen as lower-risk. However, that advantage was not enough to offset two major concerns. You requested 10,366 DM, while approved applicants typically ask for around 3,020 DM. This large amount strongly increased your risk score. Your repayment period of 60 months is also about three times the average approved loan of 19 months, and this longer exposure pushed your prediction further toward bad credit.\n\nIn short, even though you have a long employment history, a good credit record, and your own housing, the combination of a very large loan and a very long payback period outweighed those positives. This decision reflects the statistical risk of these specific loan terms, not a personal judgment.\n\nTo improve your chances, consider applying for a smaller amount and a shorter repayment period. Opening a checking account and maintaining it over time could also lower the estimated risk. These changes would bring your request more in line with applicants who are typically approved.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

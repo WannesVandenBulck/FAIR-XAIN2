@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 103,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:36:20.727680",
+  "status": "success",
+  "narrative": "You are being denied a promotion because the model assessing your retention risk believes there is a 90% chance you will leave the organization in the near future. That prediction is not based on your age, gender, or health, but on three key signals from your work history and current situation.\n\nThe strongest signal is your total career experience. You have spent six to ten years working across different employers. Among employees who are likely to stay, about half have only one to five years of total experience, so your longer history suggests you have options and are not tied to one company. The second strongest factor is that you have received other job opportunities. Only about one in four employees who stay receive outside offers, so having them indicates you are actively being recruited or are attractive in the market. The third factor is how long you have been in your current job: one to five years. While that is common among stayers, combined with your longer overall career and available alternatives, it suggests you may see this role as temporary rather than a long-term commitment.\n\nAll three of these signals pushed the model’s prediction toward you leaving. This does not mean you are disloyal or unworthy, but from a retention perspective, investing in a promotion for you carries a high risk. To change this picture, you and your employer should discuss what would make you stay: clearer growth paths, better compensation, or stronger recognition. Similarly, the organization should consider whether it is creating enough engagement and stability to counterbalance your outside opportunities.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

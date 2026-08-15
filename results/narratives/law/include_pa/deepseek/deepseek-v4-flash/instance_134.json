@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 134,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:42:10.451037",
+  "status": "success",
+  "narrative": "The prediction that led to your rejection centers on a 56% estimated likelihood that you would not pass the bar exam on the first attempt. This means the model considered you slightly more likely to fail than to pass, which fell below the confidence threshold the law school requires for admission.\n\nThe single strongest factor working against you was your academic standing in the third year of your undergraduate studies. Ranking in the bottom decile of your school places you far behind the typical admitted applicant, who falls near the middle of their class in that same year. A weak final-year performance appears to signal to the admissions committee that you may struggle with the rigor of legal study and high-stakes testing.\n\nYour LSAT score also pushed the prediction toward failure, and it deserves attention. At 26.5, your score is significantly below the average of 37.2 among admitted students, reinforcing concerns about your readiness for the exam's analytical demands.\n\nHowever, one factor worked in your favor: your first-year class rank. Placing in the sixth decile—exactly the average for admitted students—actually pulled the prediction toward passing, suggesting you began your studies on solid footing. Unfortunately, that early strength was outweighed by the more recent decline and the low test score.\n\nLooking ahead, consider retaking the LSAT after dedicated preparation and seeking academic support to strengthen your final-year record. Reapplying with improved metrics would substantially change this outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

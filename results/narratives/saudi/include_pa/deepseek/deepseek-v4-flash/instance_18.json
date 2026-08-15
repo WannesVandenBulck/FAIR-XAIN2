@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 18,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:20:16.449224",
+  "status": "success",
+  "narrative": "You are being denied a promotion because the model assesses a 73% probability that you will leave your job. This is a strong signal, not a certainty, but it means the model sees several clear indicators that you are likely to resign in the near future. From the organization's perspective, promoting someone who is probably heading out the door is a poor investment.\n\nThe single most influential factor is your total career experience. With six to ten years in your field, you are highly marketable. Most employees who stay have only one to five years of experience, so your longer track record signals that you have options elsewhere and are more likely to take them.\n\nThe second factor is how long you have been with your current organization: just one to five years. This combination is telling. You have substantial experience overall but relatively short tenure here. The model interprets this as a sign that you might treat this job as a stepping stone rather than a long-term home, making you more likely to move on.\n\nThird, you have received other job opportunities while working here. This is a powerful indicator of departure risk. Only about a quarter of employees who stay receive outside offers, so your situation places you in a smaller, higher-risk group. The model reads this as evidence that you have one foot out the door.\n\nTo improve your chances, the organization should recognize that you are disengaged and underutilized. A frank conversation about retention, growth, and advancement opportunities, along with genuine recognition of your contributions, could reduce your likelihood of leaving and change the model's assessment. For your part, consider whether you actually intend to stay; if you do, communicating that clearly to leadership may help counterbalance what the data currently suggests.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

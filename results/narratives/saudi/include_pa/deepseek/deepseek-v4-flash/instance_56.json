@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 56,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:27:38.242380",
+  "status": "success",
+  "narrative": "You have a 44% chance of leaving your job, according to our model. While that is not a majority, it is high enough that we cannot confidently offer you a promotion right now. The main reasons are not about your age, gender, or health. Instead, three work-related signals stood out.\n\nThe strongest signal actually works in your favor: the number of training programs you attended in the last three years is above average—seven or more, compared to many colleagues who attended none or very few. This shows strong engagement and pushes the model toward predicting you will stay.\n\nHowever, two other signals push strongly toward the opposite conclusion. First, although you have six to ten years of total experience, you have only been in your current organization for one to five years. Employees who stay typically have longer tenure here, and this shorter time at the organization suggests you may still be settling in or exploring other options. Second, your overall experience level, while solid, is not unusual among leavers; combined with your current tenure, it slightly raises the model’s concern.\n\nWhat should happen next? Please speak with your manager about your career path. Your training record shows you are invested, but you may need clearer promotion timelines and more decision-making involvement to strengthen your commitment. The organization should also evaluate whether recent hires receive enough support to build long-term loyalty. This decision is not a judgment of your past work—it is a prompt to align your ambitions with the opportunities available here.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

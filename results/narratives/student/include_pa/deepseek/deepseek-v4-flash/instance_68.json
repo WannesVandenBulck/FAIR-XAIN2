@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 68,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:52:34.092093",
+  "status": "success",
+  "narrative": "Your situation is not set in stone, but the model does see a real risk: it puts your probability of failing the final year at 42%. Because that risk is high enough, your school is requiring you to take remedial courses. The main reason is your history: you have already failed one class in the past, while students who pass have, on average, no prior failures. This is the single strongest signal in your profile and it pushes strongly toward failing. Past difficulty in a class often means the next year will be harder, so the model takes it seriously.\n\nThere are also two things that work in your favor. Your family size is three or fewer, which the model treats as slightly reducing your risk, even though among students who pass larger families are more common. More importantly, you describe your family relationships as good. This also lowers your predicted risk, because a supportive home environment can help you stay motivated and organised.\n\nSo the prediction is not entirely negative. You have a solid base to build on. To change the outcome, focus on turning around the pattern of past failure: create a realistic study schedule, use the remedial courses actively, and ask for extra help early rather than waiting. Your family’s support is already a strength, so let them help you stay accountable. With consistent effort, you can bring that 42% risk down.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

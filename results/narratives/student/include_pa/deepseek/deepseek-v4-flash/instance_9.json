@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 9,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:33:40.551839",
+  "status": "success",
+  "narrative": "The model estimates your chance of failing the final year at 18%. In practical terms, that means roughly eight out of ten students with a profile like yours pass, but this figure is still considered high enough to require remedial courses as a safeguard. Interestingly, the three strongest factors influencing this estimate all worked in your favor, lowering your risk rather than raising it.\n\nThe most influential factor was your history of past failures. You have never failed a class before, which matches the profile of students who go on to pass, and this is the single biggest reason your risk stayed down. Your ambition to continue into higher education was the second most important factor; students who share that goal tend to stay more motivated, and this also reduced your predicted risk. The third factor was your nursery school background. You did not attend nursery school, which is less common among students who pass, yet in your case this counted as a small additional point in your favor.\n\nEven with all three of these protective influences, the model still placed your failure risk at 18% rather than lower, and that is why remedial courses are being required. You should not read this as a sign that you are likely to fail. Instead, treat it as a prompt to build on your existing strengths. Keep your record of no failed classes intact, stay focused on your goal of pursuing higher education, and continue protecting other important areas of your academic life, such as your study routine and school attendance.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

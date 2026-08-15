@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 70,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:53:13.200232",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates you have a 37% chance of failing your final year. That is high enough that the school is requiring you to take remedial courses to help you succeed. The main reason for this prediction is that you have failed a class before. Past failures are the single strongest signal the model uses, and students who eventually passed had, on average, no prior failures. Your one previous failure strongly pushes the prediction toward failing, because it suggests you may have gaps in foundational knowledge or study habits that could carry over.\n\nInterestingly, two other important factors actually push in your favor. Coming from a smaller family, with three or fewer members, is associated with a lower risk of failing; among students who passed, larger families were more common, so your situation is less typical and works in your favor. Additionally, your desire to pursue higher education is a protective factor. Every single student who passed in the dataset wanted to go on to further study, just like you do. This motivation is a genuine strength, and it helps offset some of the risk from your past failure.\n\nStill, the influence of that previous failure is strong enough that the model sees real cause for concern. The best next step is to focus on rebuilding your study routines early, especially in subjects you struggled with before. Use the remedial courses to close those gaps, and remember that your ambition to continue your education gives you a powerful reason to stay committed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

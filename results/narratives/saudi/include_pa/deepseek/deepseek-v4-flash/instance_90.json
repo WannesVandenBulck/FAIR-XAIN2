@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 90,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:33:36.543813",
+  "status": "success",
+  "narrative": "Based on the information available, you have been denied a promotion because the model estimates an 81% chance that you will leave the organization in the near future. This is a very high probability, and it signals to decision-makers that investing in a promotion may not be a safe bet, as you are seen as a significant flight risk.\n\nThe most powerful factor pushing this prediction toward \"leaving\" is the fact that you have received other job opportunities. This alone is a strong signal that your skills are in demand and that you have one foot out the door. Very few employees who stay—roughly one in four—receive such outside offers, so this stands out dramatically. \n\nYour experience level also contributed. With six to ten years in your field, and the same tenure in your current role, you are in a highly marketable position. Employees who stay are more likely to have less experience, so your profile suggests you have the leverage to move on rather than wait for internal advancement. \n\nFinally, your salary range of 11k to 15k SAR played a role. While this is higher than what most staying employees earn, the model interprets this as a signal that you are already being compensated well externally, making you an attractive target for competitors—and therefore more likely to accept an offer elsewhere. All three factors point in the same direction: you are seen as capable, courted, and ready to go.\n\nThe organization should consider that this denial may actually trigger the very outcome the model predicts. You have indicated you feel you deserved a promotion, and with outside interest, the risk of losing you is real. A conversation about your career path or a retention package may be a wiser investment than allowing this prediction to become self-fulfilling.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

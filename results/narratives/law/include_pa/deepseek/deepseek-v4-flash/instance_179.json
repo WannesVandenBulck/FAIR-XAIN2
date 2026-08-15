@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 179,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:53:47.992435",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 54 percent chance that you would fail the bar exam on your first attempt. Above 50 percent makes failure more likely than success, and that was decisive.\n\nThe most important factor was your third-year class standing. You finished in the bottom tenth of your year, while admitted students typically rank around the sixth decile. Being so far behind your peers in law school coursework strongly pushed the prediction toward bar failure, outweighing everything else.\n\nYour undergraduate GPA of 3.00, versus an admitted average of 3.23, actually worked in your favor. Your LSAT score of 30, though far below the typical admitted score of 37, also nudged the prediction toward passing. These two factors pulled against your class rank. They helped, but their influence was modest and could not cancel the strong negative signal from your near-bottom class position.\n\nIn short, one powerful concern—low standing in law school—overwhelmed two milder strengths, your GPA and LSAT.\n\nWhat next? Focus on improving your class rank in your final year and retake the LSAT, aiming for the admitted average around 37. If you remain at a disadvantage, consider working in law for a year or two before reapplying. That will give the next review evidence that your earlier struggles no longer define you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 37,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:02:08.851578",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates a 41% chance you would default, which the bank considers too high a risk. The most important factor working against you was the condition of your checking account. You currently have a negative balance, a situation that only about 12.6% of approved applicants were in at the time of their application. For the bank, this is a strong signal of immediate financial strain, and it outweighed the more positive aspects of your profile.\n\nTwo other factors were nearly as important, and fortunately they worked in your favor. First, your requested installment rate is very low—only 1% of your disposable income, compared to an average of about 3% among approved applicants. This suggests you could comfortably handle the monthly payments, which is a good sign. Second, you asked for a relatively modest amount—about 2,039 DM, notably below the average loan of roughly 3,020 DM. Borrowing less reduces the bank's exposure, another positive point.\n\nHowever, these strengths could not fully offset the concern raised by your overdrawn account. The bank views your immediate cash-flow situation as the most decisive issue.\n\nWhat you can do next: consider rebuilding a positive buffer in your checking account and reapplying after a few months of steady balance. You might also speak with a loan officer about a smaller loan or a longer-term arrangement that could ease the bank's concern.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

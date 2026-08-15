@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 13,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:34:52.586249",
+  "status": "success",
+  "narrative": "The model gives you a 61% chance of failing the final year. That means that, based on how similar students with your profile have performed, the odds are slightly against you. Because of that high risk, you are required to take remedial courses.\n\nThe single most important reason for this prediction is that you have already failed a class before. Students who passed usually had no past failures, so this is a strong warning sign. It suggests that a previous difficulty may still be affecting your preparation or confidence. This one factor alone outweighs everything else the model considered.\n\nThere are, however, two pieces of good news. You have very little free time after school, which actually pushes the prediction slightly toward passing. This may reflect that you are already dedicating most of your time to schoolwork, which is a good habit. Also, you want to go on to higher education, and that desire also works in your favor. Students who aim for university tend to be more motivated and persistent.\n\nEven so, these positive factors are not enough to overcome the risk created by your past failure. The model sees that as the decisive signal, and that is why your path requires extra academic support. Now is the time to focus on building a stronger foundation. Work with your teachers to identify exactly what went wrong before, use the remedial courses to close those gaps, and keep your current study habits and your goal of higher education at the front of your mind. With that effort, you can turn the prediction around.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

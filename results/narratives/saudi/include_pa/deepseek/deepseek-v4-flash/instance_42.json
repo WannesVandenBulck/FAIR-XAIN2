@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 42,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:24:57.922364",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 53%, which means the model sees you as slightly more likely to resign than to stay. Because that risk crosses the decision threshold, the promotion was denied.\n\nThe most important factor pushing the prediction toward leaving is that you have received other job opportunities while working here. Employees who stay typically do not report outside offers, so this stands out as a strong signal that you may already have one foot out the door. Your total career experience of 11+ years also pushed the prediction toward leaving. Most employees predicted to stay have only 1–5 years of total experience, so your extensive background likely means you have more external options and less reason to remain if conditions do not improve.\n\nIn contrast, the number of years you have spent specifically in this organization—6 to 10 years—pushed the prediction toward staying. This is a long tenure, and it suggests a real investment in and commitment to your current workplace. That loyalty partially offsets the other signals, but not enough to outweigh them.\n\nGiven this, both you and the organization should consider what is driving those external opportunities. Are you actively looking, or are offers simply finding you? If you genuinely want to stay and grow here, it would be worth having a direct conversation about your career path. For the organization, this profile may indicate a valued, experienced employee who needs stronger retention incentives.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

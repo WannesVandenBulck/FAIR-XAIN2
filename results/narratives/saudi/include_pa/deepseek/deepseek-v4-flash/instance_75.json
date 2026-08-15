@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 75,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:31:03.792724",
+  "status": "success",
+  "narrative": "The model indicates a 68% chance you will leave your job, which is why the promotion was not approved. This doesn’t mean you definitely will leave, but it signals a strong risk that needs to be addressed.\n\nThe strongest signal behind this prediction is that you have received other job opportunities while working here. In contrast, only about a quarter of employees predicted to stay have such opportunities. This suggests you are in demand and may have alternatives, which naturally pushes the prediction toward departure.\n\nYour longer tenure in your current role—six to ten years—is a stabilizing factor. Most employees who are predicted to stay have similar tenure, so this works in your favor, pulling the prediction slightly toward staying. However, your total experience across all jobs, also six to ten years, pushes the other way. Combined with outside offers, this broader experience may indicate you are highly marketable and more likely to move on, even though you have invested time here.\n\nFor you and the organization, the key takeaway is to focus on why you are exploring outside opportunities. Are you seeking growth, recognition, or a different work environment? The model cannot know your intentions, but it sees the risk clearly. A conversation with leadership about your career path, the support you receive, and what would make you feel more committed here could reduce that risk. By understanding what drives your potential departure, the organization can decide whether to retain you, and you can decide whether this remains the right place for your future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

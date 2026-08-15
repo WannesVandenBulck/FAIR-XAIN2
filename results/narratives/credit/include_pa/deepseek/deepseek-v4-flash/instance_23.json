@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 23,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:58:48.458390",
+  "status": "success",
+  "narrative": "Based on your application, the model assessed an 81% chance that you would be unable to repay the loan. That is a very high level of risk, and it is why your application was denied. The decision was driven mainly by three aspects of your financial profile, each of which pointed toward potential trouble.\n\nThe strongest factor was the length of the loan you requested: 60 months. That is over three times longer than the average loan term among approved applicants, which is about 19 months. A longer repayment period may seem easier to manage month-to-month, but it also means more time for your financial situation to change, and the model sees this as a serious warning sign.\n\nThe second most important factor was your checking account balance. With only 0 to 200 DM available, you fall into a category that is much less common among people who are approved. Most approved applicants have no balance at all or a higher balance. A thin buffer suggests you have little room to handle unexpected expenses, which increases the likelihood of missed payments.\n\nFinally, your property status—having no known property or assets—added further concern. Approved applicants typically own real estate or have other valuable assets, which can serve as a safety net. Without such resources, there is less to fall back on if income is interrupted.\n\nTo improve your chances in the future, consider requesting a shorter loan term, even if it means higher monthly payments. Building up your checking account balance and finding a way to secure the loan with property or other assets would also help. Taking these steps would show a much stronger financial profile the next time you apply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

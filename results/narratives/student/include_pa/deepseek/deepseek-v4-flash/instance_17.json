@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 17,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:36:40.699475",
+  "status": "success",
+  "narrative": "The model’s prediction is that you have a 10% chance of failing your final year. While that may sound small, your school has set a threshold for remedial support: even a 1-in-10 risk is considered too high to leave unchecked, so you are being asked to take additional courses as a precaution.\n\nThe most important factors in this decision were actually in your favor. The single strongest factor was your academic history: you have never failed a class before, which is exactly the pattern seen among students who pass. The second strongest factor was that you receive extra educational support from your school. This is quite rare among successful students, so it shows you are already taking advantage of help. The third most important factor was your own ambition: you want to go on to higher education, a goal shared by every passing student in the dataset.\n\nBecause these three strengths pushed so strongly toward passing, your risk is not high. However, the model still sees a small chance of failure, likely due to other, less influential factors such as the fact that you go out with friends on weekends, have a romantic relationship, or have missed 10 days of school compared to just under 4 on average for passing students. None of these alone is decisive, but together they create enough uncertainty for the school to act.\n\nConsider this an opportunity rather than a punishment. Keep your study hours steady, watch your attendance, and meet with your advisor to ensure those small risks do not grow.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

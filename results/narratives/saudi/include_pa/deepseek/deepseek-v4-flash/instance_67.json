@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 67,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:29:43.920711",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates there is a 58% chance you will leave your job within the coming period. Because this likelihood is above the threshold, the model considers you at risk of departure and denies the promotion.\n\nThe most influential factor driving this prediction is your total experience of 11 or more years. Only about 15% of employees predicted to stay have this much overall experience. In the Saudi private sector, long experience makes you highly marketable, so the model interprets this as a strong signal that you have the skills and confidence to move elsewhere.\n\nSecond, you indicated that you received other job opportunities while working here. Among employees predicted to stay, roughly 23% received outside offers. This is the second-strongest push toward leaving, as it suggests you are actively attractive to competitors and may be weighing alternatives.\n\nThe third factor, your 6 to 10 years in your current organization, actually pulls in the opposite direction. It shows commitment, stability, and deep institutional knowledge, and it resembles the tenure of many stayers. Yet this single stabilizing influence is not enough to outweigh your long career and external offers.\n\nTo move forward, the organization should recognize that you are a flight risk, not because of poor performance, but because you likely have options. Addressing your recognition, compensation, and job satisfaction, and having an honest conversation about your goals, could reduce this risk. You, in turn, should consider whether you would prefer to stay if offered meaningful growth and promotion opportunities, or whether this model is correctly reflecting your own intentions.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

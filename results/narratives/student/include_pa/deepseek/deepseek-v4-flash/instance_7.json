@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 7,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:32:58.231798",
+  "status": "success",
+  "narrative": "The model predicts a 31% chance that you will not pass your final year — roughly one in three, a risk serious enough that you must take remedial courses. When weighing your situation, the strongest signal was why you selected this school. Choosing it for its reputation actually nudged the prediction in your favor, suggesting that your motivation to attend a well-regarded school is a positive factor. However, the other two most important factors worked strongly against you. You have experienced three past course failures, while students who typically pass have none on average. This history is a major red flag, as it points to ongoing academic difficulties. Additionally, you indicated that you do not plan to pursue higher education, whereas every student who passes in the dataset wants to continue their studies. This lack of long-term ambition appears to reduce your engagement and drive, pushing the model further toward predicting failure. Together, these three elements — your past failures and your educational aspirations, offset only by your school choice — created the outcome. Looking ahead, you should focus on addressing the root causes of those previous failures, perhaps by seeking extra help in subjects where you struggled. Even more importantly, consider why further education might matter to you. Reconsidering your goals, even if you are unsure about university, can boost motivation. Combined with remedial courses, this could noticeably lower your risk and put you on a path to success.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

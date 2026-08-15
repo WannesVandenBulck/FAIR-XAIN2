@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 38,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:24:10.206430",
+  "status": "success",
+  "narrative": "The model indicates there is a 48% chance you will leave your job in the near future. Although this is not an absolute certainty, it is high enough for the organization to view you as a retention risk, which is why your promotion has been denied. Three main signals drove this decision, ranked by strength. The most powerful factor is that you have received other job opportunities while working here. Among employees who stay, only about 23% have had outside offers, so this strongly suggests you are being courted elsewhere and may be likely to move on. The second factor, however, works in your favor: your long tenure at this organization, six to ten years, shows loyalty and commitment. This reduces your predicted leaving risk, as the model recognizes that staying this long indicates a degree of attachment. The third factor is your total years of experience, also six to ten years, which slightly increases your risk. With your PhD and this level of experience, you are highly marketable and may feel underutilized or ready for a new challenge. It is important to note that your gender, age, and health status were not used in this prediction. Given these insights, the organization should consider whether they are offering enough career progression and recognition to counterbalance your external opportunities. You may also want to engage in a conversation about how your skills can be better used, so both you and the organization can benefit from your expertise rather than risk losing it.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

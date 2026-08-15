@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 52,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:26:38.597969",
+  "status": "success",
+  "narrative": "Based on the prediction, there is a 41% chance you may leave your job in the near future. While this is not a certainty, it is high enough that the organization considers you a retention risk, and that risk is the reason your promotion was denied. The model did not use your gender, age, or health status—only work-related factors.\n\nWhat works in your favor is your experience. Having only 1–5 years of total experience is common among employees who stay, and your length of time in this organization follows the same pattern. So this factor actually pushes the prediction toward you staying. In addition, you have not received other job offers while working here, which is also a positive signal—many employees who leave have outside opportunities in hand. These two factors alone would suggest you are fairly stable.\n\nHowever, the most important factor pushing the other way is how difficult you find it to get involved in your job. You reported that engaging in decision-making or having your opinions heard feels difficult, while the vast majority of employees at this level find it medium or easy. This is a strong warning sign: when people feel disconnected from their work and cannot influence what happens around them, they become more likely to walk away, even if they have no current offers.\n\nSo, the model sees a mixed picture: you have stability in experience and no external pull, but you feel disengaged and excluded from involvement. For your organization, the takeaway is to focus on improving your participation in decisions and ensuring your voice is heard. For you, consider discussing with your manager how to become more engaged—this could both improve your experience and reduce the risk that the model sees.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

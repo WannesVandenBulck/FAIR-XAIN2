@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 3,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:54:18.265283",
+  "status": "success",
+  "narrative": "After carefully reviewing your application, our model estimated a 36% probability that you would not repay the loan as agreed. While that number doesn't mean you are a guaranteed bad risk, it places you above the threshold we consider acceptable, and that is why your request was denied.\n\nThe strongest factor working against you was the balance in your checking account. You had only between 0 and 200 Deutschmarks available, which is a modest cushion. Among approved applicants, a large portion had no regular checking balance at all, but those with this particular low balance are seen as having less financial flexibility. In your case, this single factor tipped the decision most heavily toward a bad credit risk.\n\nInterestingly, the other two most influential considerations actually worked in your favor. You have lived at your current residence for only one year, which is below the average of around three years for approved applicants. Yet the model interpreted this as a slight positive signal, perhaps indicating lower debt burden or a more recent commitment. Similarly, you requested a 12-month loan term, which is shorter than the average of about 19 months. This shorter commitment was also seen as a positive, gently pulling your risk estimate down.\n\nDespite these positives, the checking account issue outweighed them.\n\nWhat you can do next: work on increasing and maintaining a healthier checking account balance for several months, as this appears to be the most decisive factor. Reapplying after that time, even with a similar profile, would give you a much better chance of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

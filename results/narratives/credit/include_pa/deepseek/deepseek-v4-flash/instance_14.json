@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 14,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:56:42.946869",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model estimated that you have a 26% chance of being a bad credit risk. That is not a certainty—it means that, historically, about a quarter of applicants with similar financial patterns defaulted. For this bank, that level is above the cutoff for approval, so the overall picture placed you in the \"denied\" group.\n\nThe three most influential pieces of your profile were your savings situation, your checking account status, and your other installment plans. Interestingly, two of these actually worked in your favor. Your savings account being unknown or nonexistent was treated as less risky than having a very small balance, so it pushed toward approval. Similarly, having no checking account is common among approved applicants—roughly six in ten approved customers have none—so this also helped you.\n\nThe factor that hurt you most was your other installment plan at a bank. Only about 9% of approved applicants carry a bank installment plan on top of a new loan, so this was seen as a meaningful sign of financial strain. The model weighed this negative factor heavily, and it tipped you over the edge.\n\nTo strengthen a future application, start by paying down or closing that other bank installment plan. Building a small savings cushion and opening a checking account with a stable positive balance would also improve your profile. Given that your requested loan was for 3,914 DM over 48 months—larger and longer than average—you may improve your odds by requesting a lower amount with a shorter repayment period, or by adding a co-applicant or guarantor. These steps can reduce your default risk in the bank’s eyes and make approval much more likely next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

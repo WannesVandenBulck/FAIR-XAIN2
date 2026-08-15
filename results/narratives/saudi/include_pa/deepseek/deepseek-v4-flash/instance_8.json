@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 8,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:18:21.155248",
+  "status": "success",
+  "narrative": "Based on your profile, there is a 62% predicted chance that you will leave your job in the near future. Because that risk is above the threshold the organization uses, your promotion is being denied—not as a reflection of your performance, but because the model sees a strong likelihood of turnover.\n\nThe most important factor pushing toward that prediction is the fact that you have received other job opportunities while working here. This is a powerful signal: when you already have outside options, the model interprets it as a strong intention to move on. It outweighs everything else in the decision.\n\nInterestingly, your experience level actually pulls in the opposite direction. Having between one and five years in both your career and this specific role is associated with staying—this is the most common experience range among employees who remain, with about half of them falling into this category. So your relative newness is seen as a stabilizing factor.\n\nThe third major influence is your employment sector. Being in the \"other\" category rather than medical, education, or financial makes the model more cautious, because a smaller share of stayers come from that sector compared to more established fields.\n\nGiven this, the next step should be an honest conversation with your manager. If you are interested in staying long-term, discuss what would make you commit—perhaps clearer growth paths, compensation, or project challenges. If you are considering outside offers, the organization may need to reconsider whether it can compete, because your current profile suggests you are one decision away from leaving.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

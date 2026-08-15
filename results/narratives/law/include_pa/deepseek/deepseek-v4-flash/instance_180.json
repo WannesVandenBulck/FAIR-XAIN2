@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 180,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:54:15.163577",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates a 60.5% chance you would fail the bar exam on your first attempt. That means you are more likely to fail than pass, which is why admission could not be offered. The most important factor in this decision was your LSAT score. At 46, it is actually well above the average of 37.18 among accepted students, so this strongly pushed the prediction toward passing. However, the next two most influential factors went the other way. Your class standing in both your first and third years placed you in the 3rd decile, while accepted students typically sit around the 6th decile. Being in the 3rd decile means you are ranking near the bottom of your class, and this was the strongest signal pointing toward bar exam failure. In fact, your third-year standing had a slightly larger influence than your first-year standing, and both outweighed the benefit of your strong LSAT score. In short, your test aptitude is not the concern—your academic performance relative to peers is. The model sees a pattern where students with lower class rankings, especially in later years, struggle to pass the bar, and that pattern outweighed your LSAT advantage. To improve your chances, focus on raising your class standing in your remaining coursework, particularly in your final year. Consider seeking academic support, study groups, or bar-exam preparation courses early. If you retake the LSAT or strengthen your grades before reapplying, you can shift the balance in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

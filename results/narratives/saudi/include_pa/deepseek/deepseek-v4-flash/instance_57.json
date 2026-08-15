@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 57,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:27:43.887484",
+  "status": "success",
+  "narrative": "Based on the prediction, there is a 49% chance that you will leave your job in the near future. Because this risk is significant, the organization decided it is not a good investment to offer you a promotion.\n\nThe most important factor in this decision was your overall experience. With only one to five years in your career, you have less tenure than many who are predicted to stay, where about half have at least six years. Interestingly, this pushed the model strongly toward *staying*, meaning your relative inexperience does not, by itself, signal intent to quit.\n\nThe second strongest influence was the fact that you have received other job opportunities. This pushed the prediction firmly toward *leaving*. Since only about one in four employees who stay report receiving outside offers, this is a clear signal that you are actively marketable and may have one foot out the door.\n\nThe third factor, your sector, actually worked in your favor. Working in the medical field made the model more likely to predict you would *stay*, likely reflecting strong job security and fewer alternatives in that industry.\n\nOverall, your profile is a mixed picture: your short experience and stable medical sector suggest loyalty, but your external job offers signal a real risk of departure. To improve your chances in the future, consider demonstrating your commitment, and the organization should address your satisfaction with rewards and recognition to reduce the likelihood that you will leave.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

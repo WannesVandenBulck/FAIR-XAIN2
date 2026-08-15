@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 75,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:10:52.047589",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 39% probability that you would be a bad credit risk. This means that, based on your financial profile, the bank sees a substantial chance you may struggle to repay the loan—a risk it is not willing to take.\n\nThe single most important factor driving this decision was the status of your checking account. Your account is currently overdrawn (below 0 DM). Among previously approved applicants, only about 12.6% had a negative balance at the time of application. This is a strong warning sign because it suggests you are already facing short-term financial strain, with little buffer to absorb an additional monthly payment. This factor pushed the model heavily toward classifying you as a bad credit risk.\n\nInterestingly, two other factors worked in your favor. You requested a relatively modest amount of 1,721 DM—well below the average of about 3,020 DM—and you asked for a shorter repayment period of 15 months, compared to the average of about 19 months. Both of these characteristics are typically associated with lower risk, and they nudged the model slightly toward approving you.\n\nHowever, the strength of the checking account signal outweighed these positive aspects. The combination left the overall risk too high for approval.\n\nTo improve your chances in the future, focus first on bringing your checking account into positive territory and keeping it there for several months. You might also consider applying for a smaller loan, or adding a co-applicant or guarantor to strengthen your application. Reapplying while your account is still overdrawn would likely lead to the same outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

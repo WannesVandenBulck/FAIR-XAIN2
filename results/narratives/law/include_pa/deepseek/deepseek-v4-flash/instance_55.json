@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 55,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:24:13.736433",
+  "status": "success",
+  "narrative": "Our review shows a 61.9% predicted chance that you would not pass the bar exam on the first attempt. Because the school relies on this prediction for admissions, that level of risk resulted in the denial.\n\nThe strongest influence on this decision was your academic standing in your third year. You finished in the bottom ten percent of your class—the first decile—while most admitted students sit around the fifth or sixth decile. This factor pushed hardest toward the failure outcome, because ending your academic career at the very bottom signals serious risk for bar preparation.\n\nThe second most influential factor was your LSAT score of 41, which is above the average of accepted applicants. This worked in your favor, pushing toward a passing prediction. However, it was not enough to offset the concern raised by your class performance.\n\nA third factor, your first-year class standing, added further weight to the failure side. At the second decile—again far below the typical admitted student—it showed that your academic struggles were not a one-time lapse but a consistent pattern.\n\nTaken together, the two class-rank indicators outweighed your LSAT strength, leaving the predicted risk above the threshold the school accepts.\n\nWhat should you do next? Strengthen your academic record before reapplying—through a postgraduate program with solid grades or retaking key courses. An addendum explaining your early circumstances may help, but demonstrated improvement will matter most.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

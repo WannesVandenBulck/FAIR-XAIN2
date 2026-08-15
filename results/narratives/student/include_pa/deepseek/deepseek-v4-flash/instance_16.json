@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 16,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T18:30:34.815758",
+  "status": "success",
+  "narrative": "The model estimates that you have a 17 percent chance of failing your final year. That means you are much more likely to pass than not, but the risk is still considered high enough that the school requires you to take remedial courses as a safety net. To understand why, let me explain what the model noticed about your situation.\n\nInterestingly, the three strongest pieces of evidence it found all point in your favor. You have never failed a class before, which is a powerful sign that you already know how to succeed academically. You also said you want to go on to higher education, showing strong motivation. And your mother’s education level, secondary school, is linked to having more support at home for learning. These factors all push the prediction toward passing.\n\nSo why the warning? Because after weighing everything, these positive signs were not quite enough. The biggest concern is that you missed 14 days of school, while students who pass usually miss around 4. That is a dramatic difference and can make it hard to keep up, even if you are capable. You also have a lot of free time after school, which could be spent more consistently on studying, and you describe your family relationships as bad, which adds stress that can interfere with concentration. Many small factors like these, taken together, outweigh the good signs and create that 17 percent risk.\n\nThe good news is that you have strong foundations to build on. Use the remedial courses to stay on track, focus on attending every class, and try to set a regular study rhythm. With your prior success and your ambition, you can turn this warning into a passing year.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

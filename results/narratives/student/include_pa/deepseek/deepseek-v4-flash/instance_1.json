@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 1,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:31:16.149074",
+  "status": "success",
+  "narrative": "Your situation was assessed using a model that estimates the likelihood of not passing the final year. It calculated a 25 percent chance of failing, which means that while you are more likely to pass than not, this risk is significant enough that extra support is recommended as a precaution. The model did not rely on your gender, age, or health, but instead on your academic background and daily habits.\n\nThe three strongest influences in the prediction were all in your favor. First, you have no previous course failures, which is a major advantage compared to students who have struggled before. Second, you clearly want to pursue higher education, an aspiration shared by every student in the passing group, and this strengthened the model’s view that you are motivated. Third, coming from a family of three or fewer people also nudged the prediction toward passing, even though this family size is less common among successful students than larger families.\n\nThese positives were not enough to completely offset other risk factors in your profile. The amount of time you spend studying each week is under two hours, while most passing students study more. Your weekend alcohol consumption is very high, and going out with friends is also frequent. These habits likely contributed to the remaining 25 percent risk. The model saw that your strengths are real, but they are currently being balanced by choices that can undermine your progress.\n\nTo lower this risk, consider increasing your weekly study time to at least two to five hours, reducing weekend drinking, and finding a better balance between social outings and schoolwork. You have a solid foundation; strengthening these daily habits could make a meaningful difference.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

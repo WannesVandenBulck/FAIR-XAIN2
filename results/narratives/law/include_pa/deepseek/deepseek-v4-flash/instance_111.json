@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 111,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:36:05.247690",
+  "status": "success",
+  "narrative": "You are receiving this denial because the model estimated a 60.5 percent chance that you would not pass the bar exam on your first attempt. In plain terms, after weighing your academic record and test performance, the risk of failure was judged higher than the chance of success. The most influential factor was your third-year class standing. You finished in the bottom decile of your school cohort, whereas admitted students typically sit around the sixth decile. Being at the very bottom pulled the prediction strongly toward failure. Your first-year class standing was the third most important factor and told a similar story: again you ranked in the bottom decile, while accepted students average near the middle, further increasing the predicted failure risk. Interestingly, your LSAT score worked in your favor. Though it was the second most influential factor overall, it pushed the prediction toward passing. Even at 33.5—below the admitted student average of about 37.2—the model still credited your logical reasoning ability as a positive signal. This suggests your test-taking skills are not the core problem; your consistent low class rank across both your first and third years is what drove the denial. The pattern of academic performance, not any single exam, is the dominant concern. To improve your chances next time, focus on strengthening your grades: retake challenging courses, earn a strong final-year record, and consider additional academic preparation. Retaking the LSAT could help marginally, but repairing the grade trajectory will matter far more. Show that your recent performance reflects a changed, stronger student, then reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

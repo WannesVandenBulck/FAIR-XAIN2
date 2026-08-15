@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 12,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:18:49.582288",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 70 percent chance that you will leave your job in the near future. Because this risk is high, the organization has decided not to offer you a promotion at this time.\n\nThe most important signal driving that decision is that you have received other job opportunities while working here. Compared with employees who stay, only about one in four has received outside offers, so this factor strongly pushes the prediction toward leaving. The second major factor is your total work experience of one to five years. This is actually a stabilizing signal: it is common among employees who stay, and the model treats it as pulling in the opposite direction. The third factor is your report of no psychological exhaustion. That may sound positive, but the model sees it as pushing toward leaving—likely because employees who are not mentally drained often feel more energy and confidence to pursue a move.\n\nTaken together, these signals outweigh the stabilizing effect of your experience and produce a clear leave risk. This does not mean you are definitely leaving, but it explains why the promotion was denied.\n\nGoing forward, it would be valuable to discuss retention directly. The organization could explore what would make you want to stay—such as clearer career paths, meaningful rewards, or stronger recognition—while you can be transparent about your professional goals and intentions. A promotion decision alone will not remove the influence of outside offers or your own readiness to move.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

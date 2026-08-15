@@ -85,7 +85,7 @@
     {
       "name": "housing",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "number_credits",

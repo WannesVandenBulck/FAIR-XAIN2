@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 57,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:48:02.670873",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates that you have about a 10 percent chance of ending the year without passing. That is a real risk, and the school’s policy is to require remedial courses for anyone the model flags as likely to fail, even when the probability is relatively low.\n\nYou might think this is surprising, because the most important factors in your assessment are all working in your favor. The single strongest factor is your record: you have never failed a class before. This is a big positive signal, and it reduces your risk considerably. The next most influential factor is your ambition to pursue higher education. Students who want to continue studying tend to stay more engaged, and this also pulls you toward passing. Finally, your mother’s education level, while not advanced, is still a protective factor when compared to students whose parents have less schooling. In fact, these three factors together are the main reasons your probability of failing is not higher.\n\nSo why are you still being asked to take extra courses? Because the model weighs your whole picture, and some less prominent features add risk. Your health is reported as very bad, you have been absent ten times whereas students who pass generally miss only about four, and you often go out with friends. These aspects, along with others, tip the balance enough that the model places you on the at-risk side. Remedial courses are there to help you offset those risks and give you the best chance to pass, especially given your strong positives.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

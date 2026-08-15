@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 25,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:59:07.531959",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated a 55% chance that you would be a bad credit risk. That means you are slightly more likely than not to fall behind on payments, and this level of uncertainty is too high for the bank to approve your loan.\n\nThree factors were most important in this decision. The first was the length of your loan request. You asked for 48 months, which is more than twice the average of about 19 months. A longer repayment period increases the window for financial difficulty, so this weighed heavily against you. The second factor was the status of your checking account. Your balance was only between 0 and 200 DM, which the model treated as a thin financial cushion. Compared to borrowers with more substantial balances or fewer account constraints, this suggested a tighter ability to handle repayment shocks. That also pushed strongly toward bad credit.\n\nThere was one meaningful positive factor: your employment duration of four to seven years. This stability helped you, pulling the prediction toward good credit. However, it was not enough to outweigh the negative influences of the long loan term and the low checking account balance.\n\nTo improve your chances in the future, consider asking for a shorter loan period or a smaller amount, building up a larger checking account balance, and keeping your current job for another few years. These steps would directly address the reasons your application was denied.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

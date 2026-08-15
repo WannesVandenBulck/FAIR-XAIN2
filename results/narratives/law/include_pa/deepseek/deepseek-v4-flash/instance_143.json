@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 143,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:44:17.781835",
+  "status": "success",
+  "narrative": "Your application was denied because the school's model assesses your likelihood of passing the bar exam on your first attempt, and it estimates a 72.8% probability that you would fail. In practical terms, this means roughly three out of four applicants with a profile like yours did not pass the bar on their first try, which presents a serious academic risk the school is not willing to take.\n\nThe single strongest factor in this decision was your third-year class standing. You ranked in the very bottom decile of your school, while admitted students typically sit near the sixth decile. This placement heavily pushed the prediction toward bar exam failure, because third-year performance is one of the strongest signals of legal knowledge and exam readiness. \n\nThe second most influential factor was your LSAT score of 23.5, far below the average of 37.2 among successful applicants. This also pushed decisively toward the failure outcome, as it indicates weaker foundational reasoning skills needed for the bar. \n\nInterestingly, your undergraduate GPA of 2.60 actually worked slightly in your favor, pushing the prediction a small step toward passing. This suggests the model sees some mitigating strength in your earlier academic record, but it was far too weak to overcome the downward pull of the other two factors.\n\nTo strengthen a future application, focus on raising your LSAT score substantially through dedicated preparation, and consider retaking rigorous coursework to demonstrate an upward grade trend. Improving your academic standing in your final year would be critical as well, since your class rank carries the most weight in this evaluation.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

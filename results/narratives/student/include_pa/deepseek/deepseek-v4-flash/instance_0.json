@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:30:59.735383",
+  "status": "success",
+  "narrative": "The model estimates that you have a 12 percent chance of failing your final year. That means roughly one in eight students with a profile like yours does not make it through, and because this risk is real, the school requires you to take remedial courses.\n\nThe three strongest influences on your prediction all actually worked in your favor rather than against you. First, your weekly study time of five to ten hours is a clear advantage. Students who passed typically studied only two to five hours a week, so your extra effort pushed the model strongly toward expecting you to pass. Second, you have never failed a course before. A clean record of zero past failures is the most positive signal possible in this area, and it also moved the prediction toward passing. Third, the reason you chose this school, because it is close to home, played a smaller but still noticeable role. While most students who pass selected the school for its course offerings, choosing for proximity is still associated with success, so this factor likewise nudged the prediction in a positive direction.\n\nDespite these strengths, the remaining combination of factors created the 12 percent risk, and the school prefers to intervene before problems arise. You should maintain your current study routine, keep protecting your perfect record of no failures, and treat the remedial courses as a safety net rather than a punishment. With the strong habits you already have, you are well positioned to succeed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

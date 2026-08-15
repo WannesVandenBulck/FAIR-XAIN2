@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 72,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:30:34.556599",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 49 percent. While this is just under a coin flip, the model still classifies you as likely to leave, meaning the overall pattern of your situation resembles employees who end up departing more than those who stay. It is a close call, not a certainty. The strongest factor working in your favor is your training history. You have attended seven or more training programs over the last three years, far more than most employees who remain—many of whom attended none or only a few. This suggests you are engaged and investing in your growth, and it pushes the prediction toward staying. Your long tenure of six to ten years in your current organization also works in your favor, signaling loyalty and accumulated experience that most leavers do not possess. This, too, pushes toward staying. However, the single most influential factor pointing toward leaving is that you have received other job opportunities. Only about one in four employees who stay receive outside offers, while most who leave do. This external pull is strong enough to override the stabilizing signals from your training and tenure, tipping the overall prediction toward departure. For your organization, this is a clear retention signal: recognizing your outside options and addressing them—through the promotion you were seeking or other meaningful advancement—could shift the balance. For you, the data suggests you hold genuine leverage, and your employer should be made aware that your commitment, while strong, is not unconditional.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

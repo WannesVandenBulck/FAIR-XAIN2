@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 30,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "timestamp": "2026-08-15T15:40:09.824102",
+  "status": "success",
+  "narrative": "The model has predicted a 76% chance that you will leave your job, which is a significant concern for the organization. This high probability suggests that the factors influencing your situation are compelling enough to warrant attention, particularly in light of your recent promotion denial.\n\nThe model identified three key aspects that strongly indicate your likelihood of leaving. First, your extensive experience of over 11 years is notable, but it appears that many employees with similar tenure are also predicted to stay, suggesting that your experience alone may not be enough to ensure job security. Second, your relatively short time in your current role—between one to five years—compared to the average tenure of employees who are likely to remain, raises questions about your commitment to this position. Lastly, the fact that you have received job offers from other companies indicates that you may be exploring opportunities outside your current organization, which further increases the likelihood of your departure.\n\nThese factors collectively suggest that you may feel a lack of stability and recognition in your current role, which could be contributing to your potential decision to leave. It may be beneficial for you to discuss your career aspirations and concerns with your manager, as addressing these issues could enhance your job satisfaction and commitment. The organization should also consider how to better support and recognize employees like you to foster a more stable and engaged workforce.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 31,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:18:15.286243",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 61.8% probability that you would fail the bar exam on the first attempt—meaning your risk of failure is higher than your chance of success. The university uses this risk to decide admissions, and in your case, the risk was deemed too high.\n\nThree factors drove this decision, ranked by how strongly they influenced the outcome. By far the most important was your third-year academic standing. You ranked in the 2nd decile of your class, while accepted students typically rank around the 6th decile. This is a striking gap that the model interpreted as a serious indicator you might struggle with the bar’s rigorous material. Your first-year performance also contributed to the denial, ranking in the 3rd decile versus a 6-decile average. Both of these academic rankings pushed the model significantly toward a \"failure\" prediction.\n\nInterestingly, your LSAT score—35.50, compared to the 37.18 average for accepted students—actually pushed the model in the opposite direction, slightly favoring a pass prediction. So your score was not the problem; it slightly worked in your favor.\n\nTo improve your chances, you should retake the LSAT to boost your score, since that was your only positive factor. More importantly, you need to address your academic trajectory. Consider post-baccalaureate coursework or a master’s program to demonstrate you can excel in rigorous legal-style coursework, and apply again with better grades. Your performance, not your potential, is what held you back.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

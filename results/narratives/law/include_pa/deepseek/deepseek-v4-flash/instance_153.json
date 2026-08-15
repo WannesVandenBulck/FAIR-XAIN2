@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 153,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:46:59.123945",
+  "status": "success",
+  "narrative": "Based on your academic profile, the assessment indicated a 65 percent likelihood that you would not pass the bar exam on the first attempt. To put that plainly, for every hundred law students with backgrounds similar to yours, roughly sixty-five would fail. This level of risk is why your application was not accepted.\n\nThe single most decisive factor in this judgment was your third-year class standing. By your final year, you had placed in the second decile, meaning you were in the bottom twenty percent of your class. Students whose applications were accepted, in contrast, ranked on average in the sixth decile—closer to the middle. This dramatic gap strongly pushed the prediction toward bar exam failure and outweighed everything else.\n\nYour other credentials worked in your favor, but they were less influential. Your LSAT score of 38 was slightly above the average of about 37 among accepted applicants, which nudged the prediction toward passing. Likewise, your undergraduate GPA of 3.40 exceeded the 3.23 average of accepted students and also pushed in a positive direction. However, these strengths were not enough to offset the impact of your third-year standing, which mattered most in the overall assessment.\n\nTo move forward, consider addressing the pattern that your third-year grades revealed. You might retake challenging courses, pursue a master's degree to demonstrate recent academic strength, or seek additional preparation before reapplying. Strengthening your LSAT could also help, but the clearest path is to show that your most recent academic performance no longer carries that level of risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

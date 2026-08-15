@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 285,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:24:13.295187",
+  "status": "success",
+  "narrative": "Your application was denied because the admissions model estimated a 61.7% chance that you would fail the bar exam on the first attempt—meaning only about a 38% chance of passing. Since the school treats bar passage as a key measure of readiness, that level of risk was too high to offer admission.\n\nThe strongest signal was your class standing in the third year. You were in the lowest tenth of your school, while accepted students typically sit around the sixth decile. Being at the very bottom strongly pushed the prediction toward failure. Your first-year class standing also mattered, though less than your third-year standing. Again, being in the lowest tenth was a powerful negative signal, especially compared with accepted students who average around the sixth decile. Together, these two rankings were the dominant reasons for the denial.\n\nInterestingly, your undergraduate GPA worked in your favor. At 3.00, it was lower than the accepted average of 3.23, but it actually pushed toward passing rather than failing. Unfortunately, the combined weight of being in the bottom decile in both your first and third years outweighed that positive effect.\n\nIn short, the model saw a pattern of consistently low relative performance in law school, especially in the final year, as translating directly into high bar-exam risk. If you decide to reapply, focus on raising your class rank: meet with academic advisors early, seek bar-focused study support, and address any underlying gaps in your preparation. A stronger final-year record would directly counter the most important reason for this denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

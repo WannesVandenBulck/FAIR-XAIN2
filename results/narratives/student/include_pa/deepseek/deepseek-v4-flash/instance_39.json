@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 39,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:43:29.967852",
+  "status": "success",
+  "narrative": "Your situation is based on a prediction that gives you about a 24% chance of not passing this year. That means the model sees clear warning signs, though it is not absolutely certain—roughly three out of four students with your profile do pass. Still, the prediction is serious enough that your school has decided remedial courses are necessary to keep you on track.\n\nThe strongest signal pushing you toward failing is that you have said you do not intend to pursue higher education after secondary school. This matters because students who plan to continue studying usually have stronger motivation to pass their current year. In your case, this lack of ambition for further study makes the model worried about your engagement and effort.\n\nThe second most important factor is that you have already failed a class once before. Among students who passed, the average number of previous failures is zero, whereas you have one. Past failure is a well-known indicator of future risk, because it can mean gaps in foundational knowledge or habits that make keeping up harder.\n\nInterestingly, the third most important factor actually works in your favor. You chose this school mainly because it is close to home. That may sound unimportant, but it tends to come with a lower risk of failing, possibly because less travel time means more energy and time for studying.\n\nGiven all this, the most powerful thing you can do is change your mindset about your future. Even if you are unsure about higher education, treating this year as valuable for your own growth will help. You should also work hard to overcome the earlier failure by seeking extra help early and building steady study routines, especially since you currently study less than two hours per week while most passing students study two to five hours.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

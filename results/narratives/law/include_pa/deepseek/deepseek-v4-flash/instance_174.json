@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 174,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:52:35.168597",
+  "status": "success",
+  "narrative": "The denial of your law school application comes down to one central prediction: the model estimates a 73.8% chance that you would fail the bar exam on your first attempt. That high level of risk made the admission committee unwilling to offer you a place.\n\nThe strongest signal driving that prediction was your class standing in your third year of undergraduate study. You finished in the bottom ten percent of your class, while students who are typically accepted for this path finish, on average, around the sixth decile. That is a very large gap, and the model treats it as the clearest warning sign. Your first-year class standing was almost as important. Being in the bottom ten percent right from the start suggests a pattern of struggling relative to your peers that continued into your final year.\n\nYour undergraduate GPA did work in your favor. At 3.80, it is well above the average of 3.23 for accepted students, and the model saw that as a positive sign pointing toward success. However, the two decile rankings were far more influential. They outweighed your GPA and pushed the overall prediction firmly toward failure, despite your strong overall grade average.\n\nWhat can you do next? Focus on improving your academic performance in a more rigorous setting—for example, by taking upper-level legal studies courses or a structured test-prep program. You need to demonstrate that your relative class rank no longer predicts bar failure. Retake the LSAT, strengthen your study habits, and consider applying again with new evidence that your early struggles are behind you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 6,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:17:52.260572",
+  "status": "success",
+  "narrative": "The model predicts a 66% chance that you will leave your job, and that is the central reason your promotion is being denied. The organization sees a strong likelihood that you won't remain long enough to benefit from a higher role, so it is choosing not to invest in promoting you. Importantly, your gender, age, and health were not part of this decision.\n\nThree factors mattered most. Your level of experience was the strongest influence, and it pushed in your favor. With one to five years of total experience, you look stable—about half of employees who stay have the same level—so this suggested you are likely to remain.\n\nThe second factor worked against you. You have received other job opportunities while working here, which is uncommon among stayers. Only about one in four employees who stay report receiving outside offers; most are not being recruited elsewhere. This strongly signals you might leave.\n\nThe third factor is the sector you work in. Your sector accounts for only about one-fifth of stayers, while medical and education sectors dominate among loyal employees. This nudged the prediction further toward leaving.\n\nTaken together, your stable experience level was outweighed by signs you have one foot out the door—outside offers and a sector with weaker retention. To address this, the organization should have an honest conversation with you about what would keep you here, and consider whether clearer growth opportunities could reduce your likelihood of leaving.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 34,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:42:00.482834",
+  "status": "success",
+  "narrative": "The model estimates that you have a 37% chance of failing your final year. That means you are still more likely to pass than not, but your risk is high enough that the school requires you to take remedial courses as a safety net. This is not a guarantee that you will fail; it is a warning that your current situation needs attention.\n\nThe strongest reason for this prediction is your past academic record. You have failed one class before, while students who ultimately passed had, on average, no previous failures. This matters because a past failure often points to gaps in foundational knowledge or study habits that can affect future performance. This factor pushed the model strongly toward predicting failure.\n\nHowever, two important factors pushed in your favor. You study between five and ten hours per week, which is more than many students who passed. That shows commitment and should help you stay on track. You also said you want to pursue higher education, and every successful student in the data shared that goal. This motivation is a real asset.\n\nEven though these positive factors are meaningful, the previous failure had the largest influence overall, and it outweighed the benefits of your study time and ambitions. The model is not saying you lack ability; it is saying that your past difficulty signals a need for extra support.\n\nUse the remedial courses to strengthen the areas where you struggled before. Combine that with your regular study routine and your goal of higher education, and you have a clear path toward passing. Think of these courses as a tool to remove the one risk that is holding you back.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

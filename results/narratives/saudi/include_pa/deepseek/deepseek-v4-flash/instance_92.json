@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 92,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:34:06.882931",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 60%, which means the model sees you as more likely to resign than to stay in the near term. That is why the promotion decision went against you. The strongest reason is your total years of experience. With six to ten years in the workforce, you fall into a range where many employees begin to seek new challenges or better positions elsewhere. Among those the model expects to stay, half have only one to five years of experience, so your longer career history stands out as a factor pushing toward departure.\n\nOn the other hand, your tenure in your current organization works in the opposite direction. Having spent six to ten years here signals loyalty and a deeper commitment to your workplace, and that reduces the leaving risk. Likewise, you have not received other job offers while employed here, which suggests you are not actively looking elsewhere. That too is a stabilizing factor, pulling the prediction back toward staying.\n\nStill, these two stabilizing influences are not strong enough to offset the impact of your overall experience. The model’s final judgment, even after accounting for them, remains that you are more likely to leave than stay. For you, the takeaway is that your experience is an asset, but it also makes you more mobile. For the organization, this points to an important question: what would make an experienced employee like you feel that staying is the better choice? A conversation about career development, recognition, and meaningful advancement opportunities could provide the clarity needed to change that prediction.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

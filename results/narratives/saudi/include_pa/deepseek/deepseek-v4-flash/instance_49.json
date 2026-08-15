@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 49,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:26:10.955942",
+  "status": "success",
+  "narrative": "Based on the model's assessment, there is a 55% chance you will leave your job, which is why the promotion was denied. This is only a slight majority, but it means the balance of signals points toward departure rather than retention. The strongest factor in your favor is your total experience. With one to five years, you fall into the most common category among employees who stay—half of them have similar experience. This pushed the prediction toward you remaining, showing your career stage is not the concern.\n\nThe second most influential factor works against you: you have received other job opportunities. Among employees predicted to stay, fewer than one in four had outside offers. This is a powerful signal because having alternatives makes leaving easier and more likely, and the model weighed it heavily.\n\nThird, your employment sector contributes to the risk. You work in the \"other\" sector, while most stable employees are concentrated in medical or education fields. In your sector, turnover patterns are less favorable, and this nudged the prediction further toward departure.\n\nIn short, your early-career experience suggests stability, but the presence of external opportunities and your sector's characteristics together tipped the outcome. For the organization, this points to retention measures: strengthening recognition, clarifying promotion paths, and reducing the appeal of outside offers. For you, consider discussing your career goals and what would make staying the more attractive choice. The denial is not a judgment of your performance, but a reflection of what the data says about your likelihood of staying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 97,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:35:02.280848",
+  "status": "success",
+  "narrative": "Your promotion was denied because the model estimates a 63% chance you will leave the organization, outweighing the positive signals in your profile. Your gender, age, and health were not part of that assessment.\n\nThe strongest influence was your overall experience. With 6-10 years in your career, you have professional capital that makes it easier to move; only about a third of predicted stayers have this much experience.\n\nThe next influence was your tenure in your current job. You have been with your present employer only 1-5 years. That by itself is common among stayers, but combined with your longer overall career, it suggests you have not yet built the deep roots that anchor people.\n\nThe third influence was outside offers. You received other job opportunities while working here, while only about a quarter of predicted stayers did. This signals that the external market values you, making it more likely you would leave soon after a promotion.\n\nThese three signals, not your performance or attitude, drove the decision. You are satisfied, supported, and recognized. But your marketability,",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

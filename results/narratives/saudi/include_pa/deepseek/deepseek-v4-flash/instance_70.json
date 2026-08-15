@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 70,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:30:17.996570",
+  "status": "success",
+  "narrative": "The model indicates a 45% probability that you will leave your job, which is why the promotion was not approved. While this is not an overwhelming majority, it is enough of a signal that leadership decided to hold back on investing in you further.\n\nThree factors weighed most heavily. The strongest one was that you have received other job opportunities while in your current role. This is uncommon—only about a quarter of employees who stay report this—and it strongly nudged the prediction in the direction of leaving. The model interprets outside offers as a sign that you are actively attractive to other employers and may depart soon.\n\nYour total years of experience, 6 to 10, also contributed slightly toward the leaving prediction. This is not because experience is bad, but because more experienced employees tend to have more options and may feel ready to move on.\n\nIn contrast, your longevity within your current organization, also 6 to 10 years, worked in your favor. It pulled the prediction toward staying, since employees who remain that long often have strong roots and are less likely to leave. However, this positive signal was outweighed by the combination of outside opportunities and broader experience.\n\nMoving forward, it would be wise to communicate your commitment clearly, both in words and in concrete actions. The organization should also consider whether this employee is being offered enough growth to counterbalance outside pulls, and to address the underlying drivers of attrition rather than relying solely on the prediction.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

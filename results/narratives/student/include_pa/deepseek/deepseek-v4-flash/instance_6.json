@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 6,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:32:40.251815",
+  "status": "success",
+  "narrative": "Your situation is important to understand clearly. The model has determined that you have an 11 percent chance of not passing your final year. That means roughly one in nine students with a similar profile ends up failing, and the school has decided that this level of risk is enough to require extra help through remedial courses.\n\nHere is what is working in your favor. The three strongest factors in your profile all actually push toward passing, not failing. First, you have never failed a class before, which exactly matches the average of students who successfully passed. This is the single most reassuring signal in your data. Second, you study between five and ten hours per week, which is more committed than most passing students, who typically study only two to five hours. Your effort is genuinely helping you. Third, your father acts as your guardian, and while this is less common among passing students, it still leans slightly in your favor.\n\nSo why does the model still flag you? Because the risk comes from smaller details that add up. Your commute takes thirty to sixty minutes, longer than most students who pass, and you do not take any extra paid classes within the subject. These factors, combined with other small influences, create that 11 percent chance.\n\nThe message is not that you are doomed, but that you should not become complacent. Keep your study routine, consider using your commute for quick reviews, and ask about additional support or tutoring to close the remaining gap.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

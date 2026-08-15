@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 99,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:35:47.169251",
+  "status": "success",
+  "narrative": "Your denial of promotion is based on a model that assessed your likelihood of leaving the organization, and it placed your probability at 55 percent. This means that, based on the patterns in the data, you are more likely to leave than to stay in the near future. It is a close call, but the balance tips toward departure, and the organization decided not to invest in a promotion for someone it expects to lose.\n\nThe single strongest factor working in your favor is the number of training programs you attended. You completed seven or more programs in the last three years, far more than most employees who stay—many of whom attended none or only a few. This shows engagement and suggests the organization has invested in you. Your long tenure in your current role, six to ten years, also works in your favor, as it indicates stability and loyalty.\n\nHowever, the most important factor pushing the prediction toward leaving is your overall professional experience. With six to ten years in the workforce, you have built a profile that is highly marketable. Employees at this experience level are more likely to receive outside offers, and combined with your other circumstances—such as feeling unrecognized, lacking job security, and facing a difficult work-life balance—the model sees that you are at a turning point.\n\nTo change this outcome, you should discuss your future path with your manager. Ask for clearer recognition, more stability, and opportunities for advancement. The organization should also consider whether it has addressed the factors making experienced employees like you feel undervalued.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

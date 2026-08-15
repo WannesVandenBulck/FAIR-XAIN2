@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 141,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:43:57.111828",
+  "status": "success",
+  "narrative": "The model assessing your law school application concluded that you have an 82% chance of failing the bar exam on your first attempt. In practical terms, this means that of every five students with a similar profile, only about one would be expected to pass, so the admissions committee determined that your likelihood of succeeding in the program was too low to justify offering you a place.\n\nThree factors drove this decision, in order of importance. The strongest influence was your class standing in your third year of study. You ranked in the first decile, but among accepted applicants the typical third-year decile was close to the sixth, and the model saw your particular standing as the most powerful signal pointing toward bar exam failure. Your LSAT score also contributed substantially to the high-risk prediction. At 26, your score fell well below the average of 37 among accepted students, and a lower score of this magnitude strongly pushed the prediction toward failure. Your undergraduate GPA, meanwhile, was the only one of the three that moved the prediction in the positive direction, nudging toward success, which shows that your academic record still carries some weight. However, this influence was the weakest of the three factors, and it was far too small to compensate for the combined risk from your class rank and LSAT performance.\n\nTo improve your chances if you reapply, focus on raising your LSAT score significantly, as this is one of the most decisive factors in the model. Consider test preparation courses and retake the exam. You might also consider whether additional coursework or a post-baccalaureate program could strengthen your academic profile, since your GPA currently offers only modest protection. With a stronger LSAT result, your overall risk profile could shift considerably in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 8,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:13:21.927336",
+  "status": "success",
+  "narrative": "The model assessed your likelihood of clearing the bar exam on the first attempt and estimated a 72 percent probability of failure. In practical terms, for every ten students with a comparable profile, roughly seven would not pass on their first try — a risk level the admissions committee considered too high to accept.\n\nThe single most important factor in this decision was your undergraduate academic record. Your GPA of 2.60 sits well below the 3.23 average of admitted students, and this gap weighed heavily on the prediction, pushing strongly toward bar exam failure. College grades are seen as a reliable signal of whether you can handle the academic rigor of law school and the exam that follows.\n\nThe second most influential factor was your family income bracket. You are classified as upper-middle, a bracket that actually represents the largest share of accepted applicants at 45.4 percent. While this worked against you to a modest degree in the overall calculation, its effect was far smaller than your GPA.\n\nFinally, your class standing in the first year of your current program, the seventh decile, was the third most meaningful factor. Admitted students typically sit around the sixth decile, so your position placed you below the typical accepted profile and nudged the prediction further toward failure.\n\nTo strengthen a future application, focus on building a demonstrably stronger academic track record — through additional coursework or a master's program with high grades — since this is the factor that weighed most heavily against you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

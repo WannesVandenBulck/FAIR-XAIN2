@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 198,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:57:55.547737",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates a 56 percent chance you would not pass the bar exam on the first attempt, meaning the school viewed the risk of failure as too high to admit you. The most decisive factor in this prediction was your enrollment status. You planned to attend part-time, while over 90 percent of accepted students were full-time. Attending part-time appears to signal that your studies would have been stretched, leaving less time to prepare for the bar exam's demanding content. This single factor pushed the prediction most strongly toward failure.\n\nYour undergraduate GPA was the second most important factor. At 2.40, it sits well below the 3.23 average among accepted students, and the model interpreted this as indicating that you might struggle with the academic rigor required to pass the bar. This also pushed the prediction toward failure, though not as strongly as the part-time enrollment.\n\nWorking against those two risk factors, your family income bracket of upper-middle actually pushed the prediction toward passing. It suggests you likely had financial stability and access to resources such as preparatory courses. However, this positive influence was not strong enough to outweigh the combined risk from your enrollment status and GPA.\n\nTo strengthen a future application, consider enrolling full-time and retaking the LSAT, which at 27 is far below the 37 average of accepted students. You might also take additional academic coursework to demonstrate that your undergraduate GPA does not reflect your current ability.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

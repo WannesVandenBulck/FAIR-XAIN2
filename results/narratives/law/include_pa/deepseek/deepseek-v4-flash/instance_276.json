@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 276,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:21:23.329716",
+  "status": "success",
+  "narrative": "Based on the information available, the model predicts there is a 67% chance you would not pass the bar exam on your first attempt. This means that, if admitted, you would be more likely to fail than to succeed, which is the primary reason your application was denied.\n\nThe most influential factors were your third-year class standing and your LSAT score, both of which strongly pointed toward bar exam failure. Your class standing in the third year was in the 2nd decile, meaning you ranked among the lower 20% of your class. Students who were accepted typically sat near the 6th decile, so your performance relative to peers is a significant concern. Similarly, your LSAT score of 26 is well below the average of about 37 for accepted students. Since the LSAT is designed to measure skills essential for legal study and the bar exam, a low score raises a serious red flag about your readiness.\n\nYour undergraduate GPA, at 3.50, is higher than the average of 3.23 among accepted students. This is a positive factor that pushed the model toward predicting you would pass. However, it had less influence than your class rank and LSAT score, so it could not overcome the risk indicated by those areas.\n\nTo strengthen your future application, focus on improving your LSAT score significantly through dedicated preparation and consider retaking the exam. Also, if possible, aim to raise your class standing in your final year. These are the areas that most strongly signal whether you are likely to pass the bar, and improving them would give you a much better chance of admission later.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

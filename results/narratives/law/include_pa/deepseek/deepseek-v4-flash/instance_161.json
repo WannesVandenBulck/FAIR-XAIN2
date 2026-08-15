@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 161,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T13:49:00.244266",
+  "status": "success",
+  "narrative": "Your law school application was denied because the admission model assessed your likelihood of passing the bar exam on the first attempt as very low. Specifically, it estimated an 82.8% probability that you would fail—a substantial risk that schools are not willing to take.\n\nThe three strongest factors behind this decision, in order of importance, were your class standing in your third year, your class standing in your first year, and your LSAT score. Each of these pushed the prediction strongly in the direction of bar exam failure.\n\nYour academic performance was the dominant concern. You ranked in the bottom decile of your class in both your first and third years, placing you at a 1 on a scale where admitted students typically sit around a 6. This pattern of consistently poor performance, particularly in your final year, signals to the model that you struggle with the rigorous legal material that forms the foundation of the bar exam.\n\nYour LSAT score of 28 also contributed, falling well below the average of 37 among accepted applicants. Since the LSAT measures critical reading and logical reasoning—skills directly tested on the bar—this further reinforced the model's conclusion that you were not prepared for the demands of law school or the licensing exam.\n\nTo improve your chances in the future, focus on strengthening the areas this model flagged. Consider retaking the LSAT after dedicated test preparation, and if you can, re-enroll in courses to improve your grades and demonstrate upward academic momentum. You might also look into legal studies programs or support services that build the analytical skills the exam requires, then reapply with a stronger record.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T14:54:05.078346",
+  "status": "success",
+  "narrative": "Based on your application, the model estimates there is a 58% chance you would default, meaning the risk of lending to you is higher than the acceptable level. Because of this, your loan request was denied.\n\nThree factors weighed most heavily in this decision. The strongest signal was the current state of your checking account, which is overdrawn by more than the lowest threshold. Among previously approved applicants, only about one in eight had a negative balance, so this stood out as a clear warning.\n\nSecond, you asked for a repayment period of 42 months, which is more than twice as long as the typical approved loan of roughly 19 months. Longer loans increase the chance something goes wrong, making you appear riskier.\n\nInterestingly, your past credit record—which is marked as critical or other existing credits—actually nudged the prediction slightly toward good credit. In other words, that particular factor was not working against you; it even helped a little. However, the two negative factors above were much stronger and outweighed that positive push.\n\nWhat should you do next? Start by bringing your checking account into positive territory and maintaining that for several months. Consider requesting a smaller loan with a shorter repayment term. Your current unemployment and limited savings also add to the overall picture, so building a steady work history and a small savings cushion before reapplying will strengthen your case. Once these areas improve, your chances of approval will rise meaningfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

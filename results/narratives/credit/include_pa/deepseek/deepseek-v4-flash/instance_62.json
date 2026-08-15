@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 62,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:08:01.919497",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated a 41 percent chance that you would become a bad credit risk — meaning you would struggle to repay the loan. Because that risk is above the bank's acceptable threshold, your application was denied.\n\nThree factors carried the most weight in this decision, and two of them worked against you. The strongest influence was your credit history. Even though your past credit record contains critical entries and other outstanding credits, this factor actually pushed the assessment in a favorable direction — suggesting that, on its own, your history wasn't the main problem.\n\nThe second most important factor was the balance in your checking account. With only between 0 and 200 Deutschmarks available, you fall into a range that most approved applicants do not — only about 18 percent of approved borrowers had such a low balance. This weighed heavily toward bad credit.\n\nThe third factor was your savings. With less than 100 Deutschmarks set aside, the model saw little financial cushion to absorb unexpected expenses, which also pushed toward bad credit.\n\nIn short, the denial came down to thin financial buffers, not your credit past. To improve your chances next time, focus on building a larger savings cushion and maintaining a healthier checking account balance over several months. A stable employment situation will also help. Once you can show stronger reserves, you may be in a much better position to reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

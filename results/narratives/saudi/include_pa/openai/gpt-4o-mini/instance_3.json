@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 3,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "timestamp": "2026-08-15T15:38:52.726674",
+  "status": "success",
+  "narrative": "The model has predicted a 57% chance that you may leave your job, which is a significant probability. This prediction has influenced the decision to deny you a promotion, as it suggests that your commitment to the organization may be uncertain.\n\nThe model identified three key factors that contributed to this prediction. First, your participation in training programs over the last three years was seen as a positive influence, suggesting that you are engaged and willing to develop your skills. However, your overall years of experience and the time spent in your current role were viewed as less favorable. With 6-10 years of total experience and only 1-5 years in your current position, the model indicates that you may not yet feel fully established or secure in your role, which can lead to thoughts of leaving.\n\nAdditionally, the model noted that you feel a lack of job stability, which is a critical concern. While many employees in similar positions report feeling secure, your perception of job security is lower, which can significantly impact your decision to stay or leave.\n\nGiven these insights, it may be beneficial for you to discuss your career path and development opportunities with your manager. Addressing your feelings of instability and seeking more support could enhance your engagement and satisfaction, potentially altering future predictions about your commitment to the organization.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}

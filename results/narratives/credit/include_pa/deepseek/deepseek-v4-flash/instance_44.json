@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 44,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-15T15:03:40.367873",
+  "status": "success",
+  "narrative": "Your loan application was denied because the bank’s model estimated that you have a 30% chance of defaulting on the loan. In other words, even though you are more likely than not to repay, the bank sees that as an unacceptable level of risk. The model reached this conclusion by weighing several factors about your financial situation, and three stood out above the rest.\n\nThe most important factor was the length of the loan you requested. You asked for a period of nine months, which is much shorter than the average of about nineteen months among approved applicants. This works in your favor: a shorter repayment period means less time for something to go wrong, so this pushed your risk score down.\n\nThe second most influential factor was the amount you requested. At 1,670 Deutschmarks, it is well below the average loan amount of about 3,020. That also helped you, because a smaller loan is easier to manage and less costly for the bank if things don’t go as planned.\n\nHowever, the third factor outweighed those advantages: your checking account. With a balance between 0 and 200 Deutschmarks, your account shows limited financial cushion. Most approved applicants either have no checking account at all or a more comfortable balance. This was the strongest signal pushing your risk upward, and it was enough to tip the decision against you.\n\nTo improve your chances in the future, focus on building up your checking account balance and maintaining steady employment. Reapplying after a few months of stronger financial reserves could lead to a different outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": false
+}
