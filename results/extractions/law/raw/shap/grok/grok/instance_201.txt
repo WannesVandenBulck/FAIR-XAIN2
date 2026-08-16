@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "fam_inc",
-      "sign": -1,
-      "value": 2.0
-    },
-    {
-      "rank": 2,
       "name": "lsat",
       "sign": 1,
       "value": 24
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "decile3",
       "sign": 1,
       "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "fam_inc",
+      "sign": -1,
+      "value": 2.0
     }
   ],
   "features": [
@@ -54,12 +54,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

@@ -74,8 +74,8 @@
     },
     {
       "name": "Rewards_Wages_Satisfaction",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Get_Deserved_Promotion",
@@ -109,8 +109,8 @@
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Engagement",
@@ -119,8 +119,8 @@
     },
     {
       "name": "Distance_to_work",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Work_Live_Balance",

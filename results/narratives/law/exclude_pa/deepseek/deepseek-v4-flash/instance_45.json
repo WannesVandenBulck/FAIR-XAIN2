@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 45,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:48:15.856154",
+  "status": "success",
+  "narrative": "Your law school application was denied because the model predicts a 69.9% chance that you would not pass the bar exam on the first attempt. In other words, based on your academic record, the school has strong reason to believe you would struggle to meet the licensing requirement that is essential for practicing law.\n\nThe single most influential factor was your class rank in your third year. You were in the bottom 10% of your class, while students who were accepted typically sat around the middle of the class. This is a very strong signal of academic difficulty. Your first-year class rank was almost as important, and it told the same story: you were again at the very bottom, compared to an average around the middle for accepted applicants. Both of these indicators pushed strongly toward a prediction of bar exam failure.\n\nInterestingly, your LSAT score was close to the average for accepted students. That score actually worked in your favor, pushing toward a prediction of passing, but it was not powerful enough to outweigh the two class-rank factors. In fact, those two ranks together were the dominant force in the decision.\n\nWhat should you do next? Consider strengthening your academic foundation before reapplying. You might retake key courses, seek tutoring, or pursue a post-baccalaureate program to demonstrate you can handle rigorous coursework. Improving your class standing—especially in your final year—would directly address the biggest concerns the model identified. A stronger record would give you a far better chance the next time you apply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

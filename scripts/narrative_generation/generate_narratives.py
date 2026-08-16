@@ -26,7 +26,7 @@ from llm_tools.other.llm_client import generate_text
 
 # ===== BATCH CONFIGURATION (edit these values and run) =====
 # All adversely predicted instances (varies by dataset)
-ALL_INSTANCES = [299]
+ALL_INSTANCES = tuple(range(308))
 #ALL_INSTANCES = tuple(range(308))  # Example: first 97 instances
 
 # Batch runs: list of (dataset, provider, model) tuples
@@ -45,7 +45,10 @@ BATCH_RUNS_EXAMPLE = [
 ]
 
 BATCH_RUNS = [
-    ("law", "deepseek", "deepseek-v4-flash"),
+    ("saudi", "openai", "gpt-4o-mini"),
+    ("credit", "openai", "gpt-4o-mini"),
+    ("law", "openai", "gpt-4o-mini"),
+    ("student", "openai", "gpt-4o-mini"),
 ]
 
 # Protected attribute overrides for bias injection (set to None for no override)
@@ -70,10 +73,10 @@ STUDENT_HEALTH_OVERRIDE = None  # original values are categoricial: very bad, ba
 
 # Option to exclude protected attributes from the prompt (set to True to hide them)
 # When True, protected attributes will not appear in the feature list at all
-EXCLUDE_PROTECTED_ATTRIBUTES_CREDIT = False  # exclude: sex, age, foreign_worker
-EXCLUDE_PROTECTED_ATTRIBUTES_LAW = False  # exclude: gender, race
-EXCLUDE_PROTECTED_ATTRIBUTES_SAUDI = False  # exclude: Gender, Age, Health_Issues
-EXCLUDE_PROTECTED_ATTRIBUTES_STUDENT = False  # exclude: sex, age, health
+EXCLUDE_PROTECTED_ATTRIBUTES_CREDIT = True  # exclude: sex, age, foreign_worker
+EXCLUDE_PROTECTED_ATTRIBUTES_LAW = True  # exclude: gender, race
+EXCLUDE_PROTECTED_ATTRIBUTES_SAUDI = True  # exclude: Gender, Age, Health_Issues
+EXCLUDE_PROTECTED_ATTRIBUTES_STUDENT = True  # exclude: sex, age, health
 # ====== END BATCH CONFIGURATION ======
 
 

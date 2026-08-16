@@ -4,19 +4,19 @@
   "most_important_features": [
     {
       "rank": 1,
+      "name": "failures",
+      "sign": -1,
+      "value": 0
+    },
+    {
+      "rank": 2,
       "name": "schoolsup",
       "sign": 1,
       "value": 0
     },
     {
-      "rank": 2,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
-    },
-    {
       "rank": 3,
-      "name": "failures",
+      "name": "higher",
       "sign": -1,
       "value": 0
     }
@@ -34,8 +34,8 @@
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
@@ -79,7 +79,7 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "paid",
@@ -119,8 +119,8 @@
     },
     {
       "name": "famrel",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "freetime",

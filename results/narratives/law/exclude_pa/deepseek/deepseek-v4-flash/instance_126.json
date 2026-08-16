@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 126,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:09:30.123681",
+  "status": "success",
+  "narrative": "You are likely wondering why your application was not accepted. When the admissions office ran a predictive assessment, the model concluded that you had a 65.9% chance of failing the bar exam on your first attempt. Because first-attempt bar passage is critical for the school's outcomes, that level of predicted risk was enough to deny admission.\n\nThe single most important factor in that decision was your LSAT score. Your score of 34 is noticeably below the average of 37.18 among accepted applicants, and the model treated this as the strongest signal pointing toward failure. A lower LSAT often reflects weaker foundational reasoning skills that are also tested on the bar, so this carried heavy weight.\n\nThe second factor, your first-year class ranking, also pushed in the same direction, though less strongly. You placed in the sixth decile, which is exactly the average for accepted students, meaning it did not help distinguish you — it offered no advantage to offset the concern raised by your LSAT.\n\nFinally, your family income bracket played a smaller but still notable role. Coming from a middle-income background, your profile aligned with a group the model saw as slightly more likely to struggle, possibly due to external pressures like work or financial stress.\n\nWhat should you do next? Retaking the LSAT to raise your score would directly address the strongest negative factor. Additionally, focusing on early academic performance could improve your class standing. Both steps would meaningfully change the picture in a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

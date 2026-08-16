@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "savings",
       "sign": -1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "rank": 3,
@@ -29,8 +29,8 @@
     },
     {
       "name": "duration",
-      "mentioned": 1,
-      "value": 28
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "credit_history",
@@ -44,13 +44,13 @@
     },
     {
       "name": "amount",
-      "mentioned": 1,
-      "value": 7824
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "savings",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "employment_duration",

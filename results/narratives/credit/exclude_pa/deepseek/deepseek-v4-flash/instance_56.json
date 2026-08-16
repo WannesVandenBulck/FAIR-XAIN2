@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 56,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:07:20.431424",
+  "status": "success",
+  "narrative": "Based on your application, the model estimates a 39% probability that you would default on the loan. In practical terms, this means that for every 100 applicants with a similar profile, about 39 end up as bad credit risks—a level of uncertainty the bank is not willing to accept. This probability, while not a certainty, is high enough to warrant a denial.\n\nThe most influential factor in this decision was your existing financial obligations. You indicated that you currently have other installment plans at a bank, which pushed your risk assessment firmly in the wrong direction. In contrast, the vast majority of approved applicants—nearly nine out of ten—had no other installment plans at all. This suggests that the bank sees your current debts as a sign that taking on additional credit could overstretch your budget.\n\nInterestingly, two other factors actually worked in your favor. Your savings account status, while modest, did not count against you, and even nudged your risk score slightly toward being a good credit candidate. Similarly, having no checking account was not a penalizing factor in the model's view. However, these positive contributions were not strong enough to overcome the negative weight of your existing bank installment plans.\n\nLooking ahead, the most effective step you can take is to reduce or pay off your existing installment debts, and avoid taking on any new credit obligations in the near future. Once those plans are cleared and you can demonstrate a stronger savings buffer, your financial profile would look substantially different, and you would have a much better chance of approval upon reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 46,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:48:24.442309",
+  "status": "success",
+  "narrative": "After reviewing your application, the model assessed your likelihood of passing the bar exam on the first attempt and arrived at a 69 percent predicted probability of failure. This means that, based on the academic signals available, failure was considered substantially more likely than success—though it is not a certainty.\n\nThe strongest factor driving this decision was your class standing in your third year of law study. Your rank placed you in the lowest decile of your cohort, while students who succeed typically sit near the sixth decile. The model treated this as the most influential signal, and it pushed the prediction strongly toward failure. Your first-year class ranking, also in the lowest decile, added a further push in the same direction, though its influence was weaker than the third-year ranking.\n\nNot everything worked against you. Your undergraduate grade point average of 3.50 is above the average of 3.23 among accepted students, and the model recognized this as a positive factor, nudging the prediction slightly toward passing. Unfortunately, this favorable signal was not strong enough to offset the two academic-ranking signals that pointed toward risk.\n\nWhat should you do next? Focus on any remaining coursework to demonstrate an upward trend, and seek academic support or mentorship to improve your class standing. Consider retaking the LSAT to strengthen your application, and if you reapply, be ready to explain the circumstances that affected your early law school performance.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

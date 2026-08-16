@@ -119,13 +119,13 @@
     },
     {
       "name": "Distance_to_work",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Work_Live_Balance",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Physical_Stress",

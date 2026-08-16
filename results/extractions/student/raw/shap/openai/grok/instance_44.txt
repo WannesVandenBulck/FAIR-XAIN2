@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "health",
-      "sign": 1,
-      "value": 1
+      "name": "higher",
+      "sign": -1,
+      "value": 0
     },
     {
       "rank": 3,
-      "name": "studytime",
-      "sign": 1,
-      "value": 2
+      "name": "Walc",
+      "sign": -1,
+      "value": 1
     }
   ],
   "features": [
@@ -29,13 +29,13 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
@@ -79,18 +79,18 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

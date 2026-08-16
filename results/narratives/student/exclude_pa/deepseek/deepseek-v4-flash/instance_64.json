@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 64,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:55:41.789968",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates that you have a 10% chance of failing your final year. That means a one in ten risk, not a certainty. Even so, a risk of this size is significant enough that the school requires you to take remedial courses as a precaution.\n\nInterestingly, the three most influential factors in your prediction are all strengths. You have never failed a class before, which is exactly what successful students typically show. You chose this school because of its reputation, a sign of focused motivation that supports good outcomes. And you study between five and ten hours each week, which is more than most students who pass usually report. These factors are all moving you toward passing.\n\nSo why the need for extra courses? Despite these advantages, the model still sees a small chance of stumbling. Your everyday circumstances, such as how you spend your free time or other commitments, might slightly increase your risk enough to keep that 10% chance alive. The remedial courses are not a punishment; they are a safety net. They are meant to turn a mostly positive prediction into an almost guaranteed success. Keep up your study routine, stay motivated, and use the extra support to close any small gaps. You are already on the right path.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

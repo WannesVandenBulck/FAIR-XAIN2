@@ -10,13 +10,13 @@
     },
     {
       "rank": 2,
-      "name": "property",
+      "name": "installment_rate",
       "sign": -1,
       "value": 1
     },
     {
       "rank": 3,
-      "name": "installment_rate",
+      "name": "property",
       "sign": -1,
       "value": 1
     }
@@ -29,8 +29,8 @@
     },
     {
       "name": "duration",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 12
     },
     {
       "name": "credit_history",
@@ -84,8 +84,8 @@
     },
     {
       "name": "housing",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "number_credits",
@@ -94,8 +94,8 @@
     },
     {
       "name": "job",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "people_liable",
@@ -104,8 +104,8 @@
     },
     {
       "name": "telephone",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "age",

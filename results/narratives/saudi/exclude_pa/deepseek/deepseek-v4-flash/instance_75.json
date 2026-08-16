@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 75,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:31:30.704729",
+  "status": "success",
+  "narrative": "The model has assessed that there is a 68% chance you will leave your job in the near future, and this assessment is the basis for denying the promotion. In plain terms, the model sees strong signals that you may depart, making a promotion investment risky.\n\nThe single most important factor is that you have received other job opportunities while working in your current position. This is rare among employees who stay—only about 23% of them had outside offers. When an employee has alternatives, the model interprets this as a strong sign they may act on them, and this alone pushes heavily toward a leaving outcome.\n\nInterestingly, two experience-related factors pulled in opposite directions. Your tenure at your current organization—6 to 10 years—was the second most influential factor and pushed toward staying. That length of service suggests genuine investment and matches the profile of employees who remain. However, your total career experience of 6 to 10 years was the third most influential factor and pushed the other way. At this career stage, employees often become more marketable and open to new challenges, which increases the likelihood of departure.\n\nTogether, these signals created a picture of a valued, experienced employee who is nonetheless poised to",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

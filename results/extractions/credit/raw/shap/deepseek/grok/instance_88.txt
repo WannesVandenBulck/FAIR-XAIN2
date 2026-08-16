@@ -4,15 +4,15 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "credit_history",
-      "sign": -1,
-      "value": 5
-    },
-    {
-      "rank": 2,
       "name": "status",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 2,
+      "name": "credit_history",
+      "sign": -1,
+      "value": 5
     },
     {
       "rank": 3,

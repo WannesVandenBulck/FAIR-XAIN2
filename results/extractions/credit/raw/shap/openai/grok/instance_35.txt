@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "purpose",
-      "sign": 1,
-      "value": 3
-    },
-    {
-      "rank": 3,
       "name": "savings",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "credit_history",
+      "sign": -1,
+      "value": 3
     }
   ],
   "features": [

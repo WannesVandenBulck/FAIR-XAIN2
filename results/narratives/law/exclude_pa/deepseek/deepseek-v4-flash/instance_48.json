@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 48,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:49:02.364072",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts you have a 56.3% chance of failing the bar exam on your first attempt. In other words, failure is slightly more likely than success.\n\nThe most important reason for this prediction is your class standing at the end of your third year. You finished in the bottom decile (1 out of 10), while accepted students average around the 6th decile. Third-year performance is a powerful indicator of bar exam readiness, so this low rank weighed heavily against you. In fact, it was the strongest influence in the entire decision.\n\nYour other two key credentials actually helped you. Your LSAT score of 35.5, though slightly below the accepted average of 37.18, pushed the model toward passing rather than failing. Your undergraduate GPA of 3.40, above the accepted average of 3.23, also nudged in your favor.\n\nBut the severe concern from your third-year class rank outweighed these positive factors. As a result, your predicted failure probability crossed the 50 percent threshold, and the application was denied.\n\nWhat you can do next: improve your recent academic record, especially in your next year of study. If there were personal or medical circumstances behind your low third-year rank, document them clearly. Consider enrolling in rigorous courses or a post-baccalaureate program to show you can handle demanding material. A strong upward trend in grades would directly address the biggest concern the model identified.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -79,12 +79,12 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -159,7 +159,7 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

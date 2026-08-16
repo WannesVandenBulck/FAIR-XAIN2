@@ -144,7 +144,7 @@
     },
     {
       "name": "absences",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

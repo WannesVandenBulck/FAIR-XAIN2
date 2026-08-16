@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:55:21.910286",
+  "status": "success",
+  "narrative": "Your loan application was denied because the bank’s risk assessment estimated a 35% chance that you would default. That means roughly one in three borrowers with a similar profile fails to repay, a risk above the bank’s threshold.\n\nThe strongest signal was your checking account balance: you had between 0 and 200 DM, a situation found in only about 18% of approved borrowers. A limited checking balance suggests little room to absorb unexpected costs, and this pushed you toward bad credit risk.\n\nThe next most influential features actually worked in your favor. Your credit history, though labeled critical or other credits, lowered your risk estimate rather than raising it. The amount you requested, 3617 DM, also had a positive effect despite being above the average approved loan. These two factors were the main counterweights to the checking account issue.\n\nHowever, the checking account signal outweighed those positives, and smaller factors such as low savings and renting added to the final picture. The result was a 35% default probability.\n\nWhat you can do next: strengthen your financial buffer. Increase your checking account balance and build a small savings cushion. You might also consider applying for a smaller loan or waiting until you have a longer record of on-time payments. With a more stable day-to-day financial situation, a future application would have much better chances.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

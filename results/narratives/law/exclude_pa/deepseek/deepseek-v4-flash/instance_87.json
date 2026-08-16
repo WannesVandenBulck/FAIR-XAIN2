@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 87,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:58:58.706543",
+  "status": "success",
+  "narrative": "Your application was denied because the admissions model estimated a 65.1% chance that you would fail the bar exam on your first attempt. In plain terms, the model judged that you were more likely to fail than to pass, and the university considered that risk too high to accept.\n\nThe two strongest influences on this prediction were your academic standings in law school. Your third-year class standing placed you in the 2nd decile, whereas accepted applicants typically sit near the middle, around the 6th decile. Your first-year standing was similar in the 3rd decile against an average near 6th. Being this far below the typical accepted student in both years is what most strongly pushed the prediction toward bar exam failure. These two factors carried the heaviest weight, signaling that your academic performance was well below the level the university expects from graduates who pass.\n\nYour LSAT score also mattered, though less than your class standings. Your score of 30 was below the accepted average of about 37, but the model actually treated it as the one factor among the main three that nudged in your favor, slightly lowering your predicted chance of failure rather than raising it.\n\nSo what should you do next? Focus on the two areas that weighed most heavily against you. Retaking the LSAT could lift your score closer to or beyond the admitted average, and strengthening your academic record—perhaps through a post-baccalaureate program or additional coursework with strong grades—would directly address the class-standing gaps the model flagged. If you can improve these and reapply, the prediction could shift meaningfully in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

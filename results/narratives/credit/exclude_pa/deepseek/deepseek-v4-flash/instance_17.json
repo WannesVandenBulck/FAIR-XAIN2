@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 17,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:59:06.408090",
+  "status": "success",
+  "narrative": "Based on the assessment, your loan application was denied because the model calculated a 45% probability that you would be a bad credit risk. This means that, based on your profile, the bank considers you almost as likely to default as to repay, which is too high a risk to approve.\n\nThe decision was driven primarily by three factors, ranked from most to least important. The strongest influence was your credit history. While you have no past delays, you also have no existing credits that you have fully paid off. This \"no credits/all paid\" status is extremely rare among approved applicants—only 1% of them share it—so the model sees a lack of demonstrated repayment behavior as a significant warning sign.\n\nThe second most influential factor was your checking account. You maintain a balance between 0 and 200 DM, which is a moderate risk indicator. Most approved applicants either have no checking account or a balance over 200 DM, so your current balance signals limited financial buffer to weather unexpected expenses.\n\nThe third factor, the 12-month loan duration, actually helped your case. This is shorter than the average 19-month term among approved applicants, meaning the bank would be exposed to risk for a relatively brief period. This pushed the prediction toward \"good credit,\" but its positive effect was not strong enough to overcome the two risk factors above.\n\nTo improve your chances in the future, focus on building a track record: take out a smaller credit and repay it consistently, and maintain a healthier checking account balance. Reapplying after establishing these patterns could change the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

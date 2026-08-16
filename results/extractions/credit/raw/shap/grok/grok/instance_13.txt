@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "status",
-      "sign": 1,
+      "sign": -1,
       "value": 4
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "name": "credit_history",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "purpose",
@@ -54,8 +54,8 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "installment_rate",
@@ -84,8 +84,8 @@
     },
     {
       "name": "housing",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "number_credits",

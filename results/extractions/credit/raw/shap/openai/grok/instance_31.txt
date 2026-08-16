@@ -12,25 +12,25 @@
       "rank": 2,
       "name": "duration",
       "sign": 1,
-      "value": 11
+      "value": "NaN"
     },
     {
       "rank": 3,
       "name": "status",
       "sign": 1,
-      "value": 2
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "status",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "duration",
       "mentioned": 1,
-      "value": 11
+      "value": "NaN"
     },
     {
       "name": "credit_history",

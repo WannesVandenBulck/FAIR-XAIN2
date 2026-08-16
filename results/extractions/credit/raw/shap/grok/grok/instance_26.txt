@@ -4,28 +4,28 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "amount",
-      "sign": -1,
-      "value": 3001
-    },
-    {
-      "rank": 2,
-      "name": "employment_duration",
-      "sign": -1,
-      "value": 4
-    },
-    {
-      "rank": 3,
       "name": "installment_rate",
       "sign": 1,
       "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "amount",
+      "sign": -1,
+      "value": "NaN"
+    },
+    {
+      "rank": 3,
+      "name": "employment_duration",
+      "sign": -1,
+      "value": 4
     }
   ],
   "features": [
     {
       "name": "status",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "duration",
@@ -45,7 +45,7 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": 3001
+      "value": "NaN"
     },
     {
       "name": "savings",

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 67,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:56:38.636953",
+  "status": "success",
+  "narrative": "Based on your information, the model estimates that you have a 32% chance of not completing this final year successfully. That is a sizeable risk, which is why additional courses are being required now, as a safety net to help you stay on track.\n\nThe strongest signal pushing toward this prediction is that you have indicated you do not plan to pursue higher education after secondary school. Among students who passed, every single one wanted to continue their studies, so this difference stands out sharply. This suggests to the model that you may lack the motivation or long-term goal that often carries students through challenging final-year work.\n\nAnother important factor is your record of past course failures. You have one previous failure, while students who passed had none on average. This matters because it shows that you have already faced academic difficulty once, and without extra support, that pattern could repeat.\n\nInterestingly, not all influences worked against you. The reason you chose this school actually pushed in the opposite direction, toward passing. You selected it because it is close to home, and while many successful students chose based on course offerings or reputation, your practical reason for being here is not a negative. The model sees it as a mild positive, perhaps because a shorter commute gives you more time and energy for studying.\n\nLooking ahead, think about what you want after school and set a concrete goal, even if it is not university. Seek help early to address gaps from your past failure, and build on your sensible choice to attend a nearby school by using that extra time to create a study routine. With these changes, you can reverse the prediction.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

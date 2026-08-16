@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 101,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:36:02.139341",
+  "status": "success",
+  "narrative": "The model indicates there is a 58% chance you will leave your job in the near future. Because this probability exceeds the threshold for retention risk, the promotion was denied—not as a judgment of your performance, but as a precaution against investing in someone likely to depart.\n\nThree factors weighed most heavily in this decision, and together they paint a clear picture. First, you have received other job offers while working here. This is rare among employees who stay, with fewer than a quarter of them experiencing this, and it strongly suggests you have attractive alternatives waiting. Second, your 11+ years of experience make you highly marketable. Most loyal employees have far less tenure, meaning your deep expertise gives you leverage to move elsewhere. Third, you find it difficult to balance your work and personal life. Only about one in ten employees who remain report this struggle, so your experience signals a genuine vulnerability that could push you out the door.\n\nInterestingly, your profile also contains many positive signals—you are satisfied with your job, feel secure, and have strong emotional commitment. Yet the combination of outside opportunities, extensive experience, and work-life strain outweighed those positives.\n\nFor the organization, the immediate next step is not simply to deny the promotion, but to ask what would make you stay. A conversation about flexibility, reduced overtime, or a path to advancement could address the work-life tension directly. For you, consider whether another offer truly aligns with your long-term goals, or whether a renegotiated role here could give you the balance you need.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

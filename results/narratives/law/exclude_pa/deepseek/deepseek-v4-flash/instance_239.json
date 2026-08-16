@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 239,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:38:27.684644",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicted an 87% chance that you would not pass the bar exam on your first attempt if admitted. In practical terms, the model strongly indicated that the risk of failure was too high to justify offering you a place, and that elevated risk is what drove the rejection.\n\nThe most important factor in this decision was your class standing in your third year. You finished in the bottom tenth of your class, while students who are typically admitted fall near the middle of their class. This signals that, by your final year, your academic performance had fallen far behind the level needed to succeed on a demanding professional exam.\n\nThe second most influential factor was your enrollment plan. You intended to study part-time, whereas the overwhelming majority of admitted students study full-time. The model treated this as a meaningful risk, since part-time study can make it harder to devote the necessary time to intense exam preparation and coursework.\n\nThe third factor was your first-year class standing. You placed in the third decile, which is below the average admitted student, but this early performance had a much smaller impact than the other two factors. It added a slight extra push toward the failure prediction, but it was not the deciding element.\n\nTaken together, the model saw a student whose academic standing declined over time, who planned to study part-time, and whose performance overall sat well below the norm for admitted students. Each of these pushed in the same direction: toward failure.\n\nTo improve your chances in the future, focus on raising your class standing in your final year and demonstrate stronger academic momentum. Also strongly consider restructuring your schedule so you can study full-time. Both changes directly address the two biggest reasons your application was denied and would meaningfully lower your predicted risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

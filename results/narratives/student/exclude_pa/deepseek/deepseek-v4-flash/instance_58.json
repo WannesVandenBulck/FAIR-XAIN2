@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 58,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:53:59.880345",
+  "status": "success",
+  "narrative": "Your final-year prediction shows a 22% chance of failing. That is not a definite failure, but it is a clear warning sign: the system considers you at risk, so the remedial courses are a precaution to help you finish on track. The most important factor in this decision is your past academic record. You have never repeated a year, which is exactly what is typical of students who pass, and this works strongly in your favor. Without this positive history, your predicted risk would be even higher. However, the second strongest influence is your study time. You reported studying less than two hours per week, while most students who pass study between two and five hours. This low amount of weekly study is the main reason the model flags you as needing support; it pushes your risk above the threshold. The third factor is whether you attended nursery school. You did not, and somewhat surprisingly, that actually lowers your predicted risk slightly, so it is not something to worry about. What should you do next? The clearest step is to increase your weekly study time to at least two to five hours. Because your past record is clean and you already want to pursue higher education, building a consistent study habit will make a real difference. The remedial courses are designed to give you that structure. Treat them as a support tool to help you succeed, not a punishment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

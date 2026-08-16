@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 28,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:23:02.239124",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 52%, meaning the model sees slightly more evidence that you will resign than that you will stay. That is why the promotion was denied: the organization is reluctant to invest in someone likely to depart.\n\nThe strongest signal pushing toward leaving is that you have received other job opportunities while working here. Only about a quarter of employees who stay receive such offers, so this stands out. It suggests the model sees you as a candidate who could be recruited away, increasing the risk of losing you soon after promoting you.\n\nWeighing in your favor is your tenure with this organization. You have been here six to ten years, which is much longer than most employees who leave—most leavers have only one to five years. This long service pulls the prediction toward staying and signals loyalty.\n\nHowever, your total career experience of more than eleven years pushes the other way. Employees with this much overall experience are less common among those who stay and may feel ready for advancement or new challenges elsewhere. With only a small majority probability of leaving, your situation is not clear-cut.\n\nYou should consider having an honest conversation with your manager about your career goals and whether promotion is realistic here. The organization, in turn, should recognize that your outside options may reflect unmet growth opportunities, not disloyalty. Offering a clear development path could reduce your likelihood of leaving and make future promotion decisions easier.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

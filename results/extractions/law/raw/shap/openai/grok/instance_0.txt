@@ -10,14 +10,14 @@
     },
     {
       "rank": 2,
-      "name": "lsat",
-      "sign": 1,
+      "name": "ugpa",
+      "sign": -1,
       "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "ugpa",
-      "sign": -1,
+      "name": "lsat",
+      "sign": 1,
       "value": "NaN"
     }
   ],

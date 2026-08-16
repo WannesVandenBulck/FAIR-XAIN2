@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "nursery",
       "sign": 1,
-      "value": 1
+      "value": 0
     },
     {
       "rank": 3,
@@ -105,7 +105,7 @@
     {
       "name": "nursery",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "internet",

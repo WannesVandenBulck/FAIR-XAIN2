@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 4,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:36:41.447522",
+  "status": "success",
+  "narrative": "Your application was denied because the admissions model estimated a 99.2% probability that you would not pass the bar exam on the first attempt. In plain terms, if you were admitted, the model expected failure with very high confidence, so the university decided not to offer you a place. The main reason was your academic standing rather than any single test score. Your third-year class rank was the most powerful factor: you were in the second decile, while accepted applicants were typically around the sixth. Being in a low decile in that key year strongly pushed the prediction toward failure. Your first-year class rank also mattered, though less. At the second decile, compared with the accepted average near six, your early academic performance told the same story and reinforced the model’s concern. A third, smaller influence was your family income category. Your family is upper-middle income, and although this background is not rare among accepted students, the model treated it as a minor additional nudge toward the failure prediction. In other words, all three top influences pointed in the same direction: toward failing the bar, not passing it.\n\nThis does not mean your future is sealed. Focus on raising your class rank in upcoming semesters through tutoring, structured study, and meetings with academic advisers. If you reapply, submit updated transcripts showing a clear upward trend, along with an addendum explaining any circumstances that affected your earlier grades. You may also consider a post-baccalaureate program or a commercial bar-preparation course to strengthen your record. Demonstrating sustained academic improvement is the most direct way to counter the concerns that drove this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

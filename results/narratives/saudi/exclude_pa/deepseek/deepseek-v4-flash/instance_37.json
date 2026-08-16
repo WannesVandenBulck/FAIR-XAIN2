@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 37,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:24:32.692229",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 45% chance that you will voluntarily leave your position within the coming period. While this is not an overwhelming probability, it is still high enough to trigger a decision not to offer you a promotion at this time. In other words, the organization is treating the risk of losing you as too substantial to invest in a new role that would entrust you with more responsibility.\n\nInterestingly, two of the most important factors in this prediction actually point away from you leaving. First, you have not received other job offers while working here. That is a strong indicator of staying: among employees the model believes will remain, about three-quarters have had no outside opportunities. Likewise, your total experience of one to five years is quite typical of those who stay, so this also reduces the predicted likelihood of departure.\n\nThe decisive factor pushing the prediction toward leaving is the difficulty you report in getting involved in the job—for instance, having your opinions heard or participating in decision-making. Only about one in ten employees predicted to stay describe this as difficult. This feeling of being disconnected or sidelined is a well-known driver of turnover, and in your case it outweighs the stabilizing signals. Practically, the organization should focus on giving you more meaningful involvement, and you may wish to raise this concern directly. If this single issue were addressed, the outlook could shift considerably.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 88,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:33:55.379373",
+  "status": "success",
+  "narrative": "The model has determined that you have a 64% chance of leaving your job, which is why the promotion was denied. This means that based on patterns from thousands of similar employees, the model believes you are more likely to depart than to remain with the organization.\n\nThe most influential factor in this decision was your total work experience. With one to five years of experience overall, you fall into the same range as roughly half of employees who were predicted to stay, which actually pushed the prediction slightly toward staying. Your experience level alone would not have raised concerns.\n\nHowever, the second most important factor worked against you. You indicated that you have received other job opportunities while working in your current position. Among employees predicted to stay, only about one in four had received outside offers, so your situation is less common and strongly signals that you may be actively considering other options. This was the strongest push toward the leaving prediction.\n\nThe third factor was the sector you work in. Your sector is less common among employees who stay, where medical and education fields dominate. This contributed moderately toward the leaving prediction as well.\n\nWhat should happen next? The model is not a verdict on your character, but a risk assessment. If you wish to stay and grow here, have an honest conversation with your manager about your long-term career path, what would strengthen your commitment, and whether outside offers are tempting you. The organization, in turn, should examine retention strategies for employees in your sector and experience range to address the underlying signals this prediction reveals.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

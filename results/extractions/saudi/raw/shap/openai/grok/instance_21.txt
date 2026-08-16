@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "Years_Experience",
+      "name": "Years_experience_lastorganization",
       "sign": 1,
-      "value": 2
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "Recognition",
+      "name": "Years_Experience",
       "sign": 1,
-      "value": 0
+      "value": 2
     }
   ],
   "features": [
@@ -34,8 +34,8 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Academic_degree",
@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -99,13 +99,13 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Environment_Satisfaction",
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Gender",

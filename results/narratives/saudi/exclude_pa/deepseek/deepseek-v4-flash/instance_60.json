@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 60,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:29:18.153052",
+  "status": "success",
+  "narrative": "Based on the available information, the model indicates there is a 94% chance you will leave your job in the near future. Because the risk of you departing is so high, the organization has decided not to invest in a promotion for you at this time.\n\nThe most significant factor pushing toward this prediction is your total career experience. With six to ten years in the workforce, you have reached a stage where you are highly marketable and possess skills that other employers actively seek. This level of experience strongly suggests you are likely to move on, rather than remain in your current role. The second key factor is your tenure here, which is only one to five years. When combined with your substantial overall experience, this indicates you have not been in this specific position long enough to establish deep roots, making a departure more probable. Finally, the third major influence is the fact that you have received other job offers during your time here. This is a direct signal that you are actively considering alternatives, which heavily reinforces the prediction that you will leave.\n\nThese three factors together paint a clear picture of a professional with valuable skills who is being courted by other organizations. For you to change this situation, consider discussing your long-term career path openly with management and seek commitment opportunities, such as leadership development or meaningful projects, that would make staying a more attractive choice than leaving.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

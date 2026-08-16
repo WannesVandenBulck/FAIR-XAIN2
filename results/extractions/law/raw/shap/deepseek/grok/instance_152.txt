@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "decile1",
       "sign": 1,
-      "value": 1
+      "value": "NaN"
     }
   ],
   "features": [
@@ -35,7 +35,7 @@
     {
       "name": "decile1",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "fam_inc",

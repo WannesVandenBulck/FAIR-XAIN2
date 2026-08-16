@@ -5,8 +5,8 @@
     {
       "rank": 1,
       "name": "higher",
-      "sign": -1,
-      "value": 0
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 2,
@@ -30,7 +30,7 @@
     {
       "name": "higher",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "famsize",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

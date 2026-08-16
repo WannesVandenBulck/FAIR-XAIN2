@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 21,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:43:46.583711",
+  "status": "success",
+  "narrative": "The model estimates you have a 44 percent chance of not passing your final year, which is why remedial courses are required. This is not a verdict on your intelligence, but a signal that certain aspects of your situation need attention.\n\nThe strongest factor pushing toward failing is that you do not want to pursue higher education. Every student who passed wanted to continue studying beyond secondary school. Having that goal is strongly linked to staying motivated throughout the year. Without it, the model sees a real risk you may lose focus.\n\nThe second most important factor worked in your favour. You have never failed a class before, and this clean record matches most successful students. The model recognises you are capable; past performance is not the problem.\n\nThe third factor adds to the risk. You study fewer than two hours per week, while most students who pass study between two and five hours. That gap can tip the prediction toward failure, because consistent study time is one of the most reliable habits for success.\n\nThe model sees a capable student who has never failed but is studying very little and lacks a clear post-school goal. To change this outcome, set a concrete goal for after school, even if it is not university, and increase your weekly study time to at least two hours. Your clean record proves you can succeed; these adjustments will help you prove it again.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

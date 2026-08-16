@@ -16,8 +16,8 @@
     },
     {
       "rank": 3,
-      "name": "failures",
-      "sign": -1,
+      "name": "schoolsup",
+      "sign": 1,
       "value": 0
     }
   ],
@@ -84,8 +84,8 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsup",

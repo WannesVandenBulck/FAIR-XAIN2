@@ -18,14 +18,14 @@
       "rank": 3,
       "name": "decile3",
       "sign": -1,
-      "value": "NaN"
+      "value": 6
     }
   ],
   "features": [
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 6
     },
     {
       "name": "lsat",
@@ -54,12 +54,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

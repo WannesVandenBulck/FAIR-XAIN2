@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 54,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:06:53.715058",
+  "status": "success",
+  "narrative": "Based on your application, our model indicates a 54% probability that you would be a bad credit risk. While this means the odds were close, the balance tipped toward denial, and your application was therefore declined.\n\nThe most significant factor working against you was your credit history. Your file shows no existing credits and all previous accounts paid off. While this sounds positive, it is actually the least common profile among approved borrowers, appearing in only about one percent of cases. From the bank's perspective, a lack of demonstrated experience managing installment debt makes it harder to predict future behavior, and this uncertainty strongly pushed the decision toward rejection.\n\nYour checking account status was the second strongest influence. Having a balance between zero and 200 Deutschmarks is a relatively uncommon profile, held by only about eighteen percent of approved applicants. A limited available balance in your primary account also nudged the prediction further toward bad credit risk, as it suggests limited financial buffer.\n\nOne factor worked in your favor: you own real estate, which is a positive signal of financial stability and the third most important consideration in this decision. This asset helped reduce your overall risk score, but it was not enough to overcome the concerns raised by your credit history and current account balance.\n\nTo improve your chances in the future, consider building a longer track record of managing credit responsibly over time, and strengthen your checking account balance before reapplying. Maintaining your real estate and documenting stable finances will also support a stronger application next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

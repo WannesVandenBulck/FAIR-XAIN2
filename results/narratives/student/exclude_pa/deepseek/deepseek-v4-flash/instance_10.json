@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 10,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:39:45.186488",
+  "status": "success",
+  "narrative": "Based on your information, the model estimates you have a 34 percent chance of failing your final year. That does not mean failure is certain, but it is high enough for the school to require remedial courses as a safety net. The three strongest factors in your profile are actually working in your favor, not against you. The most influential is your past record: you have never failed a class, which strongly lowers your risk compared to students who have repeated a year. Your ambition to pursue higher education is also a protective sign, since every student in the passing group shared that goal. Finally, your father’s secondary education level contributes a small positive influence, similar to many students who passed.\n\nSo why does the model still see reason for concern? Even with these strengths, your overall combination of habits and circumstances creates enough risk. You study fewer than two hours per week, while most students who passed studied more. Your weekend alcohol consumption is high relative to the passing group, and your absences are higher than average. These patterns may not have been the top factors in your prediction, but they are the ones you can change.\n\nUse this as an early warning, not a verdict. Keep your clean record intact, stay focused on your goal of higher education, and take the remedial courses seriously. Try to increase weekly study time, reduce weekend drinking, and attend school consistently. These actions directly address the risk the model detected and will put you in a much stronger position.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 12,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:40:31.472532",
+  "status": "success",
+  "narrative": "The model estimates you have a 32 percent chance of failing your final year. That means about one in three students with a profile like yours does not pass, which is significant enough that the school is asking you to take remedial courses. This is not a certainty, but it is a clear warning sign that you need extra support.\n\nThe single most important reason the model reached this conclusion is your history of past failures. You have failed three classes before, while students who passed typically had no previous failures. The model sees this as a strong signal that you are at risk, and it weighs this factor much more heavily than anything else about you. In fact, it is the dominant driver of the prediction.\n\nTwo other facts about your situation were also considered, though they had much smaller effects. The model looked at the fact that your father stays at home and that your guardian is someone other than a parent. Interestingly, both of these factors actually pushed the prediction slightly toward passing, meaning they worked in your favor. They were not causes for concern.\n\nSo the real issue is not your family situation or your guardian, but your pattern of failing classes in the past. This is also the most actionable place to focus. By taking the remedial courses seriously, you can break that pattern. Try to understand what went wrong previously, develop better study habits, and ask for help earlier. The prediction is just a probability, not a final verdict. With consistent effort, you can change the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

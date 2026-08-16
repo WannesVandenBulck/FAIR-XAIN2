@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 38,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:03:24.137056",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimated that you have a 25% chance of failing to repay the loan—roughly a one-in-four risk. The bank considers that level of uncertainty too high to approve the credit you requested.\n\nInterestingly, the three factors that weighed most heavily in the decision actually worked in your favor. Your savings situation was the single most influential factor, and it nudged the assessment toward good credit. Your installment payments also helped: at about 1% of your disposable income, they are far lighter than the typical approved applicant's burden, suggesting the monthly payment would have been manageable. The fact that you own real estate was the third most important factor and, again, worked in your favor—property ownership is a reassuring signal to lenders.\n\nYet these positives were not enough. You are currently unemployed and renting, the amount you asked for—about 7,400 DM—is more than double what most approved applicants borrow, and you have no savings buffer or telephone contact. These weaker signals collectively outweighed your strengths, leaving the model unable to confidently predict you would repay on time over the 12-month term.\n\nWhat should you do next? Consider re-applying once you have stable employment, even part-time, and after setting aside a small emergency fund. Requesting a smaller amount, closer to the typical 3,000 DM loan, would also dramatically reduce perceived risk. A short history of steady income and a lower request would tell the bank you can comfortably handle the payments.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

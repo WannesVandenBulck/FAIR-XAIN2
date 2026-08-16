@@ -54,13 +54,13 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Bonus",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "OverTime",
@@ -105,17 +105,17 @@
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Job_Engagement",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Distance_to_work",
@@ -139,7 +139,7 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

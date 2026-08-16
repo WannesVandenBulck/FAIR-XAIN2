@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 166,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:19:53.350993",
+  "status": "success",
+  "narrative": "Based on the information available at the time of your application, the model estimated that you have a 65 percent chance of failing the bar exam on your first attempt. This projected likelihood of failure was the central reason your law school admission was denied. Because a law degree's value depends on passing the bar, the school weighed this concern heavily.\n\nThree factors most strongly shaped this outcome, in order of influence. First, your first-year class standing played the largest role. Your grades placed you in the bottom tenth of your cohort, while accepted applicants typically sit around the sixth decile. This low early rank was the strongest signal pushing the prediction toward failure. Second, your undergraduate GPA of 2.30 fell well below the average of 3.23 among admitted students, reinforcing concern about your academic readiness and pushing the prediction further toward failure. Third, your full-time enrollment status worked in your favor. Full-time study is associated with better bar exam outcomes—over 90 percent of accepted applicants study full-time—and this factor pulled the prediction in the opposite direction, slightly lowering the projected risk. Still, it could not outweigh the two weaknesses.\n\nTo improve your chances, address those weaknesses directly: strengthen your academic record through additional coursework or a rigorous graduate program with strong grades, and petition the school with evidence of your progress. Your third-year standing in the third decile demonstrates an upward trajectory. Reapplying with that stronger record and a clear explanation of your improvement is your best path forward.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

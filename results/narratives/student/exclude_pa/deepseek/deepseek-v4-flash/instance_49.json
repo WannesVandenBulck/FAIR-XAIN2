@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 49,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:52:05.315696",
+  "status": "success",
+  "narrative": "Your model result shows a 35% chance of failing, which is why remedial courses are being required. It does not mean you will definitely fail, but the risk is high enough to act. Looking at what influenced this result, the most important factor was actually a positive one: you chose this school because of its reputation. That choice pushes toward passing, likely because it reflects motivation and a good fit with the school. The second strongest factor works against you: you have one past course failure, whereas most students who pass have none. This is the main source of concern and the primary reason the model leans toward failure. The third factor also helps you: you have very little free time after school, and compared with successful students, this is associated with passing, possibly due to a more structured and less distracted routine.\n\nSo the overall mixture of influences slightly favors failing because the past failure outweighs the positive signals. To improve your chances, focus on that one area of risk. The remedial courses are meant to help you overcome the previous difficulty. Combine them with the study routine you already seem to have and the motivation that brought you to this school. Ask for extra support from teachers or family, and try to identify what went wrong before. With your positive habits, you have a strong base to turn that 35% into a pass.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

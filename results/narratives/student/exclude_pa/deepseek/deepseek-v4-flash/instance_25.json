@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 25,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:45:02.042992",
+  "status": "success",
+  "narrative": "The model estimates that you have a 36% chance of failing the final year. This does not mean failure is certain, but it is high enough that the school requires you to take remedial courses to improve your odds.\n\nThe most important factor in this prediction is your academic history. You have three past class failures, while students who ultimately passed had none on average. This is the strongest signal the model sees, and it pushes the prediction firmly toward failing. Past failures often reflect gaps in foundational knowledge or ongoing challenges that can affect future performance if not addressed.\n\nThe other two influential factors actually work in your favor. You are receiving extra educational support from your school, which is rare among students who pass. This suggests you already have help in place, and the model recognizes this as a positive sign pushing you toward passing. Additionally, your father is your guardian, which is less common than having a mother or other guardian as the main contact. The model associates your specific guardian arrangement with a slightly higher chance of passing, though the reason is not directly measurable.\n\nDespite these positives, the influence of your past failures is strong enough that the predicted outcome remains leaning toward failing. Moving forward, focus on why those earlier failures happened and how to prevent a repeat. Use the school support you already receive, increase your weekly study time, and consider asking for additional help in subjects where you struggled before. Your situation is not hopeless, but it requires deliberate action now.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 27,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:22:54.247880",
+  "status": "success",
+  "narrative": "Your predicted likelihood of leaving your job is 51 percent, meaning the model sees your situation as slightly leaning toward departure rather than staying. Because of that, the promotion was not approved. The most influential factor in this decision is your total years of experience, which actually works in your favor. With only one to five years of experience overall, and about half of those who stay also in this range, you are still early in your career; the model interprets this as a sign that you are more likely to remain than to leave.\n\nHowever, two other factors push the balance toward leaving. First, you have received other job opportunities while working here, which is uncommon among those who stay—only about 23 percent of stayers received such offers. This signals that you may have attractive alternatives and could be tempted away. Second, your tenure in your current organization is also just one to five years, similar to many who stay, but combined with those outside offers it suggests you have not yet built deep roots in this workplace.\n\nThe organization should recognize that your wish to stay may be fragile. Offering clearer career growth paths, addressing recognition, and ensuring you feel valued for your effort could reduce the risk that outside opportunities become a reason to leave. You, in turn, may wish to communicate your ambitions openly so your managers understand what would make you commit fully to staying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

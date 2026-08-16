@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 42,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:49:36.976474",
+  "status": "success",
+  "narrative": "The model estimates that you have a 15 percent chance of not finishing the year successfully. In practical terms, out of one hundred students with a similar profile, about fifteen would fail. The school considers that risk high enough that you must take the remedial courses to make sure you stay on track.\n\nLooking at what most influenced the prediction, the strongest signals in your data are actually working in your favor. The most important factor is the reason you chose your school: you selected it for its reputation, which is a characteristic more common among students who end up passing. The second strongest factor is your record of past failures, which is zero. Students who pass tend to have no history of failing, so this is a very positive sign. Third, the quality of your family relationships is described as good, and this also matches the pattern seen in students who succeed.\n\nSo why the concern? Even though your strongest signals point toward success, the model still sees a real chance of difficulty. The remedial courses are not a punishment; they are a safety net. Your choice of a reputable school, your clean academic record, and your supportive family give you a solid foundation. Use that momentum, engage with the extra support, and these precautions can help convert that 85 percent chance of success into certainty.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

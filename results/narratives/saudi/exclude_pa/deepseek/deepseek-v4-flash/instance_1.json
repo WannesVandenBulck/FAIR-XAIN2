@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 1,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:17:31.340870",
+  "status": "success",
+  "narrative": "The model places your chance of leaving at 46%. That is not a certainty, but it is high enough for the company to see you as a retention risk, and that is why the promotion is not approved. This is not based on your gender, age, or health—those were not considered.\n\nThe strongest influence on the decision is your level of overall experience. With only 1 to 5 years, you are actually in the most common group among employees who stay: half of all stable employees have this same experience range. This works in your favor, slightly lowering your predicted chance of leaving.\n\nThe second most important factor works against you: you have received other job opportunities while working here. Only about one in four employees who stay have had outside offers. This is a strong signal, because having alternatives means you are more likely to leave for another employer.\n\nThe third factor is the sector you work in. Your industry is less common among loyal employees than medical or education fields are, and this adds a little more weight to the leaving prediction.\n\nSo even though your experience level and your high emotional commitment to the organization point toward staying, the combination of outside opportunities and sector risk tips the balance. The model does not say you will definitely quit—it says the risk is elevated.\n\nTo address this, the organization should treat the denial as a warning sign, not a final verdict. A conversation about your career path, salary, and the reasons you have looked elsewhere could reduce the risk. For you, it is worth clarifying what would make you want to stay—and whether this company can offer it.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

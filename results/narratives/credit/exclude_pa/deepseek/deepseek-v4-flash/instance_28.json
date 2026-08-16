@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 28,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:00:57.372887",
+  "status": "success",
+  "narrative": "After reviewing your application, our model estimated a 29% probability that you would become a bad credit risk. While that means there is a 71% chance you would repay reliably, it also means that, statistically, nearly three out of ten people with very similar profiles default. For our lending standards, that level of risk is too high, and that is why your request was denied.\n\nThe decision was driven primarily by three factors in your financial profile, ranked from strongest to weaker influence. The most important factor was the stated purpose of the loan — a business purpose. Interestingly, this worked in your favor, as business loans are relatively uncommon among approved applicants and the model views this as a positive sign. The second most important factor was your checking account status. You have between 0 and 200 DM in your checking account. This was the main factor pushing you toward being considered a bad risk. A balance in this range appears to signal a limited financial buffer, which raises concern about your ability to absorb unexpected expenses during repayment. The third most influential factor was your residential stability. You have lived at your current address for four years, longer than the average approved applicant, and this worked in your favor as well.\n\nSo, the model saw clear positives in your loan purpose and your stability, but the checking account situation weighed heavily against you, ultimately tipping the balance past our acceptable threshold.\n\nTo improve your chances in the future, I recommend building up a larger buffer in your checking account and maintaining it for several months before reapplying. Continuing to live at your current address will also help show stability. These steps directly address the most important risk factors identified.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

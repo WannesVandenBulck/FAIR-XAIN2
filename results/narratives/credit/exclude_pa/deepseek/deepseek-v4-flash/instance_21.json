@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 21,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:59:58.598660",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model estimated a 56% chance that you would be a bad credit risk—meaning slightly more than half of similar applicants with your profile defaulted. That probability tipped the decision against approval.\n\nThe most influential factor was your checking account status. You currently have a negative balance, which is uncommon among approved applicants—only about 12.6% of them are in that situation. This strongly pushed the prediction toward bad credit risk, because it signals immediate financial strain or difficulty managing day-to-day cash flow.\n\nIn contrast, two other factors worked in your favor. The amount you requested, 2,600 DM, is below the average of around 3,020 DM requested by approved applicants. Similarly, your requested loan duration of 18 months is slightly shorter than the typical 19 months. Both of these pushed the prediction toward good credit, as smaller, shorter loans are generally less risky for the bank. However, these positive signals were not strong enough to offset the negative impression left by your overdrawn checking account.\n\nWhat should you do next? First, take steps to bring your checking account into a positive balance and maintain that for several months. Consider applying again later with a larger down payment or a shorter, smaller loan. Also, strengthening your savings—currently under 100 DM—would demonstrate financial stability. You might also ensure any existing credits are paid reliably. With time and a healthier account history, your chances of approval will improve significantly.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

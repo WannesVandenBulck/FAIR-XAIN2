@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 40,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:03:54.742184",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated a 28% probability that you would default on the loan. That means there is roughly a one-in-four chance you would have trouble repaying, and the bank considers this risk too high to approve the application.\n\nThe most important factor in this decision was the status of your checking account. Your account has a negative balance, which is a significant warning sign. For context, only about 12.6% of approved applicants are in this situation, while nearly 60% have no checking account and most others have a positive balance. This was the strongest signal pushing your application toward denial, as it suggests current financial strain that could make it difficult to keep up with payments.\n\nInterestingly, the next two most influential factors actually worked in your favor. The amount you requested, 3,643 DM, is higher than the average approved loan of 3,019 DM, but the model did not treat this as a major concern. More importantly, your installment rate is very favorable: you would only be paying 1% of your disposable income toward the loan, compared to the average of about 3%. This low obligation relative to your income reduced your risk score significantly. However, these positive aspects were not enough to overcome the negative impact of your checking account situation.\n\nTo improve your chances, focus on stabilizing your finances. Work to bring your checking account to a positive balance and maintain that for several months. You already have strong stability in other areas, such as your long employment history of seven years or more. With a healthier account status, the same positive factors would carry much more weight, and you would have a far better chance of approval if you decide to reapply in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

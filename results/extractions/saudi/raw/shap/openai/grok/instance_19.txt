@@ -10,14 +10,14 @@
     },
     {
       "rank": 2,
-      "name": "Years_experience_lastorganization",
-      "sign": -1,
-      "value": "NaN"
+      "name": "Years_Experience",
+      "sign": 1,
+      "value": 0
     },
     {
       "rank": 3,
-      "name": "Years_Experience",
-      "sign": 1,
+      "name": "Years_experience_lastorganization",
+      "sign": -1,
       "value": "NaN"
     }
   ],
@@ -25,7 +25,7 @@
     {
       "name": "Years_Experience",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Job_Opportunities",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Academic_degree",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Sector",
@@ -104,8 +104,8 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Emotional_Commitment",
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Gender",

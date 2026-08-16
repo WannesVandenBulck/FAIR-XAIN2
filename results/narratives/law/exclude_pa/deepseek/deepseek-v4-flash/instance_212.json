@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 212,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:31:24.514138",
+  "status": "success",
+  "narrative": "The decision to deny your application came from a model that estimates the chance of failing the bar exam on the first attempt. For you, that chance was 74.7 percent. If students with a similar profile took the exam, roughly three out of four would not pass. Because passing the bar is essential to a legal career, the school saw this as an unacceptable risk. Neither gender nor race played any part.\n\nThe strongest factor was your class standing in your third year. You were in the second decile, with one being the lowest group, while accepted students sat near the sixth decile on average. This strongly pushed the prediction toward failing the bar. Your LSAT score had the next largest influence, but in the opposite direction: at 38, you were slightly above the average of 37.18, so it nudged toward passing. Your first-year standing also mattered, though less. Being in the third decile placed you below the typical accepted applicant and added to failure risk. Overall, despite a reasonable LSAT, your",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

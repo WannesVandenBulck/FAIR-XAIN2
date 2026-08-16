@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "failures",
-      "sign": -1,
-      "value": 0
-    },
-    {
-      "rank": 2,
       "name": "Fedu",
       "sign": 1,
       "value": 1
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "reason",
       "sign": 1,
       "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "failures",
+      "sign": -1,
+      "value": 0
     }
   ],
   "features": [
@@ -29,8 +29,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsize",
@@ -84,7 +84,7 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -109,8 +109,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "romantic",

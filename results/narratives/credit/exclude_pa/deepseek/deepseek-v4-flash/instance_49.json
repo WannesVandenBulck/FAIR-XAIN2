@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 49,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:05:43.827184",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model estimated a 56% chance that you would default on the loan. In other words, the risk of non-payment was slightly higher than the threshold the bank considers acceptable, so the decision was made to protect the bank from a likely loss.\n\nThe most important factor in that decision was your credit history. While you have always paid back the bank in the past, this exact pattern—where all payments have been made in full with no other types of credit—is very uncommon. Only about 3 out of every 100 approved applicants have this same record. Instead of reassuring the model, this unusual history actually pushed you toward the \"bad credit risk\" category, likely because it does not demonstrate how you handle other kinds of credit obligations.\n\nYour checking account also played a major role. You currently have a negative balance, which is a strong warning sign. Only about 12.6% of approved applicants had a checking account below zero. This suggests financial strain and made the model more concerned about your ability to keep up with loan payments.\n\nNot every factor worked against you. Your installment payment is only 1% of your disposable income, far lower than the average of about 3%. This was the third most important factor and it pushed in your favor, showing you could afford the monthly payments. But the two negative signals outweighed this positive one.\n\nTo improve your chances in the future, focus on building a positive checking account balance and maintaining a stable record with different types of credit over time. Reapplying after several months of stronger financial stability—and possibly with a smaller loan or a guarantor—could help you get a different outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

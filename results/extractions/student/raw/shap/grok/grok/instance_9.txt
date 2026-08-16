@@ -4,7 +4,7 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "nursery",
+      "name": "failures",
       "sign": 1,
       "value": 0
     },
@@ -16,7 +16,7 @@
     },
     {
       "rank": 3,
-      "name": "failures",
+      "name": "nursery",
       "sign": -1,
       "value": 0
     }
@@ -39,8 +39,8 @@
     },
     {
       "name": "Pstatus",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Medu",
@@ -119,8 +119,8 @@
     },
     {
       "name": "famrel",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "freetime",
@@ -134,8 +134,8 @@
     },
     {
       "name": "Dalc",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Walc",
@@ -149,13 +149,13 @@
     },
     {
       "name": "sex",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "age",
-      "mentioned": 1,
-      "value": 15
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "health",

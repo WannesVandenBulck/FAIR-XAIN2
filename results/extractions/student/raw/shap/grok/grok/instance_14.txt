@@ -11,7 +11,7 @@
     {
       "rank": 2,
       "name": "reason",
-      "sign": 1,
+      "sign": -1,
       "value": 3
     },
     {
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
@@ -124,13 +124,13 @@
     },
     {
       "name": "freetime",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "goout",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Dalc",

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 43,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:49:51.151016",
+  "status": "success",
+  "narrative": "Based on the model, you have about a 51% chance of failing your final year, which is why the remedial courses are being required. This is not a verdict that you cannot pass; it simply means that, given the patterns in your situation, extra support is needed to get you to the finish line.\n\nThe single strongest reason for this prediction is that you have failed a class before. Among students who ultimately passed, the average number of past failures was zero, so having one failure on your record is a significant warning sign. This factor alone pushed the prediction strongly toward failing. The model is not blaming you, but it sees that a previous failed class often makes it harder to keep up if the underlying difficulties are not addressed.\n\nTwo other factors, while not as powerful, actually helped your case. You have very little free time after school, and students who passed usually had medium or high free time. This suggests you are already busy and probably not wasting time; this worked in your favor and nudged the prediction toward passing. Similarly, your family relationships are good, which is another positive sign that gave you a small boost toward passing. But these two supportive factors were not enough to outweigh the risk created by your past failure.\n\nWhat should you do next? Treat the remedial courses as a direct response to that past failure. Focus especially on the subject you struggled with, and consider increasing your study time beyond the two hours a week you currently spend, since most passing students studied two to five hours or more. With that effort, your good family support and busy schedule can help turn the 51% risk into a successful year.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

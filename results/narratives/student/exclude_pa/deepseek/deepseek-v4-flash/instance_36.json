@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 36,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:48:06.875802",
+  "status": "success",
+  "narrative": "The model estimates that you have a 47 percent chance of failing your final year. That is not a guarantee you will fail, but it is a high enough risk that the school requires you to take remedial courses to improve your chances. The prediction is based on patterns from many students with similar profiles, and it does not use your sex, age, or health.\n\nThe most important factor pushing the prediction toward failing is your history of past class failures. You have one previous failure, while students who passed had an average of zero. This matters because a past failure often signals gaps in foundational knowledge or study habits that can make the final year harder. This single factor had by far the strongest influence on your risk.\n\nThe other two important factors actually worked in your favor. Living in a smaller household, with three or fewer people, is less common among students who pass, yet the model treated it as a slight positive sign for you. Similarly, your weekly study time of two to five hours aligns well with the most common amount among successful students, so your current effort level is pushing you slightly toward passing.\n\nYour challenge is that the protective effect of your study time and home situation is not enough to outweigh the risk created by your previous failure. To lower your chances of failing, focus on building stronger mastery of subjects you struggled with before. Consider using the remedial courses to address gaps, increase your weekly study time, and seek support early when topics feel confusing.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

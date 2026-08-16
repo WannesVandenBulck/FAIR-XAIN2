@@ -12,13 +12,13 @@
       "rank": 2,
       "name": "Job_Opportunities",
       "sign": 1,
-      "value": 1
+      "value": 0
     },
     {
       "rank": 3,
       "name": "Sector",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     }
   ],
   "features": [
@@ -30,7 +30,7 @@
     {
       "name": "Job_Opportunities",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Years_experience_lastorganization",
@@ -45,7 +45,7 @@
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "MonthlySalary",

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 133,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:10:53.443433",
+  "status": "success",
+  "narrative": "The review of your law school application was guided by a model that estimated your chance of failing the bar exam on the first attempt. That estimate came out to 55 percent, which means that, based on the patterns in the data, you were more likely to fail than to pass. Because the risk of failing was higher than the risk of passing, the admissions decision was to deny your application.\n\nThree pieces of information mattered most in that prediction. The strongest influence came from your undergraduate grade point average. Although your 2.70 is below the average of 3.23 for accepted applicants, this factor actually pushed the prediction in the direction of passing, not failing. So that part of your record helped you. The second most influential factor was your class standing in the third year of your undergraduate program. You were placed in the third decile, while accepted students averaged near the sixth decile. This lower relative performance pushed the prediction strongly toward failing. The third factor was your family income. Being in the upper-middle bracket, which is fairly common among accepted applicants, still nudged the prediction slightly toward failing, though it was the least important of the three.\n\nSo while your undergraduate GPA worked in your favor, the combination of a lower third-year class rank and your income category outweighed it, leading to the overall assessment of a 55 percent failure risk.\n\nFor the future, consider strengthening your academic record, especially in your final years, to improve your class standing. You might also seek additional preparation for law school and the bar exam, such as rigorous coursework or relevant experience, to demonstrate you can succeed despite the earlier weaker year. Retaking the LSAT for a higher score could also help offset these concerns in later applications.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

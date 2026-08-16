@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 23,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:44:36.645506",
+  "status": "success",
+  "narrative": "Your predicted chance of failing this year is 21 percent. That means the model sees a real risk, even though most students with a similar profile end up passing. The single biggest reason for this prediction is that you said you do not plan to pursue higher education after school. Among students who passed, every single one wanted to continue their studies. This one factor outweighs everything else in the model and is the main driver pushing you toward the failing category.\n\nThe other two important factors actually work in your favor. You have never failed a class before, which is a strong sign of past academic stability and typical of students who pass. Also, your guardian being your father, while less common among successful students than a mother as guardian, still nudges the prediction toward passing. So the model is not saying you are doomed; it is saying that your lack of ambition for further education is a serious warning sign that overrides your otherwise solid record.\n\nBecause of this, the model places you in the group that must take remedial courses. The most useful thing you can do is reflect on your goals beyond this year. Talk to a school counselor or your family about what options exist after graduation, even if you currently feel higher education is not for you. You clearly have the ability to pass, given your clean record. Reconsidering your long-term plans and finding a reason to engage with your studies could be the difference that makes this year a success.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

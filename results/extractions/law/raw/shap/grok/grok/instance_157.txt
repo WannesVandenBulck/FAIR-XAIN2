@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "ugpa",
       "sign": 1,
-      "value": 2.8
+      "value": 2.80
     },
     {
       "rank": 3,

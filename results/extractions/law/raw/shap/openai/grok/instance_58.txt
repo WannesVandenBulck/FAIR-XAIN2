@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "fam_inc",
+      "name": "lsat",
       "sign": 1,
-      "value": 2.0
+      "value": 31.00
     }
   ],
   "features": [
@@ -29,8 +29,8 @@
     },
     {
       "name": "lsat",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 31.00
     },
     {
       "name": "decile1",
@@ -39,13 +39,13 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 1,
-      "value": 2.0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 3.6
+      "value": 3.60
     },
     {
       "name": "fulltime",

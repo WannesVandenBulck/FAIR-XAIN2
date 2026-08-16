@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 32,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:47:01.733103",
+  "status": "success",
+  "narrative": "Your final-year risk has been assessed, and the model puts your chance of failing at 11 percent. That means the school considers you at risk enough to require remedial courses, even though your chance of passing is actually higher. Interestingly, the three most powerful factors in your profile are helping you, not hurting you. The strongest factor is your record of past failures: you have none, and among students who passed, the average was also zero. That strongly lowers your risk. The second strongest is your desire for higher education. You said yes, and every passing student in the data shared that goal, so this also pushes you toward success. The third is your father’s education level. He completed secondary school, which is similar to about a quarter of passing students; it is not the most common level, but it is not a disadvantage compared with many others.\n\nSo why does the model still predict failure? Because many smaller factors together point the other way. For example, you study less than two hours a week while most passing students study two to five hours, and your weekend alcohol consumption is high whereas most passing students drink very little. The overall balance of all these factors leads to the fail prediction.\n\nThe remedial courses are an opportunity. Increasing your study time, reducing weekend drinking, and making full use of the extra support can improve your odds considerably.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

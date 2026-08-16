@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 26,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:00:36.596840",
+  "status": "success",
+  "narrative": "Based on your application, the bank’s assessment shows a 27% chance that you would become a bad credit risk. This means that, for someone with your financial profile, there is roughly a one-in-four chance you would not be able to repay the loan. The bank’s lending standards are strict, and that level of risk is considered too high to approve.\n\nThe three most important factors in this decision were the amount you requested, how long you have been with your current employer, and the size of your monthly installments relative to your income. Importantly, all three of these worked in your favor. The loan amount you asked for, 3,001 DM, was slightly below the average for approved applicants, which is a positive sign. Your employment history of four to seven years also shows stability, which lowers risk. And your installment rate of 2% of disposable income is lower than the typical 3% seen among approved borrowers, meaning you were not overextending yourself.\n\nSo why was the application denied? These positive factors were not enough to overcome other weaknesses in your profile. Your checking account had a low balance, your savings were under 100 DM, and you rent rather than own your home. These aspects pushed your overall risk above the acceptable threshold. To improve your chances in the future, build up a savings buffer, consider a smaller loan, or add a co-signer. Your employment stability is already a strength, so focus on strengthening your financial reserves.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

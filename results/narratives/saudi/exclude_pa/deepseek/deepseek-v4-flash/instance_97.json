@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 97,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:35:26.544443",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, there is a 63% chance that you will leave your job in the near future. Because this risk is higher than the threshold the company uses to identify stable, long-term talent, your promotion request has been denied.\n\nThe single strongest factor in this decision is your total career experience of 6 to 10 years. Employees in this range are much more likely to depart than those with 11 or more years, who tend to be more settled. While your experience is valuable, it also means you are at a career stage where outside opportunities are especially attractive.\n\nThe second most important factor is the length of time you have been with your current organization, which is only 1 to 5 years. Interestingly, this pushes in the opposite direction: shorter tenure here suggests you have not yet built deep roots or loyalty, making the decision to leave easier than it would be for someone who has stayed longer.\n\nFinally, the model weighs heavily the fact that you have received other job offers while working here. This is rare—only 23% of stable employees receive such offers—and it signals that you have external options readily available, which dramatically increases your likelihood of departure.\n\nGiven these findings, you should consider having a candid conversation with your manager about your long-term intentions and career growth. The organization, in turn, should recognize that competitive tenure and external offers are risk factors that may require stronger retention efforts rather than a simple denial of advancement.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

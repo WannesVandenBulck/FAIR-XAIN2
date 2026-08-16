@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 94,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:35:07.568419",
+  "status": "success",
+  "narrative": "The model’s prediction indicates a 52% chance that you will leave your job in the near future. Because this probability crosses the threshold for “likely to leave,” the promotion is denied. This does not mean you definitely will resign, but it signals a significant risk that the organization would invest in promoting someone who may not stay.\n\nThe three strongest influences on this prediction were your overall experience, whether you have received other job offers, and your medical insurance coverage. Your experience level—one to five years—actually pushed the prediction in your favor, toward staying. That is typical for employees who remain, as half of them have the same amount of experience. Having no medical insurance, however, was a factor that also pointed slightly toward staying, since it is not uncommon among loyal employees. The most influential factor working against you was that you have received other job opportunities. Among employees predicted to stay, only about a quarter had outside offers, so this strongly signals that you are actively considering leaving. It outweighs the more positive signs from your experience and insurance status.\n\nThe organization should treat this as a caution flag, not a verdict. If you feel undervalued, consider discussing your career path and what would make you stay. The employer, in turn, could review your compensation and benefits, especially medical coverage, and clarify growth opportunities to reduce the temptation to accept outside offers.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

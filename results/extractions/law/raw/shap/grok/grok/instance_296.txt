@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "ugpa",
-      "sign": 1,
-      "value": 2.8
-    },
-    {
-      "rank": 3,
       "name": "fam_inc",
       "sign": -1,
       "value": 5.0
+    },
+    {
+      "rank": 3,
+      "name": "ugpa",
+      "sign": 1,
+      "value": 2.8
     }
   ],
   "features": [
@@ -49,7 +49,7 @@
     },
     {
       "name": "fulltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

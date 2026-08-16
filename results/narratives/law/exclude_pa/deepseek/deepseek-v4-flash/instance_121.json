@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 121,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:08:18.282451",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates a 64% probability that you would not pass the bar exam on the first attempt. This is above the school's acceptable risk threshold, so it treated your application as too likely to end in failure. The decision hinged on three academic signals, ranked by how strongly they influenced the outcome.\n\nYour most influential factor was your third-year class standing, where you placed in the 9th decile, far above the 5.79 average for admitted students. This shows remarkable growth and worked strongly in your favor, pushing the prediction toward passing. However, this single strength was not enough to overcome two weaker but still critical factors.\n\nThe second most important influence was your undergraduate GPA. At 3.00, it falls below the 3.23 average for accepted applicants, and this pushed the prediction squarely toward failure. The third factor was your first-year class standing. Sitting in the 6th decile, exactly at the average for admitted students, is unremarkable and also nudged the prediction toward failure.\n\nIn short, the model saw your later academic improvement as impressive, but your weaker undergraduate grades and average first-year rank carried more weight, producing the 64% failure risk.\n\nTo change this outcome, focus on the two factors that hurt you. Retake the LSAT to raise your score, and consider post-baccalaureate coursework or a master's program to demonstrate that your current academic ability exceeds your undergraduate record. Higher results in these areas would directly counter the concerns that led to this denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

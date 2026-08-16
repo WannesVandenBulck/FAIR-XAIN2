@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "failures",
+      "name": "studytime",
       "sign": 1,
-      "value": 0
+      "value": 1
     },
     {
       "rank": 2,
-      "name": "higher",
+      "name": "failures",
       "sign": -1,
       "value": 0
     },
     {
       "rank": 3,
-      "name": "studytime",
-      "sign": 1,
-      "value": 1
+      "name": "higher",
+      "sign": -1,
+      "value": 0
     }
   ],
   "features": [

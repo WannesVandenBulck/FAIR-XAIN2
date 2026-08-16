@@ -29,8 +29,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsize",
@@ -44,13 +44,13 @@
     },
     {
       "name": "Medu",
-      "mentioned": 1,
-      "value": 4
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Fedu",
-      "mentioned": 1,
-      "value": 4
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Mjob",
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",

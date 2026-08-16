@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 24,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:42:32.383850",
+  "status": "success",
+  "narrative": "The decision to deny your application rests on a prediction that you had an 80 percent chance of failing the bar exam on your first attempt—a level of risk the university was not willing to accept.\n\nThree factors drove that prediction. By far the most influential was your class standing in the third year. Your rank placed you well below the typical admitted student, whose average fell near the middle of the distribution. Since you had begun your first year at the same level as other admitted students, this drop by the third year signaled a clear downward trajectory, and it pushed the prediction very strongly toward failure.\n\nYour LSAT score also played a role, though a much smaller one. You scored 35, below the average of about 37 among admitted students. Yet this score actually counted as a slight point in your favor, nudging the prediction back toward passing. Your family income also factored in lightly: even though your upper-middle bracket was the most common among admitted applicants, it still contributed a small push in the direction of failure.\n\nWhat should you do next? Focus on your recent academic record, because that is what sank your application. Consider completing additional coursework or a post-baccalaureate program to show you can perform at a high level; an addendum explaining your third-year decline would also help. Retaking the LSAT is worth considering, but the evidence shows your classroom performance matters more. A stronger recent record would directly address the factor the school weighed most heavily.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

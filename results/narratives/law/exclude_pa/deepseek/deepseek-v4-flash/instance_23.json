@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 23,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:42:22.535613",
+  "status": "success",
+  "narrative": "Your application was denied because the admissions model predicts, with 95.8% probability, that you would fail the bar exam on your first attempt. This is an extraordinarily high risk, and it signals that the school has strong reason to believe you would not successfully complete the path to licensure if admitted.\n\nThree factors drove this decision, ranked from most to least influential. The single most important factor was your class standing in your third year. You ranked in the very bottom decile of your school, while accepted applicants typically sit near the middle of the class. This tells the model that your academic performance did not improve and actually placed you among the weakest students by graduation. The second most influential factor was your first‑year class standing. You finished in the second‑from‑bottom decile, compared with an average of around the sixth decile for admitted students. Early struggles alone are not decisive, but combined with a weak final year, they form a consistent pattern of academic difficulty. The third factor was your LSAT score of 28, well below the average of 37 among accepted applicants. A low score reinforces the concern that the foundational reasoning skills needed for legal study, and for passing the bar, are not yet in place. All three signals pushed strongly toward failure, with your third‑year performance being the heaviest weight.\n\nWhat you should do now is address these weaknesses directly. Consider retaking the LSAT after structured preparation, as a higher score would reset expectations. More importantly, if you reapply, you need to demonstrate recent academic success in rigorous coursework, since your low upper‑level grades are what most strongly damaged your application. A post‑baccalaureate program with strong grades could prove you are no longer the student those rankings describe.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

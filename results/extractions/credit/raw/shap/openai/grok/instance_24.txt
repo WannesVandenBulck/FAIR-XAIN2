@@ -11,14 +11,14 @@
     {
       "rank": 2,
       "name": "duration",
-      "sign": -1,
+      "sign": 1,
       "value": "NaN"
     },
     {
       "rank": 3,
       "name": "job",
       "sign": 1,
-      "value": "NaN"
+      "value": 3
     }
   ],
   "features": [
@@ -95,7 +95,7 @@
     {
       "name": "job",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 3
     },
     {
       "name": "people_liable",

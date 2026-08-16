@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 98,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:35:31.971556",
+  "status": "success",
+  "narrative": "The model predicts a 75% chance that you will leave your job, and because of that high risk, you have been denied the promotion. This does not mean you are a bad employee; rather, the decision is driven by signals that suggest you are likely to move on soon.\n\nThe strongest factor pushing the prediction toward leaving is your total experience of 11+ years. Among employees who are expected to stay, that level of experience is rare—only about 15% have it. In most cases, experienced professionals like you are looking for a change or already have the confidence to move. The second major influence is your relatively short time in your current organization: 1–5 years. Many people who stay have 6–10 years or more in the same company. When you combine long overall experience with a short tenure here, the pattern stands out: you may be seen as someone who does not commit deeply to one employer.\n\nHowever, one factor actually works in your favor: you have not received other job opportunities. Having no outside offers reduces the likelihood of leaving, and this is the third most important element in the prediction. Still, its influence is weaker than the experience pattern, so it cannot override the overall risk.\n\nFor your consideration: the model relies on these patterns, but you have the power to change them. Having a conversation with leadership about your commitment and future intentions, or asking for a clear career track, could help challenge this machine-made impression and support a future promotion review.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

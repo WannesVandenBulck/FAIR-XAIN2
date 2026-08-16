@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "Years_Experience",
-      "sign": -1,
+      "sign": 1,
       "value": 0
     },
     {
@@ -49,13 +49,13 @@
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Bonus",
@@ -89,8 +89,8 @@
     },
     {
       "name": "Useful_Training_Programs",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Business_Travel",

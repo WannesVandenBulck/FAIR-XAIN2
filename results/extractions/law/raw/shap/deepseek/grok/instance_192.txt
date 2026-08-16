@@ -10,13 +10,13 @@
     },
     {
       "rank": 2,
-      "name": "decile3",
+      "name": "decile1",
       "sign": 1,
       "value": 2
     },
     {
       "rank": 3,
-      "name": "decile1",
+      "name": "decile3",
       "sign": 1,
       "value": 2
     }

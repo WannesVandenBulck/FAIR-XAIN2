@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "Years_Experience",
-      "sign": -1,
+      "sign": 1,
       "value": 1
     },
     {
@@ -79,7 +79,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -104,12 +104,12 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -149,7 +149,7 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

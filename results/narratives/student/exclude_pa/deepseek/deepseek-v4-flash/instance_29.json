@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 29,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:46:05.372272",
+  "status": "success",
+  "narrative": "The model places you in the group that needs remedial courses because your predicted probability of failing is 12%. That means there is a 12% chance you will not pass the final year, and while an 88% chance of passing is encouraging, the school’s safety threshold considers any risk of 10% or more high enough to require extra support.\n\nWhat is most interesting is that the three strongest factors influencing your prediction are actually working in your favor. Having no previous failed classes is the most powerful signal, and you match perfectly the average of students who passed. Your weekly study time of more than ten hours is also a major protective factor, far above the typical amount for students who pass, where only around three percent study that much. Finally, receiving extra educational support from the school pushes you even further toward success, since very few students who pass receive that kind of help.\n\nSo why does the model still flag you? Because even though these positive factors keep your failure probability from being high, the overall combination of all your circumstances leaves a 12% residual risk. The model sees you as someone who is trying very hard and has a strong foundation, but there may be other quieter signals, such as the quality of family relationships, that slightly offset your strengths.\n\nYour next step should be to keep your excellent study habits and make full use of the school support you already receive. You might also consider talking with a counselor about other stresses in your life, since reducing those could lower your risk even further and make passing almost certain.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 72,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:11:17.651766",
+  "status": "success",
+  "narrative": "Your loan application was denied because our risk assessment estimates that you have a 37% chance of being unable to repay the loan. In other words, more than one in three borrowers with a similar profile default, and that level of risk exceeds what the bank can accept.\n\nThe most important factor in this assessment was your checking account history. You have a checking account with a balance of at least 200 Deutschmarks or a salary deposit. Compared with most approved applicants, this is uncommon—only about one in ten has such a solid account position—and it worked strongly in your favor. It lowered your risk and made the bank more willing to lend.\n\nYour savings situation, however, worked against you. With less than 100 Deutschmarks in savings, you fall into the most common category among approved applicants, but it is still a warning sign. The bank sees very limited financial buffer if an unexpected expense arises. This was the second strongest influence on the decision, pushing you toward being a bad credit risk.\n\nThe purpose of the loan also mattered. You requested the credit for furniture or equipment. That is a reasonable, less risky purpose than a new car or business, and it was the third most important influence, helping your application. Yet it could not offset the risk from your low savings.\n\nTo improve your chances next time, build up a savings cushion of at least a few hundred Deutschmarks before reapplying, and consider reducing the amount or lengthening the term to lower monthly burdens.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

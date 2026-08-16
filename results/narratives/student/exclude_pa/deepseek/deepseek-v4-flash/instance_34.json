@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 34,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:47:30.988464",
+  "status": "success",
+  "narrative": "The prediction is not that you are certain to fail, but that your risk is significant: the model puts your chance of failing at 37 out of 100. Because this is high enough to trigger intervention, you are required to take remedial courses to reduce that risk.\n\nThe strongest reason for this prediction is that you have failed a school year before. Among students who ultimately passed, the average number of past failures was zero, so your one past failure stands out and signals that something may have gotten in the way of mastering the material. This factor pushes the prediction strongly toward failing. Without it, your outlook would likely be much more positive.\n\nTwo important factors actually work in your favor. You study between five and ten hours each week, which places you above many students who pass; most passing students studied only two to five hours, so your regular study time pushes the prediction toward passing. You also clearly want to go on to higher education, a goal shared by every student in the data who passed the year, and this aspiration also reduces your predicted risk.\n\nSo the model sees a student with one warning sign from the past, but with good current study habits and strong motivation. The remedial courses are not a punishment; they are a targeted way to overcome that earlier failure. Use them to review the concepts you found difficult, stay consistent with your study schedule, and talk to your teachers about any gaps. With that effort, your chance of finishing successfully is likely to improve.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

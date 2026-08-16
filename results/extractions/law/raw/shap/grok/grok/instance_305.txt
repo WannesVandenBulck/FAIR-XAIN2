@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "ugpa",
       "sign": -1,
-      "value": 2.90
+      "value": "NaN"
     }
   ],
   "features": [
@@ -30,7 +30,7 @@
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": 28
+      "value": "NaN"
     },
     {
       "name": "decile1",
@@ -40,26 +40,26 @@
     {
       "name": "fam_inc",
       "mentioned": 1,
-      "value": 3.0
+      "value": "NaN"
     },
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 2.90
+      "value": "NaN"
     },
     {
       "name": "fulltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

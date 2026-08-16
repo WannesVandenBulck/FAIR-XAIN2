@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 2,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:37:24.355000",
+  "status": "success",
+  "narrative": "The model estimates a 31 percent chance that you will not pass your final year, and that is why remedial courses are being required. This is not a guarantee of failure, but the risk is high enough that extra support is justified.\n\nThe three strongest factors in the model's reasoning were actually in your favor. Having no previous failed classes strongly signaled that you are academically capable. Your stated desire to pursue higher education also pushed toward success, since motivation is closely tied to outcomes. Your mother working in services was another factor that appears more often among students who pass than among those who struggle.\n\nSo why did the model still land on the fail side? Because several smaller factors together outweighed those strengths. Your commute of over an hour is extremely rare among passing students, most of whom live within fifteen minutes of school. You study less than two hours per week, while most successful students study two to five. You also have very high free time, go out with friends very often, and drink very heavily on weekends, all patterns that show up far more among students who fail. Your family does not provide educational support at home, which most passing students receive.\n\nThe encouraging part is that every one of these can be changed. Cutting down weekend drinking, adding a few focused study hours, using commute time for review, and asking a family member to check your progress could meaningfully lower your risk. This prediction is not a verdict, it is an early warning that small adjustments now can change your outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

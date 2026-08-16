@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 63,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:52:56.330638",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 63.5% probability that you would fail the bar exam on the first attempt. In practical terms, this means that out of 100 students with a similar profile, roughly 63 or 64 would not pass, while only about 36 would succeed. That level of risk was considered too high for the university to accept.\n\nThe most influential factor in this decision was your class standing in the third year of your undergraduate studies. You finished in the first decile of your school, meaning you were among the lowest 10% of students in that year. This strongly pushed the prediction toward bar exam failure, as it suggests foundational academic struggles that often carry forward. Notably, students who were accepted typically fell around the sixth decile, so your performance was significantly below that benchmark.\n\nYour LSAT score was the second most important factor, but it worked in your favor. Although your score of 36 is slightly below the accepted-student average of 37.18, the model still treated it as evidence pointing toward success, reducing the failure risk compared to someone with a weaker test result. This alone, however, was not enough to offset the concern from your class rank.\n\nFinally, your first-year class standing also contributed to the negative outcome. You were in the second decile that year, again far below the accepted-student average of sixth decile, reinforcing the pattern of low relative academic performance throughout your studies.\n\nTo improve your chances in the future, focus on strengthening the areas you can control. Consider retaking the LSAT to raise your score, and if possible, complete additional coursework or a post-baccalaureate program to demonstrate that you can perform at a higher level academically. A stronger academic record in future settings would directly address the two factors that most hurt your application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

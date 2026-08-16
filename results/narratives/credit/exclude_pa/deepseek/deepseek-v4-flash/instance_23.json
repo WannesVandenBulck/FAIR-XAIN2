@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 23,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:00:14.200228",
+  "status": "success",
+  "narrative": "Based on the information available, the model assessed an 81% probability that you represent a bad credit risk, which is why your loan application was denied. This is a high level of risk, meaning that in similar situations, the vast majority of applicants with your profile do not successfully repay their loans.\n\nThree key factors drove this decision, ranked by importance. The most influential factor was the duration of the loan you requested. At 60 months, your requested term is more than three times longer than the typical approved applicant's term of about 19 months. Extending payments over such a long period significantly increases the uncertainty of repayment and was the strongest signal pushing the decision toward denial.\n\nYour checking account status was the second most important factor. You have a balance between 0 and 200 Deutschmarks, a category that is relatively uncommon among approved applicants—only about 18% of them have such a low balance. In contrast, nearly 60% of approved applicants have no checking account at all, and those with higher balances are seen as more stable. This low balance indicates limited immediate financial liquidity, further pushing the prediction toward bad credit.\n\nFinally, your property status was the third most influential factor. You reported having no known property or assets, a category that applies to only about 7.8% of approved borrowers. The lack of an asset base reduces the likelihood of recovering funds if repayment fails, which again contributed to the denial.\n\nTo improve your chances, consider applying for a smaller loan with a much shorter repayment period. Additionally, building a savings buffer and establishing ownership of tangible assets—even a vehicle—would strengthen your application significantly.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

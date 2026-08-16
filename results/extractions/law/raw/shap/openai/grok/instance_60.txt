@@ -5,14 +5,14 @@
     {
       "rank": 1,
       "name": "lsat",
-      "sign": -1,
+      "sign": 1,
       "value": "NaN"
     },
     {
       "rank": 2,
       "name": "ugpa",
       "sign": 1,
-      "value": "NaN"
+      "value": 2.5
     },
     {
       "rank": 3,
@@ -39,13 +39,13 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 1,
-      "value": 3.0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2.5
     },
     {
       "name": "fulltime",

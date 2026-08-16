@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 8,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:18:54.852278",
+  "status": "success",
+  "narrative": "Your profile shows a 62% chance of leaving within the coming period, and this risk is why the promotion was not approved. The strongest signal pushing toward that outcome is that you have received other job opportunities while in your current role. This is a clear sign of external options, and it strongly tilts the prediction toward departure. In comparison, only about a quarter of employees who stay in their jobs have received such offers.\n\nYour years of experience, however, work in your favor. With one to five years in the workforce, you fit the profile of many who remain—half of those predicted to stay share this level of experience. The model treated this as a stabilizing factor, partly offsetting the risk created by your outside offers.\n\nYour sector also added to the risk. Working in an \"other\" sector, rather than in medical or education where most stable employees are concentrated, pushed the prediction further toward leaving. Only about one in five employees who stay come from your sector.\n\nThese three factors combined outweighed the stabilizing influence of your experience. The decision is not a judgment on your performance, but a risk assessment. If you wish to remain and be considered in the future, consider communicating that you are not pursuing outside offers, and explore how your sector’s retention challenges might be addressed. For the organization, this profile points to a need for stronger retention efforts, particularly around career development and creating clear advancement paths.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

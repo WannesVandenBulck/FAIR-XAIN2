@@ -109,12 +109,12 @@
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Job_Engagement",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

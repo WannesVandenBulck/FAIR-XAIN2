@@ -4,15 +4,15 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_Experience",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 2,
       "name": "Training_programs_During_last_three_years",
       "sign": -1,
       "value": 3
+    },
+    {
+      "rank": 2,
+      "name": "Years_Experience",
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 3,
@@ -59,8 +59,8 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -124,8 +124,8 @@
     },
     {
       "name": "Work_Live_Balance",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Physical_Stress",
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Environment_Satisfaction",
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Gender",

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 8,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:39:01.512161",
+  "status": "success",
+  "narrative": "The model estimates your chance of failing the final year at 13 out of 100. In other words, for every 100 students with a profile like yours, about 13 do not make it. That is a real enough risk that your school is requiring you to take remedial courses, even though the odds are in your favour.\n\nThree factors mattered most in this decision, and notably, all three actually worked in your favour. The strongest influence was your history of past class failures: you have none, which matches the average among students who passed. This significantly lowered your risk. The second most important factor was your desire to pursue higher education. Since you intend to continue studying after school, the model treated you like the many successful students who share that goal, which again pulled you toward passing. Third was the reason you chose this school. You selected it because it is close to home, which is less common among students who pass than choosing for a specific course or the school's reputation, yet for your profile this factor still nudged you slightly toward passing.\n\nSo why are you being asked to take remedial courses? Despite these protective strengths, your overall profile still carries a 13 percent risk of failure, which your school considers too high to ignore. To reduce that risk further, keep your study schedule consistent and protect the time you spend on schoolwork each week. Build on your motivation for higher education by connecting daily lessons to that long-term goal, and do not wait until you are struggling to ask teachers or family for extra help. With these small steps, you can comfortably stay on the passing side of that line.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

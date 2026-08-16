@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "purpose",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 3,
       "name": "amount",
       "sign": -1,
       "value": 4006
+    },
+    {
+      "rank": 3,
+      "name": "purpose",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [

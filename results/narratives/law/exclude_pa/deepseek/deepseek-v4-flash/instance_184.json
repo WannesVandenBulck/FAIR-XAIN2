@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 184,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:24:05.273254",
+  "status": "success",
+  "narrative": "The decision to deny your application comes down to a prediction that you had roughly a 53% chance of failing the bar exam on the first attempt — slightly more likely to fail than pass, and that tipped the balance against admission.\n\nThe most influential factor was your LSAT score. At 28.5, it sits well below the average of about 37 among admitted students, and this gap weighed heavily against you. It was the strongest signal in the decision and pushed firmly toward bar exam failure.\n\nTwo factors worked in your favor, though not enough to offset the LSAT. Your undergraduate GPA of 3.40 is above the 3.23 average for admitted students, which the model treated as a genuine point in your favor, pushing toward passing. Your Year 1 class standing (fifth decile) also nudged the prediction toward success, even though admitted students average slightly higher (sixth decile). Your academic record was not the problem; the LSAT was.\n\nBecause the LSAT carried the most weight and fell so far short of the admitted-student average, it drove the prediction past the failure threshold.\n\nYour path forward is to invest serious preparation in retaking the LSAT. A substantially higher score would lower your predicted failure risk and align your application with students who gain admission and pass the bar. Consider a structured prep course, timed practice exams, and tutoring. Reapply once your score reflects your true capabilities.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

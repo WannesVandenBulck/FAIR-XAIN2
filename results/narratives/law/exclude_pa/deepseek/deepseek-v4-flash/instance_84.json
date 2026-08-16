@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 84,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:57:54.836518",
+  "status": "success",
+  "narrative": "I want to be straightforward with you about why your application was denied. The evaluation used to assess applicants estimates that you have an 84% chance of failing the bar exam on your first attempt—meaning that, based on the academic signals in your file, the risk was simply too high to accept.\n\nThe single most important factor in this decision was your class standing in your third year. By that point in your studies, you were in the very bottom decile of your class, while accepted students typically sit much closer to the middle of their cohort. Academic performance in the final year is a powerful indicator of whether someone will master the material tested on the bar, and this weighed heavily against your application.\n\nThe second strongest factor was your LSAT score. At 20, it is far below the average of roughly 37 among admitted students. The LSAT measures the exact reasoning and reading skills the bar exam demands, so a low score substantially increased the predicted chance of failure.\n\nYour first-year class standing, by contrast, worked in your favor—a middle decile placement is close to the accepted-student average and suggested some early promise. However, that positive signal was not nearly strong enough to offset the two concerns above.\n\nHere is what I would suggest: invest in formal LSAT preparation before retaking the test, and speak with academic advisors about strengthening your final-year performance if you plan to reapply. Addressing these two areas directly would meaningfully change a future evaluation.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

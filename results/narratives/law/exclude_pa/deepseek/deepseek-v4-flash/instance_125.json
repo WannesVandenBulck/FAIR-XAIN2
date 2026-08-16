@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 125,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:09:08.959470",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates a 52 percent chance that you would fail the bar exam on the first attempt. That is slightly more likely than not, and for law school admission this level of risk was considered too high.\n\nThe most important reason was your class standing in Year 3. You finished in the second decile, while accepted students typically finish around the sixth decile. Being near the bottom of your law school class in your final year is a very strong warning sign, and it pushed the prediction firmly toward bar exam failure. This single factor outweighed everything else.\n\nYour family income was the second most influential factor, but it actually helped you. Coming from a middle-income household moved the prediction slightly toward passing. It did not hurt your application.\n\nYour undergraduate GPA was third in influence. Even though your 2.50 GPA is below the average of 3.23 among accepted students, this factor pointed slightly toward success rather than failure. That support was small and could not offset the risk created by your Year 3 record.\n\nThe denial is not a judgment of your entire future, but a calculation of odds. If you reapply, focus on changing those odds. Strengthen your academic record, retake the LSAT, and prepare for the bar exam well in advance. Most importantly, provide evidence from the coming year that you can perform at a much higher level. This decision reflects probability, not destiny.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

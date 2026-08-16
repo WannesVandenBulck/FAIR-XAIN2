@@ -4,15 +4,15 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "savings",
-      "sign": -1,
-      "value": 5
-    },
-    {
-      "rank": 2,
       "name": "other_installment_plans",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 2,
+      "name": "savings",
+      "sign": -1,
+      "value": 5
     },
     {
       "rank": 3,

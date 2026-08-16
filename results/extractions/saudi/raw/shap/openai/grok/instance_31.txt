@@ -4,7 +4,7 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Job_Opportunities",
+      "name": "Sector",
       "sign": 1,
       "value": 1
     },
@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "Sector",
+      "name": "Job_Opportunities",
       "sign": 1,
-      "value": "NaN"
+      "value": 0
     }
   ],
   "features": [
@@ -30,12 +30,12 @@
     {
       "name": "Job_Opportunities",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Academic_degree",
@@ -45,7 +45,7 @@
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "MonthlySalary",

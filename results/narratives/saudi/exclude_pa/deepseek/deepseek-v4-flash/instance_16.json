@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 16,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:20:34.078912",
+  "status": "success",
+  "narrative": "Based on the model’s analysis, there is a 52% chance that you will leave your job within the coming period. This means that, while the outcome is close, the balance of evidence tips slightly toward you resigning. Because the model sees you as a likely leaver, the organization has decided to deny the promotion.\n\nThe most important factor in this decision is that you have not received any outside job offers while working here. This is a strong sign that you are not actively looking elsewhere, and it actually pushes the prediction toward you staying. Similarly, the fact that you have been in your current role for six to ten years works in your favor—longer tenure usually indicates loyalty and stability, so this also nudges the prediction toward staying.\n\nHowever, the second most influential factor works against you. Your total professional experience across all jobs also falls in the six-to-ten-year range. Compared with many employees in similar roles who have less overall experience, this level of experience makes you highly marketable in the broader labor market. The model weighs this as a risk signal: you have enough experience to move easily to another employer, which increases the chance you will leave.\n\nIn short, you are seen as a capable, experienced employee who could find another job, even though you have not yet sought one. To improve your chances in the future, consider expressing your long-term commitment to the organization, and ask what would strengthen your profile for promotion. The organization, for its part, should recognize that experienced employees like you are valuable and may need clearer career growth opportunities to stay.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

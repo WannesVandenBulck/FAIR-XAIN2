@@ -1,22 +1,22 @@
 ```json
 {
-  "predicted_probability": 0.959,
+  "predicted_probability": 0.96,
   "most_important_features": [
     {
       "rank": 1,
-      "name": "decile3",
+      "name": "decile1",
       "sign": 1,
       "value": "NaN"
     },
     {
       "rank": 2,
-      "name": "lsat",
+      "name": "decile3",
       "sign": 1,
       "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "decile1",
+      "name": "lsat",
       "sign": 1,
       "value": "NaN"
     }
@@ -39,8 +39,8 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4.0
     },
     {
       "name": "ugpa",

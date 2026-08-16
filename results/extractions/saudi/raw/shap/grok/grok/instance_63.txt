@@ -44,8 +44,8 @@
     },
     {
       "name": "Sector",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "MonthlySalary",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -99,12 +99,12 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "name": "Work_Live_Balance",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

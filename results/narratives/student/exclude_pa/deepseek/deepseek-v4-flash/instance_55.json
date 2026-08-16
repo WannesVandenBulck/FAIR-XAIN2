@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 55,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:53:22.989467",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates that you have about a 47% chance of failing your final year. That is not a certainty, but it is a high enough risk that the school has decided you need extra support to make sure you succeed. The most important reason behind this prediction is that you said you do not want to pursue higher education. Among students who passed, every single one intended to go on to further study. This matters because that goal often drives students to engage more seriously with their coursework. Without that ambition, it is easy to lose motivation and miss the effort needed to keep up.\n\nThe next factor pulling you toward failure is your weekly study time. You study less than two hours per week, while most passing students study between two and five hours. That difference means you are likely spending less time practicing and reviewing than your peers, which puts you at a clear disadvantage. Interestingly, there is one thing working in your favor: you have never failed a class before. Most passing students also have zero previous failures, so your past record shows you are capable. However, the model sees that your lack of higher-education plans and very low study time are stronger influences than your clean history.\n\nTo improve your chances, start by increasing your study time to at least the two-to-five hour range that is typical among successful students. Even a small bump in weekly effort can make a difference. At the same time, think about what you want after graduation. You do not have to decide on a specific career, but finding a personal goal for the year, whether a grade target or a subject you want to master, can give you the motivation that was missing. These changes, while simple, directly address the two largest risk factors in your prediction.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

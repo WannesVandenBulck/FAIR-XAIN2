@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 194,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:26:01.189263",
+  "status": "success",
+  "narrative": "The model that reviewed your application estimates a 64.6% chance that you would fail the bar exam on your first attempt. This is a high probability, and it is the core reason your application was denied: the law school uses this prediction as a signal of whether you are likely to succeed on the exam.\n\nThe most powerful factor driving this prediction was your class standing in your third year of study. You ranked in the very bottom decile, while accepted students tend to sit near the middle, around the sixth decile. Being in the bottom 10% is a strong indicator, in the data, that you would struggle with the bar exam. This single factor pushed the prediction firmly toward failure.\n\nYour LSAT score worked against that trend. Even though your score of 35 was modestly below the accepted average of about 37, the model still treated it as a small point in your favor, nudging the prediction slightly toward passing. So your test-taking ability helped, but it did not overcome the impact of your academic ranking.\n\nThe third influence was your family income bracket, which you reported as middle. This contributed a small push toward failure. While many accepted students come from similar backgrounds, the data shows a slight pattern linking middle income with a marginally higher risk of failing the bar on the first attempt. This was a minor factor.\n\nBecause your year-three performance was the main driver, the clearest path forward is to strengthen your academic record. Consider retaking demanding courses, pursuing a structured post-baccalaureate program, or gaining legal work experience to show you can maintain strong performance. A significantly higher LSAT score could also add a larger counterbalance. Focus on demonstrating sustained improvement, and reapply when your record better reflects your true potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

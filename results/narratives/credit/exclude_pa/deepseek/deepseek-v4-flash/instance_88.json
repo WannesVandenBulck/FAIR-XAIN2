@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 88,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:14:24.147987",
+  "status": "success",
+  "narrative": "Your loan application was declined because the model estimates a 36% chance that you would become a bad credit risk—a probability the bank considers too high. In other words, out of 100 applicants with a very similar profile, about 36 would fail to repay their loan as agreed. While that means a majority would manage, the risk is still substantial enough to miss the bank’s approval threshold.\n\nThe decision was based only on your financial profile, not on personal traits such as your age, gender, or nationality. Three factors carried the most weight.\n\nYour credit history actually worked in your favor. Even though you have critical marks and other outstanding credits, this aspect of your profile reduced the predicted risk rather than increasing it. Similarly, your installment rate of 2% of your disposable income—lower than the 3% average for approved applicants—also helped your case. These two factors pushed the model toward considering you a good credit risk.\n\nHowever, the strongest single influence came from your checking account status. Your account is currently below zero, with a negative balance, a condition seen in only about 13% of approved applicants. This heavily pushed the decision toward denying the loan. Its negative impact outweighed the positive contributions from your credit history and manageable installment rate.\n\nThe result was a 36% predicted probability of default, which remains too high for approval. To improve your chances, focus on bringing your checking account balance into positive territory and keeping it stable. Continue making your credit payments reliably, and consider applying again later, perhaps for a smaller amount or a longer repayment term. A healthier financial profile could change the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

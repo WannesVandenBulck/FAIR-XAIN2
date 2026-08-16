@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 304,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:54:04.582078",
+  "status": "success",
+  "narrative": "The model’s prediction stands at a 52.9% chance that you would fail the bar exam on the first attempt. That means you were slightly more likely than not to fall short, and for a law school that expects successful outcomes, this risk was too high to justify admission.\n\nThe single most powerful factor in this decision was your plan to attend law school part-time. Only 7.2% of accepted students were part-time, while 92.8% planned to study full-time. Attending part-time was a strong signal pushing you toward bar-exam failure, because balancing work and study often leaves less time for the intense preparation the exam requires. This outweighed everything else.\n\nYour LSAT score was the second most influential factor. Although your score of 34 was below the accepted-student average of 37.18, the model found that this particular score actually shifted your prediction slightly toward passing. In other words, your LSAT did not hurt you—it worked modestly in your favor.\n\nThird, your undergraduate GPA worked in your favor as well. At 3.30, it was slightly above the average of 3.23 for accepted applicants, which again pushed the prediction toward passing.\n\nUnfortunately, the strong negative effect of being a part-time student outweighed the combined positive contributions of your LSAT and GPA. That is why the application was denied.\n\nWhat you can do next: if you reapply, consider committing to full-time legal study, or explain how you will protect enough time for bar preparation. Keep your GPA strong and retake the LSAT if you believe you can improve. Reducing outside work commitments would directly address the main risk that led to this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

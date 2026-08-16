@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 17,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:42:10.997552",
+  "status": "success",
+  "narrative": "Your final-year prediction placed you in the group of students required to take remedial courses, but the model estimates your chance of failing at just 10 percent. That means you are roughly nine times more likely to pass than to fail, yet the risk was still large enough to trigger the additional-course requirement.\n\nThe three strongest influences on the model's decision were your history of past class failures, the extra educational support you receive from school, and your intention to pursue higher education. All three actually pushed in your favor rather than against you. Having no prior failures is a very strong positive signal, matching the profile of most students who pass. The extra school support also reduced the model's concern, even though only a small minority of successful students receive it. And your desire to continue to higher education is another protective factor, one shared by every student who passed in the data.\n\nBecause these key factors all pointed toward success, your failure probability stayed low. Still, the model flagged you as at risk, and the explanation lies in quieter parts of your profile. You have no internet access at home, you receive no family educational support, you are not taking paid extra classes, and you have missed ten days of school compared with an average of about four among students who pass. Together, these smaller factors tipped the decision just over the line.\n\nThe encouraging news is that your risk is modest and your strengths are clear. Focus next on attendance, since reducing absences is the area you can most directly control, and consider seeking family support or paid classes to match the commitment you already show through school support and your ambition for higher education.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

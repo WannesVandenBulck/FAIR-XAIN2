@@ -24,7 +24,7 @@
   "features": [
     {
       "name": "decile3",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "name": "ugpa",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "Sector",
       "sign": 1,
-      "value": 1
+      "value": "NaN"
     }
   ],
   "features": [
@@ -45,7 +45,7 @@
     {
       "name": "Sector",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "MonthlySalary",

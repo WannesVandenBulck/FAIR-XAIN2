@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:36:01.103651",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 99.2% probability that you would fail the bar exam on the first attempt. This is a very strong signal, and it drove the decision. The most important factor was your class standing in your third year. You were in the second decile, meaning you ranked near the bottom of your class, while accepted students typically sit around the sixth decile. This pattern is even more striking because your first-year standing was similarly low: second decile compared to a typical accepted student's sixth. These two academic indicators, especially your third-year performance, heavily pushed the prediction toward failure. Your LSAT score and undergraduate GPA were also below the averages for accepted students, but the model focused most on your low class rankings. Your family income was the third strongest influence, though it played a much smaller part than your grades. Interestingly, upper-middle income is common among accepted students, so this did not strongly work against you—but it still tilted slightly in the failure direction. The overall picture is that your academic record, particularly your relative performance in law school, strongly suggests you would struggle on the bar exam. To improve your chances in the future, focus on raising your class standing: seek academic support, form study groups, and meet with professors. Retake the LSAT and strengthen your study habits before reapplying. A higher academic trajectory will change the prediction dramatically.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

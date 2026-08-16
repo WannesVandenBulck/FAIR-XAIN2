@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "decile3",
-      "sign": -1,
-      "value": 4
-    },
-    {
-      "rank": 3,
       "name": "decile1",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "decile3",
+      "sign": -1,
+      "value": 4
     }
   ],
   "features": [

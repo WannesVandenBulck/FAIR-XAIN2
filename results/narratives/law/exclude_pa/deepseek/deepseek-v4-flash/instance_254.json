@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 254,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:41:22.010735",
+  "status": "success",
+  "narrative": "Your application was denied because the university relies on a model that forecasts your chances of passing the bar exam on the first attempt. For you, it predicted a 68.4 percent probability of failure, meaning that based on your academic record, you were seen as more likely to fail than to pass. This prediction guided the rejection.\n\nThe most influential factor was your class standing in your third year. Finishing in the bottom ten percent, the first decile, is a very strong signal of bar exam struggle. By contrast, admitted students typically rank around the sixth decile in that year, so your performance sat far outside the range associated with success. Your first-year class standing was almost equally influential and told the same story: you were again in the bottom decile, while admitted students average near the sixth. Together, these two rankings revealed a consistent pattern of performing at the very bottom of your peer group, and that pattern drove the decision more than anything else.\n\nOne factor actually worked in your favor: your standardized test score. Though your LSAT of 34 falls below the average of about 37 for admitted students, the model weighed it as a point pulling toward passing. Still, this positive influence was not strong enough to overcome your academic standing.\n\nIf you want to pursue law, focus on rebuilding your academic record. Consider retaking the LSAT to improve your score, and enroll in a rigorous program where you can earn high grades for at least a full year. Demonstrating sustained improvement would give future reviewers evidence that your earlier class ranks do not define your potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -12,12 +12,12 @@
       "rank": 2,
       "name": "duration",
       "sign": 1,
-      "value": 42
+      "value": "NaN"
     },
     {
       "rank": 3,
       "name": "credit_history",
-      "sign": 1,
+      "sign": -1,
       "value": 5
     }
   ],
@@ -30,7 +30,7 @@
     {
       "name": "duration",
       "mentioned": 1,
-      "value": 42
+      "value": "NaN"
     },
     {
       "name": "credit_history",

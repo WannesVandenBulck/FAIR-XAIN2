@@ -4,38 +4,38 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "failures",
-      "sign": -1,
+      "name": "famsize",
+      "sign": 1,
       "value": 0
     },
     {
       "rank": 2,
-      "name": "freetime",
+      "name": "Medu",
       "sign": 1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "rank": 3,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
+      "name": "freetime",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
     {
       "name": "failures",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "higher",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Fedu",
@@ -79,7 +79,7 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -125,7 +125,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "name": "goout",

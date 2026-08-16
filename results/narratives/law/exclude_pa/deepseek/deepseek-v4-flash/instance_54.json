@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 54,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:50:53.328222",
+  "status": "success",
+  "narrative": "Your law school application was denied because the admissions model assessed your likelihood of passing the bar exam on the first attempt, and it placed your chances of failure at nearly 69%. This means the model saw you as more likely to fail than pass, a risk the school was not willing to accept.\n\nThe single biggest factor in this decision was your class ranking in the third year of your undergraduate degree. You ranked in the third decile, meaning a substantial portion of your classmates outperformed you in that final year. By contrast, students who were admitted typically ranked closer to the sixth decile. Your earlier ranking, from your first year, was the second strongest factor. At the fourth decile, you were again below the average of accepted students, who tend to sit at the sixth decile. These two academic signals weighed heavily against your application.\n\nYour family's income bracket also played a smaller but noticeable role, nudging the prediction further toward failure. This is the least influential of the three main factors, and your bracket (upper-middle) is actually common among admitted students, so it was not a decisive problem by itself.\n\nThe path forward is clear: strengthen the academic record the model relies on. Focus on raising your grades, especially in your final year, since that ranking carries the most weight. Consider retaking the LSAT if your score allows room for improvement, and think about applying after a year of additional coursework that demonstrates a stronger upward trajectory.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

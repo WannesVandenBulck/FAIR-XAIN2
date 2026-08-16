@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 4,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:37:58.244029",
+  "status": "success",
+  "narrative": "Your model result shows a 10% predicted chance of failing. That means that, based on your profile, the school estimates that roughly one in ten students with similar circumstances ends the year failing, and this risk is high enough that additional courses are required to support you.\n\nThe three most influential factors in your prediction were actually points in your favour. The strongest was your academic record: you have never failed a class, which is just like most students who pass. This strongly moved the prediction toward passing. The second most influential factor was that you did not attend nursery school. This is less common among passing students, since about 80% of them did attend, but for your particular profile it slightly reduced the model’s failure estimate. The third factor was your low free time after school. This also pushed in the direction of passing, likely suggesting that you use much of your time for school-related work.\n\nSo why must you take remedial courses? Because the model also considers many smaller signals beyond these three, and after combining all of your information, it still sees a meaningful 10% chance of failure. Your strengths lower that risk, but they do not remove it entirely.\n\nTo improve your chances, continue keeping your record clean by staying consistent with assignments and seeking help early when topics feel difficult. Since your free time is low, make sure your schedule includes structured review time and enough rest. The remedial courses are there to reinforce what you already know and help reduce that remaining risk even further.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

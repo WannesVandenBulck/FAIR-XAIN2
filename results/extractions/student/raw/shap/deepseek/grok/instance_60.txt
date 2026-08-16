@@ -145,7 +145,7 @@
     {
       "name": "absences",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 30
     },
     {
       "name": "sex",

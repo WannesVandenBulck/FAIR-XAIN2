@@ -4,9 +4,9 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
+      "name": "savings",
       "sign": 1,
-      "value": 2
+      "value": 4
     },
     {
       "rank": 2,
@@ -24,8 +24,8 @@
   "features": [
     {
       "name": "status",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "duration",
@@ -49,8 +49,8 @@
     },
     {
       "name": "savings",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "employment_duration",

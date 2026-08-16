@@ -44,8 +44,8 @@
     },
     {
       "name": "ugpa",
-      "mentioned": 1,
-      "value": 2.8
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "fulltime",

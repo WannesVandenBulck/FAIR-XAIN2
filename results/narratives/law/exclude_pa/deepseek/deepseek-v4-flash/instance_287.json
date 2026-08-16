@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 287,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:50:13.387247",
+  "status": "success",
+  "narrative": "The model's prediction indicates a 68.9% probability that you would fail the bar exam on your first attempt. In plain terms, this means the law school assessed that the risk of admitting a student who cannot pass the bar was simply too high, and that risk is what led to your rejection.\n\nThe most influential factors in this decision were your class rankings during law school, with your standing in the third year carrying the most weight, followed closely by your first-year ranking. In both years, you placed in the second decile, meaning you ranked among the bottom twenty percent of your class. By contrast, students who were admitted typically sat around the sixth decile, much closer to the middle of the pack. Ranking this low, especially in your final year, strongly pushed the prediction toward failure, because your relative performance across both early and late law school years signals how thoroughly you have absorbed the legal concepts the bar exam tests. \n\nYour undergraduate GPA was the third most influential factor, but it worked in your favor. At 3.00, it is slightly below the admitted-student average of 3.23, yet the model still treated it as a point supporting your ability to pass. Unfortunately, this positive signal was not strong enough to outweigh the concerns raised by your class rankings.\n\nTo improve your chances, focus on demonstrating bar readiness in other ways. Consider intensive bar preparation, tutoring, or retaking the exam after significant structured study. If you reapply, bring evidence of recent academic improvement or a concrete plan for bar success, since your rankings, not your GPA, are what the school will need reassurance about.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

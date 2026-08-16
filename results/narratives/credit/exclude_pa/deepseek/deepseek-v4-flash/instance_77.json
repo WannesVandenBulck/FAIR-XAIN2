@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 77,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:12:15.780521",
+  "status": "success",
+  "narrative": "Your application was declined because the model assesses a 28% probability that you would default on the loan. While that may sound like a low number, it is still above the bank’s acceptable risk threshold, meaning that in roughly one out of four similar situations, the borrower fails to repay.\n\nThe most important reason for this decision is your credit history. You have a record of critical or other credits, which is a strong warning sign. Many applicants who were approved had existing loans that were fully paid off, whereas a history of critical accounts suggests past difficulties managing credit. This factor alone pushed your risk level up significantly.\n\nThe second largest influence was that you already have an installment plan with a bank. Most approved applicants have no other installment obligations. Having an existing commitment reduces your available income to repay a new loan, and the model saw this as increasing your risk of falling behind.\n\nThe only factor among the top three that worked in your favor was your loan duration. You requested a term of 12 months, which is shorter than the average of about 19 months. A shorter loan means the bank gets its money back faster, reducing the chance of long-term default. However, this positive influence was not strong enough to outweigh the negative signals from your credit history and existing installment plan.\n\nTo improve your chances in the future, focus on rebuilding a positive credit record by paying all bills on time and clearing your current installment plan. You might also consider applying for a smaller loan or with a co-signer, and be prepared to wait until your credit history shows more reliable behavior.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

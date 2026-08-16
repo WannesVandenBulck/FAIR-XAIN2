@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "ugpa",
       "sign": -1,
-      "value": 2.10
+      "value": 2.1
     }
   ],
   "features": [
@@ -45,7 +45,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 2.10
+      "value": 2.1
     },
     {
       "name": "fulltime",

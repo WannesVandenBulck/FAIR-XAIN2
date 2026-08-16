@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "decile3",
-      "sign": 1,
-      "value": 3
-    },
-    {
-      "rank": 3,
       "name": "ugpa",
       "sign": -1,
       "value": 2.8
+    },
+    {
+      "rank": 3,
+      "name": "decile3",
+      "sign": 1,
+      "value": 3
     }
   ],
   "features": [

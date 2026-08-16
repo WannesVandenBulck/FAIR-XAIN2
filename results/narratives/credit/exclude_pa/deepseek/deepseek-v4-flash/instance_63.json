@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 63,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:09:16.835219",
+  "status": "success",
+  "narrative": "The assessment shows an 86% chance you would have trouble repaying a new loan, so the application was denied. Three main factors drove that decision.\n\nYour checking account is currently overdrawn, which was the most influential factor. Only about one in eight approved applicants had a negative balance, so this strongly signals immediate money problems.\n\nSurprisingly, your credit history of having paid off all past loans at the bank actually worked against you. This profile is very unusual — fewer than 3% of approved borrowers have it — and the model read it as an extra risk rather than a sign of reliability, especially alongside your current overdraft.\n\nThe third factor is that you own no property. Most approved applicants have a car, real estate, or some other asset, giving the bank a safety net. Without any property, the bank faces a greater loss if repayment stops.\n\nTo improve your chances next time, focus on bringing your checking account into positive territory and keeping it there for several months. Building up any savings, even modest, will also help. If you still need credit, consider asking a guarantor to co-sign, or request a smaller amount and a shorter term that better matches your current earnings.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

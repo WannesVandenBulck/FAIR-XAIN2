@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 43,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:04:37.345261",
+  "status": "success",
+  "narrative": "Based on the details of your application, our model has assessed an 81% probability that you would be a bad credit risk, meaning there is a very high chance you might not be able to keep up with loan repayments. Because of this, the loan was denied. The decision was driven primarily by three aspects of your financial profile, in order of importance.\n\nThe strongest factor was the current state of your checking account. Your account is overdrawn, with a balance below zero, which is a clear sign of immediate financial strain. Most approved applicants do not have an overdrawn account, so this weighed heavily against your application.\n\nThe second most influential factor was your credit history. You have no existing credits that you have paid back. While this might sound neutral, lenders rely on a proven track record of managing debt. Since you haven't demonstrated that you can successfully handle credit before, the model sees you as an unknown and therefore risky. This is unlike most approved applicants, who have previously paid off at least one credit.\n\nFinally, the purpose of the loan also hurt your application. You requested the credit to buy a new car. Loans for new cars are considered riskier than smaller, more essential purchases. Together with your limited credit history and overdrawn account, this reinforced the overall assessment.\n\nTo improve your chances in the future, focus on rebuilding your financial foundation. Start by bringing your checking account into the positive and keeping it there. Consider taking out a small credit with a co-signer, and pay it off consistently to build a positive history. When you reapply, consider requesting a smaller amount for a more essential purpose, which would show more responsible borrowing.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

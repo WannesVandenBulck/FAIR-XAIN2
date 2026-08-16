@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "installment_rate",
       "sign": -1,
-      "value": "NaN"
+      "value": 2
     }
   ],
   "features": [
@@ -60,7 +60,7 @@
     {
       "name": "installment_rate",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "name": "other_debtors",

@@ -54,8 +54,8 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "installment_rate",
@@ -79,13 +79,13 @@
     },
     {
       "name": "other_installment_plans",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "housing",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "number_credits",

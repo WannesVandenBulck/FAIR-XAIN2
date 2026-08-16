@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 53,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:53:03.429497",
+  "status": "success",
+  "narrative": "The model estimates that you have a 29% chance of failing your final year, which is high enough that your school requires you to take remedial courses. This does not mean failure is certain; rather, it means there is a clear, measurable risk that should be addressed now.\n\nThe most powerful factor in this prediction is your mother’s education level. Among students who passed, only a small minority had mothers with only primary schooling; most came from homes where mothers had secondary or higher education. Your situation is less common among successful students, and the model treats this as the single biggest influence pushing you toward the “fail” side. This is not about your own ability, but it reflects how the model sees your home environment and the extra challenges you may face.\n\nTwo other factors actually worked in your favor. You have no past class failures, which is strongly linked to passing – most students who passed also had none. And you have very little free time after school, which the model associates with a slightly lower risk, perhaps because it suggests you are spending time on schoolwork. However, these positive influences are not strong enough to cancel out the risk from the family background factor.\n\nWhat should you do next? Know that this risk is not a verdict. You can actively counter it by seeking extra academic support, such as tutoring or asking teachers for help, and by making sure your study time is effective. Your record of no past failures shows you are capable. Use those strengths, and be proactive about getting help where your family situation may leave gaps. The model is telling you: your background is a challenge, but not a limit.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

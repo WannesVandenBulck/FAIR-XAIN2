@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 47,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:51:26.431969",
+  "status": "success",
+  "narrative": "Based on your profile, the prediction indicates you have a 14 percent chance of failing your final year, which means the model sees you as at risk and recommends remedial courses as a safety measure. This does not mean failure is certain, but rather that certain patterns in your school life raise concern.\n\nThe strongest factor in this prediction is your weekend alcohol consumption, which is very high. This is quite unusual compared to your peers who passed, since most of them report very low or low weekend drinking. This is the most influential element pushing you toward a failing outcome, likely because it can affect sleep, focus, and study consistency.\n\nTwo other factors work in your favor and point toward passing. You have no previous class failures, which is better than the average of almost four absences among students who passed, and it shows you have not struggled academically before. Additionally, you want to pursue higher education, which is a strong motivator shared by every student in the passing group. These two positive signals reduce some of the risk, but they are not enough to overcome the concern created by your drinking habits.\n\nLooking at your broader profile, you already have good foundations, including a short commute, supportive family relationships, and reliable internet access. Your main area of change should be reducing your weekend alcohol intake, since that is the single strongest warning sign in your prediction. Consider setting limits or finding alternative activities with friends. Your academic history suggests you are capable, and addressing this lifestyle factor could make a meaningful difference in your final year outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

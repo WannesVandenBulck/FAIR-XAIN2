@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 11,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:40:00.825657",
+  "status": "success",
+  "narrative": "The model that reviewed your school record estimates a 15% chance of failing the year. That means you have an 85% chance of passing, but the school sees 15% as enough risk to require remedial courses. This is not a verdict on your ability; it is a sign that extra support is worthwhile.\n\nThe three strongest influences on the prediction all worked in your favor. You have never failed a class before, matching most students who passed and strongly lowering your risk. You also want higher education, a goal shared by every student who passed, so the model treated it as a sign of motivation. Your free time after school is low, another pattern connected to passing, and this also nudged you toward success.\n\nSo why were you flagged? A prediction combines many signals, not just the strongest. Smaller factors, like your commute time, limited weekly study time, and some family circumstances, pulled in the opposite direction. They were weak individually, but together they balanced out your positive signals and left a 15% risk.\n\nUse this as a chance to improve. Protect your study time, keep your higher education goal in mind, and let the remedial courses address the gaps that a long commute or limited study hours may create. You are much closer to passing than failing, and these courses can help make that happen.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

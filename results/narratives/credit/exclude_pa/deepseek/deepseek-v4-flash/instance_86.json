@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 86,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:13:54.755902",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated a 34% chance that you would be a bad credit risk. In practical terms, for every 100 applicants with a similar profile, about 34 are expected to struggle repaying, and the bank regards that level of risk as too high to approve.\n\nThe most important reason for this decision is the state of your checking account. Your balance falls in the 0–200 DM range, the second-lowest category, and only 18% of approved applicants had such a thin balance. A limited cushion in your checking account tells the bank that a sudden expense—like a car repair or a medical bill—could easily cause you to miss payments. This was the main factor pushing your application toward denial.\n\nTwo other factors were influential, but they actually helped you. The loan amount you requested, 2,039 DM, is well below the average of about 3,020 DM among approved applicants, so the bank did not see you as overborrowing. Your residence of one year at your current address, although shorter than the average of about three years, was also interpreted mildly in your favor rather than as a red flag.\n\nTo improve your chances next time, focus on strengthening your checking account. Try to keep a balance above 200 DM for several consecutive months before reapplying. A larger financial buffer directly addresses the main reason your application was denied and will make you look considerably safer to the bank.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

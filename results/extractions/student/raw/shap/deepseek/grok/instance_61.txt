@@ -79,7 +79,7 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -124,13 +124,13 @@
     },
     {
       "name": "freetime",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "goout",
-      "mentioned": 1,
-      "value": 4
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Dalc",
@@ -140,11 +140,11 @@
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 3
+      "value": "NaN"
     },
     {
       "name": "absences",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 93,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:35:01.627536",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 40% chance you will leave your job within the coming period. While this means there is a 60% chance you will stay, the fact that the risk of departure is this high is significant enough for the organization to decide against offering you a promotion at this time.\n\nThe single most influential factor in this decision was your long tenure of 11+ years with your current employer. Most employees predicted to stay have only 1–5 years in their current role, so your deep history here actually pushed the prediction *away* from leaving. Your more than a decade of service is a strong signal of loyalty, and by itself, it would suggest you are a stable, long-term investment. However, this was outweighed by two other signals working in the opposite direction.\n\nThe second most important factor was that you have received other job opportunities while working in this position. This is rare among employees who stay—only about a quarter of them receive such offers—and it indicates you are attractive to outside employers and may be actively considering a move. This factor strongly pushed the prediction toward you leaving, signaling that you have options beyond your current role.\n\nFinally, your high emotional commitment to the organization pushed the prediction back toward staying. You feel a strong psychological connection to your workplace, which is a protective factor. Yet, the combination of your high loyalty and strong commitment was still not enough to fully offset the pull of outside opportunities.\n\nYou and your leaders should consider discussing your career path openly, exploring what would make you feel valued enough to stay long-term.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

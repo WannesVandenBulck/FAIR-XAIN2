@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 55,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:06:59.951304",
+  "status": "success",
+  "narrative": "The model that reviewed your application estimates that you have a 59% chance of becoming a bad credit risk. That means the bank sees a greater-than-even likelihood you would struggle to repay the loan, so the application was denied.\n\nThe strongest reason was your checking account status: it was below zero. Among approved borrowers, only about 12.6% had a negative balance, so this was a major warning sign of current financial strain.\n\nThe second most influential factor was your savings situation. Having unknown or no savings actually worked in your favor—it nudged the assessment slightly toward good credit. But this positive effect was not strong enough to offset the checking account issue.\n\nThe third factor was the loan purpose: buying a new car. New-car loans made up only about 16.5% of approved applications and tend to be riskier than more common purposes, adding further weight to the denial.\n\nWhat can you do? Work on bringing your checking account into positive territory and keep it there for several months. Consider postponing the new-car purchase or choosing a less expensive used car. Building a visible savings cushion would also help. If you address these areas, your chances of approval should improve.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

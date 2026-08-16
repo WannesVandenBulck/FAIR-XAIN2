@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 45,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:04:57.541254",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model determined there is a 63% chance you would be a bad credit risk, meaning you would likely struggle to repay the loan. This probability is above the bank’s threshold for approval, so the decision was made to protect both you and the bank from potential financial strain.\n\nThe most influential factor in this decision was the low balance in your checking account. With only 0 to 200 DM available, you have less financial cushion than most approved applicants, who typically have either no checking account or a more substantial balance. This suggests that you may have limited day-to-day liquidity to handle unexpected expenses.\n\nThe second most important factor was your property status. You have no registered property or other assets, such as real estate or a car. Among approved applicants, the vast majority have some form of property or savings-based asset, so the absence of these makes the loan riskier from the bank’s perspective.\n\nFinally, the length of your loan request—36 months—played a significant role. This is nearly double the average duration of about 19 months for approved loans. Longer repayment periods increase the chance that your financial situation could change, making default more likely.\n\nTo improve your chances in the future, consider building a larger savings buffer, acquiring a stable asset, or applying for a smaller loan over a shorter period. Additionally, maintaining your current employment for over a year would strengthen your profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

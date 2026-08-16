@@ -17,7 +17,7 @@
     {
       "rank": 3,
       "name": "traveltime",
-      "sign": -1,
+      "sign": 1,
       "value": 3
     }
   ],
@@ -129,18 +129,18 @@
     },
     {
       "name": "goout",
-      "mentioned": 1,
-      "value": "NaN"
-    },
-    {
-      "name": "Dalc",
       "mentioned": 0,
       "value": "NaN"
     },
     {
+      "name": "Dalc",
+      "mentioned": 1,
+      "value": 5
+    },
+    {
       "name": "Walc",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 5
     },
     {
       "name": "absences",

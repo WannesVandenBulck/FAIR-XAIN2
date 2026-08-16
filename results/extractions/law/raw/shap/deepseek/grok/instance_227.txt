@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "ugpa",
-      "sign": -1,
-      "value": 3.6
-    },
-    {
-      "rank": 3,
       "name": "lsat",
       "sign": 1,
       "value": 27
+    },
+    {
+      "rank": 3,
+      "name": "ugpa",
+      "sign": -1,
+      "value": 3.6
     }
   ],
   "features": [

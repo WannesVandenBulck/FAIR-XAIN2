@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 67,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:10:14.805239",
+  "status": "success",
+  "narrative": "Based on the assessment, your application was denied because the bank’s model estimated a 68% probability that you belong to the “bad credit risk” group. That is well above the level the bank accepts, and it means that, compared to thousands of past borrowers with similar profiles, a large majority failed to repay on time.\n\nThe most influential factor was your credit history. You have paid all previous loans at this bank in full, which sounds positive. However, among approved applicants, this particular history pattern is very rare—only about 3% of them have it. Most approved borrowers have other types of credit experience, such as existing paid-off loans. In the bank’s data, this unusual pattern is associated with higher risk, so it pushed the decision toward denial.\n\nNext was your checking account balance, which is between 0 and 200 DM. This limited buffer weighed against you. Interestingly, most approved applicants have no checking account at all, while only a small share have such a low positive balance. Having very little available cash suggests you would struggle to cover unexpected expenses during the loan period.\n\nThe third factor was the loan’s purpose: a new car. Loans for new cars are less common among approved borrowers than for other purposes, and they tend to carry more risk.\n\nTo improve your chances next time, try saving a larger buffer in your checking account, consider applying for a smaller loan with a different purpose, and wait until you have been employed longer—your current one-to-four-year tenure is shorter than the average approved borrower’s. Adding a co-applicant or guarantor could also strengthen your application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

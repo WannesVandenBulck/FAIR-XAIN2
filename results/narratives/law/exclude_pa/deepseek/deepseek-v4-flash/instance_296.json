@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 296,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:52:21.852514",
+  "status": "success",
+  "narrative": "The model assessed your likelihood of passing the bar exam on the first attempt and concluded that you had a 55% chance of failing. Because this probability is above the failure threshold, your law school application was denied. In plain terms, the model viewed you as more likely to fail than to pass, even though the margin was not large.\n\nThe most important factor in this decision was your LSAT performance. Your score of 26 is far below the average of 37 among admitted students, and this single score strongly pushed the model toward predicting failure. In fact, it was the dominant influence in your evaluation, outweighing the other factors combined.\n\nYour family income had the second-largest influence, but in the opposite direction. Being from a high-income background slightly nudged the prediction toward passing, likely reflecting access to resources that can help prepare for the bar exam. However, this positive effect was too small to overcome the negative impact of your LSAT.\n\nYour undergraduate GPA also played a role, but with a surprising twist. At 2.80, it is below the 3.23 average of accepted students, yet the model treated this particular value as a small point in your favor. That is, it pushed slightly toward passing, not failing. Still, this benefit was negligible compared to your LSAT.\n\nThe path forward is clear: focus on raising your LSAT score substantially. A stronger score would directly address the main reason your application was denied. Consider investing in structured LSAT preparation, taking practice exams, and possibly retaking the test. Improving this single measure would meaningfully change a future prediction in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

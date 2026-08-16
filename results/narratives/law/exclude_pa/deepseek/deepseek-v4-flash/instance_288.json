@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 288,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:50:23.561723",
+  "status": "success",
+  "narrative": "Based on the evaluation of your academic record, the model estimates an 84.2% probability that you would not pass the bar exam on your first attempt. This means that roughly four out of five students with a profile like yours would fail, and this high risk of failure is the central reason your application was denied.\n\nThe strongest factor driving this decision was your class standing in your third year. You placed in the second-lowest decile within your school, while admitted students typically ranked around the middle of their class, at approximately the sixth decile. Such a low final-year standing is a powerful signal that your academic performance was not strong enough to support success on a demanding exam like the bar.\n\nYour first-year class standing was the second most influential factor. Placing in the second decile, again far below the average of the sixth decile among admitted students, reinforces the concern that this was not a single difficult year but a consistent pattern of struggles.\n\nYour LSAT score of 31, notably below the average of about 37 among admitted students, further pushed the prediction toward failure. Lower scores on this exam tend to align with lower odds of passing the bar, so this added to the overall risk.\n\nTo improve your chances in the future, consider retaking the LSAT after focused preparation, since that is a factor within your control. Strengthening your academic record through additional coursework that demonstrates your ability to perform at the level expected in law school would also help show that your earlier class rankings do not define your potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

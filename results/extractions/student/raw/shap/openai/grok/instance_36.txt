@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "studytime",
       "sign": 1,
-      "value": 2
+      "value": "NaN"
     }
   ],
   "features": [
@@ -80,11 +80,11 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "name": "famrel",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

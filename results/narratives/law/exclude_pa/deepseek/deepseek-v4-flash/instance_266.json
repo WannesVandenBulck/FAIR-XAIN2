@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 266,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:44:59.726817",
+  "status": "success",
+  "narrative": "After reviewing your application, the model placed your likelihood of failing the bar exam on the first attempt at 66 percent. This means that, based on patterns from prior students, you are more likely to fail than pass, which is why your admission was denied.\n\nThe two strongest signals in your file pushed toward failure. Your class standing in both your first and third years was in the third decile, meaning you ranked near the bottom quarter of your class. In contrast, students who were admitted typically sat around the sixth decile. That consistent lower performance is a red flag, as it suggests difficulty mastering the material you would need for the bar. These two factors together carried the most weight in the decision.\n\nOne factor worked in your favor: your LSAT score of 43 was well above the average of 37 among admitted students. This strong test performance pulled the prediction toward passing, and it is a genuine strength. However, it could not overcome the concerning pattern of your class ranks. Your family income and full-time enrollment status did not play a meaningful role.\n\nWhat you can do next is focus on demonstrating that you can succeed academically. Consider taking additional upper-level coursework and earning high grades, retaking the LSAT to raise your already solid score, or applying to programs that offer academic support and bar preparation. If you can show a recent trend of strong performance, you will be a more competitive candidate the next time you apply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

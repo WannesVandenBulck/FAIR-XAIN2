@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 3,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:56:00.182780",
+  "status": "success",
+  "narrative": "Based on the information available, the model estimated a 36% chance that you would become a bad credit risk. That is high enough that the bank decided to deny the loan. The main reason was not one single factor but a combination, and the most important factor was your checking account. You have a balance of only 0 to 200 Deutschmarks, whereas most approved applicants have no checking account or a more comfortable balance. This weighed heavily against you, because it suggests limited financial cushion.\n\nTwo other factors actually helped you. The fact that you have lived at your current address for only one year—shorter than the average of about three years—moved the prediction toward good credit, oddly enough. Also, requesting the loan for only 12 months, compared with an average of about 19 months, was favorable because a shorter repayment period lowers the lender’s exposure.\n\nStill, the checking account concern outweighed those positives. To improve your chances next time, focus on building a larger balance in your checking account and maintaining that for several months. This will show greater financial stability. You might also consider waiting until you have a longer employment history at your current job, since that can strengthen your application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

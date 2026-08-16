@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 50,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:52:24.667534",
+  "status": "success",
+  "narrative": "You have been told the model predicts you will fail and that you must take remedial courses. Before explaining why, it helps to understand what the prediction actually means. The model gave you a 19% probability of failing, meaning that most students with a similar profile would still pass. However, the system’s risk threshold places you in the group that needs extra support, so the remedial courses are required as a precaution, not because failure is certain.\n\nThe single most important factor driving the prediction was your own answer about wanting higher education. You said you do not want to pursue higher education, and among students who passed, every single one wanted to continue their studies. This response stood out clearly and pushed the model strongly toward predicting failure.\n\nThe next two most important factors actually worked in your favor. You chose this school because of its reputation, which is a common and positive reason among students who eventually pass. You also have zero past course failures, which shows you have not struggled academically before. Both of these factors lowered the model’s concern, but they were not enough to outweigh the effect of not wanting to pursue higher education.\n\nWhat should you do next? Talk to a school counselor about why higher education feels out of reach and explore careers that might change your mind. Keep your current study habits and attendance strong, since your record is solid. The remedial courses are a safety net to keep you on track, and with the right goal, you are very capable of passing.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

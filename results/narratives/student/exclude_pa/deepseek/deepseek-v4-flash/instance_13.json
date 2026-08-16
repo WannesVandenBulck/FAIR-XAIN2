@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 13,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:40:46.967957",
+  "status": "success",
+  "narrative": "Based on the information available, the model estimates that you have a 61% chance of not passing your final year. This is why the school is requiring you to take remedial courses: the prediction indicates that, as things stand, you are more likely to fail than to pass.\n\nThe single most important factor in this prediction is that you have failed a class before. Among students who ultimately passed, the average number of past failures is zero, while you have one. Past difficulty is a strong signal because it often means that gaps in understanding may still exist, making it harder to keep up with new material. This factor alone pushes the prediction firmly in the direction of failing.\n\nThere are, however, two factors working in your favor, though they are not strong enough to overcome the risk associated with your past failure. You have very little free time after school, which actually points slightly toward passing, as it suggests you may be spending more time on schoolwork. Additionally, you want to pursue higher education, a goal shared by every student in the comparison group who passed. This ambition is a positive influence on your predicted outcome.\n\nStill, because your past failure is such a powerful factor, the model concludes that you need extra support. To improve your chances, focus on addressing the root cause of that earlier setback. Consider reviewing foundational material, asking teachers for help, and building a consistent study routine. Your low free time shows dedication, and your desire for higher education gives you a clear goal. The remedial courses are designed to help you close the gap and turn that 61% risk into a successful outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

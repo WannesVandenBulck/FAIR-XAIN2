@@ -4,15 +4,15 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
-      "sign": 1,
-      "value": 2
-    },
-    {
-      "rank": 2,
       "name": "purpose",
       "sign": -1,
       "value": 9
+    },
+    {
+      "rank": 2,
+      "name": "status",
+      "sign": 1,
+      "value": 2
     },
     {
       "rank": 3,

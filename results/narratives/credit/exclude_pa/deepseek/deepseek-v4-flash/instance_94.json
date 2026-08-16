@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 94,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:16:04.030566",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 33% chance that you would be a bad credit risk. In plain terms, past borrowers with similar profiles defaulted about one time in three. That means there was still a good chance you would repay, but the bank considers that level of risk too high.\n\nThe most influential factor in your file was your checking account situation. This actually worked in your favor: having no checking account was treated as less risky than having an account with a low or negative balance. So this was not why you were denied.\n\nThe second most important factor was your employment status. You are currently unemployed, and only a small share of approved applicants were unemployed. This strongly pushed the model toward seeing you as a higher risk, because a steady income is central to repaying a loan.\n\nThe third factor was your savings. With less than 100 DM in savings, you had very little financial cushion. The model viewed this as another warning sign, especially compared to applicants who had larger savings or other assets.\n\nIn short, your unemployment and minimal savings outweighed the positive signal from your checking account. These two factors were the main reasons the model placed you in the bad-risk group.\n\nIf you want to improve your chances in the future, the most useful steps would be to find a steady job and build up some savings. Even a small emergency fund and a few months of stable income would likely change the outcome. You may also consider asking the bank about options like a smaller loan or adding a co-signer, though the core issue remains demonstrating reliable repayment capacity.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

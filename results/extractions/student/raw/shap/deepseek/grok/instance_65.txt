@@ -1,6 +1,6 @@
 ```json
 {
-  "predicted_probability": 0.2,
+  "predicted_probability": "NaN",
   "most_important_features": [
     {
       "rank": 1,
@@ -119,8 +119,8 @@
     },
     {
       "name": "famrel",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "freetime",

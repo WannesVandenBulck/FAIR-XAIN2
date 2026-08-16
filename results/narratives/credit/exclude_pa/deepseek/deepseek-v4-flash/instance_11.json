@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 11,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:57:48.331024",
+  "status": "success",
+  "narrative": "Based on the bank’s risk assessment, your application was denied because you were estimated to have a 55% chance of being a bad credit risk. That means the assessment saw more than a coin-flip likelihood that you might struggle to repay the loan, which is above the level the bank accepts.\n\nThe strongest reason for this outcome was your checking account status. Your account was overdrawn, below zero, while most approved applicants had no overdraft. This was the single biggest signal pushing the decision in the “bad credit” direction. It suggests that, at the moment you applied, you were already in a financially strained position.\n\nThe second most important factor was the loan amount. You requested 4,006 DM, which is higher than the average approved loan of about 3,020 DM. However, this factor actually worked in your favor: the amount alone pointed toward good credit. So the denial was not simply because you asked for a large loan.\n\nThe third factor was the purpose of the loan. You requested credit to buy a new car, and this type of loan was less common among approved applicants than smaller household purchases like radio/TV or furniture. A new car purchase, especially as a credit purpose, pushed the assessment back toward bad credit.\n\nTo improve your chances of approval in the future, focus on the most influential issue: your checking account. Try to keep it out of overdraft and in positive territory for several consecutive months. It may also help to reduce the requested amount, or consider applying for a used car or another purpose that is viewed as less risky. These steps would directly address the main reasons your application was turned down.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

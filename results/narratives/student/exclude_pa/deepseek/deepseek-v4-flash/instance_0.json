@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:36:52.701317",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates you have a 12% chance of failing your final year. That means about 88 out of 100 students with similar circumstances would pass, but 12 would not. Because the school’s policy treats this level of risk as significant, you are required to take remedial courses.\n\nInterestingly, the strongest influences on your prediction were all working in your favor. The single most important factor was your weekly study time. You study between 5 and 10 hours per week, which is higher than most students who passed, since the majority of them studied only 2 to 5 hours. This pushed clearly toward passing. The second most influential factor was your record of past failures: you have never failed a class, matching the average of students who passed. That also pushed toward passing. The third factor was the reason you chose this school. You chose it because it is close to home, which was less common among students who passed, but it still pointed slightly toward passing rather than failing.\n\nSo why did the model place you in the fail category? The three strongest factors were protective, not warning signs. Instead, the prediction came from a combination of many smaller signals across your broader profile. There was no single strong risk factor, but the overall pattern placed you just on the failing side of the line. The 12% probability shows the model is not highly confident you will fail, yet it sees enough risk to recommend extra support.\n\nUse this as an opportunity. Keep your study routine, as it is your greatest strength, and allow the remedial courses to fill any small gaps. With consistent effort, your odds are strongly in your favor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

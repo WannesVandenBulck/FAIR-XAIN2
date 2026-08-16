@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 36,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:03:04.116632",
+  "status": "success",
+  "narrative": "Based on your application, our model estimates an 85% chance that you would be a bad credit risk. This is far above the threshold for approval, which is why your loan was denied. The decision is not about you personally, but about patterns in the data that indicate financial strain.\n\nThree factors weighed most heavily in this decision. The largest influence was the amount you requested: 15,672 DM, which is roughly five times the average amount borrowed by approved applicants. This is a substantial obligation, and higher amounts are associated with greater risk of default.\n\nThe second most important factor was the length of the loan. You asked for a 48-month term, while approved applicants typically have loans lasting around 19 months. Longer repayment periods increase uncertainty and the chance that something goes wrong over time.\n\nThird, your checking account status contributed significantly. You have between 0 and 200 DM in your account, whereas the majority of approved applicants have no checking account at all. Interestingly, having a small positive balance is seen as riskier than having none, because it suggests you are relying on credit to cover everyday expenses.\n\nTo improve your chances in the future, consider requesting a smaller amount over a shorter term, and build up a stronger financial buffer in your checking account. Demonstrating stable savings and a reduced credit burden will help you present a lower-risk profile next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

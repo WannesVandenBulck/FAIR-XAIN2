@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 103,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:04:12.304237",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates a 63% chance you would fail the bar exam on the first attempt, making failure more likely than not. The main reasons come from your academic standing rather than your standardized test score alone.\n\nThe single strongest factor was your final-year class rank. You were in the bottom tenth of your law school cohort, while accepted students typically sit around the sixth decile. This placed strong downward pressure on your admission prospects. Your first-year class rank was nearly identical and also a major factor, second only to your final-year rank, again pointing toward difficulty in completing the bar exam successfully.\n\nInterestingly, your LSAT score—the third most influential factor—worked slightly in your favor, even though it is lower than the average for accepted applicants. That means the score itself did not contribute to the denial; it was your low class standing that drove the decision.\n\nTo improve future chances, focus on raising your academic performance, especially in the final-year courses that most closely mirror bar exam subjects. Consider retaking the LSAT to strengthen your overall profile, but understand that the biggest change must come from a demonstrated ability to perform at a higher level in law school coursework.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

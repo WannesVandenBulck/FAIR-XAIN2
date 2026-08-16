@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 270,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:46:03.913133",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 51% chance that you would not pass the bar exam on your first attempt. Since this risk is just above the 50% mark, you were viewed as a borderline candidate who leaned slightly toward failure.\n\nThe most influential factor in this decision was your undergraduate GPA. At 3.30, it was slightly above the average of 3.23 for accepted students, and this worked in your favor. A solid undergraduate record is a reliable sign of the academic discipline needed to succeed in law school, so this factor pushed the prediction toward passing.\n\nHowever, this positive signal was outweighed by the second most important factor: your class ranking in your third year of study. You placed in the 2nd decile of your school cohort, whereas accepted students typically land near the 6th decile. This is a significant gap. Your performance in the third year, a time when law students have adjusted to the rigor of legal study, is a powerful indicator of how you might handle the bar exam. This factor pushed strongly toward the prediction of failure and was the main driver of the denial. It suggested that despite your good undergraduate GPA, your recent law school performance carries more weight.\n\nThe third most influential factor, your family income bracket, actually worked in your favor. Being from a lower-middle income background pushed slightly toward a passing prediction, independent of your finances. However, its positive influence was not strong enough to overcome the negative signal from your class rank.\n\nIn short, the denial came down to your third-year class standing, which outweighed your otherwise solid academic profile. You should appeal or reapply after demonstrating academic improvement, particularly focusing on your most recent grades. Consider retaking the LSAT to strengthen your application and submitting a personal statement that explains the circumstances behind your class rank.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

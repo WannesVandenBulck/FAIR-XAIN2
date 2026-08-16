@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 54,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:53:16.070116",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 39% chance that you will not pass your final year, which is why the remedial courses are being recommended. The most important factor in this prediction is the fact that you have experienced one past class failure. Among students who ultimately passed, the average number of past failures was zero, so having that single setback on your record stands out as a strong signal pushing the prediction toward failing. This one factor outweighs everything else in the model’s reasoning.\n\nThe next two most influential factors, however, work in your favor. Your attendance is excellent: you have not missed a single day of school, whereas students who passed had, on average, nearly four absences. This strongly pushes the prediction toward passing, showing that your commitment to showing up is recognized. Similarly, your father’s education level, which is secondary schooling, contributes a small but positive influence toward passing, as it aligns with a background that supports academic achievement.\n\nSo the model’s decision comes down to this: your past failure is the dominant signal, even though your current behavior in terms of attendance is strong. The remedial courses are not a punishment but a targeted response to that one historical risk factor. Moving forward, you should focus on building study habits that address the subjects where you previously struggled, since your excellent attendance and supportive home background give you a solid foundation to succeed. Staying engaged with the extra support and maintaining your current attendance will give you the best chance of turning that 39% risk around.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

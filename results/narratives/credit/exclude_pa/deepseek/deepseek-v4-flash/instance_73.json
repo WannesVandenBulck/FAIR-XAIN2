@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 73,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:11:28.198254",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, your application was denied because you were considered too risky for the bank to lend to. The model estimated a 34% chance that you would default on the loan. While that means there was a 66% chance you would repay, banks typically require a much lower risk level to approve a loan—so the 34% was enough to trigger a denial.\n\nThe most important factor in that decision was the status of your checking account. With a balance between 0 and 200 Deutsche Marks, you fall into a category that is much less common among approved borrowers—only about 18% of approved applicants have such a low balance, while most have no checking account at all. This was the strongest signal pushing the prediction toward bad credit risk.\n\nInterestingly, the other two most influential factors actually helped you. The fact that you requested the loan for a used car was seen as a slightly positive factor, as was your credit history—even though it includes past delays. The model considered those delays less risky than other credit history categories, such as critical existing credits. However, these positive influences were not strong enough to overcome the concern raised by your checking account.\n\nTo improve your chances in the future, focus on building a stronger financial foundation. Increase your checking account balance and maintain it for several months, consider applying for a smaller loan, and continue making payments on time to demonstrate reliability. These steps directly address the factors that most influenced this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

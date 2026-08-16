@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "failures",
       "sign": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "rank": 2,
@@ -25,7 +25,7 @@
     {
       "name": "failures",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "higher",

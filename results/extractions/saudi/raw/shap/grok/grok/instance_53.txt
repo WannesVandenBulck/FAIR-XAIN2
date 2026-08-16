@@ -5,19 +5,19 @@
     {
       "rank": 1,
       "name": "Years_Experience",
-      "sign": -1,
+      "sign": 1,
       "value": 0
     },
     {
       "rank": 2,
       "name": "Job_Opportunities",
-      "sign": 1,
+      "sign": -1,
       "value": 1
     },
     {
       "rank": 3,
       "name": "Years_experience_lastorganization",
-      "sign": 1,
+      "sign": -1,
       "value": 0
     }
   ],

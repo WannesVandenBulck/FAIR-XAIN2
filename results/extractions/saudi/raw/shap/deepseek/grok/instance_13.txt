@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Training_programs_During_last_three_years",
-      "sign": -1,
-      "value": 3
-    },
-    {
-      "rank": 2,
       "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "Years_Experience",
       "sign": 1,
       "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Training_programs_During_last_three_years",
+      "sign": -1,
+      "value": 3
     }
   ],
   "features": [
@@ -109,8 +109,8 @@
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Job_Engagement",
@@ -124,8 +124,8 @@
     },
     {
       "name": "Work_Live_Balance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Physical_Stress",
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Gender",

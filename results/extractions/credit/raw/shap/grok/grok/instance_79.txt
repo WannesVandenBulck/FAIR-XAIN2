@@ -4,20 +4,20 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "savings",
-      "sign": -1,
-      "value": 4
-    },
-    {
-      "rank": 2,
       "name": "amount",
       "sign": 1,
       "value": 10961
     },
     {
+      "rank": 2,
+      "name": "savings",
+      "sign": -1,
+      "value": 4
+    },
+    {
       "rank": 3,
       "name": "employment_duration",
-      "sign": 1,
+      "sign": -1,
       "value": 4
     }
   ],
@@ -29,8 +29,8 @@
     },
     {
       "name": "duration",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 48
     },
     {
       "name": "credit_history",

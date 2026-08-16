@@ -4,7 +4,7 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_experience_lastorganization",
+      "name": "Years_Experience",
       "sign": -1,
       "value": 0
     },
@@ -34,8 +34,8 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",
@@ -54,13 +54,13 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 273,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:46:57.687721",
+  "status": "success",
+  "narrative": "Your application was denied because the admission model predicts a 94.6 percent chance that you would fail the bar exam on the first attempt. That is an extremely high risk, and for a law school whose graduates must pass that exam to practice, it is not a risk the admissions committee can take.\n\nThe most important factor driving this prediction was your class ranking in your third year of undergraduate study. You were in the bottom tenth of your class in that year, while admitted students are usually around the sixth decile, much closer to the middle. Your first-year class rank was the second strongest factor, and it told the same story: you also finished in the bottom tenth in that year. Both of these grades-based rankings pushed the model strongly toward a failure prediction, because past academic performance is one of the most reliable signals of bar exam success.\n\nInterestingly, the one top factor that worked in your favor was your LSAT score. You scored 36, which is only slightly below the average of 37.18 for admitted students. The model treated this as a positive sign, actually lowering your predicted chance of failure. But that positive effect was far too small to counterbalance the two rankings.\n\nTo change this outcome in the future, you should focus on raising your academic record. Consider enrolling in additional coursework or a post-baccalaureate program and earning strong grades, since your class rank was the decisive red flag. Retaking the LSAT could also help, but the most powerful step you can take is demonstrating that you can perform at a much higher level in an academic setting.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

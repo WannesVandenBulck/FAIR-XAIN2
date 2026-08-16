@@ -1,31 +1,31 @@
 ```json
 {
-  "predicted_probability": 0.39,
+  "predicted_probability": "NaN",
   "most_important_features": [
     {
       "rank": 1,
       "name": "status",
-      "sign": -1,
-      "value": 4
+      "sign": 1,
+      "value": "NaN"
     },
     {
       "rank": 2,
-      "name": "purpose",
+      "name": "credit_history",
       "sign": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "other_debtors",
+      "name": "savings",
       "sign": 1,
-      "value": 2
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "status",
-      "mentioned": 1,
-      "value": 4
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "duration",
@@ -39,8 +39,8 @@
     },
     {
       "name": "purpose",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "amount",
@@ -64,8 +64,8 @@
     },
     {
       "name": "other_debtors",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "present_residence",

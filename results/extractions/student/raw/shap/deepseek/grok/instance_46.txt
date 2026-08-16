@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "famsize",
       "sign": -1,
-      "value": 0
+      "value": 1
     }
   ],
   "features": [
@@ -35,7 +35,7 @@
     {
       "name": "famsize",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Pstatus",
@@ -74,12 +74,12 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "studytime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -94,8 +94,8 @@
     },
     {
       "name": "paid",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "activities",
@@ -130,7 +130,7 @@
     {
       "name": "goout",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 5
     },
     {
       "name": "Dalc",

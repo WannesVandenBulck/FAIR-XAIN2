@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 20,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:21:26.744644",
+  "status": "success",
+  "narrative": "Based on the available information, the model estimates a 60 percent chance that you will leave your job in the near future. The risk of losing you shortly after promoting you is therefore considered high, and that is why your promotion was denied.\n\nThe most important signal is your total experience of six to ten years. Among employees who stayed, only about a third had this much experience; most had fewer than five years. With that level of experience, you likely hold skills that are valuable in the job market, which makes the model see you as more mobile and more likely to move to another employer.\n\nThe second factor works with the first: you have spent only one to five years in your current organization. You are an experienced professional, but your tenure here is still relatively short, and your earlier experience was gained elsewhere. This pattern suggests you may not yet feel deeply tied to this organization, increasing the chance that you would leave if an attractive opportunity appeared.\n\nThe most important factor pulling the other way is that you have not received other job offers while working here. This is a sign of stability and lowers the risk of leaving, but it was not strong enough to outweigh the two experience-related signals.\n\nGoing forward, the organization should focus on retaining experienced employees in their early years here by offering clearer career paths and growth opportunities. I would also encourage you to speak openly with your manager or human resources about your long-term goals and what would make you feel more committed to staying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

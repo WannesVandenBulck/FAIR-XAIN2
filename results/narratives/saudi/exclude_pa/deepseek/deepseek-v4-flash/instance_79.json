@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 79,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:32:33.008872",
+  "status": "success",
+  "narrative": "Based on your profile, the model indicates there is a 79% chance you will leave your current job in the near future. This high likelihood is why the promotion decision went against you: the organization is investing in someone they believe will not stay.\n\nThe biggest factor driving this prediction is your total career experience. Having spent 6–10 years working overall, you are more established than many employees who stay, most of whom have only 1–5 years of experience. The model sees this as a sign you have valuable skills and are attractive to other employers. The second most influential factor is that you have received other job opportunities while working here. This is rare among employees who remain—only about a quarter of them have been approached with other offers. You appear to be in demand, which strongly signals you might leave.\n\nYour length of time in this specific organization also played a role. With 1–5 years here, you are still relatively new, even though this tenure is common among stayers. Combined with your broader experience and outside offers, the model views your current situation as one where you are weighing your options rather than committing fully.\n\nFor the organization, the key takeaway is that you need a stronger reason to stay. Simply denying the promotion may push you further away. For you, this is an opportunity to clarify what you want from your career. You may wish to discuss a clear growth path, more challenging responsibilities, or a retention plan with leadership. At the same time, consider whether the factors driving your potential departure—outside offers and the pull of your experience—are things you want to act on.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

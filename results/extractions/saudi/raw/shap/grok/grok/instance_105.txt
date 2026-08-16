@@ -44,8 +44,8 @@
     },
     {
       "name": "Sector",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "MonthlySalary",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

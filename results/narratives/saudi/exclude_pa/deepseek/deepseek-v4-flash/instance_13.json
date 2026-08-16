@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 13,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:20:05.221952",
+  "status": "success",
+  "narrative": "Based on the available information, the model estimates a 68% chance that you will leave your job within the coming period. Because this risk is high, the decision was made to deny the promotion. This does not measure your past performance; it weighs signals about how likely you are to remain with the organization.\n\nThe most influential factor pulling you toward leaving is the fact that you have received other job opportunities while working here. That is relatively uncommon among employees who stay—only about a quarter of them experienced this. When outside offers exist, the model sees a stronger chance that you will accept one, especially given your long career history. With more than 11 years of total experience—a level reached by only about 15% of stayers—you have the skills and marketability to move easily.\n\nInterestingly, the strongest single signal in your profile works in your favor. You have attended seven or more training programs in the last three years, which is much higher than average and usually indicates engagement and a desire to grow within the company. This factor pushes toward staying. However, the model weighs the combination of outside opportunities and extensive experience more heavily, concluding that despite your training and other positive signals like high satisfaction and emotional commitment, the pull toward leaving is stronger.\n\nFor the organization, the next step is not simply to watch you leave. Consider having a conversation about your career path and what would make you stay—perhaps addressing work-life balance or feelings of job stability, which appear challenging for you. A retention-focused discussion could turn your high potential into a long-term asset.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

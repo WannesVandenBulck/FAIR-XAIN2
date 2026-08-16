@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 58,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:51:57.995175",
+  "status": "success",
+  "narrative": "The model estimates a 66.8 percent chance you would fail the bar exam on your first attempt, and that risk is high enough to justify denying admission. Two factors are driving this decision. The most influential is your class standing in your third year of undergraduate study. You finished in the bottom tenth of your cohort, while accepted applicants typically sit around the middle. This same pattern appears in your first-year class rank, which is also in the lowest tenth and is the second strongest signal. Both of these poor academic positions strongly push the prediction toward bar failure, because they indicate recurring difficulty mastering legal material.\n\nYour undergraduate GPA is actually a positive counterweight, and it is the third most important factor in the model. At 3.60, it is well above the average of 3.23 for accepted students, and this works in your favor, pushing the prediction toward passing. However, it is not enough to overcome the powerful negative signals from your early and late undergraduate performance. The model sees a capable student who nonetheless ranked at the very bottom of his class in two separate years, and that pattern outweighs the strong overall GPA.\n\nWhat should you do next? Focus on addressing the academic weaknesses the model flagged. Enroll in rigorous coursework and earn strong grades to prove you can succeed. Seek tutoring or academic coaching, retake key classes, and consider a post-baccalaureate program. If you can demonstrate sustained improvement over time, a future application will tell a much different story.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

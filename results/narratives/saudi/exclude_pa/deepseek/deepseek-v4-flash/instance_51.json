@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 51,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:27:16.125338",
+  "status": "success",
+  "narrative": "Because the model predicts a 74% chance you will leave your job, the promotion has been denied. This is not a personal judgment, and your gender, age, and health played no part. The decision rests on signals in your work history and current situation.\n\nThe strongest signal is your total experience of six to ten years. Many people at this career stage have options and often start looking for a more senior role elsewhere. That by itself suggests you might be ready to move on. The second strongest signal, however, is that you have only spent one to five years in your current organization. That is a shorter time than your overall career, meaning you are still relatively new here, but combined with your longer total experience, it suggests you may view this job as a stepping stone rather than a long-term home. These two factors together pushed the prediction strongly toward leaving.\n\nOne factor worked in the opposite direction: you have not received outside job opportunities while working here. That absence reduces the likelihood that you are actively planning to quit, which is a point in your favor. Still, its influence was not enough to outweigh the experience gap.\n\nFor the next step, consider discussing with your manager what would make this organization the place where you want to build your future. The organization, in turn, should recognize that experienced employees who have not yet been promoted may need clearer career paths and meaningful recognition to stay.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

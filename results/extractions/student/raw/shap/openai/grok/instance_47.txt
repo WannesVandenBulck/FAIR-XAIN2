@@ -10,14 +10,14 @@
     },
     {
       "rank": 2,
-      "name": "failures",
-      "sign": -1,
-      "value": 0
+      "name": "studytime",
+      "sign": 1,
+      "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "higher",
-      "sign": -1,
+      "name": "schoolsup",
+      "sign": 1,
       "value": 0
     }
   ],
@@ -85,11 +85,11 @@
     {
       "name": "schoolsup",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "famsup",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

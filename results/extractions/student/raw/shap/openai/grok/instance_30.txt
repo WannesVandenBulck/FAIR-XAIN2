@@ -11,7 +11,7 @@
     {
       "rank": 2,
       "name": "schoolsup",
-      "sign": 1,
+      "sign": -1,
       "value": 0
     },
     {
@@ -99,7 +99,7 @@
     },
     {
       "name": "activities",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

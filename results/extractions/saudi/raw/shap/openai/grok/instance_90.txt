@@ -4,20 +4,20 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_Experience",
-      "sign": -1,
-      "value": "NaN"
-    },
-    {
-      "rank": 2,
       "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "MonthlySalary",
       "sign": 1,
+      "value": "NaN"
+    },
+    {
+      "rank": 3,
+      "name": "Years_Experience",
+      "sign": -1,
       "value": "NaN"
     }
   ],
@@ -74,13 +74,13 @@
     },
     {
       "name": "Rewards_Wages_Satisfaction",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -104,7 +104,7 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -149,7 +149,7 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

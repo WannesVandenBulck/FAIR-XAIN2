@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 79,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:12:31.229335",
+  "status": "success",
+  "narrative": "Based on our assessment, your application was denied because the model estimates you have a 43% chance of becoming a bad credit risk. Although that means a 57% chance of repaying reliably, the bank considers 43% too high to accept.\n\nThe most important factor in this decision was actually in your favor: your savings balance of over 1,000 DM. Very few approved applicants have that level of savings, and it significantly lowered your estimated risk. Similarly, your employment stability of between four and seven years also worked in your favor, signaling a steady income.\n\nHowever, the second most influential factor worked strongly against you: you requested 10,961 DM, while approved applicants typically borrow about 3,000 DM. This large amount is what pushed your overall risk into the denial range. Even with your solid savings and job stability, the size of the loan made the bank’s model see you as more likely to struggle with repayment.\n\nTo strengthen a future application, I recommend requesting a considerably smaller amount—closer to the typical range—or offering a down payment to reduce the loan principal. Continue maintaining your savings and stable employment, as these are clear positives. You might also consider applying with a longer repayment plan or adding a co-applicant; however, the main change should be lowering the amount you need to borrow. Reapplying with a smaller request would likely give you a much better outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

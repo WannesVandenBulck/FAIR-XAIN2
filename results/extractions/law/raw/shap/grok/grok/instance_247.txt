@@ -34,12 +34,12 @@
     },
     {
       "name": "decile1",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "name": "fulltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

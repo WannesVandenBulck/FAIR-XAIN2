@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 47,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:05:14.315499",
+  "status": "success",
+  "narrative": "Your application was denied because, based on your overall profile, the model estimated a 27% chance that you would default on the loan—meaning roughly one in four applicants with similar characteristics ends up failing to repay. Although this number may sound moderate, the bank considers it too high to approve, especially for a short-term credit request.\n\nThe most influential factor in this decision was the length of your loan. Requesting just 6 months is much shorter than the typical 19 months, and this actually worked in your favor, pulling the decision toward approval. Your credit history also helped you a great deal: despite having critical or other existing credits, this feature, considered in context, pointed toward you being a good credit risk rather than a bad one. These two positive signals were strong.\n\nHowever, they were outweighed by a single important negative factor: the status of your checking account. Your account is currently below zero, a condition found in only about one in eight approved applicants. This signaled that you may already be struggling financially, and it had the strongest negative influence on your application. In practical terms, this negative signal overwhelmed the good impressions made by your short loan term and credit history.\n\nTo improve your chances in the future, focus on bringing your checking account into positive territory and maintaining it there for several months. Reapplying only after demonstrating a stable financial buffer—even a small one—would substantially reduce the risk you represent in the bank’s eyes.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

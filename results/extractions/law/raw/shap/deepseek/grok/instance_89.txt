@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "ugpa",
       "sign": 1,
-      "value": 3.00
+      "value": 3.0
     },
     {
       "rank": 3,
@@ -29,8 +29,8 @@
     },
     {
       "name": "lsat",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 35
     },
     {
       "name": "decile1",
@@ -45,7 +45,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 3.00
+      "value": 3.0
     },
     {
       "name": "fulltime",

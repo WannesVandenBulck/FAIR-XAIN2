@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 45,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:50:22.465481",
+  "status": "success",
+  "narrative": "The model estimates a 30% chance you will not finish the year successfully, which is why remedial courses are required. The three strongest factors in this prediction are actually on your side. Having never failed a class before is the most important factor, and it strongly reduces your risk. Wanting to pursue higher education is the next most influential factor; every passing student in the data shared this goal, and it also pulls you toward passing. The third most influential factor is how little free time you have after school. Although low free time is less common among passing students, the model has learned that in your specific combination it slightly lowers the chance of failing.\n\nThese positive influences are not enough, however. The model also weighs many other details, such as your parents' jobs, travel time to school, weekend alcohol use, and study habits. In your case, these many smaller factors together outweigh the three strong positives, leaving that 30% failure risk.\n\nWhat does this mean for you? The remedial courses are a safety net, not a punishment. Your record and motivation are strong assets. While taking these courses, focus on areas that may be weaker, and watch habits like drinking or study consistency that might be adding risk. You have a good foundation to do well; the courses can help ensure the remaining risk never becomes a reality.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 253,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:41:12.431077",
+  "status": "success",
+  "narrative": "Your law school application was denied because a model assessing bar exam readiness predicted a 63.8% chance that you would fail the bar exam on your first attempt. This means that, based on patterns in students with similar academic and personal backgrounds, the risk of failure was considered too high for admission.\n\nThe denial was driven mainly by three factors, ranked in order of influence. The most powerful factor was your family income bracket. Your family income is listed as Middle, while many admitted students come from Upper-middle backgrounds. The model found that this income category, in itself, was the strongest signal pushing you toward the “likely to fail” side, even though your personal merit was not judged by it directly.\n\nNext was your Year 1 decile, which reflects your first-year law school grades. Your decile score of 5.00 is below the average of 6.00 for students who were accepted. This earlier academic performance weighed heavily against you, suggesting that your foundational grades were not strong enough to offset other risk factors.\n\nFinally, your LSAT score of 39, which is above the average of 37.18, had a smaller but still noticeable influence. Unusually, the model interpreted even this higher score as a slight push toward failure, likely because it interacted with the other risk factors. It was the least influential of the three, so it played only a minor role.\n\nTo improve your chances, consider retaking the LSAT to raise your score further, but more importantly, work on strengthening your first-year academic performance through preparatory coursework or tutoring. Reapplying with stronger evidence of academic resilience, especially in early law school coursework, would help counterbalance the risk signals identified here.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

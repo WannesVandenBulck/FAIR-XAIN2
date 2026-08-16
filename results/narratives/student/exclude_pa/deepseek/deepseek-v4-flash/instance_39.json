@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 39,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:49:05.675070",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates that you have about a 24% chance of not passing this year. While that means there is a strong possibility you could still succeed, it is high enough that the school requires you to take remedial courses to give you the best chance of turning things around.\n\nThe most important reason behind this prediction is that you indicated you do not plan to pursue higher education after school. This is striking because every single student in the data who passed their final year did want to continue their studies. Wanting to go to university or college often acts as a powerful motivator, so its absence is a strong signal that you might not be fully engaged with your coursework.\n\nThe second most influential factor was that you have experienced a past class failure. Students who ultimately passed had, on average, zero previous failures, so having one on your record suggests that some academic gaps or challenges may still be lingering and could affect your performance again.\n\nInterestingly, the third most important factor actually worked in your favor. You chose your school because it is close to home, which is a slightly positive sign. Students who selected their school for this reason tended to pass more often, possibly because the shorter commute leaves more time and energy for studying.\n\nGiven all this, the most valuable next step is to think honestly about your future goals, since your own ambitions are the strongest predictor of your results. Consider meeting with a counselor to explore options after school, and work on addressing the past failure by asking teachers for extra help or using tutoring. Your short commute gives you a practical advantage—use that saved time to build a steady study routine.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

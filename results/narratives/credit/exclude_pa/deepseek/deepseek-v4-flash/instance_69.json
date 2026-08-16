@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 69,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:10:43.582638",
+  "status": "success",
+  "narrative": "Based on your application, our model estimates there is a 52% chance that you would be a bad credit risk. This means that, statistically, you are slightly more likely to default than to repay without problems, so we cannot approve the loan.\n\nThe decision was not based on your savings, which actually worked in your favor. Having at least 1,000 DM in savings is rare among approved customers—only a small fraction have that much—so this strongly reduced your risk and made the model lean toward approval.\n\nHowever, two other factors outweighed that benefit. First, your checking account shows a low balance of 0–200 DM. Among approved applicants, many have either no checking account or a more comfortable balance; having such a small cushion suggests you are living close to your financial limits. This pushed the prediction toward bad credit. Second, the purpose of the loan—a new car—also contributed to the denial. New car loans are less common among approved borrowers than purchases like a radio or television, and they may imply a larger, less essential expense that could strain your budget.\n\nIn short, while your savings show financial responsibility, the combination of a thin checking account and the loan purpose tipped the scale. To improve your chances next time, consider waiting until you can increase your checking account balance, and perhaps apply for a smaller or used vehicle, or another purpose. Reapplying after strengthening these areas would give the model more positive signals.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

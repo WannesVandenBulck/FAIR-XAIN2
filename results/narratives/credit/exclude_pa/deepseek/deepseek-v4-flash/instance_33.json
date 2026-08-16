@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 33,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:02:24.052436",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model estimates there is a 25% chance you will default, and that risk level is above the bank’s acceptable limit. This does not mean you are a bad person—it means your financial profile, as currently presented, does not meet the bank’s criteria.\n\nLooking at what most influenced the decision, the length of the loan was the single most important factor. You asked for 9 months, which is much shorter than the average 19-month loan. This actually worked in your favor, lowering your risk in the model’s view. The purpose of the loan also helped: business loans are generally seen as more productive and responsible than other types, so that too pushed your risk down.\n\nHowever, the third key factor hurt your case: the balance in your checking account. You have between 0 and 200 DM, while most approved applicants have either no checking account or a much larger balance. From the bank’s perspective, a low checking balance suggests limited financial cushion and a higher chance of missing payments. This single factor offset the advantages you had and tipped your application into denial.\n\nTo improve your chances next time, focus on strengthening your checking account balance. Try to maintain a consistent buffer, even if modest, and avoid dipping below zero. Continue paying your existing credit on time, and consider reapplying once your account shows a more stable pattern. With a stronger financial foundation, the positive aspects of your application—your short loan term and clear business purpose—will have a better chance of prevailing.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

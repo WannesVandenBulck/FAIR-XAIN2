@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 103,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:36:15.711626",
+  "status": "success",
+  "narrative": "Our prediction indicates a 90 percent probability that you will leave your job in the near future. This is not a judgment of your performance, but a strong signal about your circumstances, and it is the reason the promotion was denied.\n\nThe single most influential factor was your overall experience. With six to ten years in the workforce, you are at a career stage where your skills are well-developed and highly marketable. Among employees predicted to stay, half had only one to five years of experience, so your profile is more typical of someone ready to move on.\n\nThe second most powerful contributor was the fact that you have received other job opportunities during your current employment. Only about one in four employees predicted to stay had such offers. This suggests you are being courted by other employers, which makes your departure seem much more likely.\n\nThe third factor was your tenure at your current organization, which is only one to five years. While this is common among those who stay, in your specific combination with strong overall experience and outside offers, it points to an attachment that has not yet solidified.\n\nTaken together, these factors indicate a real and understandable risk of leaving. The organization should respond by openly discussing your career path, growth opportunities, and compensation. You, in turn, should reflect on whether staying aligns with your long-term goals—and if it does, make that commitment visible and clear.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

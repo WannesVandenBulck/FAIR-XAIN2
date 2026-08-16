@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 81,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:12:54.849361",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 34% probability that you would default — roughly a one-in-three chance, which the bank considers too high to accept. Three factors most influenced this decision.\n\nThe strongest influence, working against you, was your credit history. You have no existing credits at this bank or elsewhere, and any past accounts were paid in full. That may seem responsible, but it gives the bank no evidence of how you behave when repaying borrowed money. Among approved applicants, only 1% have this profile; the large majority have already taken and successfully paid off a loan. From the model's perspective, lacking a proven track record makes you an unknown risk, and this heavily pushed the prediction toward default.\n\nTwo other factors actually pointed toward you being a good risk. Your checking account shows a healthy balance of at least 200 DM per month or a salary transfer, which is better than most approved applicants, who often have no balance or a negative one. This reduced your estimated risk. Additionally, your requested loan term is short — 9 months compared to about 19 months on average — so the bank would be exposed for less time. Both of these helped, but they could not offset the missing credit history.\n\nWhat should you do next? Focus on building a proven repayment record. Apply for a small credit card or a modest loan, use it lightly, and pay every installment on time. Within a year or two, you will have a history that demonstrates you can be trusted, and your chances of approval should improve substantially.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

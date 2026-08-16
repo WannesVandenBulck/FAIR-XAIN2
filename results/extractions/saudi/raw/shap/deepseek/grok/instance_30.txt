@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -99,8 +99,8 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Recognition",
@@ -124,8 +124,8 @@
     },
     {
       "name": "Work_Live_Balance",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Physical_Stress",
@@ -149,22 +149,22 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Age",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

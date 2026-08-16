@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 59,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:07:52.486838",
+  "status": "success",
+  "narrative": "The model that reviewed your application estimated a 27% chance that you would default on the loan. In practical terms, this means roughly one in four people with a similar profile have struggled to keep up with repayments, and the bank considers that level of uncertainty too high to take on.\n\nLooking at what most influenced this decision, three factors stood out. Your savings situation was actually the single biggest factor, and it worked in your favor: having no recognized savings did not push you toward being seen as risky. This mirrors many previously approved applicants, who also had limited or no savings. Similarly, your employment situation—while you are currently unemployed—did not count against you in the model's assessment. In fact, this factor leaned in your favor, which may come as a surprise, but the model weighed it that way.\n\nThe factor that most clearly raised your risk was the length of the loan you requested. You asked to repay over 48 months, while the typical approved applicant borrows over roughly 19 months. This extended timeline means the bank would be tied to your situation for more than twice as long as usual, and that pushed the model firmly toward classifying you as a bad credit risk. Even though other elements of your profile were neutral or helpful, this long exposure to uncertainty was enough to lift your overall risk to that 27% level, which the bank cannot accept.\n\nTo improve your chances in the future, consider requesting a shorter loan term, which would reduce the bank's exposure. Building up a visible savings record and securing stable employment would also strengthen your profile and help offset the risk that a long repayment period creates.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

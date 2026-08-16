@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 61,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:29:22.777728",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 73%, which is high. This means the model sees a strong likelihood that you will leave within the coming period, and for a promotion decision, that level of risk is considered too high to reward with additional investment.\n\nThe most important factor driving this prediction is your overall experience level. You have 6–10 years of experience, which places you above many of your peers who have 1–5 years. That background should make you valuable, but in this model it also works against you: experienced employees in your situation often have more external options and are more likely to move on.\n\nThe second strongest influence is that you have received other job opportunities while working in your current role. This is a powerful signal. Employees who are actively getting outside offers are far more likely to accept one, and compared to the majority who report no such opportunities, you stand out as a retention risk.\n\nThe third factor is your tenure in your current organization. You have only been in this job for 1–5 years, which is typical for many, but when combined with your longer total experience, it suggests you are still relatively new here. That pattern—substantial experience but limited time in this particular workplace—often indicates a person who may leave before a promotion pays off.\n\nFor next steps, the organization should engage you directly: ask about the outside opportunities you are considering and what would increase your commitment. You should also clarify whether this role meets your long-term goals, because your profile suggests you have one foot out the door, and a promotion alone may not change that.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

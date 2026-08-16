@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 68,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:30:26.159481",
+  "status": "success",
+  "narrative": "Based on the information available, the model estimates an 86% chance that you will leave your job in the near future. Because the prediction is so strongly tilted toward leaving, the decision was made to deny the promotion.\n\nThe most influential factor was your overall experience of 6 to 10 years. Among employees the model saw as staying, roughly a third had this level of experience; most had 1 to 5 years. With a decade of experience, you are highly marketable, and the model reads this as a risk that you could move on.\n\nThe second factor was receiving outside job offers. You indicated that you have received other job opportunities while working here. Among predicted stayers, only about a quarter had such offers. This is a powerful signal that you are actively being courted and may have already considered leaving.\n\nThe third factor was your time in your current role: 1 to 5 years. While this is common among stayers, when combined with your 6 to 10 years of total experience, it suggests you have switched jobs fairly recently and may not yet feel strongly tied to this organization. The model weighed this as further pushing you toward leaving.\n\nTogether, these signals paint a picture of a capable employee with one foot out the door. The organization should consider whether concrete retention steps—mentoring, clearer advancement paths, or stronger recognition—could change that. You, in turn, may want to weigh whether the concerns driving your receptiveness to other offers are addressed here.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

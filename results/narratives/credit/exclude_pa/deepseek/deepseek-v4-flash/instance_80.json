@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 80,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:12:45.758441",
+  "status": "success",
+  "narrative": "The model’s prediction is based on your profile and shows a 45% chance you would be a bad credit risk. That means nearly one in two borrowers with similar characteristics ends up defaulting, which the bank considers too high to approve.\n\nThe strongest factor working against you is your checking account status. Your account is currently negative, a pattern seen in only about 12.6% of approved applicants. This alone signals financial strain and strongly pushes the prediction toward “bad credit risk.”\n\nThe next most influential features actually worked in your favor. You requested 2,712 DM, which is slightly below the approved average of about 3,020 DM, so the loan size was not excessive. Your installment rate is also 2% of disposable income, lower than the typical approved applicant’s close to 3%, meaning you have more room to handle payments. Both of these factors nudged the prediction toward “good credit.”\n\nHowever, the checking account concern outweighed these positives in the model’s decision. The negative balance suggests that you may not have enough cash buffers to absorb unexpected expenses, making the loan riskier in the bank’s view.\n\nTo improve your chances next time, focus on rebuilding your checking account into positive territory and maintaining that balance for several months. Even a small buffer can change how your application is evaluated. Also consider lowering your credit request and keeping your installment rate low. If you can demonstrate stable finances, especially in your day-to-day account, you will be in a much stronger position.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

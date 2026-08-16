@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
+      "name": "studytime",
+      "sign": 1,
+      "value": 2
     },
     {
       "rank": 3,
-      "name": "Fedu",
+      "name": "Medu",
       "sign": 1,
-      "value": 1
+      "value": 2
     }
   ],
   "features": [
@@ -34,23 +34,23 @@
     },
     {
       "name": "famsize",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Pstatus",
-      "mentioned": 1,
-      "value": 1
-    },
-    {
-      "name": "Medu",
       "mentioned": 0,
       "value": "NaN"
     },
     {
-      "name": "Fedu",
+      "name": "Medu",
       "mentioned": 1,
-      "value": 1
+      "value": 2
+    },
+    {
+      "name": "Fedu",
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Mjob",

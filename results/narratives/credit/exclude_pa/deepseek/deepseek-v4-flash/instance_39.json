@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 39,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:03:48.111284",
+  "status": "success",
+  "narrative": "After reviewing your application, our model estimates a 58% chance that you represent a bad credit risk, which falls above the threshold for approval. This is why your loan was denied. The decision was driven primarily by three aspects of your financial profile.\n\nThe single most important factor was your checking account balance. You currently have a negative balance (under 0 DM). Among approved applicants, only about 12.6% have a negative checking account; most have no balance or a positive one. This strongly signals current financial strain and pushed significantly toward the bad-risk prediction.\n\nNext, your property status was a major factor. You reported having unknown or no property. This is uncommon among approved applicants—only about 7.8% fall into this category. Lenders typically see property as a sign of stability and a potential resource for repayment, so its absence increased your risk score.\n\nThe third factor, however, worked in your favor: your installment rate is only 2% of your disposable income, which is lower than the average of about 3% among approved applicants. This suggests you can manage your monthly payments. Unfortunately, this positive signal was not strong enough to overcome the two negative factors above.\n\nTo improve your chances in the future, focus on building a positive checking account balance and consider ways to demonstrate additional assets or stability. Even small improvements in these areas could meaningfully shift the model’s assessment. You may also want to wait until your financial situation is more solid before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

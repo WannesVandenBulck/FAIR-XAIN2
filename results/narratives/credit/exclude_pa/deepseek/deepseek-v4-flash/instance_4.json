@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 4,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:56:13.238102",
+  "status": "success",
+  "narrative": "After reviewing your application, the model estimated that you have a 27 percent chance of defaulting on this loan. While that leaves roughly a 73 percent chance you would repay, the bank considers this level of risk too high, and your application was denied.\n\nThe strongest factor in this decision was actually in your favor: your savings situation. Having no documented savings or an unknown balance is common among approved applicants, and the model treated it positively. The purpose of the loan also worked for you—borrowing for a used car is a familiar, reasonable request and did not raise your risk.\n\nWhat pushed you into the bad-risk category was the fact that you already have an existing installment plan with another bank. Fewer than one in ten approved applicants had such an obligation; the vast majority had none. That existing commitment means a portion of your monthly income is already tied up in other repayments, reducing your capacity to handle a new loan. This single factor outweighed the favorable aspects of your savings and loan purpose.\n\nThe best next step is to pay off or significantly reduce that existing bank installment plan before reapplying. Once that obligation is gone, the bank will see you as having more disposable income and a more stable financial position. You could also consider requesting a smaller loan amount to lower the perceived risk and improve your chances of approval next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

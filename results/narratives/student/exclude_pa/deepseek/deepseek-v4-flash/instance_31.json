@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 31,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:46:44.531870",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates you have a 30% chance of not passing this year. That is a real risk, and it is why the school is requiring you to take remedial courses as a safety net, not as a punishment.\n\nThe single strongest factor in this prediction is that you have said you do not intend to pursue higher education after school. Among students who passed, every single one wanted to continue into higher education. Your lack of this long-term goal pushes you toward failing, not because you lack ability, but because it likely affects your day-to-day motivation to engage with schoolwork.\n\nOn the positive side, you have never failed a class before, exactly like most students who pass. That history of steady progress works in your favour. So does the fact that you go out with friends only a little. Most passing students spend a moderate amount of time socialising, and your low level of going out suggests you already have a quiet environment and more time available for studying. Both of these factors push you toward passing.\n\nHowever, the negative effect of not having a clear academic goal outweighs these positives in the model’s view. The best next step is to talk to a teacher or school counsellor about what you want to do after school, even if it is not university. A specific plan, like a vocational course or a job you find exciting, can give you the motivation to engage more fully this year and turn that 30% risk into a passing outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

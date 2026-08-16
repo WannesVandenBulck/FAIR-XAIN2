@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 73,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:55:31.705411",
+  "status": "success",
+  "narrative": "The model estimated a 61.2 percent chance that you would not pass the bar exam on your first attempt. In other words, the law school determined that your risk of failure was too high to justify offering you admission.\n\nThe most important factor in this decision was your class standing in the third year of your undergraduate studies. You were in the lowest decile of your school cohort, while admitted applicants typically sat near the middle. This weighed heavily against your application and pointed directly toward bar exam failure. The second most important influence was your LSAT score of 35, which was slightly below the average of 37.18 for accepted students. Notably, this feature actually pushed in the opposite direction, toward passing, meaning your admissions test performance was a point in your favor—but its positive influence was far weaker than the negative signal from your class rank. Finally, your first-year class standing also contributed to the denial. Being in the second decile, compared with an average of the sixth decile among admitted students, further reinforced the prediction that you would struggle.\n\nNeither your family income nor your full-time enrollment status played a meaningful role. What hurt you most was a pattern of low grades relative to your peers.\n\nTo improve, retake the LSAT to raise your score and consider additional coursework or a post-baccalaureate program to show you can perform near the middle of your cohort. This would give you a much stronger application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

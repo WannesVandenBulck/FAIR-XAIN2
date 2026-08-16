@@ -6,19 +6,19 @@
       "rank": 1,
       "name": "reason",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "rank": 2,
-      "name": "failures",
-      "sign": -1,
-      "value": 0
+      "name": "famrel",
+      "sign": 1,
+      "value": 4
     },
     {
       "rank": 3,
-      "name": "famrel",
-      "sign": -1,
-      "value": "NaN"
+      "name": "studytime",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
@@ -65,7 +65,7 @@
     {
       "name": "reason",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "guardian",
@@ -120,7 +120,7 @@
     {
       "name": "famrel",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 4
     },
     {
       "name": "freetime",

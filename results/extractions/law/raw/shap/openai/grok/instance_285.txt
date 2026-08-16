@@ -4,13 +4,13 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "decile3",
+      "name": "decile1",
       "sign": 1,
       "value": "NaN"
     },
     {
       "rank": 2,
-      "name": "decile1",
+      "name": "decile3",
       "sign": 1,
       "value": "NaN"
     },
@@ -49,12 +49,12 @@
     },
     {
       "name": "fulltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 100,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:35:55.239021",
+  "status": "success",
+  "narrative": "Your promotion decision was influenced by a model that predicts a 55% chance you will leave your job in the near future. Because this probability is higher than the threshold your organization uses, it has led to your promotion being denied. This is not a reflection of your performance, but rather a risk assessment based on patterns seen across many employees.\n\nThe strongest factor in this prediction is your total years of experience. Having more than 11 years of experience is relatively rare among employees who stay—only about 15% of stable employees have this much experience. Paired with this, your tenure at your current organization is only 1 to 5 years. Together, these two factors suggest a profile that, in the data, often indicates someone who might be inclined to move on to new opportunities.\n\nInterestingly, one factor worked in your favor. You have not received other job offers while working here, which is a strong signal that you are not actively searching elsewhere. This factor pushed the prediction back toward staying, and it was the second most influential consideration.\n\nHowever, the combination of lengthy overall experience with a shorter stay at this organization outweighed that stabilizing signal. The decision is borderline, so small changes could tip the balance. To improve your chances in the future, you might consider discussing your long-term career path with your manager, so your commitment is clear. The organization may also wish to focus on retaining experienced employees who are still relatively new to their current roles, as this group appears to carry elevated turnover risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "purpose",
       "sign": 1,
-      "value": 10
+      "value": "NaN"
     },
     {
       "rank": 3,
@@ -40,7 +40,7 @@
     {
       "name": "purpose",
       "mentioned": 1,
-      "value": 10
+      "value": "NaN"
     },
     {
       "name": "amount",

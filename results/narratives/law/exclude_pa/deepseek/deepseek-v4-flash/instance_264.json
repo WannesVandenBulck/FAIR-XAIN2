@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 264,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:44:16.282489",
+  "status": "success",
+  "narrative": "Your application has been denied because our model predicted a 64% chance that you would fail the bar exam on your first attempt. In practical terms, that means the school believed you were far more likely to struggle with the bar than to succeed, which made admitting you too risky.\n\nThe decision was driven by three factors, ranked from most to least influential. The strongest signal was your academic standing in your third year of law school: you placed in the very bottom decile of your class, while accepted applicants typically sit near the sixth decile. Because third-year grades reflect your mastery of advanced legal concepts, this weighed heavily against you. The second most important factor was your LSAT score of 19, which is dramatically lower than the average score of about 37 among admitted students. Your score indicates that the reading comprehension and logical reasoning skills tested on the LSAT—and heavily used on the bar exam—are currently underdeveloped. Finally, your first-year class rank, also in the bottom decile, reinforced the concern that you have struggled from the very beginning of your legal education.\n\nIn short, these three signals combined to paint a clear picture: your academic foundation is not yet strong enough for bar passage.\n\nThe path forward is to address these weaknesses directly. Consider retaking the LSAT after a focused preparation course, and look into academic support, tutoring, or a structured bar-review program to build the reading and reasoning skills you will need. You might also complete additional coursework or a post-baccalaureate program to demonstrate improvement before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -10,14 +10,14 @@
     },
     {
       "rank": 2,
-      "name": "Years_Experience",
+      "name": "Years_experience_lastorganization",
       "sign": -1,
       "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
-      "sign": -1,
+      "name": "Years_Experience",
+      "sign": 1,
       "value": "NaN"
     }
   ],

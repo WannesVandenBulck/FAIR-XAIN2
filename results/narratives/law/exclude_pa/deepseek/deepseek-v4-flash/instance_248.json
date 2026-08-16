@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 248,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:40:03.213180",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, you have a 93% chance of failing the bar exam on the first attempt if admitted. This overwhelming likelihood drove the denial. The strongest warning signal came from your academic standing in your third year: you ranked in the 2nd decile, while accepted students typically rank around the 6th. This was the most influential factor, indicating that your performance did not improve as the program progressed. Your LSAT score of 28, compared with an average of 37 among admitted students, was the next most significant factor. Because this score is well below the typical admitted range, it pushed the prediction further toward failure, as it suggests difficulty with the reasoning skills the bar exam demands. Finally, your first-year ranking in the 2nd decile—also below the accepted average of 6th—added another strong push toward the failure prediction. Together, these three signals paint a consistent picture: your academic trajectory and standardized test performance are below the level of students who tend to pass the bar on the first try. To strengthen a future application, focus on retaking the LSAT to reach a competitive range and building a record of stronger, more consistent academic performance in your final years. Improve your rank substantially and seek additional bar-preparation support, then consider reapplying with evidence of this growth.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

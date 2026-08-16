@@ -5,19 +5,19 @@
     {
       "rank": 1,
       "name": "Training_programs_During_last_three_years",
-      "sign": -1,
-      "value": "NaN"
+      "sign": 1,
+      "value": 3
     },
     {
       "rank": 2,
-      "name": "Useful_Training_Programs",
+      "name": "Job_Opportunities",
       "sign": 1,
-      "value": 0
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "Job_Opportunities",
-      "sign": 1,
+      "name": "Years_experience_lastorganization",
+      "sign": -1,
       "value": 1
     }
   ],
@@ -35,7 +35,7 @@
     {
       "name": "Years_experience_lastorganization",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "Academic_degree",
@@ -79,13 +79,13 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 3
     },
     {
       "name": "Useful_Training_Programs",
@@ -99,12 +99,12 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",
@@ -150,7 +150,7 @@
     {
       "name": "Job_Satisfaction",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Gender",

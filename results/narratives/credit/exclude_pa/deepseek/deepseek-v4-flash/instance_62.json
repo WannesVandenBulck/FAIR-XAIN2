@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 62,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:09:02.502035",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, your application was denied because you have a 41% chance of becoming a bad credit risk. In the bank’s view, that is too high: among 100 people with similar profiles, about 41 would fail to repay. The decision was not random, and three factors mattered most.\n\nYour credit history was the single strongest factor the model weighed, and it actually helped you. Despite a record marked as “critical/other credits,” the model saw this as a point in your favor—possibly because it reflects a mix of past obligations, not an outright failure to repay. So this is not why you were denied.\n\nThe real problem starts with your checking account balance, which was the second most influential factor. Having only 0 to 200 DM available is uncommon among approved applicants—most approved borrowers have no checking account or a much larger buffer. The model saw this low balance as a clear sign of tight finances, pushing strongly toward the “bad risk” side.\n\nYour savings made things worse. With less than 100 DM saved, you have very little financial cushion. While many approved borrowers also have small savings, the model treats this as a risk when combined with your limited checking balance and the high requested amount of over 5,000 DM, well above the average approved loan.\n\nTo improve your chances, focus on building a stronger financial buffer. Increase your checking account balance and set aside more savings before reapplying. Even a few months of consistent saving could change the model’s assessment, showing that you can manage unexpected expenses.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

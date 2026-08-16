@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "decile1",
       "sign": 1,
-      "value": 2
+      "value": 3
     },
     {
       "rank": 3,
@@ -35,7 +35,7 @@
     {
       "name": "decile1",
       "mentioned": 1,
-      "value": 2
+      "value": 3
     },
     {
       "name": "fam_inc",

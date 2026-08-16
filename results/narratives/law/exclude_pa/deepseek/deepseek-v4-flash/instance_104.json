@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 104,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:04:30.394863",
+  "status": "success",
+  "narrative": "The law school’s decision was based on a model that estimates how likely you are to pass the bar exam on the first attempt. For you, that probability of failing is 84.8 percent. In practical terms, the model believes the odds are more than five to one that you would not pass the exam, and the admissions committee used that as the central reason for denying your application.\n\nThree factors mattered most in this decision. Your standing at the end of your third year was the single strongest influence, followed by your first-year standing. In both cases you are in the first decile, while students who were accepted are typically around the sixth decile. Although that placement sounds strong, the model considered this pattern to be a serious warning sign. It pushed the prediction toward bar exam failure.\n\nYour LSAT score, on the other hand, worked in your favor. At 40, it is above the average score of 37.2 among accepted students, and this factor pushed the prediction toward passing. However, its influence was not as strong as the two academic-ranking factors, so it could not overcome them.\n\nThis result does not define your potential. To improve your future application, focus on strengthening the parts of your record that the model flagged. Retake or prepare more deliberately for the LSAT to raise your score further, and if possible, add post-graduate coursework or a structured bar-preparation program that demonstrates your ability to succeed. You might also request a meeting with the admissions office to discuss whether additional academic evidence could change this decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

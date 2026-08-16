@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 285,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:49:24.543905",
+  "status": "success",
+  "narrative": "The model estimates that you have a 61.7% chance of failing the bar exam on the first attempt, which means that, based on the information available, failure is more likely than success. Because passing the bar is essential to a legal career, the university decided that admitting you carried too high a risk.\n\nThe single strongest reason for this decision was your class standing in the third year of law school. Among students whose applications are accepted, the average third-year standing is around the sixth decile, but you are in the first decile, the very bottom of your class. This was the most powerful signal pushing the prediction toward bar exam failure. Your first-year standing also contributed in the same direction. You were also in the first decile in your first year, while accepted students tend to be around the sixth decile. Doing poorly in both your first and third years suggests that academic struggles were not a one-time issue but part of a consistent pattern.\n\nYour undergraduate GPA did not hurt you. Even though your GPA of 3.00 is below the accepted-student average of 3.23, this particular factor actually pointed toward passing the bar exam. That means your earlier academic ability worked in your favor, but it was not enough to overcome the strong negative influence of your law school class rankings.\n\nThe clearest path forward is to strengthen the academic record that the admission committee will see. You might consider taking additional coursework, improving your study strategies, or spending a year gaining legal experience before reapplying. The goal is to demonstrate that you can finish law school in a much stronger class position, since that is the factor that most heavily drove this denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

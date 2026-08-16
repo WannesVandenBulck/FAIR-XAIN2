@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 53,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:27:52.981857",
+  "status": "success",
+  "narrative": "Based on the model, you have a 57% chance of leaving your job in the near future. Because this probability leans toward departure, the promotion is denied.\n\nThe single most important factor was your total years of experience. With only 1 to 5 years overall—a range shared by about half of employees who stay—this factor actually worked in your favor. It suggested a degree of stability, not a reason to expect departure.\n\nHowever, the second most important factor pushed in the opposite direction. You indicated that you have received other job opportunities while working here. Among employees predicted to stay, only about one in four had outside offers. This is a strong sign that your options are not limited to your current employer, and it weighed heavily toward the prediction that you would leave.\n\nThe third most important factor was your tenure in this specific organization. You have been with this employer for 1 to 5 years, a period that aligns with the majority of leavers rather than the longer tenures that build commitment. The model interpreted this as a signal that your attachment is still being tested, pushing the prediction further toward leaving.\n\nTogether, these factors tell a coherent story: you are still early enough in your career and have enough external interest that leaving is a realistic possibility. For you and the organization, the next step is not simply to accept this verdict. Ask whether those outside opportunities reflect unmet needs—such as recognition, salary, or growth—and consider whether a promotion or a clearer career path would tip your decision from leaving to staying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

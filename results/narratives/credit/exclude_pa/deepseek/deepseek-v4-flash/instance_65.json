@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 65,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:09:49.045651",
+  "status": "success",
+  "narrative": "Your loan application has been denied because the model estimates a 41% probability that you would not repay the loan. While this isn't a majority, it exceeded the threshold for approval, and the bank views this level of risk as too high.\n\nThe three main factors influencing this decision were your checking account status, the loan amount, and your property situation.\n\nFirst, your checking account balance of 0 to 200 DM is a concern. Among approved applicants, only a small minority had such a low balance, and the model takes this as a warning sign that you might face cash-flow issues. This factor pushed strongly toward the bad-risk side.\n\nSecond, the loan amount of 4,297 DM you requested, although higher than the average of about 3,020 DM for approved applicants, actually worked in your favor in this analysis. So this was not the reason for the denial.\n\nThird, your lack of property—or unknown property status—was the second largest negative factor. Most approved applicants had a car, real estate, or some other asset, while only about 8% had no property. This made the model see you as having fewer resources to fall back on if your income changes.\n\nTo improve your chances, consider building a larger checking reserve, obtaining or documenting an asset, and perhaps applying for a smaller loan. Strengthening these areas could reduce your perceived risk enough for approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

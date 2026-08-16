@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
+      "name": "studytime",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -99,8 +99,8 @@
     },
     {
       "name": "activities",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "nursery",
@@ -109,8 +109,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "romantic",

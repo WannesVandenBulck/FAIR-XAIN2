@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 260,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:43:20.099033",
+  "status": "success",
+  "narrative": "Your law school application was denied because the model that evaluated your file predicts a 96% chance that you would fail the bar exam on your first attempt. In plain terms, the school looks at early indicators of bar exam success to decide who is likely to become a licensed attorney, and the model saw your profile as a serious risk.\n\nThe single strongest reason for this decision was your class ranking in your third year of undergraduate study. You finished in the lowest decile of your school’s class, while students who are admitted typically sit around the sixth decile. This alone pushed the prediction strongly toward failure. The second most influential factor was your first‑year class ranking, which was also in the lowest decile against a typical admitted average around the sixth decile. Together, these two rankings suggest a pattern of academic struggle that the model associates with poor bar performance.\n\nThe third factor was your LSAT score of 27, far below the average of roughly 37 among admitted students. A low LSAT score pushed the prediction further toward failure, reinforcing the message that your current academic and test‑taking profile does not match what the school needs.\n\nThe strongest action you can take is to prepare seriously for the LSAT and retake it, since that is the most direct way to change your risk profile. You should also consider strengthening your academic record through additional coursework, and speak with a pre‑law advisor about post‑baccalaureate programs that can help raise your grades before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

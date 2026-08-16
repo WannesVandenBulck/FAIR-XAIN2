@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 140,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:12:07.965780",
+  "status": "success",
+  "narrative": "The model’s prediction is that you have a 56.7% chance of failing the bar exam on the first attempt, meaning that for this admission decision, the model considered failure more likely than success. That likelihood is what drove the denial, and the main reason behind it is your class standing in your third year. Your third-year decile rank of 2 out of 10 is well below the average rank of about 5.8 among admitted students, and this was the single largest factor pushing the prediction toward bar exam failure. Essentially, the model sees weaker performance in your later law school years as a strong warning sign that you may not master the material required for the bar.\n\nYour LSAT score, on the other hand, worked in your favor. At 39, it is slightly above the average of about 37 for accepted applicants, and this was the second most important factor, pushing the prediction toward passing. Similarly, your undergraduate GPA of 3.10 was a modest point in favor of a pass outcome, though it was the least influential of the top three factors and could not offset the concern raised by your third-year standing.\n\nWhat should you do next? Focus on strengthening your academic record, especially in your final year, to show a clear upward trend. If you reapply, seek academic support, build stronger study habits, and consider retaking the LSAT to further boost your application. The evidence suggests that improving your later-year performance is the most direct way to change this outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

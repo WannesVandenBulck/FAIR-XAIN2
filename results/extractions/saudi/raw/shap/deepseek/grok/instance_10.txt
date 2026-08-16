@@ -44,8 +44,8 @@
     },
     {
       "name": "Sector",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "MonthlySalary",
@@ -109,12 +109,12 @@
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Job_Engagement",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

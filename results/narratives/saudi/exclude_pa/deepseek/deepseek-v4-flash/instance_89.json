@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 89,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:34:03.952313",
+  "status": "success",
+  "narrative": "Based on the available information, the model estimates a 55% chance that you will leave your job in the near future. That is not a guarantee, but it means the balance tips slightly toward departure, and because the promotion decision is tied to retaining employees, this is why your promotion was denied. Your profile was not judged on gender, age, or health; the main signals came from your work situation.\n\nThe strongest factor actually worked in your favor: your total experience of one to five years is similar to many employees who stay, so this pushed the prediction toward staying. You did not stand out as highly mobile based on experience alone.\n\nThe next most influential factor pointed the other way. You indicated that you have received other job opportunities while working in your current role. Among employees predicted to stay, only about a quarter received such offers, so this signal is uncommon and suggests you are attractive to other employers. That raised your leaving risk.\n\nThe third factor was your employment sector. You work in the “other” sector, which is less common among employees who stay than medical or education sectors, and this also contributed modestly to a higher leaving risk.\n\nTaken together, the main reason for the denial is not poor performance, but a perceived likelihood of turnover. To improve future opportunities, it may help to discuss with your manager what would make you feel more committed—such as clearer career paths, recognition, or stability—and for the organization to consider whether retention support, rather than denial, is the more constructive response.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

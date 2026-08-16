@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 47,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:26:21.173591",
+  "status": "success",
+  "narrative": "Your promotion was denied because a risk assessment model estimated that you have a 49% chance of leaving the organization in the near future. That is essentially a coin flip, not a certainty, but it is close enough to the danger threshold that the company decided the risk of losing you shortly after promoting you was too high.\n\nInterestingly, the strongest factor in the model’s evaluation actually worked in your favor: your total experience. With one to five years in the workforce, you fit the profile of many employees who stay in their jobs, and this pulled the assessment away from leaving rather than toward it.\n\nThe second most important factor worked against you. You have received other job opportunities while working here, and among employees predicted to stay, only about one in four had outside offers. The model reads this as a sign that your options are open and that another employer could tempt you away, which increases your departure risk.\n\nThe third factor also pushed in your favor: you feel you received the promotion you deserved in this job. Employees who feel fairly promoted are usually more loyal, and this helped offset some of the risk.\n\nIn the end, the outside opportunities were the deciding concern. If you are genuinely committed to staying, it is worth communicating that directly to your employer. For the organization, the takeaway is clear: valued employees with external options need compelling growth and compensation to stay, and this decision should be a prompt for dialogue, not just a rejection.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

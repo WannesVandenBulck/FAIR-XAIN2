@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 26,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:22:46.610478",
+  "status": "success",
+  "narrative": "The model indicates a 58% chance you will leave within the coming period, and because that crosses the threshold, the promotion is denied. Your overall career experience of one to five years is actually the strongest signal in your favor; compared with many colleagues who stay, you have a solid but still developing profile, and this pulls the prediction toward staying. However, two other factors outweigh that effect. The second most important signal is that you have received other job opportunities while working here, which strongly pushes the prediction toward leaving; this suggests you are marketable and may already have one foot out the door. The third factor is your tenure in this specific organization, also one to five years. While that sounds similar to your total experience, the model treats it as a risk: you have not yet built the deep organizational roots that longer-tenured employees show, and that shorter loyalty makes departure more likely. In other words, you are experienced enough to be attractive elsewhere, but not yet embedded enough here to stay. The organization should recognize this as a retention issue rather than a performance issue. For the employee, consider communicating your career intentions and asking for a clearer growth path; for the organization, offering a development plan or retention conversation may be more productive than simply denying the promotion. The prediction is not a verdict, but a warning that without stronger ties, you may indeed leave.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

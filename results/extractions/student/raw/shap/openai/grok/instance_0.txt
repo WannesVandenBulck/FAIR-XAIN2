@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "reason",
+      "name": "schoolsup",
       "sign": 1,
-      "value": 2
+      "value": 1
     }
   ],
   "features": [
@@ -85,7 +85,7 @@
     {
       "name": "schoolsup",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "famsup",

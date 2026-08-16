@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "amount",
-      "sign": -1,
-      "value": 2039
-    },
-    {
-      "rank": 2,
       "name": "status",
       "sign": 1,
       "value": 2
     },
     {
+      "rank": 2,
+      "name": "amount",
+      "sign": -1,
+      "value": 2039
+    },
+    {
       "rank": 3,
       "name": "present_residence",
       "sign": -1,
-      "value": "NaN"
+      "value": 1
     }
   ],
   "features": [
@@ -70,7 +70,7 @@
     {
       "name": "present_residence",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "property",

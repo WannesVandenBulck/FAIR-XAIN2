@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 10,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:19:14.532079",
+  "status": "success",
+  "narrative": "Based on the patterns observed in similar employees, the model estimates a 63% chance that you will leave your job, which is why the promotion was denied. This is not a judgment on your performance, but a risk assessment: the data suggests you are more likely to depart than to stay, making a promotion a risky investment.\n\nThe strongest signal driving this prediction is that you have received other job opportunities while working here. This is uncommon among employees who stay—only about one in four receive outside offers—so its presence weighs heavily toward the prediction that you will leave. Employers see this as a sign that you have one foot out the door, actively courted by competitors.\n\nInterestingly, your long tenure in your current role—six to ten years—actually pushes the prediction in the opposite direction, toward staying. Loyalty and accumulated experience in one organization are typical of employees who remain, and this factor works in your favor.\n\nHowever, your total years of experience across all jobs, also six to ten years, balances this out. Combined with your education sector background and the fact that you have external options, the model interprets your profile as someone with marketable skills and alternatives. The outside opportunities ultimately outweigh your tenure commitment, tipping the prediction toward departure.\n\nThe organization should treat this as a retention warning rather than a final verdict. You may want to discuss what would make you stay—career growth, recognition, or compensation. Conversely, the company should consider whether your dissatisfaction signals a broader issue worth addressing before investing further in your advancement.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

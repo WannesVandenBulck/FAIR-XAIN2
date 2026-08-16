@@ -1,6 +1,6 @@
 ```json
 {
-  "predicted_probability": 0.823,
+  "predicted_probability": 0.82,
   "most_important_features": [
     {
       "rank": 1,

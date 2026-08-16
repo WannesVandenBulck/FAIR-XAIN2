@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 223,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:34:49.770157",
+  "status": "success",
+  "narrative": "Based on your academic record, the model predicts a 68.8% probability that you would fail the bar exam on your first attempt. That means the risk of failure outweighs the chance of passing, and this is the central reason your law school application was denied. The prediction is not based on your personal characteristics, but on patterns observed in thousands of prior students.\n\nThe most influential factor was your class standing in your third year of undergraduate study. Your placement in the lowest decile of your class is markedly below the average for admitted students, who typically sit around the sixth decile. This strongly signals that by your final year, your academic performance had not improved to the level needed for the rigors of law school, and it significantly pushed the prediction toward bar exam failure.\n\nYour first-year class standing also contributed to the denial, though less strongly than your third-year performance. Being in the second decile, again well below the admitted average, suggests early academic struggles that were not sufficiently overcome.\n\nThe one factor working in your favor was your LSAT score. You scored 41, which is higher than the average of roughly 37 among admitted students, so this pushed the prediction toward passing. However, its influence was not strong enough to outweigh the two academic standing factors.\n\nTo improve your application, focus on addressing your academic record. Enroll in post-baccalaureate coursework and earn strong grades, particularly in writing-heavy or analytical classes. Seek academic support or tutoring to build consistent performance. Consider gaining legal work experience to demonstrate practical commitment. If you decide to reapply later, showing sustained academic improvement will be far more persuasive than re-taking the LSAT, which is already above average.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

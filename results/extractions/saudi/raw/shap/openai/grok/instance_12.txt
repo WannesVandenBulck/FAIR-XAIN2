@@ -17,8 +17,8 @@
     {
       "rank": 3,
       "name": "Psychological_Exhaustion",
-      "sign": -1,
-      "value": 0
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -79,7 +79,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -135,7 +135,7 @@
     {
       "name": "Psychological_Exhaustion",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Job_Stability",

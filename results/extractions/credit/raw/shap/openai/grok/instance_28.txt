@@ -11,14 +11,14 @@
     {
       "rank": 2,
       "name": "purpose",
-      "sign": 1,
+      "sign": -1,
       "value": 9
     },
     {
       "rank": 3,
-      "name": "duration",
-      "sign": 1,
-      "value": 21
+      "name": "present_residence",
+      "sign": -1,
+      "value": 4
     }
   ],
   "features": [
@@ -29,8 +29,8 @@
     },
     {
       "name": "duration",
-      "mentioned": 1,
-      "value": 21
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "credit_history",
@@ -69,8 +69,8 @@
     },
     {
       "name": "present_residence",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "property",

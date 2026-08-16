@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 48,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:05:28.767870",
+  "status": "success",
+  "narrative": "Your loan application was denied because our assessment indicates you represent a serious credit risk. The predicted probability that you would fail to repay the loan is 85%. In other words, among applicants with a similar profile, roughly 85 out of 100 ultimately defaulted, leaving the bank with a loss.\n\nThree factors weighed most heavily against you. The most important was the state of your checking account. Your account currently has a negative balance, whereas most approved applicants keep it in positive territory—about 59% have no overdraft at all, and another 18% maintain a small positive balance. A negative balance suggests ongoing financial strain, and this strongly pushed the assessment toward denial.\n\nThe second most influential factor was the amount you requested. At 10,297 marks, you asked for more than three times the average approved loan amount of roughly 3,020 marks. Larger loans expose the bank to greater potential loss, so this too pushed the decision in the wrong direction.\n\nFinally, the repayment duration hurt your chances. You requested 48 months to repay, while the typical approved loan runs about 19 months. A longer repayment period means more time for your financial situation to change unexpectedly, and that uncertainty counted heavily against you.\n\nTo improve your chances of approval in the future, focus on these areas: work toward rebuilding a positive balance in your checking account and maintain it consistently over several months, request a smaller loan amount, and choose a shorter repayment period. Even improving one of these factors would meaningfully strengthen your application next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

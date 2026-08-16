@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 132,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:10:40.133705",
+  "status": "success",
+  "narrative": "This decision rests on a prediction that you have roughly a 59 percent chance of failing the bar exam on your first attempt, which is slightly higher than your chance of passing. When a law school weighs the consequences of admitting someone who may not pass the bar, that risk is usually disqualifying. Three factors drove this result, ranked in order of importance.\n\nThe strongest influence was your academic standing in your third year, followed closely by your standing in your first year. In both cases you placed near the bottom of your class, in the first and second deciles, while accepted peers typically sit around the sixth decile. This pattern matters because a school views a student's own grade history as the clearest preview of future performance. Starting weak, and still weak by the third year, suggests you would likely struggle with the rigorous law curriculum and ultimately with the bar exam itself.\n\nYour LSAT score, by contrast, worked in your favor. Although your score of 36 was slightly below the average of 37 among accepted students, the model read it as a modest sign that you can handle standardized testing. However, that positive influence was not strong enough to offset the negative signals from your class ranks.\n\nMoving forward, retake the LSAT and aim for a clearly above-average score. You should also seek formal academic mentoring or consider a post-baccalaureate program to demonstrate that your recent performance has improved. Reapplying with evidence of stronger grades and a higher score would give the admissions committee reason to see your potential differently.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

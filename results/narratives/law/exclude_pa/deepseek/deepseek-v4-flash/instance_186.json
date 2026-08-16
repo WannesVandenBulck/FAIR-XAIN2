@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 186,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:24:40.565395",
+  "status": "success",
+  "narrative": "Your application was denied because the model determined that you have a 67.8 percent probability of failing the bar exam on your first attempt. In practical terms, this means that for every ten students with a similar academic profile, roughly seven are expected to fail, and the university viewed this risk as too high to admit you. The decision was based entirely on academic and background factors, never on your gender or race.\n\nThe single most influential factor in this prediction was your LSAT score. Your score of 23.50 falls far below the average of 37.18 among accepted applicants, and this gap heavily tipped the prediction toward bar exam failure. In fact, this was the strongest reason your application was turned down.\n\nYour class standing in the third year of your previous studies was the second most significant factor. You ranked in the second decile of your school, while accepted students average around the sixth decile. Being near the bottom of your class, rather than near the middle, strongly suggested that your academic performance would not hold up under the demands of law school, further pushing the prediction toward failure.\n\nThe only factor working in your favor was your undergraduate GPA. At 3.10, it is slightly below the accepted average of 3.23, but the model still viewed this as a sign that you have some academic capability, nudging the prediction slightly toward passing. Unfortunately, this positive influence was not strong enough to overcome the concerns raised by your LSAT score and third-year class rank.\n\nMoving forward, you should focus on retaking the LSAT, as improving this score would directly address the strongest reason for your denial. You may also want to consider enrolling in additional coursework to demonstrate a stronger upward academic trend, then reapply once your record more clearly supports success.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

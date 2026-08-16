@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 93,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:00:57.679243",
+  "status": "success",
+  "narrative": "The model concluded there is a 62% chance you would not pass the bar exam on the first attempt, which means the law school saw an unacceptably high risk of academic and professional difficulty. The strongest factor pushing toward that risk was your third-year class ranking. You fell in the third decile, meaning roughly the bottom third of your class, while accepted students typically sit near the sixth decile. This signals that your academic performance, especially in your final pre-law year, was not competitive. The second most important factor was your family income bracket. You are from an upper-middle-income household, which is actually common among accepted applicants; however, in your overall profile the model treated this as a slight additional push toward failure, possibly as part of a broader pattern that had to be weighed alongside your grades. The third factor was your first-year class ranking, also at the third decile compared with an average near the sixth decile for accepted students. This early weakness, combined with a later one, suggests a persistent struggle to climb your law school cohort. Given these influences, your application was rejected primarily because of your academic standing relative to your peers, not because of any single test score or your family background alone. To improve, focus on raising your class rank in any future coursework or additional program, seek academic support early, and consider retaking the LSAT to demonstrate stronger aptitude. Since your undergraduate GPA and LSAT were only slightly below average, strengthening your record could change the outcome next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

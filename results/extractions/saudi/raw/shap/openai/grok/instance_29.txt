@@ -105,7 +105,7 @@
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
@@ -140,7 +140,7 @@
     {
       "name": "Job_Stability",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Environment_Satisfaction",

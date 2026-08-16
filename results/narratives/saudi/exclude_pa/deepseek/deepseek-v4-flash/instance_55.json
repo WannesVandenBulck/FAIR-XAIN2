@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 55,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:28:15.342556",
+  "status": "success",
+  "narrative": "Your promotion was denied because the model classifies you as having a high chance of leaving the organization. The predicted probability is 47%—a close call, but you landed on the “may leave” side of the decision. The model does not consider gender, age, or health; it looks at your experiences and work situation.\n\nThe strongest signal in your favor is your total job experience. With one to five years overall, you match the most common group among employees who stay—about half of stable employees share this profile. This factor pulls strongly toward staying.\n\nWeighing against that is the fact that you have received other job offers while working here. Among employees who stay, only about one in four has outside offers. When someone is being recruited elsewhere, the model sees a clear departure risk. This factor is the main reason your risk outweighs the stability of your experience.\n\nThe third factor is your training activity. You attended one to three programs in the last three years. While that number is common among employees who stay, the combination of skills gained and outside offers suggests you may be more mobile—better prepared to move, and therefore more likely to leave.\n\nOverall, your profile is mixed but leans toward leaving. Rather than simply denying you, the organization should talk with you directly about what would keep you here: a clearer path to promotion, fair compensation, and recognition of your effort. You deserve to know what could change the decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

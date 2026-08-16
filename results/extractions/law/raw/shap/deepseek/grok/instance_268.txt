@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "lsat",
-      "sign": 1,
-      "value": 22.7
-    },
-    {
-      "rank": 3,
       "name": "fam_inc",
       "sign": -1,
       "value": 3.0
+    },
+    {
+      "rank": 3,
+      "name": "lsat",
+      "sign": 1,
+      "value": 22.7
     }
   ],
   "features": [

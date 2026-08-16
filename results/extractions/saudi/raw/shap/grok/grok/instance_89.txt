@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "Years_Experience",
-      "sign": -1,
+      "sign": 1,
       "value": 0
     },
     {
@@ -54,8 +54,8 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Bonus",
@@ -64,8 +64,8 @@
     },
     {
       "name": "OverTime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Payment_Overtime",
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Gender",

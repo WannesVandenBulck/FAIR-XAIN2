@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 15,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:40:06.756186",
+  "status": "success",
+  "narrative": "After reviewing your academic record, the model assigned you a 53.1 percent chance of failing the bar exam on your first attempt. That is slightly above the 50 percent threshold, and because of this elevated risk, the law school decided not to admit you.\n\nLooking at the factors that",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

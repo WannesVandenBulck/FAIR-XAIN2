@@ -54,8 +54,8 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "installment_rate",
@@ -64,8 +64,8 @@
     },
     {
       "name": "other_debtors",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "present_residence",

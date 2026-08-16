@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 11,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:19:21.745151",
+  "status": "success",
+  "narrative": "The model's prediction indicates a 44 percent chance that you will leave your job in the near future, and this level of risk is why your promotion was not approved. To understand this decision, it helps to look at what most strongly influenced the prediction.\n\nThree factors stood out. Your years of experience, at one to five years, actually pushed the model toward predicting you would stay. This is the most common experience level among employees who remain, so it did not raise your risk. Similarly, your high emotional commitment to the organization strengthened the case for staying.\n\nHowever, one factor pushed strongly the other way: you have received other job opportunities while working here. Among employees who stay, only about 23 percent receive outside offers, making this an unusual and significant signal. When an employee has alternatives, the possibility of departure becomes much more real.\n\nEven though two of the three most influential factors pointed toward loyalty, the model weighed your outside opportunities heavily, and when combined with other risk patterns in your profile, the overall chance of leaving reached 44 percent.\n\nThe next step should be an honest conversation. If you are committed to staying, share what would make this role more attractive. For the organization, this is a signal to examine whether employees with outside options are being given enough reasons to stay, and to address any concerns before losing valued talent.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

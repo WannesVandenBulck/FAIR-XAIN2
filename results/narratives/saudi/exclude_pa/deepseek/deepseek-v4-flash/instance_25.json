@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 25,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:22:30.091806",
+  "status": "success",
+  "narrative": "You might be wondering why the decision went against you. The model's assessment suggests a 61% chance you would leave your job in the near future, and based on that risk, the promotion was denied.\n\nLooking at what most influenced this prediction, three factors stood out. The strongest signal was that you have received other job opportunities while working here. This is a powerful indicator—people who are actively being recruited elsewhere are far more likely to accept another offer. Among employees predicted to stay, only about 23% reported such opportunities, compared to your situation.\n\nThe second factor was your training participation. You attended one to three programs in the last three years, and this contributed to the prediction that you would leave. While training is generally positive, having only modest engagement—particularly when roughly a third of stable employees attended none and another third attended seven or more—may suggest you haven't received enough development to feel invested in staying.\n\nFinally, your total experience of six to ten years pushed toward leaving. At this career stage, employees often feel confident and marketable, making them more mobile than those with less tenure or those who have settled into longer careers.\n\nThe organization should consider whether better retention, through clearer career paths or more meaningful development, could change this outcome. You might also reflect on whether staying aligns with your own goals.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

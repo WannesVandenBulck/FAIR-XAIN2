@@ -4,28 +4,28 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
+      "name": "savings",
       "sign": 1,
-      "value": 2
+      "value": 5
     },
     {
       "rank": 2,
-      "name": "employment_duration",
+      "name": "property",
       "sign": 1,
       "value": 1
     },
     {
       "rank": 3,
-      "name": "credit_history",
+      "name": "installment_rate",
       "sign": 1,
-      "value": 3
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "status",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "duration",
@@ -34,8 +34,8 @@
     },
     {
       "name": "credit_history",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "purpose",
@@ -49,17 +49,17 @@
     },
     {
       "name": "savings",
+      "mentioned": 1,
+      "value": 5
+    },
+    {
+      "name": "employment_duration",
       "mentioned": 0,
       "value": "NaN"
     },
     {
-      "name": "employment_duration",
-      "mentioned": 1,
-      "value": 1
-    },
-    {
       "name": "installment_rate",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -74,8 +74,8 @@
     },
     {
       "name": "property",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "other_installment_plans",

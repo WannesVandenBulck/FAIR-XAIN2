@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 94,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:01:15.494854",
+  "status": "success",
+  "narrative": "When your application was reviewed, the model looked at how students with similar academic profiles performed on the bar exam, and it placed your chance of failing the first attempt at 82%. That means roughly four out of five students like you did not pass, which is a strong enough risk that the committee could not approve your admission.\n\nThe most influential signal was your LSAT score. At 24, it is well below the average of 37 for accepted students, and this single factor pushed the prediction most strongly toward failure. The second most important factor was your class standing in your third year. You ranked in the 2nd decile, meaning you were in the bottom fifth of your class, while the typical accepted student sits around the 6th decile. Even after several years of legal study, this low rank suggests you would struggle on the bar exam. Your undergraduate GPA was the third factor, and here the news is slightly better: it actually nudged the prediction in the opposite direction, toward passing, rather than toward failure. That small favorable signal, however, was far too weak to override the two major concerns.\n\nWhat should you do now? The clearest path is to retake the LSAT; improving that score attacks the single largest obstacle. You should also seek academic support to move up in your class rankings and demonstrate stronger performance before you apply again. With meaningful progress in those two areas, your profile will tell a much more encouraging story.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

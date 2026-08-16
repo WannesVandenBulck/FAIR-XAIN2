@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 111,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:05:45.312552",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates that you have about a 60 percent chance of failing the bar exam on the first attempt. That means roughly a two-in-five chance of passing, which the law school viewed as too risky for admission.\n\nThe strongest factor in that decision was your third-year class decile. You are in the first decile, meaning you finished in the lowest ten percent of your class. By comparison, accepted students were typically around the sixth decile. This very low class rank was the single biggest reason the model pushed toward failure. Your first-year decile was also first, and that served as a second, separate signal pointing the same direction. Being near the bottom of your class in both early and later years made the prediction of failure much more likely.\n\nInterestingly, your LSAT score pulled the opposite way. It was the second most influential factor, and it decreased your predicted risk of failing, even though your score of 33.5 is below the accepted-student average of about 37.2. The model did not treat this score as a weakness in your case. However, the two class-rank factors combined were much stronger than this positive LSAT contribution, so the overall prediction remained unfavorable.\n\nTo improve your chances if you reapply, focus on raising your class standing in your final year and retaking the LSAT. A stronger score, added to the favorable signal your current score already gives, could offset the low deciles. Reapplying after showing this improvement would give you a far more competitive profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

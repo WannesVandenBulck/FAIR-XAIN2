@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 7,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:37:48.080119",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts you have a 50.7% chance of failing the bar exam on your first attempt, which is just above the point where the risk of failure outweighs success. The most important factor in this decision was your LSAT score. Notably, this feature helped you, pushing toward passing, even though your score of 34 falls below the average of 37.18 for accepted students. So while not outstanding, your LSAT was not the main cause of denial. The second strongest influence was your first-year academic decile, which was 3.00 compared to an average of 6.00 among accepted students. This was a major red flag, pushing firmly toward exam failure. It suggests that your performance early in law school was a significant concern for predicting future success. The third factor, your family income bracket, had a small effect rather than a decisive one. Being upper-middle class is actually the most common bracket among accepted students, so it offered no disadvantage overall; however, it still nudged the prediction slightly toward failure, likely reflecting broader patterns in the data. Together, these three factors tipped the balance against your application. To improve your chances, focus on raising your LSAT score through targeted preparation, and more importantly, address the weakness in your first-year academic record. Consider taking additional foundational law courses or a preparatory program to demonstrate that you can perform at the level required in the early stages of legal education.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

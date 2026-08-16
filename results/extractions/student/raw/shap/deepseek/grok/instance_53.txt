@@ -4,20 +4,20 @@
   "most_important_features": [
     {
       "rank": 1,
+      "name": "Medu",
+      "sign": 1,
+      "value": 1
+    },
+    {
+      "rank": 2,
       "name": "failures",
       "sign": -1,
       "value": 0
     },
     {
-      "rank": 2,
-      "name": "freetime",
-      "sign": 1,
-      "value": 1
-    },
-    {
       "rank": 3,
-      "name": "Medu",
-      "sign": 1,
+      "name": "freetime",
+      "sign": -1,
       "value": 1
     }
   ],

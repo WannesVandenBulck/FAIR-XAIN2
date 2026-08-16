@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 52,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:06:28.060012",
+  "status": "success",
+  "narrative": "Our assessment shows you represent a slightly elevated credit risk, with a 51% probability of defaulting on the loan. Because this risk level exceeds our acceptance threshold, we are unable to approve your application at this time.\n\nThe single most important factor in this decision was the condition of your checking account. Yours is currently overdrawn, showing a negative balance. This is uncommon among approved borrowers—only about one in eight has a negative balance, while most approved applicants either have no checking account or maintain a positive balance. A negative balance suggests you may have difficulty managing cash flow, which raises concerns about your ability to keep up with loan payments.\n\nThe length of your requested loan, however, worked in your favor. You asked for a term of 12 months, which is considerably shorter than the typical 19-month loan. Shorter repayment periods mean less time for financial circumstances to change, and this reduced our concern somewhat.\n\nThe purpose of your loan, for domestic appliances, also had a slightly positive effect. This type of purchase is generally seen as lower-risk compared to more speculative uses.\n\nWhat you can do next: Focus on improving your checking account balance to move it into positive territory. Even a small positive balance would significantly strengthen your application. You might also consider applying for a smaller amount or waiting until you have built up some savings. Reapplying once your financial situation is more stable will greatly improve your chances of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 6,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:38:36.975018",
+  "status": "success",
+  "narrative": "The model estimates that you have an 11% chance of failing your final year. That means that for every nine students with a profile like yours, one does not pass. It is not a very high probability, but the school has decided that this level of risk is enough to require you to take remedial courses, so that the risk is removed before the real exams.\n\nInterestingly, the three factors that most strongly influenced this prediction all actually work in your favor. The single most important factor is your record of past failures: you have never failed a class before, exactly like the average student who goes on to pass. The second most important factor is your weekly study time. You study between five and ten hours a week, which is more than the two to five hours that most passing students report. This clearly reduces your chance of failing. The third most important factor is who your guardian is. Your father is responsible for you, and although most passing students have their mother as guardian, having your father in that role still pushes the prediction toward passing.\n\nSo why does the model still flag you? Because it combines many small signals, and despite these three strong positive factors, the overall balance lands just on the side of caution. The lesson is that you are already doing several things right. To lower your risk further, keep up your current study habits, and consider adding a few extra hours each week or seeking help in subjects you find difficult. With your clean record and consistent effort, you are very close to being in the safe zone.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

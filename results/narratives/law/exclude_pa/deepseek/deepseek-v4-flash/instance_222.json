@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 222,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:34:29.174783",
+  "status": "success",
+  "narrative": "Your application was carefully considered, and a predictive model was used to assess your chances of succeeding on the bar exam. That model estimates a 69% probability that you would fail on your first attempt. Since this likelihood is higher than the threshold for admission, your application was denied.\n\nThe most influential factor in this prediction was your class standing in your third year of law school. You finished in the bottom decile, with a rank of 1, while accepted students typically average around a rank of 6. This very low position relative to your peers suggests that your performance in law-specific coursework was significantly below par, a strong indicator of bar exam difficulty. Your first-year rank was equally poor at 1, further reinforcing this concern, though it had a somewhat smaller impact on the overall prediction.\n\nOn a positive note, your undergraduate GPA was a point in your favor. At 3.80, it far exceeds the average of 3.23 among accepted students. This raised your predicted likelihood of passing, as it signals strong academic abilities. However, the combined weight of your low class ranks outweighed this benefit, decisively pushing the prediction toward failure.\n\nIf you wish to reapply, focus on strengthening these weaker areas. Your LSAT score of 33 is below the average of 37.18, so retaking it could help. More importantly, seek to improve your performance in law school courses, perhaps through different study approaches or tutoring. While this prediction is concerning, it is not destiny—with deliberate effort, you can change the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

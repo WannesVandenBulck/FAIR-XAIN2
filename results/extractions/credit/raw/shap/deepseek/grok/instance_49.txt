@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "credit_history",
       "sign": 1,
-      "value": 2
+      "value": 1
     },
     {
       "rank": 2,
@@ -35,7 +35,7 @@
     {
       "name": "credit_history",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "purpose",

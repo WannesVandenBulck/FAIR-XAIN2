@@ -6,31 +6,31 @@
       "rank": 1,
       "name": "decile3",
       "sign": 1,
-      "value": 2.0
+      "value": "NaN"
     },
     {
       "rank": 2,
-      "name": "decile1",
-      "sign": 1,
+      "name": "lsat",
+      "sign": -1,
       "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "lsat",
-      "sign": -1,
-      "value": 43.0
+      "name": "decile1",
+      "sign": 1,
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": 2.0
+      "value": "NaN"
     },
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": 43.0
+      "value": "NaN"
     },
     {
       "name": "decile1",

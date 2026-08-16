@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 80,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:32:44.660203",
+  "status": "success",
+  "narrative": "Because our analysis indicates a 60% chance you may leave the company in the near future, the promotion decision was made against you. This probability is driven by three main factors, ranked by how strongly they influenced the outcome.\n\nThe single most important factor is your long tenure here: you have been with this organization for over 11 years. Employees who stay are typically those with less tenure, so this long history normally points toward loyalty. In your case, however, the model sees this as a risk—after more than a decade, if you haven’t already received the recognition or advancement you feel you deserve, your continued stay becomes less certain. This factor actually pushed the prediction toward you staying, but its strength signals that your situation is unusual.\n\nThe second strongest influence is that you have received other job opportunities while working here. Having other offers dramatically increases the likelihood of leaving, as it shows you are attractive to other employers and may be actively considering alternatives. This pushed the prediction strongly toward departure.\n\nThird, your overall experience of 11+ years across all jobs is much higher than most employees (only about 15% have this much experience). More experience often means greater marketability and confidence to move on, which also contributed to the leaving prediction.\n\nGoing forward, the organization should focus on understanding why you remain unfulfilled—particularly around recognition and career progression. If retaining you is a priority, they should consider addressing these concerns, as your skills and tenure are highly valuable.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

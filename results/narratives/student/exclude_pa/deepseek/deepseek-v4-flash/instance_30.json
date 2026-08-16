@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 30,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:46:26.256201",
+  "status": "success",
+  "narrative": "Your final-year evaluation has flagged you as needing remedial courses. The model estimates your chance of failing at 24 percent. That is not a certainty—it means roughly one in four—but it is enough of a concern that additional courses are required.\n\nThe most important factors in your profile, in order, are the extra educational support you already receive, whether you want to go on to higher education, and how many times you have failed a course before. The extra support works in your favour. It is the strongest single influence and it pushes you toward passing, so the help you are getting is recognised as a positive. The other two factors push in the opposite direction. You indicated that you do not plan to pursue higher education, while every student in the comparison group who passed did want that. That difference is a major risk signal. In addition, you have failed three courses previously, while students who passed had no past failures on average. Three repeated setbacks is a strong warning sign because it suggests gaps in skills or study habits that may build up over time.\n\nTaken together, the model sees a profile where one protective factor—receiving support—is outweighed by the combination of low academic ambitions and a history of failures. The 24 percent risk is driven mainly by those two risk factors.\n\nTo improve, use the remedial courses to close those gaps. Talk to your teachers about how your past failures are connected. Since wanting higher education is strongly linked to success, try exploring courses or careers that make future study feel more meaningful. Keep attending the extra support sessions; they are already helping.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

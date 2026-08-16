@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 90,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:14:57.536573",
+  "status": "success",
+  "narrative": "Based on your application, the assessment indicates a 59% chance that you would be a bad credit risk, meaning the bank believes it is more likely than not that you would struggle to repay the loan. This is why your application was denied.\n\nThree factors weighed most heavily in this decision. The single strongest signal was the condition of your checking account. Your account balance is currently below zero, which is uncommon among approved applicants, and it strongly suggests that you may already be stretched financially. This pushed the assessment firmly in the wrong direction.\n\nYour credit history also played a role, though a smaller one. You have paid off all previous credits at your bank, which sounds positive, but among approved borrowers this pattern is quite rare, and the assessment treated it as a slight concern rather than a point in your favor.\n\nInterestingly, the amount you requested actually helped you. You asked for 2,746 DM, which is less than the typical approved loan amount of around 3,020 DM. Requesting a smaller amount signals that you are not overreaching, and this worked in your favor, but it was not enough to offset the two concerns above.\n\nWhat should you do next? Focus on your checking account. Work to bring your balance into positive territory and keep it there for several months. Once your financial situation looks more stable, you could reapply, perhaps for a smaller amount or a shorter term.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

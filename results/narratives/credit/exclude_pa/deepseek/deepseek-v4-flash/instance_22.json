@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 22,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:00:05.584274",
+  "status": "success",
+  "narrative": "Your loan application was denied because our risk assessment model estimated a 37% chance that you would default, and this level of risk exceeds our current threshold for approval. This does not mean you are a bad person; it simply means the patterns in your financial profile resemble those of past customers who struggled to repay.\n\nThe single strongest factor working against you was the status of your checking account. Your account is currently overdrawn (under zero marks), a situation shared by only about 12% of approved borrowers. This strongly signals financial strain and pushed the decision decisively toward rejecting the loan.\n\nTwo other factors actually helped you, although they were not strong enough to overcome the checking account concern. Your purpose for the loan—buying a radio or television—is very common among successful borrowers and slightly reduced your risk score. Likewise, asking for a 12-month loan is much shorter than the typical 19-month request, and shorter repayment periods are associated with lower default risk. Both of these worked in your favor, but they could not offset the negative impression left by your overdrawn account.\n\nTo strengthen your chances next time, focus on bringing your checking account into positive territory and maintaining it for a few months. Building even a small savings buffer would further improve your profile. Once your account is stable, you may reapply with a better outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

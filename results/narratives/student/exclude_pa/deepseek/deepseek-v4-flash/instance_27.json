@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 27,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:45:22.154426",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates you have an 11% chance of failing your final year. While that means you are more likely to pass than not, it is still a meaningful risk—around one in nine students like you does not make it. Because this crosses the threshold for extra support, you are required to take remedial courses.\n\nThe main reason the model flags you is not that you have a weak history. In fact, your record is a point in your favor. The strongest factor in your prediction is that you have never failed a class before, which strongly pushes you toward passing. Your ambition to pursue higher education also works in your favor, as students with that goal almost always pass. These two factors show you have the ability and motivation.\n\nThe problem is your study time. This is the third most important factor, and it is the one that pushes you toward failing. You study less than two hours per week, while more than half of students who pass study between two and five hours. Among passing students, only about one in five studies that little. So while your past success and future goals are encouraging, your current habits are not supporting them. The model sees this gap and interprets it as a warning sign.\n\nTo turn this around, focus on raising your weekly study time to at least two to five hours. Even a modest increase would remove the biggest risk in your profile, allowing your strong past performance and clear goals to shine through and give you the best chance of passing without difficulty.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

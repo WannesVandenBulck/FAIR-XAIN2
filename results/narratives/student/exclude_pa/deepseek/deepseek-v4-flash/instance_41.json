@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 41,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:49:26.385535",
+  "status": "success",
+  "narrative": "Your situation is not set in stone, but the prediction is clear: the model estimates a 59% chance that you will not pass this year. That means more than half of the signals point toward difficulty, and this is why the school requires you to take remedial courses. Another way to see it is that you still have a 41% chance of succeeding on your own, but the balance of evidence says you need extra help.\n\nThe strongest factor pushing the prediction toward failing is your answer about higher education. You indicated that you do not plan to pursue further studies after secondary school. Among students who passed, every single one wanted to continue to higher education. That ambition appears to be a powerful motivator, and its absence is the main reason the model leans toward failure for you.\n\nTwo other factors shape the prediction. On the positive side, you have never failed a class before, which strongly pushes the prediction toward passing. This clean record shows you are capable. However, your weekly study time is under two hours. Most students who passed studied between two and five hours each week. This low study time pushes the prediction back toward failing and largely cancels out the advantage of your past record.\n\nWhat should you do next? First, increase your weekly study time to at least two to five hours, matching the habit of successful students. Second, reflect on what comes after school. Connecting your current subjects to a concrete future goal could restore the motivation that is currently missing. You have no past failures to overcome, so with these adjustments you are in a strong position to turn the prediction around.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 33,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:47:25.810411",
+  "status": "success",
+  "narrative": "The model estimates you have a 40 percent chance of failing your final year, which is why the school has required you to take remedial courses. This is not a judgment of your potential, but a precaution based on patterns seen in many students like you.\n\nThe single strongest factor in this prediction is your history of previous course failures. You have failed two classes before, while students who pass typically have no prior failures. This matters because past struggles often signal that certain foundational skills may still need reinforcement. That history strongly pushes the prediction toward failing. However, the other two most influential factors actually work in your favor. Your family size of three or fewer people is associated with students who tend to do well, as smaller households often mean more quiet space and attention for studying. Likewise, not having attended nursery school, while less common among successful students, contributes slightly toward a passing prediction rather than a failing one. Even with these supportive factors, the weight of your past failures dominates the overall picture.\n\nThe good news is that this is entirely within your control. Past failures are history, not destiny. Focus on identifying exactly which topics gave you trouble before and address them early. Use your remedial courses strategically, ask teachers for extra help, and build a consistent study routine. Since you already have a stable home environment and want to pursue higher education, you have a strong foundation. With deliberate effort, you can turn this prediction around.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

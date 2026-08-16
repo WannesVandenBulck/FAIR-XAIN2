@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "decile3",
       "sign": 1,
-      "value": 10
+      "value": 1
     },
     {
       "rank": 2,
@@ -25,7 +25,7 @@
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": 10
+      "value": 1
     },
     {
       "name": "lsat",
@@ -40,17 +40,17 @@
     {
       "name": "fam_inc",
       "mentioned": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 3.2
+      "value": "NaN"
     },
     {
       "name": "fulltime",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "gender",

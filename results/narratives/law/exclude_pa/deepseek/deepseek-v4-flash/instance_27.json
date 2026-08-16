@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 27,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:43:32.224548",
+  "status": "success",
+  "narrative": "Your law school application was denied because the admissions model assessed a 92 percent probability that you would fail the bar exam on the first attempt. In practical terms, this means that out of 100 students with a profile very similar to yours, roughly 92 are expected to fail, while only about 8 would pass. Because this risk was so high, the university concluded that admitting you would set you up for a likely career-ending setback.\n\nThree factors carried the most weight in this decision, and all three pushed strongly in the same direction—toward bar exam failure.\n\nThe most important factor was your academic standing in your third year of study. You were in the bottom decile of your class, meaning nine out of ten of your peers ranked above you. Students who were admitted, by contrast, typically sat near the middle of the class distribution. After three years of legal education, performing at the very bottom is a powerful warning sign that you have not mastered the material a bar exam requires.\n\nThe second strongest factor was your LSAT score. Your score of 26 is well below the average of approximately 37 among admitted applicants. The model reads this as evidence of weaker critical reasoning and reading endurance—skills that are directly tested on the bar.\n\nYour first-year class ranking also contributed, though less than the other two. Being in the bottom decile from the very start shows a pattern of academic struggle that persisted throughout your studies.\n\nYour next step is to address these root causes before reapplying. Consider investing in a structured LSAT preparation program, retaking the exam when fully prepared, and strengthening your academic record through additional coursework. These improvements would meaningfully lower your risk of failing the bar and greatly strengthen a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

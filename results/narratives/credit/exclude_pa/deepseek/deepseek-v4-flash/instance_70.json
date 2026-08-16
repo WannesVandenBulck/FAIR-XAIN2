@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 70,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:10:57.116597",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model estimates a 63% chance that you would not repay the loan, placing you in the bad credit risk category. The most influential factor was the length of the credit you requested: 48 months, while most approved applicants borrow for around 19 months. That extended timeline introduces more uncertainty and was the strongest influence pushing your application toward denial. The second most significant factor was the state of your checking account. A negative balance is rare among approved applicants — only about 13% of them have a negative account, while the majority maintain a stable or positive one. This signaled financial strain and further tilted the decision against you. Not everything worked against you, however. The third most important factor was the guarantor you provided, and this influence pointed toward good credit. Most approved applicants have no guarantor — nearly nine in ten — so bringing one in added an extra layer of security and modestly pulled the prediction back from the edge. But the two strongest factors, the long repayment period and the overdrawn account, outweighed that advantage. To improve your chances if you reapply, consider requesting a shorter loan term, ideally under two years, and take steps to bring your checking account into a positive balance first. Maintaining your guarantor support and building savings above the minimum threshold would also demonstrate greater financial stability next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

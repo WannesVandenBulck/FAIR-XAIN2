@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "famsize",
-      "sign": 1,
-      "value": 0
+      "name": "Walc",
+      "sign": -1,
+      "value": 2
     },
     {
       "rank": 3,
-      "name": "Pstatus",
-      "sign": 1,
-      "value": 0
+      "name": "famrel",
+      "sign": -1,
+      "value": 4
     }
   ],
   "features": [
@@ -34,13 +34,13 @@
     },
     {
       "name": "famsize",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Pstatus",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Medu",

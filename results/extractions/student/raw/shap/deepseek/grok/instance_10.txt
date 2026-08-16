@@ -140,12 +140,12 @@
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 4
+      "value": 5
     },
     {
       "name": "absences",
       "mentioned": 1,
-      "value": 8
+      "value": "NaN"
     },
     {
       "name": "sex",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

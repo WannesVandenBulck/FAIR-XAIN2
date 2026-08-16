@@ -5,18 +5,18 @@
     {
       "rank": 1,
       "name": "Years_Experience",
-      "sign": 1,
-      "value": 0
+      "sign": -1,
+      "value": "NaN"
     },
     {
       "rank": 2,
-      "name": "Job_Opportunities",
+      "name": "Sector",
       "sign": 1,
       "value": 1
     },
     {
       "rank": 3,
-      "name": "Sector",
+      "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     }
@@ -25,7 +25,7 @@
     {
       "name": "Years_Experience",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Job_Opportunities",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

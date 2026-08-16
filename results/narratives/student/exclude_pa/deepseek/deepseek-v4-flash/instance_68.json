@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 68,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:56:47.892810",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates that you have a 42 percent chance of failing your final year if no changes are made. That is not a certainty, but it is a high enough risk that your school has decided remedial courses are necessary.\n\nThe single most important factor in this prediction is the fact that you have failed a course before. Students who pass the year typically have no prior failures, so your past difficulty is a strong signal that you may struggle again. This factor alone outweighs everything else and pushes the prediction firmly toward failing.\n\nTwo other factors work in your favor, but they are less influential than your past failure. Your household is small, with three or fewer people living at home, while most students who pass come from larger households. This slightly lowers your predicted risk, perhaps reflecting a quieter study environment. Also, you describe your family relationships as good, which is common among students who pass and nudges the prediction toward passing.\n\nHowever, these positive influences are not strong enough to cancel out the impact of your previous failure. The model does not use your sex, age, or health, and it is not simply labeling you as a bad student. Instead, it is saying that past academic difficulty is the clearest warning sign for future difficulty.\n\nUse this as a chance to build a stronger foundation. Consider extra support in the subject you failed, create a regular study schedule of more than two hours per week, and talk with your family about how they can help you stay consistent. With deliberate effort, you can change this outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

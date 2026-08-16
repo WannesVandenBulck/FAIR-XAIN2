@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 66,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:53:43.714056",
+  "status": "success",
+  "narrative": "Your application was denied because the model predicts a 68% chance you would not pass the bar exam on the first attempt. In simple terms, the model believes there is a strong risk, based on your academic record, that you would struggle to earn a law license after completing your degree. The most important factor in this decision was your class standing in the third year of your undergraduate studies. You ranked in the very bottom decile of your school, while most students admitted to this law school ranked around the middle of their class. This low standing strongly pushed the prediction toward bar exam failure. The second most influential factor was your first-year class ranking, which was also in the bottom decile. Being in the bottom 10 percent in both your first and third years suggests a persistent pattern of academic difficulty, rather than a single rough year. Your family income, by contrast, actually worked slightly in your favor: coming from an upper-middle-income background nudged the prediction toward passing. However, this positive influence was much weaker than the negative influence of your two class rankings, so it could not offset them. Your next step is to address this academic record directly. Consider retaking challenging coursework, improving your study habits, or completing a post-baccalaureate program to demonstrate you can perform at a higher level. Reapply once you have concrete evidence of improved performance.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

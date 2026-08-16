@@ -29,7 +29,7 @@
     },
     {
       "name": "duration",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -44,8 +44,8 @@
     },
     {
       "name": "amount",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 7721
     },
     {
       "name": "savings",

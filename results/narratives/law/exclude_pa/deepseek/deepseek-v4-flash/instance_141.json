@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 141,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:12:21.297618",
+  "status": "success",
+  "narrative": "Based on the information available, the prediction is that you have an 82% chance of failing the bar exam on your first attempt. This is a very high risk, and it is the primary reason your application was not accepted. In simple terms, the university saw that you would likely not pass the exam required to practice law, making it difficult to justify admitting you to the program.\n\nThe most important factor in this decision was your class ranking in your third year. Being in the bottom decile, or the lowest 10% of your class, is a very strong signal that you struggled with the advanced material needed for legal study. Students who were accepted, on average, ranked much higher. Your second-year ranking also matters, but it was less influential than your final-year performance.\n\nThe second strongest influence was your LSAT score. At 26, your score is well below the average of 37 among accepted students. This test is designed to predict success in law school and on the bar, so a lower score adds to the concern. The third factor, your undergraduate GPA, was slightly below average but actually worked in your favor. It suggested you had some academic ability, but not enough to overcome the other two major warning signs.\n\nTo strengthen a future application, you should focus on addressing the largest concerns. Retaking the LSAT and preparing thoroughly to raise your score would be the most direct step. Additionally, if possible, consider additional coursework or a master’s program to demonstrate you can succeed at a higher academic level. Showing improvement in these areas would meaningfully reduce the predicted risk of failure.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

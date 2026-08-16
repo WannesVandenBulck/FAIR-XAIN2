@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 14,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:40:54.904083",
+  "status": "success",
+  "narrative": "According to the model, you have a 23% chance of failing your final year. While that number may sound low, it was enough to place you in the group that needs remedial support, and it is important to understand what shaped that decision.\n\nThe single strongest influence on the prediction was your answer that you do not plan to pursue higher education. Every single student in the data who passed the year wanted to continue their studies, so this stands out as the biggest warning sign. The model sees a lack of motivation toward further education as a serious risk for your current year.\n\nThe second most important factor was your reason for choosing this school, which was its reputation. Interestingly, this worked in your favour. Students in the comparison group who passed often chose the school because of its reputation too, so this factor pushed the prediction slightly toward passing, even though it could not outweigh the concern about your educational ambitions.\n\nThird, the model looked at your past record, and here you have no previous failures. This is a positive sign and also nudged the prediction toward passing, since students who pass typically have a clean record like yours.\n\nIn short, your past is strong and your school choice is sensible, but your stated lack of interest in higher education is the main reason you were flagged. Consider reflecting on your long-term goals; even if university is not for you, connecting your classes to a concrete career path could boost your motivation and lower your risk further.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

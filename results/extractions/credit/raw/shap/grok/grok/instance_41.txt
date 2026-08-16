@@ -11,13 +11,13 @@
     {
       "rank": 2,
       "name": "credit_history",
-      "sign": -1,
+      "sign": 1,
       "value": 4
     },
     {
       "rank": 3,
       "name": "employment_duration",
-      "sign": -1,
+      "sign": 1,
       "value": 1
     }
   ],

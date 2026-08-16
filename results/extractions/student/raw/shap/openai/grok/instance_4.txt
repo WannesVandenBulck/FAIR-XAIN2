@@ -10,9 +10,9 @@
     },
     {
       "rank": 2,
-      "name": "nursery",
+      "name": "Medu",
       "sign": 1,
-      "value": 0
+      "value": 1
     },
     {
       "rank": 3,
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Fedu",
@@ -159,7 +159,7 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

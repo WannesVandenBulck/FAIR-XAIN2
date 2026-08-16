@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 60,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:52:18.361119",
+  "status": "success",
+  "narrative": "Your application was denied because the model projects a 60 percent chance you would not pass the bar exam on the first attempt—a clear risk that outweighed the signs in your favor.\n\nThree factors mattered most, and they pulled in opposite directions. The single strongest influence was your LSAT score. Here you did well: a score of 40 stands above the average of about 37 among admitted students. This pushed the prediction toward passing and helped your case. However, two other factors pushed strongly toward failure and ultimately overwhelmed that advantage.\n\nYour undergraduate GPA was the second most influential factor. At 2.50, it falls well below the 3.23 average of accepted applicants, signaling academic difficulty that the model associated with a higher chance of bar exam failure. The third factor was your third-year class standing. You ranked in the 3rd decile, while accepted students typically sit near the 6th decile. This gap suggests that, even later in your legal education, your performance remained below the level of peers who go on to pass the bar.\n\nTaken together, these signals outweighed your solid LSAT performance. The 60 percent failure risk—driven mainly by your GPA and class rank—made the admission committee's decision riskier than they were willing to accept.\n\nWhat to do next: retake challenging courses, or consider a post-baccalaureate program to raise your GPA, and seek academic support to improve your class standing. Strengthening these areas would reduce the predicted failure risk and improve a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

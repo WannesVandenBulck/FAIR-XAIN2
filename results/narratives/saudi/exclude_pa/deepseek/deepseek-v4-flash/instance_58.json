@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 58,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:28:52.203095",
+  "status": "success",
+  "narrative": "Your promotion was denied because the model estimates there is a 67% chance you will leave the organization. That does not mean you have done anything wrong; it is a risk signal based on patterns from similar employees. Three factors mattered most.\n\nYour overall experience is the strongest reason for this result. You have 6-10 years in the workforce, while more than half of employees predicted to stay have only 1-5 years. Combined with having been in your current job for just 1-5 years, your profile suggests you may be more likely to move on to another employer than to build a long future here. This shorter current tenure was the third-strongest factor and also pushed toward leaving.\n\nThe second-strongest factor pointed in the opposite direction. You have not received other job opportunities while working here. That is a stabilizing sign: about three-quarters of employees predicted to stay have also not received outside offers. This lowered your leaving risk, but not enough to offset the experience-related signals.\n\nFor the organization, this decision should be a prompt to look beyond risk scores. If you are being denied a promotion, the root causes may include limited career paths, low recognition, or weak job stability. For you, the next step is to have an honest conversation with your manager about your development, what would make you stay, and what would need to change for you to see a long-term future here.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

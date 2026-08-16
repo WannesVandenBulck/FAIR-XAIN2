@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 74,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:31:25.114911",
+  "status": "success",
+  "narrative": "A prediction of 48% means the model sees nearly a coin-flip chance you will leave within the coming period, and because that risk is considered too high, the promotion is denied. The strongest factor working in your favor is your total experience: with only one to five years across your career, you sit in the same range as about half of employees who stay, and this actually pushes the prediction toward staying. Yet two other important factors override that stability. First, you have received other job opportunities while working here, and this is the single biggest signal pushing toward leaving; it suggests you are actively marketable elsewhere. Second, your time in this specific organization is also short—again one to five years—which further nudges the prediction toward departure, likely because the model sees limited tenure as a sign you have not yet built strong roots. Interestingly, all other factors in your profile, such as having a bachelor’s degree, a medium level of job support, and satisfaction with rewards, are unremarkable and did not change the outcome much. The key story is mixed: your overall experience signals loyalty, but outside offers and short organizational tenure signal risk. For next steps, the organization should discuss what those outside opportunities represent—salary, growth, or flexibility—and consider whether a counteroffer can address them. You, in turn, should clarify whether you actually intend to stay if given a promotion, since your profile currently looks like someone with one foot out the door.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

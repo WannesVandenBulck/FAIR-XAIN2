@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 22,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:44:02.803425",
+  "status": "success",
+  "narrative": "The model predicts that you will not pass the final year, and that is why remedial courses are required. The risk it assigns is real but not overwhelming: a 19% chance of failing, roughly one in five. The school has decided that a risk of this size warrants support, and the goal of the remedial courses is to lower it.\n\nInterestingly, the three factors that most strongly shaped the prediction all point in your favor. First is your track record: you have never failed a class before, and that is the single most powerful signal the model found, strongly pulling toward a passing outcome. Second is your ambition: you want to pursue higher education, which indicates motivation and future focus, again pushing toward passing. Third is your social life: you go out with friends a moderate amount, a balance associated with success, rather than the very high or very low extremes. All three of these reduced your predicted risk.\n\nSo why did the model still land on failing? Because many smaller factors stacked up on the other side. The most striking is your commute: traveling over sixty minutes to school is a situation shared by fewer than two percent of students who passed. Along with a handful of other modest disadvantages, these outweighed your strong positives.\n\nThe takeaway is encouraging: your biggest drivers are already healthy. Focus on the quieter risks. Use commute time for review, and look for ways to strengthen your study environment at home and your support network. Those small changes can shift the balance.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

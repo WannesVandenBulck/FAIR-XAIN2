@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 72,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:31:10.222398",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 49%, meaning the model sees nearly a coin flip that you will depart soon. Because that risk is considered too high, the promotion is denied.\n\nThe strongest factor pushing you toward staying is your training history. You have attended seven or more training programs in the last three years, which is far more than the one-third of predicted-stayers who attended none. This suggests you are invested in your role and that the organization has invested in you, so the model sees this as a strong reason you might remain.\n\nYour long tenure in your current organization, six to ten years, also works in your favor. Among employees predicted to stay, about one in three have this level of tenure, and the model interprets your deep experience here as a stabilizing force.\n\nHowever, the most influential factor pushing you toward leaving is that you have received other job opportunities. Only about a quarter of predicted-stayers received outside offers, and the model weighs this heavily. It reasons that when someone actively sought or attracted alternatives, they are more likely to accept one. Combined with your lack of satisfaction with your income, your low emotional commitment, and your psychological exhaustion, the model suspects that your long tenure and training alone may not be enough to keep you.\n\nBefore making a decision, you should clarify your own intentions. If you are committed to staying, discuss what would need to change, such as salary, recognition, or workload. The organization, in turn, should consider whether their promotion criteria truly reflect your potential or simply a calculated risk of losing you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

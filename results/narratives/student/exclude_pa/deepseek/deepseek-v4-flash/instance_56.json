@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 56,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:53:31.696331",
+  "status": "success",
+  "narrative": "Your predicted chance of failing is 14%. That may sound low, but the model still places you on the failing side, which is why you are required to take remedial courses. Interestingly, the three strongest influences on this prediction all pushed toward passing, not failing. You have never failed a class before, and that is a major protective factor—many students who pass also have zero past failures. Your family relationships are good, which is another positive sign, as students with strong family support tend to do better. And you chose this school for its reputation, a reason more common among students who ultimately pass. So these three key factors are not what caused the fail prediction; instead, they lowered your risk from a much higher starting point. Even after accounting for them, the model still sees a remaining 14% risk, which is considered too high to leave without intervention. That means other aspects of your profile, beyond these main factors, are keeping you out of the safe zone. The practical takeaway is simple: you are close to passing, but not close enough. Use the remedial courses as a safety net. You can build on your strengths—continue your clean record, rely on your family support, and stay motivated by your choice of school. With a little extra help, you can turn that 14% risk into a confident pass.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

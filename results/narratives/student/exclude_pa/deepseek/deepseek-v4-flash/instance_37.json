@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 37,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:48:16.533443",
+  "status": "success",
+  "narrative": "Based on your school records, the prediction system estimates your chance of failing the final year at 34 percent. That is not a certainty—it means roughly two out of three students with a similar profile would pass—but it still places you in the fail category because some warning signals outweigh the positive signs. That is why remedial courses are required: to reduce the remaining risk.\n\nThe single strongest factor pushing the prediction toward failing is that you indicated you do not want to pursue higher education. Among students who passed, every single one wanted to continue into higher education. Your answer makes the model concerned about your long-term motivation, because wanting higher education often helps students push through difficult coursework.\n\nTwo things worked in your favor. First, you have no past course failures. This strongly pulls the prediction toward passing, and it matches the profile of most successful students. Second, your travel time between home and school is 30 to 60 minutes. Although this is longer than what is typical for students who pass, it did not count against you in the model—it actually nudged slightly toward passing.\n\nAll of this means you are not being written off as hopeless. Your main risk is your own stated lack of interest in higher education, and that is something you can address. Consider speaking with a counsellor about what further study could offer you and what alternative paths might keep you engaged. Use the remedial courses to strengthen your study habits and build confidence. With no past failures behind you, you already have a solid foundation to turn this prediction around.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -6,26 +6,26 @@
       "rank": 1,
       "name": "failures",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "rank": 2,
       "name": "freetime",
       "sign": 1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "rank": 3,
-      "name": "schoolsup",
-      "sign": 1,
-      "value": "NaN"
+      "name": "higher",
+      "sign": -1,
+      "value": 0
     }
   ],
   "features": [
     {
       "name": "failures",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "higher",
@@ -79,13 +79,13 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsup",
@@ -99,7 +99,7 @@
     },
     {
       "name": "activities",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -125,7 +125,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "name": "goout",

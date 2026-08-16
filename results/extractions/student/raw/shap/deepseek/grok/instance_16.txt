@@ -124,8 +124,8 @@
     },
     {
       "name": "freetime",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "goout",

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 113,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:06:12.924361",
+  "status": "success",
+  "narrative": "Based on your academic profile, the model predicts a 90% chance that you would fail the bar exam on your first attempt. This means that, were you admitted, you would very likely not earn a law license, which is why your application was denied.\n\nThree factors drove this decision, ranked by influence. The most important was your academic standing in your final year of undergraduate study. You were ranked in the very bottom decile of your school, whereas accepted students typically rank around the sixth decile. Being at the absolute bottom is a powerful signal of academic struggle. The second most important factor was your LSAT score of 19.30, which is far below the average of 37.18 for accepted applicants. The LSAT is designed to measure the critical reasoning skills essential for both law school and the bar exam, so a very low score strongly pushed the prediction toward failure. The third factor was your first-year academic decile, also the lowest possible ranking. Even though this was less influential than your final year, it confirms that your academic difficulties were not a one-time issue but reflected a consistent pattern.\n\nTogether, these factors created an overwhelming case that you were not prepared for the rigorous demands of legal study. To improve your chances, you should first invest significant time in LSAT preparation, aiming for a score near the average of successful applicants. Additionally, consider taking additional upper-level coursework or a post-baccalaureate program to demonstrate that you can perform at a high academic level, thereby raising your class standing before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

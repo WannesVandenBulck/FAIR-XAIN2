@@ -4,7 +4,7 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Dalc",
+      "name": "Walc",
       "sign": 1,
       "value": 5
     },
@@ -74,8 +74,8 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "studytime",
@@ -109,8 +109,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "romantic",
@@ -119,8 +119,8 @@
     },
     {
       "name": "famrel",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "freetime",
@@ -134,17 +134,17 @@
     },
     {
       "name": "Dalc",
-      "mentioned": 1,
-      "value": 5
-    },
-    {
-      "name": "Walc",
       "mentioned": 0,
       "value": "NaN"
     },
     {
+      "name": "Walc",
+      "mentioned": 1,
+      "value": 5
+    },
+    {
       "name": "absences",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

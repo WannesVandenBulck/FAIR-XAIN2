@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 36,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:24:21.211136",
+  "status": "success",
+  "narrative": "You have been denied the promotion because our model sees a 47% chance you will leave the company — a significant risk. What does that mean? It means that, based on patterns from many other employees, your profile closely resembles someone who may hand in their notice in the near future, and promoting someone who is likely to leave would be a risky investment.\n\nThree things stand out in your case. Your experience level — one to five years — actually works in your favor. That is the most common range among employees who stay, so it pushed the prediction away from leaving. But two other signals outweighed that stability. The second strongest factor is that you have received other job offers while working here. This is rare among stayers; only about a quarter of them have such opportunities. To the model, that suggests you are attractive to other employers and could be tempted away. Third, your employment sector is classified as \"other.\" Among employees who stay, that sector is less common than medical or education, and it nudged the prediction further toward leaving.\n\nTaken together, your solid experience cannot offset the combination of being actively recruited by others and working in a less common sector. That is why the model flagged you as a departure risk.\n\nFor next steps, you might consider discussing your long-term intentions with your manager, or asking about clearer career paths that would make staying more appealing. The organization, for its part, could explore whether competitive offers or stronger retention incentives would change your decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

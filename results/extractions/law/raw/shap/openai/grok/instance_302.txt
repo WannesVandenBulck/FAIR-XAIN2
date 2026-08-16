@@ -4,20 +4,20 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "decile1",
-      "sign": 1,
-      "value": "NaN"
-    },
-    {
-      "rank": 2,
       "name": "decile3",
       "sign": 1,
       "value": "NaN"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "ugpa",
       "sign": 1,
+      "value": "NaN"
+    },
+    {
+      "rank": 3,
+      "name": "lsat",
+      "sign": -1,
       "value": "NaN"
     }
   ],
@@ -34,7 +34,7 @@
     },
     {
       "name": "decile1",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

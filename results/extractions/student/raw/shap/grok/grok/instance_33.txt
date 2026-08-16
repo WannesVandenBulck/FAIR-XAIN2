@@ -11,13 +11,13 @@
     {
       "rank": 2,
       "name": "famsize",
-      "sign": -1,
+      "sign": 1,
       "value": 1
     },
     {
       "rank": 3,
       "name": "nursery",
-      "sign": -1,
+      "sign": 1,
       "value": 0
     }
   ],
@@ -129,7 +129,7 @@
     },
     {
       "name": "goout",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

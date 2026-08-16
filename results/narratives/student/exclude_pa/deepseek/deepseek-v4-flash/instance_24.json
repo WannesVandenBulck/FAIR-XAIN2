@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 24,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:44:43.374220",
+  "status": "success",
+  "narrative": "Based on your school records and survey responses, the model estimates there is a 22 percent chance that you will not successfully complete your final year. That number is not a certainty—it means that in similar situations, the majority of students do pass—but it is still high enough that your school has decided you must take remedial courses to reduce that risk and give you the best support.\n\nThe three strongest influences in the model’s evaluation all actually work in your favor. The most important factor is your record of past academic performance: you have zero previous class failures, which matches the average for students who ultimately passed. The model sees your clean history as a strong sign that you are capable of succeeding. The second most influential factor is the extra educational support you already receive. While only about three out of every hundred passing students needed this kind of help, the model treats it as a positive indicator—you are already receiving assistance to keep you on track. The third strongest factor is your stated ambition to pursue higher education. Every single student who passed in the dataset shared this goal, and the model views this motivation as another reason your risk is lower than it could be.\n\nSo why are you still being asked to take extra courses? Even with these positive signs, the combination of your remaining circumstances—such as your long travel time to school, limited weekly study time, and very high weekend alcohol consumption—pushed your overall risk above the school’s threshold. The three positive factors simply were not enough to bring you below it. Go into the remedial courses with the same attitude you have toward higher education: they are a safety net, not a punishment, and they can help you turn a cautious prediction into a definite pass.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

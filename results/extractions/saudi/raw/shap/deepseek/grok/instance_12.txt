@@ -10,14 +10,14 @@
     },
     {
       "rank": 2,
-      "name": "Years_Experience",
-      "sign": -1,
+      "name": "Psychological_Exhaustion",
+      "sign": 1,
       "value": 0
     },
     {
       "rank": 3,
-      "name": "Psychological_Exhaustion",
-      "sign": 1,
+      "name": "Years_Experience",
+      "sign": -1,
       "value": 0
     }
   ],
@@ -154,17 +154,17 @@
     },
     {
       "name": "Gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Age",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

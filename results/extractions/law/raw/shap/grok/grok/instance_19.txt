@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "decile1",
       "sign": 1,
-      "value": 2
+      "value": 3
     },
     {
       "rank": 3,
@@ -35,22 +35,22 @@
     {
       "name": "decile1",
       "mentioned": 1,
-      "value": 2
+      "value": 3
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "ugpa",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2.8
     },
     {
       "name": "fulltime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "gender",

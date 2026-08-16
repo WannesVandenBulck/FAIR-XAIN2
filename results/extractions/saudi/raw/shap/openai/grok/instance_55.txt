@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "Training_programs_During_last_three_years",
       "sign": 1,
-      "value": "NaN"
+      "value": 0
     }
   ],
   "features": [
@@ -85,7 +85,7 @@
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Useful_Training_Programs",

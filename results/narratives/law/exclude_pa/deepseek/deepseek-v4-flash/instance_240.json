@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 240,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:38:43.447695",
+  "status": "success",
+  "narrative": "The model estimates that you have a 60.8 percent chance of failing the bar exam on your first attempt, which means the risk of not passing is seen as higher than the risk of passing. Because the law school uses this prediction as a key indicator of whether you would succeed as a graduate, the application was denied.\n\nThree main factors shaped this decision, ranked by how strongly they influenced the outcome. Your family income level was the most influential factor. While upper-middle income is actually common among accepted students, in your case it nudged the prediction slightly toward failure. This does not mean the school judged your background negatively; rather, it was the strongest statistical signal among the available data, even though many admitted students share it.\n\nYour Year 3 class decile, however, worked in your favor. Though your standing in the bottom decile is far weaker than the average among accepted students, who typically sit around the sixth decile, the model treated this specific value as pushing toward passing. It was the second most important factor, and it reduced your predicted probability of failure.\n\nThe third most important factor was your LSAT score. At 45, you scored well above the average of 37 among accepted applicants, yet the model still identified this as pushing toward failure. This may seem surprising, but it reflects a pattern in the data where higher LSAT scores alone did not fully offset other risks.\n\nTo improve your chances, focus on strengthening your academic record in your final year, consider retaking the LSAT with additional preparation, and seek opportunities that demonstrate your ability to handle rigorous coursework. Reapplying with a clearer upward trend could change the outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

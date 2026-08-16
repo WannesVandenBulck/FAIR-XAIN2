@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
-      "sign": -1,
-      "value": 1
+      "name": "Get_Deserved_Promotion",
+      "sign": 1,
+      "value": 0
     }
   ],
   "features": [
@@ -39,18 +39,18 @@
     },
     {
       "name": "Academic_degree",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Sector",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "MedicalInsurance",
@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",

@@ -5,20 +5,20 @@
     {
       "rank": 1,
       "name": "failures",
-      "sign": 1,
+      "sign": -1,
       "value": 0
     },
     {
       "rank": 2,
-      "name": "higher",
-      "sign": -1,
+      "name": "famsize",
+      "sign": 1,
       "value": 0
     },
     {
       "rank": 3,
-      "name": "famrel",
-      "sign": -1,
-      "value": 4
+      "name": "Medu",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -29,13 +29,13 @@
     },
     {
       "name": "higher",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Fedu",
@@ -80,11 +80,11 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

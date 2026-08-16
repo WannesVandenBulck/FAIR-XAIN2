@@ -10,14 +10,14 @@
     },
     {
       "rank": 2,
-      "name": "Job_Opportunities",
+      "name": "Years_experience_lastorganization",
       "sign": 1,
       "value": 0
     },
     {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
-      "sign": 1,
+      "name": "Job_Opportunities",
+      "sign": -1,
       "value": 0
     }
   ],

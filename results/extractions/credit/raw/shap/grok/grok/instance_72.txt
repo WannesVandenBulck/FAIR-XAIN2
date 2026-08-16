@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "status",
-      "sign": -1,
+      "sign": 1,
       "value": 3
     },
     {
@@ -17,7 +17,7 @@
     {
       "rank": 3,
       "name": "purpose",
-      "sign": 1,
+      "sign": -1,
       "value": 3
     }
   ],
@@ -34,7 +34,7 @@
     },
     {
       "name": "credit_history",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

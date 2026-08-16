@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 30,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:23:15.089272",
+  "status": "success",
+  "narrative": "According to the model, there is a high likelihood—76%—that you will leave your job within the coming period. Because of this prediction, the organization has decided not to offer you a promotion at this time.\n\nThe most important factor influencing this outcome is your overall professional experience. With more than 11 years in your field, you are a highly experienced professional, whereas most employees who stay have only 1 to 5 years of experience. This long history strongly pushes the prediction toward you leaving, because highly experienced employees are often confident they can find better opportunities elsewhere.\n\nThe second strongest factor is how long you have worked at your current organization, which is only 1 to 5 years. This is unusual for someone with your overall experience. Most employees with your background have been at their current employer much longer. This mismatch suggests you may not have developed deep ties to the organization yet, which pushes the prediction further toward departure.\n\nFinally, the model found that you have received other job offers while working here. Most employees who remain have not received such offers. This is a clear signal that you are actively attractive to other employers and might be considering leaving.\n\nIn the future, the organization should consider offering you meaningful growth opportunities and compensation that reflect your experience, while you may want to communicate your long-term intentions clearly.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

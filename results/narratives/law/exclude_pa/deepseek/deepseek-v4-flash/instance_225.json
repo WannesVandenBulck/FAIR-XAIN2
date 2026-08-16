@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 225,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:35:09.093240",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed that you have a 71.1% chance of failing the bar exam on the first attempt — a very high risk, meaning that if you were admitted, there is a strong likelihood you would not pass the exam that unlocks legal practice.\n\nThe most influential factor in this assessment was your class standing in your third year of study. You placed in the very bottom decile, while admitted students typically sit around the middle of the class. This strongly pushed the prediction toward bar exam failure. The second most important factor was your first-year class standing, where you also ranked in the bottom decile — again pointing toward failure, though with somewhat less force than your third-year rank. Together, these two signals show a consistent pattern of academic difficulty in law school, which the model associates strongly with poor bar performance.\n\nInterestingly, your undergraduate GPA of 3.10, while slightly below the average of 3.23 among accepted students, actually nudged the prediction slightly in the direction of passing. It was a point in your favor, but it was not strong enough to counterbalance the two powerful negative signals from your law school class ranks.\n\nWhat should you do next? Consider strengthening your academic record — for instance, by retaking courses, gaining legal work experience, or preparing more rigorously for the law school admission test, where your score of 28 is well below the average of 37 among accepted students. Then reapply with a stronger profile, or apply to programs with more flexible admissions criteria.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

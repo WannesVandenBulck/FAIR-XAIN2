@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 55,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:51:11.112921",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessing your likelihood of passing the bar exam, and therefore succeeding in law school, came to a concerning conclusion. It estimated that you have a 61.9% probability of failing the bar on your first attempt. In other words, based on your available academic record, you are more likely to fail than pass, which creates too high a risk for admission.\n\nThe most important factor weighing against you was your class standing in your third year. You were in the 1st decile, the bottom ten percent of your class, while admitted students typically sit around the 5.8th decile. That very low relative performance strongly pushed the prediction toward bar failure. Your first-year class standing also made a significant negative contribution. Being in the 2nd decile, compared with the accepted-student average around the 6th decile, further increased the predicted risk of failing. Having two years of bottom-tier academic performance, especially in your most recent year, is a clear warning sign.\n\nThe second most important factor, your LSAT score, worked in your favor. At 41, it is above the admitted-student average of 37.2, and this moved the prediction toward passing. This shows that your standardized reasoning ability is a genuine strength. However, that strength was not enough to overcome the very low class rankings in both your first and third years. In the model’s view, your actual law-school grades were far more revealing of your likely bar performance than your test score alone.\n\nTo improve your chances if you apply again, focus on building a stronger record of legal academic success. Consider enrolling in additional coursework, completing a rigorous bar-preparation program, or attending an institution that provides stronger academic support. Raising your LSAT score may help, but demonstrating sustained improvement in law-related classes is the most direct way to counter the risk identified here.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

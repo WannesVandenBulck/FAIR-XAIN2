@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 38,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:24:44.900006",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 48 percent, which means the model sees nearly a coin flip: it believes you are more likely to leave than stay, and therefore it does not recommend promoting you. The most influential factor pushing toward leaving is that you have received other job opportunities while working here. This is unusual—only about one in four employees who stayed received such offers—so the model sees you as someone with attractive alternatives, making it harder to count on you remaining. Your total experience of six to ten years also pushes slightly toward leaving, because employees with that much experience often feel ready to move on.\n\nIn contrast, your tenure specifically in your current organization, also six to ten years, pushes strongly toward staying. Employees who stay are typically in this same range, so the model recognizes that you are not a newcomer and have a real investment here. That factor acts as an anchor keeping you, even though the outside opportunities and your overall experience pull the other way.\n\nFor the organization, the key question is whether those outside offers are being driven by dissatisfaction with things you have control over—like recognition, support, or promotion opportunities—or by natural career growth. For you, it would be worth clarifying whether this job can still meet your long-term goals. If the offers are meaningful, you should seriously evaluate them; if you would prefer to stay, have a direct conversation about what would make staying the better choice.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

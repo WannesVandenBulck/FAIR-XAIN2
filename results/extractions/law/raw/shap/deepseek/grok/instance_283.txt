@@ -30,7 +30,7 @@
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": 30
+      "value": "NaN"
     },
     {
       "name": "decile1",
@@ -39,7 +39,7 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -54,12 +54,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

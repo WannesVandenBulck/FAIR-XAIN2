@@ -11,7 +11,7 @@
     {
       "rank": 2,
       "name": "property",
-      "sign": 1,
+      "sign": -1,
       "value": 1
     },
     {

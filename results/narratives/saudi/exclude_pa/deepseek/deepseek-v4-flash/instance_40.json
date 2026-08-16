@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 40,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:24:55.688472",
+  "status": "success",
+  "narrative": "Your predicted chance of leaving within the coming period is 58 percent, and because that places you in the group the model sees as likely to resign, your promotion request is being declined. This does not reflect your performance or worth; it reflects a pattern the model has learned from employees with similar profiles.\n\nThe strongest signal in your case is your total career experience. Having worked for more than eleven years across different organizations puts you in a small group — only about one in seven employees who stay have that much experience. That long overall history, combined with only one to five years in your current role, suggests you tend to move on after a limited time with each employer. Your short tenure at this organization also independently raises the risk of leaving, because employees who have not yet reached the six-year mark are more likely to depart.\n\nThere is one factor working in your favor: you are not currently receiving other job opportunities. That absence of outside offers actually reduces your likelihood of leaving, and it is a meaningful counter-signal. However, the model weighs your long experience and limited time here more heavily, so those two factors together still push your overall risk above the promotion threshold.\n\nFor next steps, you might consider discussing with your manager what would make you feel more settled and committed — for example, clearer career growth or a longer-term project. The organization should also recognize that your profile is not about disengagement, but about a need for stronger retention incentives before you reach the six-year mark.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

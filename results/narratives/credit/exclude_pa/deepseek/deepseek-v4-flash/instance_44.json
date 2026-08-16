@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 44,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:04:45.182900",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates that you have a 30% chance of becoming a bad credit risk. In other words, based on your financial profile, about 3 out of 10 people with similar circumstances default on their loans. The bank considers that level of risk too high to approve.\n\nThe decision was driven mainly by three parts of your financial history. The strongest factor pointing toward risk was the balance in your checking account, which was only between 0 and 200 German Marks. Most approved applicants have no checking account at all, but among those who do, a balance that low signals very limited financial cushion. This worried the model more than any other feature.\n\nThe other two important factors actually worked in your favor. You asked for a relatively small loan of 1,670 Marks, while approved applicants typically borrow around 3,020 Marks. You also chose a short repayment period of 9 months, compared to the average of about 19 months. Smaller, shorter loans are generally easier for borrowers to manage, so both of these pulled the model toward seeing you as less risky.\n\nUnfortunately, the protective effect of a small, short loan was not enough to outweigh the concern created by your low checking account balance. The model therefore classified you as a bad credit risk and denied the request.\n\nTo strengthen a future application, focus on building up a larger balance in your checking account and keeping it stable for several months. More savings and a longer record of steady employment would also help. If you can show greater financial stability, the bank may see you differently next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

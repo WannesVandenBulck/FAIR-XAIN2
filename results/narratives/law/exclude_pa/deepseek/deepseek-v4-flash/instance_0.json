@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:35:36.975961",
+  "status": "success",
+  "narrative": "Based on the model's assessment, your predicted chance of failing the bar exam on the first attempt is 51 percent. This is a narrow margin, but it means you were considered slightly more likely to fail than to pass, and that leaning outcome led to the denial of your application.\n\nThe most decisive factor was your class standing in the third year of your studies. You ranked in the first decile among your peers, effectively placing you in the bottom ten percent, while admitted students typically sat near the middle of the distribution. Because academic trajectory is closely tied to bar exam performance, this weak standing weighed heavily in the model and pushed strongly toward a prediction of failure.\n\nYour undergraduate GPA, however, worked in your favor. At 3.70, it was noticeably higher than the average of 3.23 among accepted applicants, and the model recognized this as evidence of strong academic capability, leaning toward a passing outcome. Likewise, your LSAT score of 34, though below the average of roughly 37 for accepted students, actually nudged the prediction slightly toward success rather than increasing your risk. So your earlier academic credentials were not the problem.\n\nWhat ultimately tipped the scale was that third-year class rank. It outweighed both of those positive signals, and the model concluded that your most recent performance is the more reliable indicator of how you would handle the demands of preparing for the bar.\n\nTo improve your chances on a future application, focus on demonstrating an upward trend. Consider completing a rigorous post-baccalaureate program and earning strong grades in your final year to replace that low standing with recent evidence of improvement. A stronger LSAT score would also help, but showing that your late-career academics are now in line with your earlier promise would directly address the factor that drove this rejection.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

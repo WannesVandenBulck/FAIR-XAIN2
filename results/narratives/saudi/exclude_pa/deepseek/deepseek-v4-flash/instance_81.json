@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 81,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:32:50.212742",
+  "status": "success",
+  "narrative": "Your profile shows a 70% predicted chance that you will leave the organization, and that is why the promotion was denied. Among the many factors considered, three stood out as most influential. Your overall experience of 6–10 years was the strongest signal pointing toward leaving. Most employees who stay have only 1–5 years of experience, so your greater experience likely makes you more attractive to other employers and more confident about moving on. The second most influential factor was how long you have been in your current job: 1–5 years. Many stayers have similar tenure, but combined with your longer overall career, this suggests you may not yet feel deeply tied to this organization or invested in its long-term future. The third factor actually worked in your favor: you indicated you have not received other job opportunities. That lowers your risk of leaving, and if you had received outside offers, your predicted probability would have been even higher. However, the first two factors outweighed this stabilizing effect. In short, the model sees a strong external pull from your experience and a weaker internal anchor from your short time here, leading to a high risk of departure. Given this, the organization likely views the promotion as a poor investment unless retention concerns are addressed. Consider discussing with your manager what would make you feel more committed—such as clearer career growth, meaningful development, or improved work–life balance—so that your long-term potential becomes evident despite the model’s warning.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

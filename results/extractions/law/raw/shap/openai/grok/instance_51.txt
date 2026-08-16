@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "decile3",
+      "name": "decile1",
       "sign": 1,
       "value": "NaN"
     },
     {
       "rank": 2,
-      "name": "lsat",
+      "name": "decile3",
       "sign": 1,
       "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "decile1",
+      "name": "lsat",
       "sign": 1,
-      "value": "NaN"
+      "value": 24
     }
   ],
   "features": [
@@ -30,7 +30,7 @@
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 24
     },
     {
       "name": "decile1",

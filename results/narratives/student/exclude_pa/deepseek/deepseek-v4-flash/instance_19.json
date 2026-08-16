@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 19,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:42:44.060683",
+  "status": "success",
+  "narrative": "The model that reviewed your academic profile puts your chance of failing the final year at 16 percent. That means the model expects you to pass about 84 times out of 100, but because this crosses the school's risk threshold, you have been placed in remedial courses.\n\nThe three strongest influences on this prediction all actually worked in your favour. Having no failed classes in the past is the most important factor, and it strongly pushed toward passing. Your limited free time after school also helped, because it suggests you are not spending excessive hours idle. Your desire to pursue higher education was the third strongest influence, and it too pointed toward success, since motivation is closely tied to outcomes.\n\nSo why were you still flagged? With the most influential factors on your side, the model's risk warning comes from a combination of other signals. Your weekend alcohol use is noticeably higher than almost any student who passed, since only about five percent of successful students drank at that level. You also did not attend nursery school, while roughly eight in ten passing students did. Your home-to-school commute is longer than most, and you are not receiving family educational support.\n\nThe picture is not grim, but it is a warning. Consider reducing weekend drinking, asking a family member to check in on your studies, and using your travel time for review. These small changes could comfortably tip you back to the passing side.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

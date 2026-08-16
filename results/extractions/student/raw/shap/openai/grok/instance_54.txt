@@ -6,26 +6,26 @@
       "rank": 1,
       "name": "failures",
       "sign": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "rank": 2,
-      "name": "absences",
-      "sign": -1,
-      "value": 0
+      "name": "Fedu",
+      "sign": 1,
+      "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "Fedu",
+      "name": "famsize",
       "sign": 1,
-      "value": 3
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "failures",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "higher",
@@ -34,7 +34,7 @@
     },
     {
       "name": "famsize",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -50,7 +50,7 @@
     {
       "name": "Fedu",
       "mentioned": 1,
-      "value": 3
+      "value": "NaN"
     },
     {
       "name": "Mjob",
@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",

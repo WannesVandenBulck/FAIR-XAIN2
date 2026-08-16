@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 213,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:32:02.502468",
+  "status": "success",
+  "narrative": "Your law school application was denied because the model predicts a 69.8 percent chance that you would fail the bar exam on your first attempt. That is a critically high risk, and the university uses this likelihood to protect both your future and its professional reputation.\n\nThree factors carried nearly all the weight in this decision, and one worked in your favor while two worked against you. The single most important factor was your LSAT performance. At 44, your score is well above the average of 37 among admitted students, and this strongly pushed the prediction toward passing. That tells us you have genuine intellectual aptitude for legal reasoning.\n\nUnfortunately, two other factors outweighed that strength. Your class standing in both your first and third years of undergraduate study was at the very bottom of your school's distribution, a decile of 1, whereas admitted students typically sit near decile 6. These two grade-based factors were the next most influential inputs, and both pushed the prediction strongly in the direction of bar exam failure. In effect, the model sees a sharp gap between your high LSAT ability and your actual academic performance, and it gives far more weight to your demonstrated record of struggles over time.\n\nThe middle-class income background and full-time enrollment status you reported made only minor contributions to the decision.\n\nTo improve your chances, you should retake your final year of study to raise your class standing, consider completing a post-baccalaureate program with strong grades, and prepare thoroughly for the LSAT again to confirm your score. A pattern of sustained improvement is what the university needs to see.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

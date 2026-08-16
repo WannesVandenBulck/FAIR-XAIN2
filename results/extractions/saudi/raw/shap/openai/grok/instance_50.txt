@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_Experience",
+      "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     },
     {
       "rank": 2,
-      "name": "Years_experience_lastorganization",
+      "name": "Years_Experience",
       "sign": 1,
-      "value": 0
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "Job_Opportunities",
+      "name": "Years_experience_lastorganization",
       "sign": 1,
-      "value": "NaN"
+      "value": 0
     }
   ],
   "features": [
@@ -30,7 +30,7 @@
     {
       "name": "Job_Opportunities",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "Years_experience_lastorganization",

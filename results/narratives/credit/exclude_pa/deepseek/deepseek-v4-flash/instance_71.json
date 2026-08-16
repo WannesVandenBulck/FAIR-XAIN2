@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 71,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:11:08.758207",
+  "status": "success",
+  "narrative": "Based on your application, our model estimates a 53% chance that you would be unable to repay the loan, which places you above the acceptable risk threshold, and your application was therefore denied. Three key factors drove this decision.\n\nThe strongest signal was your checking account, which currently has a negative balance. This is very uncommon among approved borrowers—only about one in eight approved applicants had a negative balance, while the vast majority had at least a small positive amount. This weighed heavily against your application.\n\nThe second major factor was the loan amount you requested. At 5371 DM, it is well above the typical loan of roughly 3020 DM. Higher amounts create larger monthly payments and greater potential loss, so this also pushed your risk upward.\n\nThe third factor was the purpose of the loan: furniture and equipment. Interestingly, this worked slightly in your favor, nudging the prediction a little toward good credit because it is a common and understandable use of borrowed money. However, this positive influence was far too small to offset the negative impact of your checking account situation and the relatively large loan.\n\nTo improve your chances in the future, focus on building a positive checking account history—even running a small surplus consistently would help. Consider requesting a smaller loan or a longer repayment period to reduce your monthly burden. After several months of stable account activity and demonstrated repayment ability, you would be in a much stronger position to reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

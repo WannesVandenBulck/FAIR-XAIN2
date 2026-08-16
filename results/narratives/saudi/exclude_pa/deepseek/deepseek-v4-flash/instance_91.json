@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 91,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:34:30.181600",
+  "status": "success",
+  "narrative": "The model's assessment indicates a 78 percent likelihood that you will leave your job, which is the basis for denying the promotion. A probability this high means your profile closely resembles that of employees who end up departing rather than staying.\n\nThe strongest signal is your extensive overall work history. With more than eleven years of experience, you belong to a group that represents only about fifteen percent of employees who remain. Experienced professionals tend to be more mobile and more likely to move on when growth feels stalled. This factor carried the most weight.\n\nThe second most influential factor worked in your favor. You have not received other job offers while working here, which is true for the large majority of employees who stay. This suggests you are not actively looking elsewhere, reducing the leaving risk.\n\nHowever, a third factor offset that advantage: despite your long career, you have been with your current organization for only one to five years. The model reads this as a warning sign—a long career but a short stay here suggests you may not feel anchored to this workplace, making departure more likely.\n\nGiven these findings, have a candid conversation about your long-term career path and what would strengthen your commitment. For the organization, the priority is understanding why a highly experienced employee feels unrecognized, as addressing this could be key to keeping you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

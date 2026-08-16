@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 85,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:13:42.814411",
+  "status": "success",
+  "narrative": "A model assessed your application and estimates a 59% chance that you would not be able to repay the loan, meaning you fall on the risky side of the bank’s decision line. The main reason is the combination of two factors that together strongly signal financial strain.\n\nFirst, your requested loan period of 48 months is far above the typical approved loan of about 19 months. A very long duration suggests that you need a long time to pay back the money, which the model views as a strong warning sign. Second, your checking account is in negative balance. Among approved applicants, only about 13% had a negative balance, while the majority had no balance or a positive one. This indicates a current shortage of cash, reinforcing the risk.\n\nInterestingly, the loan amount itself worked in your favor: even though you asked for 4,308 DM, which is higher than the average approval of around 3,020 DM, the model treated the amount as a slight positive factor. This may be because the requested amount is not extreme relative to your circumstances, but it was not enough to compensate for the long term and negative account.\n\nTo improve your chances next time, consider shortening the repayment period, building up a positive checking cushion, and perhaps applying for a smaller amount. Reapplying after these changes would give you a much stronger case.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

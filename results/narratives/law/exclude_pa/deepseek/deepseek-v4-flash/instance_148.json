@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 148,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:14:08.759310",
+  "status": "success",
+  "narrative": "You are being denied admission because a review of your academic record, compared to thousands of previous students who took the bar exam, shows a predicted 88.8% probability that you would fail on your first attempt. This is not a judgment of your potential, but a statistical projection based on the strongest signals in your file.\n\nThe single most important factor was your third-year class standing. You finished in the bottom decile of your school, while accepted students typically sit near the middle. Low grades in the year closest to the bar exam suggest difficulty mastering the advanced material the exam tests. This factor pushed heavily toward a failure risk. The second strongest influence was your LSAT score. At 25, it is far below the average of 37 among admitted students, indicating challenges with the critical reasoning and reading skills the bar exam demands. That also pushed strongly toward failing.\n\nOne factor worked in your favor: your undergraduate GPA of 3.50, which is above the accepted-student average of 3.23, nudged the prediction toward passing. However, this single positive signal could not counteract the two larger negative ones.\n\nTo improve your chances in the future, focus on the two weak areas. Retake the LSAT after a structured preparation course, and if possible, enroll in a postgraduate program or additional coursework to demonstrate you can earn strong grades at a higher level. Your GPA proves you have academic ability. The next step is to show it in the areas that matter most for the bar exam.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

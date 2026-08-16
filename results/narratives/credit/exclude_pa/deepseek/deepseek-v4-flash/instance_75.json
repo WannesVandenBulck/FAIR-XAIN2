@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 75,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:11:52.181549",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, you were denied because you have a 39% chance of being a bad credit risk. That means the bank sees nearly four in ten odds that you might not repay the loan, and that risk is too high for approval. The single most important reason is the condition of your checking account. Your account is currently negative, a situation that is rare among approved applicants—only about 13% of those who received loans had a negative balance. This strongly pushed the decision toward denial.\n\nOn the brighter side, two other factors worked in your favor, though they were not enough to outweigh the checking account issue. You requested a loan for 15 months, which is shorter than the typical approved loan of about 19 months, and you asked for only 1,721 DM, well below the average approved amount of roughly 3,020 DM. Both of these made the loan seem less risky, pulling the prediction toward approval.\n\nStill, the negative checking account was the strongest influence. It signaled to the bank that your current financial situation is tight, and that concern dominated the positive aspects of your request.\n\nWhat you can do now is focus on improving your checking account balance, even a small buffer above zero would help. Continue making on-time payments on your existing credit and keep your employment stable. After a few months of positive account activity, you could reapply—likely with a better outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

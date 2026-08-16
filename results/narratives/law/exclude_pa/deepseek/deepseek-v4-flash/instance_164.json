@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 164,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:19:22.656192",
+  "status": "success",
+  "narrative": "Your application was denied because the model that aids admissions decisions predicted a 70% chance that you would not pass the bar exam on your first attempt. That is a high risk, and the university treats it as a strong indicator that you might struggle to complete the program successfully.\n\nThe single most important factor in this prediction was your LSAT score. You scored 32, while the average for accepted students is just over 37. This gap is significant; the admissions model sees a lower LSAT as one of the clearest signs of difficulty on the bar exam, so this score pushed the prediction strongly toward failure. Your third-year class standing worked in your favor. You were in the 8th decile, which is higher than the average decile of about 5.8 among accepted students. This suggests you made good academic progress in law school, and that factor pushed toward passing. However, it was not nearly as influential as your LSAT score, so it could not outweigh the risk. Finally, your family income level played a smaller role. Compared to accepted students, most of whom came from upper-middle or high income households, your middle-income background contributed a modest nudge toward the failure prediction. This is not a judgment of you personally, but the model found a statistical pattern linking income background with bar outcomes.\n\nThe practical next step is to focus on your LSAT score, since it matters most. Retaking the exam and improving your score would directly counter the strongest reason for the denial. You could also highlight your strong third-year record when reapplying, and consider schools whose admitted students have LSAT profiles closer to yours.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

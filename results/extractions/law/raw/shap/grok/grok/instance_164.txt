@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "fam_inc",
-      "sign": 1,
-      "value": 3.0
-    },
-    {
-      "rank": 3,
       "name": "decile3",
       "sign": -1,
       "value": 8
+    },
+    {
+      "rank": 3,
+      "name": "fam_inc",
+      "sign": 1,
+      "value": 3.0
     }
   ],
   "features": [

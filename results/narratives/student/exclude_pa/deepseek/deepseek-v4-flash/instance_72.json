@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 72,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:57:51.037667",
+  "status": "error",
+  "narrative": null,
+  "error": "Instance 72 not found in SHAP CSV",
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

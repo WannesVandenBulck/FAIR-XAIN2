@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 46,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:05:04.468643",
+  "status": "success",
+  "narrative": "After reviewing your application, the bank’s model determined that you have a 56% chance of defaulting on the loan—meaning you are more likely than not to become a bad credit risk. Because this probability sits above the bank’s acceptable threshold, your application was denied.\n\nThe single most important factor was the amount you requested. You asked for 10,623 German marks, which is more than three times the average amount approved for other applicants. Larger loans are harder to repay, and this strongly pushed your risk score upward.\n\nYour checking account status also weighed heavily against you. Your account is currently below zero, a situation that only about 13% of approved applicants find themselves in. Most approved borrowers either have no checking account or a positive balance, so the model saw your negative balance as a clear warning sign of financial strain.\n\nInterestingly, your credit history did not hurt you. Although it is marked as critical, the model treated this as a slight point in your favor relative to other information, meaning it nudged your risk assessment slightly downward. It was not enough to overcome the two larger concerns.\n\nTo improve your chances next time, consider requesting a smaller loan amount that is closer to the typical approved range. Rebuilding your checking account to a positive balance would also help significantly. You might wait until your account is stable, or explore other lenders that offer smaller, secured loans in the meantime.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

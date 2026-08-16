@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 24,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:00:20.137211",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model assessed that you have a 35% chance of being a bad credit risk. This is another way of saying that, in the bank's view, there is roughly a one-in-three likelihood that you would not repay the loan as agreed, and that level of uncertainty is too high for us to accept.\n\nThe single most important factor in this decision was the length of the loan you requested. Interestingly, this was in your favor: you asked for a relatively short repayment period of only nine months, compared with about nineteen months for most approved applicants. That shorter duration should generally reduce the bank's exposure. Your job status also helped your case, since being in a management or self-employed position is a reassuring sign of stable income.\n\nHowever, the second most influential factor worked against you. Your checking account shows a negative balance, a situation found among only about one in eight approved applicants. This was the strongest warning signal in your profile, and it outweighed the positive aspects of your short loan and good job. In effect, it signaled that you might struggle to keep up with payments, regardless of how quickly you planned to repay.\n\nTo strengthen your position, focus on building a healthier checking account balance over the next several months. Even a small positive cushion would meaningfully change the picture. You could also consider reapplying with a slightly longer loan term, and perhaps after your current credit has been paid as agreed. With those improvements, your likelihood of approval would be substantially higher.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

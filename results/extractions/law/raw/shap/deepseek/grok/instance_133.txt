@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "fam_inc",
       "sign": 1,
-      "value": 4.0
+      "value": 4
     }
   ],
   "features": [
@@ -40,7 +40,7 @@
     {
       "name": "fam_inc",
       "mentioned": 1,
-      "value": 4.0
+      "value": 4
     },
     {
       "name": "ugpa",

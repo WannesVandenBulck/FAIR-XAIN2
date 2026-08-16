@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 20,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:59:48.269957",
+  "status": "success",
+  "narrative": "Based on your application, our model estimated a 39% probability that you would become a bad credit risk. That means that, statistically, about four out of ten people with your profile fail to repay their loans, so we cannot approve this request.\n\nThe three most important factors in this decision were, in order, your savings situation, your checking account status, and the amount you asked to borrow. Surprisingly, the first two actually helped you. Having no savings and no checking account might seem risky, but among our approved customers these patterns are common, so the model treated them as positive signs. They moved the prediction slightly toward approval, not denial.\n\nWhat pushed the balance against you was the credit amount. You requested 7,980 DM, which is over two and a half times the average approved loan of about 3,020 DM. Even with your other positive factors, the sheer size of this loan, combined with your current employment of less than one year and an installment rate of 4% of your disposable income, raised the predicted risk above our threshold. A larger loan means larger monthly payments and less financial flexibility, making default more likely if your situation changes.\n\nWe know this is disappointing. For your next attempt, consider asking for a smaller amount, especially one closer to the average. Building a longer work history and setting aside even a small savings buffer can also strengthen your application. These steps will show greater financial stability and improve your chances of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

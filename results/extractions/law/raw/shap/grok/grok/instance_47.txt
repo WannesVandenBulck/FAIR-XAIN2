@@ -1,6 +1,6 @@
 ```json
 {
-  "predicted_probability": 0.75,
+  "predicted_probability": 0.752,
   "most_important_features": [
     {
       "rank": 1,
@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "decile1",
-      "sign": 1,
-      "value": 2
-    },
-    {
-      "rank": 3,
       "name": "ugpa",
       "sign": -1,
       "value": 3.2
+    },
+    {
+      "rank": 3,
+      "name": "decile1",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [

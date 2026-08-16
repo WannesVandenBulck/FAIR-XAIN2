@@ -79,7 +79,7 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "name": "freetime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

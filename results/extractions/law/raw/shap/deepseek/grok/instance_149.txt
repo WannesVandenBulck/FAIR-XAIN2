@@ -6,26 +6,26 @@
       "rank": 1,
       "name": "decile3",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "rank": 2,
-      "name": "ugpa",
-      "sign": -1,
-      "value": 3.6
-    },
-    {
-      "rank": 3,
       "name": "lsat",
       "sign": 1,
       "value": 26
+    },
+    {
+      "rank": 3,
+      "name": "ugpa",
+      "sign": -1,
+      "value": 3.6
     }
   ],
   "features": [
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "lsat",

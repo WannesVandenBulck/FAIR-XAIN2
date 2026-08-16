@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 22,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:21:54.511415",
+  "status": "success",
+  "narrative": "The model’s prediction shows a 90% chance that you will leave your job soon, and that is why your promotion is being denied. In plain terms, the model believes the risk of you departing quickly is so high that investing in a new role for you would not be wise. The most influential factor is your overall experience of 6 to 10 years. While many employees who stay have less experience, your profile shows you have built enough skills and market value to be attractive to other employers. Second, you have received other job opportunities during your time here, which is a strong signal that you have real alternatives and are not dependent on this organization. Third, your time in your current position is only 1 to 5 years. Combined with your longer total career, this suggests you have not yet developed deep ties or long-term commitment to this specific workplace. All three of these factors push in the same direction: they say you are likely to move on. Even though you feel satisfied with your work environment, recognize effort, and see training as useful, those positive signals were not enough to outweigh the clear mobility signals. For your own next step, consider whether leaving is truly what you want. If you want to stay, you may need to communicate your commitment clearly and ask what would make you feel more invested. The organization, in turn, should look at why valuable employees like you receive outside offers—and whether better career paths, rewards, or stability could encourage you to stay.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

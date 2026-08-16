@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 35,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:24:05.317762",
+  "status": "success",
+  "narrative": "The model’s assessment indicates a 67 percent probability that you will leave your job within the coming period, and this is the basis for denying the promotion. In plain terms, the model sees more signals pointing toward departure than toward staying. The single strongest signal working against you is that you have received other job opportunities while working here. Only about one in four employees who were predicted to stay received outside offers; your situation suggests that you are attractive to other employers and may already have one foot out the door. The second most important factor, however, works in your favor: your overall experience of one to five years. About half of those who stayed also had this level of experience, so the model treats your relatively early career stage as a reason to think you might remain, softening the overall risk. The third contributor pushes the other way again: you work in the “other” sector, which is less common among stayers—only about a fifth of them—and this environment seems to offer fewer ties that keep people in place. Beyond these top influences, your feeling that you did not get the promotion you deserved and your lack of job stability reinforce the concerning picture. The organization should hold a direct conversation with you about your outside offers, career path, and what would make you stay. You, in turn, should clarify whether your long-term future truly lies here before expecting future promotion decisions to go your way.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

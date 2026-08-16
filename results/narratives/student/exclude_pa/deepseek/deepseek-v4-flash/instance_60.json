@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 60,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:54:27.661792",
+  "status": "success",
+  "narrative": "Your situation is not as clear-cut as a simple pass or fail. The model puts your chance of failing this year at 25 percent. That means there is a real but not overwhelming risk: three out of four students with a similar profile would pass, but one would not. Because that level of risk is considered too high, you are being asked to take remedial courses.\n\nThe main reason for this warning lies in your past academic record. You have one previous course failure, whereas students who passed this year had no failures on average. This single fact was the strongest influence, and it pushed you toward the failing side. It is not a judgment of your ability; it signals that a past setback makes future difficulties more likely unless something changes.\n\nTwo other factors worked in your favor. You chose this school mainly because it is close to home, and students who did so tended to pass more often. You also said you want to pursue higher education, which is linked to better outcomes. Those two points lowered your risk, but not enough to cancel out the impact of the past failure.\n\nThe lesson is to take the remedial requirement seriously. With a study time of under two hours most weeks and thirty absences, you have clear areas to improve. Use the extra support to build stronger habits, attend regularly, and ask for help early.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

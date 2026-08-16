@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 31,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:01:43.712920",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 35 percent chance that you would default. That is roughly one in three borrowers with a similar financial profile. The bank considers that too high to approve, even though the other side—about 65 percent—points to repayment.\n\nThe strongest influences on the decision, in order, were your credit history, the length of the loan, and your checking account balance. Two of these actually worked in your favor. Although your credit history is listed as critical or other credits, it did not raise your risk; it nudged the model toward approving you. Your loan duration of 11 months, well below the average of 19 months for approved borrowers, also helped.\n\nThe single worrying factor was your checking account. You have a balance between 0 and 200 DM—the category the model treats as the highest-risk among checking account situations. Most approved borrowers have no checking account at all, and larger balances tend to be rated more favorably. This low positive balance outweighed the good impressions from your credit record and short loan term, leaving your overall profile above the bank’s risk threshold.\n\nTo improve your chances, keep a larger savings or checking buffer for several months before reapplying. Consider requesting a longer, smaller loan to better match your income. Continue making all payments on time so your credit history becomes visibly positive.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

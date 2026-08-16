@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "failures",
-      "sign": 1,
+      "sign": -1,
       "value": 0
     },
     {
@@ -17,7 +17,7 @@
     {
       "rank": 3,
       "name": "Medu",
-      "sign": -1,
+      "sign": 1,
       "value": 3
     }
   ],
@@ -89,7 +89,7 @@
     },
     {
       "name": "famsup",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

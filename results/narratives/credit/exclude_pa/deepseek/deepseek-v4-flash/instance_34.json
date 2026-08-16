@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 34,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:02:36.905948",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 26% chance that you would become a bad credit risk. While that means there was a 74% chance you would repay reliably, the bank considers a one-in-four chance of default too high to approve.\n\nThe single strongest factor in your case was actually a positive one: your requested loan term of only six months, far shorter than the typical 19 months. Shorter loans mean less time for things to go wrong, so this pushed your risk down. The second most influential factor, however, worked against you. Your checking account is currently overdrawn, with a balance below zero. Among approved applicants, the majority either have no checking account or maintain a positive balance; a negative balance signals current financial strain and was the main reason your risk rose. The third factor was your savings situation. Having no savings or an unknown amount actually nudged your risk slightly downward in this model – it is a common profile among borrowers who repay successfully, so it did not add to the concern.\n\nIn short, a healthy checking account and a short repayment period are reassuring, but the overdraft was enough to tip the balance toward denial. To improve your chances next time, focus first on bringing that account into positive territory and maintaining it for several months. Building even a small savings buffer would also help. Once your financial stability is visible on paper, you can reapply with a stronger case.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

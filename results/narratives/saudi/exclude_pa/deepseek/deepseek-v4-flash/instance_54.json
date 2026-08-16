@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 54,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:28:05.448049",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 70%, which is high. This means that, based on the patterns in the data, the model strongly believes you are likely to resign in the near future. Because of this high flight risk, promoting you is considered a risky investment, and that is why the decision was made to deny the promotion.\n\nThe single most powerful factor in this prediction is your total years of experience, which is between one and five years. This is actually the most common profile among employees who stay, with half of them also being in this early-career stage. While this factor alone pushes slightly *against* the leaving prediction—meaning it suggests you might stay—the model weighs it so heavily that it tells us your career stage is the anchor of this entire decision. You are in a highly mobile phase of your professional life.\n\nThe second most important factor is that you have received other job offers while working here. This is very revealing. Only about 23% of employees who stay receive outside offers, so this significantly pushes the prediction toward you leaving. The model interprets this as a clear sign that you are actively being courted by other employers.\n\nThe third factor is your time in your current role, which is also between one and five years. This short tenure pushes you further toward leaving, reinforcing a picture of someone who is still building their career and may not have deep roots in the organization.\n\nGiven these signals, the organization should consider that this is a retention issue, not a performance one. To keep you, they need to address your expressed dissatisfaction, lack of recognition, and the fact that you feel you deserved a promotion. A direct conversation about your future and the offers you have received could be the key to retaining you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

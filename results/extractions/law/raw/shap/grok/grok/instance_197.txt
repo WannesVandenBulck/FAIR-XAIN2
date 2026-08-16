@@ -49,8 +49,8 @@
     },
     {
       "name": "fulltime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "gender",

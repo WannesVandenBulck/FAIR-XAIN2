@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
+      "name": "Job_Engagement",
+      "sign": 1,
+      "value": 2
+    },
+    {
+      "rank": 2,
       "name": "Years_Experience",
       "sign": -1,
       "value": 0
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Job_Opportunities",
       "sign": -1,
       "value": 0
-    },
-    {
-      "rank": 3,
-      "name": "Job_Engagement",
-      "sign": 1,
-      "value": 2
     }
   ],
   "features": [
@@ -80,7 +80,7 @@
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",

@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "fam_inc",
-      "sign": -1,
-      "value": 4.0
+      "name": "lsat",
+      "sign": 1,
+      "value": "NaN"
     }
   ],
   "features": [
@@ -29,7 +29,7 @@
     },
     {
       "name": "lsat",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

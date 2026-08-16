@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "fam_inc",
       "sign": 1,
-      "value": 4
+      "value": 4.0
     }
   ],
   "features": [
@@ -29,8 +29,8 @@
     },
     {
       "name": "lsat",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 34
     },
     {
       "name": "decile1",
@@ -40,7 +40,7 @@
     {
       "name": "fam_inc",
       "mentioned": 1,
-      "value": 4
+      "value": 4.0
     },
     {
       "name": "ugpa",

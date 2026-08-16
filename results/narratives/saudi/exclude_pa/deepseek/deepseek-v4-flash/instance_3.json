@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 3,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:18:01.008049",
+  "status": "success",
+  "narrative": "The model sees a 57 percent chance that you will leave the organization in the near future, and that is why the promotion was denied. In plain terms, the evidence weighed against the idea of you staying, even though your personal sense of commitment and satisfaction are strong.\n\nThe most important factor was your participation in training programs. With seven or more programs in the last three years, you are in a select group—most employees who stay attend fewer. This actually pushed the prediction toward staying, since it signals investment and growth. But it was not enough to overcome the other signals.\n\nThe second factor was your overall experience. You have six to ten years in your career, while roughly half of the employees the model expects to stay have fewer than five. Greater experience often means greater mobility: you are more visible to other employers and more likely to move if opportunities do not materialize here.\n\nThe third factor was how long you have been in your current position. You have spent only one to five years at this organization, which is less than your overall career length. That gap suggests you are still relatively new to this employer, and the model read it as a sign that you are building a career that may take you elsewhere.\n\nThese signals are reinforced by the fact that you did not feel you received the promotion you deserved, and that you have received other job opportunities. For a decision, consider asking your manager for a clear, written career path and promotion criteria, so the organization can see your intent to stay and you can decide whether this is the right place for it.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

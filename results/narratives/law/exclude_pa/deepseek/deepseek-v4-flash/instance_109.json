@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 109,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:05:28.238742",
+  "status": "success",
+  "narrative": "The model estimates a 96% chance you would fail the bar exam on the first attempt. This is why your law school application was denied. The most influential factor was your class standing in your third year, which placed you in the bottom decile relative to your peers; among accepted students, the average is around the 5.8 decile, meaning you are significantly lower. This strongly pushed the prediction toward failure. The second most important factor was your LSAT score of 25, well below the average of about 37 among accepted students. A lower LSAT score indicates critical reading and reasoning skills essential for bar success, and this also pushed toward failure. The third most important factor was your first-year class decile, again at the very bottom. While your third-year performance matters more, your consistently low standing from the start of law school reinforced the likelihood of struggling on the bar exam. Together, these three signals—but especially your third-year ranking—overwhelmed other considerations, such as your middle-class family income or full-time enrollment, which had little impact. To improve your chances, focus on strengthening the skills the LSAT measures, consider retaking the LSAT after concentrated preparation, and address the academic challenges that kept you in the lowest decile throughout law school. Showing material improvement in your grades or earning a significantly higher LSAT score would give a future application a much stronger foundation; without these changes, the risk of bar failure remains very high.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

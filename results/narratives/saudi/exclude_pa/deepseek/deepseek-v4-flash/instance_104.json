@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 104,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:36:28.484869",
+  "status": "success",
+  "narrative": "The model estimates that you have a 51% chance of leaving your job, which is why the promotion was denied. While that number is only slightly above the halfway mark, the model leans just enough toward the possibility of your departure to warrant caution from the organization. In plain terms, your profile looks like someone who, despite being committed and invested, may have one foot out the door.\n\nThe strongest signal in your profile actually works in your favor: your one to five years of overall experience. This is the most common experience range among employees who stay, so the model sees it as a sign that you are still in a stable, early-career phase rather than on the move. Similarly, your high emotional commitment to the organization is a meaningful counterweight; employees with this level of attachment are typical among those who remain.\n\nHowever, the model also found that you have received other job offers while working here. This is the second most important factor in your prediction, and it pushes strongly in the opposite direction. Only about a quarter of employees who stay receive outside opportunities, so your situation stands out and raises a red flag. The model interprets this as a very real possibility that you could take one of those offers.\n\nFor the organization, the takeaway is to address retention directly: consider what would make you want to stay, perhaps through clearer career paths, recognition, or improved satisfaction. For you, it may be worth reflecting on whether you see a future here and communicating that openly with your manager.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

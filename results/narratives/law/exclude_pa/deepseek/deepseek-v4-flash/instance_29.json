@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 29,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:43:53.094584",
+  "status": "success",
+  "narrative": "Based on your application, the model predicts a 60.5% chance that you would fail the bar exam on your first attempt. That means, if you were admitted, you would be more likely to fail than to pass—and that risk is why your law school application was denied.\n\nThe single most influential factor in this decision was your class standing in your third year. You placed in the second decile, meaning you ranked very near the bottom of your class. This is particularly concerning because the typical admitted student places around the sixth decile. Your first-year standing also pointed to trouble: you were in the third decile, again far below the average of sixth. Both of these early and later law school performance indicators strongly pushed the model toward predicting bar exam failure, with your third-year performance carrying the most weight.\n\nNot everything was against you. Your undergraduate GPA of 3.40 is actually above the admitted-student average of 3.23, and that factor worked in your favor, nudging the prediction toward passing. However, its positive influence could not overcome the negative signal from your law school class ranks.\n\nTo strengthen a future application, focus on dramatically improving your performance in law school coursework. Seek academic support, tutoring, or structured study groups early. If you are still in school, aim to move into the upper deciles by graduation. If you have already graduated, consider an intensive bar prep course and retake the exam once you are genuinely prepared—showing that you can pass on your first try would directly address the model's main concern.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

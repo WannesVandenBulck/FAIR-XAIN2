@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "health",
+      "name": "famsize",
       "sign": 1,
       "value": 1
     },
     {
       "rank": 2,
-      "name": "Fedu",
+      "name": "Medu",
       "sign": 1,
       "value": 3
     },
     {
       "rank": 3,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
+      "name": "Fedu",
+      "sign": 1,
+      "value": 3
     }
   ],
   "features": [
@@ -29,13 +29,13 @@
     },
     {
       "name": "higher",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Pstatus",
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "Fedu",
@@ -79,18 +79,18 @@
     },
     {
       "name": "studytime",
+      "mentioned": 1,
+      "value": 1
+    },
+    {
+      "name": "schoolsup",
       "mentioned": 0,
       "value": "NaN"
     },
     {
-      "name": "schoolsup",
-      "mentioned": 1,
-      "value": 0
-    },
-    {
       "name": "famsup",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "paid",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

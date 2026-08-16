@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 118,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:07:21.565025",
+  "status": "success",
+  "narrative": "After reviewing your application, the model estimates a 56 percent chance that you would not pass the bar exam on your first attempt. This means you are more likely to fail than to pass, and that is the central reason your admission was denied.\n\nThe strongest factor in this decision was your academic standing in your third year of study. You placed in the very bottom decile of your school, while admitted applicants typically fall around the sixth decile. This poor performance pushed your predicted outcome heavily toward failing the bar exam. It had far more influence than any other piece of information.\n\nTwo other details played smaller, opposite roles. Your first-year decile, though also below average at four, actually nudged the prediction slightly toward passing. Your lower-middle family income—compared with a student body where most are upper-middle or middle income—likewise gave a small push toward passing. So these aspects worked in your favor, but they were nowhere near enough to offset the damage of your third-year grades.\n\nTo build a stronger case, focus on reversing the academic decline between your first and third years. Enroll in advanced coursework, seek tutoring, or consider retaking the LSAT to lift your score above the admitted average. If you can show steady improvement—especially in the later years—your chances would change dramatically. Take time to strengthen your record, then consider reapplying. Every additional step you take toward stronger academics directly lowers the risk of bar exam failure.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 236,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:37:49.421114",
+  "status": "success",
+  "narrative": "The law school's decision rests on a prediction that you have a 65.1% chance of failing the bar exam on the first attempt. Practically, the school saw you as more likely than not to struggle with the licensing exam, and since passing the bar is essential to a legal career, admission was denied.\n\nThe strongest factor driving this outcome was your class standing in the third year of university. Ranking in the second decile places you in the bottom fifth of your class, while accepted students typically sit around the sixth decile. Because first-time bar passage correlates strongly with sustained academic ability, this recent evidence weighed heavily against you. Your first-year ranking also pushed toward failure, though less strongly; sitting in the third decile, again far below the accepted-student average of the sixth, reinforced the concern.\n\nNotably, your LSAT score actually nudged the prediction toward passing. Although your score of 34 sits below the accepted-student average of about 37, the model treated it as a relative strength alongside your academic record. Your family income and full-time enrollment status did not meaningfully affect the decision.\n\nIf you wish to reapply, the clearest path is raising your academic standing. Consider retaking key courses, completing a post-baccalaureate program with strong grades, or waiting until you can show a sustained year of upward momentum. Demonstrating recent academic success is the most direct way to change this outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -59,8 +59,8 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "OverTime",
@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -105,7 +105,7 @@
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
@@ -139,7 +139,7 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

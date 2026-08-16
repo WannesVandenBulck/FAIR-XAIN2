@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 62,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:55:00.300681",
+  "status": "success",
+  "narrative": "Based on the information available about you, the model estimates a 26% chance that you will not pass your final year. That is why remedial courses are being required: the school considers this risk too high to leave unaddressed, even though it also means you are more likely to pass than fail. Looking at the three strongest influences on your prediction, the clearest positive signs come from your academic history and your weekend habits. You have never repeated a year, which is a strong signal and nudges the prediction toward passing. At the same time, your weekend alcohol use is low, similar to the majority of students who pass, and that also lowers your risk. The main factor pushing the prediction toward failing is your father's education. He attended only primary school, while among students who pass, fathers often have completed secondary school or higher. This does not mean your father's background defines your potential, but the model sees it as a pattern linked to the kind of academic support available at home. Because this is the strongest risk factor in your case, the most useful step is to build support outside your family. Talk to your teachers, use extra help sessions, and form study groups with classmates. Your past performance shows you are capable, and your current lifestyle choices are already on the right track. With the remedial courses and these supportive habits, you can reduce that 26% chance even further and finish the year successfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

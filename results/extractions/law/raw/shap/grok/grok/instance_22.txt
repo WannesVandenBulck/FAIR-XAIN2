@@ -50,7 +50,7 @@
     {
       "name": "fulltime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "gender",

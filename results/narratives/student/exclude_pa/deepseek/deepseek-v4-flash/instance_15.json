@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 15,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:41:11.755927",
+  "status": "success",
+  "narrative": "Your risk assessment places your chance of failing the year at 10 percent. That means students with profiles like yours usually pass, so the model is not calling you a certain failure. However, the school has chosen a cautious intervention threshold: when the predicted failure risk reaches that level, remedial courses are required as a safety net rather than a punishment.\n\nThe three most influential factors in your prediction all actually point toward passing. You have no previous failed classes, and passing students in the data also typically have zero prior failures, so your academic history is a clear strength. You also want to pursue higher education, and every passing student in the comparison group shared that ambition, which shows strong motivation. Finally, your weekly study time of two to five hours matches the most common amount among students who passed, so your current effort is on the right track.\n\nBecause your strongest factors are protective, the reason remedial courses are being asked of you is not one obvious weakness. Instead, several smaller risk signals in the rest of your profile combine to push your overall risk up to that 10 percent level. These quieter warnings are enough for the school to recommend extra support, even though your main academic habits look good.\n\nYou should keep your study routine, hold onto your goal of higher education, and use the remedial courses to remove any remaining gaps. They are a chance to turn a small risk into a very safe prediction, so you can end the year confidently.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 66,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:10:04.163663",
+  "status": "success",
+  "narrative": "The decision to deny your loan application was not made lightly, and it's important to understand what went into that decision. Based on your financial profile, the model estimated a 49% chance that you would be a bad credit risk. That means nearly one in two borrowers with characteristics similar to yours would not repay the loan as agreed—too high a risk for the bank to accept.\n\nThree factors mattered most in reaching this decision, and they pulled in different directions. The first was the purpose of your loan—a used car. This actually worked in your favor. While used cars were less common among approved applicants—only about 14% of approved loans were for this purpose—the model still considered it a positive signal, pulling your risk estimate downward.\n\nThe second, more concerning factor was your checking account balance. Your account held between 0 and 200 Deutsche Marks at the time of application, which is a very thin buffer for unexpected expenses. While most approved applicants also had limited funds in their accounts, this pattern nonetheless pushed the model toward seeing you as a higher risk.\n\nThe third factor was the loan amount itself. You requested almost 8,000 Deutsche Marks, more than two and a half times the average approved loan of about 3,020. Combined with your modest checking balance, the model judged that repaying such a large sum would stretch your finances dangerously thin.\n\nTo improve your chances next time, consider requesting a smaller amount, building up your checking account savings, and perhaps waiting until you have a longer employment history before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

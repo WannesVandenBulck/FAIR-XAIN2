@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "lsat",
-      "sign": -1,
-      "value": 41
+      "name": "decile1",
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "decile1",
-      "sign": 1,
-      "value": 2
+      "name": "lsat",
+      "sign": -1,
+      "value": 41
     }
   ],
   "features": [
@@ -35,7 +35,7 @@
     {
       "name": "decile1",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "fam_inc",

@@ -16,8 +16,8 @@
     },
     {
       "rank": 3,
-      "name": "Job_Satisfaction",
-      "sign": 1,
+      "name": "Job_Opportunities",
+      "sign": -1,
       "value": 0
     }
   ],
@@ -99,18 +99,18 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Engagement",
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Gender",

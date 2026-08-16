@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 152,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:15:29.950454",
+  "status": "success",
+  "narrative": "Based on your academic profile, the model determined that you have a 56% chance of failing the bar exam on your first attempt. This means you are seen as more likely to fail than to pass—and that likelihood is why your application for admission was denied.\n\nThe single biggest reason for this prediction was your LSAT score. At 20, it is far below the average score of about 37 for students we accept. This heavily tipped the balance toward a predicted failure. The second influencing factor, your undergraduate GPA, actually worked in your favor. Your 3.10, though slightly below our accepted average of 3.23, was interpreted as a sign that you have academic ability to succeed. However, this positive signal was not strong enough to overcome the LSAT deficit.\n\nThe third major factor was your first-year class standing. You ranked in the bottom tenth of your class in that year, whereas accepted students typically sit around the middle. This early performance further pushed the prediction toward failure, reinforcing the concern that the LSAT score was not an isolated weakness.\n\nTo improve your future chances, focus on significantly raising your LSAT score—this is the area where the model sees a clear weakness. Retaking the test after dedicated preparation could make a substantial difference. Additionally, building a stronger academic record in your remaining coursework will help show that your early ranking was not indicative of your true potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

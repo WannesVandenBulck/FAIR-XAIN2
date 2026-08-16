@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 73,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:31:16.177147",
+  "status": "success",
+  "narrative": "You have been denied a promotion because our model indicates a 66% chance that you will leave your job in the near future. This is not a judgment on your past performance, but rather a prediction based on patterns observed in employees with similar circumstances. For a role requiring investment and continuity, this level of uncertainty is significant.\n\nThe strongest signal driving this prediction is that you have received other job opportunities while working here. Most employees who stay with their organization do not have competing offers, so this factor suggests you are actively being recruited and may be considering a move.\n\nYour extensive experience of 11 or more years is the second most important factor. Interestingly, the majority of employees who remain in their jobs have fewer than 6 years of experience. Your deep background makes you highly marketable, and the model recognizes that experienced professionals like you are more likely to be approached with attractive alternatives.\n\nFinally, you indicated that balancing your work and personal life is difficult for you. Very few employees who stay report this level of imbalance, and the model interprets this as a potential push factor that could lead you to seek a more accommodating workplace.\n\nThese three elements combined paint a picture of a valuable, experienced professional with outside options and a reason to use them.\n\nConsider having an honest conversation with your organization about what would make you stay. Discussing flexible arrangements, clearer growth paths, or addressing your work-life concerns could change the equation and strengthen your case for future advancement.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

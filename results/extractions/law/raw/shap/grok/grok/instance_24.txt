@@ -11,13 +11,13 @@
     {
       "rank": 2,
       "name": "fam_inc",
-      "sign": -1,
+      "sign": 1,
       "value": 4
     },
     {
       "rank": 3,
       "name": "lsat",
-      "sign": 1,
+      "sign": -1,
       "value": 35
     }
   ],

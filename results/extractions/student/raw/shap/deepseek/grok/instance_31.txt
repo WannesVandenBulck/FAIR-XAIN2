@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "goout",
       "sign": -1,
-      "value": 1
+      "value": 2
     }
   ],
   "features": [
@@ -130,7 +130,7 @@
     {
       "name": "goout",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Dalc",

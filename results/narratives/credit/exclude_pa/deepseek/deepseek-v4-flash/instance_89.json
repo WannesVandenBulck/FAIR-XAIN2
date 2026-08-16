@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 89,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:14:43.365691",
+  "status": "success",
+  "narrative": "Based on the analysis of your application, you have been denied because the model estimates a 34% chance that you would become a bad credit risk. While that means roughly a two-thirds chance you would repay reliably, the bank considers 34% too high to accept.\n\nThe three most influential factors in the decision actually worked in your favor. First, the amount you requested was less than the average for approved applicants, which lowered your risk. Second, the stated purpose of the loan—business—was seen as a positive factor, also pushing your risk down. Third, the time you have lived at your current residence, though shorter than the average approved applicant, still contributed positively in the model’s assessment. So these strongest signals were not the cause of the denial.\n\nInstead, the overall picture combined these favorable points with other less helpful details from your profile. For example, your checking account had a low balance, your savings were minimal, and your employment duration was under a year. These and other factors outweighed the positive influences, leaving the predicted risk above the acceptable threshold.\n\nTo improve your chances next time, consider building up a larger savings buffer, staying in your job for at least a year or two, and reducing the amount you request or extending the repayment period. You might also apply with a co-applicant or guarantor, and checking your credit report for any errors is always a good step.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 29,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:01:11.605448",
+  "status": "success",
+  "narrative": "Based on the information you provided, the model estimated a 25% probability that you would default on the loan. While that means a 75% chance you would repay on time, the bank considers this level of risk too high to approve, so your application was denied.\n\nThe three strongest factors in your assessment all actually worked in your favor. First, the length of your credit request was just six months, far shorter than the average of about nineteen months among approved applicants. A short repayment period reduces the time for financial problems to arise, so this strongly lowered your risk. Second, your checking account status also helped you. Not having a checking account is actually common among approved borrowers, and in your case it slightly reduced your risk rather than raising concerns. Third, the amount you requested—3,518 DM—was evaluated in context with your short term and purpose. Although somewhat above the average approved amount, the model viewed it as manageable, and this too nudged you toward “good credit.”\n\nHowever, these positive signals were not enough. Other aspects of your profile, such as very limited savings, renting rather than owning a home, having no telephone listed, and relying on a guarantor, pointed toward higher risk. Together, they outweighed the favorable factors and pushed the overall probability to the denial threshold.\n\nTo improve your chances next time, consider building up your savings above 100 DM, possibly opening a checking account, and reducing the requested amount. A somewhat longer employment history or additional proof of financial stability could also help. Reapplying after strengthening these areas would give you a much better outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

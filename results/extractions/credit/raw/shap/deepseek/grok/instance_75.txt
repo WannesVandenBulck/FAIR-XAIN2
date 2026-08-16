@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "amount",
-      "sign": -1,
-      "value": 1721
-    },
-    {
-      "rank": 3,
       "name": "duration",
       "sign": -1,
       "value": 15
+    },
+    {
+      "rank": 3,
+      "name": "amount",
+      "sign": -1,
+      "value": 1721
     }
   ],
   "features": [

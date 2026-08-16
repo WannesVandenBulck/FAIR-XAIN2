@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "Years_experience_lastorganization",
-      "sign": 1,
+      "sign": -1,
       "value": 2
     },
     {
@@ -74,13 +74,13 @@
     },
     {
       "name": "Rewards_Wages_Satisfaction",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -89,8 +89,8 @@
     },
     {
       "name": "Useful_Training_Programs",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Business_Travel",

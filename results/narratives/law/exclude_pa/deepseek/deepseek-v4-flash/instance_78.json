@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 78,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:56:55.160932",
+  "status": "success",
+  "narrative": "The decision to deny your application was based on a model that estimated an 80% probability you would not pass the bar exam on your first attempt. In other words, the model believes there is a very high risk that you would not succeed in obtaining a law license, which is a critical outcome for any law school graduate.\n\nThe single most important reason for this prediction was your academic standing in your final year. Your ranking placed you in the bottom decile of your school, while students who were accepted typically ranked much higher, around the middle of their class. This poor final-year performance was the strongest signal pushing the prediction toward failure.\n\nThe second most influential factor was your LSAT score. Your score of 24.5 is considerably lower than the average of 37.2 among accepted applicants. This large gap strongly suggested that your standardized test performance would be a significant obstacle, pushing the prediction further toward the failure outcome.\n\nYour first-year academic ranking also played a role, though it was less influential than the other two factors. Like your final year, you were in the bottom decile, which reinforced the overall picture of academic struggle and also pushed the prediction toward failure.\n\nTo improve your chances in a future application, focus on two key areas. Retaking the LSAT to achieve a substantially higher score would directly address the second most important factor. Additionally, demonstrating strong academic performance in your final year would help counter the negative signal from your earlier rankings.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 37,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:46:24.112262",
+  "status": "success",
+  "narrative": "The admission model estimated a 95% chance you would fail the bar exam on the first attempt. That leaves only about a 1 in 20 chance of passing, so the application was denied.\n\nThe most important reason was your third-year class standing. You were in the first decile, the bottom ten percent, while accepted students averaged around the sixth decile. Being that low near the end of your legal education strongly pushed the prediction toward failure. The second most important factor was family income. Your middle-income bracket is less common among accepted students, who were more often from upper-middle or high-income families. The model treats this as a modest risk, often because financial strain or limited access to bar preparation can reduce success. The third factor was your first-year class standing. At the second decile, compared with an average close to the sixth, it showed early academic struggles. It was less important than your third-year rank but pointed in the same direction.\n\nTogether, these signals convinced the model that you were very unlikely to pass the bar on the first try. To strengthen a future application, work on raising your grades, retake the LSAT if possible, and enroll in a structured bar preparation program. You might also contact the school to ask whether financial support or mentoring is available for applicants facing similar challenges.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

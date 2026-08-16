@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 76,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:31:57.813602",
+  "status": "success",
+  "narrative": "The model predicts you are 48% likely to leave your job within the coming period, and because this crosses the threshold for turnover risk, your promotion is denied. This does not mean you are a poor employee; rather, the model reads your profile as someone who may not stay long enough for the organization to recoup the investment of promoting you.\n\nThe strongest signal pushing *toward* leaving is your overall experience level. With six to ten years under your belt, you hold more experience than half of the employees the model expects to stay, most of whom have only one to five years. That level of experience makes you more mobile and confident in finding other work. A second, related factor works in the same direction: your tenure in your current organization is still just one to five years. The combination of broad experience with relatively short time in this specific job suggests you may view your current position as a stepping stone rather than a long-term home.\n\nThe most influential factor, however, actually points *against* leaving: you have not received other job opportunities while working here. This is a stabilizing signal. The model notices that you are not actively being courted by other employers, which reduces the immediate chance that you will walk out the door.\n\nStill, the two experience-related signals outweigh that stability in the overall prediction. For the organization, the practical next step is to strengthen your sense of connection to this workplace—through clearer career paths, meaningful development, and recognition—so that your experience becomes an asset to retain rather than a risk to lose. For you, it may be worth reflecting on whether your unmet expectations about promotion are driving the profile the model sees.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "failures",
-      "sign": 1,
+      "sign": -1,
       "value": 0
     },
     {
@@ -29,8 +29,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsize",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Pstatus",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Medu",
@@ -144,7 +144,7 @@
     },
     {
       "name": "absences",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

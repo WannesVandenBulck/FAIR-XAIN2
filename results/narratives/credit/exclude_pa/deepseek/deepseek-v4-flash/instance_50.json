@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 50,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:06:01.738426",
+  "status": "success",
+  "narrative": "The model assessed your application and concluded there is a 58% chance you would be a bad credit risk. Because that probability is higher than the threshold the bank uses, your loan was denied. This does not mean you are a bad person, but rather that, based on the patterns in the bank’s data, your financial profile looks risky.\n\nThe single most important factor in this decision was the amount you requested. You asked for 13,756 DM, while approved applicants typically borrow around 3,020 DM. This very large amount, by itself, drove the prediction strongly toward bad credit. It signals that you might be taking on more debt than your income and existing obligations can safely support.\n\nInterestingly, two other factors actually worked in your favor. Having no checking account and no savings usually seems negative, but among approved applicants, having no checking account is actually the most common situation, and having no savings is also fairly common. So these features pushed slightly toward good credit, not bad. The problem is that they were far too weak to offset the risk created by the large loan amount.\n\nTo improve your chances, consider requesting a smaller loan, ideally closer to the average. You might also shorten the repayment period from 60 months and build up some savings or a checking account balance over time. Reapplying with a lower amount and stronger financial buffers would give you a much better outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

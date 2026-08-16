@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "decile1",
-      "sign": 1,
-      "value": 5
-    },
-    {
-      "rank": 3,
       "name": "lsat",
       "sign": -1,
       "value": 40
+    },
+    {
+      "rank": 3,
+      "name": "decile1",
+      "sign": 1,
+      "value": 5
     }
   ],
   "features": [

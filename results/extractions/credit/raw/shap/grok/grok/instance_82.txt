@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "credit_history",
-      "sign": -1,
-      "value": 5
-    },
-    {
-      "rank": 2,
       "name": "status",
       "sign": 1,
       "value": 2
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "amount",
       "sign": 1,
       "value": 8386
+    },
+    {
+      "rank": 3,
+      "name": "credit_history",
+      "sign": -1,
+      "value": 5
     }
   ],
   "features": [

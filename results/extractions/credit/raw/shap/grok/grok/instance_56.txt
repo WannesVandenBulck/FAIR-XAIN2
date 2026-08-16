@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "savings",
-      "sign": 1,
+      "sign": -1,
       "value": 5
     },
     {
@@ -18,19 +18,19 @@
       "rank": 3,
       "name": "status",
       "sign": 1,
-      "value": 4
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "status",
       "mentioned": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "name": "duration",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 28
     },
     {
       "name": "credit_history",
@@ -44,8 +44,8 @@
     },
     {
       "name": "amount",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 7824
     },
     {
       "name": "savings",
@@ -54,8 +54,8 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "installment_rate",

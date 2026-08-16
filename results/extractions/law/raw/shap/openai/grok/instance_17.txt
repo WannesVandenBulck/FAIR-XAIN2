@@ -10,13 +10,13 @@
     },
     {
       "rank": 2,
-      "name": "ugpa",
-      "sign": 1,
+      "name": "decile1",
+      "sign": -1,
       "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "decile1",
+      "name": "ugpa",
       "sign": 1,
       "value": "NaN"
     }
@@ -39,8 +39,8 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2.0
     },
     {
       "name": "ugpa",

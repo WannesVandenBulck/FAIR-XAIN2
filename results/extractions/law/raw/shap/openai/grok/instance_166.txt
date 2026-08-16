@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "fam_inc",
+      "name": "fulltime",
       "sign": -1,
-      "value": 4.0
+      "value": 1
     }
   ],
   "features": [
@@ -50,7 +50,7 @@
     {
       "name": "fulltime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "gender",

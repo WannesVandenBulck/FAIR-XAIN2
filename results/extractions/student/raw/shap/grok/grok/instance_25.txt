@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "guardian",
       "sign": -1,
-      "value": 0
+      "value": 1
     }
   ],
   "features": [
@@ -70,7 +70,7 @@
     {
       "name": "guardian",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "traveltime",

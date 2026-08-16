@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 306,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:54:27.030125",
+  "status": "success",
+  "narrative": "Based on the model's evaluation, your application was denied because the prediction of your likelihood of failing the bar exam on the first attempt was very high, at approximately 80%. This means that for every five students with a similar profile, four are expected to fail, leaving only a small chance of success. Since the ultimate goal of legal education is passing the bar, the admission committee could not justify the risk of admitting you.\n\nThe three most influential factors in this decision are ranked here in order of importance. The factor that weighed most heavily on the prediction was your final-year academic standing. You ranked in the top tier of your first-year class, which is excellent, but by the end of your third year, your standing had fallen to the bottom tier, compared to an average fifth-tier position among admitted students. This steep decline strongly pushed the prediction toward failure.\n\nThe second most significant factor was your admissions test score. Your score of about 19 was exceptionally low when compared to the average of 37 among admitted students. This severely pushed the prediction toward a poor outcome.\n\nFinally, your first-year standing, while impressive, still contributed to the failure prediction in a smaller way because the model views any outcome other than top placement as a risk factor.\n\nTo address this, you should consider retaking the admissions test after a structured preparation course. You should also seek academic counseling to understand the decline in your grades and possibly take additional coursework to demonstrate your readiness for rigorous legal study. Reapplying with these improvements would substantially change your predicted outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

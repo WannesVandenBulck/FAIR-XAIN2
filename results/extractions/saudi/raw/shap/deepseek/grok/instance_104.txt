@@ -59,8 +59,8 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "OverTime",
@@ -99,13 +99,13 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
@@ -154,17 +154,17 @@
     },
     {
       "name": "Gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Age",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 9,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:19:05.146503",
+  "status": "success",
+  "narrative": "After reviewing your profile, the model indicates a 47% chance you may leave your job—not a certainty, but a clear risk. Because of this, the promotion was denied, as the organization prefers to invest in employees likely to remain long-term.\n\nThree factors weighed most heavily in this judgment. First, your total work history is relatively short—between one and five years. Interestingly, this actually worked in your favor. Employees with your level of experience are more common among those who stay, so the model treated it as a sign of stability rather than a reason to expect you to leave.\n\nSecond, you have received other job opportunities while working here. That is a strong warning sign. When someone has outside options, they are more likely to accept one, especially if they are dissatisfied. This pushed the prediction clearly toward you leaving.\n\nThird, you described your work-life balance as difficult. That also increased the predicted probability of leaving, because struggling to balance your personal and professional life often leads people to look for a different environment.\n\nOther details, such as not receiving a bonus, feeling you didn’t get a deserved promotion, and having no medical insurance, support this overall picture—but the three factors above were the most important.\n\nFor you, the next step is to consider what would genuinely make you stay. For the organization, improving work-life balance and ensuring that valued employees see a clear path for growth could reduce your risk of leaving and make a future promotion a safer investment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

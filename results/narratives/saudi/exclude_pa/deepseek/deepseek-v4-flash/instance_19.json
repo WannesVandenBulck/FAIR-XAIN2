@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 19,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:21:17.577610",
+  "status": "success",
+  "narrative": "Your case shows a predicted probability of leaving of 47 percent. That is close to a coin flip, and for promotion decisions, even a near-even chance of losing someone is usually enough to say no. The model sees you as likely to leave, and a few factors stand out.\n\nThe strongest signal is that you have received other job opportunities while working here. Among employees who stay, only about one in four has outside offers, so having them makes you look mobile and not fully anchored to this organization. That pushes strongly toward leaving. Your total years of experience also work against you: you have six to ten years, while most stayers have less than five. More experience combined with outside options means you have both the ability and the opportunity to move.\n\nOne factor works in your favor: you have spent six to ten years in your current organization. That length of tenure signals some commitment and stability, and among stayers, a meaningful share also have this pattern. So the model does recognize that you are not a quick quitter.\n\nStill, the external opportunities and your overall experience outweigh that loyalty signal. A person with your profile is hard to retain, and the model interprets that as too much risk for a promotion. I would recommend talking directly with your manager about your intentions and what would keep you engaged. If you are genuinely committed, say so and ask for a clear growth path. If you are considering leaving, the model is simply reflecting what your profile suggests.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 269,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:45:47.784928",
+  "status": "success",
+  "narrative": "Your law school application was denied because the model determined you have a 55.9% chance of failing the bar exam on your first attempt — meaning you were slightly more likely to fail than to pass. That risk, not your overall merit, drove the decision.\n\nThe single most influential factor was your plan to enroll part-time. Among admitted students, only about 7 in 100 study part-time, and the model treated this as the strongest warning sign pushing toward failure. This makes sense: juggling work and law school often reduces the time available for focused bar preparation.\n\nTwo other factors worked in your favor, but neither was strong enough to offset the part-time concern. Your LSAT score of 33.50 is below the admitted-student average of 37.18, yet the model still viewed it as a slight positive — a small nudge toward passing, not failing. Your undergraduate GPA of 3.30, just above the average of 3.23 for admitted students, also nudged the prediction slightly toward success.\n\nSo the picture is clear: your academic record was not what held you back. The deciding factor was the enrollment plan. The model weighed that risk more heavily than your LSAT and GPA combined, and it tipped the prediction past the failure threshold.\n\nWhat you should do next: retake the LSAT to raise your score, and if you can afford to, commit to full-time study. If part-time is unavoidable, consider schools with strong part-time bar support programs. Reapplying with a full-time plan and a higher LSAT would substantially change how the model evaluates you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

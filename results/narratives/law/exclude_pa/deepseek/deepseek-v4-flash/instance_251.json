@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 251,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:40:50.008484",
+  "status": "success",
+  "narrative": "The admission decision was based on a model that estimates the chance a student will not pass the bar exam on the first attempt. For you, that estimated chance of failure is 91.9%, which means the model sees very strong signals that you would struggle to meet the professional licensing standard. Because the law school’s goal is to admit students likely to succeed on the bar, this high risk led to the denial.\n\nThe strongest reasons for this prediction come from your academic performance during law school, not from your standardized test score. Your class rank in the third year was the single most influential factor, pushing the prediction strongly toward bar exam failure. Your first-year class rank was the second most influential factor, also pointing toward failure. For context, admitted students typically rank around the sixth decile in both years, while you are in the first decile. Being at the very bottom of your class suggests that you have had persistent difficulty mastering the legal material, and the model interprets this as a red flag for bar preparation.\n\nYour LSAT score, by contrast, actually nudged the prediction slightly toward success. At 37, you are right at the average for admitted students, so this score was not a problem. However, its positive influence was small compared with the strong negative influence of your class ranks. In short, the denial happened because your academic record, especially in the final year, outweighed your adequate entrance exam score.\n\nTo improve your chances in the future, focus on strengthening your academic performance—seek tutoring, improve study strategies, or consider repeating the third-year coursework. Raising your class standing would directly address the main reason for this denial. You might also retake the LSAT to make your application more competitive, but the more urgent step is to show that you can perform well in law school classes.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

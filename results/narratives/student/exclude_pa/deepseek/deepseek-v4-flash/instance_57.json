@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 57,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:53:52.872737",
+  "status": "success",
+  "narrative": "The model’s prediction indicates a 10% chance that you will not pass your final year. While this means there is a 90% chance you will succeed, the model still flagged you as needing extra support because that 10% risk is considered significant enough to act on. The decision is not based on your personality, health, or background characteristics like age or sex, but rather on a few specific factors in your academic and family situation.\n\nThe single most influential factor was your record of past class failures. You have no previous failures, which is excellent and strongly pushed the prediction toward you passing. The second most important factor was your own ambition to pursue higher education. Since you indicated you want to go to university, this also worked in your favor, pulling the prediction away from failing. The third factor was your mother’s education level. She completed only up to the 9th grade, which is less common among students who pass, where over 40% have mothers with higher education. This was the main element that nudged the model toward the failure side, though not by much.\n\nBecause the model sees a small but real risk, the remedial courses are not a punishment. They are a safety net. To improve further, keep your record of no failures intact by staying consistent with your study habits, and talk to your teachers about any topics you find difficult. Your desire to continue studying after school is a strong motivator, so use that as fuel. With these steps, you can turn that 10% risk into a certainty of passing.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

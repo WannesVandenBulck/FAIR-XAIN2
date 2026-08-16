@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 41,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:47:24.645801",
+  "status": "success",
+  "narrative": "Your application was not approved because the model assessing your chances of passing the bar on the first attempt placed your probability of failure at 60 percent. In other words, the evidence from your academic record suggested that there was a greater than even chance that you would not pass, making the risk too high for admission.\n\nThe single strongest factor working against you was your undergraduate grade point average. At 2.20, it is substantially below the average of 3.23 among accepted students, and this gap heavily influenced the prediction in the direction of failure. Your LSAT score also weighed against you: a score of 31, compared to the average of 37 among accepted students, further increased the estimated likelihood that you would fail the bar. Although personal characteristics were not part of the decision, these academic markers were the dominant reasons for the denial.\n\nInterestingly, one factor worked in your favor. Your class ranking in your third year placed you in the fifth decile, and this particular feature nudged the prediction toward passing the bar. However, its influence was not strong enough to overcome the negative impact of the other two factors.\n\nTo improve your chances, focus on raising your academic credentials before reapplying. Retaking the LSAT and completing additional undergraduate coursework to boost your GPA would directly address the two areas that most contributed to this decision. These steps would give the model more positive evidence the next time your application is reviewed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

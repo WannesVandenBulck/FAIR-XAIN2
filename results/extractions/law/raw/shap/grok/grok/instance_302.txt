@@ -4,7 +4,7 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "decile3",
+      "name": "decile1",
       "sign": 1,
       "value": "NaN"
     },
@@ -39,13 +39,13 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "ugpa",
-      "mentioned": 1,
-      "value": 2.2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "fulltime",

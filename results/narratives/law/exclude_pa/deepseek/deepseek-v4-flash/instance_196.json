@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 196,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:26:48.056891",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates a 51.3% chance that you would fail the bar exam on the first attempt. That is just above the tipping point: the risk of failure is slightly greater than the chance of success, and universities use that margin to make admission decisions.\n\nThe most important factor in this outcome was your class standing in your third year of study. You finished in the lowest decile, while accepted applicants typically sit near the middle of their class. Being at the very bottom in the year closest to the exam sent the strongest signal toward failure.\n\nYour undergraduate GPA, at 3.40, pushed in the opposite direction. This is above the average of 3.23 for accepted students, and the model credited you for it. So your denial was not a case of uniformly weak academics.\n\nYour first-year class standing also pushed toward failure, though less strongly than your third-year record. Just like year three, you were again in the lowest decile, while accepted students average around the middle of their class. Having both your first and third years at the very bottom outweighed the saving grace of your GPA.\n\nWhat should you do next? Since your class rank, not your GPA, drove the denial, focus on raising your academic standing before reapplying. Enroll in further coursework and earn strong grades, and consider retaking the LSAT to boost your overall profile. If you can show a clear upward trend and stronger recent performance, you directly challenge the very factor that most hurt your application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

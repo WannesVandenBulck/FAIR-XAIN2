@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 32,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:23:28.789533",
+  "status": "success",
+  "narrative": "Your application for promotion was denied because our model estimates a 52% chance you will leave the company within the coming period. In practical terms, the balance is slightly tilted toward departure rather than continued commitment, and the organization has chosen to invest its promotion budget in employees whose predicted retention is more certain.\n\nThe most influential factor in this decision was your total experience. With six to ten years in the workforce, you have more experience than the majority of employees who stay—most of whom have only one to five years. The model interprets this as a signal that you are likely to receive better opportunities elsewhere, making you more flight-prone.\n\nThe second most important factor worked in your favor: you have not received other job offers during your time here. This is consistent with employees who remain, and it reduced your leaving risk. However, it could not offset the departure risk from your experience profile.\n\nThe third contributing factor was your tenure in your current position. Having only one to five years with this organization, while possessing six to ten years total, suggests you have not yet built deep roots here. Employees who stay tend to have longer tenure or less external experience, so this combination raised your risk.\n\nTo change this outcome, consider discussing a clear career path with your manager, and the organization should address your experience-based retention risk with development plans and growth opportunities.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 86,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:33:39.515969",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates there is a 42% chance you will leave your job in the near future. Because that risk is considered too high, the decision was made to deny your promotion. This doesn't mean you are a poor performer; rather, it reflects a statistical pattern seen in employees with similar characteristics.\n\nThree factors weighed most heavily in this assessment. Your overall career experience was the single strongest signal, and it pushed the prediction toward you leaving. Having more than eleven years in the workforce is relatively rare among employees who stay, as only about one in seven of them has that much experience. Combined with the fact that you have been in your current organization for only one to five years, the model sees a pattern: a highly experienced professional who may be inclined to move on after a relatively short tenure. This second factor also nudged the prediction toward leaving.\n\nHowever, not all signals were negative. The number of training programs you have attended over the last three years was the second-most influential factor, and it worked in your favor, pushing the prediction toward staying. Participating in seven or more programs is a strong indicator of engagement and commitment, and it helps offset some of the risk.\n\nFor the organization, the message is clear: you are a valuable, engaged employee, but your long experience and short tenure create a retention risk. Addressing this might involve clearer career paths, more competitive compensation, or simply a conversation about your long-term goals. For yourself, consider raising these points proactively with your manager.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 106,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:05:00.962575",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessing your likelihood of passing the bar exam on the first attempt predicted a 59% chance of failure. This means that, based on the information available, you were considered more likely than not to struggle with the bar exam, which is a critical indicator for success in law school.\n\nThe most influential factor in this decision was your LSAT score. At 22.5, it is well below the average of 37.2 among accepted students, and this strongly pushed the prediction toward failure. The LSAT is a key measure of the academic skills needed for both law school and the bar exam, so this gap raised significant concern.\n\nThe second most important factor was your academic standing in the final year of your undergraduate studies, as represented by your decile ranking. You were in the very top decile, which is excellent, but this feature actually nudged the prediction slightly toward failure. While high performance is generally positive, in this context the model found that your class rank did not offset the risk from other factors, and it may have been interpreted as not fully indicative of bar exam readiness.\n\nYour family income, which was high, had the opposite effect—it pushed toward passing. Accepted students came mostly from upper-middle and middle incomes, so your background was not a disadvantage, but it was not enough to overcome the LSAT risk.\n\nTo improve your chances, focus on retaking the LSAT and aiming for a score closer to the accepted average. Also consider strengthening your application with evidence of bar-exam preparedness, such as commercial prep courses or additional academic work.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

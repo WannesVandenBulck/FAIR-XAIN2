@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 282,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:48:55.674505",
+  "status": "success",
+  "narrative": "The model estimates that you have a 74.3% chance of failing the bar exam on your first attempt. This is not a statement about your intelligence or worth; rather, the law school uses this probability as a measure of academic risk, and that risk outweighed the rest of your application.\n\nThe strongest factor driving this decision was your class standing at the end of your third year. You ranked in the first decile, meaning you were among the lowest-performing students in your cohort. That is a very strong signal, especially because admitted students typically sit around the sixth decile. The second most influential factor was your first-year ranking, which was also in the first decile against an average of about the sixth. Seeing low performance in both the first and third years suggests a consistent pattern of struggle relative to your peers, and the model treats that as a major concern.\n\nInterestingly, your LSAT score—while still below the average of 37—actually nudged the prediction slightly in the direction of passing. It was not enough to overcome the strong signals from your academic rankings, but it does show that your standardized-test performance was not the main problem.\n\nTo move forward, focus on strengthening the areas that hurt you most. Consider retaking the LSAT to raise your score, and seek opportunities to demonstrate academic ability, such as completing a rigorous post-baccalaureate program or gaining legal-settings experience. Reaching out to the admissions office for specific feedback could also clarify what would make your profile competitive in the future.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

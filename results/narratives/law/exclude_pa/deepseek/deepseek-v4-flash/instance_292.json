@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 292,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:51:37.753066",
+  "status": "success",
+  "narrative": "Your likelihood of failing the bar exam on the first attempt was estimated at 90.8%, meaning that if you were admitted to the law program, you would face an extremely high risk of not passing the exam required for legal practice. Because the school aims to admit students who will succeed professionally, this risk was the central reason for your denial.\n\nLooking at why the model reached this conclusion, the strongest influence was your class ranking in your third year of study. You placed in the bottom decile, whereas accepted students typically sit near the middle of the distribution, around the sixth decile. This very low standing in your senior-level coursework suggests that your performance was not improving and that you were struggling with advanced legal material. Your first-year class ranking also pushed strongly toward the failure prediction—again, being in the bottom decile, well below the average among admitted students, signaled serious academic difficulties from the very beginning. These two measures of your law school performance carried the most weight, together painting a picture of consistent struggle rather than a temporary setback.\n\nYour LSAT score of 27 also contributed, though less strongly than your class ranks. Since the typical admitted student scored around 37, your score was significantly lower and pointed toward challenges with the standardized reasoning skills the bar exam demands. While your family income and full-time enrollment status were noted, they had no meaningful role in this decision.\n\nThe path forward is clear: invest substantial time in LSAT preparation to raise your score meaningfully, and if you are enrolled in additional coursework, seek academic support such as tutoring or structured study groups to lift your grades. After demonstrating stronger results in these areas, you would be in a far better position to reapply successfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

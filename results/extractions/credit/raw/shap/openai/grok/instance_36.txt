@@ -6,31 +6,31 @@
       "rank": 1,
       "name": "amount",
       "sign": 1,
-      "value": "NaN"
+      "value": 15000
     },
     {
       "rank": 2,
       "name": "duration",
       "sign": 1,
-      "value": "NaN"
+      "value": 48
     },
     {
       "rank": 3,
       "name": "status",
       "sign": 1,
-      "value": "NaN"
+      "value": 2
     }
   ],
   "features": [
     {
       "name": "status",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "name": "duration",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 48
     },
     {
       "name": "credit_history",
@@ -45,7 +45,7 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 15000
     },
     {
       "name": "savings",

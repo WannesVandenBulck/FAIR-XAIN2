@@ -16,8 +16,8 @@
     },
     {
       "rank": 3,
-      "name": "failures",
-      "sign": -1,
+      "name": "famsize",
+      "sign": 1,
       "value": 0
     }
   ],
@@ -34,8 +34,8 @@
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
@@ -89,7 +89,7 @@
     },
     {
       "name": "famsup",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "name": "famrel",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

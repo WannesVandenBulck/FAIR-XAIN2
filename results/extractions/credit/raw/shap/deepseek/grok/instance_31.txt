@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
-      "sign": 1,
-      "value": 2
-    },
-    {
-      "rank": 2,
       "name": "credit_history",
       "sign": -1,
       "value": 5
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "duration",
       "sign": -1,
       "value": 11
+    },
+    {
+      "rank": 3,
+      "name": "status",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
@@ -39,17 +39,17 @@
     },
     {
       "name": "purpose",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "amount",
-      "mentioned": 1,
-      "value": 1322
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "savings",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -59,8 +59,8 @@
     },
     {
       "name": "installment_rate",
-      "mentioned": 1,
-      "value": 4
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "other_debtors",

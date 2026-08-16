@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "failures",
-      "sign": -1,
-      "value": 0
-    },
-    {
-      "rank": 3,
       "name": "studytime",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "failures",
+      "sign": -1,
+      "value": 0
     }
   ],
   "features": [

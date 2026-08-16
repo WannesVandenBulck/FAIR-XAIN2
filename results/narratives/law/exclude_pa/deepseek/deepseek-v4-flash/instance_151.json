@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 151,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:14:50.889387",
+  "status": "success",
+  "narrative": "The model assigned a 50 percent probability that you would fail the bar exam on the first attempt. At that level, the outcome is essentially a coin flip, and for a competitive law school that risk is too high, so the application was denied.\n\nThe most important factor in the model's judgment was your third-year class standing. You ended Year 3 in the third decile of your school, while the average admitted applicant stood around the sixth decile. In other words, your rank was measurably weaker than the typical successful applicant, and the model treated this as the strongest signal pointing toward failure. This one concern outweighed the two factors that worked in your favor.\n\nYour part-time enrollment actually nudged the prediction toward passing, even though part-time students make up only a small fraction of admitted students. It was a mild positive but not enough to offset your third-year rank. Likewise, your first-year class standing, at the sixth decile, matched the admitted-student average exactly and also nudged slightly toward passing. But these two supportive factors were far weaker than the powerful negative pull of your third-year performance.\n\nYou can act before applying again. Focus on strengthening your grades or retaking key courses to show an upward trend, because that is the factor the model weighed most heavily. A stronger LSAT score and a brief explanation of your third-year circumstances would also help. Since poor progress in your final year was the decisive concern, demonstrating real improvement there is the clearest path to a different outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

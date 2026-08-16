@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 50,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:27:08.307453",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates there is an 85% chance you will leave your job in the near future. Because this risk is considered very high, the decision was made to deny you a promotion at this time. In other words, the promotion is not a reflection of your past performance, but rather the company’s uncertainty about whether you will stay long enough to make that investment worthwhile.\n\nThe strongest factor driving this prediction is the fact that you have received outside job offers while working here. Among employees who are predicted to stay, only about one in four has had such offers, so your situation stands out as an active sign you might leave. Second, your total work experience of six to ten years makes you highly marketable. Many stayers have only one to five years of experience, which makes them less mobile. At the same time, your tenure specifically at this organization is still relatively short—only one to five years—compared to those who have built eleven or more years of history here. This combination suggests you have valuable skills and options elsewhere, but you have not yet developed the deep roots that often keep people committed to a single employer.\n\nGiven this, the organization should see your outside offers as a signal, not a threat. It would be wise to have an honest conversation with you about what would make you stay—whether that is career growth, recognition, or a clearer promotion path. For you, the next step is to reflect on whether this company can offer what you truly want before deciding to accept another opportunity.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

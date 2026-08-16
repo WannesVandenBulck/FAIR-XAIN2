@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 262,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:43:39.950503",
+  "status": "success",
+  "narrative": "A review of your application produced a prediction with meaningful consequences: the model estimates that you have a 63.5% chance of failing the bar exam on your first attempt. Because that risk is substantial—more than one in two—the university concluded that accepting you would very likely set you up for an unsuccessful outcome, and your application was denied.\n\nThe most important factor driving this prediction was your academic standing in the third year. You finished in the very bottom decile of your class, while students admitted to comparable programs typically sit around the sixth decile. This pattern shows that, even with time to improve, your academic performance remained at the lowest level, and the model weighed this as the strongest warning sign pointing toward bar exam failure.\n\nYour first-year standing also contributed, though with less force. You were in the second-lowest decile, again far below the typical accepted student’s sixth-decile position. This early performance, combined with the third-year result, presented a consistent picture of struggling grades.\n\nThe one factor that worked in your favor was your LSAT score. At 36, it is just below the 37.18 average, and the model treated it as mildly supportive, nudging toward passing. However, this positive signal was outweighed by the two academic-standing signals.\n\nTo strengthen a future application, focus on raising your grades substantially, consider retaking the LSAT, and seek structured bar-exam preparation or additional coursework that demonstrates your ability to succeed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 92,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:34:54.433129",
+  "status": "success",
+  "narrative": "Based on the available information, you are being denied a promotion because the model predicts you have a 60% chance of leaving your job in the near future. In practical terms, this means that, according to the data, you are more likely to resign than to remain, making it a significant risk for the organization to invest additional responsibility and resources in you at this time.\n\nThe most influential factor in this prediction is your total career experience. With six to ten years in the workforce, you actually have more experience than roughly half of the employees who are predicted to stay, who typically have only one to five years. This experience level works against you here, as it suggests you have valuable, marketable skills that could easily attract other employers, pushing the prediction toward departure.\n\nInterestingly, two other important factors work in your favor. Your six to ten years of tenure specifically within your current organization points toward loyalty and staying, as does the fact that you have not received other outside job offers while working here. These factors suggest stability and reduce the overall risk.\n\nHowever, they are not enough to outweigh the impact of your broader experience. Combined with other signals in your profile, the balance still tips toward leaving.\n\nFor you, the key takeaway is to openly discuss your career intentions and long-term commitment with your manager. For the organization, offering a clear development path and retention incentives could help shift this prediction and make a future promotion viable.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

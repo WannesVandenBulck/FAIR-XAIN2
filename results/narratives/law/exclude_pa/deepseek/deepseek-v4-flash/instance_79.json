@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 79,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:57:01.194121",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates a 66.6% chance, roughly two in three, that you would not pass the bar exam on the first attempt. That risk was considered too high to accept. The most important reason was your class standing in the third year of your undergraduate studies. Being in the lowest decile puts you in the weakest group, while most admitted students ranked around the sixth decile. This strongly pushed the prediction toward exam failure. The next most influential factor actually worked in your favor: your undergraduate GPA of 3.00, though a bit below the 3.23 average of admitted students, was still a reasonable score and pushed toward passing. However, that positive influence was not strong enough to overcome the concern created by your class rank. The third major factor was your first-year class standing, which again placed you in the lowest decile compared to most admitted students around the sixth decile. Having such low relative performance in both your first and third years signals that you may struggle in a high-pressure exam like the bar. The model essentially sees a pattern of weak academic positioning over time, despite a decent GPA. To strengthen your next application, focus on improving your actual academic performance: retake challenging courses, work on study habits that improve your class rank, and prepare seriously for the LSAT. A higher LSAT and evidence of stronger academic progress could offset the poor class standing and reduce the predicted risk in a future review.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

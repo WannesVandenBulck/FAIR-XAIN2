@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 31,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:23:19.876713",
+  "status": "success",
+  "narrative": "Based on your profile, the model sees an 84% chance that you will leave your job. That is why the promotion was denied—not as a judgment of your past performance, but because the strongest signals in your situation point toward you moving on.\n\nThe single most powerful factor is that you have received other job opportunities while working here. Among employees who stay, only about one in four receive such offers, so this strongly pushes the prediction toward you leaving. It tells the model that you are actively attractive to other employers and likely considering alternatives.\n\nYour overall experience also matters. You have six to ten years in your field, whereas most loyal employees have fewer than six. At this stage, you have enough experience to be highly marketable, which increases your chances of departure.\n\nFinally, your sector plays a role. You work in a sector outside of medicine, education, or finance, which is less common among employees who remain. The model sees this as an additional sign that you are not anchored to this specific industry or organization.\n\nThese three factors together outweigh the positive aspects of your profile, such as your commitment and satisfaction. To change this outcome, the organization should look at why you are seeking other opportunities and whether denying promotion pushes you further away. You, in turn, should reflect on whether this decision signals a lack of growth here, and whether a conversation about your future could address both your career goals and the company’s concerns about retention.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

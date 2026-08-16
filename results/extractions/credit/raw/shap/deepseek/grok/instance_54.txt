@@ -39,13 +39,13 @@
     },
     {
       "name": "purpose",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "amount",
-      "mentioned": 1,
-      "value": 1778
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "savings",

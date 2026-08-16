@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 198,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:27:12.048458",
+  "status": "success",
+  "narrative": "Your application was denied because a model that predicts first-time bar exam outcomes indicated you have a 56% chance of failing. In other words, based on the patterns in the data, you were assessed as more likely to fail the bar than to pass, and the law school judged that risk too high for admission.\n\nThe two biggest factors pushing your prediction toward failure were your enrollment status and your undergraduate grades. You planned to attend law school part-time, while the vast majority of accepted applicants were full-time. The model saw part-time status as a strong signal of difficulty managing the demanding curriculum and bar preparation, making failure more likely. Your undergraduate GPA of 2.40 is also significantly below the average of 3.23 among accepted students. This matters because it suggests weaker academic preparation for the rigorous coursework that underpins bar success. These two factors outweighed everything else in the decision.\n\nYour family income actually worked in your favor, but not enough to overcome the other concerns. Coming from an upper-middle-income background (the most common group among admitted students) slightly lowered your predicted failure risk, likely because financial stability reduces some external pressures. However, its positive effect was smaller than the negative impact of your part-time status and low GPA.\n\nTo improve your chances, consider strengthening the areas that drove this decision. Retaking courses or completing a post-baccalaureate program to raise your GPA would help, and applying as a full-time student could remove the largest risk factor. With those changes, your profile would look far more like those who succeed on their first bar attempt.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

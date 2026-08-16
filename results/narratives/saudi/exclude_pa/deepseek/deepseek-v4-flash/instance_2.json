@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 2,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:17:43.769884",
+  "status": "success",
+  "narrative": "The model's prediction indicates a 62 percent chance that you will leave your job, and this is the reason your promotion was not approved. In plain terms, the model weighed the signals in your profile and found more pointing toward departure than toward staying.\n\nThe strongest factor was that you have received other job opportunities while working in your current position. This is uncommon among employees who stay: only about a quarter of them report receiving such offers. For the model, this is a clear sign that you are attractive to other employers and may already be considering one of them.\n\nYour length of service in the current organization worked in your favor. Having spent six to ten years in one place signals loyalty and stability, pushing the prediction back toward staying. This was the one factor among the three that supported your staying.\n\nHowever, your total years of experience across all jobs, also six to ten years, worked against you. At this career stage, employees tend to have more options, more confidence, and more demand from the market. On its own that is not remarkable, but combined with outside offers it creates a strong pull away from your current employer.\n\nThe next step should be an honest conversation. If you intend to stay, say so clearly, because the model cannot see your intentions. If the organization wants to keep you, it should recognize that denying the promotion may be exactly the reason you leave. Both sides should address the root cause before it becomes a self-fulfilling prophecy.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

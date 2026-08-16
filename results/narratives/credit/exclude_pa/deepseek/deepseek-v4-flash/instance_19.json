@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 19,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:59:17.706764",
+  "status": "success",
+  "narrative": "Based on the bank’s risk assessment, your loan application was denied because you were classified as a bad credit risk. The model estimates your chance of defaulting at 43%—close to a coin flip, and too high for the bank to accept.\n\nThree factors dominated this decision. The strongest was your loan term. At 10 months, it is much shorter than the average approved loan of about 19 months. Shorter loans generally carry less risk, so this worked in your favor.\n\nThe second factor hurt you: your checking account balance. You had between 0 and 200 DM, while many approved applicants had no checking account or a larger balance. A very thin balance signals limited financial flexibility, and this pushed the prediction strongly toward bad credit.\n\nThe third factor was the loan amount. You requested 1,521 DM, about half the average approved amount of 3,020 DM. That smaller amount lowered your risk, helping your case.\n\nIn the end, the positive effects of the short term and lower amount were not enough to offset the concern raised by your low checking account balance. Your overall risk stayed high, leading to the denial.\n\nTo improve your chances next time, focus on building a small savings buffer and keeping it in your checking account. Continue paying your existing credit on time, and wait until your finances look stronger before reapplying. If possible, request a modest amount over a short period again, since those factors helped you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

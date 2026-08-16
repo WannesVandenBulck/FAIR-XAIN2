@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "reason",
-      "sign": -1,
-      "value": 2
-    },
-    {
-      "rank": 3,
       "name": "failures",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "reason",
+      "sign": -1,
+      "value": 2
     }
   ],
   "features": [

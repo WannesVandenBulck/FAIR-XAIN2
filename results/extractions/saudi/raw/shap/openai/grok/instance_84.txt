@@ -10,13 +10,13 @@
     },
     {
       "rank": 2,
-      "name": "Years_experience_lastorganization",
+      "name": "Job_Opportunities",
       "sign": 1,
-      "value": 0
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "Job_Opportunities",
+      "name": "Sector",
       "sign": 1,
       "value": 1
     }
@@ -34,8 +34,8 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",

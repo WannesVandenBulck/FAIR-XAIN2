@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 42,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:04:24.150081",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model assesses your likelihood of becoming a bad credit risk at 32%. This means that, based on your profile, the bank expects slightly fewer than one in three applicants with similar characteristics to default, which is a level of risk the bank is not willing to accept.\n\nThe single most influential factor in this decision, and the one that pushed hardest toward denial, was your checking account status. With a balance between 0 and 200 Deutschmarks, you fall into a category that only represents about 18% of approved applicants, while most approved applicants have no checking account at all. This suggests a limited financial buffer and was the strongest signal of risk in your case.\n\nTwo other factors worked in your favor, but they could not outweigh that concern. The credit amount you requested—3,915 DM—was higher than the average of about 3,020 DM, yet it actually had a favorable influence relative to other applicants, likely because it aligns with your stated purpose. Similarly, the fact that you requested the loan for a business purpose was seen positively: only about 9% of approved loans are for business, but the model recognized this as a constructive, income-generating use.\n\nTo improve your chances in the future, focus on strengthening your checking account balance so it moves into a healthier range, and consider reducing the requested amount. Once you demonstrate greater financial stability, you can reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

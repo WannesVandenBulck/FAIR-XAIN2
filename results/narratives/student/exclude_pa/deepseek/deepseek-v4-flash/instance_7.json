@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 7,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:38:55.784600",
+  "status": "success",
+  "narrative": "The prediction indicates a 31% chance that you will not pass your final year if things continue as they are. That is roughly a one-in-three risk, which is why the school is requiring remedial courses as a safety net. The strongest signal in your profile actually works in your favor: you chose this school because of its reputation, and students who did pass were less likely to have chosen it for that reason. That choice alone pushes you toward passing, showing you are motivated by the school’s quality.\n\nHowever, two other factors override that advantage. You want to pursue higher education, and every student who passed also wanted that, so this expectation is normal for successful students. But in your case, it is not translating into the right study habits. More importantly, you have failed three previous classes, while students who passed had no prior failures on average. That history is the clearest warning sign: it suggests gaps in foundations or study routines that need to be addressed before the final year.\n\nYour study time is moderate at two to five hours weekly, and you have family support, but past failures and the gap between your higher education ambition and your current performance are what tip the prediction toward failing. The remedial courses are not a punishment; they are a direct response to that pattern. Focus on rebuilding core concepts from the subjects you failed, and make a concrete study schedule that matches your goal of going to university. With extra support now, you can turn that 31% risk into a strong pass.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

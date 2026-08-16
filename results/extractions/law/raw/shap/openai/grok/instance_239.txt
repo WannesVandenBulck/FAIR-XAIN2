@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "fulltime",
+      "name": "decile1",
       "sign": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "lsat",
+      "name": "fulltime",
       "sign": 1,
-      "value": "NaN"
+      "value": 2
     }
   ],
   "features": [

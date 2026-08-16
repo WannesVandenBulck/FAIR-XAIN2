@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 58,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:07:43.847488",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, your application presents a 30% probability of becoming a bad credit risk. That means that out of every 100 applicants with a similar profile, about 30 would be expected to default – a rate high enough that the bank cannot approve the loan. The denial is not because of your personal character, but because the combination of factors in your financial history points to elevated risk.\n\nThe strongest influences on this decision were your checking account status, the length of the loan you requested, and your employment stability. Your checking account situation was the most significant risk factor working against you. Having a negative balance in your checking account is a clear warning sign for lenders, because it suggests limited cash flow or difficulty managing everyday finances. In fact, only about 13% of approved applicants had a negative balance, so this stood out as a major concern.\n\nOn the positive side, the relatively short loan duration worked in your favor. You requested 9 months, while the typical approved applicant asked for about 19 months, meaning the bank would be exposed for a shorter period. Similarly, your employment stability of 4 to 7 years is a good sign, showing consistency that reduces risk. Both of these factors helped your case, but they were not enough to overcome the negative signal from your checking account.\n\nTo improve your chances in the future, focus on bringing your checking account into a positive balance and maintaining it for several months. Reapplying after demonstrating stable finances, while keeping your loan duration and employment situation strong, would likely lead to a different outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

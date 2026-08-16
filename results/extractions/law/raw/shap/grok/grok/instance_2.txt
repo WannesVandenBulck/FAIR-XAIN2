@@ -4,19 +4,19 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "decile1",
+      "name": "decile3",
       "sign": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "rank": 2,
-      "name": "decile3",
-      "sign": 1,
-      "value": 1
+      "name": "lsat",
+      "sign": -1,
+      "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "lsat",
+      "name": "ugpa",
       "sign": -1,
       "value": "NaN"
     }
@@ -25,7 +25,7 @@
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "lsat",
@@ -34,8 +34,8 @@
     },
     {
       "name": "decile1",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "fam_inc",

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 10,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:57:39.736513",
+  "status": "success",
+  "narrative": "Based on the information we have about your application, the model estimates there is a 34% chance you would be a bad credit risk—meaning there is a meaningful chance you might struggle to repay the loan. While that number is below 50%, it is still high enough that the bank does not feel comfortable approving your request.\n\nThe single most important factor in this decision was the status of your checking account. Your account is currently overdrawn, with a balance below zero. This is a significant warning sign because only about 12.6% of approved applicants had a negative balance at the time of application. Many approved applicants either had no checking account or maintained a positive balance. This factor alone pushed strongly toward a denial.\n\nThere were, however, two factors that worked in your favor. Your installment rate—the percentage of your disposable income that goes toward monthly loan payments—is 2%, which is actually lower than the average of about 3% among approved applicants. This suggests the requested payment would be manageable for you. Additionally, the purpose of the loan, a used car, is a common and reasonable request that also counted slightly in your favor.\n\nUnfortunately, the positive influence of these two factors was not enough to outweigh the concern raised by your overdrawn account.\n\nTo improve your chances in the future, focus on bringing your checking account into positive territory and maintaining that balance for several months. If you can reapply later with a healthier account status, the risk assessment would likely be much more favorable.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

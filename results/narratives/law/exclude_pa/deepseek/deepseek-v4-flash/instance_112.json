@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 112,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:06:03.220830",
+  "status": "success",
+  "narrative": "The decision to deny your application rests on a prediction that you would have a 54.7 percent chance of failing the bar exam on your first attempt. In other words, the model saw more risk than promise in your law school record, and that risk is what led to the rejection.\n\nThe strongest factor working against you was your class standing in the third year of your law studies. Students admitted in the past typically sat in the sixth decile by that point, while you ended in the first decile, the very bottom. A steep decline or persistently weak performance in the final year signals that you may not have mastered the material tested on the bar, and this moved the prediction strongly toward failure.\n\nYour first-year class standing also pushed in the same direction. With you in the first decile against an accepted-student average near the sixth, early struggles appeared to set a pattern that continued into year three.\n\nHowever, your undergraduate record worked in your favor. Your GPA of 3.80 is well above the 3.23 average among admitted students, suggesting you once possessed strong academic ability. This pulled the prediction toward passing, but it was not enough to offset the two class-rank indicators.\n\nTo improve your chances, you should address the root cause of your law school performance. Consider retaking your most difficult courses, seeking tutoring, and building a structured bar-exam study plan well in advance. If you reapply, focus on showing that your recent academic record no longer mirrors that earlier pattern. A transcript with upward momentum will do more to reassure an admissions committee than any single test score.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 71,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:31:00.673655",
+  "status": "success",
+  "narrative": "We understand this decision may feel disappointing, but the model’s 71% probability of you leaving is driven by a few clear patterns. The strongest factor is your total career experience. With over 11 years in the workforce, you have far more experience than most employees who stay—among those predicted to stay, only about 15% have this much overall experience. Long experience often means greater mobility and more outside options, so the model sees this as a strong sign you may move on.\n\nThe second most important factor actually works in your favor: you have not received other job opportunities while working here. This is a stabilizing signal, and it lowers the risk of leaving compared to someone actively being courted by other employers. Without this, your predicted probability would be even higher.\n\nThe third factor pulls in the opposite direction: your tenure in your current organization is only 1–5 years. While that is common among stayers, the combination is what matters. Having decades of experience but only a few years in this job suggests you may still be in an exploratory or dissatisfied phase, especially when many of your other responses—like low recognition, absence of bonuses, and difficult work–life balance—point to unmet expectations.\n\nThese top three factors alone outweigh the protective effect of not having outside offers. As a next step, the organization should consider whether engaging you with clearer growth paths, recognition, and better support could reduce your turnover risk, and you may want to communicate your career aspirations and concerns directly with your manager.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

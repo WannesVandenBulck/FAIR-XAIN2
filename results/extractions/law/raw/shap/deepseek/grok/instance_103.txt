@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "lsat",
       "sign": -1,
-      "value": 30.5
+      "value": "NaN"
     }
   ],
   "features": [
@@ -30,7 +30,7 @@
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": 30.5
+      "value": "NaN"
     },
     {
       "name": "decile1",

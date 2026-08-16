@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 93,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:15:40.693912",
+  "status": "success",
+  "narrative": "The model that reviewed your application estimated a 42 percent probability that you would fail to repay the loan. That means roughly four out of ten borrowers with a similar profile default, and this exceeds the bank's acceptable risk level, so your request was denied.\n\nThe most important factor in this decision was your credit history. You have a rating showing critical or other existing credits. Interestingly, this did not count against you — in fact, it nudged the assessment slightly toward the good-credit side, since one third of previously approved applicants have a comparable history. The second most influential factor was the amount you requested. At 4,249 DM, it is well above the average of about 3,020 DM for approved loans, yet the model treated this in context as a mild positive rather than a deciding negative.\n\nThe factor that most clearly pushed toward denial was the balance in your checking account. With only between 0 and 200 DM available, you fall into a category held by fewer than one in five approved borrowers. A thin checking balance signals limited financial buffer, and the model saw this as the main warning sign pushing your risk upward.\n\nWhat you can do now: build up your checking account savings to demonstrate a larger buffer, consider requesting a smaller loan amount or a shorter repayment period, and reapply once your current credits are paid down and your history strengthens.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

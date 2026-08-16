@@ -4,28 +4,28 @@
   "most_important_features": [
     {
       "rank": 1,
+      "name": "failures",
+      "sign": -1,
+      "value": 0
+    },
+    {
+      "rank": 2,
       "name": "Medu",
       "sign": 1,
       "value": 2
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "higher",
       "sign": -1,
-      "value": 0
-    },
-    {
-      "rank": 3,
-      "name": "schoolsup",
-      "sign": 1,
       "value": 0
     }
   ],
   "features": [
     {
       "name": "failures",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "higher",
@@ -34,8 +34,8 @@
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
@@ -79,7 +79,7 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

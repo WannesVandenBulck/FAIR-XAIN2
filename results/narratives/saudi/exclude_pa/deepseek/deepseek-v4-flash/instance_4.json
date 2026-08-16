@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 4,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:18:16.621094",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 85%, which means the model sees you as very likely to resign in the near future. Because of that high risk, the organization decided not to invest in promoting you.\n\nThe most important reason is your total experience of 6 to 10 years. Among employees predicted to stay, half have only 1 to 5 years of experience, while your level is less common—about a third. With more experience, you become more attractive to other employers, which pushes the prediction strongly toward leaving.\n\nThe second factor is that you have received other job opportunities while working here. Only about 23% of those who stay had such offers. This tells the model that you are actively being recruited or exploring alternatives, which further increases the chance you will leave.\n\nThe third factor is your time in this organization, which is only 1 to 5 years. This actually pushes slightly toward staying, because shorter tenure suggests you haven’t yet become restless or burned out. However, this positive effect is not enough to offset the first two signals.\n\nIn short, the model sees a highly experienced, externally sought-after employee who hasn’t stayed long enough to be fully anchored. For next steps, you should clarify what you want from your career and discuss a clear promotion and growth path with your employer. The organization, in turn, should consider retention efforts—such as why you might stay, what would make you feel valued, and whether a counteroffer is warranted. This denial is not about your past performance; it is a risk assessment based on patterns of employees who leave.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

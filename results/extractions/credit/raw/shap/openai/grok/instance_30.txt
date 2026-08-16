@@ -11,13 +11,13 @@
     {
       "rank": 2,
       "name": "purpose",
-      "sign": 1,
+      "sign": -1,
       "value": 3
     },
     {
       "rank": 3,
       "name": "savings",
-      "sign": 1,
+      "sign": -1,
       "value": 5
     }
   ],

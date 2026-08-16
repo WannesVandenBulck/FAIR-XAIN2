@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 40,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:49:14.539781",
+  "status": "success",
+  "narrative": "Your situation is serious but not hopeless. The model estimates a 42 percent chance that you will not finish the year successfully—a high enough risk to require extra courses. The single biggest reason is your own goal: you said you do not want to pursue higher education. Every student who passed in the comparison group did want to continue studying, so this stands out as a red flag. Wanting further education often gives students a reason to push through difficulties, and without that motivation, the model sees a much higher chance of failing.\n\nInterestingly, the other two important factors actually worked in your favor. You have no past class failures, which is exactly what most successful students show. That history suggests you are capable, but it was not enough to offset the lack of ambition. Also, while your commute of thirty to sixty minutes is longer than what most passing students have, the model treated this as a slight positive factor, meaning it nudged you toward passing rather than failing. So your travel time is not something to worry about.\n\nWhat should you do now? Think seriously about what you want after school, even if university is not your plan. Find a concrete goal—a job, a skill, or a project—that makes your courses feel relevant. Talk to a counselor about how this year connects to that goal. Since you have no past failures, you have proven you can succeed; you just need a reason to engage with the work.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

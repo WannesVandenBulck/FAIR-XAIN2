@@ -4,19 +4,19 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "failures",
-      "sign": -1,
-      "value": 0
+      "name": "famsize",
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 2,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
+      "name": "Medu",
+      "sign": 1,
+      "value": 3
     },
     {
       "rank": 3,
-      "name": "famsize",
+      "name": "studytime",
       "sign": 1,
       "value": 1
     }
@@ -24,13 +24,13 @@
   "features": [
     {
       "name": "failures",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "higher",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsize",
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "Fedu",

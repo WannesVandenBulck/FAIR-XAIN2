@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 51,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:52:38.201382",
+  "status": "success",
+  "narrative": "Your final-year support plan is based on a model’s prediction that, even though your chance of failing is 11%, you still fall into the group the school wants to help. In other words, the model does not say failure is likely; it says the risk is real enough that extra courses are worthwhile.\n\nThe three strongest influences in your case were all positive. First, you have no past class failures, which matches the average of students who passed; this strongly pulled you toward passing. Second, you described your family relationships as good, a quality most passing students also reported; this also supported you. Third, you want higher education, and every passing student in the data wanted this, so it was another clear protective signal.\n\nBecause these three factors dominated the explanation, they kept your failure probability down to 11%. Yet the model still placed you on the remedial track because it compares many details at once and is cautious: when an 11% chance of failing is left unaddressed, it can cost you the year. Being required to take extra courses is not a judgment that you are already failing; it is a safety net.\n\nUse this as a warning rather than a verdict. Keep your attendance and study routine consistent, talk to teachers early if any subject feels difficult, and continue leaning on your family. The positive factors in your profile are strong, but they only help if you turn them into daily habits. With consistent effort, the small risk the model detected can be reduced even further.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

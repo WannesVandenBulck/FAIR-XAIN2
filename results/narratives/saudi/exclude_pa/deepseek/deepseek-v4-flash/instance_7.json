@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 7,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:18:44.531554",
+  "status": "success",
+  "narrative": "The model indicates a 75% probability that you will leave your job, which is why the promotion was denied. This is not a judgment of your performance, but a prediction based on patterns in your profile. The strongest signal comes from the fact that you have received other job opportunities while working here—something only about a quarter of employees who stay have experienced. This suggests you are actively marketable and likely have alternatives, which strongly pushes the prediction toward you departing.\n\nYour overall experience of 6 to 10 years adds to this. At this career stage, with a bachelor’s degree and a financial sector salary above 16,000 SAR, you likely possess skills that are in demand, making the jump to another employer easier. This again points toward leaving.\n\nHowever, your tenure in your current organization—also 6 to 10 years—works in the opposite direction. It indicates a degree of loyalty and accumulated investment in this workplace, which should reduce turnover risk. That said, this stabilizing factor is not enough to outweigh the two stronger signals above, especially when combined with the fact that you feel you have not received the promotion you deserve.\n\nFor the organization, the practical takeaway is to address your external options head-on—through career development conversations, retention incentives, or new challenges. For you, consider whether this promotion denial is the key reason you might leave, and what could make staying an active choice.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

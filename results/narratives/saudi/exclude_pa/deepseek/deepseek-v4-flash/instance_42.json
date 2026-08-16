@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 42,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:25:14.917955",
+  "status": "success",
+  "narrative": "Because the model sees a 53% chance that you will leave your job in the near future, the promotion was denied—at this probability, the risk of investing in someone who may soon depart is simply too high. Three key factors drove this decision, listed in order of importance.\n\nThe single strongest signal was that you have received other job opportunities while working here. This is significant because only about 23% of employees who were predicted to stay received such offers. From the model's perspective, having outside options strongly suggests you are actively considering leaving, and that alone pushed the prediction firmly toward departure.\n\nYour total career experience was the second most influential factor. With more than 11 years in your field, you belong to a small group—only about 15% of predicted stayers have this much experience. Highly experienced professionals like you are more mobile and more attractive to other employers, which the model interpreted as another push toward leaving.\n\nHowever, the third factor worked in your favor. You have spent 6–10 years in your current organization, a sign of loyalty and established roots. While most predicted stayers have only 1–5 years of tenure at their current job, your longer commitment here pulled the prediction back somewhat toward staying. It was not enough, though, to overcome the two stronger forces.\n\nGiven this result, you might consider discussing your career intentions openly with leadership. If you are genuinely committed to staying, clarifying that—and asking what would make a promotion possible—could address the model's main concern.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

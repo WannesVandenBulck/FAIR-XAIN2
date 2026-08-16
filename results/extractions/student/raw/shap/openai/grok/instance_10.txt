@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "studytime",
+      "name": "famsize",
       "sign": 1,
-      "value": 1
+      "value": 0
     },
     {
       "rank": 2,
-      "name": "Fedu",
+      "name": "Pstatus",
       "sign": 1,
-      "value": 3
+      "value": 0
     },
     {
       "rank": 3,
-      "name": "health",
-      "sign": 1,
-      "value": 2
+      "name": "Medu",
+      "sign": -1,
+      "value": 4
     }
   ],
   "features": [
@@ -29,28 +29,28 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "Fedu",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Mjob",
@@ -80,11 +80,11 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -99,7 +99,7 @@
     },
     {
       "name": "activities",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -144,7 +144,7 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

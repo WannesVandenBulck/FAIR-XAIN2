@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "failures",
+      "name": "famsup",
       "sign": -1,
-      "value": 0
+      "value": 1
     }
   ],
   "features": [
@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",

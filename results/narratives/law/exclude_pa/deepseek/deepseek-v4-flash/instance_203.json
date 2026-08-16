@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 203,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:28:05.110802",
+  "status": "success",
+  "narrative": "The model estimated that you had a 56.7% chance of failing the bar exam on the first attempt. Because that means your chances of failure were slightly higher than your chances of passing, your application was denied.\n\nThe single most important factor in the decision was your class standing at the end of your third year. You were in the second decile of your law school class, but this factor was the largest influence in the model and it pushed the prediction toward failure. The second most influential factor was your LSAT score. At 39, your score was above the average of accepted students, who averaged about 37.2, and this worked in your favor, pushing toward passing. Your undergraduate GPA was the third factor. At 3.10, it was slightly below the accepted-student average of 3.23, yet in the model it still pushed modestly toward passing rather than failing.\n\nIn short, your LSAT score and undergraduate GPA helped you, but the model gave more weight to your third-year class rank, and that outweighed the positives. If you reapply or appeal, focus on your academic performance in the years that matter most to the model. Speak with your prelaw advisor about how your third-year standing was interpreted and whether updated grades, a supplemental explanation, or additional coursework can reduce that concern. Keep your LSAT strong and think carefully about how you plan to prepare for the bar exam, since the model ultimately measures first-attempt passing risk. A clear bar preparation plan could help demonstrate that your earlier class standing will not define your outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

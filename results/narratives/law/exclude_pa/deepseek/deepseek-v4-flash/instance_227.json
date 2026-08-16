@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 227,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:35:59.343096",
+  "status": "success",
+  "narrative": "The model's prediction suggests you have a 59 percent chance of failing the bar exam on your first attempt. That means, based on the patterns seen in prior students, you are more likely than not to struggle with this exam. Because bar passage is essential for a legal career, the admission committee viewed this risk as too high to accept your application at this time.\n\nThe single strongest factor working against you was your class standing in your third year of study. You ranked in the second decile of your class, which places you near the bottom of your cohort. Among students who were admitted to the law program, the average third-year standing was around the sixth decile, so your position was markedly lower. This deeply concerned the committee because it suggests you may not have mastered the material tested on the bar exam.\n\nYour undergraduate GPA, by contrast, worked in your favor. At 3.60, you exceeded the average of 3.23 among accepted applicants, and this is evidence that you are capable of strong academic performance. However, this positive signal was not enough to overcome the concerns raised by your class rank.\n\nYour LSAT score also pushed toward a negative outcome. At 27, you scored well below the average of roughly 37 for admitted students. Lower LSAT scores are historically associated with a lower likelihood of first-time bar passage, so this added to the risk.\n\nTo improve your chances, focus on raising your final-year class standing, consider retaking the LSAT after dedicated preparation, and enroll in bar-exam preparatory courses early. Then reapply with a stronger record.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

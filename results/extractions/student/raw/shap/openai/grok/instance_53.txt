@@ -4,19 +4,19 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "studytime",
+      "name": "famsize",
       "sign": 1,
-      "value": 2
+      "value": 0
     },
     {
       "rank": 2,
-      "name": "famrel",
+      "name": "Medu",
       "sign": 1,
       "value": 1
     },
     {
       "rank": 3,
-      "name": "Medu",
+      "name": "freetime",
       "sign": 1,
       "value": 1
     }
@@ -34,8 +34,8 @@
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
@@ -79,12 +79,12 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -119,13 +119,13 @@
     },
     {
       "name": "famrel",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "freetime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "goout",

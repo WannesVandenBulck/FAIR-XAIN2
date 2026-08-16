@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 143,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:12:38.694528",
+  "status": "success",
+  "narrative": "Based on the model’s assessment, you have a 72.8% chance of failing the bar exam on your first attempt. That means the university believed it was far more likely than not that you would not become a licensed attorney, which directly affected your application for admission.\n\nThe most important factor behind this decision was your class rank in your third year. You placed in the first decile of your school, meaning you were near the very bottom of your class, while typical admitted students average around the sixth decile. This strong academic standing signal heavily pushed the prediction toward bar exam failure. The second most influential factor was your LSAT score. Your score of 23.50 is well below the average of 37.18 among accepted students, which also pushed toward failure. The third factor was your undergraduate GPA of 2.60, which is below the accepted average of 3.23. Interestingly, this factor moved the prediction slightly in the opposite direction, suggesting that your college grades were not as concerning as your law school performance and LSAT scores. Nevertheless, the combined impact of your third-year rank and LSAT outweighed that positive signal, leaving the overall prediction strongly unfavorable.\n\nTo improve your chances, focus on strengthening the areas the school weighs most heavily. Consider enrolling in rigorous coursework to demonstrate upward academic performance, retake the LSAT after targeted preparation, and explore programs with strong bar-exam support. Once your record more closely resembles successful applicants, reapplying becomes a much more viable path.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -4,13 +4,13 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Job_Opportunities",
+      "name": "Years_Experience",
       "sign": 1,
       "value": 1
     },
     {
       "rank": 2,
-      "name": "Years_Experience",
+      "name": "Job_Opportunities",
       "sign": 1,
       "value": 1
     },
@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -154,17 +154,17 @@
     },
     {
       "name": "Gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Age",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

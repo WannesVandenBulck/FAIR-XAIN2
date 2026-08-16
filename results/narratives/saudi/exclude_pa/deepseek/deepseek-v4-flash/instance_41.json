@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 41,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:25:05.985816",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 59%, meaning the model sees you as more likely to resign than to stay. Because of that, the promotion was denied, as promoting someone with a high turnover risk is a major concern.\n\nThe most influential factor in this prediction actually works in your favor: your total experience of one to five years. Compared to employees predicted to stay, who are also mostly in that same early-career range, your overall experience level pushed strongly toward staying.\n\nHowever, two other key factors outweighed that. The second strongest influence is the fact that you have received other job opportunities while working here. Only about one in four employees who stay can say the same, so this signals you are attractive to other employers and may be tempted to move on. The third factor is your tenure in your current organization, also just one to five years. Staying employees tend to have longer tenure in their current role, and being this early into a job is a vulnerable period where people often leave.\n\nTogether, these three signals tell a consistent story: you are still early in your career but already being courted elsewhere, which makes you a retention risk. To address this, consider discussing your career path, available growth opportunities, and any workplace frustrations with your manager. The organization, in turn, should focus on strengthening your engagement, offering clear advancement prospects, and ensuring you feel valued—so that outside offers do not become the deciding factor.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 18,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:21:02.772171",
+  "status": "success",
+  "narrative": "Your predicted probability of leaving is 73%, meaning the model sees a high likelihood that you will move on from this organization in the near future. That high risk is the key reason behind the promotion denial. The three strongest factors all point in the same direction: you are more likely to leave than to stay.\n\nFirst, your total work experience of 6 to 10 years makes you more marketable. Compared with employees the model expects to stay, who mostly have only 1 to 5 years of experience, you have reached a stage where outside opportunities are far more accessible. Second, although you bring that overall experience, you have been with your current organization only 1 to 5 years. This combination—substantial experience but a relatively short time in this specific workplace—suggests your current employer does not yet anchor you. Third, you have received other job offers during your time here. That is a powerful signal: among predicted stayers, only about a quarter received outside offers, while you did. Those offers give you real alternatives and make departure more feasible.\n\nThese three factors together outweigh some of your positive workplace experiences, such as having medical insurance, high emotional commitment, and a sense of job stability. Yet the prediction is reinforced by your dissatisfaction with pay, recognition, and promotions. For the organization, the priority should be retention: they should address these fairness concerns and offer you a clear career path. For you, this is a moment to reflect on whether a promotion would truly change your commitment, or whether those outside opportunities deserve serious consideration.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

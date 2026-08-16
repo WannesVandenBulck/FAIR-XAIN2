@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "ugpa",
       "sign": 1,
-      "value": "NaN"
+      "value": 2.7
     },
     {
       "rank": 2,
@@ -45,7 +45,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2.7
     },
     {
       "name": "fulltime",

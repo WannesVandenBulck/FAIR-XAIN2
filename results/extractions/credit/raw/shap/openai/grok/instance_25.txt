@@ -12,20 +12,20 @@
       "rank": 2,
       "name": "status",
       "sign": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "rank": 3,
       "name": "employment_duration",
       "sign": -1,
-      "value": 4
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "status",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "duration",
@@ -55,7 +55,7 @@
     {
       "name": "employment_duration",
       "mentioned": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "name": "installment_rate",

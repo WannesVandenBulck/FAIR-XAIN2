@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 59,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:54:14.876631",
+  "status": "success",
+  "narrative": "Your predicted probability of failing is 12 percent, which means the model sees you as mostly on track but still places you in the group that needs remedial courses. That can feel frustrating, especially because the three most important factors in the prediction all actually work in your favor.\n\nThe strongest influence is your record of past failures: you have none, just like the average student who passed. This strongly pushes the prediction toward passing, because previous struggles are usually the biggest warning sign. The second most important factor is your weekend alcohol consumption, which is low. Among students who passed, most drank very little on weekends, so your habits align closely with success. Third, the quality of your family relationships is good, which also pushes toward passing, since supportive family environments tend to help students stay focused.\n\nSo why are you still being asked to take remedial courses? Even though these top factors point toward passing, the model weighs all your information together, and the overall result still lands on the failing side of the decision boundary. In other words, the signal from these positive factors was not quite strong enough to overcome everything else the model considers.\n\nWhat you can do next is build on these strengths. Keep your study time consistent, protect your family support system, and maintain your low alcohol use. Since the model says your risk is real but relatively small, the best response is to treat remedial courses as a safety net rather than a punishment. Use them to confirm what you already know and to close any small gaps that might be tipping the balance against you.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

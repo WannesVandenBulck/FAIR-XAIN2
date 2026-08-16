@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 1,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:37:11.674963",
+  "status": "success",
+  "narrative": "Your predicted chance of failing is 25 percent. That does not mean you will fail, but it means the model sees a genuine risk, and the school requires additional courses to make sure you stay on track. The three biggest factors the model considered were actually in your favor. You have never failed a class before, and students who pass typically have no previous failures. This strongly points toward success. You also said you want to pursue higher education, and every single student who passed in this dataset shared that goal, so your ambition is a powerful positive sign. Finally, your family size of three or fewer had a smaller but still positive influence, even though most passing students came from larger households.\n\nThese three influences all pushed toward passing, which is encouraging. However, the model still saw enough overall risk to place your probability at 25 percent rather than lower. That means other parts of your profile, such as low weekly study time, limited family support, and high alcohol consumption on weekends, are likely pulling in the opposite direction.\n\nUse this as a chance to strengthen your habits. Protect your study time, cut back on weekend drinking, and talk to your family about supporting your schoolwork. You clearly have the foundation and motivation to succeed. The remedial courses are not a punishment but a safety net to help you build on your strengths and address the areas where the model sees risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 14,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:58:28.619715",
+  "status": "success",
+  "narrative": "Based on the model's assessment, your loan application was denied because it predicts a 26% probability that you would fail to repay the loan. In practical terms, this means the bank sees roughly a one-in-four chance of you becoming a bad credit risk, which exceeds the bank's acceptable threshold.\n\nThree factors stood out most in this decision. The single strongest influence came from your savings situation: having unknown or no savings actually reduced your estimated risk, making the model more favorable toward you. Similarly, your checking account status—having no checking account—also worked in your favor, as it pushed the prediction toward good credit. However, the third and most concerning factor was your other installment plan at a bank. This increased your estimated risk significantly, because it indicates you already have existing loan obligations that could compete with this new loan for your income.\n\nOther aspects of your application added context. You requested 3,914 DM, above the average of about 3,020 DM, and over a much longer period of 48 months compared to the typical 19 months. This longer, larger commitment amplifies your financial exposure.\n\nTo improve your chances in the future, focus on eliminating or reducing that other installment plan first. Building up a small savings buffer, even less than 100 DM, and maintaining a checking account could also help. Reapplying after making these changes, perhaps with a smaller loan amount and shorter term, would give you a stronger case.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

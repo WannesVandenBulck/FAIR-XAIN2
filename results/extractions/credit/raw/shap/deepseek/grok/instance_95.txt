@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "installment_rate",
-      "sign": -1,
-      "value": 2
-    },
-    {
-      "rank": 3,
       "name": "savings",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "installment_rate",
+      "sign": -1,
+      "value": 2
     }
   ],
   "features": [

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 96,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:35:20.653670",
+  "status": "success",
+  "narrative": "Your profile shows a predicted probability of 52% that you will leave your job, which means the model sees you as slightly more likely to depart than to stay. Because of this elevated risk, the promotion has been denied. Let me explain what influenced this outcome.\n\nThe most decisive factor was your total years of experience—only 1 to 5 years. Among employees predicted to stay, about half had this same level of experience, but the model treats early-career tenure as a risk factor: employees with limited experience are more likely to move on to build their careers elsewhere. Interestingly, this actually pushed your prediction toward staying, because your short experience is common in roles where people remain longer. So this factor alone was not the problem.\n\nThe second strongest influence was whether you have received other job opportunities. You have not received any outside offers while working here. This also pushed toward staying, since employees without alternative options tend to remain in place. Again, this worked in your favor.\n\nThe third, and most concerning, factor was your difficulty getting involved in your job—such as participating in decisions or having your opinions heard. Among employees predicted to stay, only about one in ten reported this difficulty. This was the factor that pushed your prediction strongly toward leaving. Feeling shut out from meaningful involvement is a powerful driver of turnover.\n\nYour denial is therefore not about your performance or your loyalty—it is about your engagement. The organization should focus on including you in decision-making and giving you a stronger voice. For your part, consider whether clearer opportunities for involvement exist in your current role, and discuss this with your manager.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

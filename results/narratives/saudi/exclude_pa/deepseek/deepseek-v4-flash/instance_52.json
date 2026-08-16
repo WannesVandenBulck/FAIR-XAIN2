@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 52,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:27:23.957524",
+  "status": "success",
+  "narrative": "Your promotion was denied because our retention assessment concluded that you are at risk of leaving, with a 41% probability. This does not mean you will certainly leave, but it is high enough that promoting you feels risky.\n\nInterestingly, the two strongest factors in your profile actually pointed toward you staying. Your total experience of one to five years is typical of employees who remain; about half of expected stayers share this range. Similarly, the fact that you have not received outside job offers anchors you in place, since most employees who stay have no competing opportunities. These two factors made the model less alarmed.\n\nThe factor that tipped the prediction toward leaving was your difficulty getting involved in your job. You reported that engaging in decision-making and expressing your opinions felt difficult—something only about one in ten expected stayers experience. This signals disconnection and feeling unheard, which often leads people to silently disengage and eventually exit.\n\nFor you, the most useful next step is to address that engagement gap. Ask your manager for more involvement in decisions and be explicit about wanting a voice. For the organization, this is a signal to examine how employees in your position are included. The denial is not permanent; reducing that sense of disconnection would substantially change this assessment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

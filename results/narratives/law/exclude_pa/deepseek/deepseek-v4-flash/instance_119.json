@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 119,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:07:42.974413",
+  "status": "success",
+  "narrative": "Based on your academic record, a predictive model estimates that you have a 68.7% chance of failing the bar exam on your first attempt. This high risk was the central reason your law school application was denied. The decision was not about your background, income, or race; it focused solely on factors that strongly predict bar performance.\n\nThe single most influential factor was your class standing in your third year of undergraduate study: you finished in the bottom ten percent of your class, whereas admitted students typically rank around the sixth decile. Your first-year class rank was nearly as influential and told a similar story—you began and ended your academic career at the very bottom of your cohort. Together, these two factors pushed the prediction strongly toward bar exam failure, because such consistently low academic performance is a well-established indicator of difficulty passing a high-stakes, comprehensive exam like the bar.\n\nYour LSAT score, however, worked in your favor. At 38 points, you scored slightly above the average of admitted students, so this part of your profile pushed modestly toward passing. But it was not enough to offset the serious concern raised by your low class rankings.\n\nTo strengthen a future application, focus on demonstrating that you can thrive in rigorous academic settings. Consider completing a post-baccalaureate or master's program to earn strong grades, and retake the LSAT to push your score further above the typical range. Those steps would show admissions committees—and the model—that your earlier standing does not define your potential.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

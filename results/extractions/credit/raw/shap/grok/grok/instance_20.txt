@@ -34,7 +34,7 @@
     },
     {
       "name": "credit_history",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "name": "age",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

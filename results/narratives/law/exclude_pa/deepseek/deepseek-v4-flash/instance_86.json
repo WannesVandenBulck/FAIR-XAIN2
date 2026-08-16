@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 86,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:58:51.959635",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 59.7% probability that you would fail the bar exam on the first attempt. That means the law school saw more reason for concern than confidence in your application, and this is why your admission was denied.\n\nThe single most important factor in this decision was your academic standing in your third year of undergraduate study. You were in the bottom decile of your class, while accepted students typically sit near the middle of the pack. This strongly pushed the prediction toward bar exam failure, because third-year grades are a close indicator of your ability to master complex legal material. Your first-year class standing also played a role, but to a lesser degree. Being in the first decile there likewise pushed the prediction toward failure, reinforcing the impression that your academic performance was consistently low rather than a one-time stumble.\n\nYour LSAT score, by contrast, actually pushed the prediction in the opposite direction—toward passing. Even though your score of 33 is below the average of about 37 among accepted students, the model still treated it as a small point in your favor. The problem is that this positive influence was not strong enough to outweigh the negative impact of your two low class rankings.\n\nThe practical takeaway is clear. If you want to gain admission in the future, focus on raising your academic performance in your remaining coursework and consider retaking the LSAT to bring your score closer to that 37 average. An upward trend can show the school that you are capable of stronger work, which would directly address the two areas that hurt your application most.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

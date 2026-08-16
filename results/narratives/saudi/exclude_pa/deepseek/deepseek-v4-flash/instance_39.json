@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 39,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:24:50.278834",
+  "status": "success",
+  "narrative": "A model predicts a 46% chance you may leave your job, which is why the promotion was denied—this is not a certainty, but it signals a serious risk that you won’t stay long enough to make the investment worthwhile.\n\nThe most important factor pushing *against* the prediction of leaving is that you have not received other job offers. That is a strong sign you are not actively looking elsewhere, which anchors you to your current employer. Also working in your favor is your long tenure here—having been with this organization for 6–10 years is uncommon, because most employees who stay are in their first 1–5 years. This longevity suggests deeper ties and makes departure less likely.\n\nHowever, your total career experience—6–10 years across all jobs—moves the prediction in the opposite direction. Employees with this level of overall experience are more mobile and confident in the job market, especially compared to those with only 1–5 years. That same experience makes leaving for a better opportunity more feasible.\n\nThese signals together suggest you are not currently planning to leave, but you have the profile of someone who could if conditions changed. The organization should focus on why you might feel under-recognized—you reported no bonus, no overtime, and dissatisfaction with promotion fairness—and work to strengthen your engagement and sense of stability, while you continue to demonstrate commitment.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

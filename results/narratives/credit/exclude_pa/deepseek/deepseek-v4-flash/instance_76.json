@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 76,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:11:58.849176",
+  "status": "success",
+  "narrative": "Based on the information from your application, the model estimated a 36% chance that you would have difficulty repaying the loan. While that means you are more likely to repay than not, it crosses the bank's threshold for accepting risk, and that is why your application was denied.\n\nLooking at what influenced this decision, three factors stood out. Interestingly, the single strongest factor—the length of the loan you requested—actually worked in your favor. At 8 months, your request was far shorter than the typical 19 months, meaning less time for financial circumstances to change and fewer payments to miss. Your credit history also nudged things in a positive direction; even though you have been labeled a critical borrower, this factor still weighed slightly in your favor overall.\n\nThe decisive factor pushing you toward bad credit was your checking account status. Your account is currently overdrawn, a situation seen in only about 12.6% of approved applicants. An account below zero is a strong red flag—it suggests immediate financial strain and difficulty managing day-to-day cash flow, which makes the bank worry about your ability to make future payments.\n\nWhat should you do next? Focus on rebuilding your checking account balance and keeping it positive for several consecutive months. Pay off your overdraft and build a small buffer. You may also want to demonstrate a longer period of responsible credit use before reapplying. The fact that your short loan term and employment history were viewed favorably is encouraging—once you show financial stability through a healthy account, you will be in a much stronger position.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

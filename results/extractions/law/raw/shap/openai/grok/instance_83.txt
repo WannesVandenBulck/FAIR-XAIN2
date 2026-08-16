@@ -17,7 +17,7 @@
     {
       "rank": 3,
       "name": "ugpa",
-      "sign": -1,
+      "sign": 1,
       "value": "NaN"
     }
   ],
@@ -39,8 +39,8 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4.0
     },
     {
       "name": "ugpa",

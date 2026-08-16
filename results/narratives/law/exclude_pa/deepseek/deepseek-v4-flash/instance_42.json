@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 42,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:47:35.742672",
+  "status": "success",
+  "narrative": "The model assessing your application predicts a 61.9 percent chance that you would fail the bar examination on your first attempt. That is a strong risk signal, and it is the main reason your application was denied.\n\nThe single most important factor in reaching this conclusion was your third-year class standing. You ranked in the 3rd decile, while accepted students typically rank around the 6th decile on average. Being in the lower portion of your class was the strongest signal in your file, and it pushed the prediction firmly toward bar exam failure.\n\nYour undergraduate GPA, on the other hand, worked in your favor. At 3.50, it is above the 3.23 average among accepted students. This factor pushed the prediction toward passing and signals academic capability.\n\nHowever, your LSAT score of 33 is notably below the average of about 37 among accepted students. This was the third most influential factor, and it again pushed the prediction toward failure, reinforcing the concerns raised by your class rank.\n\nIn short, the two weaker academic indicators — your third-year class standing and your LSAT performance — outweighed the positive signal from your undergraduate record.\n\nYour next step should be to strengthen those two areas before reapplying. Retake the LSAT after focused preparation, and work to improve your academic standing in your final year. You may also want updated letters of recommendation that speak to your recent progress. Addressing these weaknesses directly will give you the best chance at a different outcome next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

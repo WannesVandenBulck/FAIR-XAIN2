@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "freetime",
       "sign": -1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "rank": 3,
@@ -74,13 +74,13 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "paid",
@@ -104,8 +104,8 @@
     },
     {
       "name": "nursery",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "internet",
@@ -125,7 +125,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "goout",
@@ -140,7 +140,7 @@
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "name": "absences",

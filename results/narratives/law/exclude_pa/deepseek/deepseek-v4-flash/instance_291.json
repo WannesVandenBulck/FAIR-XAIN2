@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 291,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:51:14.147765",
+  "status": "success",
+  "narrative": "Based on your academic profile, the model estimates that you have a 96.9 percent probability of failing the bar exam on your first attempt. This is the central factor behind the admission decision. In plain terms, the risk is extremely high, and the university determined that admitting you would likely lead to an unsuccessful outcome.\n\nThree factors weighed most heavily in this prediction. The single most important signal was your class standing in your third year. You placed in the bottom tenth of your class, whereas students who were accepted typically sat around the middle of the class distribution. That low standing is a strong indicator of persistent academic difficulty that could carry into bar preparation. Your first-year ranking told a similar story, ranking as the third most influential factor. Both your early and later law school grades point toward consistent struggles, and the model read this pattern as a clear warning sign.\n\nYour LSAT score of 26 also played a major role, coming in as the second strongest influence. The average among accepted students was about 37, so your score is well below the typical range. The LSAT measures logical reasoning and reading comprehension skills that are directly tied to bar exam performance, so a low score here compounds the academic concerns. All three factors, taken together, pushed the prediction strongly toward failure rather than success.\n\nTo change this outcome, focus on retaking the LSAT after thorough preparation, and consider pursuing additional academic support or retaking courses to raise your class standing. A stronger LSAT score combined with improved law school grades would meaningfully alter this profile, and reapplying after making those gains could lead to a different decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

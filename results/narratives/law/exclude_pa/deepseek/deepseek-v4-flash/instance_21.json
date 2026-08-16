@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 21,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:41:32.699385",
+  "status": "success",
+  "narrative": "Your application was denied because an admissions model estimated that you would be unlikely to pass the bar exam on your first attempt. The model placed your chance of failing at 82.1 percent, meaning that, in the committee’s view, you presented a serious risk of not becoming licensed after law school. That risk is almost entirely due to your class standing. Your first-year and third-year deciles were both 1, putting you in the lowest tenth of your class, while students who were admitted typically sat near the sixth decile. Of all the factors considered, your third-year standing was the most powerful signal, and it pushed the prediction strongly toward failure. Your first-year standing was the next strongest factor and also pointed to failure. Together, these two measures told the model that your academic performance in law school fell well below the level of students who usually pass the bar. The only major factor working in your favor was your LSAT score, which nudged the prediction toward passing. Although your score of 35 was lower than the accepted average of roughly 37, the model still treated it as a helpful signal, but not nearly enough to overcome your class-rank problem. Family income and full-time study played little role in this decision. To change the outcome, you should focus on raising your academic performance in the coming year and, if possible, retake the LSAT to strengthen your application. Demonstrating improved grades or completing additional coursework can give admissions committees evidence that you are no longer in the high-risk category.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 65,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:29:51.341726",
+  "status": "success",
+  "narrative": "Based on what the model sees, your predicted chance of leaving is 59 percent. That means you are slightly more likely to resign than to remain, and for that reason the promotion decision went against you. Importantly, not every signal pointed toward leaving. The strongest factor—your total experience of one to five years—actually pushed the prediction toward staying; roughly half of employees who stay are also in this early-career range. Likewise, not having received other job opportunities while working here worked in your favor, since most stayers have not had outside offers either.\n\nWhat tipped the balance was how difficult you find it to become truly engaged in your job. Only about one in ten employees who stay describe engagement as difficult, so this is a clear risk sign. The model weighed that difficulty heavily, and it was strong enough to outweigh your otherwise stable profile.\n\nFor the organization, the message is not that you are a poor employee, but that you are unlikely to remain unless the work itself becomes more involving. A direct conversation about how decisions are made, how your voice can be heard, and what would make you feel more invested could change that outlook. For you, consider identifying the specific barriers to meaningful involvement—whether autonomy, input, or recognition. Addressing the engagement issue may not only improve your daily experience, but also make your next promotion review a different story.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -17,8 +17,8 @@
     {
       "rank": 3,
       "name": "freetime",
-      "sign": -1,
-      "value": 2
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -54,12 +54,12 @@
     },
     {
       "name": "Mjob",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Fjob",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -74,13 +74,13 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
@@ -125,7 +125,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "goout",
@@ -134,12 +134,12 @@
     },
     {
       "name": "Dalc",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Walc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "amount",
-      "sign": 1,
-      "value": 10961
-    },
-    {
-      "rank": 3,
       "name": "employment_duration",
       "sign": -1,
       "value": 4
+    },
+    {
+      "rank": 3,
+      "name": "amount",
+      "sign": 1,
+      "value": 10961
     }
   ],
   "features": [

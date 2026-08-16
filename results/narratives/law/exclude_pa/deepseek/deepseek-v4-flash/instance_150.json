@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 150,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:14:37.889424",
+  "status": "success",
+  "narrative": "You may be wondering why your application was not accepted. The review process uses a prediction of whether you would pass the bar exam on the first attempt, and for you that probability of failing was high, at 76 percent. In practical terms, for every four students with a similar profile, three would not pass on their first try.\n\nThe single most influential factor in this decision was your class standing in the third year. You belong to the second decile of your class, meaning you finished near the very bottom, while applicants who were admitted typically sit around the sixth decile. This strongly pointed toward bar exam failure. Your first-year class standing also mattered, nearly as much. Being in the third decile, compared with the sixth-decile average among admitted students, reinforced that impression and added further weight toward failure.\n\nYour LSAT score of 38 acted as the one meaningful counterbalance. It sits just above the average of admitted applicants, so it nudged the prediction toward passing, but it was not enough to offset the negative signal from your academic rank.\n\nThe strongest recommendation is to improve your academic standing before reapplying. Because your lower-division and upper-division class ranks were the primary reasons for this outcome, retaking courses to raise your grades and class position would directly address what the review found most concerning. Demonstrating that you can perform at a level closer to the top half of your class would substantially change how your application is assessed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

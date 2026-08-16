@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "freetime",
+      "name": "nursery",
       "sign": -1,
       "value": 1
     },
     {
       "rank": 3,
-      "name": "nursery",
+      "name": "freetime",
       "sign": -1,
-      "value": 0
+      "value": 2
     }
   ],
   "features": [
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
@@ -105,7 +105,7 @@
     {
       "name": "nursery",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "internet",
@@ -125,7 +125,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "goout",
@@ -139,12 +139,12 @@
     },
     {
       "name": "Walc",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "absences",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

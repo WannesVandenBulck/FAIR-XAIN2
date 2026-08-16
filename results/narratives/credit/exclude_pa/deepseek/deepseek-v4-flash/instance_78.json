@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 78,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:12:24.383278",
+  "status": "success",
+  "narrative": "Based on your application, our model estimated a 56% chance that you would be a bad credit risk, meaning your loan was more likely than not to fall into default. Because this probability exceeded our threshold, your application for 4,280 Deutsche Marks over 30 months was denied. The most important factor was your credit history. You have no existing credits and have always paid previous bills, but this profile is unusual among approved applicants—only 1% of them share it. The model sees this lack of established credit as a strong warning sign, pushing significantly toward a bad risk classification. Your checking account status also played a major role. With a balance between 0 and 200 Deutsche Marks, you fall into a category that is less common among approved borrowers, and this low available buffer pushed further toward denial. Interestingly, the loan amount itself worked slightly in your favor. Although your requested amount is higher than the average approved loan, this feature actually pulled a little toward approval, but not enough to overcome the two stronger negative signals. To improve your chances next time, I recommend building a longer, verifiable credit track record—for example, by taking a smaller loan and repaying it consistently. Increasing your checking account balance to at least 200 Deutsche Marks or higher would also help. Consider reapplying after you have strengthened these areas, and perhaps request a lower amount to reduce perceived risk.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

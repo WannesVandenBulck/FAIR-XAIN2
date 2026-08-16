@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 29,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:23:08.688123",
+  "status": "success",
+  "narrative": "You have been denied the promotion because the model estimates an 86% probability that you will leave the organization in the near future. This is not a judgment on your performance, but rather a statistical assessment of the risk that investing in a promotion for you would not benefit the organization long-term.\n\nThe strongest signal behind this prediction is your overall experience. With more than eleven years in the workforce, you belong to a small group among employees who stay—only about 15% of them share your extensive background. High experience often means you have valuable skills and market value, which increases your likelihood of seeking better opportunities. The second most important factor is your relatively short tenure in your current job: just one to five years. Among employees who remain, more than half also have one to five years of tenure, so this alone is not unusual, but when combined with your deep overall experience, it suggests you may still be exploring your fit with this organization rather than being firmly settled. The third factor is that you have received other job offers while working here. This is uncommon among stayers, meaning you have active alternatives to your current role.\n\nThese three factors together make the model confident you are at high risk of leaving. To retain you, the organization should consider offering clearer career paths and retention incentives beyond promotions, while you might reflect on whether your current role aligns with your long-term goals.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

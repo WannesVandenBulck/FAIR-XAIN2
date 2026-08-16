@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 90,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:34:14.024218",
+  "status": "success",
+  "narrative": "Your profile shows an 81% chance of leaving, and that risk—not your performance or potential—is why the promotion was denied. This is a statistical signal, not a certainty, but it is strong enough to treat seriously. The most important reason is that you have received other job opportunities while working here. That is uncommon among employees who stay: only about 23% of them had outside offers. It strongly pushes the prediction toward leaving because it suggests you have alternatives and may already have one foot out the door. Your total experience of 6 to 10 years also contributed. Employees in this range make up about a third of those predicted to stay, but combined with outside offers, your experience makes you more marketable—and therefore more likely to move. Finally, your salary of 11,000 to 15,000 SAR contributed as well. It may seem surprising, since higher pay often signals loyalty, but among employees predicted to stay, only about 13% earn in this range. Earning more makes you more visible and more attractive to other employers, so it pushed in the same direction: toward leaving. Importantly, your age, gender, and health were not used in this decision. What should happen next? Rather than simply accepting the denial, use this as a conversation starter. If you want to stay, name what would keep you: clearer growth, meaningful recognition, or a defined path to promotion. For the organization, this is a retention signal worth exploring—not ignoring.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

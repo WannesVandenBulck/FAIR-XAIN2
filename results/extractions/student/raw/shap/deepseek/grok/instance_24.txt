@@ -80,7 +80,7 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "schoolsup",

@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 21,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:21:49.052411",
+  "status": "success",
+  "narrative": "Based on the information available, the model indicates there is a 68% chance that you will leave your job, which is why the promotion was denied. This does not reflect your performance, but rather a pattern observed in employees with a similar profile.\n\nThe single most influential factor pushing toward this prediction is that you have received other job opportunities while working here. This is important because employees who are actively being recruited elsewhere are far more likely to depart, even if they haven't decided to yet. The model sees this as a strong signal that your future may lie outside the organization.\n\nInterestingly, your length of service with this organization actually works in your favor. Having spent six to ten years here, you are in a group with greater tenure than many who stay, which slightly reduces the likelihood of leaving. However, this positive signal is outweighed by your total career experience. With more than eleven years in the workforce, you are part of a smaller group (only about 15% of predicted stayers) whose extensive outside experience makes it easier to transition to a new employer.\n\nTaken together, the model sees a person with deep roots in the current job but who is highly marketable and has external options. The organization should recognize that your departure risk is tied to opportunity, not dissatisfaction. Next, you should clarify whether you genuinely intend to stay if promoted, while leadership should consider whether investing in a retention conversation is more appropriate than a permanent denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

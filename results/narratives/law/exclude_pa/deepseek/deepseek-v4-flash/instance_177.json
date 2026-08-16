@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 177,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:22:34.447253",
+  "status": "success",
+  "narrative": "The model used to evaluate your application predicts that you would have a 60% chance of failing the bar exam on your first attempt. This means that, based on how previous students performed, you are more likely to fail than to pass, and the admissions committee saw that as too great a risk.\n\nThe strongest factor behind this prediction was your undergraduate GPA. At 2.50, it fell well below the 3.23 average of accepted students, and it pushed the outcome firmly toward failure. The second most influential factor was your Year 3 class decile of 6. This was slightly better than the accepted-student average of 5.79, so it actually pushed toward passing, showing that your academic performance improved over time. Unfortunately, that positive signal was not strong enough to outweigh your earlier grades. The third factor was your family income bracket. Being in the middle income group, rather than one of the higher brackets that make up most of the accepted pool, nudged the prediction a little further toward failure based on patterns in the data.\n\nWhat can you do now? Consider retaking the LSAT to raise your score. You might also complete a post-baccalaureate program to prove you can handle advanced coursework and improve your GPA. When reapplying or appealing, emphasize your Year 3 improvement, because that was a point in your favor. Look into law schools with holistic admissions criteria where your full trajectory will be considered.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

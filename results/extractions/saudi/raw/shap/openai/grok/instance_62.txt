@@ -159,8 +159,8 @@
     },
     {
       "name": "Age",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Health_Issues",

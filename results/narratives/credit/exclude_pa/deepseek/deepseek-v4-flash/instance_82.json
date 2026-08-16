@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 82,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:13:13.396259",
+  "status": "success",
+  "narrative": "Based on your application, the model estimated a 34% chance that you would not be able to meet your loan obligations. This means you fall into a higher-risk category, and the bank decided to deny the request to limit potential losses.\n\nThree factors weighed most heavily in this decision. Your credit history was the strongest overall influence, but surprisingly it worked in your favor: compared to many rejected applicants, your history—though marked as critical or involving other credits—reduced your estimated risk. However, the other major factors outweighed this benefit. The status of your checking account was the second most important factor, and it pushed the decision toward denial. Having between 0 and 200 DM in your checking account is uncommon among approved borrowers, most of whom have no checking account at all or a larger balance. Finally, the loan amount itself was the third-largest influence. You requested 8,386 DM, which is nearly three times the average amount approved (about 3,020 DM). Large requests inherently carry more risk, and this significantly increased your predicted probability of being a bad credit risk.\n\nWhat can you do next? Consider applying for a smaller loan, and if possible, strengthen your credit history and financial buffers over the coming months. Improving the standing of your checking account and demonstrating stable savings would help. Reapplying later with these changes will give you a much better chance of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

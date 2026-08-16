@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 30,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:01:28.698249",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 38% chance you would default—a level of risk we are not willing to accept. To help you understand why, we looked at which factors weighed most heavily in that decision. Interestingly, the single strongest factor was your savings situation, and it actually worked in your favor. Having little or no savings did not increase your risk in the model; instead, it nudged you slightly toward being a good credit risk. The purpose of your loan—furniture or equipment—also helped you, as this type of loan is typically associated with lower default risk. Unfortunately, these positives were outweighed by your checking account status. Your account is currently overdrawn (below zero), which is a very strong warning sign. Only about 12.6% of approved applicants have this situation, and in your case, it pushed strongly toward bad credit. Beyond these top three, other details such as the relatively large loan amount (7,721 DM vs. an average of 3,020 DM) and the longer duration added to the risk picture. Because the negative signal from your checking account was so significant, the model concluded that the probability of repayment problems was too high. What can you do next? Focus on bringing your checking account into positive territory and maintaining it for several months. Consider applying for a smaller loan or involving a co-applicant or guarantor. Once your account shows a stable positive balance, your chances of approval would improve substantially.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

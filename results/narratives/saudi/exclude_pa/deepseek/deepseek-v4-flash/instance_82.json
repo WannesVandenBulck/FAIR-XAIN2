@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 82,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:33:02.839685",
+  "status": "success",
+  "narrative": "You are being denied a promotion because our model assesses an 85% chance that you will leave the company in the near future. This is not a judgment on your performance or worth—it is a calculated look at patterns among thousands of employees with similar profiles, and it indicates a very high risk of turnover. A promotion is meant to invest in a long-term relationship, and that risk makes the investment uncertain.\n\nThe single strongest factor in this decision is your overall experience level. With six to ten years in your career, you are at a stage where employees often become highly marketable and begin seeking new challenges. While many employees who stay have fewer than five years of experience, your profile suggests you are in a prime position to move on.\n\nThe second strongest signal is that you have received other job offers during your time here. This is a key indicator that you are actively attractive to other employers, and it directly pushes the model’s prediction toward you leaving. It suggests external opportunities are already on your radar, which increases the likelihood you will accept one.\n\nThe third factor is your tenure with this specific organization: only one to five years. Compared to employees who stay, who often have longer tenure with their current employer, this shorter stay means you have not yet built the deep roots that typically anchor a person to a company. Combined with your overall experience and external offers, this pattern strongly points to departure.\n\nFor your future, consider discussing with your manager what would make you feel more committed — whether that is a clear career path, new responsibilities, or other support. For the organization, the takeaway is that your risk of leaving may be reduced by proactively addressing your advancement concerns, perhaps by offering a development plan or a conversation about your long-term goals here.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

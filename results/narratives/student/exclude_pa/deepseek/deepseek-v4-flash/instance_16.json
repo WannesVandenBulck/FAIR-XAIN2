@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 16,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:41:33.703042",
+  "status": "success",
+  "narrative": "The model estimates that you have a 17% chance of failing your final year. That means the odds are clearly in your favor, but the school has set a low bar for offering help, so a risk of one in six is enough to require you to take remedial courses. The reason for this caution is not that the model sees you as a likely failure, but rather that it wants to eliminate any avoidable risk.\n\nWhat is most interesting about your prediction is that the three strongest influences are all positive. Your record of past failures is the most important factor, and it works in your favor: you have never failed a class, and students who pass typically have no failures either. Your second biggest influence is your ambition to go on to higher education. In the data, every student who passed wanted to pursue higher education, and you have that same goal. Finally, your mother's education level is the third most important factor. It also lowers your risk, though less strongly than the first two. Among passing students, the most common situation was having a mother with a higher-education degree, so your mother having completed secondary school is helpful but not the maximum advantage.\n\nEven so, the model balances these strengths against other signals in your profile. You have been absent fourteen times, while passing students average under four absences, and you describe your family relationships as poor. These smaller factors accumulate and keep your risk at that 17% level. To improve your chances, take the remedial courses seriously, try to attend school consistently, and consider asking a counselor for support at home.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 95,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:16:23.900882",
+  "status": "success",
+  "narrative": "Based on the information in your application, the model estimated a 40% chance that you would become a bad credit risk — roughly four in ten borrowers with a similar profile fail to repay their loans as agreed. The bank considers this risk too high, so your application was denied.\n\nThe strongest factor weighing against you was the condition of your checking account. Your balance was below zero, which indicates that you are currently struggling to cover regular expenses. Among approved applicants, only about 13% had a negative balance, so this was a major concern.\n\nYour savings also worked against you. With less than 100 DM in savings, you have little cushion for unexpected costs, which further increased the estimated risk.\n\nOne factor worked in your favor: your installment obligations. Your loan payment would have been only about 2% of your disposable income — lower than the roughly 3% average among approved applicants. This shows the loan would have been affordable, and it pushed the prediction toward lower risk. However, it was not enough to offset the negative checking balance and low savings.\n\nI recommend focusing on restoring your checking account to a positive balance and building a modest savings buffer over the next several months. Once you can demonstrate stability, consider reapplying for a smaller loan or with a co-signer.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

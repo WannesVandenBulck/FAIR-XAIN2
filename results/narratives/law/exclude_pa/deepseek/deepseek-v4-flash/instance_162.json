@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 162,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:18:14.912591",
+  "status": "success",
+  "narrative": "The decision came from a prediction that you have a 52.7 percent chance of failing the bar exam on your first attempt. In other words, the model saw slightly more risk of failure than success, and the law school considered that too uncertain to accept.\n\nThe most important reason was your third-year class placement. You were in the 2nd decile, while admitted students typically sit around the 5.8 decile. On this scale, that places you well below the usual admitted profile and pushed strongly toward a failure prediction. Your first-year class placement also mattered, though less. Being in the 3rd decile rather than the 6th decile average added another push toward failure.\n\nYour undergraduate GPA worked in the opposite direction. At 3.30, it was slightly above the 3.23 average of accepted students, so it pulled toward passing and reduced some of the concern from your weaker class rankings. But this positive influence was not enough to outweigh the two negative academic standing factors. Among the features considered, no others were as influential.\n\nWhat should you do next? Focus on strengthening your academic record. If your class ranks are based on earlier coursework, consider retaking challenging courses or pursuing additional legal preparation to raise your standing. Since your undergraduate GPA is already a point in your favor, emphasize that strength and demonstrate through new coursework or a higher LSAT score that your first-attempt bar exam risk is lower. Ask the admissions office whether you can submit updated grades or an addendum explaining your academic trajectory.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

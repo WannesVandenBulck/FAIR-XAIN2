@@ -4,15 +4,15 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "failures",
-      "sign": -1,
+      "name": "famsize",
+      "sign": 1,
       "value": 0
     },
     {
       "rank": 2,
-      "name": "famrel",
+      "name": "Medu",
       "sign": 1,
-      "value": 4
+      "value": 2
     },
     {
       "rank": 3,
@@ -24,8 +24,8 @@
   "features": [
     {
       "name": "failures",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "higher",
@@ -34,8 +34,8 @@
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Fedu",
@@ -84,7 +84,7 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -94,13 +94,13 @@
     },
     {
       "name": "paid",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "activities",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "nursery",
@@ -109,8 +109,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "romantic",
@@ -119,8 +119,8 @@
     },
     {
       "name": "famrel",
-      "mentioned": 1,
-      "value": 4
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "freetime",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

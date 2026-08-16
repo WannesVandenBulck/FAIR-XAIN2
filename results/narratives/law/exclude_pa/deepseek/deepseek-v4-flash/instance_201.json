@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 201,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:27:38.650391",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimated a 50.9 percent probability that you would fail the bar exam on the first attempt. That is essentially a coin flip, and for a law school it carries too much risk to offer you a place.\n\nThree factors mattered most in reaching this decision. Surprisingly, your family income was the strongest influence, but it actually helped you. The model saw your lower-middle-income background as slightly reducing your failure risk. This favorable effect, however, was not enough to compensate for the other two major influences, which both pushed strongly toward predicting failure.\n\nYour LSAT score of 24 is far below the average of 37 among admitted students, and it was the second most important factor steering the prediction toward failing. The third was your academic ranking in Year 3. Being in the 2nd decile is well below the admitted-student average of about the 6th decile, and that also substantially raised your estimated failure risk.\n\nSo while your income background worked in your favor, your low LSAT score and weak third-year academic standing together outweighed that advantage. Those two areas are where you can make the biggest difference.\n\nTo improve your chances next time, focus heavily on LSAT preparation and aim for a score in the mid-30s or higher. Also seek academic support or retake difficult courses to raise your final-year ranking. Addressing both would give a future admissions review much stronger evidence that you can succeed on the bar.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 154,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:16:02.264889",
+  "status": "success",
+  "narrative": "Based on your academic record, the model estimated a 55.2% chance that you would fail the bar exam on your first attempt. That means you were more likely than not to fail, and the school therefore denied your application. The decision came down to three main factors. The most influential was your third-year class standing. You were in the second decile, which is near the top of your class, but the model treated this as the strongest signal pointing toward bar-exam risk. Compared with accepted applicants, whose average third-year standing was around the sixth decile, your pattern stood out and pushed the prediction in the direction of failure. The next most important factor was your undergraduate GPA. At 3.70, it is well above the average for accepted applicants (3.23), and it worked in your favor, moving the prediction toward passing. Your LSAT score had the third-largest influence. At 37, it was nearly identical to the typical accepted student's score, and it also pushed slightly toward passing. However, the favorable effects of your GPA and LSAT were not enough to overcome the strong negative influence from your third-year class standing. In other words, the model viewed your overall profile as high-risk despite your strong GPA and about-average LSAT score. To improve your chances, focus on demonstrating bar-exam readiness. Consider retaking the LSAT, adding academic coursework that strengthens your preparation, or asking the admissions office what evidence could support a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

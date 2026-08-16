@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 12,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:19:49.968720",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 70% chance that you will leave your job, and that elevated risk is why the promotion is denied. The most telling factors were not your age, gender, or health, but your career situation and mental state. Your total experience of only one to five years is actually a point in favor of staying—many employees who remain have similar tenure, and the model saw this as a reason to expect you to stay. That positive signal, however, was outweighed by two other influences. You have received other job opportunities while working here, something only about a quarter of employees who stay have experienced. This strongly suggests you are being actively recruited by other employers, making you more likely to accept an outside offer. Interestingly, you also reported no psychological exhaustion. While that sounds positive, the model found that employees in your situation who are not mentally drained are more often the ones ready to make a career move—they have the energy and drive to seek new challenges. Together, the external opportunities and your readiness for a change overrode the stabilizing effect of your relatively short tenure. The organization should recognize that your risk of leaving is linked to being in demand, not to poor performance. A direct conversation about your career goals—and what would make you stay—could be more productive than simply denying the promotion. For you, it may be worth reflecting on whether this decision itself pushes you toward one of those other offers.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

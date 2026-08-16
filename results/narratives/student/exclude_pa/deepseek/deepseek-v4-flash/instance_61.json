@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 61,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:54:49.697964",
+  "status": "success",
+  "narrative": "The model estimates that you have a 12% chance of failing your final year. While that may sound small, it is significant enough that your school requires you to take remedial courses as a precaution. The three factors that most strongly influenced this decision are ones that actually work in your favour, which is important to understand.\n\nThe strongest influence on the prediction is the reason you chose your school. You selected it because of its reputation, and among students who passed, about three in ten made the same choice. This suggests your motivation is genuine, and it pushes the model toward predicting success, not failure.\n\nThe second most influential factor is your record of past failures. You have never failed a class before, which matches the average of students who ultimately passed. This is a strong positive sign, and it also moves the prediction away from failing.\n\nThe third factor is the quality of your family relationships. You reported having good relationships at home, and most students who passed also enjoy good or very good family support. This supportive environment further lowers your risk.\n\nSo the model’s top three reasons all point toward passing, yet the overall prediction still lands on failing. That means other, smaller factors combined—perhaps your study habits, weekend drinking, or frequent absences compared with passed students—tip the balance. You have real strengths to build on. Focus on strengthening your study routine, reducing distractions, and addressing any attendance issues. The remedial courses give you the chance to turn your strong foundations into a guaranteed pass.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

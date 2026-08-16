@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 199,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:27:20.243314",
+  "status": "success",
+  "narrative": "The decision to deny your application comes down to a model that estimates your chances of passing the bar exam on the first attempt. It placed your probability of failing at 88.3 percent, which means that out of every ten students with a similar profile, nearly nine would not pass. That high risk is what drove the rejection.\n\nThe most important factor was your academic standing in the third year of your previous legal studies. You were placed in the bottom decile—the lowest tenth—of your class for that year. Students admitted to the program were typically around the middle of their class, so your performance in that final year was a very strong signal pointing toward bar exam failure. Your first-year standing also mattered, though less than your third year. Being in the bottom decile again in year one reinforced the pattern: early struggles followed by continued difficulty later. Together, these two academic rankings dominated the prediction.\n\nYour undergraduate GPA did not contribute to the adverse decision. In fact, although your GPA of 2.90 is below the average of 3.23 for admitted students, the model read this as slightly favoring success on the bar exam. This is important: it was not your undergraduate background that hurt you, but your law school class rank in the first and third years.\n\nTo improve your chances, focus on strengthening the areas that the model flagged. Consider retaking your final year of legal studies or enrolling in a strong bar preparation program before reapplying. You might also seek feedback on your academic standing and address any underlying issues that affected your class performance.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

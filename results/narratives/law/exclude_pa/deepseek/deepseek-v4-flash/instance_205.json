@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 205,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:28:46.637384",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates a 72.6 percent chance you would fail the bar exam on your",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

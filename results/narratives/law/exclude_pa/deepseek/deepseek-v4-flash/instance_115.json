@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 115,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:06:50.013994",
+  "status": "success",
+  "narrative": "The decision to deny your law school application was based on a model that estimates your probability of failing the bar exam on the first attempt at 51.1%. This means that, based on the patterns in the data, you were slightly more likely to fail than to pass, and the university judged that risk too high to accept.\n\nThe single most important factor in this decision was your class ranking in your third year. You finished in the second decile of your class, meaning you were near the bottom—while students who were accepted typically finished around the sixth decile. This weak academic trajectory, particularly so close to the end of your studies, weighed heavily against you and pushed the prediction firmly toward failure.\n\nTwo other factors pulled in the opposite direction. Your undergraduate GPA of 3.30 was slightly above the average of 3.23 for accepted students, which suggested some academic capability and nudged the prediction toward passing. Your LSAT score of 36 was slightly below the accepted-student average of 37.18, but it still contributed mildly in favor of a pass, indicating your aptitude test performance was not a major concern.\n\nUnfortunately, these positive signals were not strong enough to outweigh the very poor third-year ranking. That ranking was the dominant factor in the decision.\n\nWhat should you do next? Your most urgent priority is to understand why your third-year performance declined and take concrete steps to improve it—whether through additional academic support, stronger study strategies, or addressing personal circumstances. If you can demonstrate a significant upward trend in your final year and achieve a much stronger class standing, you will address the exact factor that drove this denial, and you will be a far more competitive applicant when you reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

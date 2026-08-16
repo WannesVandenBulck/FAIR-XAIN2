@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 83,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:57:46.473743",
+  "status": "success",
+  "narrative": "The model's prediction indicates a 64% chance that you would fail the bar exam on the first attempt. Because the university relies on this outcome as a key indicator of eventual success in the legal profession, your application was denied to avoid admitting a candidate with such a high risk of not passing.\n\nThe most influential factor in this decision was your class standing during your third year of undergraduate study. You ranked in the 1st decile, meaning you were among the lowest-performing students in your cohort that year. By contrast, students who were admitted typically placed around the 6th decile. This very low relative performance was the single strongest signal pushing the prediction toward bar exam failure. It suggests that your academic trajectory, particularly in your most recent years, did not demonstrate the level of mastery needed for a demanding law curriculum.\n\nYour LSAT score was the second most important factor. Your score of 20 is well below the average of 37 among admitted students. This low score heavily pushed the prediction toward failure, as it indicates weaker foundational reasoning and reading comprehension skills that are critical for passing the bar.\n\nInterestingly, your undergraduate GPA actually worked slightly in your favor. Although your 2.70 is below the 3.23 average of admitted students, this factor pushed the prediction toward passing rather than failing. Compared to your other credentials, your GPA was not a primary cause for concern.\n\nTo strengthen a future application, you must first address these core weaknesses. Retaking the LSAT after substantial preparation should be your immediate priority, as an improved score would dramatically change your risk profile. Additionally, you will need to demonstrate through recent coursework or a postgraduate program that your third-year performance is not representative of your true abilities.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

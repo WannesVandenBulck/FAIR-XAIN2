@@ -18,14 +18,14 @@
       "rank": 3,
       "name": "decile3",
       "sign": 1,
-      "value": 3
+      "value": 3.0
     }
   ],
   "features": [
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": 3
+      "value": 3.0
     },
     {
       "name": "lsat",

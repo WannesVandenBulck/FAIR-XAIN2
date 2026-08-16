@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 9,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:39:17.572332",
+  "status": "success",
+  "narrative": "The model estimates that you have an 18% chance of failing your final year. That is not a certainty, but it is a real enough risk that your school considers you for remedial support now. Think of it this way: among 100 students with a profile similar to yours, roughly 18 would not pass, so the school has decided that extra courses are a worthwhile safeguard rather than waiting until the end of the year.\n\nThe three strongest influences on this prediction actually worked in your favor. The most important one is your record of past failures: you have never failed a class before, and that strongly pushed the model away from predicting failure. The second strongest influence is your desire to go into higher education. Every single student who passed in the school data also wanted to pursue higher education, so this same goal in your profile lowered your risk noticeably. The third factor is that you did not attend nursery school. This may seem unrelated, but in your specific case it still nudged the prediction slightly toward passing, even though most passing students had attended nursery.\n\nSo the top reasons are not warning signs; they are strengths. The 18% risk comes from the broader combination of other details in your day-to-day life, such as your absences being higher than the average for passing students, along with many small factors that, added together, kept your overall risk above the school’s intervention threshold.\n\nUse the remedial courses as a safety net, not a punishment. Protect your perfect record, hold onto your higher-education goal, and work on bringing your attendance closer to the average of students who pass. If you do that, you can keep that 18% from becoming reality.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

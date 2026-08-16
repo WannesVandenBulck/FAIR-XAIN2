@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 8,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:57:12.430759",
+  "status": "success",
+  "narrative": "Your application has been declined because the model assessing your creditworthiness estimated a 41% probability that you would default on the loan. In other words, this profile suggests that roughly 4 out of 10 applicants with similar characteristics fail to repay. The single most important factor in this decision is the current state of your checking account, which is overdrawn below zero. Among borrowers who are approved, only about 1 in 8 have a negative account balance; the majority have no checking account at all or a positive balance. This weighs heavily against the application.\n\nIt is important to note that two other key factors actually worked in your favor. You requested a loan for only 12 months, which is considerably shorter than the typical 19-month term, and this shorter commitment reduces your risk of long-term financial strain. Additionally, your monthly instalment represents only 2% of your disposable income, which is lower than the average of about 3% for approved applicants. This indicates that you have some breathing room in your budget to make payments. However, these positive signals were not enough to outweigh the concern raised by your negative account balance.\n\nTo strengthen a future application, consider rebuilding your account so it is no longer overdrawn, and perhaps wait until you have maintained a positive balance for several consecutive months.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

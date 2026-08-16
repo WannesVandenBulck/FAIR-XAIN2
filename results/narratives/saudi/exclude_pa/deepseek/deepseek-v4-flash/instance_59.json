@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 59,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:29:12.664414",
+  "status": "success",
+  "narrative": "Based on the available information, the model indicates a 44% probability that you will leave your job within the coming period. While this is not a majority, it is a significant enough risk that the organization has decided to deny the promotion, as promoting someone likely to depart would be costly and disruptive.\n\nThe most influential factor in this decision was your overall experience level. With only one to five years in your career, you fall into the largest group of employees predicted to stay—about half of that group shares your experience level—and this strongly pushed the prediction in your favor, toward staying. This suggests your relative inexperience is not the problem.\n\nHowever, the second most important factor worked against you. Your tenure in your current organization is also only one to five years, a range shared by roughly half of stayers, but this feature nevertheless pushed the prediction toward leaving. This indicates that your relatively short time in this specific workplace may signal a pattern of not settling in long-term. Combined with your medical sector role and lower salary bracket, this raises concern about your commitment to the current employer.\n\nThe third most influential consideration was outside job offers. You indicated you have not received other opportunities, which pushed the prediction back toward staying, and indeed most employees predicted to stay have not received offers either. This is a positive signal.\n\nThe overall picture is that you are not deeply rooted in this organization yet. To improve your chances for future promotion, consider discussing your career path with your manager, seeking to grow your tenure here, and demonstrating your intention to build a long-term future with the organization.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

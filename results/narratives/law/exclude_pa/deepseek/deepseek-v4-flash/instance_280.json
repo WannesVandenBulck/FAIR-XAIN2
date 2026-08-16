@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 280,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:48:18.911507",
+  "status": "success",
+  "narrative": "Your application was turned down because the admission model estimated that you have a 57.6% chance of failing the bar exam on your first attempt—meaning it sees failure as slightly more likely than success. That prediction, not any protected characteristic, drove the denial.\n\nThree factors stood out most. The strongest was your class decile in the third year, followed by your LSAT score, and then your first-year class decile. Your third-year and first-year deciles both pushed the model strongly toward the \"fail\" outcome. In your case, your decile was 1, while the average admitted student had a decile near 6; the model treated that distance as a warning sign. Your LSAT score of 34, though lower than the average of about 37 among accepted students, actually pulled the prediction toward passing. That was a positive sign, but it was not strong enough to outweigh the two decile factors.\n\nWhat does this mean concretely? The model believes the biggest risk factors are your law-school class rankings, rather than your income, workload, or GPA. Even though your LSAT helped, the rankings in your school’s hierarchy were decisive.\n\nYour next step should be to address those risk factors directly. If you are still in school, focus on improving your class standing and seek academic support. Retake the LSAT to raise your score further, turning that already-favorable signal into a stronger one. Then reapply with evidence of upward progress, so the next evaluation sees a different story.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

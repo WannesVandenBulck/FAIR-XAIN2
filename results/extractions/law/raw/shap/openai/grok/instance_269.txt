@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "fulltime",
       "sign": 1,
-      "value": 1
+      "value": 2
     },
     {
       "rank": 2,
@@ -17,7 +17,7 @@
     {
       "rank": 3,
       "name": "ugpa",
-      "sign": -1,
+      "sign": 1,
       "value": 3.3
     }
   ],
@@ -50,7 +50,7 @@
     {
       "name": "fulltime",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "gender",

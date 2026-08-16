@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 47,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:48:51.600929",
+  "status": "success",
+  "narrative": "Your law school application was denied because a predictive model estimated a 75% chance that you would not pass the bar exam on your first attempt. That is a high level of risk, and the admission committee used this as a central reason for rejecting your application. The decision was not based on your family background, gender, or race; rather, it came down to your academic record during law school, and specifically your class standing.\n\nYour most influential weakness was your class rank in the third year. You placed in the second decile, while accepted students on average placed around the sixth decile. This suggests your final-year performance was substantially below the level typically associated with bar exam readiness. Since third-year grades best reflect the knowledge and skills you would take into the bar, this weighed heavily in the model’s prediction of failure. Your first-year class standing also pushed in the same direction, though less strongly. Being in the second decile in your first year is also a concern, but it was not as decisive as your third-year standing.\n\nInterestingly, your undergraduate GPA worked slightly in your favor. At 3.20, it was close to the average of accepted students, and it pointed the model toward a lower chance of failure. In other words, your struggles appear to have emerged during law school, not before.\n\nWhat should you do next? Focus on improving your law school performance, especially in your final year. Retake challenging courses, seek tutoring, or consider a bar preparation program before retaking the exam. You might also reapply after demonstrating stronger academic progress or gain additional legal experience. With improved grades, you can counter the key risk factor that led to this denial.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

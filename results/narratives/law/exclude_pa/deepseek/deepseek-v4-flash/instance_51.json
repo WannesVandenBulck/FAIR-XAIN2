@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 51,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:50:02.373624",
+  "status": "success",
+  "narrative": "The decision to deny your law school application was reached after careful review of the factors that most strongly predict bar exam performance. The evaluation estimated that you have a 77 percent probability of failing the bar exam on your first attempt, meaning only about one in four students with a similar profile would pass. This level of risk was deemed too high for admission.\n\nThree factors shaped this prediction, ranked by strength of influence. Your Year 3 class standing mattered most, followed by your LSAT score, and then your Year 1 class standing. All three pushed the outcome toward failure.\n\nYour Year 3 decile placed you at the very bottom of your class, whereas accepted applicants typically sit around the sixth decile. Your Year 1 decile repeated that pattern—also the lowest decile versus a typical sixth-decile standing—showing that academic difficulty was not an isolated slip but a persistent trend. Your LSAT score of 24 also fell far below the average of 37 among accepted students, indicating foundational weaknesses in reading comprehension and logical reasoning that the bar exam demands.\n\nTo strengthen a future application, focus first on retaking the LSAT after structured preparation, since improving that score alone would significantly shift the prediction. Next, consider retaking Year 1 and Year 3 courses to raise your grades and move out of the bottom deciles, and seek tutoring to build sustainable study strategies. Evidence of sustained improvement would help overcome the earlier record when you reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

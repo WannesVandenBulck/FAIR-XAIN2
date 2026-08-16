@@ -4,9 +4,9 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "credit_history",
-      "sign": -1,
-      "value": 5
+      "name": "savings",
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 2,
@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "savings",
-      "sign": 1,
-      "value": 1
+      "name": "credit_history",
+      "sign": -1,
+      "value": 5
     }
   ],
   "features": [

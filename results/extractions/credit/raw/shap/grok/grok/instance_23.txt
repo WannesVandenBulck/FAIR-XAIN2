@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "status",
       "sign": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "rank": 3,
@@ -25,7 +25,7 @@
     {
       "name": "status",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "duration",

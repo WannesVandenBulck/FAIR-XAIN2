@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "Job_Opportunities",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 3,
       "name": "Emotional_Commitment",
       "sign": -1,
       "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Job_Opportunities",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -79,7 +79,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

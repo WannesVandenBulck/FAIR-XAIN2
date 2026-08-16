@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 15,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:58:45.567545",
+  "status": "success",
+  "narrative": "Your loan application was denied because the model sees a 38% chance that you would default—a level considered too risky. That does not mean you are a bad person, but that your financial profile resembles others who have struggled to repay.\n\nThe most important factor in the decision was the amount you requested. Interestingly, this helped your case: you asked for 2,579 DM, which is less than the average approved loan of about 3,020 DM, and lenders generally see smaller requests as safer. The second most influential factor—the length of the loan—also worked in your favor. At 12 months, your proposed repayment period is well below the average of about 19 months, meaning you planned to pay the debt back quickly.\n\nThe third factor, however, tipped the scales against you. The condition of your checking account is a major warning sign. Your account shows a negative balance, a situation seen in only about 12.6% of approved applications. Most approved borrowers have a positive balance or at least no negative balance. This one issue was strong enough to outweigh the positives of your modest loan amount and short duration.\n\nTo improve your chances in the future, focus on bringing your checking account into positive territory and maintaining it there for several months. You might also consider a smaller loan with a longer repayment period, or adding a co-signer or collateral such as your real estate. Reapplying after stabilizing your account would give you a much better outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

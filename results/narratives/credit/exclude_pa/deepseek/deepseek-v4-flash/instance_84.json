@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 84,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:13:35.997226",
+  "status": "success",
+  "narrative": "The model estimated that you have a 48% chance of being a bad credit risk—meaning that, based on the patterns it learned, the bank considers this probability too high to approve your loan. The strongest factor in that decision was the condition of your checking account, which is currently overdrawn. This had a larger influence than any other piece of information and pushed the prediction firmly toward the risky category. Compared to other applicants, a negative balance is relatively uncommon, and it often signals financial stress. In your profile, this single factor outweighed several positive signs.\n\nTwo other factors actually worked in your favor. The amount you requested—2,406 Deutsche Marks—is lower than the average loan amount, which is normally a good sign. Your employment stability also helped: you have held your job for four to seven years, which is a solid track record and pushed the prediction slightly toward the safe side. However, these positive influences were not strong enough to overcome the warning from your overdrawn account.\n\nWhat should you do next? Focus on restoring your checking account to a positive balance and keeping it there for several months. If you can also continue making any current credit payments on time, your profile will look much stronger. Consider reapplying after you have demonstrated a longer period of financial stability—your employment history and reasonable loan amount already give you a good foundation to work from.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

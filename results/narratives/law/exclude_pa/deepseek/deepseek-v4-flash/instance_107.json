@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 107,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:05:07.132707",
+  "status": "success",
+  "narrative": "The model predicts you have a 63.8% chance of failing the bar exam on your first attempt, meaning the school judged that the risk of you not becoming a licensed attorney was too high to admit you. This prediction was not based on your gender or race, but on three key factors in your academic and personal profile.\n\nThe single most important influence on this decision was your family’s income bracket. You come from a Middle-income background, while nearly half of admitted students come from Upper-middle families and a further share from High-income homes. In the model’s view, this pushed your outcome toward failure more than any other factor. The second strongest factor was your first-year academic decile ranking. Your standing in the 5th decile is below the average of 6.0 seen among accepted students, signalling that your early law school performance was weaker than typical admits, and this also moved your prediction toward failing.\n\nYour LSAT score was the third most influential element, though much less important than the first two. You scored 39, which is above the average of 37.18 for accepted students. Still, the model treated this score as a slight tip toward failure rather than success, likely because a strong test result alone could not outweigh your academic and financial background signals.\n\nTo improve your chances, focus on raising your first-year grade decile through targeted academic support, consider test preparation to push your LSAT even higher, and look into scholarship or financial advising options that can strengthen the overall picture you present when you reapply.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

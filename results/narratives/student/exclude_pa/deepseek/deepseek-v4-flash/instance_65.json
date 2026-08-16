@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 65,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:56:05.974931",
+  "status": "success",
+  "narrative": "Based on your profile, the model places you in the group likely to fail the final year, with a 20 percent chance of failing. That number is not a guarantee, but it reflects real warning signs the school takes seriously, which is why you are now required to take remedial courses.\n\nThe strongest factor pushing the prediction toward failure is your workday alcohol consumption, which you report as very high. This is especially striking because students who pass almost always report very low alcohol use during the school week. Drinking heavily on school days likely affects your focus, memory, and energy, making it harder to keep up with coursework. This single factor outweighs the encouraging parts of your profile.\n\nTwo other important features actually push toward passing. You have no previous course failures, and students who pass tend to have the same clean record. Also, you chose your school because of its reputation, which is a positive sign of motivation and is more common among students who succeed than other reasons. These protective factors are real, but they are not strong enough to counterbalance the risk created by your weekday drinking.\n\nThe clearest next step is to reduce or eliminate alcohol on school nights and give your brain the rest and clarity it needs. Pair that with consistent study time and the extra support from the remedial courses. Since you have already shown responsibility and motivation, making this change could turn your predicted risk into a passing result.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

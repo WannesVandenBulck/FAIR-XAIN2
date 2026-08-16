@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 215,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:32:24.126125",
+  "status": "success",
+  "narrative": "Your application was denied because the model estimates an 80.3% chance that, if admitted, you would fail the bar exam on the first attempt. That high risk is what drove the rejection.\n\nThe most important reason was your class standing. Your third-year decile was the strongest factor pushing the prediction toward failure; your first-year decile was the second strongest. Accepted students typically landed around the sixth decile in both years, while you were in the first and second deciles. Although your undergraduate GPA is strong, those class rankings outweighed it. The model saw them as red flags for how well you might perform on the bar.\n\nYour family income actually helped you. Being from a high-income household is uncommon among accepted applicants and pushed slightly toward passing, likely because it can signal access to resources and support. But this beneficial effect was much smaller than the negative effect of your early class rankings.\n\nYour LSAT was essentially average, and your full-time enrollment is typical, so they were not decisive.\n\nThis denial reflects patterns the model has learned, not a final verdict on your ability. To address the main concerns, focus on improving your class standing. If possible, retake courses or seek academic support, then reapply with updated grades that show stronger performance relative to your peers. You may also consider retaking the LSAT and exploring additional bar preparation. The key is to demonstrate that the risk the model identified has decreased.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

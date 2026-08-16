@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 82,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:57:39.005300",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 61.8% probability that you would fail the bar exam on your first attempt. That means the law school believes you are more likely than not to struggle with the licensing hurdle, and they are not willing to take that risk.\n\nThe decision was driven primarily by your academic standing during your law studies, not by any personal attributes. The single most influential factor was your class ranking in your third year. You placed in the 3rd decile of your school, while accepted students typically sit near the 6th decile. This places you near the bottom quarter of your class, and the model sees this as a strong signal that you have not mastered the legal material needed to pass the bar. Your first-year ranking told a similar story: at the 3rd decile, compared to an accepted average of 6.00, it also pushed the prediction toward failure, though with somewhat less force than your later performance.\n\nInterestingly, your LSAT score worked in your favor. Even though your score of 36 is slightly below the average of 37.18 among accepted students, the model still treated it as the second most important factor and interpreted it as an argument for passing. It was not strong enough to overcome the damage from your low class rankings, but it shows you have some underlying aptitude.\n\nTo improve your chances, focus on raising your academic performance in your remaining semesters and consider retaking the LSAT to strengthen the one factor that already helps you. You might also look into bar preparation courses and academic support services to demonstrate commitment before reapplying.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

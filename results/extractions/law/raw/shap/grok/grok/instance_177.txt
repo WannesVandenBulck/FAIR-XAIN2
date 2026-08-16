@@ -10,22 +10,22 @@
     },
     {
       "rank": 2,
-      "name": "decile3",
-      "sign": -1,
-      "value": 6.0
-    },
-    {
-      "rank": 3,
       "name": "fam_inc",
       "sign": 1,
       "value": 3.0
+    },
+    {
+      "rank": 3,
+      "name": "decile3",
+      "sign": -1,
+      "value": 6
     }
   ],
   "features": [
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": 6.0
+      "value": 6
     },
     {
       "name": "lsat",

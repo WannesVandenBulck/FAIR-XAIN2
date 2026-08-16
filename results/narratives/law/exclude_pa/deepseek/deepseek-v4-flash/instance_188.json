@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 188,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:24:57.618482",
+  "status": "success",
+  "narrative": "The model predicts a 71.8% chance that you would fail the bar exam on the first attempt, and this high risk is the central reason your law school application was denied. In plain terms, the school evaluated the evidence available and concluded that you were more likely than not to struggle significantly with the bar exam, which made admitting you a considerable risk.\n\nYour academic record tells a consistent story that drove this prediction. The single most influential factor was your class standing after your first year of undergraduate study. You ranked in the second decile of your school, meaning you finished in the bottom 20% of your class. Among students who were accepted into this law program, the average standing was the sixth decile, placing them squarely in the middle of their class. Your early academic struggles were the strongest signal pushing the model toward predicting failure.\n\nThe second most important factor was your standing in your third year, where you improved slightly to the third decile. While this shows progress, you still remained well below the accepted-student average of roughly the sixth decile. This persistent pattern of below-average performance reinforced the model's concern.\n\nYour undergraduate GPA of 2.80, compared to the 3.23 average among accepted students, was the third most influential factor. It added further weight to the prediction of failure, though to a lesser degree than your class rankings.\n\nTo strengthen a future application, focus on demonstrating academic excellence in your remaining coursework, consider retaking the LSAT to improve your score, and seek additional evidence that you can succeed in a rigorous legal curriculum.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

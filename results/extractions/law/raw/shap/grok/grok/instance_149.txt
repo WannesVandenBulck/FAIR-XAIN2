@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "ugpa",
-      "sign": -1,
-      "value": 3.60
-    },
-    {
-      "rank": 3,
       "name": "lsat",
       "sign": 1,
       "value": 26
+    },
+    {
+      "rank": 3,
+      "name": "ugpa",
+      "sign": -1,
+      "value": 3.6
     }
   ],
   "features": [
@@ -45,7 +45,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 3.60
+      "value": 3.6
     },
     {
       "name": "fulltime",

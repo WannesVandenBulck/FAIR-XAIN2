@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 35,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:02:50.226145",
+  "status": "success",
+  "narrative": "Your application was denied because the model sees you as a high risk — a 65% probability that you would not repay the loan. That's roughly two chances in three, which is far too high for the bank to accept.\n\nThe single biggest factor pushing this decision was the condition of your checking account. Your account is overdrawn, a situation that only about 1 in 8 approved applicants were in. Most approved applicants had at least a small positive balance, so an overdrawn account strongly signals financial strain and made the model lean heavily toward bad credit risk.\n\nThe second influence was the purpose of the loan — furniture and equipment. Interestingly, this actually worked in your favor. Loans for furniture are viewed as a reasonable, lower-risk purpose compared to riskier ones like business or used cars, so this factor nudged the prediction toward good credit. However, it wasn't strong enough to outweigh the checking account issue.\n\nThe third factor was your savings. With less than 100 DM in savings, you have very little financial cushion. This is common among denied applicants, but combined with your overdrawn account it reinforced the impression that you have no buffer to absorb unexpected expenses, making default more likely if something goes wrong.\n\nWhat should you do next? Start by addressing your checking account — bring it into positive territory and keep it there for several months. Then build up even a modest savings buffer. Once your financial situation shows this kind of stability, you would be in a much stronger position to reapply and likely receive a different outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

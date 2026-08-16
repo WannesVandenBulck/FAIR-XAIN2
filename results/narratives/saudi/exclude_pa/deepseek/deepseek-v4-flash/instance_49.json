@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 49,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:26:58.577219",
+  "status": "success",
+  "narrative": "The model estimates there is a 55% chance you will leave your job in the near future. That is just above the threshold the organization uses to identify retention risk, and it is why your promotion request was denied. This does not mean you are a bad employee—it means the signals in your work history point toward you being likely to move on before the organization would see a return on promoting you.\n\nThe strongest factor pulling you toward staying is your overall experience level of 1-5 years. At this stage, employees like you are typically still building their careers and remain in their roles, so this works in your favor.\n\nHowever, two stronger signals push the other way. First, you have received other job opportunities while working here. Only about one in four employees who stay report receiving outside offers, so this is a meaningful indicator that you are actively marketable and may be considering leaving. Second, you work in a sector labeled “other.” Compared to employees who stay, who are concentrated in medical and education fields, your sector has a higher turnover pattern, making the model more cautious.\n\nIn short, your limited experience argues for loyalty, but your external opportunities and industry context argue that you are likely to leave. To change this outcome, you may want to discuss with leadership what would make you feel committed long-term—whether that is a clearer career path, more challenging responsibilities, or greater recognition. The organization, in turn, should consider whether it is offering you enough reasons to stay before making future promotion decisions.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

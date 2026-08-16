@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 13,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:58:19.638100",
+  "status": "success",
+  "narrative": "The decision to deny your loan application was based on an assessment of your financial situation, which indicated a 35% probability that you would struggle to repay the loan. While that means there was a 65% chance you would repay, the bank considers a 35% risk too high to approve. Three key factors drove this decision, ranked by importance.\n\nThe most influential factor was the status of your checking account. You have no checking account, which is a strong indicator of financial instability. While many applicants also lack one, this pattern is much more common among those who default, and it pushed the decision strongly toward denial.\n\nThe second factor was the amount you requested: 10,366 DM. This is more than three times the average loan amount of about 3,020 DM. Larger loans require larger monthly payments and a longer financial commitment, which raises the risk that you might not be able to keep up.\n\nThe third factor was the duration of the loan—60 months. The average repayment period is around 19 months, so your request for five years is substantially longer. Extended timelines bring more uncertainty, making it harder to predict your future ability to pay.\n\nAlthough you have a stable job, long employment, and own your home, these positive points could not offset the combination of having no checking account, borrowing a very large amount, and asking for a long repayment term. To strengthen a future application, consider requesting a smaller amount or a shorter term, and opening a checking account to build a clearer track record of financial management. These changes would lower the perceived risk and improve your chances of approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

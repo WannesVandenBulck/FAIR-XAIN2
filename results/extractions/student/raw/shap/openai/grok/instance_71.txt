@@ -10,22 +10,22 @@
     },
     {
       "rank": 2,
-      "name": "failures",
-      "sign": -1,
-      "value": 0
+      "name": "studytime",
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "Walc",
-      "sign": -1,
-      "value": 1
+      "name": "Medu",
+      "sign": 1,
+      "value": 3
     }
   ],
   "features": [
     {
       "name": "failures",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "higher",
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "Fedu",
@@ -80,17 +80,17 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "schoolsup",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -139,13 +139,13 @@
     },
     {
       "name": "Walc",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 6
     },
     {
       "name": "sex",

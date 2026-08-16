@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 28,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:45:34.601480",
+  "status": "success",
+  "narrative": "The model's assessment shows a 16 percent chance that you will not pass your final year. While this means you are more likely to pass than fail, the school has decided that a risk of this size is enough to require remedial courses.\n\nThe three most influential factors in this prediction actually worked in your favor. First, you have never failed a class before, matching the pattern of students who passed, and this strongly reduced the likelihood of a failing prediction. Second, you want to pursue higher education, a goal shared by every student who passed in the data, which also pushed the model toward success. Third, you described your family relationships as good, aligning with most students who passed and further lowering your risk.\n\nSo why the remedial requirement? Even with these strong positives, the model still detected a meaningful 16 percent risk, meaning other aspects of your profile are raising concern. You study less than two hours per week, while most passing students study two to five hours. You lack internet access at home, which can limit your ability to research and complete assignments. And with nine absences compared to an average of about four for passing students, missed classroom time is likely taking a toll.\n\nTo improve your outlook, aim to increase your study time to at least two hours per week, use school or library resources if home internet is unavailable, and prioritize attendance. The remedial courses are designed to help you close these gaps, and given your record of no past failures, your motivation for higher education, and your supportive family, you have every reason to expect a successful year.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

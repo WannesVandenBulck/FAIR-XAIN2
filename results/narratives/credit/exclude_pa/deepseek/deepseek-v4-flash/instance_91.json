@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 91,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:15:16.747937",
+  "status": "success",
+  "narrative": "After reviewing your application, we denied it because our assessment indicates a 33% chance you would become a bad credit risk, meaning you would struggle to repay the loan. The bank considers that probability too high to take on.\n\nThe most important factor in the decision was the guarantor you provided. This worked clearly in your favor and lowered your overall risk, since most applicants do not have an extra guarantor standing behind them.\n\nHowever, a second key factor outweighed that benefit: the condition of your checking account. Your account currently shows a negative balance, below zero Deutsche Marks. Among previously approved applicants, only about one in eight had this kind of negative account status; the large majority kept a positive balance or had no overdraft. This was the single strongest factor pushing you toward being classified as a bad credit risk.\n\nA third factor was the amount you requested — 1,755 DM, which is substantially smaller than the typical approved loan of around 3,000 DM. That smaller amount reduced the bank's exposure and helped your case.\n\nIn the end, the negative checking account carried more weight than the positive aspects, and the overall result was still not strong enough for approval.\n\nWhat you can do next: focus on bringing your checking account into positive territory and avoid overdrafts for several consecutive months. Then reapply with the same guarantor and a similarly modest loan amount. Strengthening your account history would likely make the biggest difference to a future decision.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

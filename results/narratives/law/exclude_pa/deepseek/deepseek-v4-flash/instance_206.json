@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 206,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:29:15.107630",
+  "status": "success",
+  "narrative": "When your application was reviewed, the admission model determined that you had a 56.6 percent chance of failing the bar exam on your first attempt. Because this probability was above the 50 percent mark, you were considered more likely to fail than to pass, which led to the denial of your application.\n\nThe most influential factor in this decision was your class ranking in your third year. You placed in the second decile, which means you were in the bottom twenty percent of your cohort. Among accepted students, the average ranking was close to the middle of the distribution. This performance was the single strongest signal pushing the prediction toward bar exam failure, and it weighed heavily against you.\n\nYour undergraduate GPA, in contrast, worked in your favor. At 3.30, it was slightly above the average of 3.23 among accepted applicants, and it pushed the prediction in the direction of passing. However, this positive influence was not strong enough to outweigh the negative effect of your third-year class standing.\n\nFamily income played a much smaller role in the decision. Being in the upper-middle income bracket had a minor influence, and it pushed the prediction slightly toward the failure side, though it was far less important than your academic record.\n\nTo strengthen a future application, focus on improving your academic performance in your final year, since your class ranking was the decisive factor. Retaking the LSAT could also help, as your score of 34 was below the average of 37.18. With a stronger academic record, you would present a far more favorable profile.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

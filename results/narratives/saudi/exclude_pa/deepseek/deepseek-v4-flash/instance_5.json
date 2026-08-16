@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 5,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:18:24.731417",
+  "status": "success",
+  "narrative": "Your application for promotion was reviewed carefully, and I want to be transparent about what led to this decision. Based on the information available, the model estimates there is a 64 percent chance that you will leave your job in the near future. That likelihood is the central reason the promotion was not approved, since investing in a promotion and the additional training that comes with it carries significant risk if the employee departs shortly afterward.\n\nThree factors weighed most heavily. The first is that you have received other job opportunities while working here. Among employees who remain with their organization, only about a quarter have outside offers, so this strongly signals that you are actively considering leaving. The second is your work-life balance, which you described as difficult. Fewer than one in ten employees who stay report such strain, and this difficulty often pushes people to seek a less demanding workplace. The third is your overall experience level of six to ten years. While this makes you highly capable, it also places you at the career stage where employees are most mobile and most likely to be recruited elsewhere.\n\nNone of this means you will definitely leave, but the signals are consistent. To change this outcome, consider discussing what would make your workload more sustainable and whether a clearer long-term path here would outweigh outside offers. The organization, for its part, should recognize that your risk reflects unmet needs rather than disloyalty — addressing those needs may be more valuable than withholding a promotion.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

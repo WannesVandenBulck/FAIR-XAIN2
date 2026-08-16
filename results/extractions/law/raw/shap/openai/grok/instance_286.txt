@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "lsat",
-      "sign": 1,
-      "value": 32.00
+      "name": "ugpa",
+      "sign": -1,
+      "value": 3.4
     },
     {
       "rank": 3,
-      "name": "ugpa",
-      "sign": -1,
-      "value": 3.40
+      "name": "lsat",
+      "sign": 1,
+      "value": 32.0
     }
   ],
   "features": [
@@ -30,7 +30,7 @@
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": 32.00
+      "value": 32.0
     },
     {
       "name": "decile1",
@@ -45,7 +45,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 3.40
+      "value": 3.4
     },
     {
       "name": "fulltime",

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 59,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:52:08.075300",
+  "status": "success",
+  "narrative": "Your law school application was denied because the model that estimates first-time bar exam success determined you are more likely to fail than pass. Specifically, it placed your probability of failing at 55.5%, meaning the odds are slightly against you. The three factors that most strongly influenced this outcome were, in order of importance, your LSAT score, your third-year academic ranking, and your first-year academic ranking.\n\nYour LSAT score of 34 was the single most powerful factor, but here is the important part: it actually pushed the prediction toward passing. Compared to an accepted student average of just over 37, a 34 is a modest score — it did not help much, but it was not the reason your application failed. The reason lies in your academic deciles. Your third-year ranking of 3.00, against an accepted average near 5.79, pushed the prediction firmly toward failure. Your first-year ranking of 3.00, against an accepted average of 6.00, did the same. Together, these two academic rankings outweighed the modest positive support from your LSAT score and tipped the overall prediction past the 50% mark.\n\nWhat you can do next is straightforward. Consider retaking the LSAT to lift that score, and if you intend to reapply, focus on raising your final-year grades. You might also explore part-time study options, which some students find improves their performance. With concrete improvement in these areas, your predicted odds of failing would shift, and a future application would stand a far better chance.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 167,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:20:21.316158",
+  "status": "success",
+  "narrative": "The model estimated that you have a 74.5 percent chance of not passing the bar exam on your first attempt. Though this is not a certainty, it is a strong warning sign, and it was the primary reason your application for admission was denied. The admission committee does not see this as a judgment on your character, but as a forecast based on patterns in thousands of previous students.\n\nThe strongest factor pushing this prediction toward failure was your academic standing in your third year. You finished in the bottom tenth of your class, while admitted students typically sit near the middle or above. Your third-year performance matters most because it reflects how well you mastered advanced legal material, which is what the bar exam measures. Your first-year ranking also mattered, though less so. Here too you were in the bottom tenth, whereas admitted students commonly fall around the sixth decile. This pattern indicates that early difficulties in law school persisted rather than being resolved over time.\n\nThe third factor, though the weakest of the three, was your enrollment plan. You intended to attend part-time, while more than nine in ten admitted students studied full-time. Part-time study is associated with competing responsibilities, which can limit the intensive preparation a first-time bar pass requires.\n\nTo strengthen a future application, focus first on improving your academic performance and demonstrating mastery of the material through additional coursework or tutoring. Retaking the LSAT to raise your score above the average of admitted students could also improve your chances, as could committing to full-time study if your circumstances permit.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

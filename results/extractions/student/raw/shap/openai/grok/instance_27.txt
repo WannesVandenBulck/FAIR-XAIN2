@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
+      "name": "Medu",
+      "sign": 1,
+      "value": 2
     },
     {
       "rank": 3,
-      "name": "failures",
-      "sign": -1,
-      "value": 0
+      "name": "Fedu",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
@@ -29,13 +29,13 @@
     },
     {
       "name": "higher",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsize",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Pstatus",
@@ -44,13 +44,13 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Fedu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Mjob",
@@ -84,8 +84,8 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsup",

@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 61,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:08:49.014849",
+  "status": "success",
+  "narrative": "Your loan application was denied after a careful review of the information you provided. The model estimated the chance that you would become a bad credit risk at 26 percent—meaning that, based on similar applicants, you would default in about one out of four cases. While that also implies a 74 percent chance of repaying on time, the bank considers this level of uncertainty too high to approve.\n\nThe most influential factor in the decision was your checking account status. Your account is currently overdrawn, with a balance below zero. This is a red flag: only about one in eight approved applicants has a negative balance, whereas the majority maintain at least a zero or positive balance. This strongly pushed the prediction toward bad credit.\n\nIn contrast, two other important factors worked in your favor. The length of your requested loan was only 12 months, much shorter than the typical 19-month loan among approved borrowers, which lowers risk because the repayment window is shorter. Additionally, you have a guarantor supporting your application. This is relatively rare—only about 6 percent of applicants have one—and it helped reduce the overall risk assessment. However, these positives were not enough to offset the concern raised by your overdrawn account.\n\nTo improve your chances in the future, focus on bringing your checking account into positive territory and maintaining it for several months. Reapplying after that, with a shorter loan term and your guarantor, could lead to a different outcome.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

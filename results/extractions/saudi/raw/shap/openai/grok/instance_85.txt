@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "Years_Experience",
-      "sign": -1,
+      "sign": 1,
       "value": 1
     },
     {
@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -109,12 +109,12 @@
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Engagement",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -139,18 +139,18 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Environment_Satisfaction",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Satisfaction",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Gender",

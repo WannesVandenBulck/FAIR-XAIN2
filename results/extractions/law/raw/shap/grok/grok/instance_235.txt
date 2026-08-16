@@ -39,13 +39,13 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "ugpa",
-      "mentioned": 1,
-      "value": 2.9
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "fulltime",
@@ -54,12 +54,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

@@ -11,14 +11,14 @@
     {
       "rank": 2,
       "name": "Fedu",
-      "sign": -1,
-      "value": 4
+      "sign": 1,
+      "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "studytime",
-      "sign": 1,
-      "value": 2
+      "name": "higher",
+      "sign": -1,
+      "value": 0
     }
   ],
   "features": [
@@ -50,7 +50,7 @@
     {
       "name": "Fedu",
       "mentioned": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "name": "Mjob",
@@ -80,16 +80,16 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "name": "freetime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 268,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:45:37.452289",
+  "status": "success",
+  "narrative": "Your application was denied because the model assessed a 64.9% probability that you would fail the bar exam on your first attempt. In other words, based on the factors used, the risk of failing was considerably higher than the risk of passing, and this fell below the university’s threshold for admission.\n\nThe single strongest factor was your class standing in the third year of your undergraduate studies. You were in the bottom tenth of your class, whereas students admitted to the program typically sit around the middle of the distribution, roughly the sixth decile. Being in the bottom decile strongly pushed the prediction toward bar exam failure.\n\nThe second most influential factor was your family income, but it worked in your favor. Your middle-income background is consistent with many admitted students, and this factor pushed modestly toward passing, lowering the overall risk. It was not enough, however, to outweigh the academic warning signs.\n\nThe third factor was your LSAT score. At 22.7, it was far below the average of about 37.2 for admitted students. That low score again pushed the prediction toward failure, confirming a consistent pattern of academic risk.\n\nTogether, these factors created a prediction of failure at nearly two-to-one odds. To improve a future application, focus on raising your standardized test performance and strengthening your academic record—for example, through further coursework or focused test preparation—so that the next review shows a more encouraging balance of strengths.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

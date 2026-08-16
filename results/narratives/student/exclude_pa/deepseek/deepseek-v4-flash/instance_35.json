@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 35,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:47:46.927863",
+  "status": "success",
+  "narrative": "The model estimates that you have a 16% chance of not passing your final year. This means that, while you are more likely to pass than fail, the risk is still high enough that the school has decided you need additional support through remedial courses. The three factors that most influenced this prediction all actually worked in your favor. First, you have never failed a class before, which is a very strong sign that you are capable; this clean record pushed the model toward a passing outcome. Second, you stated that you want to pursue higher education, and every student in the passing group shared that same ambition. Your own goal also lowered the model's failure estimate. Third, your absences had an influence, although in a surprising direction. You missed school 22 times, while students who passed missed about 4 times on average. Even though that is a big difference, the model treated your absence level as slightly protective in your specific case rather than as a clear risk. So the most important factors are not why the model flagged you. Instead, the 16% failure probability comes from a combination of many smaller signals, such as studying less than two hours per week, going out very often, and spending little time on schoolwork. To improve, focus on increasing your weekly study time, reducing unnecessary absences, and moderating your weekend activities. These are areas you can control, and strengthening them will bring your predicted risk down.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

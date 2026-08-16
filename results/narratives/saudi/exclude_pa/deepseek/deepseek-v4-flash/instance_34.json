@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 34,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:24:00.237600",
+  "status": "success",
+  "narrative": "Based on the model's assessment, there is a 79% chance you would leave your job in the near future, and because of that high risk, the organization cannot justify investing in a promotion. The clearest signal driving this decision is the fact that you have received other job opportunities while working here. This is the single strongest factor pushing the prediction toward departure—it suggests you are actively marketable and may already have one foot out the door.\n\nYour total experience of 6–10 years is the second most influential factor, and it also pushes toward leaving. Compared to many coworkers who stay (who often have only 1–5 years of experience), you are at a career stage where movement is common, and your broader resume makes you attractive to other employers.\n\nThe third factor is how long you have been in your current role, which is only 1–5 years. While this seems short, it contributed to the leaving prediction—likely because you have enough tenure to feel established, yet not so much that you feel deeply tied to this specific organization.\n\nThese three signals together paint a picture of a capable professional with outside options and the confidence to use them. For the organization, this is a warning to improve retention through meaningful career development, not just compensation. For you, consider whether the promotion denial is a signal that your growth here is limited—and have an honest conversation with leadership about your future before making any decisions.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

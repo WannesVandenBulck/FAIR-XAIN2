@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 52,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:52:55.973343",
+  "status": "success",
+  "narrative": "Based on your profile, the model estimates a 28% chance that you will not pass your final year. That means there is a real risk, even though it is not the most likely outcome. To be safe, the school requires you to take remedial courses. Here is what the model saw.\n\nThe strongest influence on your prediction is actually a point in your favor: you have never failed a class before. Students who pass typically have no past failures, and you match that pattern. This pushes the prediction toward passing.\n\nHowever, a second factor pulls the prediction the other way: your father’s education level. Your father’s highest level of schooling is primary education. Among students who passed, most had fathers with at least middle school or high school education, and many had fathers with higher education. This factor contributes to the model classifying you as at risk. It is not about your own ability, but it reflects a statistical pattern—students with less parental education often have fewer academic resources at home.\n\nThe third most important factor works in your favor again. You chose your school because it is close to home. Among passing students, the most common reasons were the school’s course offerings or its reputation; choosing for proximity was less common. Still, the model sees this as a slightly positive sign for you.\n\nTaken together, your strong past record and practical school choice point toward success, but your father’s lower education level raises enough concern that the model places you just on the failing side. To improve your odds, focus on building extra academic support at home, ask teachers for help, and increase your study time beyond two hours per week. These steps can reduce your risk and help you finish the year successfully.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

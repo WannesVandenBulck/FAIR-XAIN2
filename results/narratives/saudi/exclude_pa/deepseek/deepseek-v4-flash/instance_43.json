@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 43,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:25:20.246753",
+  "status": "success",
+  "narrative": "The model suggests an 80% chance you will leave your job. This is a strong sign of turnover risk, and it is why the promotion was denied.\n\nThe most influential factor was that you have received other job offers while working here, which pushed the prediction strongly toward leaving. Employees with outside opportunities are more likely to depart, and this factor contributed more than any other to the decision.\n\nNext was your total experience of 6 to 10 years, which also pushed toward leaving. At this career stage, employees are often highly marketable and more willing to move on. Among those predicted to stay, half had only 1 to 5 years of experience, so your profile stands out as more mobile.\n\nFinally, the sector you work in—identified as \"other\"—also pushed toward leaving. While many stable employees work in medical or education fields, your sector tends to see more turnover, adding another warning sign.\n\nTogether, these three elements tell a consistent story: you have attractive outside options, the experience to use them, and a sector where job changes are common.\n\nFor the organization, this is a signal to act. Offering clearer career growth, salary adjustment, or new challenges could make staying more appealing. For you, it is worth reflecting on whether this organization can offer what you want. If nothing changes, the likelihood of leaving remains high.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

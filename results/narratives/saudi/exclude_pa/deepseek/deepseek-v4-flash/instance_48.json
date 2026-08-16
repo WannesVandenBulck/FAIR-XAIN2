@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 48,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:26:37.095819",
+  "status": "success",
+  "narrative": "The model’s assessment is not a judgment on your performance. It gives a 70 percent chance that you will leave this job in the near future, and that is why the promotion was denied: the organization sees too high a risk that the investment in promoting you would be lost. Three main factors shaped this conclusion, in order of importance.\n\nYour total experience of 6 to 10 years is the strongest signal. This is not a common profile among employees who stay; more than half of stayers have only 1 to 5 years of experience, while only about a third are in your range. With several years of professional experience, you have the confidence and mobility to consider other employers.\n\nThe second most important factor actually works in your favor. You have not received other job opportunities, which is true of about three-quarters of employees who stay. This usually signals that nothing external is pulling you away, and it pushed the prediction toward staying.\n\nThe third factor is your tenure in this organization: 1 to 5 years. Many stayers also have short tenure, but combined with substantial overall experience, it suggests you have not yet developed the deep roots that make people remain. You may still be comparing this job to what your experience could offer elsewhere.\n\nBecause the two experience-related signals outweigh the absence of outside offers, your overall leave risk remains high. For the organization, the next step could be to offer clearer career growth, meaningful bonuses, or recognition of your experience. For you, consider what would make this job worth staying for.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

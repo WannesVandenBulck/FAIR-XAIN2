@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 275,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:47:24.622910",
+  "status": "success",
+  "narrative": "The model’s prediction is not a judgment of your potential, but a statistical estimate: based on students like you, it places an 80% chance that you would fail the bar exam on the first attempt. Because passing the bar is essential for a legal career, the law school used this risk as a key reason to deny admission.\n\nWhen the model looked at your file, three factors stood out as the strongest signals—more than any others. The single most influential factor was your LSAT score. At 19, it is far below the average of 37 for accepted students. This weighed heavily toward a failure prediction because the LSAT reflects the reading and reasoning skills the bar exam also demands. The second most important factor was your class standing in your third year. Being in the bottom decile (1st out of 10) compared to an average near the 6th decile among accepted students strongly pushed the prediction toward failure. That pattern—low academic performance near the end of your studies—suggests difficulty mastering the material tested on the bar. The third factor was your first-year class standing, also in the lowest decile. Early struggles in law school are a well-established warning sign for later bar success, so this too pushed toward failure.\n\nTogether, these three areas—low admissions test scores and consistently bottom-tier law school grades—created a clear risk profile. Your family income, work status, and GPA played a much smaller role.\n\nTo strengthen a future application, consider retaking the LSAT after dedicated preparation, and if you are still in law school, focus intensely on raising your class rank. If you already graduated, completing a bar preparation course designed for struggling students and achieving a passing score would be the most direct way to demonstrate your ability.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

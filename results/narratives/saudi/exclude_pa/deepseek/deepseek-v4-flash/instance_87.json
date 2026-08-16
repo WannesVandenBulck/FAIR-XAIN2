@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 87,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:33:47.777094",
+  "status": "success",
+  "narrative": "Based on the information available, the model indicates you have a 45% chance of leaving your job in the near future. While this is not an overwhelming majority, it is a significant enough risk that the organization has decided not to offer you a promotion at this time.\n\nInterestingly, your profile contains several signals that actually point toward you staying. For example, your one-to-five years of total experience is very typical of employees who remain, as is the fact that you have not received other job opportunities while working here. These factors worked in your favor, suggesting loyalty and a reasonable level of stability.\n\nHowever, the single most influential factor pushing the prediction toward leaving was your experience of engagement at work. You indicated that getting involved in your job, such as participating in decision-making or having your opinions heard, feels difficult. This is highly unusual—only about one in ten employees who stay report feeling this way. This difficulty engaging likely signals that you feel disconnected or undervalued in your daily role, which heavily outweighs the stability signals in your profile.\n\nGiven this, the most constructive next step would be for you to have an open conversation with your manager about how you can become more involved in decisions and how your voice can be better incorporated. For the organization, the key consideration is that difficult engagement, not a lack of experience, is what is driving your risk of leaving. Addressing this could meaningfully change the prediction and open the door for future promotion consideration.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

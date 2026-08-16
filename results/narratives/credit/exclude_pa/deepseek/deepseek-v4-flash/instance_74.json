@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 74,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:11:42.432896",
+  "status": "success",
+  "narrative": "Based on your application, our risk assessment indicates a 59% chance you would not be able to keep up with loan payments. In other words, the balance of evidence suggests you are more likely than not to become a bad credit risk, so we cannot approve the loan at this time.\n\nThe most significant factor working against you is the condition of your checking account. Your account currently has a negative balance, which is a strong warning sign. Very few approved applicants have a negative balance at the time of application; most have either no checking account or some positive funds available. This tells us you may already be struggling to cover everyday expenses without taking on additional debt.\n\nYour savings situation also contributed to the denial. With less than 100 DM in your savings account, you have almost no financial cushion to fall back on if unexpected expenses arise. Many borrowers in this situation have difficulty making their monthly payments, because any small setback can push them into financial trouble. This lack of a safety net increases the risk that you would miss a loan installment.\n\nOne factor did work in your favor: the loan term. You requested a relatively short repayment period of 12 months, compared to the average of about 19 months for other applicants. Shorter loans are generally less risky, and this helped your case, but it was not enough to overcome the concerns about your cash flow and savings.\n\nWhat you can do next: focus on building a positive balance in your checking account and setting aside even a small amount of savings each month. Consider reapply after several months of stable finances, or ask for a smaller loan amount that you could more comfortably repay.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

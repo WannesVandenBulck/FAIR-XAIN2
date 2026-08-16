@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 26,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:45:08.705365",
+  "status": "success",
+  "narrative": "Your predicted probability of failing is 13%. That means the model sees you as much more likely to pass than to fail, but because this is an important decision, the school has decided that any risk above this level still requires extra courses to make sure you stay on track.\n\nThe most important factor in your prediction is your record of past course failures, and the good news is that you have none. Having zero prior failures strongly pushes the prediction toward passing, because students who have failed before are much more likely to struggle again. Your second strongest influence is your own goal of pursuing higher education. You said you want to continue studying after school, and every student in the passing group shared that same goal. This also pushes you toward passing, since wanting a higher degree tends to keep students motivated.\n\nThefactor that pushes most strongly in the opposite direction is your father’s education level. His highest level is primary school, which is relatively uncommon among students who passed—only about one in seven of them had a father with only primary education. This is not about your ability or effort, but it is a pattern: students whose parents have more schooling often have more help at home with homework and more familiarity with how schools and exams work. Because there are few other warning signs for you, this family background is what raises your risk just enough to trigger the remedial course requirement.\n\nTo reduce that risk further, keep relying on your existing strengths: keep your attendance steady, continue studying several hours each week, and talk to teachers or a counselor early if anything feels difficult. You are already on a strong path, and these extra courses can help close the remaining gap.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

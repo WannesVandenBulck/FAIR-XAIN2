@@ -1,0 +1,17 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 69,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:30:43.142917",
+  "status": "success",
+  "narrative": "Based on the factors that matter most, our model estimates a 49% chance you will leave your job in the near future. That is a significant risk, and it is why the promotion decision went against you.\n\nThe strongest signal, surprisingly, worked in your favor: your 1-5 years of total experience. Most employees who stay (just over half) also have this level of experience, so this factor alone did not hurt you. Similarly, the fact that you have not received other job offers is common among loyal employees — over three-quarters of those who stay also report no outside opportunities. So these two important factors actually pointed toward you staying.\n\nThe critical concern is your work-life balance. You described balancing work and personal life as difficult, while only about 9% of employees who stay report this level of difficulty. This was the third most influential factor, and it pushed strongly in the direction of leaving. Even though your experience and lack of outside offers suggest stability, the strain you feel at work overrides those positives in the model’s view. It appears your day-to-day struggle to manage your time and energy makes you more likely to seek a different job.\n\nFor your career, consider discussing flexible scheduling or workload adjustments with your manager. For the organization, addressing work-life balance — particularly in the medical sector — could reduce turnover risk and support your growth.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

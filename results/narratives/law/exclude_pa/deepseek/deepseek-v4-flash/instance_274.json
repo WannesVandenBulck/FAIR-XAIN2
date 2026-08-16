@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 274,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:47:14.130716",
+  "status": "success",
+  "narrative": "The law school admission committee used an evaluation model that estimates the likelihood of a student passing the bar exam on their first attempt. For you, that model produced a 71 percent probability of failure, meaning that, if admitted, there was a strong chance you would not become a licensed attorney. Because passing the bar is essential to a legal career, the committee determined this risk was too high to admit you.\n\nThe single most important factor driving this decision was your LSAT score. At 25, your score is far below the average of 37 among admitted students. The LSAT measures the analytical and reasoning skills that the bar exam also tests, so this low score weighed heavily against you, pushing the prediction firmly toward failure.\n\nYour third-year class ranking also hurt your case. You placed in the third decile, while admitted students typically sit in the sixth decile or higher. This suggests your academic performance did not improve as much as expected, a pattern the model associates with greater difficulty on the bar.\n\nThere was one encouraging signal: your first-year ranking, at the fifth decile, was much closer to the admitted average of the sixth decile. This actually nudged the prediction slightly toward passing, showing you began law school on steadier footing. Unfortunately, this positive influence was not strong enough to overcome the negative impact of your LSAT score and third-year standing.\n\nTo strengthen a future application, focus on retaking the LSAT after a dedicated preparation course—improving this score would do the most to lower your risk profile. Additionally, demonstrating consistent academic improvement in your final year would help show the committee that you are prepared for the challenge of the bar exam.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

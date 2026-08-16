@@ -55,7 +55,7 @@
     {
       "name": "employment_duration",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "installment_rate",
@@ -85,7 +85,7 @@
     {
       "name": "housing",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "number_credits",

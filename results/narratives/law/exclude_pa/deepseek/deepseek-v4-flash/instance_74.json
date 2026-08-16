@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 74,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T10:55:44.046250",
+  "status": "success",
+  "narrative": "According to the evaluation, your chance of failing the bar exam on the first attempt was estimated at 77.4%. This means that, based on available information, you were more than three times as likely to fail as to pass, and this is the principal reason your law school application was denied.\n\nThe most important factor in this decision was your class ranking in the third year of your undergraduate studies. A ranking of 2 places you in the bottom portion of your class, and this weighed heavily toward a bar exam failure. The second most influential factor was your LSAT score, and here you had a genuine advantage: your score of 43 exceeds the average of about 37 among accepted applicants, and this pushed toward passing, not failing. The third most influential factor was your first-year class ranking, and like the third-year ranking, it pushed toward failure. Accepted students typically ranked around the 6th decile in both years, whereas you ranked near the bottom in both your first and third years.\n\nWhile your strong LSAT performance worked in your favor, the two class-ranking factors together were more powerful and shifted the overall prediction against you.\n\nTo improve your chances, focus on strengthening your academic record, particularly in the first and final years of study, to raise your standing well above the bottom deciles. You may also consider retaking the LSAT to make your score an even greater advantage, and reapplying once your credentials show a clearer upward trend.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

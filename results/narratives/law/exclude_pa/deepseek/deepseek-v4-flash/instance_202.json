@@ -1,0 +1,17 @@
+{
+  "dataset": "law",
+  "instance_idx": 202,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T11:27:57.571624",
+  "status": "success",
+  "narrative": "The admission decision was based on a statistical model that assessed your likelihood of passing the bar exam on your first attempt. The model estimated a 61.6% probability of failing, meaning that in similar circumstances, more than three out of five candidates did not pass. Because passing the bar is essential for legal practice, the university considered this risk too high to justify admission.\n\nThree factors carried the most weight in this assessment, ranked by their level of influence. The single strongest signal was your class standing in your third year of study. Being in the bottom ten percent of your class, when most admitted students placed near the middle or higher, contributed heavily toward the prediction of bar exam failure. This suggests a pattern of academic difficulty that concerned the reviewers.\n\nYour LSAT score was the next most influential factor. Interestingly, this worked in your favor, pushing the prediction toward passing. However, your score of 35 was still below the average of 37.18 for admitted students, so while this helped, it could not overcome the stronger negative impact of your class rank.\n\nFinally, your undergraduate GPA played a notable role, also pushing toward success on the exam. A 2.90 GPA is respectable, though below the 3.23 average of admitted applicants, so its positive influence was limited. Together, these three factors indicate that while you have some academic strengths, your recent law school performance raises serious concern about your readiness.\n\nMoving forward, focus on improving your class ranking in your final year, retake the LSAT after dedicated preparation to raise your score substantially, and consider applying to programs with more comprehensive bar support services. Demonstrating sustained academic growth before reapplying would significantly strengthen your case.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

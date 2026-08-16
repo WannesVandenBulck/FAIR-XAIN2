@@ -1,0 +1,17 @@
+{
+  "dataset": "credit",
+  "instance_idx": 32,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:02:12.924148",
+  "status": "success",
+  "narrative": "Your loan application has been denied because the model assessing your creditworthiness estimated a 29% chance that you would default on the loan. While that means you are more likely than not to repay, the bank considers that level of risk too high to approve. The decision was driven mainly by three factors, ranked by importance.\n\nThe strongest influence actually worked in your favor: your checking account has no balance or overdraft protection, and this is a common profile among approved borrowers. That factor helped reduce your risk score.\n\nHowever, a second major factor pushed in the opposite direction: you have existing installment plans through a bank. Among approved applicants, over 87% have no other installment plans. Having an additional financial obligation suggests your disposable income is already committed elsewhere, which raises your perceived risk of falling behind on this loan.\n\nA third factor also helped you: you requested a relatively short loan term of 12 months, compared to an average of about 19 months among approved borrowers. Shorter repayment periods typically mean less time for things to go wrong, so this lowered your risk.\n\nWhat can you do next? You might consider paying off or reducing those existing bank installment plans before reapplying. Strengthening your application by lowering other debts would lessen the main risk factor the model identified. Also, because your savings are below 100 DM, building a savings buffer could improve your profile. After several months of steady payments on your current obligations, you would likely be in a better position for approval.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}

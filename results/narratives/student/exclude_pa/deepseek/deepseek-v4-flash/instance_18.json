@@ -1,0 +1,17 @@
+{
+  "dataset": "student",
+  "instance_idx": 18,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "timestamp": "2026-08-16T12:42:34.219500",
+  "status": "success",
+  "narrative": "The model estimates that you have a 13% chance of not passing your final year. That is a real risk, and it is why you are being asked to take remedial courses as a safeguard, not a punishment. The strongest factor pushing toward passing is your clean record: you have never failed a class before, and this is the most important piece of information in your profile. Students who have previously struggled are far more likely to struggle again, but you have none of that history. Your own ambition is also a strong positive sign: you have said you want to pursue higher education, and every student in the comparison group who passed shared that goal, so your motivation aligns with those who succeed.\n\nHowever, one important factor works against you. Your weekly study time is under two hours, while most students who passed studied between two and five hours weekly. This was the top contributing factor moving your prediction toward failure. Combined with the fact that your family relationships are only fair and you go out frequently, this suggests your academic effort may not match your ambitions. To improve, make studying a consistent daily habit, even if you start with short sessions at home, and gradually build up to the two-to-five-hour range. Your past success and clear desire to continue studying show you have the foundation; the key is dedicating more time to your coursework.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "sex_override": null,
+  "age_override": null,
+  "foreign_worker_override": null,
+  "health_override": null,
+  "exclude_protected_attributes": true
+}
