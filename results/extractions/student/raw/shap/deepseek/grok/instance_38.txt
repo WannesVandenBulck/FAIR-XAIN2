@@ -17,8 +17,8 @@
     {
       "rank": 3,
       "name": "Walc",
-      "sign": -1,
-      "value": 1
+      "sign": 1,
+      "value": "NaN"
     }
   ],
   "features": [
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
@@ -140,7 +140,7 @@
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "absences",

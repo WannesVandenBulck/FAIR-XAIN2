@@ -34,8 +34,8 @@
     },
     {
       "name": "decile1",
-      "mentioned": 1,
-      "value": 4
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "fam_inc",

@@ -34,8 +34,8 @@
     },
     {
       "name": "credit_history",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "purpose",
