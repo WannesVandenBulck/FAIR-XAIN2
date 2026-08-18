@@ -16,6 +16,7 @@ nltk>=3.8.0
 ucimlrepo>=0.0.7
 pyarrow>=24.0.0
 google-genai>=0.1.0
+statsmodels>=0.14.0
 
 
 
