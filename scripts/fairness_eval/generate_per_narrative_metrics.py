@@ -45,6 +45,17 @@ re-confirming):
 6. Only adversely-classified instances are included (i.e. exactly the
    instances present under results/ground_truth/json/<dataset>/), matching
    the existing per_narrative_metrics_<dataset>.csv scope.
+7. A final `narrative` column holds the raw narrative text, read from
+   results/narratives/<dataset>/<condition>/<provider>/<model-version>/
+   instance_<id>.json ("narrative" field). The model-version subfolder
+   (e.g. "grok-4.20-0309-non-reasoning") is resolved automatically per
+   dataset/condition/provider rather than hardcoded, since it's an
+   arbitrary version string. A small number of narrative files have
+   status != "success" (e.g. student instance_72, "not found in SHAP
+   CSV") — these are not among the valid adverse instances scored here
+   and are never looked up; as a safeguard, if a *valid* instance's
+   narrative file is ever missing or unsuccessful, `narrative` is set to
+   NaN with a printed warning rather than failing the whole run.
 
 INPUT
 -----
@@ -52,11 +63,13 @@ results/ground_truth/json/<dataset>/instance_<id>.json
     {"predicted_probability": ..., "most_important_features": [...], "features": [...]}
 results/extractions/<dataset>/<condition>/<provider>/grok/instance_<id>.json
     same schema as ground truth, extracted from the narrative by the grok extractor.
+results/narratives/<dataset>/<condition>/<provider>/<model-version>/instance_<id>.json
+    {"narrative": "...", "status": "success", ...}
 
 OUTPUT
 ------
 results/fairness_eval/per_narrative_metrics_<dataset>.csv
-    One row per instance x provider x condition.
+    One row per instance x provider x condition, narrative text as the last column.
 """
 
 import json
@@ -72,6 +85,7 @@ import pandas as pd
 ROOT = Path(__file__).parent.parent.parent
 GT_DIR = ROOT / "results" / "ground_truth" / "json"
 EXTRACTIONS_DIR = ROOT / "results" / "extractions"
+NARRATIVES_DIR = ROOT / "results" / "narratives"
 OUTPUT_DIR = ROOT / "results" / "fairness_eval"
 
 DATASETS = ["credit", "saudi", "student", "law"]
@@ -104,7 +118,7 @@ PROBABILITY_TOLERANCE = 0.01
 def load_json(path):
     if not path.exists():
         return None
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -159,6 +173,43 @@ def list_instance_ids(dataset):
     for path in sorted(gt_dir.glob("instance_*.json")):
         ids.append(int(path.stem.split("_")[1]))
     return sorted(ids)
+
+
+_model_dir_cache = {}
+
+
+def resolve_model_dir(dataset, condition_dir, provider):
+    """The narratives folder has an extra model-version subfolder between
+    provider and instance files (e.g. "grok-4.20-0309-non-reasoning") whose
+    exact name is not fixed. Resolve it dynamically and cache the result."""
+    key = (dataset, condition_dir, provider)
+    if key in _model_dir_cache:
+        return _model_dir_cache[key]
+
+    provider_dir = NARRATIVES_DIR / dataset / condition_dir / provider
+    subdirs = [d for d in provider_dir.iterdir() if d.is_dir()] if provider_dir.exists() else []
+    if len(subdirs) != 1:
+        raise RuntimeError(
+            f"Expected exactly one model-version subfolder under {provider_dir}, "
+            f"found {len(subdirs)}: {[d.name for d in subdirs]}"
+        )
+    _model_dir_cache[key] = subdirs[0]
+    return subdirs[0]
+
+
+def load_narrative_text(dataset, condition_dir, provider, instance_id):
+    model_dir = resolve_model_dir(dataset, condition_dir, provider)
+    narrative_json = load_json(model_dir / f"instance_{instance_id}.json")
+    if narrative_json is None:
+        print(f"WARNING: missing narrative file, filled with NaN: "
+              f"{dataset}/{condition_dir}/{provider}/{model_dir.name}/instance_{instance_id}.json")
+        return np.nan
+    if narrative_json.get("status") != "success" or narrative_json.get("narrative") is None:
+        print(f"WARNING: narrative not successfully generated, filled with NaN: "
+              f"{dataset}/{condition_dir}/{provider}/{model_dir.name}/instance_{instance_id}.json "
+              f"(status={narrative_json.get('status')!r}, error={narrative_json.get('error')!r})")
+        return np.nan
+    return narrative_json["narrative"]
 
 
 # ============================================================================
@@ -343,6 +394,9 @@ def build_row(dataset, provider, condition_dir, instance_id, pa_names, other_fea
         else:
             row[col_scoring] = values_match(ext_val, gt_val)
 
+    # ---- narrative (raw text, always the final column) ---------------------
+    row["narrative"] = load_narrative_text(dataset, condition_dir, provider, instance_id)
+
     return row
 
 
@@ -370,6 +424,8 @@ def build_column_order(pa_names, other_features):
     for feat in other_features:
         cols += [f"other_{feat}_mentioned", f"other_{feat}_value_GT",
                   f"other_{feat}_value_extracted", f"other_{feat}_value_scoring"]
+
+    cols += ["narrative"]
 
     return cols
 
@@ -399,7 +455,7 @@ def main():
         df = df[col_order]
 
         out_path = OUTPUT_DIR / f"per_narrative_metrics_{dataset}.csv"
-        df.to_csv(out_path, index=False)
+        df.to_csv(out_path, index=False, encoding="utf-8")
         print(f"  Wrote {len(df)} rows, {len(df.columns)} columns -> "
               f"{out_path.relative_to(ROOT)}")
 
