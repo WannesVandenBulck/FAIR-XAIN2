@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 """
-RQ1 — Total Disparity
+RQ2 — Indirect Disparity
 ======================
-Within the `pa_included` condition, are there statistically significant
+Within the `pa_excluded` condition (the protected attribute is NOT shown
+to the narrative-generating model), are there statistically significant
 differences in feature-coverage / faithfulness metrics between social
 groups (values of a protected attribute)? Tested separately per dataset
 and per provider (not pooled across providers).
@@ -66,6 +67,16 @@ Coverage (binary):
                                    review since it is a methodological
                                    choice, not a literal column.
 
+NOTE on <PA>_mentioned / <PA>_scoring under pa_excluded: the protected
+attribute is not in the prompt here, so any narrative that still mentions
+it (and any value it states) reflects the model volunteering/inferring PA
+information it wasn't given — these columns therefore double as a leakage
+signal in this condition, on top of being ordinary coverage/faithfulness
+metrics. Group assignment itself still uses the TRUE <attr>_GT value
+(ground truth), exactly as in RQ1 — that is the whole point of testing for
+indirect disparity: whether outcomes differ by true group membership even
+when the model never sees the group label.
+
 Continuous aggregates (mean of the available binary components per row):
   rank_position_accuracy  - mean of rank_{1,2,3}_scoring
   sign_accuracy           - mean of rank_{1,2,3}_sign_scoring
@@ -88,10 +99,10 @@ threshold (Bonferroni is not used — see apply_correction docstring).
 
 OUTPUT
 ------
-results/fairness_eval/rq1_total_disparity_aggregated.csv
+results/fairness_eval/rq2_indirect_disparity_aggregated.csv
     One row per dataset x provider x attribute x group x metric, with n
     and mean/proportion - the data being compared.
-results/fairness_eval/rq1_total_disparity_tests.csv
+results/fairness_eval/rq2_indirect_disparity_tests.csv
     One row per dataset x provider x attribute x metric, with the test
     used, group sizes, statistic, raw and FDR-corrected p-values,
     significance flags, and effect size.
@@ -128,8 +139,8 @@ PROTECTED_ATTRS = {
     "law": ["gender", "race"],
 }
 
-OUTPUT_AGGREGATED = FAIRNESS_EVAL_DIR / "rq1_total_disparity_aggregated.csv"
-OUTPUT_TESTS = FAIRNESS_EVAL_DIR / "rq1_total_disparity_tests.csv"
+OUTPUT_AGGREGATED = FAIRNESS_EVAL_DIR / "rq2_indirect_disparity_aggregated.csv"
+OUTPUT_TESTS = FAIRNESS_EVAL_DIR / "rq2_indirect_disparity_tests.csv"
 
 
 # ============================================================================
@@ -371,12 +382,12 @@ def main():
         print(f"\n{'=' * 80}\n{dataset.upper()}\n{'=' * 80}")
         path = FAIRNESS_EVAL_DIR / f"per_narrative_metrics_{dataset}.csv"
         df = pd.read_csv(path)
-        df = df[df["condition"] == "pa_included"].copy()
+        df = df[df["condition"] == "pa_excluded"].copy()
 
         pa_names = PROTECTED_ATTRS[dataset]
         df = add_derived_columns(df, pa_names)
         metrics = discover_metrics(df, pa_names)
-        print(f"  {len(df)} narratives (pa_included), {len(metrics)} metrics, "
+        print(f"  {len(df)} narratives (pa_excluded), {len(metrics)} metrics, "
               f"attributes={pa_names}")
 
         for provider in PROVIDERS:
