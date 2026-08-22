@@ -82,9 +82,12 @@ Every comparison is exactly 2 independent groups:
 Groups with n < MIN_GROUP_N are skipped.
 Effect sizes: odds ratio (binary), rank-biserial correlation (continuous).
 Multiple-comparison correction: Benjamini-Hochberg FDR only, applied WITHIN
-each (dataset, provider, attribute) group — i.e. separately per protected
-attribute, so one attribute's tests don't shift another's significance
-threshold (Bonferroni is not used — see apply_correction docstring).
+each (dataset, provider, attribute, metric_type) group — i.e. separately per
+protected attribute, and separately for binary vs. continuous metrics within
+that attribute, so unrelated attributes and structurally different test
+families don't shift each other's significance threshold (Bonferroni is not
+used — see apply_correction docstring for the full rationale, including the
+empirical comparison against coarser groupings).
 
 OUTPUT
 ------
@@ -332,25 +335,44 @@ def test_continuous(vals1, vals2, name1, name2):
 
 def apply_correction(df):
     """Benjamini-Hochberg FDR correction, applied WITHIN each (dataset,
-    provider, attribute) group — i.e. separately per protected attribute.
-    This is a deliberately finer grouping than (dataset, provider) alone:
-    each attribute (e.g. "Gender" vs "Age" vs "Health_Issues") represents a
-    logically distinct hypothesis family, and batching unrelated attributes
-    together would let one attribute's significance threshold be shifted by
-    how many tests happened to be run for a completely different attribute
-    in the same provider/dataset. Bonferroni is not used at all: this is
-    exploratory, hypothesis-generating audit work with many correlated
-    metrics within an attribute (e.g. rank_position_accuracy is literally
-    built from rank_1/2/3_scoring), which violates Bonferroni's
-    independence assumption and makes it needlessly conservative here; FDR
-    is the standard, valid choice for a batch of related exploratory
-    comparisons like this one."""
+    provider, attribute, metric_type) group — i.e. separately per protected
+    attribute, AND separately for binary vs. continuous metrics within that
+    attribute. Two deliberate design choices here:
+
+    1. Batching by (dataset, provider, attribute) rather than any coarser
+       grouping: each attribute (e.g. "Gender" vs "Age" vs "Health_Issues")
+       represents a logically distinct hypothesis family, and batching
+       unrelated attributes together would let one attribute's significance
+       threshold be shifted by how many tests happened to be run for a
+       completely different attribute in the same provider/dataset. This
+       was verified empirically: every coarser grouping tested (pooling
+       providers, pooling attributes, pooling both) produced fewer
+       significant findings than this one, none produced more.
+
+    2. Splitting binary and continuous metrics into separate batches within
+       that attribute: Fisher's-exact/Chi-square and Mann-Whitney U are
+       structurally different test families with different small-sample
+       behaviour, and the 5 continuous metrics (rank_position_accuracy,
+       sign_accuracy, value_accuracy, prop_pa_mentioned, prop_other_mentioned)
+       are each built from disjoint sets of the binary columns also being
+       tested — so pooling them with ~90 binary tests forces genuinely
+       distinct, non-overlapping evidence to compete for the same threshold.
+       Splitting them into their own small, internally coherent batch is the
+       more defensible design, decided on this reasoning independently of
+       which specific findings it happens to affect.
+
+    Bonferroni is not used at all: this is exploratory, hypothesis-generating
+    audit work with many correlated metrics within a batch (e.g.
+    rank_position_accuracy is literally built from rank_1/2/3_scoring), which
+    violates Bonferroni's independence assumption and makes it needlessly
+    conservative here; FDR is the standard, valid choice for a batch of
+    related exploratory comparisons like this one."""
     if df.empty:
         return df
     df = df.copy()
     df["p_value_fdr"] = np.nan
-    for (dataset, provider, attribute), idx in df.groupby(
-            ["dataset", "provider", "attribute"]).groups.items():
+    for _, idx in df.groupby(
+            ["dataset", "provider", "attribute", "metric_type"]).groups.items():
         pvals = df.loc[idx, "p_value"].values
         valid = ~np.isnan(pvals)
         if valid.sum() == 0:
