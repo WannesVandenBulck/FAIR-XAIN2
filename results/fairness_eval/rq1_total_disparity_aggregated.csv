@@ -1964,7 +1964,7 @@ saudi,deepseek,Gender,male,male,rank_1_value_scoring,binary,45,45,1.0
 saudi,deepseek,Gender,female,female,rank_1_mentioned,binary,61,61,1.0
 saudi,deepseek,Gender,male,male,rank_1_mentioned,binary,45,45,1.0
 saudi,deepseek,Gender,female,female,rank_2_scoring,binary,61,61,0.8688524590163934
-saudi,deepseek,Gender,male,male,rank_2_scoring,binary,45,45,0.8888888888888888
+saudi,deepseek,Gender,male,male,rank_2_scoring,binary,45,45,0.8666666666666667
 saudi,deepseek,Gender,female,female,rank_2_sign_scoring,binary,61,61,1.0
 saudi,deepseek,Gender,male,male,rank_2_sign_scoring,binary,45,45,0.9777777777777777
 saudi,deepseek,Gender,female,female,rank_2_value_scoring,binary,61,61,1.0
@@ -1972,7 +1972,7 @@ saudi,deepseek,Gender,male,male,rank_2_value_scoring,binary,45,45,1.0
 saudi,deepseek,Gender,female,female,rank_2_mentioned,binary,61,61,1.0
 saudi,deepseek,Gender,male,male,rank_2_mentioned,binary,45,45,1.0
 saudi,deepseek,Gender,female,female,rank_3_scoring,binary,61,61,0.9180327868852459
-saudi,deepseek,Gender,male,male,rank_3_scoring,binary,45,45,0.9333333333333333
+saudi,deepseek,Gender,male,male,rank_3_scoring,binary,45,45,0.9111111111111111
 saudi,deepseek,Gender,female,female,rank_3_sign_scoring,binary,61,61,1.0
 saudi,deepseek,Gender,male,male,rank_3_sign_scoring,binary,45,45,1.0
 saudi,deepseek,Gender,female,female,rank_3_value_scoring,binary,61,58,1.0
@@ -1983,19 +1983,19 @@ saudi,deepseek,Gender,female,female,predicted_probability_scoring,binary,61,61,1
 saudi,deepseek,Gender,male,male,predicted_probability_scoring,binary,45,45,1.0
 saudi,deepseek,Gender,female,female,Gender_scoring,binary,61,0,
 saudi,deepseek,Gender,male,male,Gender_scoring,binary,45,0,
-saudi,deepseek,Gender,female,female,Gender_mentioned,binary,61,61,0.18032786885245902
+saudi,deepseek,Gender,female,female,Gender_mentioned,binary,61,61,0.16393442622950818
 saudi,deepseek,Gender,male,male,Gender_mentioned,binary,45,45,0.1111111111111111
 saudi,deepseek,Gender,female,female,Age_scoring,binary,61,0,
 saudi,deepseek,Gender,male,male,Age_scoring,binary,45,0,
-saudi,deepseek,Gender,female,female,Age_mentioned,binary,61,61,0.18032786885245902
+saudi,deepseek,Gender,female,female,Age_mentioned,binary,61,61,0.16393442622950818
 saudi,deepseek,Gender,male,male,Age_mentioned,binary,45,45,0.1111111111111111
 saudi,deepseek,Gender,female,female,Health_Issues_scoring,binary,61,0,
 saudi,deepseek,Gender,male,male,Health_Issues_scoring,binary,45,0,
-saudi,deepseek,Gender,female,female,Health_Issues_mentioned,binary,61,61,0.18032786885245902
+saudi,deepseek,Gender,female,female,Health_Issues_mentioned,binary,61,61,0.16393442622950818
 saudi,deepseek,Gender,male,male,Health_Issues_mentioned,binary,45,45,0.1111111111111111
-saudi,deepseek,Gender,female,female,other_Academic_degree_mentioned,binary,61,61,0.03278688524590164
+saudi,deepseek,Gender,female,female,other_Academic_degree_mentioned,binary,61,61,0.01639344262295082
 saudi,deepseek,Gender,male,male,other_Academic_degree_mentioned,binary,45,45,0.0
-saudi,deepseek,Gender,female,female,other_Academic_degree_value_scoring,binary,61,2,1.0
+saudi,deepseek,Gender,female,female,other_Academic_degree_value_scoring,binary,61,1,1.0
 saudi,deepseek,Gender,male,male,other_Academic_degree_value_scoring,binary,45,0,
 saudi,deepseek,Gender,female,female,other_Bonus_mentioned,binary,61,61,0.03278688524590164
 saudi,deepseek,Gender,male,male,other_Bonus_mentioned,binary,45,45,0.022222222222222223
@@ -2010,16 +2010,16 @@ saudi,deepseek,Gender,male,male,other_Distance_to_work_mentioned,binary,45,45,0.
 saudi,deepseek,Gender,female,female,other_Distance_to_work_value_scoring,binary,61,0,
 saudi,deepseek,Gender,male,male,other_Distance_to_work_value_scoring,binary,45,0,
 saudi,deepseek,Gender,female,female,other_Emotional_Commitment_mentioned,binary,61,59,0.05084745762711865
-saudi,deepseek,Gender,male,male,other_Emotional_Commitment_mentioned,binary,45,44,0.045454545454545456
+saudi,deepseek,Gender,male,male,other_Emotional_Commitment_mentioned,binary,45,44,0.022727272727272728
 saudi,deepseek,Gender,female,female,other_Emotional_Commitment_value_scoring,binary,61,1,1.0
 saudi,deepseek,Gender,male,male,other_Emotional_Commitment_value_scoring,binary,45,1,1.0
 saudi,deepseek,Gender,female,female,other_Environment_Satisfaction_mentioned,binary,61,61,0.01639344262295082
-saudi,deepseek,Gender,male,male,other_Environment_Satisfaction_mentioned,binary,45,45,0.044444444444444446
+saudi,deepseek,Gender,male,male,other_Environment_Satisfaction_mentioned,binary,45,45,0.022222222222222223
 saudi,deepseek,Gender,female,female,other_Environment_Satisfaction_value_scoring,binary,61,1,1.0
 saudi,deepseek,Gender,male,male,other_Environment_Satisfaction_value_scoring,binary,45,1,1.0
-saudi,deepseek,Gender,female,female,other_Get_Deserved_Promotion_mentioned,binary,61,60,0.31666666666666665
-saudi,deepseek,Gender,male,male,other_Get_Deserved_Promotion_mentioned,binary,45,45,0.37777777777777777
-saudi,deepseek,Gender,female,female,other_Get_Deserved_Promotion_value_scoring,binary,61,8,0.875
+saudi,deepseek,Gender,female,female,other_Get_Deserved_Promotion_mentioned,binary,61,60,0.3333333333333333
+saudi,deepseek,Gender,male,male,other_Get_Deserved_Promotion_mentioned,binary,45,45,0.4
+saudi,deepseek,Gender,female,female,other_Get_Deserved_Promotion_value_scoring,binary,61,9,0.7777777777777778
 saudi,deepseek,Gender,male,male,other_Get_Deserved_Promotion_value_scoring,binary,45,10,0.5
 saudi,deepseek,Gender,female,female,other_Job_Engagement_mentioned,binary,61,56,0.08928571428571429
 saudi,deepseek,Gender,male,male,other_Job_Engagement_mentioned,binary,45,44,0.045454545454545456
@@ -2029,18 +2029,18 @@ saudi,deepseek,Gender,female,female,other_Job_Opportunities_mentioned,binary,61,
 saudi,deepseek,Gender,male,male,other_Job_Opportunities_mentioned,binary,45,2,0.0
 saudi,deepseek,Gender,female,female,other_Job_Opportunities_value_scoring,binary,61,0,
 saudi,deepseek,Gender,male,male,other_Job_Opportunities_value_scoring,binary,45,0,
-saudi,deepseek,Gender,female,female,other_Job_Satisfaction_mentioned,binary,61,61,0.03278688524590164
-saudi,deepseek,Gender,male,male,other_Job_Satisfaction_mentioned,binary,45,45,0.1111111111111111
+saudi,deepseek,Gender,female,female,other_Job_Satisfaction_mentioned,binary,61,61,0.04918032786885246
+saudi,deepseek,Gender,male,male,other_Job_Satisfaction_mentioned,binary,45,45,0.06666666666666667
 saudi,deepseek,Gender,female,female,other_Job_Satisfaction_value_scoring,binary,61,2,0.5
-saudi,deepseek,Gender,male,male,other_Job_Satisfaction_value_scoring,binary,45,4,0.5
+saudi,deepseek,Gender,male,male,other_Job_Satisfaction_value_scoring,binary,45,2,0.5
 saudi,deepseek,Gender,female,female,other_Job_Stability_mentioned,binary,61,60,0.016666666666666666
-saudi,deepseek,Gender,male,male,other_Job_Stability_mentioned,binary,45,45,0.13333333333333333
+saudi,deepseek,Gender,male,male,other_Job_Stability_mentioned,binary,45,45,0.1111111111111111
 saudi,deepseek,Gender,female,female,other_Job_Stability_value_scoring,binary,61,0,
-saudi,deepseek,Gender,male,male,other_Job_Stability_value_scoring,binary,45,3,1.0
+saudi,deepseek,Gender,male,male,other_Job_Stability_value_scoring,binary,45,2,1.0
 saudi,deepseek,Gender,female,female,other_Job_Support_mentioned,binary,61,61,0.04918032786885246
-saudi,deepseek,Gender,male,male,other_Job_Support_mentioned,binary,45,45,0.08888888888888889
+saudi,deepseek,Gender,male,male,other_Job_Support_mentioned,binary,45,45,0.044444444444444446
 saudi,deepseek,Gender,female,female,other_Job_Support_value_scoring,binary,61,2,1.0
-saudi,deepseek,Gender,male,male,other_Job_Support_value_scoring,binary,45,2,1.0
+saudi,deepseek,Gender,male,male,other_Job_Support_value_scoring,binary,45,1,1.0
 saudi,deepseek,Gender,female,female,other_MedicalInsurance_mentioned,binary,61,60,0.0
 saudi,deepseek,Gender,male,male,other_MedicalInsurance_mentioned,binary,45,45,0.022222222222222223
 saudi,deepseek,Gender,female,female,other_MedicalInsurance_value_scoring,binary,61,0,
@@ -2066,9 +2066,9 @@ saudi,deepseek,Gender,male,male,other_Psychological_Exhaustion_mentioned,binary,
 saudi,deepseek,Gender,female,female,other_Psychological_Exhaustion_value_scoring,binary,61,1,1.0
 saudi,deepseek,Gender,male,male,other_Psychological_Exhaustion_value_scoring,binary,45,0,
 saudi,deepseek,Gender,female,female,other_Recognition_mentioned,binary,61,61,0.14754098360655737
-saudi,deepseek,Gender,male,male,other_Recognition_mentioned,binary,45,45,0.2222222222222222
+saudi,deepseek,Gender,male,male,other_Recognition_mentioned,binary,45,45,0.17777777777777778
 saudi,deepseek,Gender,female,female,other_Recognition_value_scoring,binary,61,4,1.0
-saudi,deepseek,Gender,male,male,other_Recognition_value_scoring,binary,45,4,0.75
+saudi,deepseek,Gender,male,male,other_Recognition_value_scoring,binary,45,3,0.6666666666666666
 saudi,deepseek,Gender,female,female,other_Rewards_Wages_Satisfaction_mentioned,binary,61,61,0.04918032786885246
 saudi,deepseek,Gender,male,male,other_Rewards_Wages_Satisfaction_mentioned,binary,45,45,0.044444444444444446
 saudi,deepseek,Gender,female,female,other_Rewards_Wages_Satisfaction_value_scoring,binary,61,2,1.0
@@ -2086,9 +2086,9 @@ saudi,deepseek,Gender,male,male,other_Useful_Training_Programs_mentioned,binary,
 saudi,deepseek,Gender,female,female,other_Useful_Training_Programs_value_scoring,binary,61,0,
 saudi,deepseek,Gender,male,male,other_Useful_Training_Programs_value_scoring,binary,45,0,
 saudi,deepseek,Gender,female,female,other_Work_Live_Balance_mentioned,binary,61,61,0.0
-saudi,deepseek,Gender,male,male,other_Work_Live_Balance_mentioned,binary,45,40,0.05
+saudi,deepseek,Gender,male,male,other_Work_Live_Balance_mentioned,binary,45,40,0.025
 saudi,deepseek,Gender,female,female,other_Work_Live_Balance_value_scoring,binary,61,0,
-saudi,deepseek,Gender,male,male,other_Work_Live_Balance_value_scoring,binary,45,2,1.0
+saudi,deepseek,Gender,male,male,other_Work_Live_Balance_value_scoring,binary,45,1,1.0
 saudi,deepseek,Gender,female,female,other_Years_Experience_mentioned,binary,61,2,0.0
 saudi,deepseek,Gender,male,male,other_Years_Experience_mentioned,binary,45,0,
 saudi,deepseek,Gender,female,female,other_Years_Experience_value_scoring,binary,61,0,
@@ -2098,15 +2098,15 @@ saudi,deepseek,Gender,male,male,other_Years_experience_lastorganization_mentione
 saudi,deepseek,Gender,female,female,other_Years_experience_lastorganization_value_scoring,binary,61,5,1.0
 saudi,deepseek,Gender,male,male,other_Years_experience_lastorganization_value_scoring,binary,45,2,1.0
 saudi,deepseek,Gender,female,female,rank_position_accuracy,continuous,61,61,0.9016393442622951
-saudi,deepseek,Gender,male,male,rank_position_accuracy,continuous,45,45,0.9185185185185187
+saudi,deepseek,Gender,male,male,rank_position_accuracy,continuous,45,45,0.9037037037037038
 saudi,deepseek,Gender,female,female,sign_accuracy,continuous,61,61,1.0
 saudi,deepseek,Gender,male,male,sign_accuracy,continuous,45,45,0.9925925925925926
-saudi,deepseek,Gender,female,female,value_accuracy,continuous,61,61,0.9926229508196721
-saudi,deepseek,Gender,male,male,value_accuracy,continuous,45,45,0.9673809523809525
-saudi,deepseek,Gender,female,female,prop_pa_mentioned,continuous,61,61,0.18032786885245902
+saudi,deepseek,Gender,female,female,value_accuracy,continuous,61,61,0.9885245901639343
+saudi,deepseek,Gender,male,male,value_accuracy,continuous,45,45,0.9705555555555555
+saudi,deepseek,Gender,female,female,prop_pa_mentioned,continuous,61,61,0.16393442622950818
 saudi,deepseek,Gender,male,male,prop_pa_mentioned,continuous,45,45,0.1111111111111111
-saudi,deepseek,Gender,female,female,prop_other_mentioned,continuous,61,61,0.04133998574483252
-saudi,deepseek,Gender,male,male,prop_other_mentioned,continuous,45,45,0.05603864734299518
+saudi,deepseek,Gender,female,female,prop_other_mentioned,continuous,61,61,0.04205274411974341
+saudi,deepseek,Gender,male,male,prop_other_mentioned,continuous,45,45,0.04734299516908212
 saudi,deepseek,Age,21-30,code 0,rank_1_scoring,binary,48,48,0.9375
 saudi,deepseek,Age,31+,"codes 1,2",rank_1_scoring,binary,58,58,0.9137931034482759
 saudi,deepseek,Age,21-30,code 0,rank_1_sign_scoring,binary,48,47,1.0
@@ -2116,7 +2116,7 @@ saudi,deepseek,Age,31+,"codes 1,2",rank_1_value_scoring,binary,58,58,1.0
 saudi,deepseek,Age,21-30,code 0,rank_1_mentioned,binary,48,48,1.0
 saudi,deepseek,Age,31+,"codes 1,2",rank_1_mentioned,binary,58,58,1.0
 saudi,deepseek,Age,21-30,code 0,rank_2_scoring,binary,48,48,0.9583333333333334
-saudi,deepseek,Age,31+,"codes 1,2",rank_2_scoring,binary,58,58,0.8103448275862069
+saudi,deepseek,Age,31+,"codes 1,2",rank_2_scoring,binary,58,58,0.7931034482758621
 saudi,deepseek,Age,21-30,code 0,rank_2_sign_scoring,binary,48,48,1.0
 saudi,deepseek,Age,31+,"codes 1,2",rank_2_sign_scoring,binary,58,58,0.9827586206896551
 saudi,deepseek,Age,21-30,code 0,rank_2_value_scoring,binary,48,48,1.0
@@ -2124,7 +2124,7 @@ saudi,deepseek,Age,31+,"codes 1,2",rank_2_value_scoring,binary,58,58,1.0
 saudi,deepseek,Age,21-30,code 0,rank_2_mentioned,binary,48,48,1.0
 saudi,deepseek,Age,31+,"codes 1,2",rank_2_mentioned,binary,58,58,1.0
 saudi,deepseek,Age,21-30,code 0,rank_3_scoring,binary,48,48,0.9791666666666666
-saudi,deepseek,Age,31+,"codes 1,2",rank_3_scoring,binary,58,58,0.8793103448275862
+saudi,deepseek,Age,31+,"codes 1,2",rank_3_scoring,binary,58,58,0.8620689655172413
 saudi,deepseek,Age,21-30,code 0,rank_3_sign_scoring,binary,48,48,1.0
 saudi,deepseek,Age,31+,"codes 1,2",rank_3_sign_scoring,binary,58,58,1.0
 saudi,deepseek,Age,21-30,code 0,rank_3_value_scoring,binary,48,45,1.0
@@ -2136,19 +2136,19 @@ saudi,deepseek,Age,31+,"codes 1,2",predicted_probability_scoring,binary,58,58,1.
 saudi,deepseek,Age,21-30,code 0,Gender_scoring,binary,48,0,
 saudi,deepseek,Age,31+,"codes 1,2",Gender_scoring,binary,58,0,
 saudi,deepseek,Age,21-30,code 0,Gender_mentioned,binary,48,48,0.14583333333333334
-saudi,deepseek,Age,31+,"codes 1,2",Gender_mentioned,binary,58,58,0.15517241379310345
+saudi,deepseek,Age,31+,"codes 1,2",Gender_mentioned,binary,58,58,0.13793103448275862
 saudi,deepseek,Age,21-30,code 0,Age_scoring,binary,48,0,
 saudi,deepseek,Age,31+,"codes 1,2",Age_scoring,binary,58,0,
 saudi,deepseek,Age,21-30,code 0,Age_mentioned,binary,48,48,0.14583333333333334
-saudi,deepseek,Age,31+,"codes 1,2",Age_mentioned,binary,58,58,0.15517241379310345
+saudi,deepseek,Age,31+,"codes 1,2",Age_mentioned,binary,58,58,0.13793103448275862
 saudi,deepseek,Age,21-30,code 0,Health_Issues_scoring,binary,48,0,
 saudi,deepseek,Age,31+,"codes 1,2",Health_Issues_scoring,binary,58,0,
 saudi,deepseek,Age,21-30,code 0,Health_Issues_mentioned,binary,48,48,0.14583333333333334
-saudi,deepseek,Age,31+,"codes 1,2",Health_Issues_mentioned,binary,58,58,0.15517241379310345
+saudi,deepseek,Age,31+,"codes 1,2",Health_Issues_mentioned,binary,58,58,0.13793103448275862
 saudi,deepseek,Age,21-30,code 0,other_Academic_degree_mentioned,binary,48,48,0.0
-saudi,deepseek,Age,31+,"codes 1,2",other_Academic_degree_mentioned,binary,58,58,0.034482758620689655
+saudi,deepseek,Age,31+,"codes 1,2",other_Academic_degree_mentioned,binary,58,58,0.017241379310344827
 saudi,deepseek,Age,21-30,code 0,other_Academic_degree_value_scoring,binary,48,0,
-saudi,deepseek,Age,31+,"codes 1,2",other_Academic_degree_value_scoring,binary,58,2,1.0
+saudi,deepseek,Age,31+,"codes 1,2",other_Academic_degree_value_scoring,binary,58,1,1.0
 saudi,deepseek,Age,21-30,code 0,other_Bonus_mentioned,binary,48,48,0.041666666666666664
 saudi,deepseek,Age,31+,"codes 1,2",other_Bonus_mentioned,binary,58,58,0.017241379310344827
 saudi,deepseek,Age,21-30,code 0,other_Bonus_value_scoring,binary,48,2,1.0
@@ -2162,17 +2162,17 @@ saudi,deepseek,Age,31+,"codes 1,2",other_Distance_to_work_mentioned,binary,58,58
 saudi,deepseek,Age,21-30,code 0,other_Distance_to_work_value_scoring,binary,48,0,
 saudi,deepseek,Age,31+,"codes 1,2",other_Distance_to_work_value_scoring,binary,58,0,
 saudi,deepseek,Age,21-30,code 0,other_Emotional_Commitment_mentioned,binary,48,46,0.06521739130434782
-saudi,deepseek,Age,31+,"codes 1,2",other_Emotional_Commitment_mentioned,binary,58,57,0.03508771929824561
+saudi,deepseek,Age,31+,"codes 1,2",other_Emotional_Commitment_mentioned,binary,58,57,0.017543859649122806
 saudi,deepseek,Age,21-30,code 0,other_Emotional_Commitment_value_scoring,binary,48,1,1.0
 saudi,deepseek,Age,31+,"codes 1,2",other_Emotional_Commitment_value_scoring,binary,58,1,1.0
 saudi,deepseek,Age,21-30,code 0,other_Environment_Satisfaction_mentioned,binary,48,48,0.041666666666666664
-saudi,deepseek,Age,31+,"codes 1,2",other_Environment_Satisfaction_mentioned,binary,58,58,0.017241379310344827
+saudi,deepseek,Age,31+,"codes 1,2",other_Environment_Satisfaction_mentioned,binary,58,58,0.0
 saudi,deepseek,Age,21-30,code 0,other_Environment_Satisfaction_value_scoring,binary,48,2,1.0
 saudi,deepseek,Age,31+,"codes 1,2",other_Environment_Satisfaction_value_scoring,binary,58,0,
 saudi,deepseek,Age,21-30,code 0,other_Get_Deserved_Promotion_mentioned,binary,48,48,0.2708333333333333
-saudi,deepseek,Age,31+,"codes 1,2",other_Get_Deserved_Promotion_mentioned,binary,58,57,0.40350877192982454
+saudi,deepseek,Age,31+,"codes 1,2",other_Get_Deserved_Promotion_mentioned,binary,58,57,0.43859649122807015
 saudi,deepseek,Age,21-30,code 0,other_Get_Deserved_Promotion_value_scoring,binary,48,6,0.8333333333333334
-saudi,deepseek,Age,31+,"codes 1,2",other_Get_Deserved_Promotion_value_scoring,binary,58,12,0.5833333333333334
+saudi,deepseek,Age,31+,"codes 1,2",other_Get_Deserved_Promotion_value_scoring,binary,58,13,0.5384615384615384
 saudi,deepseek,Age,21-30,code 0,other_Job_Engagement_mentioned,binary,48,44,0.09090909090909091
 saudi,deepseek,Age,31+,"codes 1,2",other_Job_Engagement_mentioned,binary,58,56,0.05357142857142857
 saudi,deepseek,Age,21-30,code 0,other_Job_Engagement_value_scoring,binary,48,0,
@@ -2182,17 +2182,17 @@ saudi,deepseek,Age,31+,"codes 1,2",other_Job_Opportunities_mentioned,binary,58,4
 saudi,deepseek,Age,21-30,code 0,other_Job_Opportunities_value_scoring,binary,48,0,
 saudi,deepseek,Age,31+,"codes 1,2",other_Job_Opportunities_value_scoring,binary,58,0,
 saudi,deepseek,Age,21-30,code 0,other_Job_Satisfaction_mentioned,binary,48,48,0.0625
-saudi,deepseek,Age,31+,"codes 1,2",other_Job_Satisfaction_mentioned,binary,58,58,0.06896551724137931
+saudi,deepseek,Age,31+,"codes 1,2",other_Job_Satisfaction_mentioned,binary,58,58,0.05172413793103448
 saudi,deepseek,Age,21-30,code 0,other_Job_Satisfaction_value_scoring,binary,48,3,0.3333333333333333
-saudi,deepseek,Age,31+,"codes 1,2",other_Job_Satisfaction_value_scoring,binary,58,3,0.6666666666666666
+saudi,deepseek,Age,31+,"codes 1,2",other_Job_Satisfaction_value_scoring,binary,58,1,1.0
 saudi,deepseek,Age,21-30,code 0,other_Job_Stability_mentioned,binary,48,48,0.041666666666666664
-saudi,deepseek,Age,31+,"codes 1,2",other_Job_Stability_mentioned,binary,58,57,0.08771929824561403
+saudi,deepseek,Age,31+,"codes 1,2",other_Job_Stability_mentioned,binary,58,57,0.07017543859649122
 saudi,deepseek,Age,21-30,code 0,other_Job_Stability_value_scoring,binary,48,1,1.0
-saudi,deepseek,Age,31+,"codes 1,2",other_Job_Stability_value_scoring,binary,58,2,1.0
+saudi,deepseek,Age,31+,"codes 1,2",other_Job_Stability_value_scoring,binary,58,1,1.0
 saudi,deepseek,Age,21-30,code 0,other_Job_Support_mentioned,binary,48,48,0.0625
-saudi,deepseek,Age,31+,"codes 1,2",other_Job_Support_mentioned,binary,58,58,0.06896551724137931
+saudi,deepseek,Age,31+,"codes 1,2",other_Job_Support_mentioned,binary,58,58,0.034482758620689655
 saudi,deepseek,Age,21-30,code 0,other_Job_Support_value_scoring,binary,48,2,1.0
-saudi,deepseek,Age,31+,"codes 1,2",other_Job_Support_value_scoring,binary,58,2,1.0
+saudi,deepseek,Age,31+,"codes 1,2",other_Job_Support_value_scoring,binary,58,1,1.0
 saudi,deepseek,Age,21-30,code 0,other_MedicalInsurance_mentioned,binary,48,47,0.0
 saudi,deepseek,Age,31+,"codes 1,2",other_MedicalInsurance_mentioned,binary,58,58,0.017241379310344827
 saudi,deepseek,Age,21-30,code 0,other_MedicalInsurance_value_scoring,binary,48,0,
@@ -2218,9 +2218,9 @@ saudi,deepseek,Age,31+,"codes 1,2",other_Psychological_Exhaustion_mentioned,bina
 saudi,deepseek,Age,21-30,code 0,other_Psychological_Exhaustion_value_scoring,binary,48,0,
 saudi,deepseek,Age,31+,"codes 1,2",other_Psychological_Exhaustion_value_scoring,binary,58,1,1.0
 saudi,deepseek,Age,21-30,code 0,other_Recognition_mentioned,binary,48,48,0.14583333333333334
-saudi,deepseek,Age,31+,"codes 1,2",other_Recognition_mentioned,binary,58,58,0.20689655172413793
+saudi,deepseek,Age,31+,"codes 1,2",other_Recognition_mentioned,binary,58,58,0.1724137931034483
 saudi,deepseek,Age,21-30,code 0,other_Recognition_value_scoring,binary,48,4,0.75
-saudi,deepseek,Age,31+,"codes 1,2",other_Recognition_value_scoring,binary,58,4,1.0
+saudi,deepseek,Age,31+,"codes 1,2",other_Recognition_value_scoring,binary,58,3,1.0
 saudi,deepseek,Age,21-30,code 0,other_Rewards_Wages_Satisfaction_mentioned,binary,48,48,0.10416666666666667
 saudi,deepseek,Age,31+,"codes 1,2",other_Rewards_Wages_Satisfaction_mentioned,binary,58,58,0.0
 saudi,deepseek,Age,21-30,code 0,other_Rewards_Wages_Satisfaction_value_scoring,binary,48,4,1.0
@@ -2238,9 +2238,9 @@ saudi,deepseek,Age,31+,"codes 1,2",other_Useful_Training_Programs_mentioned,bina
 saudi,deepseek,Age,21-30,code 0,other_Useful_Training_Programs_value_scoring,binary,48,0,
 saudi,deepseek,Age,31+,"codes 1,2",other_Useful_Training_Programs_value_scoring,binary,58,0,
 saudi,deepseek,Age,21-30,code 0,other_Work_Live_Balance_mentioned,binary,48,46,0.0
-saudi,deepseek,Age,31+,"codes 1,2",other_Work_Live_Balance_mentioned,binary,58,55,0.03636363636363636
+saudi,deepseek,Age,31+,"codes 1,2",other_Work_Live_Balance_mentioned,binary,58,55,0.01818181818181818
 saudi,deepseek,Age,21-30,code 0,other_Work_Live_Balance_value_scoring,binary,48,0,
-saudi,deepseek,Age,31+,"codes 1,2",other_Work_Live_Balance_value_scoring,binary,58,2,1.0
+saudi,deepseek,Age,31+,"codes 1,2",other_Work_Live_Balance_value_scoring,binary,58,1,1.0
 saudi,deepseek,Age,21-30,code 0,other_Years_Experience_mentioned,binary,48,0,
 saudi,deepseek,Age,31+,"codes 1,2",other_Years_Experience_mentioned,binary,58,2,0.0
 saudi,deepseek,Age,21-30,code 0,other_Years_Experience_value_scoring,binary,48,0,
@@ -2250,15 +2250,15 @@ saudi,deepseek,Age,31+,"codes 1,2",other_Years_experience_lastorganization_menti
 saudi,deepseek,Age,21-30,code 0,other_Years_experience_lastorganization_value_scoring,binary,48,6,1.0
 saudi,deepseek,Age,31+,"codes 1,2",other_Years_experience_lastorganization_value_scoring,binary,58,1,1.0
 saudi,deepseek,Age,21-30,code 0,rank_position_accuracy,continuous,48,48,0.9583333333333334
-saudi,deepseek,Age,31+,"codes 1,2",rank_position_accuracy,continuous,58,58,0.8678160919540229
+saudi,deepseek,Age,31+,"codes 1,2",rank_position_accuracy,continuous,58,58,0.8563218390804598
 saudi,deepseek,Age,21-30,code 0,sign_accuracy,continuous,48,48,1.0
 saudi,deepseek,Age,31+,"codes 1,2",sign_accuracy,continuous,58,58,0.9942528735632185
 saudi,deepseek,Age,21-30,code 0,value_accuracy,continuous,48,48,0.9880208333333332
-saudi,deepseek,Age,31+,"codes 1,2",value_accuracy,continuous,58,58,0.9768472906403941
+saudi,deepseek,Age,31+,"codes 1,2",value_accuracy,continuous,58,58,0.975
 saudi,deepseek,Age,21-30,code 0,prop_pa_mentioned,continuous,48,48,0.14583333333333334
-saudi,deepseek,Age,31+,"codes 1,2",prop_pa_mentioned,continuous,58,58,0.15517241379310345
+saudi,deepseek,Age,31+,"codes 1,2",prop_pa_mentioned,continuous,58,58,0.13793103448275862
 saudi,deepseek,Age,21-30,code 0,prop_other_mentioned,continuous,48,48,0.04710144927536231
-saudi,deepseek,Age,31+,"codes 1,2",prop_other_mentioned,continuous,58,58,0.047976011994003
+saudi,deepseek,Age,31+,"codes 1,2",prop_other_mentioned,continuous,58,58,0.04197901049475262
 saudi,deepseek,Health_Issues,no,no,rank_1_scoring,binary,93,93,0.9247311827956989
 saudi,deepseek,Health_Issues,yes,yes,rank_1_scoring,binary,13,13,0.9230769230769231
 saudi,deepseek,Health_Issues,no,no,rank_1_sign_scoring,binary,93,92,1.0
@@ -2267,7 +2267,7 @@ saudi,deepseek,Health_Issues,no,no,rank_1_value_scoring,binary,93,93,1.0
 saudi,deepseek,Health_Issues,yes,yes,rank_1_value_scoring,binary,13,13,1.0
 saudi,deepseek,Health_Issues,no,no,rank_1_mentioned,binary,93,93,1.0
 saudi,deepseek,Health_Issues,yes,yes,rank_1_mentioned,binary,13,13,1.0
-saudi,deepseek,Health_Issues,no,no,rank_2_scoring,binary,93,93,0.8817204301075269
+saudi,deepseek,Health_Issues,no,no,rank_2_scoring,binary,93,93,0.8709677419354839
 saudi,deepseek,Health_Issues,yes,yes,rank_2_scoring,binary,13,13,0.8461538461538461
 saudi,deepseek,Health_Issues,no,no,rank_2_sign_scoring,binary,93,93,0.989247311827957
 saudi,deepseek,Health_Issues,yes,yes,rank_2_sign_scoring,binary,13,13,1.0
@@ -2275,7 +2275,7 @@ saudi,deepseek,Health_Issues,no,no,rank_2_value_scoring,binary,93,93,1.0
 saudi,deepseek,Health_Issues,yes,yes,rank_2_value_scoring,binary,13,13,1.0
 saudi,deepseek,Health_Issues,no,no,rank_2_mentioned,binary,93,93,1.0
 saudi,deepseek,Health_Issues,yes,yes,rank_2_mentioned,binary,13,13,1.0
-saudi,deepseek,Health_Issues,no,no,rank_3_scoring,binary,93,93,0.9247311827956989
+saudi,deepseek,Health_Issues,no,no,rank_3_scoring,binary,93,93,0.9139784946236559
 saudi,deepseek,Health_Issues,yes,yes,rank_3_scoring,binary,13,13,0.9230769230769231
 saudi,deepseek,Health_Issues,no,no,rank_3_sign_scoring,binary,93,93,1.0
 saudi,deepseek,Health_Issues,yes,yes,rank_3_sign_scoring,binary,13,13,1.0
@@ -2288,19 +2288,19 @@ saudi,deepseek,Health_Issues,yes,yes,predicted_probability_scoring,binary,13,13,
 saudi,deepseek,Health_Issues,no,no,Gender_scoring,binary,93,0,
 saudi,deepseek,Health_Issues,yes,yes,Gender_scoring,binary,13,0,
 saudi,deepseek,Health_Issues,no,no,Gender_mentioned,binary,93,93,0.13978494623655913
-saudi,deepseek,Health_Issues,yes,yes,Gender_mentioned,binary,13,13,0.23076923076923078
+saudi,deepseek,Health_Issues,yes,yes,Gender_mentioned,binary,13,13,0.15384615384615385
 saudi,deepseek,Health_Issues,no,no,Age_scoring,binary,93,0,
 saudi,deepseek,Health_Issues,yes,yes,Age_scoring,binary,13,0,
 saudi,deepseek,Health_Issues,no,no,Age_mentioned,binary,93,93,0.13978494623655913
-saudi,deepseek,Health_Issues,yes,yes,Age_mentioned,binary,13,13,0.23076923076923078
+saudi,deepseek,Health_Issues,yes,yes,Age_mentioned,binary,13,13,0.15384615384615385
 saudi,deepseek,Health_Issues,no,no,Health_Issues_scoring,binary,93,0,
 saudi,deepseek,Health_Issues,yes,yes,Health_Issues_scoring,binary,13,0,
 saudi,deepseek,Health_Issues,no,no,Health_Issues_mentioned,binary,93,93,0.13978494623655913
-saudi,deepseek,Health_Issues,yes,yes,Health_Issues_mentioned,binary,13,13,0.23076923076923078
+saudi,deepseek,Health_Issues,yes,yes,Health_Issues_mentioned,binary,13,13,0.15384615384615385
 saudi,deepseek,Health_Issues,no,no,other_Academic_degree_mentioned,binary,93,93,0.010752688172043012
-saudi,deepseek,Health_Issues,yes,yes,other_Academic_degree_mentioned,binary,13,13,0.07692307692307693
+saudi,deepseek,Health_Issues,yes,yes,other_Academic_degree_mentioned,binary,13,13,0.0
 saudi,deepseek,Health_Issues,no,no,other_Academic_degree_value_scoring,binary,93,1,1.0
-saudi,deepseek,Health_Issues,yes,yes,other_Academic_degree_value_scoring,binary,13,1,1.0
+saudi,deepseek,Health_Issues,yes,yes,other_Academic_degree_value_scoring,binary,13,0,
 saudi,deepseek,Health_Issues,no,no,other_Bonus_mentioned,binary,93,93,0.03225806451612903
 saudi,deepseek,Health_Issues,yes,yes,other_Bonus_mentioned,binary,13,13,0.0
 saudi,deepseek,Health_Issues,no,no,other_Bonus_value_scoring,binary,93,3,1.0
@@ -2313,17 +2313,17 @@ saudi,deepseek,Health_Issues,no,no,other_Distance_to_work_mentioned,binary,93,93
 saudi,deepseek,Health_Issues,yes,yes,other_Distance_to_work_mentioned,binary,13,13,0.0
 saudi,deepseek,Health_Issues,no,no,other_Distance_to_work_value_scoring,binary,93,0,
 saudi,deepseek,Health_Issues,yes,yes,other_Distance_to_work_value_scoring,binary,13,0,
-saudi,deepseek,Health_Issues,no,no,other_Emotional_Commitment_mentioned,binary,93,90,0.044444444444444446
+saudi,deepseek,Health_Issues,no,no,other_Emotional_Commitment_mentioned,binary,93,90,0.03333333333333333
 saudi,deepseek,Health_Issues,yes,yes,other_Emotional_Commitment_mentioned,binary,13,13,0.07692307692307693
 saudi,deepseek,Health_Issues,no,no,other_Emotional_Commitment_value_scoring,binary,93,1,1.0
 saudi,deepseek,Health_Issues,yes,yes,other_Emotional_Commitment_value_scoring,binary,13,1,1.0
-saudi,deepseek,Health_Issues,no,no,other_Environment_Satisfaction_mentioned,binary,93,93,0.03225806451612903
+saudi,deepseek,Health_Issues,no,no,other_Environment_Satisfaction_mentioned,binary,93,93,0.021505376344086023
 saudi,deepseek,Health_Issues,yes,yes,other_Environment_Satisfaction_mentioned,binary,13,13,0.0
 saudi,deepseek,Health_Issues,no,no,other_Environment_Satisfaction_value_scoring,binary,93,2,1.0
 saudi,deepseek,Health_Issues,yes,yes,other_Environment_Satisfaction_value_scoring,binary,13,0,
-saudi,deepseek,Health_Issues,no,no,other_Get_Deserved_Promotion_mentioned,binary,93,92,0.34782608695652173
+saudi,deepseek,Health_Issues,no,no,other_Get_Deserved_Promotion_mentioned,binary,93,92,0.3695652173913043
 saudi,deepseek,Health_Issues,yes,yes,other_Get_Deserved_Promotion_mentioned,binary,13,13,0.3076923076923077
-saudi,deepseek,Health_Issues,no,no,other_Get_Deserved_Promotion_value_scoring,binary,93,15,0.6666666666666666
+saudi,deepseek,Health_Issues,no,no,other_Get_Deserved_Promotion_value_scoring,binary,93,16,0.625
 saudi,deepseek,Health_Issues,yes,yes,other_Get_Deserved_Promotion_value_scoring,binary,13,3,0.6666666666666666
 saudi,deepseek,Health_Issues,no,no,other_Job_Engagement_mentioned,binary,93,87,0.08045977011494253
 saudi,deepseek,Health_Issues,yes,yes,other_Job_Engagement_mentioned,binary,13,13,0.0
@@ -2333,17 +2333,17 @@ saudi,deepseek,Health_Issues,no,no,other_Job_Opportunities_mentioned,binary,93,5
 saudi,deepseek,Health_Issues,yes,yes,other_Job_Opportunities_mentioned,binary,13,0,
 saudi,deepseek,Health_Issues,no,no,other_Job_Opportunities_value_scoring,binary,93,0,
 saudi,deepseek,Health_Issues,yes,yes,other_Job_Opportunities_value_scoring,binary,13,0,
-saudi,deepseek,Health_Issues,no,no,other_Job_Satisfaction_mentioned,binary,93,93,0.043010752688172046
-saudi,deepseek,Health_Issues,yes,yes,other_Job_Satisfaction_mentioned,binary,13,13,0.23076923076923078
-saudi,deepseek,Health_Issues,no,no,other_Job_Satisfaction_value_scoring,binary,93,4,0.25
+saudi,deepseek,Health_Issues,no,no,other_Job_Satisfaction_mentioned,binary,93,93,0.021505376344086023
+saudi,deepseek,Health_Issues,yes,yes,other_Job_Satisfaction_mentioned,binary,13,13,0.3076923076923077
+saudi,deepseek,Health_Issues,no,no,other_Job_Satisfaction_value_scoring,binary,93,2,0.0
 saudi,deepseek,Health_Issues,yes,yes,other_Job_Satisfaction_value_scoring,binary,13,2,1.0
-saudi,deepseek,Health_Issues,no,no,other_Job_Stability_mentioned,binary,93,92,0.07608695652173914
+saudi,deepseek,Health_Issues,no,no,other_Job_Stability_mentioned,binary,93,92,0.06521739130434782
 saudi,deepseek,Health_Issues,yes,yes,other_Job_Stability_mentioned,binary,13,13,0.0
-saudi,deepseek,Health_Issues,no,no,other_Job_Stability_value_scoring,binary,93,3,1.0
+saudi,deepseek,Health_Issues,no,no,other_Job_Stability_value_scoring,binary,93,2,1.0
 saudi,deepseek,Health_Issues,yes,yes,other_Job_Stability_value_scoring,binary,13,0,
-saudi,deepseek,Health_Issues,no,no,other_Job_Support_mentioned,binary,93,93,0.06451612903225806
+saudi,deepseek,Health_Issues,no,no,other_Job_Support_mentioned,binary,93,93,0.043010752688172046
 saudi,deepseek,Health_Issues,yes,yes,other_Job_Support_mentioned,binary,13,13,0.07692307692307693
-saudi,deepseek,Health_Issues,no,no,other_Job_Support_value_scoring,binary,93,4,1.0
+saudi,deepseek,Health_Issues,no,no,other_Job_Support_value_scoring,binary,93,3,1.0
 saudi,deepseek,Health_Issues,yes,yes,other_Job_Support_value_scoring,binary,13,0,
 saudi,deepseek,Health_Issues,no,no,other_MedicalInsurance_mentioned,binary,93,92,0.0
 saudi,deepseek,Health_Issues,yes,yes,other_MedicalInsurance_mentioned,binary,13,13,0.07692307692307693
@@ -2369,9 +2369,9 @@ saudi,deepseek,Health_Issues,no,no,other_Psychological_Exhaustion_mentioned,bina
 saudi,deepseek,Health_Issues,yes,yes,other_Psychological_Exhaustion_mentioned,binary,13,13,0.0
 saudi,deepseek,Health_Issues,no,no,other_Psychological_Exhaustion_value_scoring,binary,93,1,1.0
 saudi,deepseek,Health_Issues,yes,yes,other_Psychological_Exhaustion_value_scoring,binary,13,0,
-saudi,deepseek,Health_Issues,no,no,other_Recognition_mentioned,binary,93,93,0.16129032258064516
+saudi,deepseek,Health_Issues,no,no,other_Recognition_mentioned,binary,93,93,0.13978494623655913
 saudi,deepseek,Health_Issues,yes,yes,other_Recognition_mentioned,binary,13,13,0.3076923076923077
-saudi,deepseek,Health_Issues,no,no,other_Recognition_value_scoring,binary,93,6,0.8333333333333334
+saudi,deepseek,Health_Issues,no,no,other_Recognition_value_scoring,binary,93,5,0.8
 saudi,deepseek,Health_Issues,yes,yes,other_Recognition_value_scoring,binary,13,2,1.0
 saudi,deepseek,Health_Issues,no,no,other_Rewards_Wages_Satisfaction_mentioned,binary,93,93,0.043010752688172046
 saudi,deepseek,Health_Issues,yes,yes,other_Rewards_Wages_Satisfaction_mentioned,binary,13,13,0.07692307692307693
@@ -2389,9 +2389,9 @@ saudi,deepseek,Health_Issues,no,no,other_Useful_Training_Programs_mentioned,bina
 saudi,deepseek,Health_Issues,yes,yes,other_Useful_Training_Programs_mentioned,binary,13,13,0.0
 saudi,deepseek,Health_Issues,no,no,other_Useful_Training_Programs_value_scoring,binary,93,0,
 saudi,deepseek,Health_Issues,yes,yes,other_Useful_Training_Programs_value_scoring,binary,13,0,
-saudi,deepseek,Health_Issues,no,no,other_Work_Live_Balance_mentioned,binary,93,90,0.022222222222222223
+saudi,deepseek,Health_Issues,no,no,other_Work_Live_Balance_mentioned,binary,93,90,0.011111111111111112
 saudi,deepseek,Health_Issues,yes,yes,other_Work_Live_Balance_mentioned,binary,13,11,0.0
-saudi,deepseek,Health_Issues,no,no,other_Work_Live_Balance_value_scoring,binary,93,2,1.0
+saudi,deepseek,Health_Issues,no,no,other_Work_Live_Balance_value_scoring,binary,93,1,1.0
 saudi,deepseek,Health_Issues,yes,yes,other_Work_Live_Balance_value_scoring,binary,13,0,
 saudi,deepseek,Health_Issues,no,no,other_Years_Experience_mentioned,binary,93,2,0.0
 saudi,deepseek,Health_Issues,yes,yes,other_Years_Experience_mentioned,binary,13,0,
@@ -2401,15 +2401,15 @@ saudi,deepseek,Health_Issues,no,no,other_Years_experience_lastorganization_menti
 saudi,deepseek,Health_Issues,yes,yes,other_Years_experience_lastorganization_mentioned,binary,13,5,0.0
 saudi,deepseek,Health_Issues,no,no,other_Years_experience_lastorganization_value_scoring,binary,93,7,1.0
 saudi,deepseek,Health_Issues,yes,yes,other_Years_experience_lastorganization_value_scoring,binary,13,0,
-saudi,deepseek,Health_Issues,no,no,rank_position_accuracy,continuous,93,93,0.9103942652329748
+saudi,deepseek,Health_Issues,no,no,rank_position_accuracy,continuous,93,93,0.9032258064516129
 saudi,deepseek,Health_Issues,yes,yes,rank_position_accuracy,continuous,13,13,0.8974358974358974
 saudi,deepseek,Health_Issues,no,no,sign_accuracy,continuous,93,93,0.9964157706093189
 saudi,deepseek,Health_Issues,yes,yes,sign_accuracy,continuous,13,13,1.0
-saudi,deepseek,Health_Issues,no,no,value_accuracy,continuous,93,93,0.9820660522273426
+saudi,deepseek,Health_Issues,no,no,value_accuracy,continuous,93,93,0.9809139784946236
 saudi,deepseek,Health_Issues,yes,yes,value_accuracy,continuous,13,13,0.9807692307692307
 saudi,deepseek,Health_Issues,no,no,prop_pa_mentioned,continuous,93,93,0.13978494623655913
-saudi,deepseek,Health_Issues,yes,yes,prop_pa_mentioned,continuous,13,13,0.23076923076923078
-saudi,deepseek,Health_Issues,no,no,prop_other_mentioned,continuous,93,93,0.045815801776531086
+saudi,deepseek,Health_Issues,yes,yes,prop_pa_mentioned,continuous,13,13,0.15384615384615385
+saudi,deepseek,Health_Issues,no,no,prop_other_mentioned,continuous,93,93,0.0420757363253857
 saudi,deepseek,Health_Issues,yes,yes,prop_other_mentioned,continuous,13,13,0.06020066889632107
 student,grok,sex,female,female,rank_1_scoring,binary,43,43,0.9767441860465116
 student,grok,sex,male,male,rank_1_scoring,binary,29,29,0.896551724137931

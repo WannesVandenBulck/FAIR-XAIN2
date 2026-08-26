@@ -9,14 +9,14 @@
     },
     {
       "rank": 2,
-      "name": "Years_experience_lastorganization",
-      "sign": -1,
+      "name": "Years_Experience",
+      "sign": 1,
       "value": 1
     },
     {
       "rank": 3,
-      "name": "Years_Experience",
-      "sign": 1,
+      "name": "Years_experience_lastorganization",
+      "sign": -1,
       "value": 1
     }
   ],
@@ -78,7 +78,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -98,17 +98,17 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -143,7 +143,7 @@
     },
     {
       "name": "Environment_Satisfaction",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

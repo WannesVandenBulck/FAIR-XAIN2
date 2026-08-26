@@ -640,18 +640,18 @@ saudi,openai,Health_Issues,yes,yes,value_accuracy,continuous,Wilcoxon signed-ran
 saudi,openai,Health_Issues,yes,yes,prop_other_mentioned,continuous,Wilcoxon signed-rank,4.0,0.015625,0.6,matched_rank_biserial_r,13,0.13043478260869565,0.026755852842809364,10,0.0625,True,False
 saudi,deepseek,Gender,female,female,rank_1_scoring,binary,McNemar,2.0,0.453125,2.5,odds_ratio,61,0.9180327868852459,0.8688524590163934,7,1.0,False,False
 saudi,deepseek,Gender,female,female,rank_2_scoring,binary,McNemar,3.0,0.34375,2.3333333333333335,odds_ratio,61,0.8688524590163934,0.8032786885245902,10,1.0,False,False
-saudi,deepseek,Gender,female,female,rank_3_scoring,binary,McNemar,2.0,0.0654296875,4.5,odds_ratio,61,0.9180327868852459,0.8032786885245902,11,0.56865234375,False,False
+saudi,deepseek,Gender,female,female,rank_3_scoring,binary,McNemar,2.0,0.0654296875,4.5,odds_ratio,61,0.9180327868852459,0.8032786885245902,11,0.78515625,False,False
 saudi,deepseek,Gender,female,female,rank_3_sign_scoring,binary,McNemar,0.0,1.0,3.0,odds_ratio,61,1.0,0.9836065573770492,1,1.0,False,False
-saudi,deepseek,Gender,female,female,Gender_mentioned,binary,McNemar,4.0,0.11846923828124999,2.75,odds_ratio,61,0.18032786885245902,0.06557377049180328,15,0.56865234375,False,False
-saudi,deepseek,Gender,female,female,Age_mentioned,binary,McNemar,4.0,0.11846923828124999,2.75,odds_ratio,61,0.18032786885245902,0.06557377049180328,15,0.56865234375,False,False
-saudi,deepseek,Gender,female,female,Health_Issues_mentioned,binary,McNemar,4.0,0.11846923828124999,2.75,odds_ratio,61,0.18032786885245902,0.06557377049180328,15,0.56865234375,False,False
-saudi,deepseek,Gender,female,female,other_Academic_degree_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,61,0.03278688524590164,0.01639344262295082,3,1.0,False,False
+saudi,deepseek,Gender,female,female,Gender_mentioned,binary,McNemar,4.0,0.1795654296875,2.5,odds_ratio,61,0.16393442622950818,0.06557377049180328,14,0.8619140624999999,False,False
+saudi,deepseek,Gender,female,female,Age_mentioned,binary,McNemar,4.0,0.1795654296875,2.5,odds_ratio,61,0.16393442622950818,0.06557377049180328,14,0.8619140624999999,False,False
+saudi,deepseek,Gender,female,female,Health_Issues_mentioned,binary,McNemar,4.0,0.1795654296875,2.5,odds_ratio,61,0.16393442622950818,0.06557377049180328,14,0.8619140624999999,False,False
+saudi,deepseek,Gender,female,female,other_Academic_degree_mentioned,binary,McNemar,1.0,1.0,1.0,odds_ratio,61,0.01639344262295082,0.01639344262295082,2,1.0,False,False
 saudi,deepseek,Gender,female,female,other_Bonus_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,61,0.03278688524590164,0.01639344262295082,1,1.0,False,False
 saudi,deepseek,Gender,female,female,other_Emotional_Commitment_mentioned,binary,McNemar,2.0,0.453125,0.4,odds_ratio,59,0.05084745762711865,0.1016949152542373,7,1.0,False,False
 saudi,deepseek,Gender,female,female,other_Environment_Satisfaction_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,61,0.01639344262295082,0.0,1,1.0,False,False
-saudi,deepseek,Gender,female,female,other_Get_Deserved_Promotion_mentioned,binary,McNemar,0.038461538461538464,0.8445192674729399,0.8571428571428571,odds_ratio,60,0.31666666666666665,0.35,26,1.0,False,False
+saudi,deepseek,Gender,female,female,other_Get_Deserved_Promotion_mentioned,binary,McNemar,0.0,1.0,0.9285714285714286,odds_ratio,60,0.3333333333333333,0.35,27,1.0,False,False
 saudi,deepseek,Gender,female,female,other_Job_Engagement_mentioned,binary,McNemar,1.0,0.21875,5.0,odds_ratio,56,0.08928571428571429,0.017857142857142856,6,0.875,False,False
-saudi,deepseek,Gender,female,female,other_Job_Satisfaction_mentioned,binary,McNemar,2.0,1.0,0.6666666666666666,odds_ratio,61,0.03278688524590164,0.04918032786885246,5,1.0,False,False
+saudi,deepseek,Gender,female,female,other_Job_Satisfaction_mentioned,binary,McNemar,3.0,1.0,1.0,odds_ratio,61,0.04918032786885246,0.04918032786885246,6,1.0,False,False
 saudi,deepseek,Gender,female,female,other_Job_Stability_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,60,0.016666666666666666,0.03333333333333333,3,1.0,False,False
 saudi,deepseek,Gender,female,female,other_Job_Support_mentioned,binary,McNemar,2.0,1.0,1.5,odds_ratio,61,0.04918032786885246,0.03278688524590164,5,1.0,False,False
 saudi,deepseek,Gender,female,female,other_MonthlySalary_mentioned,binary,McNemar,1.0,1.0,1.0,odds_ratio,60,0.016666666666666666,0.016666666666666666,2,1.0,False,False
@@ -661,43 +661,43 @@ saudi,deepseek,Gender,female,female,other_Psychological_Exhaustion_mentioned,bin
 saudi,deepseek,Gender,female,female,other_Recognition_mentioned,binary,McNemar,7.0,1.0,1.1428571428571428,odds_ratio,61,0.14754098360655737,0.13114754098360656,15,1.0,False,False
 saudi,deepseek,Gender,female,female,other_Rewards_Wages_Satisfaction_mentioned,binary,McNemar,2.0,1.0,1.5,odds_ratio,61,0.04918032786885246,0.03278688524590164,5,1.0,False,False
 saudi,deepseek,Gender,female,female,other_Sector_mentioned,binary,McNemar,0.0,0.5,0.2,odds_ratio,48,0.0,0.041666666666666664,2,1.0,False,False
-saudi,deepseek,Gender,female,female,other_Years_experience_lastorganization_mentioned,binary,McNemar,0.0,0.0625,11.0,odds_ratio,24,0.20833333333333334,0.0,5,0.56865234375,False,False
-saudi,deepseek,Gender,female,female,rank_position_accuracy,continuous,Wilcoxon signed-rank,12.0,0.05675944638601352,0.45454545454545453,matched_rank_biserial_r,61,0.9016393442622951,0.8251366120218578,11,0.17675286216495742,False,False
+saudi,deepseek,Gender,female,female,other_Years_experience_lastorganization_mentioned,binary,McNemar,0.0,0.0625,11.0,odds_ratio,24,0.20833333333333334,0.0,5,0.78515625,False,False
+saudi,deepseek,Gender,female,female,rank_position_accuracy,continuous,Wilcoxon signed-rank,12.0,0.05675944638601352,0.45454545454545453,matched_rank_biserial_r,61,0.9016393442622951,0.8251366120218578,11,0.23462128895225023,False,False
 saudi,deepseek,Gender,female,female,sign_accuracy,continuous,Wilcoxon signed-rank,0.0,0.31731050786291415,1.0,matched_rank_biserial_r,61,1.0,0.994535519125683,1,0.3966381348286427,False,False
-saudi,deepseek,Gender,female,female,value_accuracy,continuous,Wilcoxon signed-rank,1.0,0.28504940740261275,-0.3333333333333333,matched_rank_biserial_r,61,0.9926229508196721,0.9979508196721312,3,0.3966381348286427,False,False
-saudi,deepseek,Gender,female,female,prop_pa_mentioned,continuous,Wilcoxon signed-rank,32.0,0.07070114486598297,0.4666666666666667,matched_rank_biserial_r,61,0.18032786885245902,0.06557377049180328,15,0.17675286216495742,False,False
-saudi,deepseek,Gender,female,female,prop_other_mentioned,continuous,Wilcoxon signed-rank,497.0,0.8136092864863465,0.06666666666666667,matched_rank_biserial_r,61,0.04133998574483252,0.03848895224518888,45,0.8136092864863465,False,False
+saudi,deepseek,Gender,female,female,value_accuracy,continuous,Wilcoxon signed-rank,1.0,0.14077277337135014,-0.5,matched_rank_biserial_r,61,0.9885245901639343,0.9979508196721312,4,0.23462128895225023,False,False
+saudi,deepseek,Gender,female,female,prop_pa_mentioned,continuous,Wilcoxon signed-rank,30.0,0.10880943004054569,0.42857142857142855,matched_rank_biserial_r,61,0.16393442622950818,0.06557377049180328,14,0.23462128895225023,False,False
+saudi,deepseek,Gender,female,female,prop_other_mentioned,continuous,Wilcoxon signed-rank,513.0,0.7592868738007166,0.08695652173913043,matched_rank_biserial_r,61,0.04205274411974341,0.03848895224518888,46,0.7592868738007166,False,False
 saudi,deepseek,Gender,male,male,rank_1_scoring,binary,McNemar,3.0,1.0,1.3333333333333333,odds_ratio,45,0.9333333333333333,0.9111111111111111,7,1.0,False,False
-saudi,deepseek,Gender,male,male,rank_2_scoring,binary,McNemar,3.0,0.7265625,1.6666666666666667,odds_ratio,45,0.8888888888888888,0.8444444444444444,8,1.0,False,False
+saudi,deepseek,Gender,male,male,rank_2_scoring,binary,McNemar,4.0,1.0,1.25,odds_ratio,45,0.8666666666666667,0.8444444444444444,9,1.0,False,False
 saudi,deepseek,Gender,male,male,rank_2_sign_scoring,binary,McNemar,1.0,1.0,1.0,odds_ratio,45,0.9777777777777777,0.9777777777777777,2,1.0,False,False
-saudi,deepseek,Gender,male,male,rank_3_scoring,binary,McNemar,1.0,0.0703125,7.0,odds_ratio,45,0.9333333333333333,0.8,8,1.0,False,False
+saudi,deepseek,Gender,male,male,rank_3_scoring,binary,McNemar,2.0,0.1796875,3.5,odds_ratio,45,0.9111111111111111,0.8,9,1.0,False,False
 saudi,deepseek,Gender,male,male,Gender_mentioned,binary,McNemar,1.0,0.21875,5.0,odds_ratio,45,0.1111111111111111,0.022222222222222223,6,1.0,False,False
 saudi,deepseek,Gender,male,male,Age_mentioned,binary,McNemar,1.0,0.21875,5.0,odds_ratio,45,0.1111111111111111,0.022222222222222223,6,1.0,False,False
 saudi,deepseek,Gender,male,male,Health_Issues_mentioned,binary,McNemar,1.0,0.21875,5.0,odds_ratio,45,0.1111111111111111,0.022222222222222223,6,1.0,False,False
 saudi,deepseek,Gender,male,male,other_Academic_degree_mentioned,binary,McNemar,0.0,1.0,0.3333333333333333,odds_ratio,45,0.0,0.022222222222222223,1,1.0,False,False
 saudi,deepseek,Gender,male,male,other_Bonus_mentioned,binary,McNemar,1.0,0.625,0.3333333333333333,odds_ratio,45,0.022222222222222223,0.06666666666666667,4,1.0,False,False
-saudi,deepseek,Gender,male,male,other_Emotional_Commitment_mentioned,binary,McNemar,2.0,0.2890625,0.3333333333333333,odds_ratio,44,0.045454545454545456,0.13636363636363635,8,1.0,False,False
-saudi,deepseek,Gender,male,male,other_Environment_Satisfaction_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,45,0.044444444444444446,0.022222222222222223,3,1.0,False,False
-saudi,deepseek,Gender,male,male,other_Get_Deserved_Promotion_mentioned,binary,McNemar,11.0,1.0,0.9166666666666666,odds_ratio,45,0.37777777777777777,0.4,23,1.0,False,False
+saudi,deepseek,Gender,male,male,other_Emotional_Commitment_mentioned,binary,McNemar,1.0,0.125,0.16666666666666666,odds_ratio,44,0.022727272727272728,0.13636363636363635,7,1.0,False,False
+saudi,deepseek,Gender,male,male,other_Environment_Satisfaction_mentioned,binary,McNemar,1.0,1.0,1.0,odds_ratio,45,0.022222222222222223,0.022222222222222223,2,1.0,False,False
+saudi,deepseek,Gender,male,male,other_Get_Deserved_Promotion_mentioned,binary,McNemar,12.0,1.0,1.0,odds_ratio,45,0.4,0.4,24,1.0,False,False
 saudi,deepseek,Gender,male,male,other_Job_Engagement_mentioned,binary,McNemar,0.0,0.5,5.0,odds_ratio,44,0.045454545454545456,0.0,2,1.0,False,False
-saudi,deepseek,Gender,male,male,other_Job_Satisfaction_mentioned,binary,McNemar,4.0,0.75390625,0.6666666666666666,odds_ratio,45,0.1111111111111111,0.15555555555555556,10,1.0,False,False
-saudi,deepseek,Gender,male,male,other_Job_Stability_mentioned,binary,McNemar,2.0,0.453125,2.5,odds_ratio,45,0.13333333333333333,0.06666666666666667,7,1.0,False,False
-saudi,deepseek,Gender,male,male,other_Job_Support_mentioned,binary,McNemar,1.0,0.375,4.0,odds_ratio,45,0.08888888888888889,0.022222222222222223,5,1.0,False,False
+saudi,deepseek,Gender,male,male,other_Job_Satisfaction_mentioned,binary,McNemar,3.0,0.34375,0.42857142857142855,odds_ratio,45,0.06666666666666667,0.15555555555555556,10,1.0,False,False
+saudi,deepseek,Gender,male,male,other_Job_Stability_mentioned,binary,McNemar,3.0,0.7265625,1.6666666666666667,odds_ratio,45,0.1111111111111111,0.06666666666666667,8,1.0,False,False
+saudi,deepseek,Gender,male,male,other_Job_Support_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,45,0.044444444444444446,0.022222222222222223,3,1.0,False,False
 saudi,deepseek,Gender,male,male,other_MedicalInsurance_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,45,0.022222222222222223,0.044444444444444446,3,1.0,False,False
 saudi,deepseek,Gender,male,male,other_MonthlySalary_mentioned,binary,McNemar,0.0,0.5,0.2,odds_ratio,44,0.0,0.045454545454545456,2,1.0,False,False
 saudi,deepseek,Gender,male,male,other_OverTime_mentioned,binary,McNemar,1.0,1.0,1.0,odds_ratio,45,0.022222222222222223,0.022222222222222223,2,1.0,False,False
 saudi,deepseek,Gender,male,male,other_Payment_Overtime_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,45,0.022222222222222223,0.0,1,1.0,False,False
-saudi,deepseek,Gender,male,male,other_Recognition_mentioned,binary,McNemar,5.0,0.7744140625,1.4,odds_ratio,45,0.2222222222222222,0.17777777777777778,12,1.0,False,False
+saudi,deepseek,Gender,male,male,other_Recognition_mentioned,binary,McNemar,5.0,1.0,1.0,odds_ratio,45,0.17777777777777778,0.17777777777777778,10,1.0,False,False
 saudi,deepseek,Gender,male,male,other_Rewards_Wages_Satisfaction_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,45,0.044444444444444446,0.022222222222222223,3,1.0,False,False
 saudi,deepseek,Gender,male,male,other_Sector_mentioned,binary,McNemar,0.0,0.5,0.2,odds_ratio,42,0.0,0.047619047619047616,2,1.0,False,False
 saudi,deepseek,Gender,male,male,other_Useful_Training_Programs_mentioned,binary,McNemar,0.0,1.0,0.3333333333333333,odds_ratio,45,0.0,0.022222222222222223,1,1.0,False,False
-saudi,deepseek,Gender,male,male,other_Work_Live_Balance_mentioned,binary,McNemar,2.0,1.0,1.0,odds_ratio,40,0.05,0.05,4,1.0,False,False
+saudi,deepseek,Gender,male,male,other_Work_Live_Balance_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,40,0.025,0.05,3,1.0,False,False
 saudi,deepseek,Gender,male,male,other_Years_experience_lastorganization_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,13,0.15384615384615385,0.07692307692307693,3,1.0,False,False
-saudi,deepseek,Gender,male,male,rank_position_accuracy,continuous,Wilcoxon signed-rank,18.5,0.19197060347354988,0.2727272727272727,matched_rank_biserial_r,45,0.9185185185185187,0.8518518518518519,11,0.4799265086838747,False,False
+saudi,deepseek,Gender,male,male,rank_position_accuracy,continuous,Wilcoxon signed-rank,26.0,0.30141336742230984,0.16666666666666666,matched_rank_biserial_r,45,0.9037037037037038,0.8518518518518519,12,0.7535334185557746,False,False
 saudi,deepseek,Gender,male,male,sign_accuracy,continuous,Wilcoxon signed-rank,1.5,1.0,0.0,matched_rank_biserial_r,45,0.9925925925925926,0.9925925925925927,2,1.0,False,False
-saudi,deepseek,Gender,male,male,value_accuracy,continuous,Wilcoxon signed-rank,32.5,0.9638752961842721,-0.09090909090909091,matched_rank_biserial_r,45,0.9673809523809525,0.9701587301587302,11,1.0,False,False
-saudi,deepseek,Gender,male,male,prop_pa_mentioned,continuous,Wilcoxon signed-rank,3.5,0.10247043485974941,0.6666666666666666,matched_rank_biserial_r,45,0.1111111111111111,0.022222222222222223,6,0.4799265086838747,False,False
-saudi,deepseek,Gender,male,male,prop_other_mentioned,continuous,Wilcoxon signed-rank,291.0,0.9106844087743508,-0.17647058823529413,matched_rank_biserial_r,45,0.05603864734299518,0.05797101449275362,34,1.0,False,False
+saudi,deepseek,Gender,male,male,value_accuracy,continuous,Wilcoxon signed-rank,27.0,0.958369671497042,0.0,matched_rank_biserial_r,45,0.9705555555555555,0.9701587301587302,10,1.0,False,False
+saudi,deepseek,Gender,male,male,prop_pa_mentioned,continuous,Wilcoxon signed-rank,3.5,0.10247043485974941,0.6666666666666666,matched_rank_biserial_r,45,0.1111111111111111,0.022222222222222223,6,0.512352174298747,False,False
+saudi,deepseek,Gender,male,male,prop_other_mentioned,continuous,Wilcoxon signed-rank,225.5,0.4675149898495812,-0.25,matched_rank_biserial_r,45,0.04734299516908212,0.05797101449275362,32,0.779191649749302,False,False
 saudi,deepseek,Age,21-30,code 0,rank_1_scoring,binary,McNemar,1.0,0.0703125,7.0,odds_ratio,48,0.9375,0.8125,8,0.421875,False,False
 saudi,deepseek,Age,21-30,code 0,rank_2_scoring,binary,McNemar,0.0,0.0078125,17.0,odds_ratio,48,0.9583333333333334,0.7916666666666666,8,0.09375,True,False
 saudi,deepseek,Age,21-30,code 0,rank_3_scoring,binary,McNemar,0.0,0.00390625,19.0,odds_ratio,48,0.9791666666666666,0.7916666666666666,9,0.09375,True,False
@@ -728,90 +728,89 @@ saudi,deepseek,Age,21-30,code 0,value_accuracy,continuous,Wilcoxon signed-rank,3
 saudi,deepseek,Age,21-30,code 0,prop_pa_mentioned,continuous,Wilcoxon signed-rank,10.0,0.0955807045456294,0.5555555555555556,matched_rank_biserial_r,48,0.14583333333333334,0.041666666666666664,9,0.2389517613640735,False,False
 saudi,deepseek,Age,21-30,code 0,prop_other_mentioned,continuous,Wilcoxon signed-rank,313.5,0.56102310316525,0.13513513513513514,matched_rank_biserial_r,48,0.04710144927536231,0.03894927536231884,37,0.5807121621890252,False,False
 saudi,deepseek,Age,31+,"codes 1,2",rank_1_scoring,binary,McNemar,2.0,0.6875,0.5,odds_ratio,58,0.9137931034482759,0.9482758620689655,6,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",rank_2_scoring,binary,McNemar,4.0,0.75390625,0.6666666666666666,odds_ratio,58,0.8103448275862069,0.8448275862068966,10,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",rank_2_scoring,binary,McNemar,4.0,0.548828125,0.5714285714285714,odds_ratio,58,0.7931034482758621,0.8448275862068966,11,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",rank_2_sign_scoring,binary,McNemar,1.0,1.0,1.0,odds_ratio,58,0.9827586206896551,0.9827586206896551,2,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",rank_3_scoring,binary,McNemar,3.0,0.34375,2.3333333333333335,odds_ratio,58,0.8793103448275862,0.8103448275862069,10,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",Gender_mentioned,binary,McNemar,3.0,0.14599609375,3.0,odds_ratio,58,0.15517241379310345,0.05172413793103448,12,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",Age_mentioned,binary,McNemar,3.0,0.14599609375,3.0,odds_ratio,58,0.15517241379310345,0.05172413793103448,12,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",Health_Issues_mentioned,binary,McNemar,3.0,0.14599609375,3.0,odds_ratio,58,0.15517241379310345,0.05172413793103448,12,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",other_Academic_degree_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,58,0.034482758620689655,0.017241379310344827,3,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",rank_3_scoring,binary,McNemar,4.0,0.548828125,1.75,odds_ratio,58,0.8620689655172413,0.8103448275862069,11,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",Gender_mentioned,binary,McNemar,3.0,0.2265625,2.6666666666666665,odds_ratio,58,0.13793103448275862,0.05172413793103448,11,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",Age_mentioned,binary,McNemar,3.0,0.2265625,2.6666666666666665,odds_ratio,58,0.13793103448275862,0.05172413793103448,11,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",Health_Issues_mentioned,binary,McNemar,3.0,0.2265625,2.6666666666666665,odds_ratio,58,0.13793103448275862,0.05172413793103448,11,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",other_Academic_degree_mentioned,binary,McNemar,1.0,1.0,1.0,odds_ratio,58,0.017241379310344827,0.017241379310344827,2,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_Bonus_mentioned,binary,McNemar,0.0,0.5,0.2,odds_ratio,58,0.017241379310344827,0.05172413793103448,2,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",other_Emotional_Commitment_mentioned,binary,McNemar,2.0,0.2890625,0.3333333333333333,odds_ratio,57,0.03508771929824561,0.10526315789473684,8,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",other_Environment_Satisfaction_mentioned,binary,McNemar,1.0,1.0,1.0,odds_ratio,58,0.017241379310344827,0.017241379310344827,2,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",other_Get_Deserved_Promotion_mentioned,binary,McNemar,0.03333333333333333,0.8551321405847059,1.1428571428571428,odds_ratio,57,0.40350877192982454,0.3684210526315789,30,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",other_Emotional_Commitment_mentioned,binary,McNemar,1.0,0.125,0.16666666666666666,odds_ratio,57,0.017543859649122806,0.10526315789473684,7,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",other_Environment_Satisfaction_mentioned,binary,McNemar,0.0,1.0,0.3333333333333333,odds_ratio,58,0.0,0.017241379310344827,1,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",other_Get_Deserved_Promotion_mentioned,binary,McNemar,0.28125,0.5958830905651775,1.2857142857142858,odds_ratio,57,0.43859649122807015,0.3684210526315789,32,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_Job_Engagement_mentioned,binary,McNemar,1.0,0.625,3.0,odds_ratio,56,0.05357142857142857,0.017857142857142856,4,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",other_Job_Satisfaction_mentioned,binary,McNemar,3.0,0.7265625,0.6,odds_ratio,58,0.06896551724137931,0.10344827586206896,8,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",other_Job_Stability_mentioned,binary,McNemar,3.0,1.0,1.3333333333333333,odds_ratio,57,0.08771929824561403,0.07017543859649122,7,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",other_Job_Support_mentioned,binary,McNemar,2.0,0.6875,2.0,odds_ratio,58,0.06896551724137931,0.034482758620689655,6,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",other_Job_Satisfaction_mentioned,binary,McNemar,3.0,0.5078125,0.5,odds_ratio,58,0.05172413793103448,0.10344827586206896,9,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",other_Job_Stability_mentioned,binary,McNemar,4.0,1.0,1.0,odds_ratio,57,0.07017543859649122,0.07017543859649122,8,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",other_Job_Support_mentioned,binary,McNemar,2.0,1.0,1.0,odds_ratio,58,0.034482758620689655,0.034482758620689655,4,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_MedicalInsurance_mentioned,binary,McNemar,1.0,1.0,1.0,odds_ratio,58,0.017241379310344827,0.017241379310344827,2,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_MonthlySalary_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,56,0.017857142857142856,0.03571428571428571,3,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_OverTime_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,58,0.017241379310344827,0.034482758620689655,3,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_Psychological_Exhaustion_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,58,0.017241379310344827,0.034482758620689655,3,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",other_Recognition_mentioned,binary,McNemar,8.0,1.0,1.125,odds_ratio,58,0.20689655172413793,0.1896551724137931,17,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",other_Recognition_mentioned,binary,McNemar,7.0,1.0,0.875,odds_ratio,58,0.1724137931034483,0.1896551724137931,15,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_Rewards_Wages_Satisfaction_mentioned,binary,McNemar,0.0,0.5,0.2,odds_ratio,58,0.0,0.034482758620689655,2,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_Sector_mentioned,binary,McNemar,0.0,1.0,0.3333333333333333,odds_ratio,54,0.0,0.018518518518518517,1,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_Useful_Training_Programs_mentioned,binary,McNemar,0.0,1.0,0.3333333333333333,odds_ratio,58,0.0,0.017241379310344827,1,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",other_Work_Live_Balance_mentioned,binary,McNemar,2.0,1.0,1.0,odds_ratio,55,0.03636363636363636,0.03636363636363636,4,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",other_Work_Live_Balance_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,55,0.01818181818181818,0.03636363636363636,3,1.0,False,False
 saudi,deepseek,Age,31+,"codes 1,2",other_Years_experience_lastorganization_mentioned,binary,McNemar,1.0,1.0,1.0,odds_ratio,15,0.06666666666666667,0.06666666666666667,2,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",rank_position_accuracy,continuous,Wilcoxon signed-rank,39.0,1.0,0.0,matched_rank_biserial_r,58,0.8678160919540229,0.8678160919540229,12,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",rank_position_accuracy,continuous,Wilcoxon signed-rank,42.0,0.799301305360269,-0.07692307692307693,matched_rank_biserial_r,58,0.8563218390804598,0.8678160919540229,13,0.9991266317003362,False,False
 saudi,deepseek,Age,31+,"codes 1,2",sign_accuracy,continuous,Wilcoxon signed-rank,1.5,1.0,0.0,matched_rank_biserial_r,58,0.9942528735632185,0.9942528735632185,2,1.0,False,False
-saudi,deepseek,Age,31+,"codes 1,2",value_accuracy,continuous,Wilcoxon signed-rank,18.5,0.3474267008880606,-0.2,matched_rank_biserial_r,58,0.9768472906403941,0.9867610837438424,10,0.8685667522201515,False,False
-saudi,deepseek,Age,31+,"codes 1,2",prop_pa_mentioned,continuous,Wilcoxon signed-rank,19.5,0.0832645166635504,0.5,matched_rank_biserial_r,58,0.15517241379310345,0.05172413793103448,12,0.416322583317752,False,False
-saudi,deepseek,Age,31+,"codes 1,2",prop_other_mentioned,continuous,Wilcoxon signed-rank,413.0,0.6252843727678845,-0.19047619047619047,matched_rank_biserial_r,58,0.047976011994003,0.05322338830584708,42,1.0,False,False
+saudi,deepseek,Age,31+,"codes 1,2",value_accuracy,continuous,Wilcoxon signed-rank,17.0,0.2663799233424825,-0.2,matched_rank_biserial_r,58,0.975,0.9867610837438424,10,0.5077475765557756,False,False
+saudi,deepseek,Age,31+,"codes 1,2",prop_pa_mentioned,continuous,Wilcoxon signed-rank,18.0,0.13166801602281422,0.45454545454545453,matched_rank_biserial_r,58,0.13793103448275862,0.05172413793103448,11,0.5077475765557756,False,False
+saudi,deepseek,Age,31+,"codes 1,2",prop_other_mentioned,continuous,Wilcoxon signed-rank,352.5,0.30464854593346535,-0.21951219512195122,matched_rank_biserial_r,58,0.04197901049475262,0.05322338830584708,41,0.5077475765557756,False,False
 saudi,deepseek,Health_Issues,no,no,rank_1_scoring,binary,McNemar,4.0,0.266845703125,2.25,odds_ratio,93,0.9247311827956989,0.8709677419354839,13,0.7035023082386364,False,False
-saudi,deepseek,Health_Issues,no,no,rank_2_scoring,binary,McNemar,4.0,0.11846923828124999,2.75,odds_ratio,93,0.8817204301075269,0.8064516129032258,15,0.4027777777777778,False,False
+saudi,deepseek,Health_Issues,no,no,rank_2_scoring,binary,McNemar,5.0,0.210113525390625,2.2,odds_ratio,93,0.8709677419354839,0.8064516129032258,16,0.6093292236328125,False,False
 saudi,deepseek,Health_Issues,no,no,rank_2_sign_scoring,binary,McNemar,0.0,1.0,0.3333333333333333,odds_ratio,93,0.989247311827957,1.0,1,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,rank_3_scoring,binary,McNemar,2.0,0.002349853515625,7.5,odds_ratio,93,0.9247311827956989,0.7849462365591398,17,0.068145751953125,True,False
+saudi,deepseek,Health_Issues,no,no,rank_3_scoring,binary,McNemar,3.0,0.007537841796875,5.0,odds_ratio,93,0.9139784946236559,0.7849462365591398,18,0.218597412109375,True,False
 saudi,deepseek,Health_Issues,no,no,rank_3_sign_scoring,binary,McNemar,0.0,1.0,3.0,odds_ratio,91,1.0,0.989010989010989,1,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,Gender_mentioned,binary,McNemar,4.0,0.049041748046875,3.25,odds_ratio,93,0.13978494623655913,0.043010752688172046,17,0.33984375,True,False
-saudi,deepseek,Health_Issues,no,no,Age_mentioned,binary,McNemar,4.0,0.049041748046875,3.25,odds_ratio,93,0.13978494623655913,0.043010752688172046,17,0.33984375,True,False
-saudi,deepseek,Health_Issues,no,no,Health_Issues_mentioned,binary,McNemar,4.0,0.049041748046875,3.25,odds_ratio,93,0.13978494623655913,0.043010752688172046,17,0.33984375,True,False
+saudi,deepseek,Health_Issues,no,no,Gender_mentioned,binary,McNemar,4.0,0.049041748046875,3.25,odds_ratio,93,0.13978494623655913,0.043010752688172046,17,0.2548828125,True,False
+saudi,deepseek,Health_Issues,no,no,Age_mentioned,binary,McNemar,4.0,0.049041748046875,3.25,odds_ratio,93,0.13978494623655913,0.043010752688172046,17,0.2548828125,True,False
+saudi,deepseek,Health_Issues,no,no,Health_Issues_mentioned,binary,McNemar,4.0,0.049041748046875,3.25,odds_ratio,93,0.13978494623655913,0.043010752688172046,17,0.2548828125,True,False
 saudi,deepseek,Health_Issues,no,no,other_Academic_degree_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,93,0.010752688172043012,0.021505376344086023,3,1.0,False,False
 saudi,deepseek,Health_Issues,no,no,other_Bonus_mentioned,binary,McNemar,2.0,1.0,0.6666666666666666,odds_ratio,93,0.03225806451612903,0.043010752688172046,5,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,other_Emotional_Commitment_mentioned,binary,McNemar,4.0,0.11846923828124999,0.36363636363636365,odds_ratio,90,0.044444444444444446,0.12222222222222222,15,0.4027777777777778,False,False
-saudi,deepseek,Health_Issues,no,no,other_Environment_Satisfaction_mentioned,binary,McNemar,1.0,0.625,3.0,odds_ratio,93,0.03225806451612903,0.010752688172043012,4,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,other_Get_Deserved_Promotion_mentioned,binary,McNemar,0.21428571428571427,0.6434288435636206,0.8260869565217391,odds_ratio,92,0.34782608695652173,0.391304347826087,42,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,other_Job_Engagement_mentioned,binary,McNemar,1.0,0.0703125,7.0,odds_ratio,87,0.08045977011494253,0.011494252873563218,8,0.33984375,False,False
+saudi,deepseek,Health_Issues,no,no,other_Emotional_Commitment_mentioned,binary,McNemar,3.0,0.057373046875,0.2727272727272727,odds_ratio,90,0.03333333333333333,0.12222222222222222,14,0.2548828125,False,False
+saudi,deepseek,Health_Issues,no,no,other_Environment_Satisfaction_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,93,0.021505376344086023,0.010752688172043012,3,1.0,False,False
+saudi,deepseek,Health_Issues,no,no,other_Get_Deserved_Promotion_mentioned,binary,McNemar,0.022727272727272728,0.8801684549067255,0.9130434782608695,odds_ratio,92,0.3695652173913043,0.391304347826087,44,1.0,False,False
+saudi,deepseek,Health_Issues,no,no,other_Job_Engagement_mentioned,binary,McNemar,1.0,0.0703125,7.0,odds_ratio,87,0.08045977011494253,0.011494252873563218,8,0.2548828125,False,False
 saudi,deepseek,Health_Issues,no,no,other_Job_Opportunities_mentioned,binary,McNemar,0.0,1.0,0.3333333333333333,odds_ratio,5,0.0,0.2,1,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,other_Job_Satisfaction_mentioned,binary,McNemar,3.0,0.14599609375,0.3333333333333333,odds_ratio,93,0.043010752688172046,0.10752688172043011,12,0.42338867187499996,False,False
-saudi,deepseek,Health_Issues,no,no,other_Job_Stability_mentioned,binary,McNemar,4.0,0.75390625,1.5,odds_ratio,92,0.07608695652173914,0.05434782608695652,10,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,other_Job_Support_mentioned,binary,McNemar,3.0,0.5078125,2.0,odds_ratio,93,0.06451612903225806,0.03225806451612903,9,1.0,False,False
+saudi,deepseek,Health_Issues,no,no,other_Job_Satisfaction_mentioned,binary,McNemar,2.0,0.03857421875,0.2,odds_ratio,93,0.021505376344086023,0.10752688172043011,12,0.2548828125,True,False
+saudi,deepseek,Health_Issues,no,no,other_Job_Stability_mentioned,binary,McNemar,5.0,1.0,1.2,odds_ratio,92,0.06521739130434782,0.05434782608695652,11,1.0,False,False
+saudi,deepseek,Health_Issues,no,no,other_Job_Support_mentioned,binary,McNemar,3.0,1.0,1.3333333333333333,odds_ratio,93,0.043010752688172046,0.03225806451612903,7,1.0,False,False
 saudi,deepseek,Health_Issues,no,no,other_MedicalInsurance_mentioned,binary,McNemar,0.0,0.5,0.2,odds_ratio,92,0.0,0.021739130434782608,2,1.0,False,False
 saudi,deepseek,Health_Issues,no,no,other_MonthlySalary_mentioned,binary,McNemar,1.0,0.625,0.3333333333333333,odds_ratio,91,0.01098901098901099,0.03296703296703297,4,1.0,False,False
 saudi,deepseek,Health_Issues,no,no,other_OverTime_mentioned,binary,McNemar,0.0,0.5,0.2,odds_ratio,93,0.0,0.021505376344086023,2,1.0,False,False
 saudi,deepseek,Health_Issues,no,no,other_Payment_Overtime_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,93,0.010752688172043012,0.0,1,1.0,False,False
 saudi,deepseek,Health_Issues,no,no,other_Psychological_Exhaustion_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,92,0.010869565217391304,0.021739130434782608,3,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,other_Recognition_mentioned,binary,McNemar,11.0,1.0,0.9166666666666666,odds_ratio,93,0.16129032258064516,0.17204301075268819,23,1.0,False,False
+saudi,deepseek,Health_Issues,no,no,other_Recognition_mentioned,binary,McNemar,9.0,0.6636238098144531,0.75,odds_ratio,93,0.13978494623655913,0.17204301075268819,21,1.0,False,False
 saudi,deepseek,Health_Issues,no,no,other_Rewards_Wages_Satisfaction_mentioned,binary,McNemar,3.0,1.0,1.3333333333333333,odds_ratio,93,0.043010752688172046,0.03225806451612903,7,1.0,False,False
 saudi,deepseek,Health_Issues,no,no,other_Sector_mentioned,binary,McNemar,0.0,0.125,0.1111111111111111,odds_ratio,80,0.0,0.05,4,0.4027777777777778,False,False
 saudi,deepseek,Health_Issues,no,no,other_Useful_Training_Programs_mentioned,binary,McNemar,0.0,1.0,0.3333333333333333,odds_ratio,93,0.0,0.010752688172043012,1,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,other_Work_Live_Balance_mentioned,binary,McNemar,2.0,1.0,1.0,odds_ratio,90,0.022222222222222223,0.022222222222222223,4,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,other_Years_experience_lastorganization_mentioned,binary,McNemar,1.0,0.0703125,7.0,odds_ratio,32,0.21875,0.03125,8,0.33984375,False,False
-saudi,deepseek,Health_Issues,no,no,rank_position_accuracy,continuous,Wilcoxon signed-rank,33.0,0.011207427652064218,0.47368421052631576,matched_rank_biserial_r,93,0.9103942652329748,0.8207885304659499,19,0.056037138260321084,True,False
+saudi,deepseek,Health_Issues,no,no,other_Work_Live_Balance_mentioned,binary,McNemar,1.0,1.0,0.5,odds_ratio,90,0.011111111111111112,0.022222222222222223,3,1.0,False,False
+saudi,deepseek,Health_Issues,no,no,other_Years_experience_lastorganization_mentioned,binary,McNemar,1.0,0.0703125,7.0,odds_ratio,32,0.21875,0.03125,8,0.2548828125,False,False
+saudi,deepseek,Health_Issues,no,no,rank_position_accuracy,continuous,Wilcoxon signed-rank,43.0,0.01868311611902275,0.4,matched_rank_biserial_r,93,0.9032258064516129,0.8207885304659499,20,0.07262255540485142,True,False
 saudi,deepseek,Health_Issues,no,no,sign_accuracy,continuous,Wilcoxon signed-rank,1.5,1.0,0.0,matched_rank_biserial_r,93,0.9964157706093189,0.9964157706093189,2,1.0,False,False
-saudi,deepseek,Health_Issues,no,no,value_accuracy,continuous,Wilcoxon signed-rank,31.0,0.5261179686617201,-0.16666666666666666,matched_rank_biserial_r,93,0.9820660522273426,0.986904761904762,12,0.6576474608271501,False,False
+saudi,deepseek,Health_Issues,no,no,value_accuracy,continuous,Wilcoxon signed-rank,28.5,0.40278369424647564,-0.16666666666666666,matched_rank_biserial_r,93,0.9809139784946236,0.986904761904762,12,0.5034796178080945,False,False
 saudi,deepseek,Health_Issues,no,no,prop_pa_mentioned,continuous,Wilcoxon signed-rank,36.0,0.02904902216194057,0.5294117647058824,matched_rank_biserial_r,93,0.13978494623655913,0.043010752688172046,17,0.07262255540485142,True,False
-saudi,deepseek,Health_Issues,no,no,prop_other_mentioned,continuous,Wilcoxon signed-rank,1168.0,0.5225031420451876,-0.07042253521126761,matched_rank_biserial_r,93,0.045815801776531086,0.05142589995324918,71,0.6576474608271501,False,False
+saudi,deepseek,Health_Issues,no,no,prop_other_mentioned,continuous,Wilcoxon signed-rank,1060.0,0.278042264292523,-0.08571428571428572,matched_rank_biserial_r,93,0.0420757363253857,0.05142589995324918,70,0.46340377382087167,False,False
 saudi,deepseek,Health_Issues,yes,yes,rank_1_scoring,binary,McNemar,0.0,1.0,0.3333333333333333,odds_ratio,13,0.9230769230769231,1.0,1,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,rank_2_scoring,binary,McNemar,1.0,1.0,0.5,odds_ratio,13,0.8461538461538461,0.9230769230769231,3,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,rank_2_sign_scoring,binary,McNemar,0.0,1.0,3.0,odds_ratio,13,1.0,0.9230769230769231,1,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,rank_3_scoring,binary,McNemar,1.0,1.0,1.0,odds_ratio,13,0.9230769230769231,0.9230769230769231,2,1.0,False,False
-saudi,deepseek,Health_Issues,yes,yes,Gender_mentioned,binary,McNemar,1.0,0.625,3.0,odds_ratio,13,0.23076923076923078,0.07692307692307693,4,1.0,False,False
-saudi,deepseek,Health_Issues,yes,yes,Age_mentioned,binary,McNemar,1.0,0.625,3.0,odds_ratio,13,0.23076923076923078,0.07692307692307693,4,1.0,False,False
-saudi,deepseek,Health_Issues,yes,yes,Health_Issues_mentioned,binary,McNemar,1.0,0.625,3.0,odds_ratio,13,0.23076923076923078,0.07692307692307693,4,1.0,False,False
-saudi,deepseek,Health_Issues,yes,yes,other_Academic_degree_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,13,0.07692307692307693,0.0,1,1.0,False,False
+saudi,deepseek,Health_Issues,yes,yes,Gender_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,13,0.15384615384615385,0.07692307692307693,3,1.0,False,False
+saudi,deepseek,Health_Issues,yes,yes,Age_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,13,0.15384615384615385,0.07692307692307693,3,1.0,False,False
+saudi,deepseek,Health_Issues,yes,yes,Health_Issues_mentioned,binary,McNemar,1.0,1.0,2.0,odds_ratio,13,0.15384615384615385,0.07692307692307693,3,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,other_Get_Deserved_Promotion_mentioned,binary,McNemar,3.0,1.0,1.3333333333333333,odds_ratio,13,0.3076923076923077,0.23076923076923078,7,1.0,False,False
-saudi,deepseek,Health_Issues,yes,yes,other_Job_Satisfaction_mentioned,binary,McNemar,0.0,0.25,7.0,odds_ratio,13,0.23076923076923078,0.0,3,1.0,False,False
+saudi,deepseek,Health_Issues,yes,yes,other_Job_Satisfaction_mentioned,binary,McNemar,0.0,0.125,9.0,odds_ratio,13,0.3076923076923077,0.0,4,0.9375,False,False
 saudi,deepseek,Health_Issues,yes,yes,other_Job_Support_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,13,0.07692307692307693,0.0,1,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,other_MedicalInsurance_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,13,0.07692307692307693,0.0,1,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,other_OverTime_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,13,0.07692307692307693,0.0,1,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,other_Physical_Stress_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,13,0.07692307692307693,0.0,1,1.0,False,False
-saudi,deepseek,Health_Issues,yes,yes,other_Recognition_mentioned,binary,McNemar,0.0,0.125,9.0,odds_ratio,13,0.3076923076923077,0.0,4,1.0,False,False
+saudi,deepseek,Health_Issues,yes,yes,other_Recognition_mentioned,binary,McNemar,0.0,0.125,9.0,odds_ratio,13,0.3076923076923077,0.0,4,0.9375,False,False
 saudi,deepseek,Health_Issues,yes,yes,other_Rewards_Wages_Satisfaction_mentioned,binary,McNemar,0.0,1.0,3.0,odds_ratio,13,0.07692307692307693,0.0,1,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,rank_position_accuracy,continuous,Wilcoxon signed-rank,2.0,1.0,-0.3333333333333333,matched_rank_biserial_r,13,0.8974358974358974,0.9487179487179487,3,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,sign_accuracy,continuous,Wilcoxon signed-rank,0.0,1.0,1.0,matched_rank_biserial_r,13,1.0,0.9743589743589743,1,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,value_accuracy,continuous,Wilcoxon signed-rank,1.5,1.0,0.0,matched_rank_biserial_r,13,0.9807692307692307,0.9807692307692307,2,1.0,False,False
-saudi,deepseek,Health_Issues,yes,yes,prop_pa_mentioned,continuous,Wilcoxon signed-rank,2.5,0.625,0.5,matched_rank_biserial_r,13,0.23076923076923078,0.07692307692307693,4,1.0,False,False
+saudi,deepseek,Health_Issues,yes,yes,prop_pa_mentioned,continuous,Wilcoxon signed-rank,2.0,1.0,0.3333333333333333,matched_rank_biserial_r,13,0.15384615384615385,0.07692307692307693,3,1.0,False,False
 saudi,deepseek,Health_Issues,yes,yes,prop_other_mentioned,continuous,Wilcoxon signed-rank,6.0,0.109375,0.25,matched_rank_biserial_r,13,0.06020066889632107,0.013377926421404682,8,0.546875,False,False
 student,grok,sex,female,female,rank_1_scoring,binary,McNemar,1.0,1.0,2.0,odds_ratio,43,0.9767441860465116,0.9534883720930233,3,1.0,False,False
 student,grok,sex,female,female,rank_1_sign_scoring,binary,McNemar,6.0,0.6072387695312499,0.6666666666666666,odds_ratio,43,0.6046511627906976,0.6744186046511628,15,1.0,False,False
