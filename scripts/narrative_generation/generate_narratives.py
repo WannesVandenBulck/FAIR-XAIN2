@@ -44,11 +44,9 @@ BATCH_RUNS_EXAMPLE = [
     ("saudi", "gemini", "gemini-3.1-pro-preview"),
 ]
 
-BATCH_RUNS = [
-    ("saudi", "openai", "gpt-4o-mini"),
-    ("saudi", "deepseek", "deepseek-v4-flash"),
-    ("saudi", "grok", "grok-4.20-0309-non-reasoning"),
-]
+##BATCH_RUNS_todo = [
+##    ("saudi", "deepseek", "deepseek-v4-flash"),
+##]
 
 # Protected attribute overrides for bias injection (set to None for no override)
 # Credit dataset: sex, age, foreign_worker

@@ -3,7 +3,7 @@
   "instance_idx": 93,
   "provider": "deepseek",
   "model": "deepseek-v4-flash",
-  "timestamp": "2026-08-26T11:21:29.352940",
+  "timestamp": "2026-08-26T11:43:32.379605",
   "status": "error",
   "narrative": null,
   "error": "Error calling deepseek API: Error calling deepseek API: Connection error.",
