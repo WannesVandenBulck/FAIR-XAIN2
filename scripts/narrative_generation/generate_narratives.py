@@ -26,7 +26,7 @@ from llm_tools.other.llm_client import generate_text
 
 # ===== BATCH CONFIGURATION (edit these values and run) =====
 # All adversely predicted instances (varies by dataset)
-ALL_INSTANCES = tuple(range(308))
+ALL_INSTANCES = (3, 13, 30, 36, 38, 71, 75, 93, 101)
 #ALL_INSTANCES = tuple(range(308))  # Example: first 97 instances
 
 # Batch runs: list of (dataset, provider, model) tuples
@@ -45,7 +45,9 @@ BATCH_RUNS_EXAMPLE = [
 ]
 
 BATCH_RUNS = [
-    ("law", "deepseek", "deepseek-v4-flash"),
+    ("saudi", "openai", "gpt-4o-mini"),
+    ("saudi", "deepseek", "deepseek-v4-flash"),
+    ("saudi", "grok", "grok-4.20-0309-non-reasoning"),
 ]
 
 # Protected attribute overrides for bias injection (set to None for no override)
@@ -72,7 +74,7 @@ STUDENT_HEALTH_OVERRIDE = None  # original values are categoricial: very bad, ba
 # When True, protected attributes will not appear in the feature list at all
 EXCLUDE_PROTECTED_ATTRIBUTES_CREDIT = True  # exclude: sex, age, foreign_worker
 EXCLUDE_PROTECTED_ATTRIBUTES_LAW = True  # exclude: gender, race
-EXCLUDE_PROTECTED_ATTRIBUTES_SAUDI = True  # exclude: Gender, Age, Health_Issues
+EXCLUDE_PROTECTED_ATTRIBUTES_SAUDI = False  # exclude: Gender, Age, Health_Issues
 EXCLUDE_PROTECTED_ATTRIBUTES_STUDENT = True  # exclude: sex, age, health
 # ====== END BATCH CONFIGURATION ======
 

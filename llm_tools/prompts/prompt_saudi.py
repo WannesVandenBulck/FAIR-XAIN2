@@ -11,7 +11,7 @@ MAX_SHAP_FEATURES = 3  # None = include all features; integer = limit to top N f
 # Protected attribute mappings for readable display in prompts
 ATTRIBUTE_VALUE_MAPPINGS = {
     'Gender': {0: 'Female', 1: 'Male'},
-    'Age': {0: '21-30', 1: '31-40', 3: '41+'},
+    'Age': {0: '21-30', 1: '31-40', 2: '41+'},
     'Health_Issues': {0: 'no', 1: 'yes'},
     'Academic_degree': {0: 'secondary school', 1: 'bachelor', 2: 'master', 3: 'PhD'},
     'Years_Experience': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
