@@ -9,7 +9,7 @@ datasets = set(sys.argv[1:]) or {"credit", "law", "saudi", "student"}
 
 def done(path):
     try:
-        d = json.load(open(path))
+        d = json.load(open(path, encoding="utf-8"))
         return d.get("status") == "success" and len((d.get("narrative") or "").strip()) >= 200
     except Exception:
         return False
