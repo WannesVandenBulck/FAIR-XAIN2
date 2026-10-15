@@ -175,6 +175,42 @@ def list_instance_ids(dataset):
     return sorted(ids)
 
 
+def discover_counterfactual_jobs(dataset):
+    """Auto-discover counterfactual_pa/<label> folders on disk (decoupled
+    from COUNTERFACTUAL_JOBS in the generation script) and recover the
+    swapped attribute/override value from any one narrative file's own
+    saved metadata, plus the exact set of instance_ids actually generated
+    for that label."""
+    base = NARRATIVES_DIR / dataset / "counterfactual_pa"
+    if not base.exists():
+        return []
+
+    jobs = []
+    for label_dir in sorted(d for d in base.iterdir() if d.is_dir()):
+        label = label_dir.name
+        sample = None
+        instance_ids = set()
+        for provider_dir in label_dir.iterdir():
+            if not provider_dir.is_dir():
+                continue
+            for model_dir in provider_dir.iterdir():
+                if not model_dir.is_dir():
+                    continue
+                for f in model_dir.glob("instance_*.json"):
+                    instance_ids.add(int(f.stem.split("_")[1]))
+                    if sample is None:
+                        sample = load_json(f)
+        if sample is None:
+            continue
+        jobs.append({
+            "label": label,
+            "attr": sample["attr_column"],
+            "override_value": sample["override_value"],
+            "instance_ids": sorted(instance_ids),
+        })
+    return jobs
+
+
 _model_dir_cache = {}
 
 
@@ -216,7 +252,17 @@ def load_narrative_text(dataset, condition_dir, provider, instance_id):
 # PER-ROW COMPUTATION
 # ============================================================================
 
-def build_row(dataset, provider, condition_dir, instance_id, pa_names, other_features):
+def build_row(dataset, provider, condition_dir, instance_id, pa_names, other_features, cf_override=None):
+    """cf_override (counterfactual_pa rows only): dict with 'label', 'attr',
+    'override_value' -- the protected attribute SHOWN to the LLM differs
+    from the instance's real ground truth for exactly that one attribute.
+    gt_lookup[attr] is overridden to the shown value BEFORE computing any
+    scoring below, so every downstream use (that attribute's own PA_GT /
+    PA_scoring, and rank_N scoring if that attribute happens to also be a
+    top-SHAP feature) is scored against what was actually shown in the
+    prompt, not the applicant's real value -- consistent with how scoring
+    already works for pa_included/pa_excluded (GT there IS what was shown).
+    """
     gt = load_json(GT_DIR / dataset / f"instance_{instance_id}.json")
     ext_path = (EXTRACTIONS_DIR / dataset / condition_dir / provider / EXTRACTOR /
                 f"instance_{instance_id}.json")
@@ -225,19 +271,26 @@ def build_row(dataset, provider, condition_dir, instance_id, pa_names, other_fea
     row = {
         "dataset": dataset,
         "provider": provider,
-        "condition": CONDITIONS[condition_dir],
+        "condition": "counterfactual_pa" if cf_override else CONDITIONS[condition_dir],
         "instance_id": instance_id,
+        "cf_label": cf_override["label"] if cf_override else np.nan,
+        "cf_attr": cf_override["attr"] if cf_override else np.nan,
+        "cf_override_value": cf_override["override_value"] if cf_override else np.nan,
     }
 
     if gt is None:
         raise FileNotFoundError(f"Missing ground truth: dataset={dataset} instance={instance_id}")
 
     gt_lookup = build_name_lookup(gt)
+    if cf_override:
+        gt_lookup = dict(gt_lookup)
+        gt_lookup[cf_override["attr"]] = cf_override["override_value"]
     gt_by_rank = {f["rank"]: f for f in gt.get("most_important_features", [])}
     gt_top3_names = {f["name"] for f in gt.get("most_important_features", [])}
 
-    # <pa_name>_GT columns: the applicant's true value for this attribute,
-    # confirmed identical between the ground-truth JSON and <dataset>_adverse.csv.
+    # <pa_name>_GT columns: the value shown to the LLM for this attribute
+    # (== applicant's true value, except for cf_override's own attribute
+    # under counterfactual_pa, where it's the swapped-to value instead).
     for pa in pa_names:
         row[f"{pa}_GT"] = gt_lookup.get(pa) if gt_lookup.get(pa) is not None else np.nan
 
@@ -405,7 +458,8 @@ def build_row(dataset, provider, condition_dir, instance_id, pa_names, other_fea
 # ============================================================================
 
 def build_column_order(pa_names, other_features):
-    cols = ["dataset", "provider", "condition", "instance_id"]
+    cols = ["dataset", "provider", "condition", "instance_id",
+            "cf_label", "cf_attr", "cf_override_value"]
     cols += [f"{pa}_GT" for pa in pa_names]
     cols += ["predicted_probability_GT", "predicted_probability_extracted",
              "predicted_probability_scoring"]
@@ -448,6 +502,20 @@ def main():
                 for instance_id in instance_ids:
                     row = build_row(dataset, provider, condition_dir, instance_id,
                                      pa_names, other_features)
+                    rows.append(row)
+
+        cf_jobs = discover_counterfactual_jobs(dataset)
+        if cf_jobs:
+            print(f"  {len(cf_jobs)} counterfactual_pa jobs found: "
+                  f"{[j['label'] for j in cf_jobs]}")
+        for job in cf_jobs:
+            condition_dir = f"counterfactual_pa/{job['label']}"
+            cf_override = {"label": job["label"], "attr": job["attr"],
+                            "override_value": job["override_value"]}
+            for provider in NARRATIVE_PROVIDERS:
+                for instance_id in job["instance_ids"]:
+                    row = build_row(dataset, provider, condition_dir, instance_id,
+                                     pa_names, other_features, cf_override=cf_override)
                     rows.append(row)
 
         col_order = build_column_order(pa_names, other_features)

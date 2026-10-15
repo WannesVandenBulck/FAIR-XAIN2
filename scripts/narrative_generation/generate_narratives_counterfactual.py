@@ -63,7 +63,7 @@ DATASETS = {
 PROVIDERS_TO_RUN = [
     ("openai", "gpt-4o-mini"),
     ("grok", "grok-4.20-0309-non-reasoning"),
-    # ("deepseek", "deepseek-v4-flash"),  # re-add once API connection issue is resolved
+    ("deepseek", "deepseek-v4-flash"),
 ]
 
 # Each job = one (dataset, attribute, swap-direction) counterfactual.
@@ -282,13 +282,19 @@ def apply_correct_swap(original_prompt, attr_column, new_raw_value, prompt_modul
 
 
 def generate_counterfactual_narrative(dataset_name, instance_idx, attr_column,
-                                       override_value, provider="openai", model=None):
+                                       override_value, label, provider="openai", model=None):
     """
     Generate a counterfactual SHAP narrative: same as generate_narrative()
     in generate_narratives.py, but builds the prompt with NO override
     applied via build_shap_prompt(), then performs the PA substitution
     itself via apply_correct_swap() to avoid the override-mapping bug.
+
+    Exactly ONE protected attribute (attr_column) is swapped per call; every
+    other attribute in the prompt keeps its original value. `label` is the
+    COUNTERFACTUAL_JOBS job label (e.g. "age_below_to_old") and is carried
+    through to the saved result so the swap direction is unambiguous later.
     """
+    prompt_module = DATASETS[dataset_name]
     result = {
         "dataset": dataset_name,
         "instance_idx": instance_idx,
@@ -298,14 +304,15 @@ def generate_counterfactual_narrative(dataset_name, instance_idx, attr_column,
         "status": "pending",
         "narrative": None,
         "error": None,
+        "prompt": None,
+        "label": label,
         "attr_column": attr_column,
         "override_value": override_value,
+        "target_value_label": prompt_module.map_attribute_value(attr_column, override_value),
         "exclude_protected_attributes": False,
     }
 
     try:
-        prompt_module = DATASETS[dataset_name]
-
         # Build the ORIGINAL prompt with NO override -- this uses the
         # existing, unmodified, already-correct code path.
         original_prompt = prompt_module.build_shap_prompt(
@@ -314,6 +321,10 @@ def generate_counterfactual_narrative(dataset_name, instance_idx, attr_column,
 
         # Apply our own correct substitution for the swapped attribute.
         full_prompt = apply_correct_swap(original_prompt, attr_column, override_value, prompt_module)
+
+        # Persisted verbatim below so the exact text sent to the LLM is
+        # auditable later without having to re-derive it.
+        result["prompt"] = full_prompt
 
         messages = [
             {
@@ -342,16 +353,17 @@ def generate_counterfactual_narrative(dataset_name, instance_idx, attr_column,
 
 
 def save_result(result, output_dir):
-    """Save result to JSON file, using a condition folder that labels
-    exactly which attribute was swapped to which value."""
+    """Save result to JSON file, using a condition folder named after the
+    job label (e.g. "counterfactual_pa/age_below_to_old") so the swapped
+    attribute AND direction are both unambiguous from the path alone, not
+    just from the raw target value."""
     dataset = result["dataset"]
     instance = result["instance_idx"]
     provider = result["provider"]
     model = result["model"]
-    attr_column = result["attr_column"]
-    override_value = result["override_value"]
+    label = result["label"]
 
-    condition = f"counterfactual_pa/{attr_column}_{str(override_value).lower()}"
+    condition = f"counterfactual_pa/{label}"
 
     result_dir = Path(output_dir) / dataset / condition / provider / model
     result_dir.mkdir(parents=True, exist_ok=True)
@@ -363,18 +375,32 @@ def save_result(result, output_dir):
     return filepath
 
 
-def run_batch_generation(output_dir="results/narratives"):
+def run_batch_generation(output_dir="results/narratives", datasets_filter=None):
+    """Run all (or a subset of) COUNTERFACTUAL_JOBS x PROVIDERS_TO_RUN.
+
+    datasets_filter: optional iterable of dataset names (e.g. ["credit"]) to
+    restrict the run to -- lets you generate everything for one dataset in
+    a single call. None (default) runs every dataset's jobs at once.
+    """
     start_time = datetime.now()
+    jobs = COUNTERFACTUAL_JOBS
+    if datasets_filter:
+        jobs = [j for j in COUNTERFACTUAL_JOBS if j["dataset"] in datasets_filter]
+        if not jobs:
+            print(f"No counterfactual jobs found for dataset(s): {sorted(datasets_filter)}")
+            return 1
+
     job_provider_pairs = [
         (job, provider, model)
-        for job in COUNTERFACTUAL_JOBS
+        for job in jobs
         for (provider, model) in PROVIDERS_TO_RUN
     ]
     total_narratives = sum(len(job["instances"]) for job, _, _ in job_provider_pairs)
 
     print("=" * 80)
     print(f"GENERATING COUNTERFACTUAL NARRATIVES - BATCH MODE")
-    print(f"Total: {total_narratives} narratives ({len(COUNTERFACTUAL_JOBS)} jobs x {len(PROVIDERS_TO_RUN)} providers)")
+    print(f"Datasets: {sorted(set(j['dataset'] for j in jobs))}")
+    print(f"Total: {total_narratives} narratives ({len(jobs)} jobs x {len(PROVIDERS_TO_RUN)} providers)")
     print("=" * 80)
     print()
 
@@ -399,20 +425,20 @@ def run_batch_generation(output_dir="results/narratives"):
             print(f"  Processing instance {instance_idx}...", end=" ")
             try:
                 result = generate_counterfactual_narrative(
-                    dataset, instance_idx, attr_column, override_value,
+                    dataset, instance_idx, attr_column, override_value, label,
                     provider=provider, model=model
                 )
                 all_results.append(result)
                 filepath = save_result(result, output_dir)
 
                 if result["status"] == "success":
-                    print("\u2713")
+                    print("OK")
                     completed += 1
                 else:
-                    print(f"\u2717 Error: {result['error']}")
+                    print(f"FAIL Error: {result['error']}")
                     failed += 1
             except Exception as e:
-                print(f"\u2717 Exception: {str(e)}")
+                print(f"FAIL Exception: {str(e)}")
                 failed += 1
                 all_results.append({
                     "dataset": dataset,
@@ -440,4 +466,9 @@ def run_batch_generation(output_dir="results/narratives"):
 
 
 if __name__ == "__main__":
-    sys.exit(run_batch_generation())
+    # Optional CLI args restrict the run to specific datasets, e.g.:
+    #   python scripts/narrative_generation/generate_narratives_counterfactual.py credit
+    #   python scripts/narrative_generation/generate_narratives_counterfactual.py credit saudi
+    # No args runs every dataset's jobs in one go.
+    cli_datasets = set(sys.argv[1:]) or None
+    sys.exit(run_batch_generation(datasets_filter=cli_datasets))

@@ -1,0 +1,356 @@
+#!/usr/bin/env python
+"""
+RQ4 — Direct Disparity
+========================
+For a FIXED instance (same applicant, same SHAP feature values -- nothing
+about the case changes except one protected attribute), does changing WHICH
+value of the PA is shown change a metric? This isolates "the effect of the
+PA label itself" (Fairness_Methodology_XAI_Narratives.pdf, Section 2):
+comparing (c) counterfactual-PA-disclosed with (a) factual-PA-disclosed,
+ACROSS different PA values for the SAME instance.
+
+Concretely: for a counterfactual job (e.g. credit "sex_female_to_male" --
+originally-female instances shown as male), each instance's counterfactual
+narrative is paired against that SAME instance's own pa_included (factual)
+narrative, same provider. The applicant's feature vector, SHAP values, and
+every other protected attribute are identical in both narratives; only the
+one swapped PA's displayed value differs (the instance's real value in the
+factual narrative vs. the job's override value in the counterfactual one).
+This is therefore a matched-pairs comparison, same statistical structure as
+RQ3 (disclosure disparity), just pairing a different pair of conditions.
+
+This is DIFFERENT from "value disparity" (compares counterfactual narratives
+against a DIFFERENT set of instances who actually have that PA value --
+independent samples, isolating feature-value effects with the PA held
+constant instead of the reverse). See provider_disparity.py's module
+docstring and conversation history for why that comparison is not
+implemented here.
+
+PREREQUISITE
+------------
+results/fairness_eval/per_narrative_metrics_<dataset>.csv must contain rows
+with condition == "counterfactual_pa" (cf_label/cf_attr/cf_override_value
+populated). These are only produced once BOTH of the following have been
+run for the dataset's counterfactual_pa narratives:
+  1. scripts/extractions/extraction.py, with
+     NARRATIVE_CONDITION = "counterfactual_pa/<label>" (once per label)
+  2. scripts/fairness_eval/generate_per_narrative_metrics.py (regenerated;
+     it auto-discovers counterfactual_pa/<label> folders on disk)
+A dataset with no counterfactual_pa rows yet is skipped with a printed
+warning, not treated as an error.
+
+METRICS
+-------
+Identical set to RQ1/RQ3 (see discover_metrics()/add_derived_columns()).
+Note the <PA>_scoring/_mentioned metric for the SWAPPED attribute itself
+means something consistent across both sides of the pair: "did the
+narrative correctly report the value actually shown to it" -- which is the
+real GT value on the factual side and the override value on the
+counterfactual side (see generate_per_narrative_metrics.py's cf_override
+handling). All OTHER metrics (SHAP ranks, other PAs, other features) are
+scored against the applicant's real, unchanged values on both sides.
+
+STATISTICAL TESTS (matched pairs, identical methodology to RQ3)
+-------------------------------------------------------------------
+binary metric      -> McNemar's test
+continuous metric   -> Wilcoxon signed-rank test
+Only complete pairs (metric present under both conditions for that
+instance) are used. Minimum MIN_GROUP_N=5 complete pairs required.
+Effect sizes: McNemar odds ratio (binary), matched rank-biserial
+correlation (continuous) -- same definitions as RQ3.
+
+MULTIPLE-COMPARISON CORRECTION
+--------------------------------
+Benjamini-Hochberg FDR, applied WITHIN each
+(dataset, provider, cf_label, metric_type) batch -- i.e. separately per
+counterfactual job (one specific attribute + swap direction) and
+separately for binary vs. continuous metrics within that job, following
+the same per-sub-question granularity principle as RQ1/RQ2/RQ3.
+
+OUTPUT
+------
+results/fairness_eval/rq4_direct_disparity_aggregated.csv
+    One row per dataset x provider x cf_label x condition x metric, with
+    n_pairs and mean/proportion.
+results/fairness_eval/rq4_direct_disparity_tests.csv
+    One row per dataset x provider x cf_label x metric, with the paired
+    test used, n_pairs, statistic, raw and FDR-corrected p-values,
+    significance flags, and effect size.
+"""
+
+import warnings
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+from scipy import stats
+from statsmodels.stats.contingency_tables import mcnemar
+from statsmodels.stats.multitest import multipletests
+
+warnings.filterwarnings("ignore")
+
+# ============================================================================
+# CONFIGURATION
+# ============================================================================
+
+ROOT = Path(__file__).parent.parent.parent
+FAIRNESS_EVAL_DIR = ROOT / "results" / "fairness_eval"
+
+DATASETS = ["credit", "saudi", "student", "law"]
+PROVIDERS = ["grok", "openai", "deepseek"]
+MIN_GROUP_N = 5
+ALPHA = 0.05
+
+PROTECTED_ATTRS = {
+    "credit": ["age", "sex", "foreign_worker"],
+    "saudi": ["Gender", "Age", "Health_Issues"],
+    "student": ["sex", "age", "health"],
+    "law": ["gender", "race"],
+}
+
+OUTPUT_AGGREGATED = FAIRNESS_EVAL_DIR / "rq4_direct_disparity_aggregated.csv"
+OUTPUT_TESTS = FAIRNESS_EVAL_DIR / "rq4_direct_disparity_tests.csv"
+
+
+# ============================================================================
+# METRIC DISCOVERY (identical to RQ1/RQ3, reused verbatim)
+# ============================================================================
+
+def discover_metrics(df, pa_names):
+    metrics = {}
+    for n in (1, 2, 3):
+        metrics[f"rank_{n}_scoring"] = "binary"
+        metrics[f"rank_{n}_sign_scoring"] = "binary"
+        metrics[f"rank_{n}_value_scoring"] = "binary"
+        metrics[f"rank_{n}_mentioned"] = "binary"
+    metrics["predicted_probability_scoring"] = "binary"
+
+    for pa in pa_names:
+        metrics[f"{pa}_scoring"] = "binary"
+        metrics[f"{pa}_mentioned"] = "binary"
+
+    other_cols = [c for c in df.columns if c.startswith("other_") and c.endswith("_mentioned")]
+    for c in other_cols:
+        feat = c[len("other_"):-len("_mentioned")]
+        metrics[f"other_{feat}_mentioned"] = "binary"
+        metrics[f"other_{feat}_value_scoring"] = "binary"
+
+    metrics["rank_position_accuracy"] = "continuous"
+    metrics["sign_accuracy"] = "continuous"
+    metrics["value_accuracy"] = "continuous"
+    metrics["prop_pa_mentioned"] = "continuous"
+    metrics["prop_other_mentioned"] = "continuous"
+
+    return metrics
+
+
+def add_derived_columns(df, pa_names):
+    df = df.copy()
+
+    for n in (1, 2, 3):
+        df[f"rank_{n}_mentioned"] = (
+            (df[f"rank_{n}_value_mentioned"] == 1) | df[f"rank_{n}_sign_extracted"].notna()
+        ).astype(float)
+        both_nan = df[f"rank_{n}_value_mentioned"].isna() & df[f"rank_{n}_sign_extracted"].isna()
+        df.loc[both_nan, f"rank_{n}_mentioned"] = np.nan
+
+    rank_scoring_cols = [f"rank_{n}_scoring" for n in (1, 2, 3)]
+    rank_sign_cols = [f"rank_{n}_sign_scoring" for n in (1, 2, 3)]
+    value_scoring_cols = (
+        [f"rank_{n}_value_scoring" for n in (1, 2, 3)]
+        + [f"{pa}_scoring" for pa in pa_names]
+        + [c for c in df.columns if c.startswith("other_") and c.endswith("_value_scoring")]
+    )
+    pa_mentioned_cols = [f"{pa}_mentioned" for pa in pa_names]
+    other_mentioned_cols = [c for c in df.columns
+                             if c.startswith("other_") and c.endswith("_mentioned")]
+
+    df["rank_position_accuracy"] = df[rank_scoring_cols].mean(axis=1, skipna=True)
+    df["sign_accuracy"] = df[rank_sign_cols].mean(axis=1, skipna=True)
+    df["value_accuracy"] = df[value_scoring_cols].mean(axis=1, skipna=True)
+    df["prop_pa_mentioned"] = df[pa_mentioned_cols].mean(axis=1, skipna=True)
+    df["prop_other_mentioned"] = df[other_mentioned_cols].mean(axis=1, skipna=True)
+
+    return df
+
+
+# ============================================================================
+# PAIRED STATISTICAL TESTS (identical methodology to RQ3, reused verbatim)
+# ============================================================================
+
+def mcnemar_odds_ratio(b, c):
+    """McNemar odds ratio from the two discordant-pair counts, with
+    Haldane-Anscombe correction when either is zero."""
+    if b == 0 or c == 0:
+        b, c = b + 0.5, c + 0.5
+    return b / c
+
+
+def test_binary_paired(vals_cf, vals_factual):
+    """McNemar's test on matched pairs (counterfactual vs. factual, same
+    instance). Inputs must already be aligned (same instance order) and
+    NaN-free."""
+    n = len(vals_cf)
+    if n < MIN_GROUP_N:
+        return None
+
+    table = np.zeros((2, 2))
+    for a, b in zip(vals_cf, vals_factual):
+        table[int(a), int(b)] += 1
+    # table[1,0] = cf=1,factual=0 ; table[0,1] = cf=0,factual=1
+    b_disc, c_disc = table[1, 0], table[0, 1]
+    if b_disc + c_disc == 0:
+        return None  # no discordant pairs at all, nothing to test
+
+    result = mcnemar(table, exact=(b_disc + c_disc < 25), correction=True)
+    eff = mcnemar_odds_ratio(b_disc, c_disc)
+    return dict(test="McNemar", statistic=result.statistic, p_value=result.pvalue,
+                effect_size=eff, effect_size_type="odds_ratio",
+                n_pairs=n, mean_counterfactual=np.mean(vals_cf),
+                mean_factual=np.mean(vals_factual),
+                n_discordant=int(b_disc + c_disc))
+
+
+def test_continuous_paired(vals_cf, vals_factual):
+    """Wilcoxon signed-rank test on matched pairs."""
+    n = len(vals_cf)
+    if n < MIN_GROUP_N:
+        return None
+
+    diffs = vals_cf - vals_factual
+    nonzero = diffs[diffs != 0]
+    if len(nonzero) == 0:
+        return None  # every pair identical, nothing to test
+
+    try:
+        stat, p = stats.wilcoxon(vals_cf, vals_factual, zero_method="wilcox")
+    except ValueError:
+        return None
+
+    n_pos = (nonzero > 0).sum()
+    n_neg = (nonzero < 0).sum()
+    eff = (n_pos - n_neg) / (n_pos + n_neg)
+    return dict(test="Wilcoxon signed-rank", statistic=stat, p_value=p,
+                effect_size=eff, effect_size_type="matched_rank_biserial_r",
+                n_pairs=n, mean_counterfactual=np.mean(vals_cf),
+                mean_factual=np.mean(vals_factual),
+                n_discordant=int(len(nonzero)))
+
+
+# ============================================================================
+# CORRECTION
+# ============================================================================
+
+def apply_correction(df):
+    if df.empty:
+        return df
+    df = df.copy()
+    df["p_value_fdr"] = np.nan
+    for _, idx in df.groupby(
+            ["dataset", "provider", "cf_label", "metric_type"]).groups.items():
+        pvals = df.loc[idx, "p_value"].values
+        valid = ~np.isnan(pvals)
+        if valid.sum() == 0:
+            continue
+        _, fdr, _, _ = multipletests(pvals[valid], alpha=ALPHA, method="fdr_bh")
+        valid_idx = np.array(idx)[valid]
+        df.loc[valid_idx, "p_value_fdr"] = fdr
+    df["significant_raw"] = df["p_value"] < ALPHA
+    df["significant_fdr"] = df["p_value_fdr"] < ALPHA
+    return df
+
+
+# ============================================================================
+# MAIN
+# ============================================================================
+
+def main():
+    aggregated_rows = []
+    test_rows = []
+
+    for dataset in DATASETS:
+        print(f"\n{'=' * 80}\n{dataset.upper()}\n{'=' * 80}")
+        path = FAIRNESS_EVAL_DIR / f"per_narrative_metrics_{dataset}.csv"
+        df = pd.read_csv(path)
+
+        if "cf_label" not in df.columns or df["cf_label"].notna().sum() == 0:
+            print(f"  No counterfactual_pa rows found (cf_label all empty) -- "
+                  f"skipping. Run extraction.py + generate_per_narrative_metrics.py "
+                  f"on this dataset's counterfactual_pa narratives first.")
+            continue
+
+        pa_names = PROTECTED_ATTRS[dataset]
+        df = add_derived_columns(df, pa_names)
+        metrics = discover_metrics(df, pa_names)
+
+        cf_labels = sorted(df.loc[df["condition"] == "counterfactual_pa", "cf_label"].dropna().unique())
+        print(f"  {len(df)} narratives, {len(metrics)} metrics, "
+              f"counterfactual jobs found: {cf_labels}")
+
+        for provider in PROVIDERS:
+            psub = df[df["provider"] == provider]
+            factual = psub[psub["condition"] == "pa_included"].set_index("instance_id")
+
+            for cf_label in cf_labels:
+                cf_sub = psub[(psub["condition"] == "counterfactual_pa") &
+                               (psub["cf_label"] == cf_label)]
+                if cf_sub.empty:
+                    continue
+                attr = cf_sub["cf_attr"].iloc[0]
+                override_value = cf_sub["cf_override_value"].iloc[0]
+                cf_indexed = cf_sub.set_index("instance_id")
+
+                for metric, kind in metrics.items():
+                    if metric not in factual.columns or metric not in cf_indexed.columns:
+                        continue
+                    pair = pd.DataFrame({
+                        "cf": cf_indexed[metric],
+                        "factual": factual[metric],
+                    }).dropna()
+                    if pair.empty:
+                        continue
+                    vals_cf = pair["cf"].to_numpy(dtype=float)
+                    vals_factual = pair["factual"].to_numpy(dtype=float)
+
+                    # aggregated data (always recorded)
+                    for cond_label, vals in [("counterfactual", vals_cf), ("factual", vals_factual)]:
+                        aggregated_rows.append(dict(
+                            dataset=dataset, provider=provider, cf_label=cf_label,
+                            attribute=attr, override_value=override_value,
+                            condition=cond_label, metric=metric, metric_type=kind,
+                            n_pairs=len(vals),
+                            mean_or_proportion=np.mean(vals) if len(vals) else np.nan,
+                        ))
+
+                    if kind == "binary":
+                        result = test_binary_paired(vals_cf, vals_factual)
+                    else:
+                        result = test_continuous_paired(vals_cf, vals_factual)
+
+                    if result is None:
+                        continue
+
+                    test_rows.append(dict(
+                        dataset=dataset, provider=provider, cf_label=cf_label,
+                        attribute=attr, override_value=override_value,
+                        metric=metric, metric_type=kind,
+                        **result,
+                    ))
+
+    agg_df = pd.DataFrame(aggregated_rows)
+    test_df = pd.DataFrame(test_rows)
+    test_df = apply_correction(test_df)
+
+    FAIRNESS_EVAL_DIR.mkdir(parents=True, exist_ok=True)
+    agg_df.to_csv(OUTPUT_AGGREGATED, index=False, encoding="utf-8")
+    test_df.to_csv(OUTPUT_TESTS, index=False, encoding="utf-8")
+
+    print(f"\nAggregated data: {len(agg_df)} rows -> {OUTPUT_AGGREGATED.relative_to(ROOT)}")
+    print(f"Test results: {len(test_df)} rows -> {OUTPUT_TESTS.relative_to(ROOT)}")
+    if not test_df.empty:
+        print(f"  raw p<0.05: {test_df['significant_raw'].sum()}")
+        print(f"  FDR-sig:    {test_df['significant_fdr'].sum()}")
+
+
+if __name__ == "__main__":
+    main()

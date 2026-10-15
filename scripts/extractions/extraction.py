@@ -224,14 +224,14 @@ def run_extraction(dataset_name, instance_indices, condition=None):
                 if success:
                     results[key]["success"] += 1
                     total_success += 1
-                    print("✅")
+                    print("OK")
                     sys.stdout.flush()
                 else:
                     results[key]["failed"] += 1
                     results[key]["errors"].append(f"Instance {instance_idx}: {error}")
                     total_failed += 1
                     # Print error immediately so user can see what's failing
-                    print(f"❌ {error}")
+                    print(f"FAIL {error}")
                     sys.stdout.flush()
     
     # Summary
@@ -241,8 +241,8 @@ def run_extraction(dataset_name, instance_indices, condition=None):
     print("\n" + "=" * 100)
     print(f"EXTRACTION COMPLETE")
     print(f"Total: {total_success + total_failed} extractions")
-    print(f"  ✅ Successful: {total_success} ({100*total_success//total if total > 0 else 0}%)")
-    print(f"  ❌ Failed: {total_failed} ({100*total_failed//total if total > 0 else 0}%)")
+    print(f"  OK Successful: {total_success} ({100*total_success//total if total > 0 else 0}%)")
+    print(f"  FAIL Failed: {total_failed} ({100*total_failed//total if total > 0 else 0}%)")
     print(f"Time: {int(elapsed.total_seconds()//60)}m {int(elapsed.total_seconds()%60)}s")
     print("=" * 100)
     
@@ -265,6 +265,64 @@ def run_extraction(dataset_name, instance_indices, condition=None):
     return dict(results)
 
 
+
+
+def discover_counterfactual_jobs(dataset_name):
+    """Scan results/narratives/<dataset>/counterfactual_pa/ on disk for every
+    <label> folder that has generated narratives, returning each label's
+    exact set of instance_ids (pooled across whichever provider/model
+    folders exist, since all providers share the same instance set for a
+    given job). Decoupled from the generation script's job list so this
+    works regardless of which labels/providers have been generated so far.
+    """
+    base = Path("results/narratives") / dataset_name / "counterfactual_pa"
+    jobs = []
+    if not base.exists():
+        return jobs
+    for label_dir in sorted(d for d in base.iterdir() if d.is_dir()):
+        instance_ids = set()
+        for provider_dir in label_dir.iterdir():
+            if not provider_dir.is_dir():
+                continue
+            for model_dir in provider_dir.iterdir():
+                if not model_dir.is_dir():
+                    continue
+                for f in model_dir.glob("instance_*.json"):
+                    instance_ids.add(int(f.stem.split("_")[1]))
+        if instance_ids:
+            jobs.append({"label": label_dir.name, "instance_ids": sorted(instance_ids)})
+    return jobs
+
+
+def run_all_counterfactual_extractions():
+    """Batch mode: extract every counterfactual_pa/<label> narrative across
+    all 4 datasets, using every narrative provider (openai/grok/deepseek)
+    and the fixed 'grok' extractor -- same convention as include_pa/
+    exclude_pa. Labels and instance sets are discovered straight from disk,
+    so no manual per-job configuration is needed; datasets/labels with no
+    counterfactual_pa narratives yet are skipped with a printed notice.
+    """
+    global NARRATIVE_PROVIDERS_TO_USE, EXTRACTOR_PROVIDERS_TO_USE
+    NARRATIVE_PROVIDERS_TO_USE = ["openai", "grok", "deepseek"]
+    EXTRACTOR_PROVIDERS_TO_USE = ["grok"]
+
+    overall_start = datetime.now()
+    for dataset_name in DATASETS:
+        jobs = discover_counterfactual_jobs(dataset_name)
+        if not jobs:
+            print(f"[{dataset_name}] no counterfactual_pa narratives found yet -- skipping")
+            continue
+        print(f"\n{'=' * 100}\n{dataset_name.upper()}: {len(jobs)} counterfactual jobs found "
+              f"({[j['label'] for j in jobs]})\n{'=' * 100}")
+        for job in jobs:
+            condition = f"counterfactual_pa/{job['label']}"
+            print(f"\n--- {dataset_name}/{condition} ({len(job['instance_ids'])} instances) ---")
+            run_extraction(dataset_name, job["instance_ids"], condition=condition)
+
+    elapsed = datetime.now() - overall_start
+    print(f"\n{'=' * 100}\nALL COUNTERFACTUAL EXTRACTIONS COMPLETE\n"
+          f"Total time: {int(elapsed.total_seconds() // 60)}m {int(elapsed.total_seconds() % 60)}s\n"
+          f"{'=' * 100}")
 
 
 def main():
@@ -335,7 +393,7 @@ def main():
         # Run extraction for this dataset
         run_extraction(dataset_name, indices, condition=NARRATIVE_CONDITION)
         
-        print(f"✅ Completed {dataset_name.upper()}")
+        print(f"OK Completed {dataset_name.upper()}")
     
     # Final summary
     overall_elapsed = datetime.now() - overall_start
@@ -347,4 +405,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # python scripts/extractions/extraction.py --counterfactual
+    #   -> batch-extract every counterfactual_pa/<label> narrative, all datasets
+    # python scripts/extractions/extraction.py
+    #   -> single run using the manual CONFIGURATION block above
+    if "--counterfactual" in sys.argv:
+        run_all_counterfactual_extractions()
+    else:
+        main()
