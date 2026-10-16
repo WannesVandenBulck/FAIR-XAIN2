@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "Fjob",
       "sign": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "rank": 3,
@@ -60,7 +60,7 @@
     {
       "name": "Fjob",
       "mentioned": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "name": "reason",

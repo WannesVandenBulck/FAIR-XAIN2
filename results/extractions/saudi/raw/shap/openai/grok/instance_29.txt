@@ -104,18 +104,18 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Job_Engagement",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Distance_to_work",
@@ -140,7 +140,7 @@
     {
       "name": "Job_Stability",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",

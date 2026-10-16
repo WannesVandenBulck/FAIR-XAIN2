@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "studytime",
+      "name": "higher",
       "sign": 1,
-      "value": 2
+      "value": 0
     },
     {
       "rank": 3,
-      "name": "Medu",
+      "name": "reason",
       "sign": 1,
-      "value": 2
+      "value": 3
     }
   ],
   "features": [
@@ -34,7 +34,7 @@
     },
     {
       "name": "famsize",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Fedu",
@@ -64,8 +64,8 @@
     },
     {
       "name": "reason",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "guardian",
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",

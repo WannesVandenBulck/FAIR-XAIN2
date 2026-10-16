@@ -54,7 +54,7 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "name": "housing",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "number_credits",

@@ -17,8 +17,8 @@
     {
       "rank": 3,
       "name": "freetime",
-      "sign": 1,
-      "value": 1
+      "sign": -1,
+      "value": 2
     }
   ],
   "features": [
@@ -54,12 +54,12 @@
     },
     {
       "name": "Mjob",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Fjob",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -74,13 +74,13 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -89,7 +89,7 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -125,11 +125,11 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "goout",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

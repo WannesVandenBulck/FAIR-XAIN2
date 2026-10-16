@@ -17,15 +17,15 @@
     {
       "rank": 3,
       "name": "status",
-      "sign": -1,
-      "value": 3
+      "sign": 1,
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "status",
       "mentioned": 1,
-      "value": 3
+      "value": "NaN"
     },
     {
       "name": "duration",

@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 2,
       "name": "amount",
       "sign": -1,
       "value": 2712
     },
     {
+      "rank": 2,
+      "name": "status",
+      "sign": 1,
+      "value": 1
+    },
+    {
       "rank": 3,
       "name": "installment_rate",
-      "sign": -1,
-      "value": 2
+      "sign": 1,
+      "value": "NaN"
     }
   ],
   "features": [
@@ -60,7 +60,7 @@
     {
       "name": "installment_rate",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "other_debtors",

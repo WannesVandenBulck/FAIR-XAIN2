@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "decile3",
       "sign": 1,
-      "value": 1
+      "value": 1.0
     },
     {
       "rank": 3,
@@ -25,16 +25,16 @@
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": 1
+      "value": 1.0
     },
     {
       "name": "lsat",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 26
     },
     {
       "name": "decile1",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

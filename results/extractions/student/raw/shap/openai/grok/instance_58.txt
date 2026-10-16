@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "famsize",
-      "sign": 1,
+      "name": "failures",
+      "sign": -1,
       "value": 0
     },
     {
       "rank": 3,
-      "name": "Medu",
+      "name": "nursery",
       "sign": 1,
-      "value": 2
+      "value": 0
     }
   ],
   "features": [
@@ -34,8 +34,8 @@
     },
     {
       "name": "famsize",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Pstatus",
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Fedu",
@@ -84,8 +84,8 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsup",
@@ -94,8 +94,8 @@
     },
     {
       "name": "paid",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "activities",
@@ -104,8 +104,8 @@
     },
     {
       "name": "nursery",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "internet",

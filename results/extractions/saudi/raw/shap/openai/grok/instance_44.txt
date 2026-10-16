@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
+      "name": "Job_Satisfaction",
       "sign": 1,
-      "value": 1
+      "value": 0
     }
   ],
   "features": [
@@ -35,7 +35,7 @@
     {
       "name": "Years_experience_lastorganization",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",

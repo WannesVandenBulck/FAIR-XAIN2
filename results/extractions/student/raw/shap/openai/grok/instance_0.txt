@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "studytime",
       "sign": 1,
-      "value": 3
+      "value": 1
     },
     {
       "rank": 2,
@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "schoolsup",
+      "name": "reason",
       "sign": 1,
-      "value": 1
+      "value": 2
     }
   ],
   "features": [
@@ -80,12 +80,12 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 3
+      "value": 1
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsup",

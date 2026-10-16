@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "freetime",
       "sign": -1,
-      "value": 2
+      "value": "NaN"
     }
   ],
   "features": [
@@ -29,7 +29,7 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -89,7 +89,7 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -125,11 +125,11 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "goout",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -139,13 +139,13 @@
     },
     {
       "name": "Walc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 6
     },
     {
       "name": "sex",

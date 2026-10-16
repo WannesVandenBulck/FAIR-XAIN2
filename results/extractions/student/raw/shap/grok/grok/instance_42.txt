@@ -5,19 +5,19 @@
     {
       "rank": 1,
       "name": "reason",
-      "sign": -1,
+      "sign": 1,
       "value": 3
     },
     {
       "rank": 2,
       "name": "failures",
-      "sign": -1,
+      "sign": 1,
       "value": 0
     },
     {
       "rank": 3,
       "name": "famrel",
-      "sign": 1,
+      "sign": -1,
       "value": 4
     }
   ],
@@ -80,7 +80,7 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "schoolsup",

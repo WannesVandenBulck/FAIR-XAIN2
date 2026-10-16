@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "credit_history",
-      "sign": 1,
+      "sign": -1,
       "value": 5
     },
     {
@@ -109,17 +109,17 @@
     },
     {
       "name": "age",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "sex",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "foreign_worker",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

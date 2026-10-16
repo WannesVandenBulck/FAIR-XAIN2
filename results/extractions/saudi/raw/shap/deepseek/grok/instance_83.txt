@@ -16,7 +16,7 @@
     },
     {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
+      "name": "Sector",
       "sign": 1,
       "value": 1
     }
@@ -34,8 +34,8 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

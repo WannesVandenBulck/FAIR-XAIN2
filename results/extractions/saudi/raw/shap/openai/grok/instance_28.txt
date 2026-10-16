@@ -11,21 +11,21 @@
     {
       "rank": 2,
       "name": "Years_experience_lastorganization",
-      "sign": -1,
-      "value": 1
+      "sign": 1,
+      "value": "NaN"
     },
     {
       "rank": 3,
       "name": "Years_Experience",
-      "sign": -1,
-      "value": 2
+      "sign": 1,
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "Years_Experience",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "Job_Opportunities",
@@ -35,7 +35,7 @@
     {
       "name": "Years_experience_lastorganization",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",

@@ -11,7 +11,7 @@
     {
       "rank": 2,
       "name": "amount",
-      "sign": -1,
+      "sign": 1,
       "value": 4297
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "name": "housing",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -109,8 +109,8 @@
     },
     {
       "name": "age",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 40
     },
     {
       "name": "sex",

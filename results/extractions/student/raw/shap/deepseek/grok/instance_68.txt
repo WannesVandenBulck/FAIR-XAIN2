@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "famrel",
       "sign": -1,
-      "value": 4
+      "value": "NaN"
     }
   ],
   "features": [
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -89,7 +89,7 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -109,8 +109,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "romantic",
@@ -120,7 +120,7 @@
     {
       "name": "famrel",
       "mentioned": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "name": "freetime",
@@ -144,7 +144,7 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

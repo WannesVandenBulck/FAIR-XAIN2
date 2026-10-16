@@ -16,8 +16,8 @@
     },
     {
       "rank": 3,
-      "name": "schoolsup",
-      "sign": 1,
+      "name": "failures",
+      "sign": -1,
       "value": 0
     }
   ],

@@ -4,19 +4,19 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "famsize",
-      "sign": 1,
-      "value": 0
+      "name": "famrel",
+      "sign": -1,
+      "value": 4
     },
     {
       "rank": 2,
-      "name": "Medu",
-      "sign": 1,
-      "value": 2
+      "name": "higher",
+      "sign": -1,
+      "value": 0
     },
     {
       "rank": 3,
-      "name": "higher",
+      "name": "failures",
       "sign": -1,
       "value": 0
     }
@@ -24,8 +24,8 @@
   "features": [
     {
       "name": "failures",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "higher",
@@ -34,8 +34,8 @@
     },
     {
       "name": "famsize",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Pstatus",
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Fedu",
@@ -119,8 +119,8 @@
     },
     {
       "name": "famrel",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "freetime",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     }
   ]
 }

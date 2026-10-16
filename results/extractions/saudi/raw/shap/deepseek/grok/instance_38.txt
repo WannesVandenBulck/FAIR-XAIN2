@@ -18,14 +18,14 @@
       "rank": 3,
       "name": "Years_Experience",
       "sign": 1,
-      "value": 1
+      "value": 2
     }
   ],
   "features": [
     {
       "name": "Years_Experience",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Job_Opportunities",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Academic_degree",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "Sector",
@@ -49,18 +49,18 @@
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -80,7 +80,7 @@
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -89,8 +89,8 @@
     },
     {
       "name": "Useful_Training_Programs",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Business_Travel",
@@ -99,13 +99,13 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Emotional_Commitment",
@@ -149,22 +149,22 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Age",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

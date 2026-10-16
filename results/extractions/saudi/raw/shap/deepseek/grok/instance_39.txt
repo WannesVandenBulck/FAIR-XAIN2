@@ -59,13 +59,13 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "OverTime",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Payment_Overtime",
@@ -110,11 +110,11 @@
     {
       "name": "Emotional_Commitment",
       "mentioned": 1,
-      "value": 2
+      "value": 0
     },
     {
       "name": "Job_Engagement",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -139,7 +139,7 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

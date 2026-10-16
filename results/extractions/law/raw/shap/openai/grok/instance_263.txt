@@ -10,21 +10,21 @@
     },
     {
       "rank": 2,
-      "name": "lsat",
+      "name": "decile3",
       "sign": 1,
       "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "fam_inc",
-      "sign": -1,
-      "value": 3.0
+      "name": "lsat",
+      "sign": 1,
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "decile3",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

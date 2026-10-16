@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "ugpa",
       "sign": 1,
-      "value": 2.7
+      "value": "NaN"
     },
     {
       "rank": 3,
@@ -39,13 +39,13 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 1,
-      "value": 4.0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 2.7
+      "value": "NaN"
     },
     {
       "name": "fulltime",

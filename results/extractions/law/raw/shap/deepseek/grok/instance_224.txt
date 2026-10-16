@@ -1,12 +1,12 @@
 ```json
 {
-  "predicted_probability": 0.55,
+  "predicted_probability": 0.548,
   "most_important_features": [
     {
       "rank": 1,
       "name": "decile3",
       "sign": 1,
-      "value": 1
+      "value": 1.0
     },
     {
       "rank": 2,
@@ -25,7 +25,7 @@
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": 1
+      "value": 1.0
     },
     {
       "name": "lsat",
@@ -39,7 +39,7 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -49,17 +49,17 @@
     },
     {
       "name": "fulltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "Years_Experience",
       "sign": 1,
-      "value": 1
+      "value": 2
     },
     {
       "rank": 2,
@@ -16,8 +16,8 @@
     },
     {
       "rank": 3,
-      "name": "Job_Opportunities",
-      "sign": -1,
+      "name": "Job_Stability",
+      "sign": 1,
       "value": 0
     }
   ],
@@ -25,7 +25,7 @@
     {
       "name": "Years_Experience",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Job_Opportunities",
@@ -109,7 +109,7 @@
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",

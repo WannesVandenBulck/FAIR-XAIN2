@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "schoolsup",
+      "name": "higher",
       "sign": -1,
       "value": 0
     },
     {
       "rank": 3,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
+      "name": "Medu",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
@@ -44,8 +44,8 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Fedu",
@@ -99,7 +99,7 @@
     },
     {
       "name": "activities",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

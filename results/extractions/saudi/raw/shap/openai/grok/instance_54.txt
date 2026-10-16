@@ -6,36 +6,36 @@
       "rank": 1,
       "name": "Years_Experience",
       "sign": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "rank": 2,
       "name": "Job_Opportunities",
       "sign": 1,
-      "value": 0
+      "value": 1
     },
     {
       "rank": 3,
       "name": "Years_experience_lastorganization",
       "sign": 1,
-      "value": 0
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "Years_Experience",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Job_Opportunities",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Years_experience_lastorganization",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",
@@ -99,22 +99,22 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Job_Engagement",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Gender",

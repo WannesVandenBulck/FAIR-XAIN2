@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "present_residence",
       "sign": -1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "rank": 3,
@@ -70,7 +70,7 @@
     {
       "name": "present_residence",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "property",

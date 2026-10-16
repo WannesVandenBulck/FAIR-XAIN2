@@ -40,26 +40,26 @@
     {
       "name": "fam_inc",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 2.8
+      "value": "NaN"
     },
     {
       "name": "fulltime",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

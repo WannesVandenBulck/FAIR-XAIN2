@@ -5,37 +5,37 @@
     {
       "rank": 1,
       "name": "higher",
-      "sign": -1,
-      "value": 0
-    },
-    {
-      "rank": 2,
-      "name": "famsize",
       "sign": 1,
       "value": 1
     },
     {
-      "rank": 3,
-      "name": "Fedu",
+      "rank": 2,
+      "name": "failures",
       "sign": 1,
-      "value": 2
+      "value": 0
+    },
+    {
+      "rank": 3,
+      "name": "traveltime",
+      "sign": 1,
+      "value": 3
     }
   ],
   "features": [
     {
       "name": "failures",
-      "mentioned": 0,
-      "value": "NaN"
-    },
-    {
-      "name": "higher",
       "mentioned": 1,
       "value": 0
     },
     {
-      "name": "famsize",
+      "name": "higher",
       "mentioned": 1,
       "value": 1
+    },
+    {
+      "name": "famsize",
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Pstatus",
@@ -49,8 +49,8 @@
     },
     {
       "name": "Fedu",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Mjob",
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",

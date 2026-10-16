@@ -6,26 +6,26 @@
       "rank": 1,
       "name": "status",
       "sign": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "rank": 2,
-      "name": "duration",
+      "name": "amount",
       "sign": 1,
       "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "credit_history",
+      "name": "duration",
       "sign": 1,
-      "value": 3
+      "value": "NaN"
     }
   ],
   "features": [
     {
       "name": "status",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "duration",
@@ -34,8 +34,8 @@
     },
     {
       "name": "credit_history",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "purpose",
@@ -44,7 +44,7 @@
     },
     {
       "name": "amount",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

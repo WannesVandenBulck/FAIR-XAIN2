@@ -59,12 +59,12 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "OverTime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -74,13 +74,13 @@
     },
     {
       "name": "Rewards_Wages_Satisfaction",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -119,7 +119,7 @@
     },
     {
       "name": "Distance_to_work",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -139,7 +139,7 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

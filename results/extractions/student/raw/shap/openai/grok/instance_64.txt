@@ -6,12 +6,12 @@
       "rank": 1,
       "name": "studytime",
       "sign": 1,
-      "value": "NaN"
+      "value": 3
     },
     {
       "rank": 2,
       "name": "reason",
-      "sign": -1,
+      "sign": 1,
       "value": 3
     },
     {
@@ -80,11 +80,11 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 3
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

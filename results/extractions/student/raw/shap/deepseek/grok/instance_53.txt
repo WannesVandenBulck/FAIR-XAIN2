@@ -4,20 +4,20 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Medu",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 2,
       "name": "failures",
       "sign": -1,
       "value": 0
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "freetime",
       "sign": -1,
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Medu",
+      "sign": 1,
       "value": 1
     }
   ],
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "schoolsup",
@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "paid",
@@ -109,8 +109,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "romantic",
@@ -125,7 +125,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "goout",
@@ -144,8 +144,8 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 6
     },
     {
       "name": "sex",

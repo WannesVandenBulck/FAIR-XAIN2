@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "credit_history",
       "sign": 1,
-      "value": 1
+      "value": 2
     },
     {
       "rank": 2,
@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "installment_rate",
       "sign": -1,
-      "value": 1
+      "value": 1.0
     }
   ],
   "features": [
@@ -35,7 +35,7 @@
     {
       "name": "credit_history",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "purpose",
@@ -60,7 +60,7 @@
     {
       "name": "installment_rate",
       "mentioned": 1,
-      "value": 1
+      "value": 1.0
     },
     {
       "name": "other_debtors",

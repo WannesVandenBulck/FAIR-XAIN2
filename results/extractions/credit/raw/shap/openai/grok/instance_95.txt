@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "savings",
+      "name": "amount",
       "sign": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "rank": 3,
-      "name": "installment_rate",
-      "sign": -1,
-      "value": "NaN"
+      "name": "savings",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -44,7 +44,7 @@
     },
     {
       "name": "amount",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

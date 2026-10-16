@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "ugpa",
       "sign": -1,
-      "value": 2.90
+      "value": 2.9
     },
     {
       "rank": 3,
@@ -45,7 +45,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 2.90
+      "value": 2.9
     },
     {
       "name": "fulltime",
@@ -54,12 +54,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

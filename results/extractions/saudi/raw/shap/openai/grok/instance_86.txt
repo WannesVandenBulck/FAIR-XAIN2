@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "Years_Experience",
-      "sign": 1,
+      "sign": -1,
       "value": 2
     },
     {
@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "Training_programs_During_last_three_years",
+      "name": "Emotional_Commitment",
       "sign": 1,
-      "value": "NaN"
+      "value": 0
     }
   ],
   "features": [
@@ -85,7 +85,7 @@
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 3
     },
     {
       "name": "Useful_Training_Programs",
@@ -109,12 +109,12 @@
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Job_Engagement",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

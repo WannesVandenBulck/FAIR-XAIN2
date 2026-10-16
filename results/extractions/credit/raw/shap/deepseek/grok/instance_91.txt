@@ -4,15 +4,15 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 2,
       "name": "other_debtors",
       "sign": -1,
       "value": 3
+    },
+    {
+      "rank": 2,
+      "name": "status",
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 3,
@@ -54,7 +54,7 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -74,7 +74,7 @@
     },
     {
       "name": "property",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

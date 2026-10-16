@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "ugpa",
+      "name": "fam_inc",
       "sign": -1,
-      "value": 3.5
+      "value": 5.0
     }
   ],
   "features": [
@@ -44,8 +44,8 @@
     },
     {
       "name": "ugpa",
-      "mentioned": 1,
-      "value": 3.5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "fulltime",

@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "duration",
       "sign": 1,
-      "value": "NaN"
+      "value": 48
     },
     {
       "rank": 2,
@@ -30,7 +30,7 @@
     {
       "name": "duration",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 48
     },
     {
       "name": "credit_history",

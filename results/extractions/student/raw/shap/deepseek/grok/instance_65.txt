@@ -1,6 +1,6 @@
 ```json
 {
-  "predicted_probability": "NaN",
+  "predicted_probability": 0.2,
   "most_important_features": [
     {
       "rank": 1,
@@ -69,8 +69,8 @@
     },
     {
       "name": "guardian",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "traveltime",
@@ -79,7 +79,7 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -144,22 +144,22 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "sex",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "age",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "health",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

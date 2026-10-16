@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "lsat",
-      "sign": 1,
-      "value": 25.5
+      "name": "ugpa",
+      "sign": -1,
+      "value": 3.00
     },
     {
       "rank": 3,
-      "name": "ugpa",
-      "sign": -1,
-      "value": 3.0
+      "name": "lsat",
+      "sign": 1,
+      "value": 25.5
     }
   ],
   "features": [
@@ -45,7 +45,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 3.0
+      "value": 3.00
     },
     {
       "name": "fulltime",
@@ -54,12 +54,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

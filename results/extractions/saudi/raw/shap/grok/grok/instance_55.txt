@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "Training_programs_During_last_three_years",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     }
   ],
   "features": [
@@ -79,13 +79,13 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "Useful_Training_Programs",
@@ -104,13 +104,13 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Engagement",
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Environment_Satisfaction",

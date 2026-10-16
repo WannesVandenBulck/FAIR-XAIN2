@@ -5,13 +5,13 @@
     {
       "rank": 1,
       "name": "failures",
-      "sign": -1,
+      "sign": 1,
       "value": 0
     },
     {
       "rank": 2,
       "name": "famrel",
-      "sign": -1,
+      "sign": 1,
       "value": 4
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "name": "famsize",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -49,13 +49,13 @@
     },
     {
       "name": "Fedu",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Mjob",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Fjob",
@@ -79,12 +79,12 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -94,8 +94,8 @@
     },
     {
       "name": "paid",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "activities",

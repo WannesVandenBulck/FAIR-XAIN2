@@ -4,20 +4,20 @@
   "most_important_features": [
     {
       "rank": 1,
+      "name": "ugpa",
+      "sign": -1,
+      "value": 3.6
+    },
+    {
+      "rank": 2,
       "name": "decile3",
       "sign": 1,
       "value": 1
     },
     {
-      "rank": 2,
-      "name": "ugpa",
-      "sign": -1,
-      "value": 3.60
-    },
-    {
       "rank": 3,
       "name": "fam_inc",
-      "sign": -1,
+      "sign": 1,
       "value": 1.0
     }
   ],
@@ -45,7 +45,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 3.60
+      "value": 3.6
     },
     {
       "name": "fulltime",

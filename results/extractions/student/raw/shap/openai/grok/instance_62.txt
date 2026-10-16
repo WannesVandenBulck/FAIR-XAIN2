@@ -10,13 +10,13 @@
     },
     {
       "rank": 2,
-      "name": "Walc",
+      "name": "failures",
       "sign": -1,
-      "value": 2
+      "value": 0
     },
     {
       "rank": 3,
-      "name": "famsize",
+      "name": "schoolsup",
       "sign": 1,
       "value": 0
     }
@@ -34,8 +34,8 @@
     },
     {
       "name": "famsize",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Pstatus",
@@ -84,8 +84,8 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsup",
@@ -94,12 +94,12 @@
     },
     {
       "name": "paid",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "activities",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -140,7 +140,7 @@
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "absences",

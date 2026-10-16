@@ -5,8 +5,8 @@
     {
       "rank": 1,
       "name": "status",
-      "sign": 1,
-      "value": 4
+      "sign": -1,
+      "value": "NaN"
     },
     {
       "rank": 2,
@@ -25,7 +25,7 @@
     {
       "name": "status",
       "mentioned": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "name": "duration",
@@ -54,7 +54,7 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "name": "housing",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "number_credits",
@@ -94,7 +94,7 @@
     },
     {
       "name": "job",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

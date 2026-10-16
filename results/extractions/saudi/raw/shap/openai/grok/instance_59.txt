@@ -16,7 +16,7 @@
     },
     {
       "rank": 3,
-      "name": "Job_Opportunities",
+      "name": "Job_Satisfaction",
       "sign": 1,
       "value": 0
     }
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Gender",

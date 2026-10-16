@@ -4,9 +4,9 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Years_Experience",
+      "name": "Job_Engagement",
       "sign": 1,
-      "value": 0
+      "value": 2
     },
     {
       "rank": 2,
@@ -16,16 +16,16 @@
     },
     {
       "rank": 3,
-      "name": "Job_Engagement",
+      "name": "Years_experience_lastorganization",
       "sign": 1,
-      "value": 2
+      "value": 0
     }
   ],
   "features": [
     {
       "name": "Years_Experience",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Opportunities",
@@ -34,8 +34,8 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Academic_degree",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "Years_experience_lastorganization",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 3,
       "name": "Years_Experience",
       "sign": 1,
       "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Years_experience_lastorganization",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -99,8 +99,8 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Recognition",

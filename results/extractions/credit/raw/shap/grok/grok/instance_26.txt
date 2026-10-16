@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "amount",
       "sign": -1,
-      "value": "NaN"
+      "value": 3001
     },
     {
       "rank": 3,
@@ -24,8 +24,8 @@
   "features": [
     {
       "name": "status",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "duration",
@@ -45,12 +45,12 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 3001
     },
     {
       "name": "savings",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "employment_duration",

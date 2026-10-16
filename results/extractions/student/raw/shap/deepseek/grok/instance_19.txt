@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "freetime",
       "sign": -1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "rank": 3,
@@ -74,7 +74,7 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "paid",
@@ -104,8 +104,8 @@
     },
     {
       "name": "nursery",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "internet",
@@ -125,7 +125,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "name": "goout",

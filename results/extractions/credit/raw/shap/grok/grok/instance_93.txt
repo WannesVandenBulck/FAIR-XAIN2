@@ -5,19 +5,19 @@
     {
       "rank": 1,
       "name": "credit_history",
-      "sign": 1,
+      "sign": -1,
       "value": 5
     },
     {
       "rank": 2,
       "name": "amount",
-      "sign": 1,
-      "value": 4249
+      "sign": -1,
+      "value": "NaN"
     },
     {
       "rank": 3,
       "name": "status",
-      "sign": -1,
+      "sign": 1,
       "value": 2
     }
   ],
@@ -45,7 +45,7 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": 4249
+      "value": "NaN"
     },
     {
       "name": "savings",

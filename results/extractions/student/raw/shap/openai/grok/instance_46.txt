@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
-    },
-    {
-      "rank": 3,
       "name": "famsize",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "Medu",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
@@ -29,8 +29,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsize",
@@ -44,13 +44,13 @@
     },
     {
       "name": "Medu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Fedu",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Mjob",
@@ -80,16 +80,16 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsup",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -99,7 +99,7 @@
     },
     {
       "name": "activities",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

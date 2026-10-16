@@ -29,8 +29,8 @@
     },
     {
       "name": "duration",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 30
     },
     {
       "name": "credit_history",
@@ -45,7 +45,7 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 5234
     },
     {
       "name": "savings",

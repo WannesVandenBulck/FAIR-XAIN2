@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "amount",
       "sign": 1,
-      "value": 10297
+      "value": 10000
     },
     {
       "rank": 3,
@@ -39,13 +39,13 @@
     },
     {
       "name": "purpose",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "amount",
       "mentioned": 1,
-      "value": 10297
+      "value": 10000
     },
     {
       "name": "savings",
@@ -54,7 +54,7 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "name": "age",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "decile1",
-      "sign": 1,
-      "value": 2
-    },
-    {
-      "rank": 3,
       "name": "lsat",
       "sign": -1,
       "value": 41
+    },
+    {
+      "rank": 3,
+      "name": "decile1",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
@@ -44,8 +44,8 @@
     },
     {
       "name": "ugpa",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2.4
     },
     {
       "name": "fulltime",

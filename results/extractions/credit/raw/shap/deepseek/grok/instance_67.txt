@@ -29,8 +29,8 @@
     },
     {
       "name": "duration",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 15
     },
     {
       "name": "credit_history",
@@ -44,8 +44,8 @@
     },
     {
       "name": "amount",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1264
     },
     {
       "name": "savings",
@@ -54,8 +54,8 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "installment_rate",
@@ -64,8 +64,8 @@
     },
     {
       "name": "other_debtors",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "present_residence",

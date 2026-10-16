@@ -11,7 +11,7 @@
     {
       "rank": 2,
       "name": "other_installment_plans",
-      "sign": 1,
+      "sign": -1,
       "value": 1
     },
     {

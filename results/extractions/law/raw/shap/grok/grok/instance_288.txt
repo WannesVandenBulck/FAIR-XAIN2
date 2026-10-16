@@ -1,6 +1,6 @@
 ```json
 {
-  "predicted_probability": 0.842,
+  "predicted_probability": 0.84,
   "most_important_features": [
     {
       "rank": 1,
@@ -40,17 +40,17 @@
     {
       "name": "fam_inc",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 4
     },
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 3.2
     },
     {
       "name": "fulltime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "gender",

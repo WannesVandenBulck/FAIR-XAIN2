@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "higher",
-      "sign": -1,
-      "value": 0
+      "name": "health",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -84,8 +84,8 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsup",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     }
   ]
 }

@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "studytime",
+      "name": "failures",
       "sign": 1,
-      "value": 2
+      "value": 0
     }
   ],
   "features": [
@@ -84,13 +84,13 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsup",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "paid",
@@ -114,8 +114,8 @@
     },
     {
       "name": "romantic",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "famrel",

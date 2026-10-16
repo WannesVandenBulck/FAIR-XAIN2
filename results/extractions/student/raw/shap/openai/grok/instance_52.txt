@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "failures",
-      "sign": -1,
-      "value": 0
+      "name": "studytime",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [

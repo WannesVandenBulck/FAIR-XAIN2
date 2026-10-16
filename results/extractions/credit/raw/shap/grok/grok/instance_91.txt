@@ -4,21 +4,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "other_debtors",
-      "sign": -1,
-      "value": 3
-    },
-    {
-      "rank": 2,
       "name": "status",
       "sign": 1,
       "value": 1
     },
     {
+      "rank": 2,
+      "name": "other_debtors",
+      "sign": -1,
+      "value": 3
+    },
+    {
       "rank": 3,
       "name": "amount",
-      "sign": 1,
-      "value": "NaN"
+      "sign": -1,
+      "value": 1755
     }
   ],
   "features": [
@@ -45,7 +45,7 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1755
     },
     {
       "name": "savings",

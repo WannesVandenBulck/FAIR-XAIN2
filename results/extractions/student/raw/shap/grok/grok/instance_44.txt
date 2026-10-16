@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "failures",
-      "sign": -1,
+      "sign": 1,
       "value": 0
     },
     {
@@ -17,8 +17,8 @@
     {
       "rank": 3,
       "name": "Walc",
-      "sign": 1,
-      "value": 2
+      "sign": -1,
+      "value": 1
     }
   ],
   "features": [
@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -140,12 +140,12 @@
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 2
+      "value": 1
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 9
     },
     {
       "name": "sex",

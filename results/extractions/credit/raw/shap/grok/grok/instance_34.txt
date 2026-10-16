@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "duration",
-      "sign": -1,
+      "sign": 1,
       "value": 6
     },
     {

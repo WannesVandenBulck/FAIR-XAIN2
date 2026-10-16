@@ -5,7 +5,7 @@
     {
       "rank": 1,
       "name": "failures",
-      "sign": 1,
+      "sign": -1,
       "value": 0
     },
     {
@@ -17,7 +17,7 @@
     {
       "rank": 3,
       "name": "Mjob",
-      "sign": -1,
+      "sign": 1,
       "value": 4
     }
   ],
@@ -139,13 +139,13 @@
     },
     {
       "name": "Walc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 8
     },
     {
       "name": "sex",

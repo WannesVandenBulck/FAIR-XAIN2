@@ -34,7 +34,7 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

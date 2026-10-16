@@ -16,9 +16,9 @@
     },
     {
       "rank": 3,
-      "name": "decile1",
-      "sign": 1,
-      "value": "NaN"
+      "name": "fam_inc",
+      "sign": -1,
+      "value": 4.0
     }
   ],
   "features": [
@@ -34,13 +34,13 @@
     },
     {
       "name": "decile1",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4.0
     },
     {
       "name": "ugpa",

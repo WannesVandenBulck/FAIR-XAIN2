@@ -74,7 +74,7 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -109,8 +109,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "romantic",
@@ -130,17 +130,17 @@
     {
       "name": "goout",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "Dalc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "absences",

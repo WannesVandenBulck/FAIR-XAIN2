@@ -4,15 +4,15 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
-      "sign": 1,
-      "value": 1
-    },
-    {
-      "rank": 2,
       "name": "duration",
       "sign": -1,
       "value": 9
+    },
+    {
+      "rank": 2,
+      "name": "status",
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 3,
@@ -49,8 +49,8 @@
     },
     {
       "name": "savings",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "employment_duration",
@@ -64,8 +64,8 @@
     },
     {
       "name": "other_debtors",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "present_residence",

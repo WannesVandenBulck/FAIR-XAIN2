@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "lsat",
-      "sign": -1,
-      "value": 33.5
-    },
-    {
-      "rank": 3,
       "name": "decile3",
       "sign": 1,
       "value": "NaN"
+    },
+    {
+      "rank": 3,
+      "name": "lsat",
+      "sign": -1,
+      "value": 33.5
     }
   ],
   "features": [

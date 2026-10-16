@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "name": "decile1",
-      "sign": 1,
-      "value": 2
-    },
-    {
-      "rank": 3,
       "name": "ugpa",
       "sign": -1,
       "value": 3.5
+    },
+    {
+      "rank": 3,
+      "name": "decile1",
+      "sign": 1,
+      "value": "NaN"
     }
   ],
   "features": [
@@ -29,13 +29,13 @@
     },
     {
       "name": "lsat",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "decile1",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "fam_inc",

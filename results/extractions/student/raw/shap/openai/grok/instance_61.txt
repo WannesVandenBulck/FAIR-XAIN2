@@ -4,9 +4,9 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "absences",
+      "name": "reason",
       "sign": 1,
-      "value": 10
+      "value": 3
     },
     {
       "rank": 2,
@@ -16,8 +16,8 @@
     },
     {
       "rank": 3,
-      "name": "famsize",
-      "sign": 1,
+      "name": "failures",
+      "sign": -1,
       "value": 0
     }
   ],
@@ -34,8 +34,8 @@
     },
     {
       "name": "famsize",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Pstatus",
@@ -145,7 +145,7 @@
     {
       "name": "absences",
       "mentioned": 1,
-      "value": 10
+      "value": "NaN"
     },
     {
       "name": "sex",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     }
   ]
 }

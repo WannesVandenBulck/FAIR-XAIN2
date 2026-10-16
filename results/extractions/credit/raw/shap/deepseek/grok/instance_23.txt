@@ -44,8 +44,8 @@
     },
     {
       "name": "amount",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 6288
     },
     {
       "name": "savings",
@@ -59,8 +59,8 @@
     },
     {
       "name": "installment_rate",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "other_debtors",
