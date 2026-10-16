@@ -4,32 +4,32 @@
     {
       "rank": 1,
       "name": "failures",
-      "sign": 1,
-      "value": "NaN"
+      "sign": -1,
+      "value": 0
     },
     {
       "rank": 2,
       "name": "higher",
-      "sign": 1,
-      "value": "NaN"
+      "sign": -1,
+      "value": 0
     },
     {
       "rank": 3,
-      "name": "absences",
-      "sign": 1,
-      "value": "NaN"
+      "name": "Mjob",
+      "sign": -1,
+      "value": 4
     }
   ],
   "features": [
     {
       "name": "failures",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsize",
@@ -53,8 +53,8 @@
     },
     {
       "name": "Mjob",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "Fjob",
@@ -78,8 +78,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -138,13 +138,13 @@
     },
     {
       "name": "Walc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 8
     },
     {
       "name": "sex",

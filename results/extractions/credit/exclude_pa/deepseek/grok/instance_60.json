@@ -1,35 +1,35 @@
 {
-  "predicted_probability": "NaN",
+  "predicted_probability": 0.39,
   "most_important_features": [
     {
       "rank": 1,
       "name": "status",
-      "sign": 1,
-      "value": "NaN"
+      "sign": -1,
+      "value": 4
     },
     {
       "rank": 2,
-      "name": "credit_history",
+      "name": "purpose",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "rank": 3,
-      "name": "savings",
+      "name": "other_debtors",
       "sign": 1,
-      "value": "NaN"
+      "value": 2
     }
   ],
   "features": [
     {
       "name": "status",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "duration",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 10
     },
     {
       "name": "credit_history",
@@ -38,13 +38,13 @@
     },
     {
       "name": "purpose",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "amount",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1287
     },
     {
       "name": "savings",
@@ -63,8 +63,8 @@
     },
     {
       "name": "other_debtors",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "present_residence",
