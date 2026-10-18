@@ -84,13 +84,13 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsup",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "paid",

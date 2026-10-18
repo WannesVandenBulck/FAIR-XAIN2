@@ -28,8 +28,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsize",
@@ -79,7 +79,7 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
@@ -143,8 +143,8 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "sex",

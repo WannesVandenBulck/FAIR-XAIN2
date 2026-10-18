@@ -49,18 +49,18 @@
     },
     {
       "name": "savings",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "installment_rate",
-      "mentioned": 1,
-      "value": 4
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "other_debtors",
@@ -109,17 +109,17 @@
     },
     {
       "name": "age",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "sex",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "foreign_worker",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

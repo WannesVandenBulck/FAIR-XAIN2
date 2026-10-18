@@ -33,18 +33,18 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Sector",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "MonthlySalary",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -78,8 +78,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -103,7 +103,7 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -138,7 +138,7 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -148,7 +148,7 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

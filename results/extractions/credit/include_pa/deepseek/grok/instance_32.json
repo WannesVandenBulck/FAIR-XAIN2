@@ -3,15 +3,15 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
-      "sign": -1,
-      "value": 4
-    },
-    {
-      "rank": 2,
       "name": "other_installment_plans",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 2,
+      "name": "status",
+      "sign": -1,
+      "value": 4
     },
     {
       "rank": 3,
@@ -33,8 +33,8 @@
     },
     {
       "name": "credit_history",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "purpose",
@@ -53,8 +53,8 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
-      "value": 5
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "installment_rate",
@@ -93,8 +93,8 @@
     },
     {
       "name": "job",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "people_liable",

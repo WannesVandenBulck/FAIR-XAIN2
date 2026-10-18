@@ -49,13 +49,13 @@
     },
     {
       "name": "savings",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "installment_rate",

@@ -33,8 +33,8 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",
@@ -153,17 +153,17 @@
     },
     {
       "name": "Gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Age",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

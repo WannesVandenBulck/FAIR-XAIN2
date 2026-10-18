@@ -48,8 +48,8 @@
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "MedicalInsurance",
@@ -63,8 +63,8 @@
     },
     {
       "name": "OverTime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Payment_Overtime",
@@ -78,13 +78,13 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Useful_Training_Programs",
@@ -138,8 +138,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",
@@ -148,22 +148,22 @@
     },
     {
       "name": "Job_Satisfaction",
+      "mentioned": 1,
+      "value": 0
+    },
+    {
+      "name": "Gender",
       "mentioned": 0,
       "value": "NaN"
     },
     {
-      "name": "Gender",
-      "mentioned": 1,
-      "value": "NaN"
-    },
-    {
       "name": "Age",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

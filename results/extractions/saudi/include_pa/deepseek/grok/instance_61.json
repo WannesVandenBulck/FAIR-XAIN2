@@ -103,12 +103,12 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "predicted_probability": 0.05,
+  "predicted_probability": 0.95,
   "most_important_features": [
     {
       "rank": 1,
@@ -11,20 +11,20 @@
       "rank": 2,
       "name": "decile3",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "rank": 3,
       "name": "decile1",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     }
   ],
   "features": [
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "lsat",
@@ -34,7 +34,7 @@
     {
       "name": "decile1",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "fam_inc",

@@ -39,8 +39,8 @@
     },
     {
       "name": "Pstatus",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Medu",
@@ -130,17 +130,17 @@
     {
       "name": "goout",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "Dalc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "absences",

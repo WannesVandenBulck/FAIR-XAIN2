@@ -54,8 +54,8 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Bonus",
@@ -64,8 +64,8 @@
     },
     {
       "name": "OverTime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Payment_Overtime",
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",

@@ -38,7 +38,7 @@
     },
     {
       "name": "purpose",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -48,8 +48,8 @@
     },
     {
       "name": "savings",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "employment_duration",
@@ -63,8 +63,8 @@
     },
     {
       "name": "other_debtors",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "present_residence",
@@ -83,8 +83,8 @@
     },
     {
       "name": "housing",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "number_credits",
@@ -103,8 +103,8 @@
     },
     {
       "name": "telephone",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "age",

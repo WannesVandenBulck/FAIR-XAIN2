@@ -5,7 +5,7 @@
       "rank": 1,
       "name": "amount",
       "sign": -1,
-      "value": "NaN"
+      "value": 2528
     },
     {
       "rank": 2,
@@ -17,14 +17,14 @@
       "rank": 3,
       "name": "present_residence",
       "sign": -1,
-      "value": "NaN"
+      "value": 1
     }
   ],
   "features": [
     {
       "name": "status",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "duration",
@@ -44,17 +44,17 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2528
     },
     {
       "name": "savings",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "installment_rate",
@@ -69,7 +69,7 @@
     {
       "name": "present_residence",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "property",

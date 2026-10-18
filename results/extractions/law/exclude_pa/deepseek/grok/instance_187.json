@@ -9,15 +9,15 @@
     },
     {
       "rank": 2,
-      "name": "decile1",
-      "sign": 1,
-      "value": 2
-    },
-    {
-      "rank": 3,
       "name": "lsat",
       "sign": -1,
       "value": 37
+    },
+    {
+      "rank": 3,
+      "name": "decile1",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
@@ -53,12 +53,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

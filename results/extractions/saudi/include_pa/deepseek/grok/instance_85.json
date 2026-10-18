@@ -53,13 +53,13 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -78,8 +78,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -103,7 +103,7 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -133,8 +133,8 @@
     },
     {
       "name": "Psychological_Exhaustion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Job_Stability",
@@ -148,8 +148,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Gender",

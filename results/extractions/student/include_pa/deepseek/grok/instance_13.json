@@ -11,7 +11,7 @@
       "rank": 2,
       "name": "freetime",
       "sign": -1,
-      "value": 1
+      "value": 2
     },
     {
       "rank": 3,
@@ -68,7 +68,7 @@
     },
     {
       "name": "guardian",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -78,18 +78,18 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "paid",
@@ -124,7 +124,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "goout",

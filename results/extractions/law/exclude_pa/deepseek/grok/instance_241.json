@@ -4,8 +4,8 @@
     {
       "rank": 1,
       "name": "decile3",
-      "sign": -1,
-      "value": "NaN"
+      "sign": 1,
+      "value": 1
     },
     {
       "rank": 2,
@@ -16,7 +16,7 @@
     {
       "rank": 3,
       "name": "ugpa",
-      "sign": 1,
+      "sign": -1,
       "value": 2.3
     }
   ],
@@ -24,7 +24,7 @@
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "lsat",
@@ -53,12 +53,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

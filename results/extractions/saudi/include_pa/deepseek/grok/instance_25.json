@@ -33,8 +33,8 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Academic_degree",
@@ -78,8 +78,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",

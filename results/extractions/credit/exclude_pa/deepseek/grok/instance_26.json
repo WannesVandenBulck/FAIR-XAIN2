@@ -23,8 +23,8 @@
   "features": [
     {
       "name": "status",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "duration",
@@ -48,8 +48,8 @@
     },
     {
       "name": "savings",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "employment_duration",
@@ -83,8 +83,8 @@
     },
     {
       "name": "housing",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "number_credits",

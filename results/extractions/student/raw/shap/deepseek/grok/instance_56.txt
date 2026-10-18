@@ -74,13 +74,13 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
@@ -89,7 +89,7 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

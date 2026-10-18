@@ -54,8 +54,8 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Bonus",
@@ -74,8 +74,8 @@
     },
     {
       "name": "Rewards_Wages_Satisfaction",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Get_Deserved_Promotion",
@@ -99,8 +99,8 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Recognition",
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Environment_Satisfaction",
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Gender",

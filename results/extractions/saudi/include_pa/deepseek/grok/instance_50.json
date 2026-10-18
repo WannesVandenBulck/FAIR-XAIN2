@@ -78,7 +78,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -88,7 +88,7 @@
     },
     {
       "name": "Useful_Training_Programs",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -143,13 +143,13 @@
     },
     {
       "name": "Environment_Satisfaction",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Gender",

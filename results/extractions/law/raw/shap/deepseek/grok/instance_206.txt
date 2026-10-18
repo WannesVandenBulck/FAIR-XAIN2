@@ -60,7 +60,7 @@
     {
       "name": "race",
       "mentioned": 1,
-      "value": 3
+      "value": "NaN"
     }
   ]
 }

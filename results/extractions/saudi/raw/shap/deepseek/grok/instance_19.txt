@@ -80,7 +80,7 @@
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -104,12 +104,12 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

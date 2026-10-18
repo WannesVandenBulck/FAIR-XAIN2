@@ -68,18 +68,18 @@
     },
     {
       "name": "guardian",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "traveltime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2
     },
     {
       "name": "schoolsup",
@@ -88,8 +88,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -143,8 +143,8 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "sex",

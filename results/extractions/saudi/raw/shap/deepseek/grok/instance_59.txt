@@ -64,13 +64,13 @@
     },
     {
       "name": "OverTime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Payment_Overtime",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Rewards_Wages_Satisfaction",
@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -129,13 +129,13 @@
     },
     {
       "name": "Physical_Stress",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Psychological_Exhaustion",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Stability",
@@ -149,22 +149,22 @@
     },
     {
       "name": "Job_Satisfaction",
+      "mentioned": 1,
+      "value": 0
+    },
+    {
+      "name": "Gender",
       "mentioned": 0,
       "value": "NaN"
     },
     {
-      "name": "Gender",
-      "mentioned": 1,
-      "value": "NaN"
-    },
-    {
       "name": "Age",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

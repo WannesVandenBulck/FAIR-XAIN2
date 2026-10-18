@@ -83,8 +83,8 @@
     },
     {
       "name": "housing",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "number_credits",
@@ -93,8 +93,8 @@
     },
     {
       "name": "job",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "people_liable",

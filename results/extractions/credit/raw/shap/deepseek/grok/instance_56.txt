@@ -45,7 +45,7 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": 7824
+      "value": "NaN"
     },
     {
       "name": "savings",

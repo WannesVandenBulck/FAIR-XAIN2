@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "famsize",
       "sign": -1,
-      "value": 0
+      "value": 1
     }
   ],
   "features": [
@@ -35,7 +35,7 @@
     {
       "name": "famsize",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "Pstatus",
@@ -80,17 +80,17 @@
     {
       "name": "studytime",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsup",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "paid",

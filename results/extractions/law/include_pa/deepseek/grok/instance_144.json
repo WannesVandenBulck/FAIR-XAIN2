@@ -11,13 +11,13 @@
       "rank": 2,
       "name": "lsat",
       "sign": 1,
-      "value": 22.0
+      "value": 22
     },
     {
       "rank": 3,
       "name": "decile1",
       "sign": -1,
-      "value": 3.0
+      "value": "NaN"
     }
   ],
   "features": [
@@ -29,12 +29,12 @@
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": 22.0
+      "value": 22
     },
     {
       "name": "decile1",
       "mentioned": 1,
-      "value": 3.0
+      "value": "NaN"
     },
     {
       "name": "fam_inc",

@@ -83,13 +83,13 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "paid",
@@ -123,12 +123,12 @@
     },
     {
       "name": "freetime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "goout",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

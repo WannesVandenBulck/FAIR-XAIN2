@@ -138,13 +138,13 @@
     },
     {
       "name": "Walc",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 10
     },
     {
       "name": "sex",

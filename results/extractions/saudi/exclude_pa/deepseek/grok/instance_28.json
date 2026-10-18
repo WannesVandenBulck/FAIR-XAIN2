@@ -38,18 +38,18 @@
     },
     {
       "name": "Academic_degree",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Sector",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "MedicalInsurance",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

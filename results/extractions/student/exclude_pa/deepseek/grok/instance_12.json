@@ -28,8 +28,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "famsize",
@@ -108,8 +108,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "romantic",
@@ -123,13 +123,13 @@
     },
     {
       "name": "freetime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "goout",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "Dalc",
@@ -138,8 +138,8 @@
     },
     {
       "name": "Walc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "absences",

@@ -29,8 +29,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsize",
@@ -79,7 +79,7 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -109,8 +109,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "romantic",
@@ -124,13 +124,13 @@
     },
     {
       "name": "freetime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "goout",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "Dalc",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }

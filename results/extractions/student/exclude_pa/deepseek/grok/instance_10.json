@@ -88,8 +88,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -108,8 +108,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "romantic",
@@ -144,7 +144,7 @@
     {
       "name": "absences",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 8
     },
     {
       "name": "sex",

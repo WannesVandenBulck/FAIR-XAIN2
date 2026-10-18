@@ -59,13 +59,13 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "OverTime",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Payment_Overtime",
@@ -80,12 +80,12 @@
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Useful_Training_Programs",
@@ -99,13 +99,13 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Emotional_Commitment",
@@ -129,18 +129,18 @@
     },
     {
       "name": "Physical_Stress",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Psychological_Exhaustion",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Stability",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Environment_Satisfaction",
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Gender",

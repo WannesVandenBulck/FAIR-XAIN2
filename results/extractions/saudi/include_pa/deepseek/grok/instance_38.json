@@ -53,13 +53,13 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -79,7 +79,7 @@
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -88,8 +88,8 @@
     },
     {
       "name": "Useful_Training_Programs",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Business_Travel",
@@ -98,13 +98,13 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Recognition",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Emotional_Commitment",
@@ -148,7 +148,7 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

@@ -118,8 +118,8 @@
     },
     {
       "name": "famrel",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "freetime",

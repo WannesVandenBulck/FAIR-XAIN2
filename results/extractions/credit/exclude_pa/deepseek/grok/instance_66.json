@@ -17,7 +17,7 @@
       "rank": 3,
       "name": "amount",
       "sign": 1,
-      "value": 8000
+      "value": 7966
     }
   ],
   "features": [
@@ -44,7 +44,7 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": 8000
+      "value": 7966
     },
     {
       "name": "savings",

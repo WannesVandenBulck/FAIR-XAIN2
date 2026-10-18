@@ -78,8 +78,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "schoolsup",
@@ -88,8 +88,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -144,7 +144,7 @@
     {
       "name": "absences",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 6
     },
     {
       "name": "sex",

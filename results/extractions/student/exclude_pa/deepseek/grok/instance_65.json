@@ -1,5 +1,5 @@
 {
-  "predicted_probability": "NaN",
+  "predicted_probability": 0.2,
   "most_important_features": [
     {
       "rank": 1,
@@ -78,17 +78,17 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -143,7 +143,7 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

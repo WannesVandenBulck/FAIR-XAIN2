@@ -9,15 +9,15 @@
     },
     {
       "rank": 2,
-      "name": "credit_history",
-      "sign": 1,
-      "value": 2
-    },
-    {
-      "rank": 3,
       "name": "amount",
       "sign": -1,
       "value": 2746
+    },
+    {
+      "rank": 3,
+      "name": "credit_history",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [

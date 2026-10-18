@@ -28,8 +28,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsize",
@@ -78,8 +78,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -88,8 +88,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -108,8 +108,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "romantic",
@@ -138,13 +138,13 @@
     },
     {
       "name": "Walc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 6
     },
     {
       "name": "sex",

@@ -16,7 +16,7 @@
     {
       "rank": 3,
       "name": "Years_experience_lastorganization",
-      "sign": -1,
+      "sign": 1,
       "value": 0
     }
   ],
@@ -53,13 +53,13 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -79,7 +79,7 @@
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -88,8 +88,8 @@
     },
     {
       "name": "Useful_Training_Programs",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Business_Travel",
@@ -153,17 +153,17 @@
     },
     {
       "name": "Gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Age",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

@@ -53,12 +53,12 @@
     },
     {
       "name": "Mjob",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Fjob",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -73,8 +73,8 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "studytime",
@@ -93,8 +93,8 @@
     },
     {
       "name": "paid",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "activities",

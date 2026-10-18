@@ -17,7 +17,7 @@
       "rank": 3,
       "name": "freetime",
       "sign": -1,
-      "value": 1
+      "value": "NaN"
     }
   ],
   "features": [
@@ -78,8 +78,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -93,8 +93,8 @@
     },
     {
       "name": "paid",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "activities",
@@ -124,7 +124,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "goout",

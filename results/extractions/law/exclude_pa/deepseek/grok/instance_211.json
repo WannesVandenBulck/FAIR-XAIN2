@@ -28,8 +28,8 @@
     },
     {
       "name": "lsat",
-      "mentioned": 1,
-      "value": 34
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "decile1",

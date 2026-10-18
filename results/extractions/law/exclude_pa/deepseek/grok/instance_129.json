@@ -28,8 +28,8 @@
     },
     {
       "name": "lsat",
-      "mentioned": 1,
-      "value": 29
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "decile1",
@@ -38,7 +38,7 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "name": "fulltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

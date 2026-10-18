@@ -33,8 +33,8 @@
     },
     {
       "name": "Years_experience_lastorganization",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",
@@ -53,8 +53,8 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Bonus",
@@ -63,13 +63,13 @@
     },
     {
       "name": "OverTime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Payment_Overtime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Rewards_Wages_Satisfaction",
@@ -78,8 +78,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -98,13 +98,13 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Emotional_Commitment",
@@ -138,18 +138,18 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Gender",

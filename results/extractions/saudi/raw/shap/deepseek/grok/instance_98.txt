@@ -49,7 +49,7 @@
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -80,11 +80,11 @@
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -99,8 +99,8 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Recognition",
@@ -129,8 +129,8 @@
     },
     {
       "name": "Physical_Stress",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Psychological_Exhaustion",
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Environment_Satisfaction",
@@ -154,17 +154,17 @@
     },
     {
       "name": "Gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Age",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "Health_Issues",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

@@ -3,9 +3,9 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "status",
-      "sign": 1,
-      "value": 1
+      "name": "other_debtors",
+      "sign": -1,
+      "value": 3
     },
     {
       "rank": 2,
@@ -15,9 +15,9 @@
     },
     {
       "rank": 3,
-      "name": "other_debtors",
-      "sign": -1,
-      "value": 3
+      "name": "status",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [

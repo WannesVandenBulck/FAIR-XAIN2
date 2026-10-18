@@ -59,8 +59,8 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "OverTime",
@@ -80,7 +80,7 @@
     {
       "name": "Get_Deserved_Promotion",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 0
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -114,8 +114,8 @@
     },
     {
       "name": "Job_Engagement",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Distance_to_work",
@@ -124,8 +124,8 @@
     },
     {
       "name": "Work_Live_Balance",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Physical_Stress",
@@ -134,8 +134,8 @@
     },
     {
       "name": "Psychological_Exhaustion",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Stability",

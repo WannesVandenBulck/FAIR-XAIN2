@@ -78,7 +78,7 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -88,8 +88,8 @@
     },
     {
       "name": "Useful_Training_Programs",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Business_Travel",

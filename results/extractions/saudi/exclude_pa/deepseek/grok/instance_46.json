@@ -3,21 +3,21 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "Job_Engagement",
-      "sign": 1,
-      "value": 2
-    },
-    {
-      "rank": 2,
       "name": "Years_Experience",
       "sign": -1,
       "value": 0
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "MonthlySalary",
       "sign": -1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "Job_Engagement",
+      "sign": 1,
+      "value": 2
     }
   ],
   "features": [
@@ -53,13 +53,13 @@
     },
     {
       "name": "MedicalInsurance",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "OverTime",
@@ -108,8 +108,8 @@
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Job_Engagement",
@@ -128,8 +128,8 @@
     },
     {
       "name": "Physical_Stress",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Psychological_Exhaustion",
@@ -138,8 +138,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",
@@ -148,8 +148,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Gender",

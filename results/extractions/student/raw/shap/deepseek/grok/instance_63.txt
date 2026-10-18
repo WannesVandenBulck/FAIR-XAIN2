@@ -89,8 +89,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -139,13 +139,13 @@
     },
     {
       "name": "Walc",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "absences",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 4
     },
     {
       "name": "sex",

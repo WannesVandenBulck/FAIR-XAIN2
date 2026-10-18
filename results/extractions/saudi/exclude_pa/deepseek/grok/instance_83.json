@@ -15,7 +15,7 @@
     },
     {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
+      "name": "Sector",
       "sign": 1,
       "value": 1
     }
@@ -34,12 +34,12 @@
     {
       "name": "Years_experience_lastorganization",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "Academic_degree",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Sector",
@@ -63,7 +63,7 @@
     },
     {
       "name": "OverTime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -98,8 +98,8 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Recognition",
@@ -133,7 +133,7 @@
     },
     {
       "name": "Psychological_Exhaustion",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

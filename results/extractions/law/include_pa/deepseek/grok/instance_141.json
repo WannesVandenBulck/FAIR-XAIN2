@@ -5,7 +5,7 @@
       "rank": 1,
       "name": "decile3",
       "sign": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "rank": 2,
@@ -17,14 +17,14 @@
       "rank": 3,
       "name": "ugpa",
       "sign": -1,
-      "value": "NaN"
+      "value": 2.8
     }
   ],
   "features": [
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "lsat",
@@ -44,7 +44,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 2.8
     },
     {
       "name": "fulltime",
@@ -53,12 +53,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

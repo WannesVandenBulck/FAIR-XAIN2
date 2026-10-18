@@ -17,7 +17,7 @@
       "rank": 3,
       "name": "traveltime",
       "sign": -1,
-      "value": "NaN"
+      "value": 3
     }
   ],
   "features": [
@@ -74,7 +74,7 @@
     {
       "name": "traveltime",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 3
     },
     {
       "name": "studytime",
@@ -88,8 +88,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -108,8 +108,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "romantic",
@@ -143,7 +143,7 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

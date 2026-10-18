@@ -9,15 +9,15 @@
     },
     {
       "rank": 2,
-      "name": "reason",
-      "sign": -1,
-      "value": 2
-    },
-    {
-      "rank": 3,
       "name": "higher",
       "sign": -1,
       "value": 0
+    },
+    {
+      "rank": 3,
+      "name": "reason",
+      "sign": -1,
+      "value": 2
     }
   ],
   "features": [
@@ -83,8 +83,8 @@
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsup",
@@ -93,8 +93,8 @@
     },
     {
       "name": "paid",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "activities",

@@ -17,7 +17,7 @@
       "rank": 3,
       "name": "nursery",
       "sign": -1,
-      "value": 1
+      "value": 0
     }
   ],
   "features": [
@@ -28,8 +28,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "famsize",
@@ -104,7 +104,7 @@
     {
       "name": "nursery",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "internet",

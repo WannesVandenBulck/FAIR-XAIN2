@@ -78,17 +78,17 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -108,8 +108,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "romantic",
@@ -128,8 +128,8 @@
     },
     {
       "name": "goout",
-      "mentioned": 1,
-      "value": 4
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Dalc",

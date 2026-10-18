@@ -18,7 +18,7 @@
       "rank": 3,
       "name": "fulltime",
       "sign": -1,
-      "value": 1
+      "value": "NaN"
     }
   ],
   "features": [
@@ -50,7 +50,7 @@
     {
       "name": "fulltime",
       "mentioned": 1,
-      "value": 1
+      "value": "NaN"
     },
     {
       "name": "gender",

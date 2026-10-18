@@ -29,7 +29,7 @@
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": 31
+      "value": "NaN"
     },
     {
       "name": "decile1",
@@ -44,7 +44,7 @@
     {
       "name": "ugpa",
       "mentioned": 1,
-      "value": 2.1
+      "value": "NaN"
     },
     {
       "name": "fulltime",

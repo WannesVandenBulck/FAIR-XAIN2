@@ -17,7 +17,7 @@
       "rank": 3,
       "name": "nursery",
       "sign": -1,
-      "value": 1
+      "value": 0
     }
   ],
   "features": [
@@ -78,8 +78,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "schoolsup",
@@ -88,8 +88,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -104,12 +104,12 @@
     {
       "name": "nursery",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "romantic",
@@ -128,7 +128,7 @@
     },
     {
       "name": "goout",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -143,8 +143,8 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "sex",

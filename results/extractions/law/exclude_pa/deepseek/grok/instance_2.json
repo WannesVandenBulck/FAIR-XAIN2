@@ -11,7 +11,7 @@
       "rank": 2,
       "name": "lsat",
       "sign": -1,
-      "value": 36
+      "value": "NaN"
     },
     {
       "rank": 3,
@@ -29,7 +29,7 @@
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": 36
+      "value": "NaN"
     },
     {
       "name": "decile1",
@@ -38,7 +38,7 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -48,17 +48,17 @@
     },
     {
       "name": "fulltime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

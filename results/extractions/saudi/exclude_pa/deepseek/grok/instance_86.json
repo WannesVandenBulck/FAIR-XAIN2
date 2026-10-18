@@ -9,15 +9,15 @@
     },
     {
       "rank": 2,
-      "name": "Years_experience_lastorganization",
-      "sign": 1,
-      "value": 0
-    },
-    {
-      "rank": 3,
       "name": "Training_programs_During_last_three_years",
       "sign": -1,
       "value": 3
+    },
+    {
+      "rank": 3,
+      "name": "Years_experience_lastorganization",
+      "sign": 1,
+      "value": 0
     }
   ],
   "features": [

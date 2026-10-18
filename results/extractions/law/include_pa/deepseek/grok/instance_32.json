@@ -53,13 +53,13 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     }
   ]
 }

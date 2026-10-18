@@ -29,8 +29,8 @@
     },
     {
       "name": "lsat",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 32.5
     },
     {
       "name": "decile1",
@@ -54,12 +54,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

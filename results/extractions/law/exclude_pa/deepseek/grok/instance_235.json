@@ -9,15 +9,15 @@
     },
     {
       "rank": 2,
-      "name": "decile1",
-      "sign": 1,
-      "value": 3
-    },
-    {
-      "rank": 3,
       "name": "lsat",
       "sign": -1,
       "value": 37
+    },
+    {
+      "rank": 3,
+      "name": "decile1",
+      "sign": 1,
+      "value": 3
     }
   ],
   "features": [
@@ -38,7 +38,7 @@
     },
     {
       "name": "fam_inc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "name": "fulltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

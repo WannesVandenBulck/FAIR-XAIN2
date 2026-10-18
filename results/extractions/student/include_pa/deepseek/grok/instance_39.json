@@ -143,8 +143,8 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 16
     },
     {
       "name": "sex",

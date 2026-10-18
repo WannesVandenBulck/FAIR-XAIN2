@@ -9,15 +9,15 @@
     },
     {
       "rank": 2,
-      "name": "failures",
-      "sign": 1,
-      "value": 3
-    },
-    {
-      "rank": 3,
       "name": "higher",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "failures",
+      "sign": 1,
+      "value": 3
     }
   ],
   "features": [
@@ -73,13 +73,13 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -123,7 +123,7 @@
     },
     {
       "name": "freetime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

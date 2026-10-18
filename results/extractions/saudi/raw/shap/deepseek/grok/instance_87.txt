@@ -49,8 +49,8 @@
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "MedicalInsurance",
@@ -59,8 +59,8 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "OverTime",
@@ -79,8 +79,8 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
@@ -109,8 +109,8 @@
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Job_Engagement",
@@ -124,8 +124,8 @@
     },
     {
       "name": "Work_Live_Balance",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Physical_Stress",
@@ -139,8 +139,8 @@
     },
     {
       "name": "Job_Stability",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Environment_Satisfaction",
@@ -149,8 +149,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 1,
-      "value": 0
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Gender",

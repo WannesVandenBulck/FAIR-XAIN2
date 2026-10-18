@@ -45,7 +45,7 @@
     {
       "name": "amount",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 7472
     },
     {
       "name": "savings",
@@ -55,7 +55,7 @@
     {
       "name": "employment_duration",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "installment_rate",

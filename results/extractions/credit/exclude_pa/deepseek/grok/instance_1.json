@@ -48,7 +48,7 @@
     },
     {
       "name": "savings",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -83,8 +83,8 @@
     },
     {
       "name": "housing",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "number_credits",

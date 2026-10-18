@@ -34,7 +34,7 @@
     },
     {
       "name": "decile1",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -44,22 +44,22 @@
     },
     {
       "name": "ugpa",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "fulltime",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "gender",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

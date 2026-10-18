@@ -5,7 +5,7 @@
       "rank": 1,
       "name": "decile3",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "rank": 2,
@@ -24,7 +24,7 @@
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "lsat",
@@ -53,12 +53,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

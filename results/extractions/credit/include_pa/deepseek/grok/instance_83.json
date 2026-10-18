@@ -3,9 +3,9 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "credit_history",
-      "sign": 1,
-      "value": 1
+      "name": "amount",
+      "sign": -1,
+      "value": 3804
     },
     {
       "rank": 2,
@@ -15,9 +15,9 @@
     },
     {
       "rank": 3,
-      "name": "amount",
-      "sign": -1,
-      "value": 3804
+      "name": "credit_history",
+      "sign": 1,
+      "value": 1
     }
   ],
   "features": [
@@ -108,17 +108,17 @@
     },
     {
       "name": "age",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "sex",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "foreign_worker",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

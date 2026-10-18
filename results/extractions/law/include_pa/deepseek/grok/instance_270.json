@@ -3,28 +3,28 @@
   "most_important_features": [
     {
       "rank": 1,
-      "name": "decile3",
-      "sign": 1,
-      "value": 2
-    },
-    {
-      "rank": 2,
       "name": "ugpa",
       "sign": -1,
       "value": 3.3
     },
     {
+      "rank": 2,
+      "name": "decile3",
+      "sign": 1,
+      "value": 2.0
+    },
+    {
       "rank": 3,
       "name": "fam_inc",
       "sign": -1,
-      "value": 2
+      "value": 2.0
     }
   ],
   "features": [
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": 2
+      "value": 2.0
     },
     {
       "name": "lsat",
@@ -39,7 +39,7 @@
     {
       "name": "fam_inc",
       "mentioned": 1,
-      "value": 2
+      "value": 2.0
     },
     {
       "name": "ugpa",

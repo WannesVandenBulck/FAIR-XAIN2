@@ -12,7 +12,7 @@
       "rank": 2,
       "name": "fam_inc",
       "sign": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "rank": 3,
@@ -30,17 +30,17 @@
     {
       "name": "lsat",
       "mentioned": 1,
-      "value": 33
+      "value": "NaN"
     },
     {
       "name": "decile1",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "fam_inc",
       "mentioned": 1,
-      "value": 4
+      "value": "NaN"
     },
     {
       "name": "ugpa",

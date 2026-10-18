@@ -5,7 +5,7 @@
       "rank": 1,
       "name": "credit_history",
       "sign": -1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "rank": 2,
@@ -34,7 +34,7 @@
     {
       "name": "credit_history",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "purpose",
@@ -48,7 +48,7 @@
     },
     {
       "name": "savings",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

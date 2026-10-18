@@ -9,14 +9,14 @@
     },
     {
       "rank": 2,
-      "name": "Years_Experience",
-      "sign": 1,
+      "name": "Years_experience_lastorganization",
+      "sign": -1,
       "value": 1
     },
     {
       "rank": 3,
-      "name": "Years_experience_lastorganization",
-      "sign": -1,
+      "name": "Years_Experience",
+      "sign": 1,
       "value": 1
     }
   ],
@@ -98,12 +98,12 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -128,12 +128,12 @@
     },
     {
       "name": "Physical_Stress",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Psychological_Exhaustion",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

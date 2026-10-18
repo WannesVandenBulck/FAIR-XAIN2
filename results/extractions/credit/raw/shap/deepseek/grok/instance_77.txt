@@ -109,17 +109,17 @@
     },
     {
       "name": "age",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "sex",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
       "name": "foreign_worker",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     }
   ]

@@ -9,15 +9,15 @@
     },
     {
       "rank": 2,
-      "name": "freetime",
+      "name": "nursery",
       "sign": -1,
       "value": 1
     },
     {
       "rank": 3,
-      "name": "nursery",
+      "name": "freetime",
       "sign": -1,
-      "value": 0
+      "value": 2
     }
   ],
   "features": [
@@ -28,8 +28,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsize",
@@ -88,8 +88,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "paid",
@@ -104,7 +104,7 @@
     {
       "name": "nursery",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "internet",
@@ -124,7 +124,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "goout",
@@ -138,13 +138,13 @@
     },
     {
       "name": "Walc",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "absences",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 6
     },
     {
       "name": "sex",

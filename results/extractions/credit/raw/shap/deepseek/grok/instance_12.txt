@@ -44,12 +44,12 @@
     },
     {
       "name": "amount",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "savings",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -64,8 +64,8 @@
     },
     {
       "name": "other_debtors",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3
     },
     {
       "name": "present_residence",

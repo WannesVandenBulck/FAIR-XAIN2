@@ -23,8 +23,8 @@
   "features": [
     {
       "name": "decile3",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 6
     },
     {
       "name": "lsat",
@@ -43,8 +43,8 @@
     },
     {
       "name": "ugpa",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 3.7
     },
     {
       "name": "fulltime",
@@ -53,12 +53,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

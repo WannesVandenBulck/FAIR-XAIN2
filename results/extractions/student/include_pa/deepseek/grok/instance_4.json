@@ -11,13 +11,13 @@
       "rank": 2,
       "name": "nursery",
       "sign": -1,
-      "value": 1
+      "value": 0
     },
     {
       "rank": 3,
       "name": "freetime",
       "sign": -1,
-      "value": 2
+      "value": "NaN"
     }
   ],
   "features": [
@@ -28,8 +28,8 @@
     },
     {
       "name": "higher",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "famsize",
@@ -68,8 +68,8 @@
     },
     {
       "name": "guardian",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "traveltime",
@@ -78,17 +78,17 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "schoolsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -104,12 +104,12 @@
     {
       "name": "nursery",
       "mentioned": 1,
-      "value": 1
+      "value": 0
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "romantic",
@@ -124,7 +124,7 @@
     {
       "name": "freetime",
       "mentioned": 1,
-      "value": 2
+      "value": "NaN"
     },
     {
       "name": "goout",
@@ -143,8 +143,8 @@
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "sex",

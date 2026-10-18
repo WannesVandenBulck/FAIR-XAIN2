@@ -48,7 +48,7 @@
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -78,12 +78,12 @@
     },
     {
       "name": "Get_Deserved_Promotion",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Training_programs_During_last_three_years",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -103,8 +103,8 @@
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Emotional_Commitment",
@@ -148,8 +148,8 @@
     },
     {
       "name": "Job_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Gender",

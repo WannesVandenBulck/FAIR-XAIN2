@@ -128,18 +128,18 @@
     },
     {
       "name": "goout",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Dalc",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "Walc",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "absences",

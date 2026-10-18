@@ -5,7 +5,7 @@
       "rank": 1,
       "name": "decile1",
       "sign": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "rank": 2,
@@ -34,7 +34,7 @@
     {
       "name": "decile1",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1
     },
     {
       "name": "fam_inc",

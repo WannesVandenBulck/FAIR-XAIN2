@@ -69,7 +69,7 @@
     },
     {
       "name": "guardian",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {
@@ -85,7 +85,7 @@
     {
       "name": "schoolsup",
       "mentioned": 1,
-      "value": 0
+      "value": 1
     },
     {
       "name": "famsup",

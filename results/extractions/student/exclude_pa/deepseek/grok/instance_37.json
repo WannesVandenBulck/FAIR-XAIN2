@@ -1,5 +1,5 @@
 {
-  "predicted_probability": 0.34,
+  "predicted_probability": 0.33,
   "most_important_features": [
     {
       "rank": 1,
@@ -78,8 +78,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -108,8 +108,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "romantic",
@@ -128,8 +128,8 @@
     },
     {
       "name": "goout",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "Dalc",
@@ -138,13 +138,13 @@
     },
     {
       "name": "Walc",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 5
     },
     {
       "name": "absences",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 8
     },
     {
       "name": "sex",

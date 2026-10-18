@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "savings",
       "sign": -1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "rank": 2,
@@ -50,7 +50,7 @@
     {
       "name": "savings",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "employment_duration",

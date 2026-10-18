@@ -73,7 +73,7 @@
     },
     {
       "name": "traveltime",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -88,12 +88,12 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "paid",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {

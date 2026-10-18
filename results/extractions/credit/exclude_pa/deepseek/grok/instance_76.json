@@ -9,15 +9,15 @@
     },
     {
       "rank": 2,
-      "name": "credit_history",
-      "sign": -1,
-      "value": 5
-    },
-    {
-      "rank": 3,
       "name": "status",
       "sign": 1,
       "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "credit_history",
+      "sign": -1,
+      "value": 5
     }
   ],
   "features": [
@@ -53,7 +53,7 @@
     },
     {
       "name": "employment_duration",
-      "mentioned": 1,
+      "mentioned": 0,
       "value": "NaN"
     },
     {

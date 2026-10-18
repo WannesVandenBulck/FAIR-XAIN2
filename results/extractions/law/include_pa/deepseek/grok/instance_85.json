@@ -5,7 +5,7 @@
       "rank": 1,
       "name": "decile3",
       "sign": 1,
-      "value": "NaN"
+      "value": 1.0
     },
     {
       "rank": 2,
@@ -17,14 +17,14 @@
       "rank": 3,
       "name": "decile1",
       "sign": 1,
-      "value": "NaN"
+      "value": 1.0
     }
   ],
   "features": [
     {
       "name": "decile3",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1.0
     },
     {
       "name": "lsat",
@@ -34,7 +34,7 @@
     {
       "name": "decile1",
       "mentioned": 1,
-      "value": "NaN"
+      "value": 1.0
     },
     {
       "name": "fam_inc",
@@ -53,12 +53,12 @@
     },
     {
       "name": "gender",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
       "name": "race",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     }
   ]

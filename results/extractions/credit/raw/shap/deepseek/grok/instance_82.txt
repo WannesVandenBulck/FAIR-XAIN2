@@ -6,7 +6,7 @@
       "rank": 1,
       "name": "credit_history",
       "sign": -1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "rank": 2,
@@ -29,13 +29,13 @@
     },
     {
       "name": "duration",
-      "mentioned": 1,
-      "value": 30
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "credit_history",
       "mentioned": 1,
-      "value": 5
+      "value": "NaN"
     },
     {
       "name": "purpose",
@@ -64,8 +64,8 @@
     },
     {
       "name": "other_debtors",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "present_residence",

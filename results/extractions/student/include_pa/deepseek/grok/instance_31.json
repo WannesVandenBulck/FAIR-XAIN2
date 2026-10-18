@@ -17,7 +17,7 @@
       "rank": 3,
       "name": "goout",
       "sign": -1,
-      "value": 1
+      "value": 2
     }
   ],
   "features": [
@@ -68,7 +68,7 @@
     },
     {
       "name": "guardian",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -78,8 +78,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "schoolsup",
@@ -88,8 +88,8 @@
     },
     {
       "name": "famsup",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "paid",
@@ -108,8 +108,8 @@
     },
     {
       "name": "internet",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "romantic",
@@ -129,7 +129,7 @@
     {
       "name": "goout",
       "mentioned": 1,
-      "value": 1
+      "value": 2
     },
     {
       "name": "Dalc",

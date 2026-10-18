@@ -24,7 +24,7 @@
   "features": [
     {
       "name": "status",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -59,8 +59,8 @@
     },
     {
       "name": "installment_rate",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 4
     },
     {
       "name": "other_debtors",

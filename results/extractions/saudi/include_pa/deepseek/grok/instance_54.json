@@ -48,7 +48,7 @@
     },
     {
       "name": "MonthlySalary",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -58,13 +58,13 @@
     },
     {
       "name": "Bonus",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "OverTime",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 1
     },
     {
       "name": "Payment_Overtime",
@@ -73,8 +73,8 @@
     },
     {
       "name": "Rewards_Wages_Satisfaction",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Get_Deserved_Promotion",
@@ -98,18 +98,18 @@
     },
     {
       "name": "Job_Support",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Recognition",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Emotional_Commitment",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Job_Engagement",
@@ -133,13 +133,13 @@
     },
     {
       "name": "Psychological_Exhaustion",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 2
     },
     {
       "name": "Job_Stability",
-      "mentioned": 0,
-      "value": "NaN"
+      "mentioned": 1,
+      "value": 0
     },
     {
       "name": "Environment_Satisfaction",

@@ -39,8 +39,8 @@
     },
     {
       "name": "Pstatus",
-      "mentioned": 1,
-      "value": 1
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "Medu",
@@ -69,7 +69,7 @@
     },
     {
       "name": "guardian",
-      "mentioned": 0,
+      "mentioned": 1,
       "value": "NaN"
     },
     {
@@ -79,8 +79,8 @@
     },
     {
       "name": "studytime",
-      "mentioned": 1,
-      "value": 2
+      "mentioned": 0,
+      "value": "NaN"
     },
     {
       "name": "schoolsup",
@@ -145,7 +145,7 @@
     {
       "name": "absences",
       "mentioned": 1,
-      "value": 0
+      "value": "NaN"
     },
     {
       "name": "sex",
@@ -159,8 +159,8 @@
     },
     {
       "name": "health",
-      "mentioned": 1,
-      "value": 3
+      "mentioned": 0,
+      "value": "NaN"
     }
   ]
 }
