@@ -65,10 +65,34 @@ Continuous aggregates (mean of the available binary components per row):
   rank_position_accuracy, sign_accuracy, value_accuracy,
   prop_pa_mentioned, prop_other_mentioned
 
-Tested separately per CONDITION (pa_included / pa_excluded), since the two
-conditions are different tasks for the model (PA shown vs hidden) and
-mixing them would blur a provider's behaviour under one condition with its
-behaviour under the other.
+Tested separately per CONDITION (pa_included / pa_excluded /
+pa_counterfactual), since the conditions are different tasks for the model
+(PA shown, hidden, or swapped) and mixing them would blur a provider's
+behaviour under one condition with its behaviour under another.
+
+COUNTERFACTUAL CONDITION (pa_counterfactual)
+---------------------------------------------
+Under the counterfactual condition every instance appears once PER
+counterfactual job (one per swapped protected attribute, e.g. a credit
+applicant three times: sex, age and foreign_worker swapped). Pooling these
+narratives directly would count the same instance several times and
+violate the independence of the pairs. Therefore:
+  * overall and pooled scopes: per instance and provider, the CONTINUOUS
+    metrics are averaged over that instance's counterfactual narratives,
+    so every instance again contributes exactly one value per provider and
+    is paired on instance_id as in the other conditions. Binary indicators
+    are not tested at these scopes (their average is no longer binary).
+  * cf_job scope (replaces the group scope for this condition): every
+    counterfactual job (e.g. credit "sex_female_to_male") is tested
+    separately on ALL metrics (binary and continuous). Within a job each
+    instance appears exactly once per provider, and all narratives in the
+    job display the same swapped value, so the job itself is the
+    displayed-group comparison (e.g. "is Grok more sign-accurate than
+    OpenAI for originally-female applicants shown as male?").
+    attribute = cf_label, group = "<attr> shown as <value>".
+FDR batches are formed exactly as for the other conditions; since condition
+is part of every batch key, adding this condition does not change any
+pa_included / pa_excluded result.
 
 STATISTICAL TESTS
 ------------------
@@ -151,6 +175,8 @@ DATASETS = ["credit", "saudi", "student", "law"]
 PROVIDERS = ["grok", "openai", "deepseek"]
 PROVIDER_PAIRS = list(combinations(PROVIDERS, 2))
 CONDITIONS = ["pa_included", "pa_excluded"]
+CF_CONDITION_RAW = "counterfactual_pa"   # condition value in the metrics CSV
+CF_CONDITION = "pa_counterfactual"       # label used in the output files
 MIN_GROUP_N = 5
 ALPHA = 0.05
 
@@ -466,6 +492,7 @@ def main():
     all_test_rows = []
     all_aggregated_rows = []
     dataset_dfs = {}  # dataset -> derived-columns df, reused for the pooled scope below
+    cf_averaged = {}  # dataset -> per-instance averaged counterfactual metrics
 
     for dataset in DATASETS:
         print(f"\n{'=' * 80}\n{dataset.upper()}\n{'=' * 80}")
@@ -513,6 +540,39 @@ def main():
                     all_test_rows.extend(test_rows)
                     all_aggregated_rows.extend(agg_rows)
 
+        # ---- counterfactual condition ----
+        cf = df[df["condition"] == CF_CONDITION_RAW].copy()
+        if not cf.empty:
+            print(f"  [{CF_CONDITION}] {len(cf)} narratives, "
+                  f"{cf['cf_label'].nunique()} counterfactual jobs")
+            cont_metrics = {m: t for m, t in metrics.items() if t == "continuous"}
+
+            # overall scope: average each instance's counterfactual narratives
+            # per provider, so every instance contributes one value per provider
+            cf_avg = (cf.groupby(["provider", "instance_id"])[list(cont_metrics)]
+                        .mean().reset_index())
+            cf_avg["condition"] = CF_CONDITION
+            test_rows, agg_rows = run_paired_tests(
+                cf_avg, cont_metrics, dataset, CF_CONDITION, "overall",
+                attribute=np.nan, group=np.nan, group_raw_value=np.nan,
+            )
+            all_test_rows.extend(test_rows)
+            all_aggregated_rows.extend(agg_rows)
+            cf_avg["dataset"] = dataset
+            cf_averaged[dataset] = cf_avg
+
+            # cf_job scope: each counterfactual job separately, all metrics
+            for job, jsub in cf.groupby("cf_label"):
+                attr_name = jsub["cf_attr"].iloc[0]
+                shown = jsub["cf_override_value"].iloc[0]
+                test_rows, agg_rows = run_paired_tests(
+                    jsub, metrics, dataset, CF_CONDITION, "cf_job",
+                    attribute=job, group=f"{attr_name} shown as {shown}",
+                    group_raw_value=shown,
+                )
+                all_test_rows.extend(test_rows)
+                all_aggregated_rows.extend(agg_rows)
+
     # ---- pooled scope: providers compared across ALL datasets combined ----
     print(f"\n{'=' * 80}\nPOOLED (ALL DATASETS)\n{'=' * 80}")
     keep_cols = ["dataset", "provider", "condition", "instance_id"] + list(POOLED_METRICS)
@@ -525,6 +585,20 @@ def main():
         print(f"  [{condition}] {len(csub)} narratives across {len(DATASETS)} datasets")
         test_rows, agg_rows = run_paired_tests(
             csub, POOLED_METRICS, "ALL", condition, "pooled",
+            attribute=np.nan, group=np.nan, group_raw_value=np.nan, id_col="pair_key",
+        )
+        all_test_rows.extend(test_rows)
+        all_aggregated_rows.extend(agg_rows)
+
+    # pooled scope for the counterfactual condition (continuous metrics only)
+    if cf_averaged:
+        pooled_cont = {m: t for m, t in POOLED_METRICS.items() if t == "continuous"}
+        cf_pooled = pd.concat(cf_averaged.values(), ignore_index=True)
+        cf_pooled["pair_key"] = cf_pooled["dataset"] + "_" + cf_pooled["instance_id"].astype(str)
+        print(f"  [{CF_CONDITION}] {len(cf_pooled)} instance-level averages across "
+              f"{len(cf_averaged)} datasets")
+        test_rows, agg_rows = run_paired_tests(
+            cf_pooled, pooled_cont, "ALL", CF_CONDITION, "pooled",
             attribute=np.nan, group=np.nan, group_raw_value=np.nan, id_col="pair_key",
         )
         all_test_rows.extend(test_rows)
